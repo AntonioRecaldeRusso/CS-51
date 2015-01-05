@@ -1,0 +1,5 @@
+"Rule: ocaml: ml -> cmo & cmi (%=ps1 )": "\246\156S&<\184\207\005\135\016\245(\238\014\026c"
+"Rule: ocaml dependencies ml (%=ps1 )": "\000\145\1832\229\204\1684\012\005KOW\242:9"
+"Rule: ocaml: ml & cmi -> cmx & o (%=ps1 )": "\146\169m\237\210O[-\152\234\209\227\152\141\136>"
+"Rule: ocaml: cmx* & o* -> native (%=ps1 )": "\131L\195XK8\228\172\017\130L\174\006\154JK"
+"Resource: /home/jharvard/arecalde-cs51-psets/1/ps1.ml": "6b'?\184\2403\235sBJ\242\1655\195\018"

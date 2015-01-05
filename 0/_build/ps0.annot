@@ -1,0 +1,355 @@
+"ps0.ml" 13 407 411 "ps0.ml" 13 407 415
+type(
+  string * string
+)
+ident(
+  def name "ps0.ml" 17 558 558 "ps0.ml" 1 0 -1
+)
+"ps0.ml" 13 407 439 "ps0.ml" 13 407 448
+type(
+  string
+)
+"ps0.ml" 13 407 450 "ps0.ml" 13 407 459
+type(
+  string
+)
+"ps0.ml" 13 407 439 "ps0.ml" 13 407 459
+type(
+  string * string
+)
+type(
+  string * string
+)
+"ps0.ml" 19 630 634 "ps0.ml" 19 630 644
+type(
+  year
+)
+ident(
+  def class_year "ps0.ml" 22 764 764 "ps0.ml" 1 0 -1
+)
+"ps0.ml" 19 630 660 "ps0.ml" 19 630 686
+type(
+  string
+)
+"ps0.ml" 19 630 654 "ps0.ml" 19 630 686
+type(
+  year
+)
+type(
+  year
+)
+"ps0.ml" 22 764 768 "ps0.ml" 22 764 776
+type(
+  string
+)
+ident(
+  def exciting "ps0.ml" 29 1054 1054 "ps0.ml" 1 0 -1
+)
+"ps0.ml" 22 764 788 "ps0.ml" 22 764 890
+type(
+  string
+)
+type(
+  string
+)
+"ps0.ml" 29 1054 1058 "ps0.ml" 29 1054 1063
+type(
+  ('a, out_channel, unit) format -> 'a
+)
+ident(
+  def print "ps0.ml" 31 1083 1083 "ps0.ml" 1 0 -1
+)
+"ps0.ml" 29 1054 1066 "ps0.ml" 29 1054 1079
+type(
+  ('a, out_channel, unit) format -> 'a
+)
+ident(
+  ext_ref Core.Std.Printf.printf
+)
+"ps0.ml" 31 1083 1087 "ps0.ml" 31 1083 1099
+type(
+  unit -> unit
+)
+ident(
+  def print_survey "ps0.ml" 48 1565 1565 "ps0.ml" 1 0 -1
+)
+"ps0.ml" 31 1083 1100 "ps0.ml" 31 1083 1102
+type(
+  unit
+)
+"ps0.ml" 32 1105 1112 "ps0.ml" 32 1105 1117
+type(
+  string
+)
+ident(
+  def first "ps0.ml" 33 1135 1137 "ps0.ml" 45 1501 1560
+)
+"ps0.ml" 32 1105 1119 "ps0.ml" 32 1105 1123
+type(
+  string
+)
+ident(
+  def last "ps0.ml" 33 1135 1137 "ps0.ml" 45 1501 1560
+)
+"ps0.ml" 32 1105 1112 "ps0.ml" 32 1105 1123
+type(
+  string * string
+)
+"ps0.ml" 32 1105 1127 "ps0.ml" 32 1105 1131
+type(
+  string * string
+)
+ident(
+  int_ref name "ps0.ml" 13 407 411 "ps0.ml" 13 407 415
+)
+"ps0.ml" 33 1135 1141 "ps0.ml" 33 1135 1152
+type(
+  string
+)
+ident(
+  def string_year "ps0.ml" 41 1334 1339 "ps0.ml" 45 1501 1558
+)
+"ps0.ml" 34 1155 1166 "ps0.ml" 34 1155 1176
+type(
+  year
+)
+ident(
+  int_ref class_year "ps0.ml" 19 630 634 "ps0.ml" 19 630 644
+)
+"ps0.ml" 35 1182 1191 "ps0.ml" 35 1182 1199
+type(
+  year
+)
+"ps0.ml" 35 1182 1203 "ps0.ml" 35 1182 1209
+type(
+  string
+)
+"ps0.ml" 36 1210 1219 "ps0.ml" 36 1210 1228
+type(
+  year
+)
+"ps0.ml" 36 1210 1232 "ps0.ml" 36 1210 1238
+type(
+  string
+)
+"ps0.ml" 37 1239 1248 "ps0.ml" 37 1239 1254
+type(
+  year
+)
+"ps0.ml" 37 1239 1258 "ps0.ml" 37 1239 1264
+type(
+  string
+)
+"ps0.ml" 38 1265 1274 "ps0.ml" 38 1265 1280
+type(
+  year
+)
+"ps0.ml" 38 1265 1284 "ps0.ml" 38 1265 1290
+type(
+  string
+)
+"ps0.ml" 39 1291 1306 "ps0.ml" 39 1291 1307
+type(
+  string
+)
+ident(
+  def s "ps0.ml" 39 1291 1311 "ps0.ml" 39 1291 1324
+)
+"ps0.ml" 39 1291 1300 "ps0.ml" 39 1291 1307
+type(
+  year
+)
+"ps0.ml" 39 1291 1311 "ps0.ml" 39 1291 1320
+type(
+  string
+)
+"ps0.ml" 39 1291 1321 "ps0.ml" 39 1291 1322
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ps0.ml" 39 1291 1323 "ps0.ml" 39 1291 1324
+type(
+  string
+)
+ident(
+  int_ref s "ps0.ml" 39 1291 1306 "ps0.ml" 39 1291 1307
+)
+"ps0.ml" 39 1291 1311 "ps0.ml" 39 1291 1324
+call(
+  stack
+)
+type(
+  string
+)
+"ps0.ml" 34 1155 1160 "ps0.ml" 39 1291 1324
+type(
+  string
+)
+"ps0.ml" 41 1334 1339 "ps0.ml" 41 1334 1344
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref print "ps0.ml" 29 1054 1058 "ps0.ml" 29 1054 1063
+)
+"ps0.ml" 41 1334 1345 "ps0.ml" 41 1334 1389
+type(
+  (unit, out_channel, unit) format
+)
+"ps0.ml" 41 1334 1339 "ps0.ml" 41 1334 1389
+call(
+  stack
+)
+type(
+  unit
+)
+"ps0.ml" 42 1391 1396 "ps0.ml" 42 1391 1401
+type(
+  (string -> string -> unit, out_channel, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref print "ps0.ml" 29 1054 1058 "ps0.ml" 29 1054 1063
+)
+"ps0.ml" 42 1391 1402 "ps0.ml" 42 1391 1419
+type(
+  (string -> string -> unit, out_channel, unit) format
+)
+"ps0.ml" 42 1391 1420 "ps0.ml" 42 1391 1425
+type(
+  string
+)
+ident(
+  int_ref first "ps0.ml" 32 1105 1112 "ps0.ml" 32 1105 1117
+)
+"ps0.ml" 42 1391 1426 "ps0.ml" 42 1391 1430
+type(
+  string
+)
+ident(
+  int_ref last "ps0.ml" 32 1105 1119 "ps0.ml" 32 1105 1123
+)
+"ps0.ml" 42 1391 1396 "ps0.ml" 42 1391 1430
+call(
+  stack
+)
+type(
+  unit
+)
+"ps0.ml" 43 1432 1437 "ps0.ml" 43 1432 1442
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref print "ps0.ml" 29 1054 1058 "ps0.ml" 29 1054 1063
+)
+"ps0.ml" 43 1432 1443 "ps0.ml" 43 1432 1457
+type(
+  (string -> unit, out_channel, unit) format
+)
+"ps0.ml" 43 1432 1458 "ps0.ml" 43 1432 1469
+type(
+  string
+)
+ident(
+  int_ref string_year "ps0.ml" 33 1135 1141 "ps0.ml" 33 1135 1152
+)
+"ps0.ml" 43 1432 1437 "ps0.ml" 43 1432 1469
+call(
+  stack
+)
+type(
+  unit
+)
+"ps0.ml" 44 1471 1476 "ps0.ml" 44 1471 1481
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref print "ps0.ml" 29 1054 1058 "ps0.ml" 29 1054 1063
+)
+"ps0.ml" 44 1471 1482 "ps0.ml" 44 1471 1490
+type(
+  (string -> unit, out_channel, unit) format
+)
+"ps0.ml" 44 1471 1491 "ps0.ml" 44 1471 1499
+type(
+  string
+)
+ident(
+  int_ref exciting "ps0.ml" 22 764 768 "ps0.ml" 22 764 776
+)
+"ps0.ml" 44 1471 1476 "ps0.ml" 44 1471 1499
+call(
+  stack
+)
+type(
+  unit
+)
+"ps0.ml" 45 1501 1506 "ps0.ml" 45 1501 1511
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref print "ps0.ml" 29 1054 1058 "ps0.ml" 29 1054 1063
+)
+"ps0.ml" 45 1501 1512 "ps0.ml" 45 1501 1558
+type(
+  (unit, out_channel, unit) format
+)
+"ps0.ml" 45 1501 1506 "ps0.ml" 45 1501 1558
+call(
+  tail
+)
+type(
+  unit
+)
+"ps0.ml" 44 1471 1476 "ps0.ml" 45 1501 1558
+type(
+  unit
+)
+"ps0.ml" 43 1432 1437 "ps0.ml" 45 1501 1558
+type(
+  unit
+)
+"ps0.ml" 42 1391 1396 "ps0.ml" 45 1501 1558
+type(
+  unit
+)
+"ps0.ml" 41 1334 1339 "ps0.ml" 45 1501 1558
+type(
+  unit
+)
+"ps0.ml" 33 1135 1137 "ps0.ml" 45 1501 1560
+type(
+  unit
+)
+"ps0.ml" 32 1105 1107 "ps0.ml" 45 1501 1560
+type(
+  unit
+)
+"ps0.ml" 31 1083 1100 "ps0.ml" 45 1501 1560
+type(
+  unit -> unit
+)
+"ps0.ml" 48 1565 1565 "ps0.ml" 48 1565 1577
+type(
+  unit -> unit
+)
+ident(
+  int_ref print_survey "ps0.ml" 31 1083 1087 "ps0.ml" 31 1083 1099
+)
+"ps0.ml" 48 1565 1578 "ps0.ml" 48 1565 1580
+type(
+  unit
+)
+"ps0.ml" 48 1565 1565 "ps0.ml" 48 1565 1580
+call(
+  stack
+)
+type(
+  unit
+)

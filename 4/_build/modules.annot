@@ -1,0 +1,1812 @@
+"modules.ml" 20 566 574 "modules.ml" 20 566 576
+type(
+  float
+)
+ident(
+  def pi "modules.ml" 21 597 601 "modules.ml" 29 941 946
+)
+"modules.ml" 20 566 579 "modules.ml" 20 566 582
+type(
+  float
+)
+"modules.ml" 20 566 583 "modules.ml" 20 566 585
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"modules.ml" 20 566 586 "modules.ml" 20 566 590
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.atan
+)
+"modules.ml" 20 566 591 "modules.ml" 20 566 594
+type(
+  float
+)
+"modules.ml" 20 566 586 "modules.ml" 20 566 594
+type(
+  float
+)
+"modules.ml" 20 566 579 "modules.ml" 20 566 594
+type(
+  float
+)
+"modules.ml" 21 597 605 "modules.ml" 21 597 608
+type(
+  float -> float
+)
+ident(
+  def cos "modules.ml" 22 639 643 "modules.ml" 29 941 946
+)
+"modules.ml" 21 597 610 "modules.ml" 21 597 611
+type(
+  float
+)
+ident(
+  def n "modules.ml" 21 597 621 "modules.ml" 21 597 636
+)
+"modules.ml" 21 597 631 "modules.ml" 21 597 634
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.cos
+)
+"modules.ml" 21 597 635 "modules.ml" 21 597 636
+type(
+  float
+)
+ident(
+  int_ref n "modules.ml" 21 597 610 "modules.ml" 21 597 611
+)
+"modules.ml" 21 597 631 "modules.ml" 21 597 636
+type(
+  float
+)
+type(
+  float
+)
+"modules.ml" 21 597 609 "modules.ml" 21 597 636
+type(
+  float -> float
+)
+"modules.ml" 22 639 647 "modules.ml" 22 639 650
+type(
+  float -> float
+)
+ident(
+  def sin "modules.ml" 23 682 686 "modules.ml" 29 941 946
+)
+"modules.ml" 22 639 652 "modules.ml" 22 639 653
+type(
+  float
+)
+ident(
+  def n "modules.ml" 22 639 663 "modules.ml" 22 639 679
+)
+"modules.ml" 22 639 674 "modules.ml" 22 639 677
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.sin
+)
+"modules.ml" 22 639 678 "modules.ml" 22 639 679
+type(
+  float
+)
+ident(
+  int_ref n "modules.ml" 22 639 652 "modules.ml" 22 639 653
+)
+"modules.ml" 22 639 674 "modules.ml" 22 639 679
+type(
+  float
+)
+type(
+  float
+)
+"modules.ml" 22 639 651 "modules.ml" 22 639 679
+type(
+  float -> float
+)
+"modules.ml" 23 682 690 "modules.ml" 23 682 693
+type(
+  float -> float -> float
+)
+ident(
+  def sum "modules.ml" 24 737 741 "modules.ml" 29 941 946
+)
+"modules.ml" 23 682 695 "modules.ml" 23 682 696
+type(
+  float
+)
+ident(
+  def x "modules.ml" 23 682 706 "modules.ml" 23 682 734
+)
+"modules.ml" 23 682 707 "modules.ml" 23 682 708
+type(
+  float
+)
+ident(
+  def y "modules.ml" 23 682 718 "modules.ml" 23 682 734
+)
+"modules.ml" 23 682 728 "modules.ml" 23 682 729
+type(
+  float
+)
+ident(
+  int_ref x "modules.ml" 23 682 695 "modules.ml" 23 682 696
+)
+"modules.ml" 23 682 730 "modules.ml" 23 682 732
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"modules.ml" 23 682 733 "modules.ml" 23 682 734
+type(
+  float
+)
+ident(
+  int_ref y "modules.ml" 23 682 707 "modules.ml" 23 682 708
+)
+"modules.ml" 23 682 728 "modules.ml" 23 682 734
+type(
+  float
+)
+type(
+  float
+)
+"modules.ml" 23 682 706 "modules.ml" 23 682 734
+type(
+  float -> float
+)
+"modules.ml" 23 682 694 "modules.ml" 23 682 734
+type(
+  float -> float -> float
+)
+"modules.ml" 24 737 745 "modules.ml" 24 737 748
+type(
+  float list -> float option
+)
+ident(
+  def max "modules.ml" 28 866 939 "modules.ml" 29 941 946
+)
+"modules.ml" 24 737 750 "modules.ml" 24 737 753
+type(
+  float list
+)
+ident(
+  def lst "modules.ml" 24 737 768 "modules.ml" 28 866 939
+)
+"modules.ml" 25 785 797 "modules.ml" 25 785 800
+type(
+  float list
+)
+ident(
+  int_ref lst "modules.ml" 24 737 750 "modules.ml" 24 737 753
+)
+"modules.ml" 26 806 814 "modules.ml" 26 806 816
+type(
+  float list
+)
+"modules.ml" 26 806 820 "modules.ml" 26 806 824
+type(
+  float option
+)
+"modules.ml" 27 825 833 "modules.ml" 27 825 835
+type(
+  float
+)
+ident(
+  def hd "modules.ml" 27 825 844 "modules.ml" 28 866 939
+)
+"modules.ml" 27 825 839 "modules.ml" 27 825 840
+type(
+  float list
+)
+"modules.ml" 27 825 833 "modules.ml" 27 825 840
+type(
+  float list
+)
+"modules.ml" 27 825 850 "modules.ml" 27 825 864
+type(
+  float list -> init:float -> f:(float -> float -> float) -> float
+)
+ident(
+  ext_ref Core.Std.List.fold_left
+)
+"modules.ml" 28 866 899 "modules.ml" 28 866 900
+type(
+  float
+)
+ident(
+  def x "modules.ml" 28 866 901 "modules.ml" 28 866 924
+)
+"modules.ml" 28 866 901 "modules.ml" 28 866 902
+type(
+  float
+)
+ident(
+  def y "modules.ml" 28 866 906 "modules.ml" 28 866 924
+)
+"modules.ml" 28 866 906 "modules.ml" 28 866 920
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.max
+)
+"modules.ml" 28 866 921 "modules.ml" 28 866 922
+type(
+  float
+)
+ident(
+  int_ref x "modules.ml" 28 866 899 "modules.ml" 28 866 900
+)
+"modules.ml" 28 866 923 "modules.ml" 28 866 924
+type(
+  float
+)
+ident(
+  int_ref y "modules.ml" 28 866 901 "modules.ml" 28 866 902
+)
+"modules.ml" 28 866 906 "modules.ml" 28 866 924
+call(
+  tail
+)
+type(
+  float
+)
+"modules.ml" 28 866 901 "modules.ml" 28 866 924
+type(
+  float -> float
+)
+"modules.ml" 28 866 899 "modules.ml" 28 866 924
+type(
+  float -> float -> float
+)
+"modules.ml" 28 866 932 "modules.ml" 28 866 934
+type(
+  float
+)
+ident(
+  int_ref hd "modules.ml" 27 825 833 "modules.ml" 27 825 835
+)
+"modules.ml" 28 866 935 "modules.ml" 28 866 938
+type(
+  float list
+)
+ident(
+  int_ref lst "modules.ml" 24 737 750 "modules.ml" 24 737 753
+)
+"modules.ml" 27 825 850 "modules.ml" 28 866 938
+call(
+  stack
+)
+type(
+  float
+)
+"modules.ml" 27 825 844 "modules.ml" 28 866 939
+type(
+  float option
+)
+"modules.ml" 25 785 791 "modules.ml" 28 866 939
+type(
+  float option
+)
+type(
+  float option
+)
+"modules.ml" 24 737 749 "modules.ml" 28 866 939
+type(
+  float list -> float option
+)
+"modules.ml" 55 1411 1422 "modules.ml" 55 1411 1435
+type(
+  int list -> int
+)
+ident(
+  int_ref MyList.length "modules.ml" 47 1229 1233 "modules.ml" 47 1229 1260
+)
+"modules.ml" 55 1411 1437 "modules.ml" 55 1411 1438
+type(
+  int
+)
+"modules.ml" 55 1411 1439 "modules.ml" 55 1411 1440
+type(
+  int
+)
+"modules.ml" 55 1411 1441 "modules.ml" 55 1411 1442
+type(
+  int
+)
+type(
+  int list
+)
+"modules.ml" 55 1411 1439 "modules.ml" 55 1411 1442
+type(
+  int list
+)
+"modules.ml" 55 1411 1437 "modules.ml" 55 1411 1442
+type(
+  int list
+)
+"modules.ml" 55 1411 1436 "modules.ml" 55 1411 1443
+type(
+  int list
+)
+"modules.ml" 55 1411 1422 "modules.ml" 55 1411 1443
+call(
+  stack
+)
+type(
+  int
+)
+"modules.ml" 55 1411 1444 "modules.ml" 55 1411 1445
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"modules.ml" 55 1411 1446 "modules.ml" 55 1411 1447
+type(
+  int
+)
+"modules.ml" 55 1411 1422 "modules.ml" 55 1411 1447
+type(
+  bool
+)
+"modules.ml" 55 1411 1415 "modules.ml" 55 1411 1448
+type(
+  unit
+)
+"modules.ml" 56 1450 1461 "modules.ml" 56 1450 1478
+type(
+  int list -> f:(int -> int -> int) -> init:int -> int
+)
+ident(
+  int_ref MyList.fold_right "modules.ml" 48 1261 1265 "modules.ml" 48 1261 1328
+)
+"modules.ml" 56 1450 1482 "modules.ml" 56 1450 1485
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"modules.ml" 56 1450 1492 "modules.ml" 56 1450 1493
+type(
+  int
+)
+"modules.ml" 56 1450 1495 "modules.ml" 56 1450 1496
+type(
+  int
+)
+"modules.ml" 56 1450 1497 "modules.ml" 56 1450 1498
+type(
+  int
+)
+"modules.ml" 56 1450 1499 "modules.ml" 56 1450 1500
+type(
+  int
+)
+type(
+  int list
+)
+"modules.ml" 56 1450 1497 "modules.ml" 56 1450 1500
+type(
+  int list
+)
+"modules.ml" 56 1450 1495 "modules.ml" 56 1450 1500
+type(
+  int list
+)
+"modules.ml" 56 1450 1494 "modules.ml" 56 1450 1501
+type(
+  int list
+)
+"modules.ml" 56 1450 1461 "modules.ml" 56 1450 1501
+call(
+  stack
+)
+type(
+  int
+)
+"modules.ml" 56 1450 1502 "modules.ml" 56 1450 1503
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"modules.ml" 56 1450 1504 "modules.ml" 56 1450 1505
+type(
+  int
+)
+"modules.ml" 56 1450 1461 "modules.ml" 56 1450 1505
+type(
+  bool
+)
+"modules.ml" 56 1450 1454 "modules.ml" 56 1450 1506
+type(
+  unit
+)
+"modules.ml" 57 1508 1519 "modules.ml" 57 1508 1529
+type(
+  int list -> int list
+)
+ident(
+  int_ref MyList.rev "modules.ml" 49 1329 1333 "modules.ml" 49 1329 1361
+)
+"modules.ml" 57 1508 1531 "modules.ml" 57 1508 1532
+type(
+  int
+)
+"modules.ml" 57 1508 1533 "modules.ml" 57 1508 1534
+type(
+  int
+)
+"modules.ml" 57 1508 1535 "modules.ml" 57 1508 1536
+type(
+  int
+)
+type(
+  int list
+)
+"modules.ml" 57 1508 1533 "modules.ml" 57 1508 1536
+type(
+  int list
+)
+"modules.ml" 57 1508 1531 "modules.ml" 57 1508 1536
+type(
+  int list
+)
+"modules.ml" 57 1508 1530 "modules.ml" 57 1508 1537
+type(
+  int list
+)
+"modules.ml" 57 1508 1519 "modules.ml" 57 1508 1537
+call(
+  stack
+)
+type(
+  int list
+)
+"modules.ml" 57 1508 1538 "modules.ml" 57 1508 1539
+type(
+  int list -> int list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"modules.ml" 57 1508 1541 "modules.ml" 57 1508 1542
+type(
+  int
+)
+"modules.ml" 57 1508 1543 "modules.ml" 57 1508 1544
+type(
+  int
+)
+"modules.ml" 57 1508 1545 "modules.ml" 57 1508 1546
+type(
+  int
+)
+type(
+  int list
+)
+"modules.ml" 57 1508 1543 "modules.ml" 57 1508 1546
+type(
+  int list
+)
+"modules.ml" 57 1508 1541 "modules.ml" 57 1508 1546
+type(
+  int list
+)
+"modules.ml" 57 1508 1540 "modules.ml" 57 1508 1547
+type(
+  int list
+)
+"modules.ml" 57 1508 1519 "modules.ml" 57 1508 1547
+type(
+  bool
+)
+"modules.ml" 57 1508 1512 "modules.ml" 57 1508 1548
+type(
+  unit
+)
+"modules.ml" 56 1450 1454 "modules.ml" 57 1508 1548
+type(
+  unit
+)
+"modules.ml" 55 1411 1415 "modules.ml" 57 1508 1548
+type(
+  unit
+)
+"modules.ml" 80 2000 2008 "modules.ml" 80 2000 2016
+type(
+  string
+)
+ident(
+  def hometown "modules.ml" 81 2042 2046 "modules.ml" 105 2799 2802
+)
+"modules.ml" 80 2000 2019 "modules.ml" 80 2000 2041
+type(
+  string
+)
+"modules.ml" 81 2042 2050 "modules.ml" 81 2042 2054
+type(
+  int
+)
+ident(
+  def year "modules.ml" 82 2062 2066 "modules.ml" 105 2799 2802
+)
+"modules.ml" 81 2042 2057 "modules.ml" 81 2042 2061
+type(
+  int
+)
+"modules.ml" 82 2062 2070 "modules.ml" 82 2062 2083
+type(
+  string
+)
+ident(
+  def concentration "modules.ml" 83 2105 2109 "modules.ml" 105 2799 2802
+)
+"modules.ml" 82 2062 2086 "modules.ml" 82 2062 2104
+type(
+  string
+)
+"modules.ml" 83 2105 2113 "modules.ml" 83 2105 2118
+type(
+  house
+)
+ident(
+  def house "modules.ml" 84 2130 2134 "modules.ml" 105 2799 2802
+)
+"modules.ml" 83 2105 2121 "modules.ml" 83 2105 2129
+type(
+  house
+)
+"modules.ml" 84 2130 2138 "modules.ml" 84 2130 2142
+type(
+  int list -> init:int -> int
+)
+ident(
+  def fold "modules.ml" 86 2168 2172 "modules.ml" 105 2799 2802
+)
+"modules.ml" 84 2130 2145 "modules.ml" 84 2130 2159
+type(
+  int list -> init:int -> f:(int -> int -> int) -> int
+)
+ident(
+  ext_ref Core.Std.List.fold_left
+)
+"modules.ml" 84 2130 2163 "modules.ml" 84 2130 2166
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"modules.ml" 84 2130 2145 "modules.ml" 84 2130 2166
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  int list -> init:int -> int
+)
+"modules.ml" 86 2168 2176 "modules.ml" 86 2168 2180
+type(
+  info
+)
+ident(
+  def info "modules.ml" 93 2261 2265 "modules.ml" 105 2799 2802
+)
+"modules.ml" 87 2185 2193 "modules.ml" 87 2185 2201
+type(
+  string
+)
+ident(
+  int_ref hometown "modules.ml" 80 2000 2008 "modules.ml" 80 2000 2016
+)
+"modules.ml" 88 2203 2211 "modules.ml" 88 2203 2215
+type(
+  int
+)
+ident(
+  int_ref year "modules.ml" 81 2042 2050 "modules.ml" 81 2042 2054
+)
+"modules.ml" 89 2217 2225 "modules.ml" 89 2217 2238
+type(
+  string
+)
+ident(
+  int_ref concentration "modules.ml" 82 2062 2070 "modules.ml" 82 2062 2083
+)
+"modules.ml" 90 2240 2248 "modules.ml" 90 2240 2253
+type(
+  house
+)
+ident(
+  int_ref house "modules.ml" 83 2105 2113 "modules.ml" 83 2105 2118
+)
+"modules.ml" 86 2168 2183 "modules.ml" 91 2254 2259
+type(
+  info
+)
+"modules.ml" 93 2261 2269 "modules.ml" 93 2261 2285
+type(
+  string -> string
+)
+ident(
+  def grade_assignment "modules.ml" 95 2379 2383 "modules.ml" 105 2799 2802
+)
+"modules.ml" 93 2261 2286 "modules.ml" 93 2261 2296
+type(
+  string
+)
+ident(
+  def assignment "modules.ml" 94 2299 2305 "modules.ml" 94 2299 2378
+)
+"modules.ml" 94 2299 2305 "modules.ml" 94 2299 2346
+type(
+  string
+)
+"modules.ml" 94 2299 2347 "modules.ml" 94 2299 2348
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"modules.ml" 94 2299 2349 "modules.ml" 94 2299 2361
+type(
+  ?drop:(char -> bool) -> string -> string
+)
+ident(
+  ext_ref Core.Std.String.strip
+)
+"modules.ml" 94 2299 2362 "modules.ml" 94 2299 2372
+type(
+  string
+)
+ident(
+  int_ref assignment "modules.ml" 93 2261 2286 "modules.ml" 93 2261 2296
+)
+"modules.ml" 94 2299 2349 "modules.ml" 94 2299 2372
+call(
+  stack
+)
+type(
+  string
+)
+"modules.ml" 94 2299 2373 "modules.ml" 94 2299 2374
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"modules.ml" 94 2299 2375 "modules.ml" 94 2299 2378
+type(
+  string
+)
+"modules.ml" 94 2299 2349 "modules.ml" 94 2299 2378
+call(
+  stack
+)
+type(
+  string
+)
+"modules.ml" 94 2299 2305 "modules.ml" 94 2299 2378
+call(
+  tail
+)
+type(
+  string
+)
+"modules.ml" 93 2261 2286 "modules.ml" 94 2299 2378
+type(
+  string -> string
+)
+"modules.ml" 95 2379 2387 "modules.ml" 95 2379 2404
+type(
+  'a -> 'b
+)
+ident(
+  def favorite_function "modules.ml" 96 2453 2457 "modules.ml" 105 2799 2802
+)
+"modules.ml" 95 2379 2405 "modules.ml" 95 2379 2406
+type(
+  'a
+)
+"modules.ml" 95 2379 2409 "modules.ml" 95 2379 2417
+type(
+  string -> 'b
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"modules.ml" 95 2379 2418 "modules.ml" 95 2379 2452
+type(
+  string
+)
+"modules.ml" 95 2379 2409 "modules.ml" 95 2379 2452
+call(
+  tail
+)
+type(
+  'b
+)
+"modules.ml" 95 2379 2405 "modules.ml" 95 2379 2452
+type(
+  'a -> 'b
+)
+"modules.ml" 96 2453 2461 "modules.ml" 96 2453 2484
+type(
+  float -> float -> float
+)
+ident(
+  def least_favorite_function "modules.ml" 97 2494 2498 "modules.ml" 105 2799 2802
+)
+"modules.ml" 96 2453 2487 "modules.ml" 96 2453 2493
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( ** )
+)
+"modules.ml" 97 2494 2502 "modules.ml" 97 2494 2512
+type(
+  unit -> unit
+)
+ident(
+  def print_info "modules.ml" 104 2745 2798 "modules.ml" 105 2799 2802
+)
+"modules.ml" 97 2494 2513 "modules.ml" 97 2494 2515
+type(
+  unit
+)
+"modules.ml" 98 2518 2530 "modules.ml" 98 2518 2531
+type(
+  unit
+)
+"modules.ml" 98 2518 2534 "modules.ml" 98 2518 2546
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"modules.ml" 99 2549 2561 "modules.ml" 99 2549 2565
+type(
+  info
+)
+ident(
+  int_ref info "modules.ml" 86 2168 2176 "modules.ml" 86 2168 2180
+)
+"modules.ml" 99 2549 2561 "modules.ml" 99 2549 2574
+type(
+  string
+)
+"modules.ml" 99 2549 2575 "modules.ml" 99 2549 2576
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"modules.ml" 99 2549 2577 "modules.ml" 99 2549 2581
+type(
+  string
+)
+"modules.ml" 99 2549 2582 "modules.ml" 99 2549 2583
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"modules.ml" 100 2584 2596 "modules.ml" 100 2584 2609
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"modules.ml" 100 2584 2610 "modules.ml" 100 2584 2614
+type(
+  int
+)
+ident(
+  int_ref year "modules.ml" 81 2042 2050 "modules.ml" 81 2042 2054
+)
+"modules.ml" 100 2584 2596 "modules.ml" 100 2584 2614
+call(
+  stack
+)
+type(
+  string
+)
+"modules.ml" 100 2584 2615 "modules.ml" 100 2584 2616
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"modules.ml" 100 2584 2617 "modules.ml" 100 2584 2621
+type(
+  string
+)
+"modules.ml" 100 2584 2622 "modules.ml" 100 2584 2623
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"modules.ml" 101 2624 2636 "modules.ml" 101 2624 2640
+type(
+  info
+)
+ident(
+  int_ref info "modules.ml" 86 2168 2176 "modules.ml" 86 2168 2180
+)
+"modules.ml" 101 2624 2636 "modules.ml" 101 2624 2654
+type(
+  string
+)
+"modules.ml" 101 2624 2655 "modules.ml" 101 2624 2656
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"modules.ml" 101 2624 2657 "modules.ml" 101 2624 2661
+type(
+  string
+)
+"modules.ml" 101 2624 2636 "modules.ml" 101 2624 2661
+call(
+  stack
+)
+type(
+  string
+)
+"modules.ml" 100 2584 2617 "modules.ml" 101 2624 2661
+call(
+  stack
+)
+type(
+  string
+)
+"modules.ml" 100 2584 2596 "modules.ml" 101 2624 2661
+call(
+  stack
+)
+type(
+  string
+)
+"modules.ml" 99 2549 2577 "modules.ml" 101 2624 2661
+call(
+  stack
+)
+type(
+  string
+)
+"modules.ml" 99 2549 2561 "modules.ml" 101 2624 2661
+call(
+  stack
+)
+type(
+  string
+)
+"modules.ml" 98 2518 2534 "modules.ml" 101 2624 2662
+call(
+  stack
+)
+type(
+  unit
+)
+"modules.ml" 102 2666 2680 "modules.ml" 102 2666 2684
+type(
+  info
+)
+ident(
+  int_ref info "modules.ml" 86 2168 2176 "modules.ml" 86 2168 2180
+)
+"modules.ml" 102 2666 2680 "modules.ml" 102 2666 2690
+type(
+  house
+)
+"modules.ml" 103 2696 2706 "modules.ml" 103 2696 2714
+type(
+  house
+)
+"modules.ml" 103 2696 2718 "modules.ml" 103 2696 2730
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"modules.ml" 103 2696 2731 "modules.ml" 103 2696 2744
+type(
+  string
+)
+"modules.ml" 103 2696 2718 "modules.ml" 103 2696 2744
+call(
+  tail
+)
+type(
+  unit
+)
+"modules.ml" 104 2745 2755 "modules.ml" 104 2745 2756
+type(
+  house
+)
+"modules.ml" 104 2745 2760 "modules.ml" 104 2745 2768
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"modules.ml" 104 2745 2769 "modules.ml" 104 2745 2798
+type(
+  string
+)
+"modules.ml" 104 2745 2760 "modules.ml" 104 2745 2798
+call(
+  tail
+)
+type(
+  unit
+)
+"modules.ml" 102 2666 2674 "modules.ml" 104 2745 2798
+type(
+  unit
+)
+"modules.ml" 98 2518 2526 "modules.ml" 104 2745 2798
+type(
+  unit
+)
+"modules.ml" 97 2494 2513 "modules.ml" 104 2745 2798
+type(
+  unit -> unit
+)
+"modules.ml" 116 2951 2959 "modules.ml" 116 2951 2982
+type(
+  int -> int -> int
+)
+ident(
+  def least_favorite_function "modules.ml" 118 2993 2997 "modules.ml" 140 3618 3621
+)
+"modules.ml" 116 2951 2986 "modules.ml" 116 2951 2990
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"modules.ml" 118 2993 3005 "modules.ml" 118 2993 3009
+type(
+  info
+)
+ident(
+  def info "modules.ml" 118 2993 2997 "modules.ml" 140 3618 3621
+)
+"modules.ml" 119 3014 3033 "modules.ml" 119 3014 3041
+type(
+  string
+)
+ident(
+  int_ref hometown "modules.ml" 124 3136 3144 "modules.ml" 124 3136 3152
+)
+"modules.ml" 120 3043 3059 "modules.ml" 120 3043 3064
+type(
+  string
+)
+ident(
+  int_ref house "modules.ml" 125 3175 3183 "modules.ml" 125 3175 3188
+)
+"modules.ml" 121 3066 3081 "modules.ml" 121 3066 3085
+type(
+  int
+)
+"modules.ml" 122 3087 3111 "modules.ml" 122 3087 3129
+type(
+  string
+)
+"modules.ml" 118 2993 3012 "modules.ml" 123 3130 3135
+type(
+  info
+)
+"modules.ml" 124 3136 3144 "modules.ml" 124 3136 3152
+type(
+  string
+)
+ident(
+  def hometown "modules.ml" 118 2993 2997 "modules.ml" 140 3618 3621
+)
+"modules.ml" 124 3136 3155 "modules.ml" 124 3136 3174
+type(
+  string
+)
+"modules.ml" 125 3175 3183 "modules.ml" 125 3175 3188
+type(
+  string
+)
+ident(
+  def house "modules.ml" 118 2993 2997 "modules.ml" 140 3618 3621
+)
+"modules.ml" 125 3175 3191 "modules.ml" 125 3175 3200
+type(
+  string
+)
+"modules.ml" 127 3202 3210 "modules.ml" 127 3202 3226
+type(
+  int -> string
+)
+ident(
+  def grade_assignment "modules.ml" 130 3316 3320 "modules.ml" 140 3618 3621
+)
+"modules.ml" 127 3202 3227 "modules.ml" 127 3202 3237
+type(
+  int
+)
+ident(
+  def assignment "modules.ml" 128 3240 3246 "modules.ml" 128 3240 3314
+)
+"modules.ml" 128 3240 3246 "modules.ml" 128 3240 3278
+type(
+  string
+)
+"modules.ml" 128 3240 3279 "modules.ml" 128 3240 3280
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"modules.ml" 128 3240 3281 "modules.ml" 128 3240 3294
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"modules.ml" 128 3240 3295 "modules.ml" 128 3240 3305
+type(
+  int
+)
+ident(
+  int_ref assignment "modules.ml" 127 3202 3227 "modules.ml" 127 3202 3237
+)
+"modules.ml" 128 3240 3281 "modules.ml" 128 3240 3305
+call(
+  stack
+)
+type(
+  string
+)
+"modules.ml" 128 3240 3306 "modules.ml" 128 3240 3307
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"modules.ml" 128 3240 3308 "modules.ml" 128 3240 3314
+type(
+  string
+)
+"modules.ml" 128 3240 3281 "modules.ml" 128 3240 3314
+call(
+  stack
+)
+type(
+  string
+)
+"modules.ml" 128 3240 3246 "modules.ml" 128 3240 3314
+call(
+  tail
+)
+type(
+  string
+)
+"modules.ml" 127 3202 3227 "modules.ml" 128 3240 3314
+type(
+  int -> string
+)
+"modules.ml" 130 3316 3324 "modules.ml" 130 3316 3341
+type(
+  float -> float -> float
+)
+ident(
+  def favorite_function "modules.ml" 133 3406 3410 "modules.ml" 140 3618 3621
+)
+"modules.ml" 130 3316 3342 "modules.ml" 130 3316 3343
+type(
+  float
+)
+ident(
+  def x "modules.ml" 130 3316 3344 "modules.ml" 131 3348 3404
+)
+"modules.ml" 130 3316 3344 "modules.ml" 130 3316 3345
+type(
+  float
+)
+ident(
+  def y "modules.ml" 131 3348 3356 "modules.ml" 131 3348 3404
+)
+"modules.ml" 131 3348 3356 "modules.ml" 131 3348 3359
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.log
+)
+"modules.ml" 131 3348 3360 "modules.ml" 131 3348 3361
+type(
+  float
+)
+ident(
+  int_ref x "modules.ml" 130 3316 3342 "modules.ml" 130 3316 3343
+)
+"modules.ml" 131 3348 3356 "modules.ml" 131 3348 3361
+type(
+  float
+)
+"modules.ml" 131 3348 3362 "modules.ml" 131 3348 3364
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"modules.ml" 131 3348 3365 "modules.ml" 131 3348 3368
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.log
+)
+"modules.ml" 131 3348 3369 "modules.ml" 131 3348 3370
+type(
+  float
+)
+ident(
+  int_ref y "modules.ml" 130 3316 3344 "modules.ml" 130 3316 3345
+)
+"modules.ml" 131 3348 3365 "modules.ml" 131 3348 3370
+type(
+  float
+)
+"modules.ml" 131 3348 3356 "modules.ml" 131 3348 3370
+type(
+  float
+)
+"modules.ml" 131 3348 3371 "modules.ml" 131 3348 3373
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"modules.ml" 131 3348 3374 "modules.ml" 131 3348 3388
+type(
+  int64 -> float
+)
+ident(
+  ext_ref Core.Std.Int64.to_float
+)
+"modules.ml" 131 3348 3389 "modules.ml" 131 3348 3404
+type(
+  int64
+)
+"modules.ml" 131 3348 3374 "modules.ml" 131 3348 3404
+call(
+  stack
+)
+type(
+  float
+)
+"modules.ml" 131 3348 3356 "modules.ml" 131 3348 3404
+type(
+  float
+)
+"modules.ml" 130 3316 3344 "modules.ml" 131 3348 3404
+type(
+  float -> float
+)
+"modules.ml" 130 3316 3342 "modules.ml" 131 3348 3404
+type(
+  float -> float -> float
+)
+"modules.ml" 133 3406 3414 "modules.ml" 133 3406 3424
+type(
+  'a -> unit
+)
+ident(
+  def print_info "modules.ml" 137 3567 3571 "modules.ml" 140 3618 3621
+)
+"modules.ml" 133 3406 3431 "modules.ml" 133 3406 3432
+type(
+  'a
+)
+"modules.ml" 134 3436 3444 "modules.ml" 134 3436 3456
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"modules.ml" 134 3436 3458 "modules.ml" 134 3436 3462
+type(
+  info
+)
+ident(
+  int_ref info "modules.ml" 118 2993 3005 "modules.ml" 118 2993 3009
+)
+"modules.ml" 134 3436 3458 "modules.ml" 134 3436 3468
+type(
+  string
+)
+"modules.ml" 134 3436 3469 "modules.ml" 134 3436 3470
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"modules.ml" 134 3436 3471 "modules.ml" 134 3436 3475
+type(
+  string
+)
+"modules.ml" 134 3436 3476 "modules.ml" 134 3436 3477
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"modules.ml" 134 3436 3478 "modules.ml" 134 3436 3482
+type(
+  info
+)
+ident(
+  int_ref info "modules.ml" 118 2993 3005 "modules.ml" 118 2993 3009
+)
+"modules.ml" 134 3436 3478 "modules.ml" 134 3436 3491
+type(
+  string
+)
+"modules.ml" 134 3436 3492 "modules.ml" 134 3436 3493
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"modules.ml" 134 3436 3494 "modules.ml" 134 3436 3498
+type(
+  string
+)
+"modules.ml" 134 3436 3499 "modules.ml" 134 3436 3500
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"modules.ml" 135 3501 3513 "modules.ml" 135 3501 3526
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"modules.ml" 135 3501 3527 "modules.ml" 135 3501 3531
+type(
+  info
+)
+ident(
+  int_ref info "modules.ml" 118 2993 3005 "modules.ml" 118 2993 3009
+)
+"modules.ml" 135 3501 3527 "modules.ml" 135 3501 3536
+type(
+  int
+)
+"modules.ml" 135 3501 3513 "modules.ml" 135 3501 3536
+call(
+  stack
+)
+type(
+  string
+)
+"modules.ml" 135 3501 3537 "modules.ml" 135 3501 3538
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"modules.ml" 135 3501 3539 "modules.ml" 135 3501 3543
+type(
+  string
+)
+"modules.ml" 135 3501 3544 "modules.ml" 135 3501 3545
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"modules.ml" 135 3501 3546 "modules.ml" 135 3501 3550
+type(
+  info
+)
+ident(
+  int_ref info "modules.ml" 118 2993 3005 "modules.ml" 118 2993 3009
+)
+"modules.ml" 135 3501 3546 "modules.ml" 135 3501 3564
+type(
+  string
+)
+"modules.ml" 135 3501 3539 "modules.ml" 135 3501 3564
+call(
+  stack
+)
+type(
+  string
+)
+"modules.ml" 135 3501 3513 "modules.ml" 135 3501 3564
+call(
+  stack
+)
+type(
+  string
+)
+"modules.ml" 134 3436 3494 "modules.ml" 135 3501 3564
+call(
+  stack
+)
+type(
+  string
+)
+"modules.ml" 134 3436 3478 "modules.ml" 135 3501 3564
+call(
+  stack
+)
+type(
+  string
+)
+"modules.ml" 134 3436 3471 "modules.ml" 135 3501 3564
+call(
+  stack
+)
+type(
+  string
+)
+"modules.ml" 134 3436 3458 "modules.ml" 135 3501 3564
+call(
+  stack
+)
+type(
+  string
+)
+"modules.ml" 134 3436 3444 "modules.ml" 135 3501 3565
+call(
+  tail
+)
+type(
+  unit
+)
+"modules.ml" 133 3406 3431 "modules.ml" 135 3501 3565
+type(
+  'a -> unit
+)
+"modules.ml" 137 3567 3575 "modules.ml" 137 3567 3576
+type(
+  int -> int -> int
+)
+ident(
+  def f "modules.ml" 138 3583 3587 "modules.ml" 140 3618 3621
+)
+"modules.ml" 137 3567 3579 "modules.ml" 137 3567 3582
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"modules.ml" 138 3583 3591 "modules.ml" 138 3583 3595
+type(
+  int list -> init:int -> int
+)
+ident(
+  def fold "modules.ml" 138 3583 3616 "modules.ml" 140 3618 3621
+)
+"modules.ml" 138 3583 3598 "modules.ml" 138 3583 3613
+type(
+  int list -> f:(int -> int -> int) -> init:int -> int
+)
+ident(
+  ext_ref Core.Std.List.fold_right
+)
+"modules.ml" 138 3583 3614 "modules.ml" 138 3583 3616
+type(
+  int -> int -> int
+)
+ident(
+  int_ref f "modules.ml" 137 3567 3575 "modules.ml" 137 3567 3576
+)
+"modules.ml" 138 3583 3598 "modules.ml" 138 3583 3616
+call(
+  tail
+)
+type(
+  int list -> init:int -> int
+)
+"modules.ml" 187 4726 4734 "modules.ml" 187 4726 4757
+type(
+  'a option
+)
+ident(
+  def least_favorite_function "modules.ml" 188 4765 4769 "modules.ml" 208 5251 5254
+)
+"modules.ml" 187 4726 4760 "modules.ml" 187 4726 4764
+type(
+  'a option
+)
+"modules.ml" 188 4765 4773 "modules.ml" 188 4765 4781
+type(
+  string
+)
+ident(
+  def hometown "modules.ml" 190 4801 4805 "modules.ml" 208 5251 5254
+)
+"modules.ml" 188 4765 4784 "modules.ml" 188 4765 4799
+type(
+  string
+)
+"modules.ml" 190 4801 4809 "modules.ml" 190 4801 4813
+type(
+  info
+)
+ident(
+  def info "modules.ml" 197 4945 4949 "modules.ml" 208 5251 5254
+)
+"modules.ml" 191 4818 4837 "modules.ml" 191 4818 4845
+type(
+  string
+)
+ident(
+  int_ref hometown "modules.ml" 188 4765 4773 "modules.ml" 188 4765 4781
+)
+"modules.ml" 192 4847 4863 "modules.ml" 192 4847 4872
+type(
+  string
+)
+"modules.ml" 193 4874 4889 "modules.ml" 193 4874 4893
+type(
+  int
+)
+"modules.ml" 194 4895 4919 "modules.ml" 194 4895 4937
+type(
+  string
+)
+"modules.ml" 190 4801 4816 "modules.ml" 195 4938 4943
+type(
+  info
+)
+"modules.ml" 197 4945 4953 "modules.ml" 197 4945 4969
+type(
+  'b -> string
+)
+ident(
+  def grade_assignment "modules.ml" 200 5004 5008 "modules.ml" 208 5251 5254
+)
+"modules.ml" 197 4945 4970 "modules.ml" 197 4945 4971
+type(
+  'b
+)
+"modules.ml" 198 4974 4980 "modules.ml" 198 4974 5002
+type(
+  string
+)
+"modules.ml" 197 4945 4970 "modules.ml" 198 4974 5002
+type(
+  'b -> string
+)
+"modules.ml" 200 5004 5012 "modules.ml" 200 5004 5029
+type(
+  float -> float -> float
+)
+ident(
+  def favorite_function "modules.ml" 201 5043 5047 "modules.ml" 208 5251 5254
+)
+"modules.ml" 200 5004 5030 "modules.ml" 200 5004 5031
+type(
+  float
+)
+ident(
+  def x "modules.ml" 200 5004 5032 "modules.ml" 200 5004 5042
+)
+"modules.ml" 200 5004 5032 "modules.ml" 200 5004 5033
+type(
+  float
+)
+ident(
+  def y "modules.ml" 200 5004 5036 "modules.ml" 200 5004 5042
+)
+"modules.ml" 200 5004 5036 "modules.ml" 200 5004 5037
+type(
+  float
+)
+ident(
+  int_ref x "modules.ml" 200 5004 5030 "modules.ml" 200 5004 5031
+)
+"modules.ml" 200 5004 5038 "modules.ml" 200 5004 5040
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"modules.ml" 200 5004 5041 "modules.ml" 200 5004 5042
+type(
+  float
+)
+ident(
+  int_ref y "modules.ml" 200 5004 5032 "modules.ml" 200 5004 5033
+)
+"modules.ml" 200 5004 5036 "modules.ml" 200 5004 5042
+type(
+  float
+)
+"modules.ml" 200 5004 5032 "modules.ml" 200 5004 5042
+type(
+  float -> float
+)
+"modules.ml" 200 5004 5030 "modules.ml" 200 5004 5042
+type(
+  float -> float -> float
+)
+"modules.ml" 201 5043 5051 "modules.ml" 201 5043 5061
+type(
+  unit -> unit
+)
+ident(
+  def print_info "modules.ml" 205 5198 5202 "modules.ml" 208 5251 5254
+)
+"modules.ml" 201 5043 5062 "modules.ml" 201 5043 5064
+type(
+  unit
+)
+"modules.ml" 202 5067 5075 "modules.ml" 202 5067 5087
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"modules.ml" 202 5067 5089 "modules.ml" 202 5067 5093
+type(
+  info
+)
+ident(
+  int_ref info "modules.ml" 190 4801 4809 "modules.ml" 190 4801 4813
+)
+"modules.ml" 202 5067 5089 "modules.ml" 202 5067 5099
+type(
+  string
+)
+"modules.ml" 202 5067 5100 "modules.ml" 202 5067 5101
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"modules.ml" 202 5067 5102 "modules.ml" 202 5067 5106
+type(
+  string
+)
+"modules.ml" 202 5067 5107 "modules.ml" 202 5067 5108
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"modules.ml" 202 5067 5109 "modules.ml" 202 5067 5113
+type(
+  info
+)
+ident(
+  int_ref info "modules.ml" 190 4801 4809 "modules.ml" 190 4801 4813
+)
+"modules.ml" 202 5067 5109 "modules.ml" 202 5067 5122
+type(
+  string
+)
+"modules.ml" 202 5067 5123 "modules.ml" 202 5067 5124
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"modules.ml" 202 5067 5125 "modules.ml" 202 5067 5129
+type(
+  string
+)
+"modules.ml" 202 5067 5130 "modules.ml" 202 5067 5131
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"modules.ml" 203 5132 5144 "modules.ml" 203 5132 5157
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"modules.ml" 203 5132 5158 "modules.ml" 203 5132 5162
+type(
+  info
+)
+ident(
+  int_ref info "modules.ml" 190 4801 4809 "modules.ml" 190 4801 4813
+)
+"modules.ml" 203 5132 5158 "modules.ml" 203 5132 5167
+type(
+  int
+)
+"modules.ml" 203 5132 5144 "modules.ml" 203 5132 5167
+call(
+  stack
+)
+type(
+  string
+)
+"modules.ml" 203 5132 5168 "modules.ml" 203 5132 5169
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"modules.ml" 203 5132 5170 "modules.ml" 203 5132 5174
+type(
+  string
+)
+"modules.ml" 203 5132 5175 "modules.ml" 203 5132 5176
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"modules.ml" 203 5132 5177 "modules.ml" 203 5132 5181
+type(
+  info
+)
+ident(
+  int_ref info "modules.ml" 190 4801 4809 "modules.ml" 190 4801 4813
+)
+"modules.ml" 203 5132 5177 "modules.ml" 203 5132 5195
+type(
+  string
+)
+"modules.ml" 203 5132 5170 "modules.ml" 203 5132 5195
+call(
+  stack
+)
+type(
+  string
+)
+"modules.ml" 203 5132 5144 "modules.ml" 203 5132 5195
+call(
+  stack
+)
+type(
+  string
+)
+"modules.ml" 202 5067 5125 "modules.ml" 203 5132 5195
+call(
+  stack
+)
+type(
+  string
+)
+"modules.ml" 202 5067 5109 "modules.ml" 203 5132 5195
+call(
+  stack
+)
+type(
+  string
+)
+"modules.ml" 202 5067 5102 "modules.ml" 203 5132 5195
+call(
+  stack
+)
+type(
+  string
+)
+"modules.ml" 202 5067 5089 "modules.ml" 203 5132 5195
+call(
+  stack
+)
+type(
+  string
+)
+"modules.ml" 202 5067 5075 "modules.ml" 203 5132 5196
+call(
+  tail
+)
+type(
+  unit
+)
+"modules.ml" 201 5043 5062 "modules.ml" 203 5132 5196
+type(
+  unit -> unit
+)
+"modules.ml" 205 5198 5206 "modules.ml" 205 5198 5207
+type(
+  int -> int -> int
+)
+ident(
+  def f "modules.ml" 206 5216 5220 "modules.ml" 208 5251 5254
+)
+"modules.ml" 205 5198 5210 "modules.ml" 205 5198 5215
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"modules.ml" 206 5216 5224 "modules.ml" 206 5216 5228
+type(
+  int list -> init:int -> int
+)
+ident(
+  def fold "modules.ml" 206 5216 5249 "modules.ml" 208 5251 5254
+)
+"modules.ml" 206 5216 5231 "modules.ml" 206 5216 5246
+type(
+  int list -> f:(int -> int -> int) -> init:int -> int
+)
+ident(
+  ext_ref Core.Std.List.fold_right
+)
+"modules.ml" 206 5216 5247 "modules.ml" 206 5216 5249
+type(
+  int -> int -> int
+)
+ident(
+  int_ref f "modules.ml" 205 5198 5206 "modules.ml" 205 5198 5207
+)
+"modules.ml" 206 5216 5231 "modules.ml" 206 5216 5249
+call(
+  tail
+)
+type(
+  int list -> init:int -> int
+)
