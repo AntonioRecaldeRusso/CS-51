@@ -1,0 +1,1959 @@
+"UI.ml" 8 98 102 "UI.ml" 8 98 107
+type(
+  int ref
+)
+ident(
+  def delay "UI.ml" 9 117 117 "UI.ml" 1 0 -1
+)
+"UI.ml" 8 98 110 "UI.ml" 8 98 113
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"UI.ml" 8 98 114 "UI.ml" 8 98 116
+type(
+  int
+)
+"UI.ml" 8 98 110 "UI.ml" 8 98 116
+type(
+  int ref
+)
+"UI.ml" 9 117 121 "UI.ml" 9 117 128
+type(
+  int ref
+)
+ident(
+  def counter "UI.ml" 10 137 137 "UI.ml" 1 0 -1
+)
+"UI.ml" 9 117 131 "UI.ml" 9 117 134
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"UI.ml" 9 117 135 "UI.ml" 9 117 136
+type(
+  int
+)
+"UI.ml" 9 117 131 "UI.ml" 9 117 136
+type(
+  int ref
+)
+"UI.ml" 10 137 141 "UI.ml" 10 137 152
+type(
+  unit -> bool
+)
+ident(
+  def inc_counter "UI.ml" 14 238 238 "UI.ml" 1 0 -1
+)
+"UI.ml" 10 137 153 "UI.ml" 10 137 155
+type(
+  unit
+)
+"UI.ml" 11 158 160 "UI.ml" 11 158 164
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"UI.ml" 11 158 165 "UI.ml" 11 158 172
+type(
+  int ref
+)
+ident(
+  int_ref counter "UI.ml" 9 117 121 "UI.ml" 9 117 128
+)
+"UI.ml" 11 158 160 "UI.ml" 11 158 172
+type(
+  unit
+)
+"UI.ml" 12 175 181 "UI.ml" 12 175 188
+type(
+  int ref
+)
+ident(
+  int_ref counter "UI.ml" 9 117 121 "UI.ml" 9 117 128
+)
+"UI.ml" 12 175 180 "UI.ml" 12 175 188
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"UI.ml" 12 175 189 "UI.ml" 12 175 191
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"UI.ml" 12 175 193 "UI.ml" 12 175 198
+type(
+  int ref
+)
+ident(
+  int_ref delay "UI.ml" 8 98 102 "UI.ml" 8 98 107
+)
+"UI.ml" 12 175 192 "UI.ml" 12 175 198
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"UI.ml" 12 175 180 "UI.ml" 12 175 198
+type(
+  bool
+)
+"UI.ml" 12 175 205 "UI.ml" 12 175 212
+type(
+  int ref
+)
+ident(
+  int_ref counter "UI.ml" 9 117 121 "UI.ml" 9 117 128
+)
+"UI.ml" 12 175 216 "UI.ml" 12 175 217
+type(
+  int
+)
+"UI.ml" 12 175 205 "UI.ml" 12 175 217
+type(
+  unit
+)
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"UI.ml" 12 175 220 "UI.ml" 12 175 224
+type(
+  bool
+)
+"UI.ml" 12 175 205 "UI.ml" 12 175 224
+type(
+  bool
+)
+"UI.ml" 12 175 231 "UI.ml" 12 175 236
+type(
+  bool
+)
+"UI.ml" 12 175 177 "UI.ml" 12 175 236
+type(
+  bool
+)
+"UI.ml" 11 158 160 "UI.ml" 12 175 236
+type(
+  bool
+)
+"UI.ml" 10 137 153 "UI.ml" 12 175 236
+type(
+  unit -> bool
+)
+"UI.ml" 14 238 242 "UI.ml" 14 238 253
+type(
+  bool ref
+)
+ident(
+  def mouse_state "UI.ml" 15 266 266 "UI.ml" 1 0 -1
+)
+"UI.ml" 14 238 256 "UI.ml" 14 238 259
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"UI.ml" 14 238 260 "UI.ml" 14 238 265
+type(
+  bool
+)
+"UI.ml" 14 238 256 "UI.ml" 14 238 265
+type(
+  bool ref
+)
+"UI.ml" 15 266 270 "UI.ml" 15 266 279
+type(
+  (int * int) ref
+)
+ident(
+  def mouse_pos "UI.ml" 17 293 293 "UI.ml" 1 0 -1
+)
+"UI.ml" 15 266 282 "UI.ml" 15 266 285
+type(
+  int * int -> (int * int) ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"UI.ml" 15 266 287 "UI.ml" 15 266 288
+type(
+  int
+)
+"UI.ml" 15 266 289 "UI.ml" 15 266 290
+type(
+  int
+)
+"UI.ml" 15 266 287 "UI.ml" 15 266 290
+type(
+  int * int
+)
+"UI.ml" 15 266 282 "UI.ml" 15 266 291
+type(
+  (int * int) ref
+)
+"UI.ml" 17 293 297 "UI.ml" 17 293 303
+type(
+  bool ref
+)
+ident(
+  def paused "UI.ml" 25 481 481 "UI.ml" 1 0 -1
+)
+"UI.ml" 17 293 306 "UI.ml" 17 293 309
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"UI.ml" 17 293 310 "UI.ml" 17 293 315
+type(
+  bool
+)
+"UI.ml" 17 293 306 "UI.ml" 17 293 315
+type(
+  bool ref
+)
+"UI.ml" 25 481 485 "UI.ml" 25 481 496
+type(
+  char Event51.event
+)
+ident(
+  def key_pressed "UI.ml" 29 665 665 "UI.ml" 1 0 -1
+)
+"UI.ml" 25 481 520 "UI.ml" 25 481 537
+type(
+  unit -> char Event51.event
+)
+ident(
+  ext_ref Event51.Event51.new_event
+)
+"UI.ml" 25 481 538 "UI.ml" 25 481 540
+type(
+  unit
+)
+"UI.ml" 25 481 520 "UI.ml" 25 481 540
+call(
+  stack
+)
+type(
+  char Event51.event
+)
+type(
+  char Event51.event
+)
+"UI.ml" 29 665 669 "UI.ml" 29 665 680
+type(
+  (int * int) Event51.event
+)
+ident(
+  def button_down "UI.ml" 33 855 855 "UI.ml" 1 0 -1
+)
+"UI.ml" 29 665 709 "UI.ml" 29 665 726
+type(
+  unit -> (int * int) Event51.event
+)
+ident(
+  ext_ref Event51.Event51.new_event
+)
+"UI.ml" 29 665 727 "UI.ml" 29 665 729
+type(
+  unit
+)
+"UI.ml" 29 665 709 "UI.ml" 29 665 729
+call(
+  stack
+)
+type(
+  (int * int) Event51.event
+)
+type(
+  (int * int) Event51.event
+)
+"UI.ml" 33 855 859 "UI.ml" 33 855 868
+type(
+  (int * int) Event51.event
+)
+ident(
+  def button_up "UI.ml" 37 1031 1031 "UI.ml" 1 0 -1
+)
+"UI.ml" 33 855 899 "UI.ml" 33 855 916
+type(
+  unit -> (int * int) Event51.event
+)
+ident(
+  ext_ref Event51.Event51.new_event
+)
+"UI.ml" 33 855 917 "UI.ml" 33 855 919
+type(
+  unit
+)
+"UI.ml" 33 855 899 "UI.ml" 33 855 919
+call(
+  stack
+)
+type(
+  (int * int) Event51.event
+)
+type(
+  (int * int) Event51.event
+)
+"UI.ml" 37 1031 1035 "UI.ml" 37 1031 1047
+type(
+  (int * int) Event51.event
+)
+ident(
+  def mouse_motion "UI.ml" 40 1148 1148 "UI.ml" 1 0 -1
+)
+"UI.ml" 37 1031 1078 "UI.ml" 37 1031 1095
+type(
+  unit -> (int * int) Event51.event
+)
+ident(
+  ext_ref Event51.Event51.new_event
+)
+"UI.ml" 37 1031 1096 "UI.ml" 37 1031 1098
+type(
+  unit
+)
+"UI.ml" 37 1031 1078 "UI.ml" 37 1031 1098
+call(
+  stack
+)
+type(
+  (int * int) Event51.event
+)
+type(
+  (int * int) Event51.event
+)
+"UI.ml" 40 1148 1152 "UI.ml" 40 1148 1157
+type(
+  unit Event51.event
+)
+ident(
+  def clock "UI.ml" 46 1285 1285 "UI.ml" 1 0 -1
+)
+"UI.ml" 40 1148 1181 "UI.ml" 40 1148 1198
+type(
+  unit -> unit Event51.event
+)
+ident(
+  ext_ref Event51.Event51.new_event
+)
+"UI.ml" 40 1148 1199 "UI.ml" 40 1148 1201
+type(
+  unit
+)
+"UI.ml" 40 1148 1181 "UI.ml" 40 1148 1201
+call(
+  stack
+)
+type(
+  unit Event51.event
+)
+type(
+  unit Event51.event
+)
+"UI.ml" 50 1413 1417 "UI.ml" 50 1413 1427
+type(
+  unit -> unit
+)
+ident(
+  def read_event "UI.ml" 76 2273 2273 "UI.ml" 1 0 -1
+)
+"UI.ml" 50 1413 1428 "UI.ml" 50 1413 1430
+type(
+  unit
+)
+"UI.ml" 51 1433 1439 "UI.ml" 51 1433 1446
+type(
+  int * int
+)
+ident(
+  def new_pos "UI.ml" 52 1474 1476 "UI.ml" 73 2184 2213
+)
+"UI.ml" 51 1433 1449 "UI.ml" 51 1433 1467
+type(
+  unit -> int * int
+)
+ident(
+  ext_ref Graphics.mouse_pos
+)
+"UI.ml" 51 1433 1468 "UI.ml" 51 1433 1470
+type(
+  unit
+)
+"UI.ml" 51 1433 1449 "UI.ml" 51 1433 1470
+call(
+  stack
+)
+type(
+  int * int
+)
+"UI.ml" 52 1474 1479 "UI.ml" 52 1474 1486
+type(
+  int * int
+)
+ident(
+  int_ref new_pos "UI.ml" 51 1433 1439 "UI.ml" 51 1433 1446
+)
+"UI.ml" 52 1474 1487 "UI.ml" 52 1474 1489
+type(
+  int * int -> int * int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"UI.ml" 52 1474 1491 "UI.ml" 52 1474 1500
+type(
+  (int * int) ref
+)
+ident(
+  int_ref mouse_pos "UI.ml" 15 266 270 "UI.ml" 15 266 279
+)
+"UI.ml" 52 1474 1490 "UI.ml" 52 1474 1500
+type(
+  int * int
+)
+type(
+  (int * int) ref -> int * int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"UI.ml" 52 1474 1479 "UI.ml" 52 1474 1500
+type(
+  bool
+)
+"UI.ml" 53 1512 1516 "UI.ml" 53 1512 1525
+type(
+  (int * int) ref
+)
+ident(
+  int_ref mouse_pos "UI.ml" 15 266 270 "UI.ml" 15 266 279
+)
+"UI.ml" 53 1512 1529 "UI.ml" 53 1512 1536
+type(
+  int * int
+)
+ident(
+  int_ref new_pos "UI.ml" 51 1433 1439 "UI.ml" 51 1433 1446
+)
+"UI.ml" 53 1512 1516 "UI.ml" 53 1512 1536
+type(
+  unit
+)
+type(
+  (int * int) ref -> int * int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"UI.ml" 54 1539 1543 "UI.ml" 54 1539 1561
+type(
+  (int * int) Event51.event -> int * int -> unit
+)
+ident(
+  ext_ref Event51.Event51.fire_event
+)
+"UI.ml" 54 1539 1562 "UI.ml" 54 1539 1574
+type(
+  (int * int) Event51.event
+)
+ident(
+  int_ref mouse_motion "UI.ml" 37 1031 1035 "UI.ml" 37 1031 1047
+)
+"UI.ml" 54 1539 1576 "UI.ml" 54 1539 1594
+type(
+  unit -> int * int
+)
+ident(
+  ext_ref Graphics.mouse_pos
+)
+"UI.ml" 54 1539 1595 "UI.ml" 54 1539 1597
+type(
+  unit
+)
+"UI.ml" 54 1539 1576 "UI.ml" 54 1539 1597
+call(
+  stack
+)
+type(
+  int * int
+)
+"UI.ml" 54 1539 1543 "UI.ml" 54 1539 1598
+call(
+  stack
+)
+type(
+  unit
+)
+"UI.ml" 53 1512 1516 "UI.ml" 55 1599 1604
+type(
+  unit
+)
+"UI.ml" 52 1474 1476 "UI.ml" 55 1599 1604
+type(
+  unit
+)
+type(
+  unit
+)
+"UI.ml" 56 1607 1612 "UI.ml" 56 1607 1632
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Graphics.key_pressed
+)
+"UI.ml" 56 1607 1633 "UI.ml" 56 1607 1635
+type(
+  unit
+)
+"UI.ml" 56 1607 1612 "UI.ml" 56 1607 1635
+call(
+  stack
+)
+type(
+  bool
+)
+"UI.ml" 57 1647 1651 "UI.ml" 57 1647 1669
+type(
+  char Event51.event -> char -> unit
+)
+ident(
+  ext_ref Event51.Event51.fire_event
+)
+"UI.ml" 57 1647 1670 "UI.ml" 57 1647 1681
+type(
+  char Event51.event
+)
+ident(
+  int_ref key_pressed "UI.ml" 25 481 485 "UI.ml" 25 481 496
+)
+"UI.ml" 57 1647 1683 "UI.ml" 57 1647 1700
+type(
+  unit -> char
+)
+ident(
+  ext_ref Graphics.read_key
+)
+"UI.ml" 57 1647 1701 "UI.ml" 57 1647 1703
+type(
+  unit
+)
+"UI.ml" 57 1647 1683 "UI.ml" 57 1647 1703
+call(
+  stack
+)
+type(
+  char
+)
+"UI.ml" 57 1647 1651 "UI.ml" 57 1647 1704
+call(
+  stack
+)
+type(
+  unit
+)
+"UI.ml" 56 1607 1609 "UI.ml" 58 1705 1710
+type(
+  unit
+)
+type(
+  unit
+)
+"UI.ml" 59 1713 1718 "UI.ml" 59 1713 1721
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"UI.ml" 59 1713 1723 "UI.ml" 59 1713 1734
+type(
+  bool ref
+)
+ident(
+  int_ref mouse_state "UI.ml" 14 238 242 "UI.ml" 14 238 253
+)
+"UI.ml" 59 1713 1722 "UI.ml" 59 1713 1734
+type(
+  bool
+)
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"UI.ml" 59 1713 1718 "UI.ml" 59 1713 1734
+type(
+  bool
+)
+"UI.ml" 60 1746 1754 "UI.ml" 60 1746 1755
+type(
+  Graphics.status
+)
+ident(
+  def s "UI.ml" 61 1825 1829 "UI.ml" 64 1934 1941
+)
+"UI.ml" 60 1746 1758 "UI.ml" 60 1746 1782
+type(
+  Graphics.event list -> Graphics.status
+)
+ident(
+  ext_ref Graphics.wait_next_event
+)
+"UI.ml" 60 1746 1784 "UI.ml" 60 1746 1804
+type(
+  Graphics.event
+)
+"UI.ml" 60 1746 1807 "UI.ml" 60 1746 1820
+type(
+  Graphics.event
+)
+type(
+  Graphics.event list
+)
+"UI.ml" 60 1746 1784 "UI.ml" 60 1746 1820
+type(
+  Graphics.event list
+)
+"UI.ml" 60 1746 1783 "UI.ml" 60 1746 1821
+type(
+  Graphics.event list
+)
+"UI.ml" 60 1746 1758 "UI.ml" 60 1746 1821
+type(
+  Graphics.status
+)
+"UI.ml" 61 1825 1832 "UI.ml" 61 1825 1833
+type(
+  Graphics.status
+)
+ident(
+  int_ref s "UI.ml" 60 1746 1754 "UI.ml" 60 1746 1755
+)
+"UI.ml" 61 1825 1832 "UI.ml" 61 1825 1849
+type(
+  bool
+)
+"UI.ml" 62 1861 1867 "UI.ml" 62 1861 1878
+type(
+  bool ref
+)
+ident(
+  int_ref mouse_state "UI.ml" 14 238 242 "UI.ml" 14 238 253
+)
+"UI.ml" 62 1861 1882 "UI.ml" 62 1861 1886
+type(
+  bool
+)
+"UI.ml" 62 1861 1867 "UI.ml" 62 1861 1886
+type(
+  unit
+)
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"UI.ml" 63 1889 1895 "UI.ml" 63 1889 1913
+type(
+  (int * int) Event51.event -> int * int -> unit
+)
+ident(
+  ext_ref Event51.Event51.fire_event
+)
+"UI.ml" 63 1889 1914 "UI.ml" 63 1889 1925
+type(
+  (int * int) Event51.event
+)
+ident(
+  int_ref button_down "UI.ml" 29 665 669 "UI.ml" 29 665 680
+)
+"UI.ml" 63 1889 1926 "UI.ml" 63 1889 1933
+type(
+  int * int
+)
+ident(
+  int_ref new_pos "UI.ml" 51 1433 1439 "UI.ml" 51 1433 1446
+)
+"UI.ml" 63 1889 1895 "UI.ml" 63 1889 1933
+call(
+  stack
+)
+type(
+  unit
+)
+"UI.ml" 62 1861 1867 "UI.ml" 64 1934 1941
+type(
+  unit
+)
+"UI.ml" 61 1825 1829 "UI.ml" 64 1934 1941
+type(
+  unit
+)
+type(
+  unit
+)
+"UI.ml" 60 1746 1750 "UI.ml" 64 1934 1941
+type(
+  unit
+)
+"UI.ml" 59 1713 1715 "UI.ml" 65 1942 1947
+type(
+  unit
+)
+type(
+  unit
+)
+"UI.ml" 66 1950 1956 "UI.ml" 66 1950 1967
+type(
+  bool ref
+)
+ident(
+  int_ref mouse_state "UI.ml" 14 238 242 "UI.ml" 14 238 253
+)
+"UI.ml" 66 1950 1955 "UI.ml" 66 1950 1967
+type(
+  bool
+)
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"UI.ml" 67 1979 1987 "UI.ml" 67 1979 1988
+type(
+  Graphics.status
+)
+ident(
+  def s "UI.ml" 68 2056 2060 "UI.ml" 71 2168 2175
+)
+"UI.ml" 67 1979 1991 "UI.ml" 67 1979 2015
+type(
+  Graphics.event list -> Graphics.status
+)
+ident(
+  ext_ref Graphics.wait_next_event
+)
+"UI.ml" 67 1979 2017 "UI.ml" 67 1979 2035
+type(
+  Graphics.event
+)
+"UI.ml" 67 1979 2038 "UI.ml" 67 1979 2051
+type(
+  Graphics.event
+)
+type(
+  Graphics.event list
+)
+"UI.ml" 67 1979 2017 "UI.ml" 67 1979 2051
+type(
+  Graphics.event list
+)
+"UI.ml" 67 1979 2016 "UI.ml" 67 1979 2052
+type(
+  Graphics.event list
+)
+"UI.ml" 67 1979 1991 "UI.ml" 67 1979 2052
+type(
+  Graphics.status
+)
+"UI.ml" 68 2056 2063 "UI.ml" 68 2056 2066
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"UI.ml" 68 2056 2067 "UI.ml" 68 2056 2068
+type(
+  Graphics.status
+)
+ident(
+  int_ref s "UI.ml" 67 1979 1987 "UI.ml" 67 1979 1988
+)
+"UI.ml" 68 2056 2067 "UI.ml" 68 2056 2084
+type(
+  bool
+)
+"UI.ml" 68 2056 2063 "UI.ml" 68 2056 2084
+type(
+  bool
+)
+"UI.ml" 69 2096 2102 "UI.ml" 69 2096 2113
+type(
+  bool ref
+)
+ident(
+  int_ref mouse_state "UI.ml" 14 238 242 "UI.ml" 14 238 253
+)
+"UI.ml" 69 2096 2117 "UI.ml" 69 2096 2122
+type(
+  bool
+)
+"UI.ml" 69 2096 2102 "UI.ml" 69 2096 2122
+type(
+  unit
+)
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"UI.ml" 70 2125 2131 "UI.ml" 70 2125 2149
+type(
+  (int * int) Event51.event -> int * int -> unit
+)
+ident(
+  ext_ref Event51.Event51.fire_event
+)
+"UI.ml" 70 2125 2150 "UI.ml" 70 2125 2159
+type(
+  (int * int) Event51.event
+)
+ident(
+  int_ref button_up "UI.ml" 33 855 859 "UI.ml" 33 855 868
+)
+"UI.ml" 70 2125 2160 "UI.ml" 70 2125 2167
+type(
+  int * int
+)
+ident(
+  int_ref new_pos "UI.ml" 51 1433 1439 "UI.ml" 51 1433 1446
+)
+"UI.ml" 70 2125 2131 "UI.ml" 70 2125 2167
+call(
+  stack
+)
+type(
+  unit
+)
+"UI.ml" 69 2096 2102 "UI.ml" 71 2168 2175
+type(
+  unit
+)
+"UI.ml" 68 2056 2060 "UI.ml" 71 2168 2175
+type(
+  unit
+)
+type(
+  unit
+)
+"UI.ml" 67 1979 1983 "UI.ml" 71 2168 2175
+type(
+  unit
+)
+"UI.ml" 66 1950 1952 "UI.ml" 72 2176 2181
+type(
+  unit
+)
+type(
+  unit
+)
+"UI.ml" 73 2184 2186 "UI.ml" 73 2184 2204
+type(
+  unit Event51.event -> unit -> unit
+)
+ident(
+  ext_ref Event51.Event51.fire_event
+)
+"UI.ml" 73 2184 2205 "UI.ml" 73 2184 2210
+type(
+  unit Event51.event
+)
+ident(
+  int_ref clock "UI.ml" 40 1148 1152 "UI.ml" 40 1148 1157
+)
+"UI.ml" 73 2184 2211 "UI.ml" 73 2184 2213
+type(
+  unit
+)
+"UI.ml" 73 2184 2186 "UI.ml" 73 2184 2213
+call(
+  tail
+)
+type(
+  unit
+)
+"UI.ml" 66 1950 1952 "UI.ml" 73 2184 2213
+type(
+  unit
+)
+"UI.ml" 59 1713 1715 "UI.ml" 73 2184 2213
+type(
+  unit
+)
+"UI.ml" 56 1607 1609 "UI.ml" 73 2184 2213
+type(
+  unit
+)
+"UI.ml" 52 1474 1476 "UI.ml" 73 2184 2213
+type(
+  unit
+)
+"UI.ml" 51 1433 1435 "UI.ml" 73 2184 2213
+type(
+  unit
+)
+"UI.ml" 50 1413 1428 "UI.ml" 73 2184 2213
+type(
+  unit -> unit
+)
+"UI.ml" 76 2273 2281 "UI.ml" 76 2273 2288
+type(
+  ('a -> 'b) -> 'a -> 'b
+)
+ident(
+  def restart "UI.ml" 76 2273 2273 "UI.ml" 1 0 -1
+)
+"UI.ml" 76 2273 2289 "UI.ml" 76 2273 2290
+type(
+  'a -> 'b
+)
+ident(
+  def f "UI.ml" 76 2273 2291 "UI.ml" 78 2309 2367
+)
+"UI.ml" 76 2273 2291 "UI.ml" 76 2273 2294
+type(
+  'a
+)
+ident(
+  def arg "UI.ml" 77 2297 2299 "UI.ml" 78 2309 2367
+)
+"UI.ml" 77 2297 2303 "UI.ml" 77 2297 2304
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "UI.ml" 76 2273 2289 "UI.ml" 76 2273 2290
+)
+"UI.ml" 77 2297 2305 "UI.ml" 77 2297 2308
+type(
+  'a
+)
+ident(
+  int_ref arg "UI.ml" 76 2273 2291 "UI.ml" 76 2273 2294
+)
+"UI.ml" 77 2297 2303 "UI.ml" 77 2297 2308
+call(
+  stack
+)
+type(
+  'b
+)
+"UI.ml" 78 2309 2333 "UI.ml" 78 2309 2343
+type(
+  UnixLabels.error
+)
+"UI.ml" 78 2309 2345 "UI.ml" 78 2309 2346
+type(
+  string
+)
+"UI.ml" 78 2309 2348 "UI.ml" 78 2309 2349
+type(
+  string
+)
+"UI.ml" 78 2309 2316 "UI.ml" 78 2309 2350
+type(
+  exn
+)
+"UI.ml" 78 2309 2354 "UI.ml" 78 2309 2361
+type(
+  ('a -> 'b) -> 'a -> 'b
+)
+ident(
+  int_ref restart "UI.ml" 76 2273 2281 "UI.ml" 76 2273 2288
+)
+"UI.ml" 78 2309 2362 "UI.ml" 78 2309 2363
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "UI.ml" 76 2273 2289 "UI.ml" 76 2273 2290
+)
+"UI.ml" 78 2309 2364 "UI.ml" 78 2309 2367
+type(
+  'a
+)
+ident(
+  int_ref arg "UI.ml" 76 2273 2291 "UI.ml" 76 2273 2294
+)
+"UI.ml" 78 2309 2354 "UI.ml" 78 2309 2367
+call(
+  tail
+)
+type(
+  'b
+)
+"UI.ml" 77 2297 2299 "UI.ml" 78 2309 2367
+type(
+  'b
+)
+"UI.ml" 76 2273 2291 "UI.ml" 78 2309 2367
+type(
+  'a -> 'b
+)
+"UI.ml" 76 2273 2289 "UI.ml" 78 2309 2367
+type(
+  ('a -> 'b) -> 'a -> 'b
+)
+"UI.ml" 82 2475 2479 "UI.ml" 82 2475 2489
+type(
+  float
+)
+ident(
+  def frame_rate "UI.ml" 87 2674 2674 "UI.ml" 1 0 -1
+)
+"UI.ml" 82 2475 2492 "UI.ml" 82 2475 2496
+type(
+  float
+)
+"UI.ml" 87 2674 2682 "UI.ml" 87 2674 2692
+type(
+  unit -> 'a
+)
+ident(
+  def event_loop "UI.ml" 87 2674 2674 "UI.ml" 1 0 -1
+)
+"UI.ml" 87 2674 2693 "UI.ml" 87 2674 2695
+type(
+  unit
+)
+"UI.ml" 88 2698 2700 "UI.ml" 88 2698 2710
+type(
+  unit -> unit
+)
+ident(
+  int_ref read_event "UI.ml" 50 1413 1417 "UI.ml" 50 1413 1427
+)
+"UI.ml" 88 2698 2711 "UI.ml" 88 2698 2713
+type(
+  unit
+)
+"UI.ml" 88 2698 2700 "UI.ml" 88 2698 2713
+call(
+  stack
+)
+type(
+  unit
+)
+"UI.ml" 89 2715 2717 "UI.ml" 89 2715 2737
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Graphics.synchronize
+)
+"UI.ml" 89 2715 2738 "UI.ml" 89 2715 2740
+type(
+  unit
+)
+"UI.ml" 89 2715 2717 "UI.ml" 89 2715 2740
+type(
+  unit
+)
+"UI.ml" 90 2742 2744 "UI.ml" 90 2742 2751
+type(
+  (float -> unit) -> float -> unit
+)
+ident(
+  int_ref restart "UI.ml" 76 2273 2281 "UI.ml" 76 2273 2288
+)
+"UI.ml" 90 2742 2752 "UI.ml" 90 2742 2764
+type(
+  float -> unit
+)
+ident(
+  ext_ref Core.Std.Thread.delay
+)
+"UI.ml" 90 2742 2766 "UI.ml" 90 2742 2769
+type(
+  float
+)
+"UI.ml" 90 2742 2770 "UI.ml" 90 2742 2772
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"UI.ml" 90 2742 2773 "UI.ml" 90 2742 2783
+type(
+  float
+)
+ident(
+  int_ref frame_rate "UI.ml" 82 2475 2479 "UI.ml" 82 2475 2489
+)
+"UI.ml" 90 2742 2766 "UI.ml" 90 2742 2783
+type(
+  float
+)
+"UI.ml" 90 2742 2744 "UI.ml" 90 2742 2784
+call(
+  stack
+)
+type(
+  unit
+)
+"UI.ml" 91 2786 2788 "UI.ml" 91 2786 2798
+type(
+  unit -> 'a
+)
+ident(
+  int_ref event_loop "UI.ml" 87 2674 2682 "UI.ml" 87 2674 2692
+)
+"UI.ml" 91 2786 2799 "UI.ml" 91 2786 2801
+type(
+  unit
+)
+"UI.ml" 91 2786 2788 "UI.ml" 91 2786 2801
+call(
+  tail
+)
+type(
+  'a
+)
+"UI.ml" 90 2742 2744 "UI.ml" 91 2786 2801
+type(
+  'a
+)
+"UI.ml" 89 2715 2717 "UI.ml" 91 2786 2801
+type(
+  'a
+)
+"UI.ml" 88 2698 2700 "UI.ml" 91 2786 2801
+type(
+  'a
+)
+"UI.ml" 87 2674 2693 "UI.ml" 91 2786 2801
+type(
+  unit -> 'a
+)
+"UI.ml" 99 3164 3168 "UI.ml" 99 3164 3174
+type(
+  int -> int -> (unit -> unit) -> unit
+)
+ident(
+  def run_ui "UI.ml" 109 3517 3517 "UI.ml" 1 0 -1
+)
+"UI.ml" 99 3164 3176 "UI.ml" 99 3164 3177
+type(
+  int
+)
+ident(
+  def x "UI.ml" 99 3164 3183 "UI.ml" 105 3352 3403
+)
+"UI.ml" 99 3164 3184 "UI.ml" 99 3164 3185
+type(
+  int
+)
+ident(
+  def y "UI.ml" 99 3164 3191 "UI.ml" 105 3352 3403
+)
+"UI.ml" 99 3164 3192 "UI.ml" 99 3164 3196
+type(
+  unit -> unit
+)
+ident(
+  def init "UI.ml" 99 3164 3209 "UI.ml" 105 3352 3403
+)
+"UI.ml" 101 3224 3228 "UI.ml" 101 3224 3247
+type(
+  string -> unit
+)
+ident(
+  ext_ref Graphics.open_graph
+)
+"UI.ml" 101 3224 3248 "UI.ml" 101 3224 3250
+type(
+  string
+)
+"UI.ml" 101 3224 3228 "UI.ml" 101 3224 3250
+call(
+  stack
+)
+type(
+  unit
+)
+"UI.ml" 101 3224 3253 "UI.ml" 101 3224 3275
+type(
+  int -> int -> unit
+)
+ident(
+  ext_ref Graphics.resize_window
+)
+"UI.ml" 101 3224 3276 "UI.ml" 101 3224 3277
+type(
+  int
+)
+ident(
+  int_ref x "UI.ml" 99 3164 3176 "UI.ml" 99 3164 3177
+)
+"UI.ml" 101 3224 3278 "UI.ml" 101 3224 3279
+type(
+  int
+)
+ident(
+  int_ref y "UI.ml" 99 3164 3184 "UI.ml" 99 3164 3185
+)
+"UI.ml" 101 3224 3253 "UI.ml" 101 3224 3279
+call(
+  stack
+)
+type(
+  unit
+)
+"UI.ml" 102 3282 3286 "UI.ml" 102 3282 3311
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Graphics.auto_synchronize
+)
+"UI.ml" 102 3282 3312 "UI.ml" 102 3282 3317
+type(
+  bool
+)
+"UI.ml" 102 3282 3286 "UI.ml" 102 3282 3317
+call(
+  stack
+)
+type(
+  unit
+)
+"UI.ml" 103 3320 3324 "UI.ml" 103 3320 3328
+type(
+  unit -> unit
+)
+ident(
+  int_ref init "UI.ml" 99 3164 3192 "UI.ml" 99 3164 3196
+)
+"UI.ml" 103 3320 3329 "UI.ml" 103 3320 3331
+type(
+  unit
+)
+"UI.ml" 103 3320 3324 "UI.ml" 103 3320 3331
+call(
+  stack
+)
+type(
+  unit
+)
+"UI.ml" 104 3334 3338 "UI.ml" 104 3334 3348
+type(
+  unit -> unit
+)
+ident(
+  int_ref event_loop "UI.ml" 87 2674 2682 "UI.ml" 87 2674 2692
+)
+"UI.ml" 104 3334 3349 "UI.ml" 104 3334 3351
+type(
+  unit
+)
+"UI.ml" 104 3334 3338 "UI.ml" 104 3334 3351
+call(
+  stack
+)
+type(
+  unit
+)
+"UI.ml" 105 3352 3359 "UI.ml" 105 3352 3362
+type(
+  exn
+)
+ident(
+  def exn "UI.ml" 105 3352 3367 "UI.ml" 105 3352 3402
+)
+"UI.ml" 105 3352 3367 "UI.ml" 105 3352 3387
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Graphics.close_graph
+)
+"UI.ml" 105 3352 3388 "UI.ml" 105 3352 3390
+type(
+  unit
+)
+"UI.ml" 105 3352 3367 "UI.ml" 105 3352 3390
+call(
+  stack
+)
+type(
+  unit
+)
+"UI.ml" 105 3352 3393 "UI.ml" 105 3352 3398
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"UI.ml" 105 3352 3399 "UI.ml" 105 3352 3402
+type(
+  exn
+)
+ident(
+  int_ref exn "UI.ml" 105 3352 3359 "UI.ml" 105 3352 3362
+)
+"UI.ml" 105 3352 3393 "UI.ml" 105 3352 3402
+type(
+  unit
+)
+"UI.ml" 105 3352 3367 "UI.ml" 105 3352 3402
+type(
+  unit
+)
+"UI.ml" 103 3320 3324 "UI.ml" 105 3352 3403
+type(
+  unit
+)
+"UI.ml" 102 3282 3286 "UI.ml" 105 3352 3403
+type(
+  unit
+)
+"UI.ml" 101 3224 3253 "UI.ml" 105 3352 3403
+type(
+  unit
+)
+"UI.ml" 101 3224 3228 "UI.ml" 105 3352 3403
+type(
+  unit
+)
+"UI.ml" 100 3218 3220 "UI.ml" 105 3352 3403
+type(
+  unit
+)
+type(
+  unit
+)
+"UI.ml" 99 3164 3191 "UI.ml" 105 3352 3403
+type(
+  (unit -> unit) -> unit
+)
+"UI.ml" 99 3164 3183 "UI.ml" 105 3352 3403
+type(
+  int -> (unit -> unit) -> unit
+)
+"UI.ml" 99 3164 3175 "UI.ml" 105 3352 3403
+type(
+  int -> int -> (unit -> unit) -> unit
+)
+"UI.ml" 109 3517 3521 "UI.ml" 109 3517 3534
+type(
+  (unit -> unit) -> unit -> unit
+)
+ident(
+  def clock_handler "UI.ml" 116 3803 3803 "UI.ml" 1 0 -1
+)
+"UI.ml" 109 3517 3536 "UI.ml" 109 3517 3537
+type(
+  unit -> unit
+)
+ident(
+  def f "UI.ml" 109 3517 3554 "UI.ml" 110 3566 3610
+)
+"UI.ml" 109 3517 3554 "UI.ml" 109 3517 3556
+type(
+  unit
+)
+"UI.ml" 110 3566 3571 "UI.ml" 110 3566 3582
+type(
+  unit -> bool
+)
+ident(
+  int_ref inc_counter "UI.ml" 10 137 141 "UI.ml" 10 137 152
+)
+"UI.ml" 110 3566 3583 "UI.ml" 110 3566 3585
+type(
+  unit
+)
+"UI.ml" 110 3566 3571 "UI.ml" 110 3566 3585
+call(
+  stack
+)
+type(
+  bool
+)
+"UI.ml" 110 3566 3586 "UI.ml" 110 3566 3588
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"UI.ml" 110 3566 3589 "UI.ml" 110 3566 3592
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"UI.ml" 110 3566 3594 "UI.ml" 110 3566 3600
+type(
+  bool ref
+)
+ident(
+  int_ref paused "UI.ml" 17 293 297 "UI.ml" 17 293 303
+)
+"UI.ml" 110 3566 3593 "UI.ml" 110 3566 3600
+type(
+  bool
+)
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"UI.ml" 110 3566 3589 "UI.ml" 110 3566 3600
+type(
+  bool
+)
+"UI.ml" 110 3566 3571 "UI.ml" 110 3566 3600
+type(
+  bool
+)
+"UI.ml" 110 3566 3606 "UI.ml" 110 3566 3607
+type(
+  unit -> unit
+)
+ident(
+  int_ref f "UI.ml" 109 3517 3536 "UI.ml" 109 3517 3537
+)
+"UI.ml" 110 3566 3608 "UI.ml" 110 3566 3610
+type(
+  unit
+)
+"UI.ml" 110 3566 3606 "UI.ml" 110 3566 3610
+call(
+  tail
+)
+type(
+  unit
+)
+"UI.ml" 110 3566 3568 "UI.ml" 110 3566 3610
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"UI.ml" 109 3517 3554 "UI.ml" 110 3566 3610
+type(
+  unit -> unit
+)
+"UI.ml" 109 3517 3535 "UI.ml" 110 3566 3610
+type(
+  (unit -> unit) -> unit -> unit
+)
+"UI.ml" 116 3803 3807 "UI.ml" 116 3803 3818
+type(
+  char -> unit
+)
+ident(
+  def key_handler "UI.ml" 126 4145 4145 "UI.ml" 1 0 -1
+)
+"UI.ml" 116 3803 3819 "UI.ml" 116 3803 3820
+type(
+  char
+)
+ident(
+  def c "UI.ml" 117 3823 3825 "UI.ml" 122 3986 3999
+)
+"UI.ml" 117 3823 3831 "UI.ml" 117 3823 3832
+type(
+  char
+)
+ident(
+  int_ref c "UI.ml" 116 3803 3819 "UI.ml" 116 3803 3820
+)
+"UI.ml" 118 3838 3844 "UI.ml" 118 3838 3847
+type(
+  char
+)
+"UI.ml" 118 3838 3850 "UI.ml" 118 3838 3853
+type(
+  char
+)
+"UI.ml" 118 3838 3844 "UI.ml" 118 3838 3853
+type(
+  char
+)
+"UI.ml" 118 3838 3857 "UI.ml" 118 3838 3862
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"UI.ml" 118 3838 3863 "UI.ml" 118 3838 3867
+type(
+  exn
+)
+"UI.ml" 118 3838 3857 "UI.ml" 118 3838 3867
+type(
+  unit
+)
+"UI.ml" 119 3868 3874 "UI.ml" 119 3868 3877
+type(
+  char
+)
+"UI.ml" 119 3868 3881 "UI.ml" 119 3868 3887
+type(
+  bool ref
+)
+ident(
+  int_ref paused "UI.ml" 17 293 297 "UI.ml" 17 293 303
+)
+"UI.ml" 119 3868 3891 "UI.ml" 119 3868 3894
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"UI.ml" 119 3868 3896 "UI.ml" 119 3868 3902
+type(
+  bool ref
+)
+ident(
+  int_ref paused "UI.ml" 17 293 297 "UI.ml" 17 293 303
+)
+"UI.ml" 119 3868 3895 "UI.ml" 119 3868 3902
+type(
+  bool
+)
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"UI.ml" 119 3868 3891 "UI.ml" 119 3868 3903
+type(
+  bool
+)
+"UI.ml" 119 3868 3881 "UI.ml" 119 3868 3903
+type(
+  unit
+)
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"UI.ml" 120 3904 3910 "UI.ml" 120 3904 3913
+type(
+  char
+)
+"UI.ml" 120 3904 3916 "UI.ml" 120 3904 3919
+type(
+  char
+)
+"UI.ml" 120 3904 3910 "UI.ml" 120 3904 3919
+type(
+  char
+)
+"UI.ml" 120 3904 3923 "UI.ml" 120 3904 3928
+type(
+  int ref
+)
+ident(
+  int_ref delay "UI.ml" 8 98 102 "UI.ml" 8 98 107
+)
+"UI.ml" 120 3904 3934 "UI.ml" 120 3904 3939
+type(
+  int ref
+)
+ident(
+  int_ref delay "UI.ml" 8 98 102 "UI.ml" 8 98 107
+)
+"UI.ml" 120 3904 3933 "UI.ml" 120 3904 3939
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"UI.ml" 120 3904 3941 "UI.ml" 120 3904 3942
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"UI.ml" 120 3904 3943 "UI.ml" 120 3904 3944
+type(
+  int
+)
+"UI.ml" 120 3904 3932 "UI.ml" 120 3904 3944
+type(
+  int
+)
+"UI.ml" 120 3904 3923 "UI.ml" 120 3904 3944
+type(
+  unit
+)
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"UI.ml" 121 3945 3951 "UI.ml" 121 3945 3954
+type(
+  char
+)
+"UI.ml" 121 3945 3957 "UI.ml" 121 3945 3960
+type(
+  char
+)
+"UI.ml" 121 3945 3951 "UI.ml" 121 3945 3960
+type(
+  char
+)
+"UI.ml" 121 3945 3964 "UI.ml" 121 3945 3969
+type(
+  int ref
+)
+ident(
+  int_ref delay "UI.ml" 8 98 102 "UI.ml" 8 98 107
+)
+"UI.ml" 121 3945 3975 "UI.ml" 121 3945 3980
+type(
+  int ref
+)
+ident(
+  int_ref delay "UI.ml" 8 98 102 "UI.ml" 8 98 107
+)
+"UI.ml" 121 3945 3974 "UI.ml" 121 3945 3980
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"UI.ml" 121 3945 3982 "UI.ml" 121 3945 3983
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"UI.ml" 121 3945 3984 "UI.ml" 121 3945 3985
+type(
+  int
+)
+"UI.ml" 121 3945 3973 "UI.ml" 121 3945 3985
+type(
+  int
+)
+"UI.ml" 121 3945 3964 "UI.ml" 121 3945 3985
+type(
+  unit
+)
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"UI.ml" 122 3986 3992 "UI.ml" 122 3986 3993
+type(
+  char
+)
+"UI.ml" 122 3986 3997 "UI.ml" 122 3986 3999
+type(
+  unit
+)
+"UI.ml" 117 3823 3825 "UI.ml" 122 3986 3999
+type(
+  unit
+)
+"UI.ml" 116 3803 3819 "UI.ml" 122 3986 3999
+type(
+  char -> unit
+)
+"UI.ml" 126 4145 4149 "UI.ml" 126 4145 4158
+type(
+  (unit -> unit) -> (unit -> unit) -> unit
+)
+ident(
+  def run_world "UI.ml" 135 4574 4586 "UI.ml" 1 0 -1
+)
+"UI.ml" 126 4145 4160 "UI.ml" 126 4145 4164
+type(
+  unit -> unit
+)
+ident(
+  def init "UI.ml" 126 4145 4179 "UI.ml" 135 4574 4586
+)
+"UI.ml" 126 4145 4180 "UI.ml" 126 4145 4187
+type(
+  unit -> unit
+)
+ident(
+  def clock_f "UI.ml" 126 4145 4202 "UI.ml" 135 4574 4586
+)
+"UI.ml" 127 4211 4213 "UI.ml" 127 4211 4219
+type(
+  int -> int -> (unit -> unit) -> unit
+)
+ident(
+  int_ref run_ui "UI.ml" 99 3164 3168 "UI.ml" 99 3164 3174
+)
+"UI.ml" 127 4211 4221 "UI.ml" 127 4211 4231
+type(
+  int
+)
+ident(
+  ext_ref World.size
+)
+"UI.ml" 127 4211 4231 "UI.ml" 127 4211 4232
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"UI.ml" 127 4211 4232 "UI.ml" 127 4211 4247
+type(
+  int
+)
+ident(
+  ext_ref World.obj_width
+)
+"UI.ml" 127 4211 4221 "UI.ml" 127 4211 4247
+type(
+  int
+)
+"UI.ml" 128 4265 4275 "UI.ml" 128 4265 4285
+type(
+  int
+)
+ident(
+  ext_ref World.size
+)
+"UI.ml" 128 4265 4285 "UI.ml" 128 4265 4286
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"UI.ml" 128 4265 4286 "UI.ml" 128 4265 4302
+type(
+  int
+)
+ident(
+  ext_ref World.obj_height
+)
+"UI.ml" 128 4265 4275 "UI.ml" 128 4265 4302
+type(
+  int
+)
+"UI.ml" 130 4364 4383 "UI.ml" 130 4364 4385
+type(
+  unit
+)
+"UI.ml" 131 4389 4400 "UI.ml" 131 4389 4411
+type(
+  unit -> unit
+)
+ident(
+  ext_ref World.reset
+)
+"UI.ml" 131 4389 4412 "UI.ml" 131 4389 4414
+type(
+  unit
+)
+"UI.ml" 131 4389 4400 "UI.ml" 131 4389 4414
+call(
+  stack
+)
+type(
+  unit
+)
+"UI.ml" 132 4417 4428 "UI.ml" 132 4417 4434
+type(
+  Event51.id -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"UI.ml" 132 4417 4435 "UI.ml" 132 4417 4455
+type(
+  unit Event51.event -> (unit -> unit) -> Event51.id
+)
+ident(
+  ext_ref Event51.Event51.add_listener
+)
+"UI.ml" 132 4417 4456 "UI.ml" 132 4417 4461
+type(
+  unit Event51.event
+)
+ident(
+  int_ref clock "UI.ml" 40 1148 1152 "UI.ml" 40 1148 1157
+)
+"UI.ml" 132 4417 4463 "UI.ml" 132 4417 4476
+type(
+  (unit -> unit) -> unit -> unit
+)
+ident(
+  int_ref clock_handler "UI.ml" 109 3517 3521 "UI.ml" 109 3517 3534
+)
+"UI.ml" 132 4417 4477 "UI.ml" 132 4417 4484
+type(
+  unit -> unit
+)
+ident(
+  int_ref clock_f "UI.ml" 126 4145 4180 "UI.ml" 126 4145 4187
+)
+"UI.ml" 132 4417 4463 "UI.ml" 132 4417 4484
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"UI.ml" 132 4417 4435 "UI.ml" 132 4417 4485
+call(
+  stack
+)
+type(
+  Event51.id
+)
+"UI.ml" 132 4417 4428 "UI.ml" 132 4417 4486
+type(
+  unit
+)
+"UI.ml" 133 4489 4500 "UI.ml" 133 4489 4506
+type(
+  Event51.id -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"UI.ml" 133 4489 4507 "UI.ml" 133 4489 4527
+type(
+  char Event51.event -> (char -> unit) -> Event51.id
+)
+ident(
+  ext_ref Event51.Event51.add_listener
+)
+"UI.ml" 133 4489 4528 "UI.ml" 133 4489 4539
+type(
+  char Event51.event
+)
+ident(
+  int_ref key_pressed "UI.ml" 25 481 485 "UI.ml" 25 481 496
+)
+"UI.ml" 133 4489 4540 "UI.ml" 133 4489 4551
+type(
+  char -> unit
+)
+ident(
+  int_ref key_handler "UI.ml" 116 3803 3807 "UI.ml" 116 3803 3818
+)
+"UI.ml" 133 4489 4507 "UI.ml" 133 4489 4551
+call(
+  stack
+)
+type(
+  Event51.id
+)
+"UI.ml" 133 4489 4500 "UI.ml" 133 4489 4552
+type(
+  unit
+)
+"UI.ml" 134 4555 4566 "UI.ml" 134 4555 4570
+type(
+  unit -> unit
+)
+ident(
+  int_ref init "UI.ml" 126 4145 4160 "UI.ml" 126 4145 4164
+)
+"UI.ml" 134 4555 4571 "UI.ml" 134 4555 4573
+type(
+  unit
+)
+"UI.ml" 134 4555 4566 "UI.ml" 134 4555 4573
+call(
+  tail
+)
+type(
+  unit
+)
+"UI.ml" 133 4489 4500 "UI.ml" 134 4555 4573
+type(
+  unit
+)
+"UI.ml" 132 4417 4428 "UI.ml" 134 4555 4573
+type(
+  unit
+)
+"UI.ml" 131 4389 4400 "UI.ml" 134 4555 4573
+type(
+  unit
+)
+"UI.ml" 130 4364 4383 "UI.ml" 134 4555 4573
+type(
+  unit -> unit
+)
+"UI.ml" 127 4211 4213 "UI.ml" 135 4574 4586
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"UI.ml" 126 4145 4179 "UI.ml" 135 4574 4586
+type(
+  (unit -> unit) -> unit
+)
+"UI.ml" 126 4145 4159 "UI.ml" 135 4574 4586
+type(
+  (unit -> unit) -> (unit -> unit) -> unit
+)

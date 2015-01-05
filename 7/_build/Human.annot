@@ -1,0 +1,1730 @@
+"Human.ml" 8 106 110 "Human.ml" 8 106 129
+type(
+  int option
+)
+ident(
+  def human_inverse_speed "Human.ml" 11 169 169 "Human.ml" 1 0 -1
+)
+"Human.ml" 8 106 137 "Human.ml" 8 106 138
+type(
+  int
+)
+"Human.ml" 8 106 132 "Human.ml" 8 106 138
+type(
+  int option
+)
+"Human.ml" 11 169 173 "Human.ml" 11 169 187
+type(
+  int
+)
+ident(
+  def max_gold_types "Human.ml" 14 220 220 "Human.ml" 1 0 -1
+)
+"Human.ml" 11 169 190 "Human.ml" 11 169 191
+type(
+  int
+)
+"Human.ml" 14 220 224 "Human.ml" 14 220 238
+type(
+  int
+)
+ident(
+  def human_lifetime "Human.ml" 17 281 281 "Human.ml" 1 0 -1
+)
+"Human.ml" 14 220 241 "Human.ml" 14 220 245
+type(
+  int
+)
+"Human.ml" 17 281 285 "Human.ml" 17 281 302
+type(
+  int
+)
+ident(
+  def max_sensing_range "Human.ml" 22 515 515 "Human.ml" 1 0 -1
+)
+"Human.ml" 17 281 305 "Human.ml" 17 281 306
+type(
+  int
+)
+"Human.ml" 30 673 685 "Human.ml" 30 673 686
+type(
+  int * int
+)
+"Human.ml" 30 673 688 "Human.ml" 30 673 692
+type(
+  world_object_i
+)
+"Human.ml" 31 723 730 "Human.ml" 31 723 734
+type(
+  < danger : world_object_i -> unit; die : unit; draw : unit;
+    draw_picture : unit; draw_z_axis : int; forfeit_gold : int option;
+    get_danger_event : world_object_i Event51.event;
+    get_die_event : unit Event51.event; get_human_gold : int list;
+    get_name : string; get_pos : int * int; is_obstacle : bool;
+    next_direction : Direction.direction option; receive_damage : unit;
+    receive_gold : int list -> int list; reset_life : unit;
+    smells_like_gold : int option; .. >
+)
+"Human.ml" 32 736 771 "Human.ml" 32 736 772
+type(
+  int * int
+)
+ident(
+  int_ref p "Human.ml" 30 673 685 "Human.ml" 30 673 686
+)
+"Human.ml" 32 736 773 "Human.ml" 32 736 792
+type(
+  int option
+)
+ident(
+  int_ref human_inverse_speed "Human.ml" 8 106 110 "Human.ml" 8 106 129
+)
+"Human.ml" 32 736 794 "Human.ml" 32 736 804
+type(
+  int -> int
+)
+ident(
+  ext_ref World.rand
+)
+"Human.ml" 32 736 805 "Human.ml" 32 736 819
+type(
+  int
+)
+ident(
+  int_ref human_lifetime "Human.ml" 14 220 224 "Human.ml" 14 220 238
+)
+"Human.ml" 32 736 794 "Human.ml" 32 736 819
+call(
+  stack
+)
+type(
+  int
+)
+"Human.ml" 32 736 821 "Human.ml" 32 736 835
+type(
+  int
+)
+ident(
+  int_ref human_lifetime "Human.ml" 14 220 224 "Human.ml" 14 220 238
+)
+"Human.ml" 39 980 1007 "Human.ml" 39 980 1009
+type(
+  int list
+)
+"Human.ml" 40 1010 1039 "Human.ml" 40 1010 1044
+type(
+  bool
+)
+"Human.ml" 41 1045 1068 "Human.ml" 41 1045 1072
+type(
+  world_object_i
+)
+ident(
+  int_ref home "Human.ml" 30 673 688 "Human.ml" 30 673 692
+)
+"Human.ml" 41 1045 1068 "Human.ml" 41 1045 1080
+call(
+  stack
+)
+type(
+  int * int
+)
+"Human.ml" 44 1124 1146 "Human.ml" 44 1124 1156
+type(
+  int -> int
+)
+ident(
+  ext_ref World.rand
+)
+"Human.ml" 44 1124 1157 "Human.ml" 44 1124 1174
+type(
+  int
+)
+ident(
+  int_ref max_sensing_range "Human.ml" 17 281 285 "Human.ml" 17 281 302
+)
+"Human.ml" 44 1124 1146 "Human.ml" 44 1124 1174
+call(
+  stack
+)
+type(
+  int
+)
+"Human.ml" 46 1176 1195 "Human.ml" 46 1176 1205
+type(
+  int -> int
+)
+ident(
+  ext_ref World.rand
+)
+"Human.ml" 46 1176 1206 "Human.ml" 46 1176 1220
+type(
+  int
+)
+ident(
+  int_ref max_gold_types "Human.ml" 11 169 173 "Human.ml" 11 169 187
+)
+"Human.ml" 46 1176 1195 "Human.ml" 46 1176 1220
+call(
+  stack
+)
+type(
+  int
+)
+"Human.ml" 46 1176 1221 "Human.ml" 46 1176 1222
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"Human.ml" 46 1176 1223 "Human.ml" 46 1176 1224
+type(
+  int
+)
+"Human.ml" 46 1176 1195 "Human.ml" 46 1176 1224
+type(
+  int
+)
+"Human.ml" 56 1408 1412 "Human.ml" 56 1408 1416
+type(
+  < danger : world_object_i -> unit; die : unit; draw : unit;
+    draw_picture : unit; draw_z_axis : int; forfeit_gold : int option;
+    get_danger_event : world_object_i Event51.event;
+    get_die_event : unit Event51.event; get_human_gold : int list;
+    get_name : string; get_pos : int * int; is_obstacle : bool;
+    next_direction : Direction.direction option; receive_damage : unit;
+    receive_gold : int list -> int list; reset_life : unit;
+    smells_like_gold : int option; .. >
+  as 'a
+)
+ident(
+  int_ref self "Human.ml" 31 723 730 "Human.ml" 31 723 734
+)
+"Human.ml" 56 1408 1412 "Human.ml" 56 1408 1433
+call(
+  stack
+)
+type(
+  unit Event51.event -> (unit -> unit) -> unit
+)
+"Human.ml" 56 1408 1434 "Human.ml" 56 1408 1452
+type(
+  unit Event51.event
+)
+ident(
+  ext_ref World.action_event
+)
+"Human.ml" 56 1408 1458 "Human.ml" 56 1408 1460
+type(
+  unit
+)
+"Human.ml" 56 1408 1464 "Human.ml" 56 1408 1468
+type(
+  'a
+)
+ident(
+  int_ref self "Human.ml" 31 723 730 "Human.ml" 31 723 734
+)
+"Human.ml" 56 1408 1464 "Human.ml" 56 1408 1478
+call(
+  tail
+)
+type(
+  unit
+)
+"Human.ml" 56 1408 1458 "Human.ml" 56 1408 1478
+type(
+  unit -> unit
+)
+"Human.ml" 56 1408 1412 "Human.ml" 56 1408 1479
+type(
+  unit
+)
+"Human.ml" 58 1485 1488 "Human.ml" 58 1485 1492
+type(
+  'a
+)
+ident(
+  int_ref self "Human.ml" 31 723 730 "Human.ml" 31 723 734
+)
+"Human.ml" 58 1485 1488 "Human.ml" 58 1485 1509
+call(
+  tail
+)
+type(
+  world_object_i Event51.event -> (world_object_i -> unit) -> unit
+)
+"Human.ml" 58 1485 1511 "Human.ml" 58 1485 1515
+type(
+  world_object_i
+)
+ident(
+  int_ref home "Human.ml" 30 673 688 "Human.ml" 30 673 692
+)
+"Human.ml" 58 1485 1511 "Human.ml" 58 1485 1532
+call(
+  stack
+)
+type(
+  world_object_i Event51.event
+)
+"Human.ml" 58 1485 1535 "Human.ml" 58 1485 1539
+type(
+  'a
+)
+ident(
+  int_ref self "Human.ml" 31 723 730 "Human.ml" 31 723 734
+)
+"Human.ml" 58 1485 1535 "Human.ml" 58 1485 1549
+call(
+  stack
+)
+type(
+  world_object_i -> unit
+)
+"Human.ml" 58 1485 1488 "Human.ml" 58 1485 1550
+type(
+  unit
+)
+"Human.ml" 56 1408 1412 "Human.ml" 58 1485 1550
+type(
+  'a -> unit
+)
+type(
+  unit
+)
+"Human.ml" 75 1903 1914 "Human.ml" 75 1903 1921
+type(
+  < receive_gold : int list -> int list; .. > list -> unit
+)
+ident(
+  def deposit "Human.ml" 75 1903 1906 "Human.ml" 80 2059 2107
+)
+"Human.ml" 75 1903 1922 "Human.ml" 75 1903 1925
+type(
+  (< receive_gold : int list -> int list; .. > as 'b) list
+)
+ident(
+  def lst "Human.ml" 76 1928 1933 "Human.ml" 79 2026 2055
+)
+"Human.ml" 76 1928 1939 "Human.ml" 76 1928 1942
+type(
+  'b list
+)
+ident(
+  int_ref lst "Human.ml" 75 1903 1922 "Human.ml" 75 1903 1925
+)
+"Human.ml" 77 1948 1955 "Human.ml" 77 1948 1957
+type(
+  'b list
+)
+"Human.ml" 77 1948 1961 "Human.ml" 77 1948 1963
+type(
+  unit
+)
+"Human.ml" 78 1964 1971 "Human.ml" 78 1964 1973
+type(
+  'b
+)
+ident(
+  def hd "Human.ml" 78 1964 1983 "Human.ml" 79 2026 2055
+)
+"Human.ml" 78 1964 1977 "Human.ml" 78 1964 1979
+type(
+  'b list
+)
+ident(
+  def tl "Human.ml" 78 1964 1983 "Human.ml" 79 2026 2055
+)
+"Human.ml" 78 1964 1971 "Human.ml" 78 1964 1979
+type(
+  'b list
+)
+"Human.ml" 78 1964 1997 "Human.ml" 78 1964 1999
+type(
+  'b
+)
+ident(
+  int_ref hd "Human.ml" 78 1964 1971 "Human.ml" 78 1964 1973
+)
+"Human.ml" 78 1964 1997 "Human.ml" 78 1964 2012
+call(
+  stack
+)
+type(
+  int list -> int list
+)
+"Human.ml" 78 1964 2013 "Human.ml" 78 1964 2023
+type(
+  int list
+)
+ident(
+  ext_ref human_gold
+)
+"Human.ml" 78 1964 1997 "Human.ml" 78 1964 2023
+type(
+  int list
+)
+"Human.ml" 78 1964 1983 "Human.ml" 78 1964 2023
+type(
+  unit
+)
+"Human.ml" 79 2026 2045 "Human.ml" 79 2026 2052
+type(
+  'b list -> unit
+)
+ident(
+  int_ref deposit "Human.ml" 75 1903 1914 "Human.ml" 75 1903 1921
+)
+"Human.ml" 79 2026 2053 "Human.ml" 79 2026 2055
+type(
+  'b list
+)
+ident(
+  int_ref tl "Human.ml" 78 1964 1977 "Human.ml" 78 1964 1979
+)
+"Human.ml" 79 2026 2045 "Human.ml" 79 2026 2055
+call(
+  tail
+)
+type(
+  unit
+)
+"Human.ml" 78 1964 1983 "Human.ml" 79 2026 2055
+type(
+  unit
+)
+"Human.ml" 76 1928 1933 "Human.ml" 79 2026 2055
+type(
+  unit
+)
+"Human.ml" 75 1903 1922 "Human.ml" 79 2026 2055
+type(
+  'b list -> unit
+)
+"Human.ml" 80 2059 2062 "Human.ml" 80 2059 2069
+type(
+  world_object_i list -> unit
+)
+ident(
+  int_ref deposit "Human.ml" 75 1903 1914 "Human.ml" 75 1903 1921
+)
+"Human.ml" 80 2059 2072 "Human.ml" 80 2059 2081
+type(
+  int * int -> world_object_i list
+)
+ident(
+  ext_ref World.get
+)
+"Human.ml" 80 2059 2082 "Human.ml" 80 2059 2086
+type(
+  'a
+)
+ident(
+  int_ref self "Human.ml" 31 723 730 "Human.ml" 31 723 734
+)
+"Human.ml" 80 2059 2082 "Human.ml" 80 2059 2094
+call(
+  stack
+)
+type(
+  int * int
+)
+"Human.ml" 80 2059 2072 "Human.ml" 80 2059 2094
+call(
+  stack
+)
+type(
+  world_object_i list
+)
+type(
+  world_object_i list
+)
+"Human.ml" 80 2059 2062 "Human.ml" 80 2059 2107
+call(
+  tail
+)
+type(
+  unit
+)
+"Human.ml" 75 1903 1906 "Human.ml" 80 2059 2107
+type(
+  unit
+)
+type(
+  unit
+)
+"Human.ml" 74 1868 1870 "Human.ml" 80 2059 2107
+type(
+  'a -> unit
+)
+"Human.ml" 83 2144 2156 "Human.ml" 83 2144 2163
+type(
+  < forfeit_gold : int option; smells_like_gold : 'c option; .. > list ->
+  unit
+)
+ident(
+  def extract "Human.ml" 83 2144 2148 "Human.ml" 93 2467 2503
+)
+"Human.ml" 83 2144 2164 "Human.ml" 83 2144 2167
+type(
+  (< forfeit_gold : int option; smells_like_gold : 'c option; .. > as 'd)
+  list
+)
+ident(
+  def lst "Human.ml" 85 2177 2183 "Human.ml" 92 2428 2463
+)
+"Human.ml" 85 2177 2189 "Human.ml" 85 2177 2192
+type(
+  'd list
+)
+ident(
+  int_ref lst "Human.ml" 83 2144 2164 "Human.ml" 83 2144 2167
+)
+"Human.ml" 86 2198 2206 "Human.ml" 86 2198 2208
+type(
+  'd list
+)
+"Human.ml" 86 2198 2212 "Human.ml" 86 2198 2214
+type(
+  unit
+)
+"Human.ml" 87 2215 2223 "Human.ml" 87 2215 2225
+type(
+  'd
+)
+ident(
+  def hd "Human.ml" 87 2215 2235 "Human.ml" 92 2428 2463
+)
+"Human.ml" 87 2215 2229 "Human.ml" 87 2215 2231
+type(
+  'd list
+)
+ident(
+  def tl "Human.ml" 87 2215 2235 "Human.ml" 92 2428 2463
+)
+"Human.ml" 87 2215 2223 "Human.ml" 87 2215 2231
+type(
+  'd list
+)
+"Human.ml" 87 2215 2239 "Human.ml" 87 2215 2241
+type(
+  'd
+)
+ident(
+  int_ref hd "Human.ml" 87 2215 2223 "Human.ml" 87 2215 2225
+)
+"Human.ml" 87 2215 2239 "Human.ml" 87 2215 2258
+call(
+  stack
+)
+type(
+  'c option
+)
+"Human.ml" 87 2215 2259 "Human.ml" 87 2215 2261
+type(
+  'c option -> 'c option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"Human.ml" 87 2215 2262 "Human.ml" 87 2215 2266
+type(
+  'c option
+)
+"Human.ml" 87 2215 2239 "Human.ml" 87 2215 2266
+type(
+  bool
+)
+"Human.ml" 88 2273 2288 "Human.ml" 88 2273 2290
+type(
+  'd
+)
+ident(
+  int_ref hd "Human.ml" 87 2215 2223 "Human.ml" 87 2215 2225
+)
+"Human.ml" 88 2273 2288 "Human.ml" 88 2273 2303
+call(
+  stack
+)
+type(
+  int option
+)
+"Human.ml" 89 2309 2320 "Human.ml" 89 2309 2324
+type(
+  int option
+)
+"Human.ml" 89 2309 2328 "Human.ml" 89 2309 2335
+type(
+  'd list -> unit
+)
+ident(
+  int_ref extract "Human.ml" 83 2144 2156 "Human.ml" 83 2144 2163
+)
+"Human.ml" 89 2309 2336 "Human.ml" 89 2309 2338
+type(
+  'd list
+)
+ident(
+  int_ref tl "Human.ml" 87 2215 2229 "Human.ml" 87 2215 2231
+)
+"Human.ml" 89 2309 2328 "Human.ml" 89 2309 2338
+call(
+  tail
+)
+type(
+  unit
+)
+"Human.ml" 90 2339 2355 "Human.ml" 90 2339 2356
+type(
+  int
+)
+ident(
+  def x "Human.ml" 90 2339 2360 "Human.ml" 91 2394 2425
+)
+"Human.ml" 90 2339 2350 "Human.ml" 90 2339 2356
+type(
+  int option
+)
+"Human.ml" 90 2339 2375 "Human.ml" 90 2339 2376
+type(
+  int
+)
+ident(
+  int_ref x "Human.ml" 90 2339 2355 "Human.ml" 90 2339 2356
+)
+"Human.ml" 90 2339 2380 "Human.ml" 90 2339 2390
+type(
+  int list
+)
+ident(
+  ext_ref human_gold
+)
+"Human.ml" 90 2339 2375 "Human.ml" 90 2339 2390
+type(
+  int list
+)
+"Human.ml" 90 2339 2360 "Human.ml" 90 2339 2391
+type(
+  unit
+)
+"Human.ml" 91 2394 2415 "Human.ml" 91 2394 2422
+type(
+  'd list -> unit
+)
+ident(
+  int_ref extract "Human.ml" 83 2144 2156 "Human.ml" 83 2144 2163
+)
+"Human.ml" 91 2394 2423 "Human.ml" 91 2394 2425
+type(
+  'd list
+)
+ident(
+  int_ref tl "Human.ml" 87 2215 2229 "Human.ml" 87 2215 2231
+)
+"Human.ml" 91 2394 2415 "Human.ml" 91 2394 2425
+call(
+  tail
+)
+type(
+  unit
+)
+"Human.ml" 90 2339 2360 "Human.ml" 91 2394 2425
+type(
+  unit
+)
+"Human.ml" 88 2273 2282 "Human.ml" 91 2394 2425
+type(
+  unit
+)
+"Human.ml" 92 2428 2453 "Human.ml" 92 2428 2460
+type(
+  'd list -> unit
+)
+ident(
+  int_ref extract "Human.ml" 83 2144 2156 "Human.ml" 83 2144 2163
+)
+"Human.ml" 92 2428 2461 "Human.ml" 92 2428 2463
+type(
+  'd list
+)
+ident(
+  int_ref tl "Human.ml" 87 2215 2229 "Human.ml" 87 2215 2231
+)
+"Human.ml" 92 2428 2453 "Human.ml" 92 2428 2463
+call(
+  tail
+)
+type(
+  unit
+)
+"Human.ml" 87 2215 2235 "Human.ml" 92 2428 2463
+type(
+  unit
+)
+"Human.ml" 85 2177 2183 "Human.ml" 92 2428 2463
+type(
+  unit
+)
+"Human.ml" 83 2144 2164 "Human.ml" 92 2428 2463
+type(
+  'd list -> unit
+)
+"Human.ml" 93 2467 2471 "Human.ml" 93 2467 2478
+type(
+  world_object_i list -> unit
+)
+ident(
+  int_ref extract "Human.ml" 83 2144 2156 "Human.ml" 83 2144 2163
+)
+"Human.ml" 93 2467 2480 "Human.ml" 93 2467 2489
+type(
+  int * int -> world_object_i list
+)
+ident(
+  ext_ref World.get
+)
+"Human.ml" 93 2467 2490 "Human.ml" 93 2467 2494
+type(
+  'a
+)
+ident(
+  int_ref self "Human.ml" 31 723 730 "Human.ml" 31 723 734
+)
+"Human.ml" 93 2467 2490 "Human.ml" 93 2467 2502
+call(
+  stack
+)
+type(
+  int * int
+)
+"Human.ml" 93 2467 2480 "Human.ml" 93 2467 2502
+call(
+  stack
+)
+type(
+  world_object_i list
+)
+"Human.ml" 93 2467 2471 "Human.ml" 93 2467 2503
+call(
+  tail
+)
+type(
+  unit
+)
+"Human.ml" 83 2144 2148 "Human.ml" 93 2467 2503
+type(
+  unit
+)
+type(
+  unit
+)
+"Human.ml" 82 2111 2113 "Human.ml" 93 2467 2503
+type(
+  'a -> unit
+)
+"Human.ml" 96 2538 2546 "Human.ml" 96 2538 2549
+type(
+  int
+)
+ident(
+  def tmp "Human.ml" 97 2578 2582 "Human.ml" 97 2578 2608
+)
+"Human.ml" 96 2538 2552 "Human.ml" 96 2538 2563
+type(
+  int list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"Human.ml" 96 2538 2564 "Human.ml" 96 2538 2574
+type(
+  int list
+)
+ident(
+  ext_ref human_gold
+)
+"Human.ml" 96 2538 2552 "Human.ml" 96 2538 2574
+call(
+  stack
+)
+type(
+  int
+)
+"Human.ml" 97 2578 2596 "Human.ml" 97 2578 2598
+type(
+  int list
+)
+"Human.ml" 97 2578 2582 "Human.ml" 97 2578 2598
+type(
+  unit
+)
+"Human.ml" 97 2578 2605 "Human.ml" 97 2578 2608
+type(
+  int
+)
+ident(
+  int_ref tmp "Human.ml" 96 2538 2546 "Human.ml" 96 2538 2549
+)
+"Human.ml" 97 2578 2600 "Human.ml" 97 2578 2608
+type(
+  int option
+)
+"Human.ml" 97 2578 2582 "Human.ml" 97 2578 2608
+type(
+  int option
+)
+"Human.ml" 96 2538 2542 "Human.ml" 97 2578 2608
+type(
+  int option
+)
+type(
+  int option
+)
+"Human.ml" 95 2506 2508 "Human.ml" 97 2578 2608
+type(
+  'a -> int option
+)
+"Human.ml" 100 2644 2648 "Human.ml" 100 2644 2652
+type(
+  'a
+)
+ident(
+  int_ref self "Human.ml" 31 723 730 "Human.ml" 31 723 734
+)
+"Human.ml" 100 2644 2648 "Human.ml" 100 2644 2665
+call(
+  stack
+)
+type(
+  unit
+)
+"Human.ml" 101 2667 2671 "Human.ml" 101 2667 2675
+type(
+  'a
+)
+ident(
+  int_ref self "Human.ml" 31 723 730 "Human.ml" 31 723 734
+)
+"Human.ml" 101 2667 2671 "Human.ml" 101 2667 2688
+call(
+  tail
+)
+type(
+  unit
+)
+"Human.ml" 100 2644 2648 "Human.ml" 101 2667 2688
+type(
+  unit
+)
+type(
+  unit
+)
+"Human.ml" 99 2615 2617 "Human.ml" 101 2667 2688
+type(
+  'a -> unit
+)
+"Human.ml" 105 2739 2776 "Human.ml" 105 2739 2786
+type(
+  int list
+)
+type(
+  int list
+)
+ident(
+  ext_ref human_gold
+)
+"Human.ml" 105 2739 2741 "Human.ml" 105 2739 2786
+type(
+  'a -> int list
+)
+"Human.ml" 108 2843 2851 "Human.ml" 108 2843 2859
+type(
+  world_object_i list
+)
+ident(
+  def obj_list "Human.ml" 109 2919 2923 "Human.ml" 122 3364 3390
+)
+"Human.ml" 108 2843 2862 "Human.ml" 108 2843 2888
+type(
+  int * int -> int -> world_object_i list
+)
+ident(
+  ext_ref World.objects_within_range
+)
+"Human.ml" 108 2843 2889 "Human.ml" 108 2843 2893
+type(
+  'a
+)
+ident(
+  int_ref self "Human.ml" 31 723 730 "Human.ml" 31 723 734
+)
+"Human.ml" 108 2843 2889 "Human.ml" 108 2843 2901
+call(
+  stack
+)
+type(
+  int * int
+)
+"Human.ml" 108 2843 2902 "Human.ml" 108 2843 2915
+type(
+  int
+)
+ident(
+  ext_ref sensing_range
+)
+"Human.ml" 108 2843 2862 "Human.ml" 108 2843 2915
+call(
+  stack
+)
+type(
+  world_object_i list
+)
+"Human.ml" 109 2919 2927 "Human.ml" 109 2919 2932
+type(
+  < smells_like_gold : int option; .. > -> bool
+)
+ident(
+  def smell "Human.ml" 113 3058 3062 "Human.ml" 122 3364 3390
+)
+"Human.ml" 109 2919 2933 "Human.ml" 109 2919 2937
+type(
+  < smells_like_gold : int option; .. > as 'e
+)
+ident(
+  def town "Human.ml" 109 2919 2938 "Human.ml" 112 3009 3054
+)
+"Human.ml" 110 2948 2960 "Human.ml" 110 2948 2964
+type(
+  'e
+)
+ident(
+  int_ref town "Human.ml" 109 2919 2933 "Human.ml" 109 2919 2937
+)
+"Human.ml" 110 2948 2960 "Human.ml" 110 2948 2981
+call(
+  stack
+)
+type(
+  int option
+)
+"Human.ml" 111 2987 2995 "Human.ml" 111 2987 2999
+type(
+  int option
+)
+"Human.ml" 111 2987 3003 "Human.ml" 111 2987 3008
+type(
+  bool
+)
+"Human.ml" 112 3009 3022 "Human.ml" 112 3009 3023
+type(
+  int
+)
+ident(
+  def n "Human.ml" 112 3009 3027 "Human.ml" 112 3009 3054
+)
+"Human.ml" 112 3009 3017 "Human.ml" 112 3009 3023
+type(
+  int option
+)
+"Human.ml" 112 3009 3027 "Human.ml" 112 3009 3030
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"Human.ml" 112 3009 3032 "Human.ml" 112 3009 3040
+type(
+  ?equal:(int -> int -> bool) -> int list -> int -> bool
+)
+ident(
+  ext_ref Core.Std.List.mem
+)
+"Human.ml" 112 3009 3041 "Human.ml" 112 3009 3051
+type(
+  int list
+)
+ident(
+  ext_ref human_gold
+)
+"Human.ml" 112 3009 3052 "Human.ml" 112 3009 3053
+type(
+  int
+)
+ident(
+  int_ref n "Human.ml" 112 3009 3022 "Human.ml" 112 3009 3023
+)
+"Human.ml" 112 3009 3032 "Human.ml" 112 3009 3053
+call(
+  stack
+)
+type(
+  bool
+)
+"Human.ml" 112 3009 3027 "Human.ml" 112 3009 3054
+type(
+  bool
+)
+"Human.ml" 110 2948 2954 "Human.ml" 112 3009 3054
+type(
+  bool
+)
+type(
+  bool
+)
+"Human.ml" 109 2919 2933 "Human.ml" 112 3009 3054
+type(
+  'e -> bool
+)
+"Human.ml" 113 3058 3066 "Human.ml" 113 3058 3076
+type(
+  world_object_i list
+)
+ident(
+  def smell_list "Human.ml" 115 3131 3135 "Human.ml" 122 3364 3390
+)
+"Human.ml" 114 3079 3085 "Human.ml" 114 3079 3096
+type(
+  world_object_i list -> f:(world_object_i -> bool) -> world_object_i list
+)
+ident(
+  ext_ref Core.Std.List.filter
+)
+"Human.ml" 114 3079 3097 "Human.ml" 114 3079 3105
+type(
+  world_object_i list
+)
+ident(
+  int_ref obj_list "Human.ml" 108 2843 2851 "Human.ml" 108 2843 2859
+)
+"Human.ml" 114 3079 3114 "Human.ml" 114 3079 3115
+type(
+  world_object_i
+)
+ident(
+  def x "Human.ml" 114 3079 3119 "Human.ml" 114 3079 3126
+)
+"Human.ml" 114 3079 3119 "Human.ml" 114 3079 3124
+type(
+  world_object_i -> bool
+)
+ident(
+  int_ref smell "Human.ml" 109 2919 2927 "Human.ml" 109 2919 2932
+)
+"Human.ml" 114 3079 3125 "Human.ml" 114 3079 3126
+type(
+  world_object_i
+)
+ident(
+  int_ref x "Human.ml" 114 3079 3114 "Human.ml" 114 3079 3115
+)
+"Human.ml" 114 3079 3119 "Human.ml" 114 3079 3126
+call(
+  tail
+)
+type(
+  bool
+)
+"Human.ml" 114 3079 3114 "Human.ml" 114 3079 3126
+type(
+  world_object_i -> bool
+)
+"Human.ml" 114 3079 3085 "Human.ml" 114 3079 3127
+call(
+  stack
+)
+type(
+  world_object_i list
+)
+"Human.ml" 115 3131 3141 "Human.ml" 115 3131 3151
+type(
+  world_object_i list
+)
+ident(
+  int_ref smell_list "Human.ml" 113 3058 3066 "Human.ml" 113 3058 3076
+)
+"Human.ml" 116 3157 3163 "Human.ml" 116 3157 3165
+type(
+  world_object_i list
+)
+"Human.ml" 116 3157 3169 "Human.ml" 116 3157 3173
+type(
+  world_object_i option
+)
+"Human.ml" 117 3174 3180 "Human.ml" 117 3174 3182
+type(
+  world_object_i
+)
+ident(
+  def hd "Human.ml" 117 3174 3192 "Human.ml" 122 3364 3390
+)
+"Human.ml" 117 3174 3186 "Human.ml" 117 3174 3188
+type(
+  world_object_i list
+)
+ident(
+  def tl "Human.ml" 117 3174 3192 "Human.ml" 122 3364 3390
+)
+"Human.ml" 117 3174 3180 "Human.ml" 117 3174 3188
+type(
+  world_object_i list
+)
+"Human.ml" 118 3198 3205 "Human.ml" 118 3198 3214
+type(
+  world_object_i list ->
+  init:world_object_i ->
+  f:(world_object_i -> world_object_i -> world_object_i) -> world_object_i
+)
+ident(
+  ext_ref Core.Std.List.fold
+)
+"Human.ml" 118 3198 3215 "Human.ml" 118 3198 3217
+type(
+  world_object_i list
+)
+ident(
+  int_ref tl "Human.ml" 117 3174 3186 "Human.ml" 117 3174 3188
+)
+"Human.ml" 118 3198 3226 "Human.ml" 118 3198 3227
+type(
+  world_object_i
+)
+ident(
+  def x "Human.ml" 118 3198 3228 "Human.ml" 122 3364 3379
+)
+"Human.ml" 118 3198 3228 "Human.ml" 118 3198 3229
+type(
+  world_object_i
+)
+ident(
+  def y "Human.ml" 119 3233 3242 "Human.ml" 122 3364 3379
+)
+"Human.ml" 119 3233 3246 "Human.ml" 119 3233 3264
+type(
+  int * int -> int * int -> float
+)
+ident(
+  ext_ref Direction.distance
+)
+"Human.ml" 119 3233 3265 "Human.ml" 119 3233 3269
+type(
+  'a
+)
+ident(
+  int_ref self "Human.ml" 31 723 730 "Human.ml" 31 723 734
+)
+"Human.ml" 119 3233 3265 "Human.ml" 119 3233 3277
+call(
+  stack
+)
+type(
+  int * int
+)
+"Human.ml" 119 3233 3278 "Human.ml" 119 3233 3279
+type(
+  world_object_i
+)
+ident(
+  int_ref x "Human.ml" 118 3198 3226 "Human.ml" 118 3198 3227
+)
+"Human.ml" 119 3233 3278 "Human.ml" 119 3233 3287
+call(
+  stack
+)
+type(
+  int * int
+)
+"Human.ml" 119 3233 3246 "Human.ml" 119 3233 3287
+call(
+  stack
+)
+type(
+  float
+)
+"Human.ml" 119 3233 3289 "Human.ml" 119 3233 3290
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"Human.ml" 120 3291 3304 "Human.ml" 120 3291 3322
+type(
+  int * int -> int * int -> float
+)
+ident(
+  ext_ref Direction.distance
+)
+"Human.ml" 120 3291 3323 "Human.ml" 120 3291 3327
+type(
+  'a
+)
+ident(
+  int_ref self "Human.ml" 31 723 730 "Human.ml" 31 723 734
+)
+"Human.ml" 120 3291 3323 "Human.ml" 120 3291 3335
+call(
+  stack
+)
+type(
+  int * int
+)
+"Human.ml" 120 3291 3336 "Human.ml" 120 3291 3337
+type(
+  world_object_i
+)
+ident(
+  int_ref y "Human.ml" 118 3198 3228 "Human.ml" 118 3198 3229
+)
+"Human.ml" 120 3291 3336 "Human.ml" 120 3291 3345
+call(
+  stack
+)
+type(
+  int * int
+)
+"Human.ml" 120 3291 3304 "Human.ml" 120 3291 3345
+call(
+  stack
+)
+type(
+  float
+)
+"Human.ml" 119 3233 3245 "Human.ml" 120 3291 3346
+type(
+  bool
+)
+"Human.ml" 121 3347 3361 "Human.ml" 121 3347 3362
+type(
+  world_object_i
+)
+ident(
+  int_ref y "Human.ml" 118 3198 3228 "Human.ml" 118 3198 3229
+)
+"Human.ml" 122 3364 3378 "Human.ml" 122 3364 3379
+type(
+  world_object_i
+)
+ident(
+  int_ref x "Human.ml" 118 3198 3226 "Human.ml" 118 3198 3227
+)
+"Human.ml" 119 3233 3242 "Human.ml" 122 3364 3379
+type(
+  world_object_i
+)
+"Human.ml" 118 3198 3228 "Human.ml" 122 3364 3379
+type(
+  world_object_i -> world_object_i
+)
+"Human.ml" 118 3198 3226 "Human.ml" 122 3364 3379
+type(
+  world_object_i -> world_object_i -> world_object_i
+)
+"Human.ml" 122 3364 3387 "Human.ml" 122 3364 3389
+type(
+  world_object_i
+)
+ident(
+  int_ref hd "Human.ml" 117 3174 3180 "Human.ml" 117 3174 3182
+)
+"Human.ml" 118 3198 3205 "Human.ml" 122 3364 3389
+call(
+  stack
+)
+type(
+  world_object_i
+)
+"Human.ml" 117 3174 3192 "Human.ml" 122 3364 3390
+type(
+  world_object_i option
+)
+"Human.ml" 115 3131 3135 "Human.ml" 122 3364 3390
+type(
+  world_object_i option
+)
+"Human.ml" 113 3058 3062 "Human.ml" 122 3364 3390
+type(
+  world_object_i option
+)
+"Human.ml" 109 2919 2923 "Human.ml" 122 3364 3390
+type(
+  world_object_i option
+)
+"Human.ml" 108 2843 2847 "Human.ml" 122 3364 3390
+type(
+  world_object_i option
+)
+type(
+  world_object_i option
+)
+"Human.ml" 107 2788 2790 "Human.ml" 122 3364 3390
+type(
+  'a -> world_object_i option
+)
+"Human.ml" 132 3552 3573 "Human.ml" 132 3552 3580
+type(
+  string
+)
+type(
+  string
+)
+"Human.ml" 132 3552 3554 "Human.ml" 132 3552 3580
+type(
+  'a -> string
+)
+"Human.ml" 134 3584 3609 "Human.ml" 134 3584 3613
+type(
+  'a
+)
+ident(
+  int_ref self "Human.ml" 31 723 730 "Human.ml" 31 723 734
+)
+"Human.ml" 134 3584 3609 "Human.ml" 134 3584 3625
+call(
+  tail
+)
+type(
+  int -> int -> string -> unit
+)
+"Human.ml" 134 3584 3627 "Human.ml" 134 3584 3639
+type(
+  int -> int -> int -> int
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"Human.ml" 134 3584 3640 "Human.ml" 134 3584 3644
+type(
+  int
+)
+"Human.ml" 135 3645 3662 "Human.ml" 135 3645 3666
+type(
+  int
+)
+"Human.ml" 135 3645 3667 "Human.ml" 135 3645 3671
+type(
+  int
+)
+"Human.ml" 134 3584 3627 "Human.ml" 135 3645 3671
+call(
+  stack
+)
+type(
+  int
+)
+"Human.ml" 135 3645 3673 "Human.ml" 135 3645 3687
+type(
+  int
+)
+ident(
+  ext_ref Graphics.black
+)
+"Human.ml" 135 3645 3689 "Human.ml" 135 3645 3702
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"Human.ml" 135 3645 3704 "Human.ml" 135 3645 3715
+type(
+  int list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"Human.ml" 135 3645 3716 "Human.ml" 135 3645 3726
+type(
+  int list
+)
+ident(
+  ext_ref human_gold
+)
+"Human.ml" 135 3645 3704 "Human.ml" 135 3645 3726
+call(
+  stack
+)
+type(
+  int
+)
+"Human.ml" 135 3645 3689 "Human.ml" 135 3645 3727
+call(
+  stack
+)
+type(
+  string
+)
+"Human.ml" 134 3584 3609 "Human.ml" 135 3645 3728
+type(
+  unit
+)
+type(
+  unit
+)
+"Human.ml" 134 3584 3586 "Human.ml" 135 3645 3728
+type(
+  'a -> unit
+)
+"Human.ml" 137 3730 3754 "Human.ml" 137 3730 3755
+type(
+  int
+)
+type(
+  int
+)
+"Human.ml" 137 3730 3732 "Human.ml" 137 3730 3755
+type(
+  'a -> int
+)
+"Human.ml" 155 4122 4129 "Human.ml" 155 4122 4140
+type(
+  int list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"Human.ml" 155 4122 4142 "Human.ml" 155 4122 4148
+type(
+  int list -> int list
+)
+ident(
+  ext_ref Helpers.unique
+)
+"Human.ml" 155 4122 4149 "Human.ml" 155 4122 4159
+type(
+  int list
+)
+ident(
+  ext_ref human_gold
+)
+"Human.ml" 155 4122 4142 "Human.ml" 155 4122 4159
+call(
+  stack
+)
+type(
+  int list
+)
+"Human.ml" 155 4122 4129 "Human.ml" 155 4122 4160
+call(
+  stack
+)
+type(
+  int
+)
+"Human.ml" 155 4122 4161 "Human.ml" 155 4122 4163
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"Human.ml" 155 4122 4164 "Human.ml" 155 4122 4178
+type(
+  int
+)
+ident(
+  int_ref max_gold_types "Human.ml" 11 169 173 "Human.ml" 11 169 187
+)
+"Human.ml" 155 4122 4129 "Human.ml" 155 4122 4178
+type(
+  bool
+)
+"Human.ml" 156 4179 4188 "Human.ml" 156 4179 4211
+type(
+  int * int -> int * int -> Direction.direction option
+)
+ident(
+  ext_ref World.direction_from_to
+)
+"Human.ml" 156 4179 4213 "Human.ml" 156 4179 4217
+type(
+  'a
+)
+ident(
+  int_ref self "Human.ml" 31 723 730 "Human.ml" 31 723 734
+)
+"Human.ml" 156 4179 4213 "Human.ml" 156 4179 4225
+call(
+  stack
+)
+type(
+  int * int
+)
+"Human.ml" 156 4179 4228 "Human.ml" 156 4179 4232
+type(
+  world_object_i
+)
+ident(
+  int_ref home "Human.ml" 30 673 688 "Human.ml" 30 673 692
+)
+"Human.ml" 156 4179 4228 "Human.ml" 156 4179 4240
+call(
+  stack
+)
+type(
+  int * int
+)
+"Human.ml" 156 4179 4188 "Human.ml" 156 4179 4241
+call(
+  tail
+)
+type(
+  Direction.direction option
+)
+"Human.ml" 157 4242 4257 "Human.ml" 157 4242 4261
+type(
+  'a
+)
+ident(
+  int_ref self "Human.ml" 31 723 730 "Human.ml" 31 723 734
+)
+"Human.ml" 157 4242 4257 "Human.ml" 157 4242 4273
+call(
+  stack
+)
+type(
+  world_object_i option
+)
+"Human.ml" 158 4279 4295 "Human.ml" 158 4279 4299
+type(
+  world_object_i
+)
+ident(
+  def town "Human.ml" 158 4279 4303 "Human.ml" 158 4279 4352
+)
+"Human.ml" 158 4279 4290 "Human.ml" 158 4279 4299
+type(
+  world_object_i option
+)
+"Human.ml" 158 4279 4303 "Human.ml" 158 4279 4326
+type(
+  int * int -> int * int -> Direction.direction option
+)
+ident(
+  ext_ref World.direction_from_to
+)
+"Human.ml" 158 4279 4327 "Human.ml" 158 4279 4331
+type(
+  'a
+)
+ident(
+  int_ref self "Human.ml" 31 723 730 "Human.ml" 31 723 734
+)
+"Human.ml" 158 4279 4327 "Human.ml" 158 4279 4339
+call(
+  stack
+)
+type(
+  int * int
+)
+"Human.ml" 158 4279 4340 "Human.ml" 158 4279 4344
+type(
+  world_object_i
+)
+ident(
+  int_ref town "Human.ml" 158 4279 4295 "Human.ml" 158 4279 4299
+)
+"Human.ml" 158 4279 4340 "Human.ml" 158 4279 4352
+call(
+  stack
+)
+type(
+  int * int
+)
+"Human.ml" 158 4279 4303 "Human.ml" 158 4279 4352
+call(
+  tail
+)
+type(
+  Direction.direction option
+)
+"Human.ml" 159 4354 4358 "Human.ml" 159 4354 4359
+type(
+  world_object_i option
+)
+"Human.ml" 159 4354 4363 "Human.ml" 159 4354 4367
+type(
+  'a
+)
+ident(
+  int_ref self "Human.ml" 31 723 730 "Human.ml" 31 723 734
+)
+"Human.ml" 159 4354 4363 "Human.ml" 159 4354 4390
+call(
+  tail
+)
+type(
+  Direction.direction option
+)
+"Human.ml" 157 4242 4251 "Human.ml" 159 4354 4390
+type(
+  Direction.direction option
+)
+"Human.ml" 155 4122 4126 "Human.ml" 159 4354 4390
+type(
+  Direction.direction option
+)
+type(
+  Direction.direction option
+)
+"Human.ml" 154 4065 4067 "Human.ml" 159 4354 4390
+type(
+  'a -> Direction.direction option
+)
+"Human.ml" 162 4434 4505 "Human.ml" 162 4434 4509
+type(
+  Direction.direction option
+)
+type(
+  Direction.direction option
+)
+"Human.ml" 162 4434 4436 "Human.ml" 162 4434 4509
+type(
+  'a -> Direction.direction option
+)
+"Human.ml" 170 4640 4664 "Human.ml" 170 4640 4667
+type(
+  world_object_i
+)
+ident(
+  def obj "Human.ml" 171 4671 4673 "Human.ml" 173 4732 4741
+)
+"Human.ml" 171 4671 4677 "Human.ml" 171 4671 4681
+type(
+  'a
+)
+ident(
+  int_ref self "Human.ml" 31 723 730 "Human.ml" 31 723 734
+)
+"Human.ml" 171 4671 4677 "Human.ml" 171 4671 4689
+call(
+  stack
+)
+type(
+  int * int
+)
+"Human.ml" 171 4671 4690 "Human.ml" 171 4671 4691
+type(
+  int * int -> int * int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Human.ml" 171 4671 4692 "Human.ml" 171 4671 4695
+type(
+  world_object_i
+)
+ident(
+  int_ref obj "Human.ml" 170 4640 4664 "Human.ml" 170 4640 4667
+)
+"Human.ml" 171 4671 4692 "Human.ml" 171 4671 4703
+call(
+  stack
+)
+type(
+  int * int
+)
+"Human.ml" 171 4671 4677 "Human.ml" 171 4671 4703
+type(
+  bool
+)
+"Human.ml" 172 4706 4713 "Human.ml" 172 4706 4716
+type(
+  world_object_i
+)
+ident(
+  int_ref obj "Human.ml" 170 4640 4664 "Human.ml" 170 4640 4667
+)
+"Human.ml" 172 4706 4713 "Human.ml" 172 4706 4731
+call(
+  tail
+)
+type(
+  unit
+)
+"Human.ml" 173 4732 4739 "Human.ml" 173 4732 4741
+type(
+  unit
+)
+"Human.ml" 171 4671 4673 "Human.ml" 173 4732 4741
+type(
+  unit
+)
+"Human.ml" 170 4640 4664 "Human.ml" 173 4732 4741
+type(
+  world_object_i -> unit
+)
+type(
+  world_object_i -> unit
+)
+"Human.ml" 170 4640 4642 "Human.ml" 173 4732 4741
+type(
+  'a -> world_object_i -> unit
+)
+"Human.ml" 182 5005 5011 "Human.ml" 182 5005 5014
+type(
+  world_object_i
+)
+ident(
+  def obj "Human.ml" 182 5005 5018 "Human.ml" 182 5005 5059
+)
+"Human.ml" 182 5005 5018 "Human.ml" 182 5005 5030
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"Human.ml" 182 5005 5031 "Human.ml" 182 5005 5042
+type(
+  string
+)
+"Human.ml" 182 5005 5018 "Human.ml" 182 5005 5042
+call(
+  stack
+)
+type(
+  unit
+)
+"Human.ml" 182 5005 5044 "Human.ml" 182 5005 5048
+type(
+  'a
+)
+ident(
+  int_ref self "Human.ml" 31 723 730 "Human.ml" 31 723 734
+)
+"Human.ml" 182 5005 5044 "Human.ml" 182 5005 5055
+call(
+  tail
+)
+type(
+  world_object_i -> unit
+)
+"Human.ml" 182 5005 5056 "Human.ml" 182 5005 5059
+type(
+  world_object_i
+)
+ident(
+  int_ref obj "Human.ml" 182 5005 5011 "Human.ml" 182 5005 5014
+)
+"Human.ml" 182 5005 5044 "Human.ml" 182 5005 5059
+type(
+  unit
+)
+"Human.ml" 182 5005 5018 "Human.ml" 182 5005 5059
+type(
+  unit
+)
+"Human.ml" 182 5005 5011 "Human.ml" 182 5005 5060
+type(
+  world_object_i -> unit
+)
+type(
+  world_object_i -> unit
+)
+"Human.ml" 181 4976 4978 "Human.ml" 182 5005 5060
+type(
+  'a -> world_object_i -> unit
+)

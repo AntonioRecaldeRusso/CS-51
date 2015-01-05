@@ -1,0 +1,1662 @@
+"Direction.ml" 8 194 198 "Direction.ml" 8 194 201
+type(
+  direction list
+)
+ident(
+  def all "Direction.ml" 12 370 370 "Direction.ml" 1 0 -1
+)
+"Direction.ml" 9 221 225 "Direction.ml" 9 221 230
+type(
+  direction
+)
+"Direction.ml" 9 221 232 "Direction.ml" 9 221 237
+type(
+  direction
+)
+"Direction.ml" 9 221 239 "Direction.ml" 9 221 243
+type(
+  direction
+)
+"Direction.ml" 9 221 245 "Direction.ml" 9 221 249
+type(
+  direction
+)
+"Direction.ml" 9 221 251 "Direction.ml" 9 221 260
+type(
+  direction
+)
+"Direction.ml" 9 221 262 "Direction.ml" 9 221 271
+type(
+  direction
+)
+"Direction.ml" 9 221 273 "Direction.ml" 9 221 282
+type(
+  direction
+)
+"Direction.ml" 9 221 284 "Direction.ml" 9 221 293
+type(
+  direction
+)
+type(
+  direction list
+)
+"Direction.ml" 9 221 273 "Direction.ml" 9 221 293
+type(
+  direction list
+)
+"Direction.ml" 9 221 262 "Direction.ml" 9 221 293
+type(
+  direction list
+)
+"Direction.ml" 9 221 251 "Direction.ml" 9 221 293
+type(
+  direction list
+)
+"Direction.ml" 9 221 245 "Direction.ml" 9 221 293
+type(
+  direction list
+)
+"Direction.ml" 9 221 239 "Direction.ml" 9 221 293
+type(
+  direction list
+)
+"Direction.ml" 9 221 232 "Direction.ml" 9 221 293
+type(
+  direction list
+)
+"Direction.ml" 9 221 225 "Direction.ml" 9 221 293
+type(
+  direction list
+)
+type(
+  direction list
+)
+"Direction.ml" 9 221 223 "Direction.ml" 9 221 295
+type(
+  direction list
+)
+"Direction.ml" 12 370 374 "Direction.ml" 12 370 377
+type(
+  int -> direction
+)
+ident(
+  def ord "Direction.ml" 18 610 610 "Direction.ml" 1 0 -1
+)
+"Direction.ml" 12 370 379 "Direction.ml" 12 370 380
+type(
+  int
+)
+ident(
+  def n "Direction.ml" 12 370 386 "Direction.ml" 15 469 540
+)
+"Direction.ml" 13 400 408 "Direction.ml" 13 400 409
+type(
+  int
+)
+ident(
+  int_ref n "Direction.ml" 12 370 379 "Direction.ml" 12 370 380
+)
+"Direction.ml" 14 415 421 "Direction.ml" 14 415 422
+type(
+  int
+)
+"Direction.ml" 14 415 426 "Direction.ml" 14 415 431
+type(
+  direction
+)
+"Direction.ml" 14 415 434 "Direction.ml" 14 415 435
+type(
+  int
+)
+"Direction.ml" 14 415 439 "Direction.ml" 14 415 444
+type(
+  direction
+)
+"Direction.ml" 14 415 447 "Direction.ml" 14 415 448
+type(
+  int
+)
+"Direction.ml" 14 415 452 "Direction.ml" 14 415 456
+type(
+  direction
+)
+"Direction.ml" 14 415 459 "Direction.ml" 14 415 460
+type(
+  int
+)
+"Direction.ml" 14 415 464 "Direction.ml" 14 415 468
+type(
+  direction
+)
+"Direction.ml" 15 469 475 "Direction.ml" 15 469 476
+type(
+  int
+)
+"Direction.ml" 15 469 480 "Direction.ml" 15 469 489
+type(
+  direction
+)
+"Direction.ml" 15 469 492 "Direction.ml" 15 469 493
+type(
+  int
+)
+"Direction.ml" 15 469 497 "Direction.ml" 15 469 506
+type(
+  direction
+)
+"Direction.ml" 15 469 509 "Direction.ml" 15 469 510
+type(
+  int
+)
+"Direction.ml" 15 469 514 "Direction.ml" 15 469 523
+type(
+  direction
+)
+"Direction.ml" 15 469 526 "Direction.ml" 15 469 527
+type(
+  int
+)
+"Direction.ml" 15 469 531 "Direction.ml" 15 469 540
+type(
+  direction
+)
+"Direction.ml" 13 400 402 "Direction.ml" 15 469 540
+type(
+  direction
+)
+type(
+  direction
+)
+"Direction.ml" 12 370 378 "Direction.ml" 15 469 540
+type(
+  int -> direction
+)
+"Direction.ml" 18 610 614 "Direction.ml" 18 610 620
+type(
+  (int -> int) -> direction
+)
+ident(
+  def random "Direction.ml" 21 728 728 "Direction.ml" 1 0 -1
+)
+"Direction.ml" 18 610 622 "Direction.ml" 18 610 623
+type(
+  int -> int
+)
+ident(
+  def r "Direction.ml" 18 610 636 "Direction.ml" 18 610 659
+)
+"Direction.ml" 18 610 650 "Direction.ml" 18 610 653
+type(
+  int -> direction
+)
+ident(
+  int_ref ord "Direction.ml" 12 370 374 "Direction.ml" 12 370 377
+)
+"Direction.ml" 18 610 655 "Direction.ml" 18 610 656
+type(
+  int -> int
+)
+ident(
+  int_ref r "Direction.ml" 18 610 622 "Direction.ml" 18 610 623
+)
+"Direction.ml" 18 610 657 "Direction.ml" 18 610 658
+type(
+  int
+)
+"Direction.ml" 18 610 655 "Direction.ml" 18 610 658
+call(
+  stack
+)
+type(
+  int
+)
+"Direction.ml" 18 610 650 "Direction.ml" 18 610 659
+call(
+  tail
+)
+type(
+  direction
+)
+type(
+  direction
+)
+"Direction.ml" 18 610 621 "Direction.ml" 18 610 659
+type(
+  (int -> int) -> direction
+)
+"Direction.ml" 21 728 732 "Direction.ml" 21 728 741
+type(
+  direction -> int * int
+)
+ident(
+  def to_vector "Direction.ml" 29 996 996 "Direction.ml" 1 0 -1
+)
+"Direction.ml" 21 728 743 "Direction.ml" 21 728 744
+type(
+  direction
+)
+ident(
+  def d "Direction.ml" 21 728 756 "Direction.ml" 26 906 954
+)
+"Direction.ml" 22 768 776 "Direction.ml" 22 768 777
+type(
+  direction
+)
+ident(
+  int_ref d "Direction.ml" 21 728 743 "Direction.ml" 21 728 744
+)
+"Direction.ml" 23 783 789 "Direction.ml" 23 783 794
+type(
+  direction
+)
+"Direction.ml" 23 783 799 "Direction.ml" 23 783 800
+type(
+  int
+)
+"Direction.ml" 23 783 801 "Direction.ml" 23 783 802
+type(
+  int
+)
+"Direction.ml" 23 783 799 "Direction.ml" 23 783 802
+type(
+  int * int
+)
+"Direction.ml" 23 783 806 "Direction.ml" 23 783 811
+type(
+  direction
+)
+"Direction.ml" 23 783 816 "Direction.ml" 23 783 817
+type(
+  int
+)
+"Direction.ml" 23 783 818 "Direction.ml" 23 783 820
+type(
+  int
+)
+"Direction.ml" 23 783 816 "Direction.ml" 23 783 820
+type(
+  int * int
+)
+"Direction.ml" 24 822 828 "Direction.ml" 24 822 832
+type(
+  direction
+)
+"Direction.ml" 24 822 837 "Direction.ml" 24 822 838
+type(
+  int
+)
+"Direction.ml" 24 822 839 "Direction.ml" 24 822 840
+type(
+  int
+)
+"Direction.ml" 24 822 837 "Direction.ml" 24 822 840
+type(
+  int * int
+)
+"Direction.ml" 24 822 844 "Direction.ml" 24 822 848
+type(
+  direction
+)
+"Direction.ml" 24 822 853 "Direction.ml" 24 822 855
+type(
+  int
+)
+"Direction.ml" 24 822 856 "Direction.ml" 24 822 857
+type(
+  int
+)
+"Direction.ml" 24 822 853 "Direction.ml" 24 822 857
+type(
+  int * int
+)
+"Direction.ml" 25 859 865 "Direction.ml" 25 859 874
+type(
+  direction
+)
+"Direction.ml" 25 859 879 "Direction.ml" 25 859 880
+type(
+  int
+)
+"Direction.ml" 25 859 881 "Direction.ml" 25 859 882
+type(
+  int
+)
+"Direction.ml" 25 859 879 "Direction.ml" 25 859 882
+type(
+  int * int
+)
+"Direction.ml" 25 859 886 "Direction.ml" 25 859 895
+type(
+  direction
+)
+"Direction.ml" 25 859 900 "Direction.ml" 25 859 901
+type(
+  int
+)
+"Direction.ml" 25 859 902 "Direction.ml" 25 859 904
+type(
+  int
+)
+"Direction.ml" 25 859 900 "Direction.ml" 25 859 904
+type(
+  int * int
+)
+"Direction.ml" 26 906 912 "Direction.ml" 26 906 921
+type(
+  direction
+)
+"Direction.ml" 26 906 926 "Direction.ml" 26 906 928
+type(
+  int
+)
+"Direction.ml" 26 906 929 "Direction.ml" 26 906 930
+type(
+  int
+)
+"Direction.ml" 26 906 926 "Direction.ml" 26 906 930
+type(
+  int * int
+)
+"Direction.ml" 26 906 934 "Direction.ml" 26 906 943
+type(
+  direction
+)
+"Direction.ml" 26 906 948 "Direction.ml" 26 906 950
+type(
+  int
+)
+"Direction.ml" 26 906 951 "Direction.ml" 26 906 953
+type(
+  int
+)
+"Direction.ml" 26 906 948 "Direction.ml" 26 906 953
+type(
+  int * int
+)
+"Direction.ml" 22 768 770 "Direction.ml" 26 906 954
+type(
+  int * int
+)
+type(
+  int * int
+)
+"Direction.ml" 21 728 742 "Direction.ml" 26 906 954
+type(
+  direction -> int * int
+)
+"Direction.ml" 29 996 1000 "Direction.ml" 29 996 1008
+type(
+  int * int -> int * int -> float
+)
+ident(
+  def distance "Direction.ml" 33 1174 1174 "Direction.ml" 1 0 -1
+)
+"Direction.ml" 29 996 1011 "Direction.ml" 29 996 1013
+type(
+  int
+)
+ident(
+  def x1 "Direction.ml" 29 996 1027 "Direction.ml" 30 1055 1124
+)
+"Direction.ml" 29 996 1014 "Direction.ml" 29 996 1016
+type(
+  int
+)
+ident(
+  def y1 "Direction.ml" 29 996 1027 "Direction.ml" 30 1055 1124
+)
+"Direction.ml" 29 996 1011 "Direction.ml" 29 996 1016
+type(
+  int * int
+)
+"Direction.ml" 29 996 1029 "Direction.ml" 29 996 1031
+type(
+  int
+)
+ident(
+  def x2 "Direction.ml" 29 996 1045 "Direction.ml" 30 1055 1124
+)
+"Direction.ml" 29 996 1032 "Direction.ml" 29 996 1034
+type(
+  int
+)
+ident(
+  def y2 "Direction.ml" 29 996 1045 "Direction.ml" 30 1055 1124
+)
+"Direction.ml" 29 996 1029 "Direction.ml" 29 996 1034
+type(
+  int * int
+)
+"Direction.ml" 30 1055 1057 "Direction.ml" 30 1055 1061
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.sqrt
+)
+"Direction.ml" 30 1055 1063 "Direction.ml" 30 1055 1075
+type(
+  int -> float
+)
+ident(
+  ext_ref Core.Std.Float.of_int
+)
+"Direction.ml" 30 1055 1077 "Direction.ml" 30 1055 1079
+type(
+  int
+)
+ident(
+  int_ref x1 "Direction.ml" 29 996 1011 "Direction.ml" 29 996 1013
+)
+"Direction.ml" 30 1055 1080 "Direction.ml" 30 1055 1081
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"Direction.ml" 30 1055 1082 "Direction.ml" 30 1055 1084
+type(
+  int
+)
+ident(
+  int_ref x2 "Direction.ml" 29 996 1029 "Direction.ml" 29 996 1031
+)
+"Direction.ml" 30 1055 1077 "Direction.ml" 30 1055 1084
+type(
+  int
+)
+"Direction.ml" 30 1055 1063 "Direction.ml" 30 1055 1085
+call(
+  stack
+)
+type(
+  float
+)
+"Direction.ml" 30 1055 1086 "Direction.ml" 30 1055 1088
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( ** )
+)
+"Direction.ml" 30 1055 1089 "Direction.ml" 30 1055 1091
+type(
+  float
+)
+"Direction.ml" 30 1055 1063 "Direction.ml" 30 1055 1091
+type(
+  float
+)
+"Direction.ml" 30 1055 1092 "Direction.ml" 30 1055 1094
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"Direction.ml" 30 1055 1095 "Direction.ml" 30 1055 1107
+type(
+  int -> float
+)
+ident(
+  ext_ref Core.Std.Float.of_int
+)
+"Direction.ml" 30 1055 1109 "Direction.ml" 30 1055 1111
+type(
+  int
+)
+ident(
+  int_ref y1 "Direction.ml" 29 996 1014 "Direction.ml" 29 996 1016
+)
+"Direction.ml" 30 1055 1112 "Direction.ml" 30 1055 1113
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"Direction.ml" 30 1055 1114 "Direction.ml" 30 1055 1116
+type(
+  int
+)
+ident(
+  int_ref y2 "Direction.ml" 29 996 1032 "Direction.ml" 29 996 1034
+)
+"Direction.ml" 30 1055 1109 "Direction.ml" 30 1055 1116
+type(
+  int
+)
+"Direction.ml" 30 1055 1095 "Direction.ml" 30 1055 1117
+call(
+  stack
+)
+type(
+  float
+)
+"Direction.ml" 30 1055 1118 "Direction.ml" 30 1055 1120
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( ** )
+)
+"Direction.ml" 30 1055 1121 "Direction.ml" 30 1055 1123
+type(
+  float
+)
+"Direction.ml" 30 1055 1095 "Direction.ml" 30 1055 1123
+type(
+  float
+)
+"Direction.ml" 30 1055 1063 "Direction.ml" 30 1055 1123
+type(
+  float
+)
+"Direction.ml" 30 1055 1057 "Direction.ml" 30 1055 1124
+type(
+  float
+)
+type(
+  float
+)
+"Direction.ml" 29 996 1027 "Direction.ml" 30 1055 1124
+type(
+  int * int -> float
+)
+"Direction.ml" 29 996 1009 "Direction.ml" 30 1055 1124
+type(
+  int * int -> int * int -> float
+)
+"Direction.ml" 33 1174 1178 "Direction.ml" 33 1174 1188
+type(
+  int * int -> direction option -> int * int
+)
+ident(
+  def move_point "Direction.ml" 43 1554 1554 "Direction.ml" 1 0 -1
+)
+"Direction.ml" 33 1174 1191 "Direction.ml" 33 1174 1192
+type(
+  int
+)
+ident(
+  def x "Direction.ml" 33 1174 1205 "Direction.ml" 38 1323 1341
+)
+"Direction.ml" 33 1174 1193 "Direction.ml" 33 1174 1194
+type(
+  int
+)
+ident(
+  def y "Direction.ml" 33 1174 1205 "Direction.ml" 38 1323 1341
+)
+"Direction.ml" 33 1174 1191 "Direction.ml" 33 1174 1194
+type(
+  int * int
+)
+"Direction.ml" 33 1174 1206 "Direction.ml" 33 1174 1208
+type(
+  direction option
+)
+ident(
+  def dM "Direction.ml" 33 1174 1227 "Direction.ml" 38 1323 1341
+)
+"Direction.ml" 34 1239 1247 "Direction.ml" 34 1239 1249
+type(
+  direction option
+)
+ident(
+  int_ref dM "Direction.ml" 33 1174 1206 "Direction.ml" 33 1174 1208
+)
+"Direction.ml" 35 1255 1259 "Direction.ml" 35 1255 1263
+type(
+  direction option
+)
+"Direction.ml" 35 1255 1268 "Direction.ml" 35 1255 1269
+type(
+  int
+)
+ident(
+  int_ref x "Direction.ml" 33 1174 1191 "Direction.ml" 33 1174 1192
+)
+"Direction.ml" 35 1255 1270 "Direction.ml" 35 1255 1271
+type(
+  int
+)
+ident(
+  int_ref y "Direction.ml" 33 1174 1193 "Direction.ml" 33 1174 1194
+)
+"Direction.ml" 35 1255 1268 "Direction.ml" 35 1255 1271
+type(
+  int * int
+)
+"Direction.ml" 36 1273 1282 "Direction.ml" 36 1273 1283
+type(
+  direction
+)
+ident(
+  def d "Direction.ml" 37 1287 1293 "Direction.ml" 38 1323 1341
+)
+"Direction.ml" 36 1273 1277 "Direction.ml" 36 1273 1283
+type(
+  direction option
+)
+"Direction.ml" 37 1287 1298 "Direction.ml" 37 1287 1300
+type(
+  int
+)
+ident(
+  def dx "Direction.ml" 38 1323 1330 "Direction.ml" 38 1323 1340
+)
+"Direction.ml" 37 1287 1302 "Direction.ml" 37 1287 1304
+type(
+  int
+)
+ident(
+  def dy "Direction.ml" 38 1323 1330 "Direction.ml" 38 1323 1340
+)
+"Direction.ml" 37 1287 1298 "Direction.ml" 37 1287 1304
+type(
+  int * int
+)
+"Direction.ml" 37 1287 1308 "Direction.ml" 37 1287 1317
+type(
+  direction -> int * int
+)
+ident(
+  int_ref to_vector "Direction.ml" 21 728 732 "Direction.ml" 21 728 741
+)
+"Direction.ml" 37 1287 1318 "Direction.ml" 37 1287 1319
+type(
+  direction
+)
+ident(
+  int_ref d "Direction.ml" 36 1273 1282 "Direction.ml" 36 1273 1283
+)
+"Direction.ml" 37 1287 1308 "Direction.ml" 37 1287 1319
+call(
+  stack
+)
+type(
+  int * int
+)
+"Direction.ml" 38 1323 1330 "Direction.ml" 38 1323 1331
+type(
+  int
+)
+ident(
+  int_ref x "Direction.ml" 33 1174 1191 "Direction.ml" 33 1174 1192
+)
+"Direction.ml" 38 1323 1331 "Direction.ml" 38 1323 1332
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"Direction.ml" 38 1323 1332 "Direction.ml" 38 1323 1334
+type(
+  int
+)
+ident(
+  int_ref dx "Direction.ml" 37 1287 1298 "Direction.ml" 37 1287 1300
+)
+"Direction.ml" 38 1323 1330 "Direction.ml" 38 1323 1334
+type(
+  int
+)
+"Direction.ml" 38 1323 1336 "Direction.ml" 38 1323 1337
+type(
+  int
+)
+ident(
+  int_ref y "Direction.ml" 33 1174 1193 "Direction.ml" 33 1174 1194
+)
+"Direction.ml" 38 1323 1337 "Direction.ml" 38 1323 1338
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"Direction.ml" 38 1323 1338 "Direction.ml" 38 1323 1340
+type(
+  int
+)
+ident(
+  int_ref dy "Direction.ml" 37 1287 1302 "Direction.ml" 37 1287 1304
+)
+"Direction.ml" 38 1323 1336 "Direction.ml" 38 1323 1340
+type(
+  int
+)
+"Direction.ml" 38 1323 1330 "Direction.ml" 38 1323 1340
+type(
+  int * int
+)
+"Direction.ml" 37 1287 1293 "Direction.ml" 38 1323 1341
+type(
+  int * int
+)
+"Direction.ml" 34 1239 1241 "Direction.ml" 38 1323 1341
+type(
+  int * int
+)
+type(
+  int * int
+)
+"Direction.ml" 33 1174 1205 "Direction.ml" 38 1323 1341
+type(
+  direction option -> int * int
+)
+"Direction.ml" 33 1174 1189 "Direction.ml" 38 1323 1341
+type(
+  int * int -> direction option -> int * int
+)
+"Direction.ml" 43 1554 1558 "Direction.ml" 43 1554 1565
+type(
+  int * int -> int * int -> direction option
+)
+ident(
+  def natural "Direction.ml" 57 2166 2166 "Direction.ml" 1 0 -1
+)
+"Direction.ml" 43 1554 1568 "Direction.ml" 43 1554 1570
+type(
+  int
+)
+ident(
+  def x1 "Direction.ml" 43 1554 1584 "Direction.ml" 53 2036 2064
+)
+"Direction.ml" 43 1554 1571 "Direction.ml" 43 1554 1573
+type(
+  int
+)
+ident(
+  def y1 "Direction.ml" 43 1554 1584 "Direction.ml" 53 2036 2064
+)
+"Direction.ml" 43 1554 1568 "Direction.ml" 43 1554 1573
+type(
+  int * int
+)
+"Direction.ml" 43 1554 1586 "Direction.ml" 43 1554 1588
+type(
+  int
+)
+ident(
+  def x2 "Direction.ml" 43 1554 1602 "Direction.ml" 53 2036 2064
+)
+"Direction.ml" 43 1554 1589 "Direction.ml" 43 1554 1591
+type(
+  int
+)
+ident(
+  def y2 "Direction.ml" 43 1554 1602 "Direction.ml" 53 2036 2064
+)
+"Direction.ml" 43 1554 1586 "Direction.ml" 43 1554 1591
+type(
+  int * int
+)
+"Direction.ml" 44 1623 1633 "Direction.ml" 44 1623 1635
+type(
+  int
+)
+ident(
+  int_ref x1 "Direction.ml" 43 1554 1568 "Direction.ml" 43 1554 1570
+)
+"Direction.ml" 44 1623 1636 "Direction.ml" 44 1623 1637
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"Direction.ml" 44 1623 1638 "Direction.ml" 44 1623 1640
+type(
+  int
+)
+ident(
+  int_ref x2 "Direction.ml" 43 1554 1586 "Direction.ml" 43 1554 1588
+)
+"Direction.ml" 44 1623 1633 "Direction.ml" 44 1623 1640
+type(
+  bool
+)
+"Direction.ml" 44 1623 1641 "Direction.ml" 44 1623 1643
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"Direction.ml" 44 1623 1644 "Direction.ml" 44 1623 1646
+type(
+  int
+)
+ident(
+  int_ref y1 "Direction.ml" 43 1554 1571 "Direction.ml" 43 1554 1573
+)
+"Direction.ml" 44 1623 1647 "Direction.ml" 44 1623 1648
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"Direction.ml" 44 1623 1649 "Direction.ml" 44 1623 1651
+type(
+  int
+)
+ident(
+  int_ref y2 "Direction.ml" 43 1554 1589 "Direction.ml" 43 1554 1591
+)
+"Direction.ml" 44 1623 1644 "Direction.ml" 44 1623 1651
+type(
+  bool
+)
+"Direction.ml" 44 1623 1633 "Direction.ml" 44 1623 1651
+type(
+  bool
+)
+"Direction.ml" 44 1623 1662 "Direction.ml" 44 1623 1671
+type(
+  direction
+)
+"Direction.ml" 44 1623 1657 "Direction.ml" 44 1623 1671
+type(
+  direction option
+)
+"Direction.ml" 45 1672 1682 "Direction.ml" 45 1672 1684
+type(
+  int
+)
+ident(
+  int_ref x1 "Direction.ml" 43 1554 1568 "Direction.ml" 43 1554 1570
+)
+"Direction.ml" 45 1672 1685 "Direction.ml" 45 1672 1686
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"Direction.ml" 45 1672 1687 "Direction.ml" 45 1672 1689
+type(
+  int
+)
+ident(
+  int_ref x2 "Direction.ml" 43 1554 1586 "Direction.ml" 43 1554 1588
+)
+"Direction.ml" 45 1672 1682 "Direction.ml" 45 1672 1689
+type(
+  bool
+)
+"Direction.ml" 45 1672 1690 "Direction.ml" 45 1672 1692
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"Direction.ml" 45 1672 1693 "Direction.ml" 45 1672 1695
+type(
+  int
+)
+ident(
+  int_ref y1 "Direction.ml" 43 1554 1571 "Direction.ml" 43 1554 1573
+)
+"Direction.ml" 45 1672 1696 "Direction.ml" 45 1672 1697
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Direction.ml" 45 1672 1698 "Direction.ml" 45 1672 1700
+type(
+  int
+)
+ident(
+  int_ref y2 "Direction.ml" 43 1554 1589 "Direction.ml" 43 1554 1591
+)
+"Direction.ml" 45 1672 1693 "Direction.ml" 45 1672 1700
+type(
+  bool
+)
+"Direction.ml" 45 1672 1682 "Direction.ml" 45 1672 1700
+type(
+  bool
+)
+"Direction.ml" 45 1672 1711 "Direction.ml" 45 1672 1715
+type(
+  direction
+)
+"Direction.ml" 45 1672 1706 "Direction.ml" 45 1672 1715
+type(
+  direction option
+)
+"Direction.ml" 46 1716 1726 "Direction.ml" 46 1716 1728
+type(
+  int
+)
+ident(
+  int_ref x1 "Direction.ml" 43 1554 1568 "Direction.ml" 43 1554 1570
+)
+"Direction.ml" 46 1716 1729 "Direction.ml" 46 1716 1730
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"Direction.ml" 46 1716 1731 "Direction.ml" 46 1716 1733
+type(
+  int
+)
+ident(
+  int_ref x2 "Direction.ml" 43 1554 1586 "Direction.ml" 43 1554 1588
+)
+"Direction.ml" 46 1716 1726 "Direction.ml" 46 1716 1733
+type(
+  bool
+)
+"Direction.ml" 46 1716 1734 "Direction.ml" 46 1716 1736
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"Direction.ml" 46 1716 1737 "Direction.ml" 46 1716 1739
+type(
+  int
+)
+ident(
+  int_ref y1 "Direction.ml" 43 1554 1571 "Direction.ml" 43 1554 1573
+)
+"Direction.ml" 46 1716 1740 "Direction.ml" 46 1716 1741
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"Direction.ml" 46 1716 1742 "Direction.ml" 46 1716 1744
+type(
+  int
+)
+ident(
+  int_ref y2 "Direction.ml" 43 1554 1589 "Direction.ml" 43 1554 1591
+)
+"Direction.ml" 46 1716 1737 "Direction.ml" 46 1716 1744
+type(
+  bool
+)
+"Direction.ml" 46 1716 1726 "Direction.ml" 46 1716 1744
+type(
+  bool
+)
+"Direction.ml" 46 1716 1755 "Direction.ml" 46 1716 1764
+type(
+  direction
+)
+"Direction.ml" 46 1716 1750 "Direction.ml" 46 1716 1764
+type(
+  direction option
+)
+"Direction.ml" 47 1765 1775 "Direction.ml" 47 1765 1777
+type(
+  int
+)
+ident(
+  int_ref x1 "Direction.ml" 43 1554 1568 "Direction.ml" 43 1554 1570
+)
+"Direction.ml" 47 1765 1778 "Direction.ml" 47 1765 1779
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Direction.ml" 47 1765 1780 "Direction.ml" 47 1765 1782
+type(
+  int
+)
+ident(
+  int_ref x2 "Direction.ml" 43 1554 1586 "Direction.ml" 43 1554 1588
+)
+"Direction.ml" 47 1765 1775 "Direction.ml" 47 1765 1782
+type(
+  bool
+)
+"Direction.ml" 47 1765 1783 "Direction.ml" 47 1765 1785
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"Direction.ml" 47 1765 1786 "Direction.ml" 47 1765 1788
+type(
+  int
+)
+ident(
+  int_ref y1 "Direction.ml" 43 1554 1571 "Direction.ml" 43 1554 1573
+)
+"Direction.ml" 47 1765 1789 "Direction.ml" 47 1765 1790
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"Direction.ml" 47 1765 1791 "Direction.ml" 47 1765 1793
+type(
+  int
+)
+ident(
+  int_ref y2 "Direction.ml" 43 1554 1589 "Direction.ml" 43 1554 1591
+)
+"Direction.ml" 47 1765 1786 "Direction.ml" 47 1765 1793
+type(
+  bool
+)
+"Direction.ml" 47 1765 1775 "Direction.ml" 47 1765 1793
+type(
+  bool
+)
+"Direction.ml" 47 1765 1804 "Direction.ml" 47 1765 1809
+type(
+  direction
+)
+"Direction.ml" 47 1765 1799 "Direction.ml" 47 1765 1809
+type(
+  direction option
+)
+"Direction.ml" 48 1810 1820 "Direction.ml" 48 1810 1822
+type(
+  int
+)
+ident(
+  int_ref x1 "Direction.ml" 43 1554 1568 "Direction.ml" 43 1554 1570
+)
+"Direction.ml" 48 1810 1823 "Direction.ml" 48 1810 1824
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Direction.ml" 48 1810 1825 "Direction.ml" 48 1810 1827
+type(
+  int
+)
+ident(
+  int_ref x2 "Direction.ml" 43 1554 1586 "Direction.ml" 43 1554 1588
+)
+"Direction.ml" 48 1810 1820 "Direction.ml" 48 1810 1827
+type(
+  bool
+)
+"Direction.ml" 48 1810 1828 "Direction.ml" 48 1810 1830
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"Direction.ml" 48 1810 1831 "Direction.ml" 48 1810 1833
+type(
+  int
+)
+ident(
+  int_ref y1 "Direction.ml" 43 1554 1571 "Direction.ml" 43 1554 1573
+)
+"Direction.ml" 48 1810 1834 "Direction.ml" 48 1810 1835
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Direction.ml" 48 1810 1836 "Direction.ml" 48 1810 1838
+type(
+  int
+)
+ident(
+  int_ref y2 "Direction.ml" 43 1554 1589 "Direction.ml" 43 1554 1591
+)
+"Direction.ml" 48 1810 1831 "Direction.ml" 48 1810 1838
+type(
+  bool
+)
+"Direction.ml" 48 1810 1820 "Direction.ml" 48 1810 1838
+type(
+  bool
+)
+"Direction.ml" 48 1810 1844 "Direction.ml" 48 1810 1848
+type(
+  direction option
+)
+"Direction.ml" 49 1849 1859 "Direction.ml" 49 1849 1861
+type(
+  int
+)
+ident(
+  int_ref x1 "Direction.ml" 43 1554 1568 "Direction.ml" 43 1554 1570
+)
+"Direction.ml" 49 1849 1862 "Direction.ml" 49 1849 1863
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Direction.ml" 49 1849 1864 "Direction.ml" 49 1849 1866
+type(
+  int
+)
+ident(
+  int_ref x2 "Direction.ml" 43 1554 1586 "Direction.ml" 43 1554 1588
+)
+"Direction.ml" 49 1849 1859 "Direction.ml" 49 1849 1866
+type(
+  bool
+)
+"Direction.ml" 49 1849 1867 "Direction.ml" 49 1849 1869
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"Direction.ml" 49 1849 1870 "Direction.ml" 49 1849 1872
+type(
+  int
+)
+ident(
+  int_ref y1 "Direction.ml" 43 1554 1571 "Direction.ml" 43 1554 1573
+)
+"Direction.ml" 49 1849 1873 "Direction.ml" 49 1849 1874
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"Direction.ml" 49 1849 1875 "Direction.ml" 49 1849 1877
+type(
+  int
+)
+ident(
+  int_ref y2 "Direction.ml" 43 1554 1589 "Direction.ml" 43 1554 1591
+)
+"Direction.ml" 49 1849 1870 "Direction.ml" 49 1849 1877
+type(
+  bool
+)
+"Direction.ml" 49 1849 1859 "Direction.ml" 49 1849 1877
+type(
+  bool
+)
+"Direction.ml" 49 1849 1888 "Direction.ml" 49 1849 1893
+type(
+  direction
+)
+"Direction.ml" 49 1849 1883 "Direction.ml" 49 1849 1893
+type(
+  direction option
+)
+"Direction.ml" 50 1894 1904 "Direction.ml" 50 1894 1906
+type(
+  int
+)
+ident(
+  int_ref x1 "Direction.ml" 43 1554 1568 "Direction.ml" 43 1554 1570
+)
+"Direction.ml" 50 1894 1907 "Direction.ml" 50 1894 1908
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"Direction.ml" 50 1894 1909 "Direction.ml" 50 1894 1911
+type(
+  int
+)
+ident(
+  int_ref x2 "Direction.ml" 43 1554 1586 "Direction.ml" 43 1554 1588
+)
+"Direction.ml" 50 1894 1904 "Direction.ml" 50 1894 1911
+type(
+  bool
+)
+"Direction.ml" 50 1894 1912 "Direction.ml" 50 1894 1914
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"Direction.ml" 50 1894 1915 "Direction.ml" 50 1894 1917
+type(
+  int
+)
+ident(
+  int_ref y1 "Direction.ml" 43 1554 1571 "Direction.ml" 43 1554 1573
+)
+"Direction.ml" 50 1894 1918 "Direction.ml" 50 1894 1919
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"Direction.ml" 50 1894 1920 "Direction.ml" 50 1894 1922
+type(
+  int
+)
+ident(
+  int_ref y2 "Direction.ml" 43 1554 1589 "Direction.ml" 43 1554 1591
+)
+"Direction.ml" 50 1894 1915 "Direction.ml" 50 1894 1922
+type(
+  bool
+)
+"Direction.ml" 50 1894 1904 "Direction.ml" 50 1894 1922
+type(
+  bool
+)
+"Direction.ml" 50 1894 1933 "Direction.ml" 50 1894 1942
+type(
+  direction
+)
+"Direction.ml" 50 1894 1928 "Direction.ml" 50 1894 1942
+type(
+  direction option
+)
+"Direction.ml" 51 1943 1953 "Direction.ml" 51 1943 1955
+type(
+  int
+)
+ident(
+  int_ref x1 "Direction.ml" 43 1554 1568 "Direction.ml" 43 1554 1570
+)
+"Direction.ml" 51 1943 1956 "Direction.ml" 51 1943 1957
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"Direction.ml" 51 1943 1958 "Direction.ml" 51 1943 1960
+type(
+  int
+)
+ident(
+  int_ref x2 "Direction.ml" 43 1554 1586 "Direction.ml" 43 1554 1588
+)
+"Direction.ml" 51 1943 1953 "Direction.ml" 51 1943 1960
+type(
+  bool
+)
+"Direction.ml" 51 1943 1961 "Direction.ml" 51 1943 1963
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"Direction.ml" 51 1943 1964 "Direction.ml" 51 1943 1966
+type(
+  int
+)
+ident(
+  int_ref y1 "Direction.ml" 43 1554 1571 "Direction.ml" 43 1554 1573
+)
+"Direction.ml" 51 1943 1967 "Direction.ml" 51 1943 1968
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Direction.ml" 51 1943 1969 "Direction.ml" 51 1943 1971
+type(
+  int
+)
+ident(
+  int_ref y2 "Direction.ml" 43 1554 1589 "Direction.ml" 43 1554 1591
+)
+"Direction.ml" 51 1943 1964 "Direction.ml" 51 1943 1971
+type(
+  bool
+)
+"Direction.ml" 51 1943 1953 "Direction.ml" 51 1943 1971
+type(
+  bool
+)
+"Direction.ml" 51 1943 1982 "Direction.ml" 51 1943 1986
+type(
+  direction
+)
+"Direction.ml" 51 1943 1977 "Direction.ml" 51 1943 1986
+type(
+  direction option
+)
+"Direction.ml" 52 1987 1997 "Direction.ml" 52 1987 1999
+type(
+  int
+)
+ident(
+  int_ref x1 "Direction.ml" 43 1554 1568 "Direction.ml" 43 1554 1570
+)
+"Direction.ml" 52 1987 2000 "Direction.ml" 52 1987 2001
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"Direction.ml" 52 1987 2002 "Direction.ml" 52 1987 2004
+type(
+  int
+)
+ident(
+  int_ref x2 "Direction.ml" 43 1554 1586 "Direction.ml" 43 1554 1588
+)
+"Direction.ml" 52 1987 1997 "Direction.ml" 52 1987 2004
+type(
+  bool
+)
+"Direction.ml" 52 1987 2005 "Direction.ml" 52 1987 2007
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"Direction.ml" 52 1987 2008 "Direction.ml" 52 1987 2010
+type(
+  int
+)
+ident(
+  int_ref y1 "Direction.ml" 43 1554 1571 "Direction.ml" 43 1554 1573
+)
+"Direction.ml" 52 1987 2011 "Direction.ml" 52 1987 2012
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"Direction.ml" 52 1987 2013 "Direction.ml" 52 1987 2015
+type(
+  int
+)
+ident(
+  int_ref y2 "Direction.ml" 43 1554 1589 "Direction.ml" 43 1554 1591
+)
+"Direction.ml" 52 1987 2008 "Direction.ml" 52 1987 2015
+type(
+  bool
+)
+"Direction.ml" 52 1987 1997 "Direction.ml" 52 1987 2015
+type(
+  bool
+)
+"Direction.ml" 52 1987 2026 "Direction.ml" 52 1987 2035
+type(
+  direction
+)
+"Direction.ml" 52 1987 2021 "Direction.ml" 52 1987 2035
+type(
+  direction option
+)
+"Direction.ml" 53 2036 2043 "Direction.ml" 53 2036 2051
+type(
+  string -> direction option
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"Direction.ml" 53 2036 2052 "Direction.ml" 53 2036 2064
+type(
+  string
+)
+"Direction.ml" 53 2036 2043 "Direction.ml" 53 2036 2064
+call(
+  tail
+)
+type(
+  direction option
+)
+"Direction.ml" 52 1987 1994 "Direction.ml" 53 2036 2064
+type(
+  direction option
+)
+"Direction.ml" 51 1943 1950 "Direction.ml" 53 2036 2064
+type(
+  direction option
+)
+"Direction.ml" 50 1894 1901 "Direction.ml" 53 2036 2064
+type(
+  direction option
+)
+"Direction.ml" 49 1849 1856 "Direction.ml" 53 2036 2064
+type(
+  direction option
+)
+"Direction.ml" 48 1810 1817 "Direction.ml" 53 2036 2064
+type(
+  direction option
+)
+"Direction.ml" 47 1765 1772 "Direction.ml" 53 2036 2064
+type(
+  direction option
+)
+"Direction.ml" 46 1716 1723 "Direction.ml" 53 2036 2064
+type(
+  direction option
+)
+"Direction.ml" 45 1672 1679 "Direction.ml" 53 2036 2064
+type(
+  direction option
+)
+"Direction.ml" 44 1623 1630 "Direction.ml" 53 2036 2064
+type(
+  direction option
+)
+type(
+  direction option
+)
+"Direction.ml" 43 1554 1584 "Direction.ml" 53 2036 2064
+type(
+  int * int -> direction option
+)
+"Direction.ml" 43 1554 1566 "Direction.ml" 53 2036 2064
+type(
+  int * int -> int * int -> direction option
+)
+"Direction.ml" 57 2166 2174 "Direction.ml" 57 2166 2186
+type(
+  int * int -> int * int -> (int * int) list
+)
+ident(
+  def natural_path "Direction.ml" 57 2166 2166 "Direction.ml" 1 0 -1
+)
+"Direction.ml" 57 2166 2188 "Direction.ml" 57 2166 2190
+type(
+  int * int
+)
+ident(
+  def p1 "Direction.ml" 57 2166 2200 "Direction.ml" 63 2357 2389
+)
+"Direction.ml" 57 2166 2201 "Direction.ml" 57 2166 2203
+type(
+  int * int
+)
+ident(
+  def p2 "Direction.ml" 57 2166 2213 "Direction.ml" 63 2357 2389
+)
+"Direction.ml" 58 2232 2240 "Direction.ml" 58 2232 2242
+type(
+  direction option
+)
+ident(
+  def dM "Direction.ml" 59 2262 2266 "Direction.ml" 63 2357 2389
+)
+"Direction.ml" 58 2232 2245 "Direction.ml" 58 2232 2252
+type(
+  int * int -> int * int -> direction option
+)
+ident(
+  int_ref natural "Direction.ml" 43 1554 1558 "Direction.ml" 43 1554 1565
+)
+"Direction.ml" 58 2232 2253 "Direction.ml" 58 2232 2255
+type(
+  int * int
+)
+ident(
+  int_ref p1 "Direction.ml" 57 2166 2188 "Direction.ml" 57 2166 2190
+)
+"Direction.ml" 58 2232 2256 "Direction.ml" 58 2232 2258
+type(
+  int * int
+)
+ident(
+  int_ref p2 "Direction.ml" 57 2166 2201 "Direction.ml" 57 2166 2203
+)
+"Direction.ml" 58 2232 2245 "Direction.ml" 58 2232 2258
+call(
+  stack
+)
+type(
+  direction option
+)
+"Direction.ml" 59 2262 2272 "Direction.ml" 59 2262 2274
+type(
+  direction option
+)
+ident(
+  int_ref dM "Direction.ml" 58 2232 2240 "Direction.ml" 58 2232 2242
+)
+"Direction.ml" 60 2280 2286 "Direction.ml" 60 2280 2290
+type(
+  direction option
+)
+"Direction.ml" 60 2280 2294 "Direction.ml" 60 2280 2296
+type(
+  (int * int) list
+)
+"Direction.ml" 61 2297 2308 "Direction.ml" 61 2297 2309
+type(
+  direction
+)
+ident(
+  def d "Direction.ml" 62 2313 2321 "Direction.ml" 63 2357 2389
+)
+"Direction.ml" 61 2297 2303 "Direction.ml" 61 2297 2309
+type(
+  direction option
+)
+"Direction.ml" 62 2313 2325 "Direction.ml" 62 2313 2328
+type(
+  int * int
+)
+ident(
+  def p1' "Direction.ml" 63 2357 2365 "Direction.ml" 63 2357 2389
+)
+"Direction.ml" 62 2313 2331 "Direction.ml" 62 2313 2341
+type(
+  int * int -> direction option -> int * int
+)
+ident(
+  int_ref move_point "Direction.ml" 33 1174 1178 "Direction.ml" 33 1174 1188
+)
+"Direction.ml" 62 2313 2342 "Direction.ml" 62 2313 2344
+type(
+  int * int
+)
+ident(
+  int_ref p1 "Direction.ml" 57 2166 2188 "Direction.ml" 57 2166 2190
+)
+"Direction.ml" 62 2313 2351 "Direction.ml" 62 2313 2352
+type(
+  direction
+)
+ident(
+  int_ref d "Direction.ml" 61 2297 2308 "Direction.ml" 61 2297 2309
+)
+"Direction.ml" 62 2313 2346 "Direction.ml" 62 2313 2352
+type(
+  direction option
+)
+"Direction.ml" 62 2313 2331 "Direction.ml" 62 2313 2353
+call(
+  stack
+)
+type(
+  int * int
+)
+"Direction.ml" 63 2357 2365 "Direction.ml" 63 2357 2368
+type(
+  int * int
+)
+ident(
+  int_ref p1' "Direction.ml" 62 2313 2325 "Direction.ml" 62 2313 2328
+)
+"Direction.ml" 63 2357 2370 "Direction.ml" 63 2357 2382
+type(
+  int * int -> int * int -> (int * int) list
+)
+ident(
+  int_ref natural_path "Direction.ml" 57 2166 2174 "Direction.ml" 57 2166 2186
+)
+"Direction.ml" 63 2357 2383 "Direction.ml" 63 2357 2386
+type(
+  int * int
+)
+ident(
+  int_ref p1' "Direction.ml" 62 2313 2325 "Direction.ml" 62 2313 2328
+)
+"Direction.ml" 63 2357 2387 "Direction.ml" 63 2357 2389
+type(
+  int * int
+)
+ident(
+  int_ref p2 "Direction.ml" 57 2166 2201 "Direction.ml" 57 2166 2203
+)
+"Direction.ml" 63 2357 2370 "Direction.ml" 63 2357 2389
+call(
+  stack
+)
+type(
+  (int * int) list
+)
+"Direction.ml" 63 2357 2365 "Direction.ml" 63 2357 2389
+type(
+  (int * int) list
+)
+"Direction.ml" 62 2313 2321 "Direction.ml" 63 2357 2389
+type(
+  (int * int) list
+)
+"Direction.ml" 59 2262 2266 "Direction.ml" 63 2357 2389
+type(
+  (int * int) list
+)
+"Direction.ml" 58 2232 2236 "Direction.ml" 63 2357 2389
+type(
+  (int * int) list
+)
+type(
+  (int * int) list
+)
+"Direction.ml" 57 2166 2200 "Direction.ml" 63 2357 2389
+type(
+  int * int -> (int * int) list
+)
+"Direction.ml" 57 2166 2187 "Direction.ml" 63 2357 2389
+type(
+  int * int -> int * int -> (int * int) list
+)

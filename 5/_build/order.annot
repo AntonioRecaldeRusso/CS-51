@@ -1,0 +1,261 @@
+"order.ml" 6 148 152 "order.ml" 6 148 166
+type(
+  string -> string -> Ordering.t
+)
+ident(
+  def string_compare "order.ml" 10 270 270 "order.ml" 1 0 -1
+)
+"order.ml" 6 148 167 "order.ml" 6 148 168
+type(
+  string
+)
+ident(
+  def x "order.ml" 6 148 169 "order.ml" 8 205 265
+)
+"order.ml" 6 148 169 "order.ml" 6 148 170
+type(
+  string
+)
+ident(
+  def y "order.ml" 7 173 175 "order.ml" 8 205 265
+)
+"order.ml" 7 173 179 "order.ml" 7 173 180
+type(
+  int
+)
+ident(
+  def i "order.ml" 8 205 209 "order.ml" 8 205 265
+)
+"order.ml" 7 173 183 "order.ml" 7 173 197
+type(
+  string -> string -> int
+)
+ident(
+  ext_ref Core.Std.String.compare
+)
+"order.ml" 7 173 198 "order.ml" 7 173 199
+type(
+  string
+)
+ident(
+  int_ref x "order.ml" 6 148 167 "order.ml" 6 148 168
+)
+"order.ml" 7 173 200 "order.ml" 7 173 201
+type(
+  string
+)
+ident(
+  int_ref y "order.ml" 6 148 169 "order.ml" 6 148 170
+)
+"order.ml" 7 173 183 "order.ml" 7 173 201
+call(
+  stack
+)
+type(
+  int
+)
+"order.ml" 8 205 212 "order.ml" 8 205 213
+type(
+  int
+)
+ident(
+  int_ref i "order.ml" 7 173 179 "order.ml" 7 173 180
+)
+"order.ml" 8 205 214 "order.ml" 8 205 215
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"order.ml" 8 205 216 "order.ml" 8 205 217
+type(
+  int
+)
+"order.ml" 8 205 212 "order.ml" 8 205 217
+type(
+  bool
+)
+"order.ml" 8 205 223 "order.ml" 8 205 228
+type(
+  Ordering.t
+)
+"order.ml" 8 205 237 "order.ml" 8 205 238
+type(
+  int
+)
+ident(
+  int_ref i "order.ml" 7 173 179 "order.ml" 7 173 180
+)
+"order.ml" 8 205 239 "order.ml" 8 205 240
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"order.ml" 8 205 241 "order.ml" 8 205 242
+type(
+  int
+)
+"order.ml" 8 205 237 "order.ml" 8 205 242
+type(
+  bool
+)
+"order.ml" 8 205 248 "order.ml" 8 205 252
+type(
+  Ordering.t
+)
+"order.ml" 8 205 258 "order.ml" 8 205 265
+type(
+  Ordering.t
+)
+"order.ml" 8 205 234 "order.ml" 8 205 265
+type(
+  Ordering.t
+)
+"order.ml" 8 205 209 "order.ml" 8 205 265
+type(
+  Ordering.t
+)
+"order.ml" 7 173 175 "order.ml" 8 205 265
+type(
+  Ordering.t
+)
+"order.ml" 6 148 169 "order.ml" 8 205 265
+type(
+  string -> Ordering.t
+)
+"order.ml" 6 148 167 "order.ml" 8 205 265
+type(
+  string -> string -> Ordering.t
+)
+"order.ml" 10 270 274 "order.ml" 10 270 285
+type(
+  int -> int -> Ordering.t
+)
+ident(
+  def int_compare "order.ml" 12 311 371 "order.ml" 1 0 -1
+)
+"order.ml" 10 270 286 "order.ml" 10 270 287
+type(
+  int
+)
+ident(
+  def x "order.ml" 10 270 288 "order.ml" 12 311 371
+)
+"order.ml" 10 270 288 "order.ml" 10 270 289
+type(
+  int
+)
+ident(
+  def y "order.ml" 11 292 294 "order.ml" 12 311 371
+)
+"order.ml" 11 292 298 "order.ml" 11 292 299
+type(
+  int
+)
+ident(
+  def i "order.ml" 12 311 315 "order.ml" 12 311 371
+)
+"order.ml" 11 292 302 "order.ml" 11 292 303
+type(
+  int
+)
+ident(
+  int_ref x "order.ml" 10 270 286 "order.ml" 10 270 287
+)
+"order.ml" 11 292 304 "order.ml" 11 292 305
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"order.ml" 11 292 306 "order.ml" 11 292 307
+type(
+  int
+)
+ident(
+  int_ref y "order.ml" 10 270 288 "order.ml" 10 270 289
+)
+"order.ml" 11 292 302 "order.ml" 11 292 307
+type(
+  int
+)
+"order.ml" 12 311 318 "order.ml" 12 311 319
+type(
+  int
+)
+ident(
+  int_ref i "order.ml" 11 292 298 "order.ml" 11 292 299
+)
+"order.ml" 12 311 320 "order.ml" 12 311 321
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"order.ml" 12 311 322 "order.ml" 12 311 323
+type(
+  int
+)
+"order.ml" 12 311 318 "order.ml" 12 311 323
+type(
+  bool
+)
+"order.ml" 12 311 329 "order.ml" 12 311 334
+type(
+  Ordering.t
+)
+"order.ml" 12 311 343 "order.ml" 12 311 344
+type(
+  int
+)
+ident(
+  int_ref i "order.ml" 11 292 298 "order.ml" 11 292 299
+)
+"order.ml" 12 311 345 "order.ml" 12 311 346
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"order.ml" 12 311 347 "order.ml" 12 311 348
+type(
+  int
+)
+"order.ml" 12 311 343 "order.ml" 12 311 348
+type(
+  bool
+)
+"order.ml" 12 311 354 "order.ml" 12 311 358
+type(
+  Ordering.t
+)
+"order.ml" 12 311 364 "order.ml" 12 311 371
+type(
+  Ordering.t
+)
+"order.ml" 12 311 340 "order.ml" 12 311 371
+type(
+  Ordering.t
+)
+"order.ml" 12 311 315 "order.ml" 12 311 371
+type(
+  Ordering.t
+)
+"order.ml" 11 292 294 "order.ml" 12 311 371
+type(
+  Ordering.t
+)
+"order.ml" 10 270 288 "order.ml" 12 311 371
+type(
+  int -> Ordering.t
+)
+"order.ml" 10 270 286 "order.ml" 12 311 371
+type(
+  int -> int -> Ordering.t
+)

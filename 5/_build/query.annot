@@ -1,0 +1,766 @@
+"query.ml" 19 451 461 "query.ml" 19 451 472
+type(
+  string list -> query
+)
+ident(
+  def parse_words "query.ml" 19 451 453 "query.ml" 48 1408 1411
+)
+"query.ml" 19 451 473 "query.ml" 19 451 475
+type(
+  string list
+)
+ident(
+  def ws "query.ml" 20 479 483 "query.ml" 25 678 730
+)
+"query.ml" 20 479 489 "query.ml" 20 479 491
+type(
+  string list
+)
+ident(
+  int_ref ws "query.ml" 19 451 473 "query.ml" 19 451 475
+)
+"query.ml" 21 498 506 "query.ml" 21 498 507
+type(
+  string
+)
+ident(
+  def w "query.ml" 21 498 524 "query.ml" 21 498 552
+)
+"query.ml" 21 498 509 "query.ml" 21 498 514
+type(
+  string
+)
+"query.ml" 21 498 516 "query.ml" 21 498 520
+type(
+  string list
+)
+ident(
+  def rest "query.ml" 21 498 524 "query.ml" 21 498 552
+)
+"query.ml" 21 498 509 "query.ml" 21 498 520
+type(
+  string list
+)
+"query.ml" 21 498 506 "query.ml" 21 498 520
+type(
+  string list
+)
+"query.ml" 21 498 533 "query.ml" 21 498 534
+type(
+  string
+)
+ident(
+  int_ref w "query.ml" 21 498 506 "query.ml" 21 498 507
+)
+"query.ml" 21 498 528 "query.ml" 21 498 534
+type(
+  query
+)
+"query.ml" 21 498 535 "query.ml" 21 498 546
+type(
+  string list -> query
+)
+ident(
+  int_ref parse_words "query.ml" 19 451 461 "query.ml" 19 451 472
+)
+"query.ml" 21 498 547 "query.ml" 21 498 551
+type(
+  string list
+)
+ident(
+  int_ref rest "query.ml" 21 498 516 "query.ml" 21 498 520
+)
+"query.ml" 21 498 535 "query.ml" 21 498 551
+call(
+  stack
+)
+type(
+  query
+)
+"query.ml" 21 498 524 "query.ml" 21 498 552
+type(
+  query
+)
+"query.ml" 22 553 561 "query.ml" 22 553 562
+type(
+  string
+)
+ident(
+  def w "query.ml" 22 553 578 "query.ml" 22 553 605
+)
+"query.ml" 22 553 564 "query.ml" 22 553 568
+type(
+  string
+)
+"query.ml" 22 553 570 "query.ml" 22 553 574
+type(
+  string list
+)
+ident(
+  def rest "query.ml" 22 553 578 "query.ml" 22 553 605
+)
+"query.ml" 22 553 564 "query.ml" 22 553 574
+type(
+  string list
+)
+"query.ml" 22 553 561 "query.ml" 22 553 574
+type(
+  string list
+)
+"query.ml" 22 553 586 "query.ml" 22 553 587
+type(
+  string
+)
+ident(
+  int_ref w "query.ml" 22 553 561 "query.ml" 22 553 562
+)
+"query.ml" 22 553 581 "query.ml" 22 553 587
+type(
+  query
+)
+"query.ml" 22 553 588 "query.ml" 22 553 599
+type(
+  string list -> query
+)
+ident(
+  int_ref parse_words "query.ml" 19 451 461 "query.ml" 19 451 472
+)
+"query.ml" 22 553 600 "query.ml" 22 553 604
+type(
+  string list
+)
+ident(
+  int_ref rest "query.ml" 22 553 570 "query.ml" 22 553 574
+)
+"query.ml" 22 553 588 "query.ml" 22 553 604
+call(
+  stack
+)
+type(
+  query
+)
+"query.ml" 22 553 578 "query.ml" 22 553 605
+type(
+  query
+)
+"query.ml" 23 606 614 "query.ml" 23 606 615
+type(
+  string
+)
+ident(
+  def w "query.ml" 23 606 623 "query.ml" 23 606 629
+)
+"query.ml" 23 606 617 "query.ml" 23 606 619
+type(
+  string list
+)
+"query.ml" 23 606 614 "query.ml" 23 606 619
+type(
+  string list
+)
+"query.ml" 23 606 628 "query.ml" 23 606 629
+type(
+  string
+)
+ident(
+  int_ref w "query.ml" 23 606 614 "query.ml" 23 606 615
+)
+"query.ml" 23 606 623 "query.ml" 23 606 629
+type(
+  query
+)
+"query.ml" 24 630 638 "query.ml" 24 630 639
+type(
+  string
+)
+ident(
+  def w "query.ml" 24 630 649 "query.ml" 24 630 677
+)
+"query.ml" 24 630 641 "query.ml" 24 630 645
+type(
+  string list
+)
+ident(
+  def rest "query.ml" 24 630 649 "query.ml" 24 630 677
+)
+"query.ml" 24 630 638 "query.ml" 24 630 645
+type(
+  string list
+)
+"query.ml" 24 630 658 "query.ml" 24 630 659
+type(
+  string
+)
+ident(
+  int_ref w "query.ml" 24 630 638 "query.ml" 24 630 639
+)
+"query.ml" 24 630 653 "query.ml" 24 630 659
+type(
+  query
+)
+"query.ml" 24 630 660 "query.ml" 24 630 671
+type(
+  string list -> query
+)
+ident(
+  int_ref parse_words "query.ml" 19 451 461 "query.ml" 19 451 472
+)
+"query.ml" 24 630 672 "query.ml" 24 630 676
+type(
+  string list
+)
+ident(
+  int_ref rest "query.ml" 24 630 641 "query.ml" 24 630 645
+)
+"query.ml" 24 630 660 "query.ml" 24 630 676
+call(
+  stack
+)
+type(
+  query
+)
+"query.ml" 24 630 649 "query.ml" 24 630 677
+type(
+  query
+)
+"query.ml" 25 678 686 "query.ml" 25 678 688
+type(
+  string list
+)
+"query.ml" 25 678 692 "query.ml" 25 678 697
+type(
+  exn -> query
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"query.ml" 25 678 707 "query.ml" 25 678 729
+type(
+  string
+)
+"query.ml" 25 678 699 "query.ml" 25 678 729
+type(
+  exn
+)
+"query.ml" 25 678 692 "query.ml" 25 678 730
+type(
+  query
+)
+"query.ml" 20 479 483 "query.ml" 25 678 730
+type(
+  query
+)
+"query.ml" 19 451 473 "query.ml" 25 678 730
+type(
+  string list -> query
+)
+"query.ml" 27 742 748 "query.ml" 27 742 756
+type(
+  Str.regexp
+)
+ident(
+  def query_re "query.ml" 28 786 788 "query.ml" 48 1408 1411
+)
+"query.ml" 27 742 759 "query.ml" 27 742 769
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"query.ml" 27 742 770 "query.ml" 27 742 785
+type(
+  string
+)
+"query.ml" 27 742 759 "query.ml" 27 742 785
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"query.ml" 28 786 792 "query.ml" 28 786 803
+type(
+  Str.regexp
+)
+ident(
+  def term_sep_re "query.ml" 30 828 830 "query.ml" 48 1408 1411
+)
+"query.ml" 28 786 806 "query.ml" 28 786 816
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"query.ml" 28 786 817 "query.ml" 28 786 822
+type(
+  string
+)
+"query.ml" 28 786 806 "query.ml" 28 786 822
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"query.ml" 30 828 834 "query.ml" 30 828 845
+type(
+  string -> query
+)
+ident(
+  def parse_query "query.ml" 39 1110 1112 "query.ml" 48 1408 1411
+)
+"query.ml" 30 828 846 "query.ml" 30 828 847
+type(
+  string
+)
+ident(
+  def s "query.ml" 31 851 855 "query.ml" 36 1015 1062
+)
+"query.ml" 31 851 858 "query.ml" 31 851 874
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  ext_ref Str.string_match
+)
+"query.ml" 31 851 875 "query.ml" 31 851 883
+type(
+  Str.regexp
+)
+ident(
+  int_ref query_re "query.ml" 27 742 748 "query.ml" 27 742 756
+)
+"query.ml" 31 851 884 "query.ml" 31 851 885
+type(
+  string
+)
+ident(
+  int_ref s "query.ml" 30 828 846 "query.ml" 30 828 847
+)
+"query.ml" 31 851 886 "query.ml" 31 851 887
+type(
+  int
+)
+"query.ml" 31 851 858 "query.ml" 31 851 887
+call(
+  stack
+)
+type(
+  bool
+)
+"query.ml" 32 894 904 "query.ml" 32 894 906
+type(
+  string
+)
+ident(
+  def qs "query.ml" 33 935 941 "query.ml" 35 989 1014
+)
+"query.ml" 32 894 909 "query.ml" 32 894 926
+type(
+  int -> string -> string
+)
+ident(
+  ext_ref Str.matched_group
+)
+"query.ml" 32 894 927 "query.ml" 32 894 928
+type(
+  int
+)
+"query.ml" 32 894 929 "query.ml" 32 894 930
+type(
+  string
+)
+ident(
+  int_ref s "query.ml" 30 828 846 "query.ml" 30 828 847
+)
+"query.ml" 32 894 909 "query.ml" 32 894 930
+call(
+  stack
+)
+type(
+  string
+)
+"query.ml" 33 935 945 "query.ml" 33 935 950
+type(
+  string list
+)
+ident(
+  def words "query.ml" 35 989 997 "query.ml" 35 989 1014
+)
+"query.ml" 33 935 953 "query.ml" 33 935 962
+type(
+  Str.regexp -> string -> string list
+)
+ident(
+  ext_ref Str.split
+)
+"query.ml" 33 935 963 "query.ml" 33 935 974
+type(
+  Str.regexp
+)
+ident(
+  int_ref term_sep_re "query.ml" 28 786 792 "query.ml" 28 786 803
+)
+"query.ml" 33 935 975 "query.ml" 33 935 977
+type(
+  string
+)
+ident(
+  int_ref qs "query.ml" 32 894 904 "query.ml" 32 894 906
+)
+"query.ml" 33 935 953 "query.ml" 33 935 977
+call(
+  stack
+)
+type(
+  string list
+)
+"query.ml" 35 989 997 "query.ml" 35 989 1008
+type(
+  string list -> query
+)
+ident(
+  int_ref parse_words "query.ml" 19 451 461 "query.ml" 19 451 472
+)
+"query.ml" 35 989 1009 "query.ml" 35 989 1014
+type(
+  string list
+)
+ident(
+  int_ref words "query.ml" 33 935 945 "query.ml" 33 935 950
+)
+"query.ml" 35 989 997 "query.ml" 35 989 1014
+call(
+  tail
+)
+type(
+  query
+)
+"query.ml" 33 935 941 "query.ml" 35 989 1014
+type(
+  query
+)
+"query.ml" 32 894 900 "query.ml" 35 989 1014
+type(
+  query
+)
+"query.ml" 36 1015 1024 "query.ml" 36 1015 1029
+type(
+  exn -> query
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"query.ml" 36 1015 1039 "query.ml" 36 1015 1061
+type(
+  string
+)
+"query.ml" 36 1015 1031 "query.ml" 36 1015 1061
+type(
+  exn
+)
+"query.ml" 36 1015 1024 "query.ml" 36 1015 1062
+type(
+  query
+)
+"query.ml" 31 851 855 "query.ml" 36 1015 1062
+type(
+  query
+)
+"query.ml" 30 828 846 "query.ml" 36 1015 1062
+type(
+  string -> query
+)
+"query.ml" 39 1110 1120 "query.ml" 39 1110 1130
+type(
+  D.dict -> query -> S.set
+)
+ident(
+  def eval_query "query.ml" 39 1110 1112 "query.ml" 48 1408 1411
+)
+"query.ml" 39 1110 1132 "query.ml" 39 1110 1135
+type(
+  D.dict
+)
+ident(
+  def idx "query.ml" 39 1110 1146 "query.ml" 46 1390 1406
+)
+"query.ml" 39 1110 1147 "query.ml" 39 1110 1148
+type(
+  query
+)
+ident(
+  def q "query.ml" 39 1110 1156 "query.ml" 46 1390 1406
+)
+"query.ml" 40 1167 1177 "query.ml" 40 1167 1178
+type(
+  query
+)
+ident(
+  int_ref q "query.ml" 39 1110 1147 "query.ml" 39 1110 1148
+)
+"query.ml" 41 1184 1197 "query.ml" 41 1184 1198
+type(
+  query
+)
+ident(
+  def l "query.ml" 41 1184 1206 "query.ml" 41 1184 1255
+)
+"query.ml" 41 1184 1200 "query.ml" 41 1184 1201
+type(
+  query
+)
+ident(
+  def r "query.ml" 41 1184 1206 "query.ml" 41 1184 1255
+)
+"query.ml" 41 1184 1192 "query.ml" 41 1184 1202
+type(
+  query
+)
+"query.ml" 41 1184 1206 "query.ml" 41 1184 1217
+type(
+  S.set -> S.set -> S.set
+)
+ident(
+  ext_ref A.S.intersect
+)
+"query.ml" 41 1184 1219 "query.ml" 41 1184 1229
+type(
+  D.dict -> query -> S.set
+)
+ident(
+  int_ref eval_query "query.ml" 39 1110 1120 "query.ml" 39 1110 1130
+)
+"query.ml" 41 1184 1230 "query.ml" 41 1184 1233
+type(
+  D.dict
+)
+ident(
+  int_ref idx "query.ml" 39 1110 1132 "query.ml" 39 1110 1135
+)
+"query.ml" 41 1184 1234 "query.ml" 41 1184 1235
+type(
+  query
+)
+ident(
+  int_ref l "query.ml" 41 1184 1197 "query.ml" 41 1184 1198
+)
+"query.ml" 41 1184 1219 "query.ml" 41 1184 1235
+call(
+  stack
+)
+type(
+  S.set
+)
+"query.ml" 41 1184 1238 "query.ml" 41 1184 1248
+type(
+  D.dict -> query -> S.set
+)
+ident(
+  int_ref eval_query "query.ml" 39 1110 1120 "query.ml" 39 1110 1130
+)
+"query.ml" 41 1184 1249 "query.ml" 41 1184 1252
+type(
+  D.dict
+)
+ident(
+  int_ref idx "query.ml" 39 1110 1132 "query.ml" 39 1110 1135
+)
+"query.ml" 41 1184 1253 "query.ml" 41 1184 1254
+type(
+  query
+)
+ident(
+  int_ref r "query.ml" 41 1184 1200 "query.ml" 41 1184 1201
+)
+"query.ml" 41 1184 1238 "query.ml" 41 1184 1254
+call(
+  stack
+)
+type(
+  S.set
+)
+"query.ml" 41 1184 1206 "query.ml" 41 1184 1255
+call(
+  tail
+)
+type(
+  S.set
+)
+"query.ml" 42 1256 1268 "query.ml" 42 1256 1269
+type(
+  query
+)
+ident(
+  def l "query.ml" 42 1256 1277 "query.ml" 42 1256 1322
+)
+"query.ml" 42 1256 1271 "query.ml" 42 1256 1272
+type(
+  query
+)
+ident(
+  def r "query.ml" 42 1256 1277 "query.ml" 42 1256 1322
+)
+"query.ml" 42 1256 1264 "query.ml" 42 1256 1273
+type(
+  query
+)
+"query.ml" 42 1256 1277 "query.ml" 42 1256 1284
+type(
+  S.set -> S.set -> S.set
+)
+ident(
+  ext_ref A.S.union
+)
+"query.ml" 42 1256 1286 "query.ml" 42 1256 1296
+type(
+  D.dict -> query -> S.set
+)
+ident(
+  int_ref eval_query "query.ml" 39 1110 1120 "query.ml" 39 1110 1130
+)
+"query.ml" 42 1256 1297 "query.ml" 42 1256 1300
+type(
+  D.dict
+)
+ident(
+  int_ref idx "query.ml" 39 1110 1132 "query.ml" 39 1110 1135
+)
+"query.ml" 42 1256 1301 "query.ml" 42 1256 1302
+type(
+  query
+)
+ident(
+  int_ref l "query.ml" 42 1256 1268 "query.ml" 42 1256 1269
+)
+"query.ml" 42 1256 1286 "query.ml" 42 1256 1302
+call(
+  stack
+)
+type(
+  S.set
+)
+"query.ml" 42 1256 1305 "query.ml" 42 1256 1315
+type(
+  D.dict -> query -> S.set
+)
+ident(
+  int_ref eval_query "query.ml" 39 1110 1120 "query.ml" 39 1110 1130
+)
+"query.ml" 42 1256 1316 "query.ml" 42 1256 1319
+type(
+  D.dict
+)
+ident(
+  int_ref idx "query.ml" 39 1110 1132 "query.ml" 39 1110 1135
+)
+"query.ml" 42 1256 1320 "query.ml" 42 1256 1321
+type(
+  query
+)
+ident(
+  int_ref r "query.ml" 42 1256 1271 "query.ml" 42 1256 1272
+)
+"query.ml" 42 1256 1305 "query.ml" 42 1256 1321
+call(
+  stack
+)
+type(
+  S.set
+)
+"query.ml" 42 1256 1277 "query.ml" 42 1256 1322
+call(
+  tail
+)
+type(
+  S.set
+)
+"query.ml" 43 1323 1336 "query.ml" 43 1323 1337
+type(
+  string
+)
+ident(
+  def s "query.ml" 44 1342 1343 "query.ml" 46 1390 1406
+)
+"query.ml" 43 1323 1331 "query.ml" 43 1323 1337
+type(
+  query
+)
+"query.ml" 44 1342 1349 "query.ml" 44 1342 1357
+type(
+  D.dict -> string -> S.set option
+)
+ident(
+  ext_ref A.D.lookup
+)
+"query.ml" 44 1342 1358 "query.ml" 44 1342 1361
+type(
+  D.dict
+)
+ident(
+  int_ref idx "query.ml" 39 1110 1132 "query.ml" 39 1110 1135
+)
+"query.ml" 44 1342 1362 "query.ml" 44 1342 1363
+type(
+  string
+)
+ident(
+  int_ref s "query.ml" 43 1323 1336 "query.ml" 43 1323 1337
+)
+"query.ml" 44 1342 1349 "query.ml" 44 1342 1363
+call(
+  stack
+)
+type(
+  S.set option
+)
+"query.ml" 45 1369 1374 "query.ml" 45 1369 1378
+type(
+  S.set option
+)
+"query.ml" 45 1369 1382 "query.ml" 45 1369 1389
+type(
+  S.set
+)
+ident(
+  ext_ref A.S.empty
+)
+"query.ml" 46 1390 1400 "query.ml" 46 1390 1401
+type(
+  S.set
+)
+ident(
+  def s "query.ml" 46 1390 1405 "query.ml" 46 1390 1406
+)
+"query.ml" 46 1390 1395 "query.ml" 46 1390 1401
+type(
+  S.set option
+)
+"query.ml" 46 1390 1405 "query.ml" 46 1390 1406
+type(
+  S.set
+)
+ident(
+  int_ref s "query.ml" 46 1390 1400 "query.ml" 46 1390 1401
+)
+"query.ml" 44 1342 1343 "query.ml" 46 1390 1406
+type(
+  S.set
+)
+"query.ml" 40 1167 1171 "query.ml" 46 1390 1406
+type(
+  S.set
+)
+type(
+  S.set
+)
+"query.ml" 39 1110 1146 "query.ml" 46 1390 1406
+type(
+  query -> S.set
+)
+"query.ml" 39 1110 1131 "query.ml" 46 1390 1406
+type(
+  D.dict -> query -> S.set
+)

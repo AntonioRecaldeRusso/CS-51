@@ -1,0 +1,3189 @@
+"World.ml" 11 173 177 "World.ml" 11 173 186
+type(
+  int
+)
+ident(
+  def obj_width "World.ml" 14 241 241 "World.ml" 1 0 -1
+)
+"World.ml" 11 173 195 "World.ml" 11 173 197
+type(
+  int
+)
+type(
+  int
+)
+"World.ml" 14 241 245 "World.ml" 14 241 255
+type(
+  int
+)
+ident(
+  def obj_height "World.ml" 18 402 402 "World.ml" 1 0 -1
+)
+"World.ml" 14 241 264 "World.ml" 14 241 266
+type(
+  int
+)
+type(
+  int
+)
+"World.ml" 18 402 406 "World.ml" 18 402 410
+type(
+  int -> int
+)
+ident(
+  def rand "World.ml" 21 503 503 "World.ml" 1 0 -1
+)
+"World.ml" 18 402 426 "World.ml" 18 402 442
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Core.Std.Random.self_init
+)
+"World.ml" 18 402 443 "World.ml" 18 402 445
+type(
+  unit
+)
+"World.ml" 18 402 426 "World.ml" 18 402 445
+call(
+  stack
+)
+type(
+  unit
+)
+"World.ml" 18 402 448 "World.ml" 18 402 458
+type(
+  int -> int
+)
+ident(
+  ext_ref Core.Std.Random.int
+)
+"World.ml" 18 402 426 "World.ml" 18 402 458
+type(
+  int -> int
+)
+type(
+  int -> int
+)
+"World.ml" 21 503 507 "World.ml" 21 503 511
+type(
+  int
+)
+ident(
+  def size "World.ml" 29 716 716 "World.ml" 1 0 -1
+)
+"World.ml" 21 503 520 "World.ml" 21 503 522
+type(
+  int
+)
+type(
+  int
+)
+"World.ml" 29 716 720 "World.ml" 29 716 725
+type(
+  world_object_i list array array
+)
+ident(
+  def world "World.ml" 37 947 947 "World.ml" 1 0 -1
+)
+"World.ml" 30 762 764 "World.ml" 30 762 781
+type(
+  dimx:int ->
+  dimy:int -> world_object_i list -> world_object_i list array array
+)
+ident(
+  ext_ref Core.Std.Array.make_matrix
+)
+"World.ml" 30 762 788 "World.ml" 30 762 792
+type(
+  int
+)
+ident(
+  int_ref size "World.ml" 21 503 507 "World.ml" 21 503 511
+)
+"World.ml" 30 762 799 "World.ml" 30 762 803
+type(
+  int
+)
+ident(
+  int_ref size "World.ml" 21 503 507 "World.ml" 21 503 511
+)
+"World.ml" 30 762 804 "World.ml" 30 762 806
+type(
+  world_object_i list
+)
+"World.ml" 30 762 764 "World.ml" 30 762 806
+call(
+  stack
+)
+type(
+  world_object_i list array array
+)
+type(
+  world_object_i list array array
+)
+"World.ml" 37 947 951 "World.ml" 37 947 956
+type(
+  unit -> unit
+)
+ident(
+  def reset "World.ml" 42 1125 1125 "World.ml" 1 0 -1
+)
+"World.ml" 37 947 957 "World.ml" 37 947 959
+type(
+  unit
+)
+"World.ml" 38 969 971 "World.ml" 38 969 981
+type(
+  world_object_i list array array ->
+  f:(world_object_i list array -> unit) -> unit
+)
+ident(
+  ext_ref Core.Std.Array.iter
+)
+"World.ml" 38 969 990 "World.ml" 38 969 993
+type(
+  world_object_i list array
+)
+ident(
+  def row "World.ml" 38 969 997 "World.ml" 38 969 1039
+)
+"World.ml" 38 969 997 "World.ml" 38 969 1021
+type(
+  (world_object_i list -> world_object_i list) ->
+  world_object_i list array -> unit
+)
+ident(
+  ext_ref Helpers.array_map_modify
+)
+"World.ml" 38 969 1027 "World.ml" 38 969 1028
+type(
+  world_object_i list
+)
+"World.ml" 38 969 1032 "World.ml" 38 969 1034
+type(
+  world_object_i list
+)
+"World.ml" 38 969 1027 "World.ml" 38 969 1034
+type(
+  world_object_i list -> world_object_i list
+)
+"World.ml" 38 969 1036 "World.ml" 38 969 1039
+type(
+  world_object_i list array
+)
+ident(
+  int_ref row "World.ml" 38 969 990 "World.ml" 38 969 993
+)
+"World.ml" 38 969 997 "World.ml" 38 969 1039
+call(
+  tail
+)
+type(
+  unit
+)
+"World.ml" 38 969 990 "World.ml" 38 969 1039
+type(
+  world_object_i list array -> unit
+)
+"World.ml" 39 1041 1054 "World.ml" 39 1041 1059
+type(
+  world_object_i list array array
+)
+ident(
+  int_ref world "World.ml" 29 716 720 "World.ml" 29 716 725
+)
+"World.ml" 38 969 971 "World.ml" 39 1041 1059
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"World.ml" 37 947 957 "World.ml" 39 1041 1059
+type(
+  unit -> unit
+)
+"World.ml" 42 1125 1129 "World.ml" 42 1125 1132
+type(
+  int * int -> world_object_i list
+)
+ident(
+  def get "World.ml" 46 1259 1259 "World.ml" 1 0 -1
+)
+"World.ml" 42 1125 1135 "World.ml" 42 1125 1136
+type(
+  int
+)
+ident(
+  def x "World.ml" 42 1125 1149 "World.ml" 43 1173 1188
+)
+"World.ml" 42 1125 1137 "World.ml" 42 1125 1138
+type(
+  int
+)
+ident(
+  def y "World.ml" 42 1125 1149 "World.ml" 43 1173 1188
+)
+"World.ml" 42 1125 1135 "World.ml" 42 1125 1138
+type(
+  int * int
+)
+"World.ml" 43 1173 1175 "World.ml" 43 1173 1180
+type(
+  world_object_i list array array
+)
+ident(
+  int_ref world "World.ml" 29 716 720 "World.ml" 29 716 725
+)
+"World.ml" 43 1173 1182 "World.ml" 43 1173 1183
+type(
+  int
+)
+ident(
+  int_ref x "World.ml" 42 1125 1135 "World.ml" 42 1125 1136
+)
+"World.ml" 43 1173 1175 "World.ml" 43 1173 1184
+type(
+  world_object_i list array
+)
+type(
+  world_object_i list array array -> int -> world_object_i list array
+)
+ident(
+  ext_ref Core.Std.Array.get
+)
+"World.ml" 43 1173 1186 "World.ml" 43 1173 1187
+type(
+  int
+)
+ident(
+  int_ref y "World.ml" 42 1125 1137 "World.ml" 42 1125 1138
+)
+"World.ml" 43 1173 1175 "World.ml" 43 1173 1188
+type(
+  world_object_i list
+)
+type(
+  world_object_i list
+)
+type(
+  world_object_i list array -> int -> world_object_i list
+)
+ident(
+  ext_ref Core.Std.Array.get
+)
+"World.ml" 42 1125 1133 "World.ml" 43 1173 1188
+type(
+  int * int -> world_object_i list
+)
+"World.ml" 46 1259 1263 "World.ml" 46 1259 1266
+type(
+  int * int -> world_object_i list -> unit
+)
+ident(
+  def set "World.ml" 50 1413 1413 "World.ml" 1 0 -1
+)
+"World.ml" 46 1259 1269 "World.ml" 46 1259 1270
+type(
+  int
+)
+ident(
+  def x "World.ml" 46 1259 1283 "World.ml" 47 1318 1340
+)
+"World.ml" 46 1259 1271 "World.ml" 46 1259 1272
+type(
+  int
+)
+ident(
+  def y "World.ml" 46 1259 1283 "World.ml" 47 1318 1340
+)
+"World.ml" 46 1259 1269 "World.ml" 46 1259 1272
+type(
+  int * int
+)
+"World.ml" 46 1259 1284 "World.ml" 46 1259 1287
+type(
+  world_object_i list
+)
+ident(
+  def wos "World.ml" 46 1259 1309 "World.ml" 47 1318 1340
+)
+"World.ml" 47 1318 1320 "World.ml" 47 1318 1325
+type(
+  world_object_i list array array
+)
+ident(
+  int_ref world "World.ml" 29 716 720 "World.ml" 29 716 725
+)
+"World.ml" 47 1318 1327 "World.ml" 47 1318 1328
+type(
+  int
+)
+ident(
+  int_ref x "World.ml" 46 1259 1269 "World.ml" 46 1259 1270
+)
+"World.ml" 47 1318 1320 "World.ml" 47 1318 1329
+type(
+  world_object_i list array
+)
+type(
+  world_object_i list array array -> int -> world_object_i list array
+)
+ident(
+  ext_ref Core.Std.Array.get
+)
+"World.ml" 47 1318 1331 "World.ml" 47 1318 1332
+type(
+  int
+)
+ident(
+  int_ref y "World.ml" 46 1259 1271 "World.ml" 46 1259 1272
+)
+"World.ml" 47 1318 1320 "World.ml" 47 1318 1333
+type(
+  world_object_i list array -> int -> world_object_i list -> unit
+)
+ident(
+  ext_ref Core.Std.Array.set
+)
+"World.ml" 47 1318 1337 "World.ml" 47 1318 1340
+type(
+  world_object_i list
+)
+ident(
+  int_ref wos "World.ml" 46 1259 1284 "World.ml" 46 1259 1287
+)
+"World.ml" 47 1318 1320 "World.ml" 47 1318 1340
+type(
+  unit
+)
+type(
+  unit
+)
+"World.ml" 46 1259 1283 "World.ml" 47 1318 1340
+type(
+  world_object_i list -> unit
+)
+"World.ml" 46 1259 1267 "World.ml" 47 1318 1340
+type(
+  int * int -> world_object_i list -> unit
+)
+"World.ml" 50 1413 1417 "World.ml" 50 1413 1423
+type(
+  int * int -> (world_object_i list -> world_object_i list) -> unit
+)
+ident(
+  def modify "World.ml" 54 1578 1578 "World.ml" 1 0 -1
+)
+"World.ml" 50 1413 1425 "World.ml" 50 1413 1426
+type(
+  int * int
+)
+ident(
+  def p "World.ml" 50 1413 1436 "World.ml" 51 1492 1511
+)
+"World.ml" 50 1413 1437 "World.ml" 50 1413 1438
+type(
+  world_object_i list -> world_object_i list
+)
+ident(
+  def f "World.ml" 50 1413 1483 "World.ml" 51 1492 1511
+)
+"World.ml" 51 1492 1494 "World.ml" 51 1492 1497
+type(
+  int * int -> world_object_i list -> unit
+)
+ident(
+  int_ref set "World.ml" 46 1259 1263 "World.ml" 46 1259 1266
+)
+"World.ml" 51 1492 1498 "World.ml" 51 1492 1499
+type(
+  int * int
+)
+ident(
+  int_ref p "World.ml" 50 1413 1425 "World.ml" 50 1413 1426
+)
+"World.ml" 51 1492 1501 "World.ml" 51 1492 1502
+type(
+  world_object_i list -> world_object_i list
+)
+ident(
+  int_ref f "World.ml" 50 1413 1437 "World.ml" 50 1413 1438
+)
+"World.ml" 51 1492 1504 "World.ml" 51 1492 1507
+type(
+  int * int -> world_object_i list
+)
+ident(
+  int_ref get "World.ml" 42 1125 1129 "World.ml" 42 1125 1132
+)
+"World.ml" 51 1492 1508 "World.ml" 51 1492 1509
+type(
+  int * int
+)
+ident(
+  int_ref p "World.ml" 50 1413 1425 "World.ml" 50 1413 1426
+)
+"World.ml" 51 1492 1504 "World.ml" 51 1492 1509
+call(
+  stack
+)
+type(
+  world_object_i list
+)
+"World.ml" 51 1492 1501 "World.ml" 51 1492 1510
+call(
+  stack
+)
+type(
+  world_object_i list
+)
+"World.ml" 51 1492 1494 "World.ml" 51 1492 1511
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"World.ml" 50 1413 1436 "World.ml" 51 1492 1511
+type(
+  (world_object_i list -> world_object_i list) -> unit
+)
+"World.ml" 50 1413 1424 "World.ml" 51 1492 1511
+type(
+  int * int -> (world_object_i list -> world_object_i list) -> unit
+)
+"World.ml" 54 1578 1582 "World.ml" 54 1578 1585
+type(
+  int * int -> world_object_i -> unit
+)
+ident(
+  def add "World.ml" 59 1812 1812 "World.ml" 1 0 -1
+)
+"World.ml" 54 1578 1587 "World.ml" 54 1578 1588
+type(
+  int * int
+)
+ident(
+  def p "World.ml" 54 1578 1598 "World.ml" 55 1626 1688
+)
+"World.ml" 54 1578 1599 "World.ml" 54 1578 1600
+type(
+  world_object_i
+)
+ident(
+  def w "World.ml" 54 1578 1617 "World.ml" 55 1626 1688
+)
+"World.ml" 55 1626 1628 "World.ml" 55 1626 1634
+type(
+  int * int -> (world_object_i list -> world_object_i list) -> unit
+)
+ident(
+  int_ref modify "World.ml" 50 1413 1417 "World.ml" 50 1413 1423
+)
+"World.ml" 55 1626 1635 "World.ml" 55 1626 1636
+type(
+  int * int
+)
+ident(
+  int_ref p "World.ml" 54 1578 1587 "World.ml" 54 1578 1588
+)
+"World.ml" 55 1626 1642 "World.ml" 55 1626 1645
+type(
+  world_object_i list
+)
+ident(
+  def wos "World.ml" 55 1626 1649 "World.ml" 55 1626 1687
+)
+"World.ml" 55 1626 1652 "World.ml" 55 1626 1660
+type(
+  ?equal:(world_object_i -> world_object_i -> bool) ->
+  world_object_i list -> world_object_i -> bool
+)
+ident(
+  ext_ref Core.Std.List.mem
+)
+"World.ml" 55 1626 1661 "World.ml" 55 1626 1664
+type(
+  world_object_i list
+)
+ident(
+  int_ref wos "World.ml" 55 1626 1642 "World.ml" 55 1626 1645
+)
+"World.ml" 55 1626 1665 "World.ml" 55 1626 1666
+type(
+  world_object_i
+)
+ident(
+  int_ref w "World.ml" 54 1578 1599 "World.ml" 54 1578 1600
+)
+"World.ml" 55 1626 1652 "World.ml" 55 1626 1666
+call(
+  stack
+)
+type(
+  bool
+)
+"World.ml" 55 1626 1672 "World.ml" 55 1626 1675
+type(
+  world_object_i list
+)
+ident(
+  int_ref wos "World.ml" 55 1626 1642 "World.ml" 55 1626 1645
+)
+"World.ml" 55 1626 1681 "World.ml" 55 1626 1682
+type(
+  world_object_i
+)
+ident(
+  int_ref w "World.ml" 54 1578 1599 "World.ml" 54 1578 1600
+)
+"World.ml" 55 1626 1684 "World.ml" 55 1626 1687
+type(
+  world_object_i list
+)
+ident(
+  int_ref wos "World.ml" 55 1626 1642 "World.ml" 55 1626 1645
+)
+"World.ml" 55 1626 1681 "World.ml" 55 1626 1687
+type(
+  world_object_i list
+)
+"World.ml" 55 1626 1649 "World.ml" 55 1626 1687
+type(
+  world_object_i list
+)
+"World.ml" 55 1626 1642 "World.ml" 55 1626 1687
+type(
+  world_object_i list -> world_object_i list
+)
+"World.ml" 55 1626 1628 "World.ml" 55 1626 1688
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"World.ml" 54 1578 1598 "World.ml" 55 1626 1688
+type(
+  world_object_i -> unit
+)
+"World.ml" 54 1578 1586 "World.ml" 55 1626 1688
+type(
+  int * int -> world_object_i -> unit
+)
+"World.ml" 59 1812 1816 "World.ml" 59 1812 1822
+type(
+  int * int -> world_object_i -> unit
+)
+ident(
+  def remove "World.ml" 63 1993 1993 "World.ml" 1 0 -1
+)
+"World.ml" 59 1812 1824 "World.ml" 59 1812 1825
+type(
+  int * int
+)
+ident(
+  def p "World.ml" 59 1812 1835 "World.ml" 60 1863 1925
+)
+"World.ml" 59 1812 1836 "World.ml" 59 1812 1837
+type(
+  world_object_i
+)
+ident(
+  def w "World.ml" 59 1812 1854 "World.ml" 60 1863 1925
+)
+"World.ml" 60 1863 1865 "World.ml" 60 1863 1871
+type(
+  int * int -> (world_object_i list -> world_object_i list) -> unit
+)
+ident(
+  int_ref modify "World.ml" 50 1413 1417 "World.ml" 50 1413 1423
+)
+"World.ml" 60 1863 1872 "World.ml" 60 1863 1873
+type(
+  int * int
+)
+ident(
+  int_ref p "World.ml" 59 1812 1824 "World.ml" 59 1812 1825
+)
+"World.ml" 60 1863 1879 "World.ml" 60 1863 1882
+type(
+  world_object_i list
+)
+ident(
+  def wos "World.ml" 60 1863 1886 "World.ml" 60 1863 1924
+)
+"World.ml" 60 1863 1886 "World.ml" 60 1863 1897
+type(
+  world_object_i list -> f:(world_object_i -> bool) -> world_object_i list
+)
+ident(
+  ext_ref Core.Std.List.filter
+)
+"World.ml" 60 1863 1906 "World.ml" 60 1863 1908
+type(
+  world_object_i
+)
+ident(
+  def w' "World.ml" 60 1863 1912 "World.ml" 60 1863 1919
+)
+"World.ml" 60 1863 1912 "World.ml" 60 1863 1914
+type(
+  world_object_i
+)
+ident(
+  int_ref w' "World.ml" 60 1863 1906 "World.ml" 60 1863 1908
+)
+"World.ml" 60 1863 1915 "World.ml" 60 1863 1917
+type(
+  world_object_i -> world_object_i -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"World.ml" 60 1863 1918 "World.ml" 60 1863 1919
+type(
+  world_object_i
+)
+ident(
+  int_ref w "World.ml" 59 1812 1836 "World.ml" 59 1812 1837
+)
+"World.ml" 60 1863 1912 "World.ml" 60 1863 1919
+type(
+  bool
+)
+"World.ml" 60 1863 1906 "World.ml" 60 1863 1919
+type(
+  world_object_i -> bool
+)
+"World.ml" 60 1863 1921 "World.ml" 60 1863 1924
+type(
+  world_object_i list
+)
+ident(
+  int_ref wos "World.ml" 60 1863 1879 "World.ml" 60 1863 1882
+)
+"World.ml" 60 1863 1886 "World.ml" 60 1863 1924
+call(
+  tail
+)
+type(
+  world_object_i list
+)
+"World.ml" 60 1863 1879 "World.ml" 60 1863 1924
+type(
+  world_object_i list -> world_object_i list
+)
+"World.ml" 60 1863 1865 "World.ml" 60 1863 1925
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"World.ml" 59 1812 1835 "World.ml" 60 1863 1925
+type(
+  world_object_i -> unit
+)
+"World.ml" 59 1812 1823 "World.ml" 60 1863 1925
+type(
+  int * int -> world_object_i -> unit
+)
+"World.ml" 63 1993 1997 "World.ml" 63 1993 2014
+type(
+  int * int -> world_object_i -> unit
+)
+ident(
+  def remove_must_exist "World.ml" 68 2144 2144 "World.ml" 1 0 -1
+)
+"World.ml" 63 1993 2016 "World.ml" 63 1993 2017
+type(
+  int * int
+)
+ident(
+  def p "World.ml" 63 1993 2027 "World.ml" 65 2087 2099
+)
+"World.ml" 63 1993 2028 "World.ml" 63 1993 2029
+type(
+  world_object_i
+)
+ident(
+  def w "World.ml" 63 1993 2046 "World.ml" 65 2087 2099
+)
+"World.ml" 64 2055 2065 "World.ml" 64 2055 2073
+type(
+  ?equal:(world_object_i -> world_object_i -> bool) ->
+  world_object_i list -> world_object_i -> bool
+)
+ident(
+  ext_ref Core.Std.List.mem
+)
+"World.ml" 64 2055 2075 "World.ml" 64 2055 2078
+type(
+  int * int -> world_object_i list
+)
+ident(
+  int_ref get "World.ml" 42 1125 1129 "World.ml" 42 1125 1132
+)
+"World.ml" 64 2055 2079 "World.ml" 64 2055 2080
+type(
+  int * int
+)
+ident(
+  int_ref p "World.ml" 63 1993 2016 "World.ml" 63 1993 2017
+)
+"World.ml" 64 2055 2075 "World.ml" 64 2055 2080
+call(
+  stack
+)
+type(
+  world_object_i list
+)
+"World.ml" 64 2055 2082 "World.ml" 64 2055 2083
+type(
+  world_object_i
+)
+ident(
+  int_ref w "World.ml" 63 1993 2028 "World.ml" 63 1993 2029
+)
+"World.ml" 64 2055 2065 "World.ml" 64 2055 2083
+call(
+  stack
+)
+type(
+  bool
+)
+"World.ml" 64 2055 2057 "World.ml" 64 2055 2084
+type(
+  unit
+)
+"World.ml" 65 2087 2089 "World.ml" 65 2087 2095
+type(
+  int * int -> world_object_i -> unit
+)
+ident(
+  int_ref remove "World.ml" 59 1812 1816 "World.ml" 59 1812 1822
+)
+"World.ml" 65 2087 2096 "World.ml" 65 2087 2097
+type(
+  int * int
+)
+ident(
+  int_ref p "World.ml" 63 1993 2016 "World.ml" 63 1993 2017
+)
+"World.ml" 65 2087 2098 "World.ml" 65 2087 2099
+type(
+  world_object_i
+)
+ident(
+  int_ref w "World.ml" 63 1993 2028 "World.ml" 63 1993 2029
+)
+"World.ml" 65 2087 2089 "World.ml" 65 2087 2099
+call(
+  tail
+)
+type(
+  unit
+)
+"World.ml" 64 2055 2057 "World.ml" 65 2087 2099
+type(
+  unit
+)
+type(
+  unit
+)
+"World.ml" 63 1993 2027 "World.ml" 65 2087 2099
+type(
+  world_object_i -> unit
+)
+"World.ml" 63 1993 2015 "World.ml" 65 2087 2099
+type(
+  int * int -> world_object_i -> unit
+)
+"World.ml" 68 2144 2148 "World.ml" 68 2144 2152
+type(
+  (world_object_i -> 'a -> 'a) -> 'a -> 'a
+)
+ident(
+  def fold "World.ml" 79 2443 2443 "World.ml" 1 0 -1
+)
+"World.ml" 68 2144 2154 "World.ml" 68 2144 2155
+type(
+  world_object_i -> 'a -> 'a
+)
+ident(
+  def f "World.ml" 68 2144 2184 "World.ml" 76 2379 2388
+)
+"World.ml" 68 2144 2185 "World.ml" 68 2144 2186
+type(
+  'a
+)
+ident(
+  def i "World.ml" 68 2144 2191 "World.ml" 76 2379 2388
+)
+"World.ml" 69 2198 2200 "World.ml" 69 2198 2216
+type(
+  world_object_i list array array ->
+  f:(world_object_i list array -> 'a -> 'a) -> init:'a -> 'a
+)
+ident(
+  ext_ref Core.Std.Array.fold_right
+)
+"World.ml" 70 2217 2229 "World.ml" 70 2217 2232
+type(
+  world_object_i list array
+)
+ident(
+  def row "World.ml" 70 2217 2233 "World.ml" 74 2353 2365
+)
+"World.ml" 70 2217 2233 "World.ml" 70 2217 2238
+type(
+  'a
+)
+ident(
+  def accum "World.ml" 71 2242 2249 "World.ml" 74 2353 2365
+)
+"World.ml" 71 2242 2249 "World.ml" 71 2242 2265
+type(
+  world_object_i list array ->
+  f:(world_object_i list -> 'a -> 'a) -> init:'a -> 'a
+)
+ident(
+  ext_ref Core.Std.Array.fold_right
+)
+"World.ml" 72 2266 2283 "World.ml" 72 2266 2285
+type(
+  world_object_i list
+)
+ident(
+  def os "World.ml" 72 2266 2286 "World.ml" 72 2266 2330
+)
+"World.ml" 72 2266 2286 "World.ml" 72 2266 2292
+type(
+  'a
+)
+ident(
+  def accum' "World.ml" 72 2266 2296 "World.ml" 72 2266 2330
+)
+"World.ml" 72 2266 2296 "World.ml" 72 2266 2311
+type(
+  world_object_i list -> f:(world_object_i -> 'a -> 'a) -> init:'a -> 'a
+)
+ident(
+  ext_ref Core.Std.List.fold_right
+)
+"World.ml" 72 2266 2312 "World.ml" 72 2266 2314
+type(
+  world_object_i -> 'a -> 'a
+)
+ident(
+  int_ref f "World.ml" 68 2144 2154 "World.ml" 68 2144 2155
+)
+"World.ml" 72 2266 2321 "World.ml" 72 2266 2327
+type(
+  'a
+)
+ident(
+  int_ref accum' "World.ml" 72 2266 2286 "World.ml" 72 2266 2292
+)
+"World.ml" 72 2266 2328 "World.ml" 72 2266 2330
+type(
+  world_object_i list
+)
+ident(
+  int_ref os "World.ml" 72 2266 2283 "World.ml" 72 2266 2285
+)
+"World.ml" 72 2266 2296 "World.ml" 72 2266 2330
+call(
+  tail
+)
+type(
+  'a
+)
+"World.ml" 72 2266 2286 "World.ml" 72 2266 2330
+type(
+  'a -> 'a
+)
+"World.ml" 72 2266 2283 "World.ml" 72 2266 2330
+type(
+  world_object_i list -> 'a -> 'a
+)
+"World.ml" 73 2332 2347 "World.ml" 73 2332 2352
+type(
+  'a
+)
+ident(
+  int_ref accum "World.ml" 70 2217 2233 "World.ml" 70 2217 2238
+)
+"World.ml" 74 2353 2362 "World.ml" 74 2353 2365
+type(
+  world_object_i list array
+)
+ident(
+  int_ref row "World.ml" 70 2217 2229 "World.ml" 70 2217 2232
+)
+"World.ml" 71 2242 2249 "World.ml" 74 2353 2365
+call(
+  tail
+)
+type(
+  'a
+)
+"World.ml" 70 2217 2233 "World.ml" 74 2353 2365
+type(
+  'a -> 'a
+)
+"World.ml" 70 2217 2229 "World.ml" 74 2353 2365
+type(
+  world_object_i list array -> 'a -> 'a
+)
+"World.ml" 75 2367 2377 "World.ml" 75 2367 2378
+type(
+  'a
+)
+ident(
+  int_ref i "World.ml" 68 2144 2185 "World.ml" 68 2144 2186
+)
+"World.ml" 76 2379 2383 "World.ml" 76 2379 2388
+type(
+  world_object_i list array array
+)
+ident(
+  int_ref world "World.ml" 29 716 720 "World.ml" 29 716 725
+)
+"World.ml" 69 2198 2200 "World.ml" 76 2379 2388
+call(
+  tail
+)
+type(
+  'a
+)
+type(
+  'a
+)
+"World.ml" 68 2144 2184 "World.ml" 76 2379 2388
+type(
+  'a -> 'a
+)
+"World.ml" 68 2144 2153 "World.ml" 76 2379 2388
+type(
+  (world_object_i -> 'a -> 'a) -> 'a -> 'a
+)
+"World.ml" 79 2443 2447 "World.ml" 79 2443 2454
+type(
+  (int * int -> unit) -> unit
+)
+ident(
+  def indices "World.ml" 83 2606 2606 "World.ml" 1 0 -1
+)
+"World.ml" 79 2443 2456 "World.ml" 79 2443 2457
+type(
+  int * int -> unit
+)
+ident(
+  def f "World.ml" 79 2443 2475 "World.ml" 80 2484 2553
+)
+"World.ml" 80 2484 2486 "World.ml" 80 2484 2497
+type(
+  f:(int -> world_object_i list array -> unit) ->
+  world_object_i list array array -> unit
+)
+ident(
+  ext_ref Core.Std.Array.iteri
+)
+"World.ml" 80 2484 2506 "World.ml" 80 2484 2507
+type(
+  int
+)
+ident(
+  def x "World.ml" 80 2484 2511 "World.ml" 80 2484 2546
+)
+"World.ml" 80 2484 2511 "World.ml" 80 2484 2522
+type(
+  f:(int -> world_object_i list -> unit) -> world_object_i list array -> unit
+)
+ident(
+  ext_ref Core.Std.Array.iteri
+)
+"World.ml" 80 2484 2531 "World.ml" 80 2484 2532
+type(
+  int
+)
+ident(
+  def y "World.ml" 80 2484 2533 "World.ml" 80 2484 2545
+)
+"World.ml" 80 2484 2533 "World.ml" 80 2484 2534
+type(
+  world_object_i list
+)
+"World.ml" 80 2484 2538 "World.ml" 80 2484 2539
+type(
+  int * int -> unit
+)
+ident(
+  int_ref f "World.ml" 79 2443 2456 "World.ml" 79 2443 2457
+)
+"World.ml" 80 2484 2541 "World.ml" 80 2484 2542
+type(
+  int
+)
+ident(
+  int_ref x "World.ml" 80 2484 2506 "World.ml" 80 2484 2507
+)
+"World.ml" 80 2484 2543 "World.ml" 80 2484 2544
+type(
+  int
+)
+ident(
+  int_ref y "World.ml" 80 2484 2531 "World.ml" 80 2484 2532
+)
+"World.ml" 80 2484 2541 "World.ml" 80 2484 2544
+type(
+  int * int
+)
+"World.ml" 80 2484 2538 "World.ml" 80 2484 2545
+call(
+  tail
+)
+type(
+  unit
+)
+"World.ml" 80 2484 2533 "World.ml" 80 2484 2545
+type(
+  world_object_i list -> unit
+)
+"World.ml" 80 2484 2531 "World.ml" 80 2484 2545
+type(
+  int -> world_object_i list -> unit
+)
+"World.ml" 80 2484 2511 "World.ml" 80 2484 2546
+call(
+  tail
+)
+type(
+  world_object_i list array -> unit
+)
+"World.ml" 80 2484 2506 "World.ml" 80 2484 2546
+type(
+  int -> world_object_i list array -> unit
+)
+"World.ml" 80 2484 2548 "World.ml" 80 2484 2553
+type(
+  world_object_i list array array
+)
+ident(
+  int_ref world "World.ml" 29 716 720 "World.ml" 29 716 725
+)
+"World.ml" 80 2484 2486 "World.ml" 80 2484 2553
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"World.ml" 79 2443 2455 "World.ml" 80 2484 2553
+type(
+  (int * int -> unit) -> unit
+)
+"World.ml" 83 2606 2610 "World.ml" 83 2606 2622
+type(
+  int * int -> bool
+)
+ident(
+  def check_bounds "World.ml" 87 2769 2769 "World.ml" 1 0 -1
+)
+"World.ml" 83 2606 2625 "World.ml" 83 2606 2626
+type(
+  int
+)
+ident(
+  def x "World.ml" 83 2606 2639 "World.ml" 84 2648 2690
+)
+"World.ml" 83 2606 2627 "World.ml" 83 2606 2628
+type(
+  int
+)
+ident(
+  def y "World.ml" 83 2606 2639 "World.ml" 84 2648 2690
+)
+"World.ml" 83 2606 2625 "World.ml" 83 2606 2628
+type(
+  int * int
+)
+"World.ml" 84 2648 2650 "World.ml" 84 2648 2651
+type(
+  int
+)
+ident(
+  int_ref x "World.ml" 83 2606 2625 "World.ml" 83 2606 2626
+)
+"World.ml" 84 2648 2652 "World.ml" 84 2648 2654
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"World.ml" 84 2648 2655 "World.ml" 84 2648 2656
+type(
+  int
+)
+"World.ml" 84 2648 2650 "World.ml" 84 2648 2656
+type(
+  bool
+)
+"World.ml" 84 2648 2657 "World.ml" 84 2648 2659
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"World.ml" 84 2648 2660 "World.ml" 84 2648 2661
+type(
+  int
+)
+ident(
+  int_ref x "World.ml" 83 2606 2625 "World.ml" 83 2606 2626
+)
+"World.ml" 84 2648 2662 "World.ml" 84 2648 2663
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"World.ml" 84 2648 2664 "World.ml" 84 2648 2668
+type(
+  int
+)
+ident(
+  int_ref size "World.ml" 21 503 507 "World.ml" 21 503 511
+)
+"World.ml" 84 2648 2660 "World.ml" 84 2648 2668
+type(
+  bool
+)
+"World.ml" 84 2648 2669 "World.ml" 84 2648 2671
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"World.ml" 84 2648 2672 "World.ml" 84 2648 2673
+type(
+  int
+)
+ident(
+  int_ref y "World.ml" 83 2606 2627 "World.ml" 83 2606 2628
+)
+"World.ml" 84 2648 2674 "World.ml" 84 2648 2676
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"World.ml" 84 2648 2677 "World.ml" 84 2648 2678
+type(
+  int
+)
+"World.ml" 84 2648 2672 "World.ml" 84 2648 2678
+type(
+  bool
+)
+"World.ml" 84 2648 2679 "World.ml" 84 2648 2681
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"World.ml" 84 2648 2682 "World.ml" 84 2648 2683
+type(
+  int
+)
+ident(
+  int_ref y "World.ml" 83 2606 2627 "World.ml" 83 2606 2628
+)
+"World.ml" 84 2648 2684 "World.ml" 84 2648 2685
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"World.ml" 84 2648 2686 "World.ml" 84 2648 2690
+type(
+  int
+)
+ident(
+  int_ref size "World.ml" 21 503 507 "World.ml" 21 503 511
+)
+"World.ml" 84 2648 2682 "World.ml" 84 2648 2690
+type(
+  bool
+)
+"World.ml" 84 2648 2672 "World.ml" 84 2648 2690
+type(
+  bool
+)
+"World.ml" 84 2648 2660 "World.ml" 84 2648 2690
+type(
+  bool
+)
+"World.ml" 84 2648 2650 "World.ml" 84 2648 2690
+type(
+  bool
+)
+type(
+  bool
+)
+"World.ml" 83 2606 2623 "World.ml" 84 2648 2690
+type(
+  int * int -> bool
+)
+"World.ml" 87 2769 2773 "World.ml" 87 2769 2778
+type(
+  (int * int -> world_object_i -> unit) -> unit
+)
+ident(
+  def iteri "World.ml" 91 2932 2932 "World.ml" 1 0 -1
+)
+"World.ml" 87 2769 2780 "World.ml" 87 2769 2781
+type(
+  int * int -> world_object_i -> unit
+)
+ident(
+  def f "World.ml" 87 2769 2817 "World.ml" 88 2826 2873
+)
+"World.ml" 88 2826 2828 "World.ml" 88 2826 2835
+type(
+  (int * int -> unit) -> unit
+)
+ident(
+  int_ref indices "World.ml" 79 2443 2447 "World.ml" 79 2443 2454
+)
+"World.ml" 88 2826 2841 "World.ml" 88 2826 2842
+type(
+  int * int
+)
+ident(
+  def p "World.ml" 88 2826 2846 "World.ml" 88 2826 2872
+)
+"World.ml" 88 2826 2846 "World.ml" 88 2826 2855
+type(
+  world_object_i list -> f:(world_object_i -> unit) -> unit
+)
+ident(
+  ext_ref Core.Std.List.iter
+)
+"World.ml" 88 2826 2860 "World.ml" 88 2826 2861
+type(
+  int * int -> world_object_i -> unit
+)
+ident(
+  int_ref f "World.ml" 87 2769 2780 "World.ml" 87 2769 2781
+)
+"World.ml" 88 2826 2862 "World.ml" 88 2826 2863
+type(
+  int * int
+)
+ident(
+  int_ref p "World.ml" 88 2826 2841 "World.ml" 88 2826 2842
+)
+"World.ml" 88 2826 2860 "World.ml" 88 2826 2863
+call(
+  stack
+)
+type(
+  world_object_i -> unit
+)
+"World.ml" 88 2826 2866 "World.ml" 88 2826 2869
+type(
+  int * int -> world_object_i list
+)
+ident(
+  int_ref get "World.ml" 42 1125 1129 "World.ml" 42 1125 1132
+)
+"World.ml" 88 2826 2870 "World.ml" 88 2826 2871
+type(
+  int * int
+)
+ident(
+  int_ref p "World.ml" 88 2826 2841 "World.ml" 88 2826 2842
+)
+"World.ml" 88 2826 2866 "World.ml" 88 2826 2871
+call(
+  stack
+)
+type(
+  world_object_i list
+)
+"World.ml" 88 2826 2846 "World.ml" 88 2826 2872
+call(
+  tail
+)
+type(
+  unit
+)
+"World.ml" 88 2826 2841 "World.ml" 88 2826 2872
+type(
+  int * int -> unit
+)
+"World.ml" 88 2826 2828 "World.ml" 88 2826 2873
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"World.ml" 87 2769 2779 "World.ml" 88 2826 2873
+type(
+  (int * int -> world_object_i -> unit) -> unit
+)
+"World.ml" 91 2932 2936 "World.ml" 91 2932 2944
+type(
+  int * int -> bool
+)
+ident(
+  def is_empty "World.ml" 94 3017 3017 "World.ml" 1 0 -1
+)
+"World.ml" 91 2932 2945 "World.ml" 91 2932 2946
+type(
+  int * int
+)
+ident(
+  def p "World.ml" 91 2932 2949 "World.ml" 91 2932 2959
+)
+"World.ml" 91 2932 2949 "World.ml" 91 2932 2952
+type(
+  int * int -> world_object_i list
+)
+ident(
+  int_ref get "World.ml" 42 1125 1129 "World.ml" 42 1125 1132
+)
+"World.ml" 91 2932 2953 "World.ml" 91 2932 2954
+type(
+  int * int
+)
+ident(
+  int_ref p "World.ml" 91 2932 2945 "World.ml" 91 2932 2946
+)
+"World.ml" 91 2932 2949 "World.ml" 91 2932 2954
+call(
+  stack
+)
+type(
+  world_object_i list
+)
+"World.ml" 91 2932 2955 "World.ml" 91 2932 2956
+type(
+  world_object_i list -> world_object_i list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"World.ml" 91 2932 2957 "World.ml" 91 2932 2959
+type(
+  world_object_i list
+)
+"World.ml" 91 2932 2949 "World.ml" 91 2932 2959
+type(
+  bool
+)
+"World.ml" 91 2932 2945 "World.ml" 91 2932 2959
+type(
+  int * int -> bool
+)
+"World.ml" 94 3017 3021 "World.ml" 94 3017 3041
+type(
+  int * int -> int -> world_object_i list
+)
+ident(
+  def objects_within_range "World.ml" 105 3488 3488 "World.ml" 1 0 -1
+)
+"World.ml" 94 3017 3044 "World.ml" 94 3017 3045
+type(
+  int
+)
+ident(
+  def x "World.ml" 94 3017 3058 "World.ml" 101 3308 3367
+)
+"World.ml" 94 3017 3046 "World.ml" 94 3017 3047
+type(
+  int
+)
+ident(
+  def y "World.ml" 94 3017 3058 "World.ml" 101 3308 3367
+)
+"World.ml" 94 3017 3044 "World.ml" 94 3017 3047
+type(
+  int * int
+)
+"World.ml" 94 3017 3059 "World.ml" 94 3017 3060
+type(
+  int
+)
+ident(
+  def n "World.ml" 94 3017 3066 "World.ml" 101 3308 3367
+)
+"World.ml" 95 3090 3096 "World.ml" 95 3090 3100
+type(
+  int
+)
+ident(
+  def xlow "World.ml" 96 3118 3120 "World.ml" 101 3308 3367
+)
+"World.ml" 95 3090 3103 "World.ml" 95 3090 3106
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.max
+)
+"World.ml" 95 3090 3108 "World.ml" 95 3090 3109
+type(
+  int
+)
+ident(
+  int_ref x "World.ml" 94 3017 3044 "World.ml" 94 3017 3045
+)
+"World.ml" 95 3090 3109 "World.ml" 95 3090 3110
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"World.ml" 95 3090 3110 "World.ml" 95 3090 3111
+type(
+  int
+)
+ident(
+  int_ref n "World.ml" 94 3017 3059 "World.ml" 94 3017 3060
+)
+"World.ml" 95 3090 3108 "World.ml" 95 3090 3111
+type(
+  int
+)
+"World.ml" 95 3090 3113 "World.ml" 95 3090 3114
+type(
+  int
+)
+"World.ml" 95 3090 3103 "World.ml" 95 3090 3114
+call(
+  stack
+)
+type(
+  int
+)
+"World.ml" 96 3118 3124 "World.ml" 96 3118 3128
+type(
+  int
+)
+ident(
+  def ylow "World.ml" 97 3146 3148 "World.ml" 101 3308 3367
+)
+"World.ml" 96 3118 3131 "World.ml" 96 3118 3134
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.max
+)
+"World.ml" 96 3118 3136 "World.ml" 96 3118 3137
+type(
+  int
+)
+ident(
+  int_ref y "World.ml" 94 3017 3046 "World.ml" 94 3017 3047
+)
+"World.ml" 96 3118 3137 "World.ml" 96 3118 3138
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"World.ml" 96 3118 3138 "World.ml" 96 3118 3139
+type(
+  int
+)
+ident(
+  int_ref n "World.ml" 94 3017 3059 "World.ml" 94 3017 3060
+)
+"World.ml" 96 3118 3136 "World.ml" 96 3118 3139
+type(
+  int
+)
+"World.ml" 96 3118 3141 "World.ml" 96 3118 3142
+type(
+  int
+)
+"World.ml" 96 3118 3131 "World.ml" 96 3118 3142
+call(
+  stack
+)
+type(
+  int
+)
+"World.ml" 97 3146 3152 "World.ml" 97 3146 3157
+type(
+  int
+)
+ident(
+  def xhigh "World.ml" 98 3182 3184 "World.ml" 101 3308 3367
+)
+"World.ml" 97 3146 3160 "World.ml" 97 3146 3163
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"World.ml" 97 3146 3165 "World.ml" 97 3146 3166
+type(
+  int
+)
+ident(
+  int_ref x "World.ml" 94 3017 3044 "World.ml" 94 3017 3045
+)
+"World.ml" 97 3146 3166 "World.ml" 97 3146 3167
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"World.ml" 97 3146 3167 "World.ml" 97 3146 3168
+type(
+  int
+)
+ident(
+  int_ref n "World.ml" 94 3017 3059 "World.ml" 94 3017 3060
+)
+"World.ml" 97 3146 3165 "World.ml" 97 3146 3168
+type(
+  int
+)
+"World.ml" 97 3146 3171 "World.ml" 97 3146 3175
+type(
+  int
+)
+ident(
+  int_ref size "World.ml" 21 503 507 "World.ml" 21 503 511
+)
+"World.ml" 97 3146 3175 "World.ml" 97 3146 3176
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"World.ml" 97 3146 3176 "World.ml" 97 3146 3177
+type(
+  int
+)
+"World.ml" 97 3146 3171 "World.ml" 97 3146 3177
+type(
+  int
+)
+"World.ml" 97 3146 3160 "World.ml" 97 3146 3178
+call(
+  stack
+)
+type(
+  int
+)
+"World.ml" 98 3182 3188 "World.ml" 98 3182 3193
+type(
+  int
+)
+ident(
+  def yhigh "World.ml" 99 3218 3220 "World.ml" 101 3308 3367
+)
+"World.ml" 98 3182 3196 "World.ml" 98 3182 3199
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"World.ml" 98 3182 3201 "World.ml" 98 3182 3202
+type(
+  int
+)
+ident(
+  int_ref y "World.ml" 94 3017 3046 "World.ml" 94 3017 3047
+)
+"World.ml" 98 3182 3202 "World.ml" 98 3182 3203
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"World.ml" 98 3182 3203 "World.ml" 98 3182 3204
+type(
+  int
+)
+ident(
+  int_ref n "World.ml" 94 3017 3059 "World.ml" 94 3017 3060
+)
+"World.ml" 98 3182 3201 "World.ml" 98 3182 3204
+type(
+  int
+)
+"World.ml" 98 3182 3207 "World.ml" 98 3182 3211
+type(
+  int
+)
+ident(
+  int_ref size "World.ml" 21 503 507 "World.ml" 21 503 511
+)
+"World.ml" 98 3182 3211 "World.ml" 98 3182 3212
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"World.ml" 98 3182 3212 "World.ml" 98 3182 3213
+type(
+  int
+)
+"World.ml" 98 3182 3207 "World.ml" 98 3182 3213
+type(
+  int
+)
+"World.ml" 98 3182 3196 "World.ml" 98 3182 3214
+call(
+  stack
+)
+type(
+  int
+)
+"World.ml" 99 3218 3224 "World.ml" 99 3218 3230
+type(
+  (int * int) list
+)
+ident(
+  def coords "World.ml" 101 3308 3310 "World.ml" 101 3308 3367
+)
+"World.ml" 99 3218 3233 "World.ml" 99 3218 3246
+type(
+  int list -> int list -> (int * int) list
+)
+ident(
+  ext_ref Helpers.cross
+)
+"World.ml" 99 3218 3248 "World.ml" 99 3218 3261
+type(
+  int -> int -> int list
+)
+ident(
+  ext_ref Helpers.range
+)
+"World.ml" 99 3218 3262 "World.ml" 99 3218 3266
+type(
+  int
+)
+ident(
+  int_ref xlow "World.ml" 95 3090 3096 "World.ml" 95 3090 3100
+)
+"World.ml" 99 3218 3267 "World.ml" 99 3218 3272
+type(
+  int
+)
+ident(
+  int_ref xhigh "World.ml" 97 3146 3152 "World.ml" 97 3146 3157
+)
+"World.ml" 99 3218 3248 "World.ml" 99 3218 3272
+call(
+  stack
+)
+type(
+  int list
+)
+"World.ml" 100 3274 3279 "World.ml" 100 3274 3292
+type(
+  int -> int -> int list
+)
+ident(
+  ext_ref Helpers.range
+)
+"World.ml" 100 3274 3293 "World.ml" 100 3274 3297
+type(
+  int
+)
+ident(
+  int_ref ylow "World.ml" 96 3118 3124 "World.ml" 96 3118 3128
+)
+"World.ml" 100 3274 3298 "World.ml" 100 3274 3303
+type(
+  int
+)
+ident(
+  int_ref yhigh "World.ml" 98 3182 3188 "World.ml" 98 3182 3193
+)
+"World.ml" 100 3274 3279 "World.ml" 100 3274 3303
+call(
+  stack
+)
+type(
+  int list
+)
+"World.ml" 99 3218 3233 "World.ml" 100 3274 3304
+call(
+  stack
+)
+type(
+  (int * int) list
+)
+"World.ml" 101 3308 3310 "World.ml" 101 3308 3325
+type(
+  (int * int) list ->
+  f:(int * int -> world_object_i list -> world_object_i list) ->
+  init:world_object_i list -> world_object_i list
+)
+ident(
+  ext_ref Core.Std.List.fold_right
+)
+"World.ml" 101 3308 3334 "World.ml" 101 3308 3335
+type(
+  int * int
+)
+ident(
+  def p "World.ml" 101 3308 3336 "World.ml" 101 3308 3350
+)
+"World.ml" 101 3308 3336 "World.ml" 101 3308 3337
+type(
+  world_object_i list
+)
+ident(
+  def t "World.ml" 101 3308 3341 "World.ml" 101 3308 3350
+)
+"World.ml" 101 3308 3341 "World.ml" 101 3308 3344
+type(
+  int * int -> world_object_i list
+)
+ident(
+  int_ref get "World.ml" 42 1125 1129 "World.ml" 42 1125 1132
+)
+"World.ml" 101 3308 3345 "World.ml" 101 3308 3346
+type(
+  int * int
+)
+ident(
+  int_ref p "World.ml" 101 3308 3334 "World.ml" 101 3308 3335
+)
+"World.ml" 101 3308 3341 "World.ml" 101 3308 3346
+call(
+  stack
+)
+type(
+  world_object_i list
+)
+"World.ml" 101 3308 3347 "World.ml" 101 3308 3348
+type(
+  world_object_i list -> world_object_i list -> world_object_i list
+)
+ident(
+  ext_ref Core.Std.( @ )
+)
+"World.ml" 101 3308 3349 "World.ml" 101 3308 3350
+type(
+  world_object_i list
+)
+ident(
+  int_ref t "World.ml" 101 3308 3336 "World.ml" 101 3308 3337
+)
+"World.ml" 101 3308 3341 "World.ml" 101 3308 3350
+call(
+  tail
+)
+type(
+  world_object_i list
+)
+"World.ml" 101 3308 3336 "World.ml" 101 3308 3350
+type(
+  world_object_i list -> world_object_i list
+)
+"World.ml" 101 3308 3334 "World.ml" 101 3308 3350
+type(
+  int * int -> world_object_i list -> world_object_i list
+)
+"World.ml" 101 3308 3358 "World.ml" 101 3308 3360
+type(
+  world_object_i list
+)
+"World.ml" 101 3308 3361 "World.ml" 101 3308 3367
+type(
+  (int * int) list
+)
+ident(
+  int_ref coords "World.ml" 99 3218 3224 "World.ml" 99 3218 3230
+)
+"World.ml" 101 3308 3310 "World.ml" 101 3308 3367
+call(
+  tail
+)
+type(
+  world_object_i list
+)
+"World.ml" 99 3218 3220 "World.ml" 101 3308 3367
+type(
+  world_object_i list
+)
+"World.ml" 98 3182 3184 "World.ml" 101 3308 3367
+type(
+  world_object_i list
+)
+"World.ml" 97 3146 3148 "World.ml" 101 3308 3367
+type(
+  world_object_i list
+)
+"World.ml" 96 3118 3120 "World.ml" 101 3308 3367
+type(
+  world_object_i list
+)
+"World.ml" 95 3090 3092 "World.ml" 101 3308 3367
+type(
+  world_object_i list
+)
+type(
+  world_object_i list
+)
+"World.ml" 94 3017 3058 "World.ml" 101 3308 3367
+type(
+  int -> world_object_i list
+)
+"World.ml" 94 3017 3042 "World.ml" 101 3308 3367
+type(
+  int * int -> int -> world_object_i list
+)
+"World.ml" 105 3488 3496 "World.ml" 105 3488 3510
+type(
+  int * int -> int * int
+)
+ident(
+  def next_available "World.ml" 105 3488 3488 "World.ml" 1 0 -1
+)
+"World.ml" 105 3488 3513 "World.ml" 105 3488 3514
+type(
+  int
+)
+ident(
+  def x "World.ml" 105 3488 3527 "World.ml" 110 3764 3776
+)
+"World.ml" 105 3488 3515 "World.ml" 105 3488 3516
+type(
+  int
+)
+ident(
+  def y "World.ml" 105 3488 3527 "World.ml" 110 3764 3776
+)
+"World.ml" 105 3488 3513 "World.ml" 105 3488 3516
+type(
+  int * int
+)
+"World.ml" 106 3539 3544 "World.ml" 106 3539 3547
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"World.ml" 106 3539 3549 "World.ml" 106 3539 3561
+type(
+  int * int -> bool
+)
+ident(
+  int_ref check_bounds "World.ml" 83 2606 2610 "World.ml" 83 2606 2622
+)
+"World.ml" 106 3539 3563 "World.ml" 106 3539 3564
+type(
+  int
+)
+ident(
+  int_ref x "World.ml" 105 3488 3513 "World.ml" 105 3488 3514
+)
+"World.ml" 106 3539 3565 "World.ml" 106 3539 3566
+type(
+  int
+)
+ident(
+  int_ref y "World.ml" 105 3488 3515 "World.ml" 105 3488 3516
+)
+"World.ml" 106 3539 3563 "World.ml" 106 3539 3566
+type(
+  int * int
+)
+"World.ml" 106 3539 3549 "World.ml" 106 3539 3567
+call(
+  stack
+)
+type(
+  bool
+)
+"World.ml" 106 3539 3544 "World.ml" 106 3539 3568
+type(
+  bool
+)
+"World.ml" 107 3574 3578 "World.ml" 107 3574 3592
+type(
+  int * int -> int * int
+)
+ident(
+  int_ref next_available "World.ml" 105 3488 3496 "World.ml" 105 3488 3510
+)
+"World.ml" 107 3574 3594 "World.ml" 107 3574 3607
+type(
+  int -> int -> int -> int
+)
+ident(
+  ext_ref Helpers.bound
+)
+"World.ml" 107 3574 3608 "World.ml" 107 3574 3609
+type(
+  int
+)
+"World.ml" 107 3574 3611 "World.ml" 107 3574 3615
+type(
+  int
+)
+ident(
+  int_ref size "World.ml" 21 503 507 "World.ml" 21 503 511
+)
+"World.ml" 107 3574 3615 "World.ml" 107 3574 3616
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"World.ml" 107 3574 3616 "World.ml" 107 3574 3617
+type(
+  int
+)
+"World.ml" 107 3574 3611 "World.ml" 107 3574 3617
+type(
+  int
+)
+"World.ml" 107 3574 3619 "World.ml" 107 3574 3620
+type(
+  int
+)
+ident(
+  int_ref x "World.ml" 105 3488 3513 "World.ml" 105 3488 3514
+)
+"World.ml" 107 3574 3594 "World.ml" 107 3574 3620
+call(
+  stack
+)
+type(
+  int
+)
+"World.ml" 107 3574 3621 "World.ml" 107 3574 3634
+type(
+  int -> int -> int -> int
+)
+ident(
+  ext_ref Helpers.bound
+)
+"World.ml" 107 3574 3635 "World.ml" 107 3574 3636
+type(
+  int
+)
+"World.ml" 107 3574 3638 "World.ml" 107 3574 3642
+type(
+  int
+)
+ident(
+  int_ref size "World.ml" 21 503 507 "World.ml" 21 503 511
+)
+"World.ml" 107 3574 3642 "World.ml" 107 3574 3643
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"World.ml" 107 3574 3643 "World.ml" 107 3574 3644
+type(
+  int
+)
+"World.ml" 107 3574 3638 "World.ml" 107 3574 3644
+type(
+  int
+)
+"World.ml" 107 3574 3646 "World.ml" 107 3574 3647
+type(
+  int
+)
+ident(
+  int_ref y "World.ml" 105 3488 3515 "World.ml" 105 3488 3516
+)
+"World.ml" 107 3574 3621 "World.ml" 107 3574 3647
+call(
+  stack
+)
+type(
+  int
+)
+"World.ml" 107 3574 3594 "World.ml" 107 3574 3647
+type(
+  int * int
+)
+"World.ml" 107 3574 3578 "World.ml" 107 3574 3648
+call(
+  tail
+)
+type(
+  int * int
+)
+"World.ml" 108 3649 3659 "World.ml" 108 3649 3662
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"World.ml" 108 3649 3664 "World.ml" 108 3649 3672
+type(
+  int * int -> bool
+)
+ident(
+  int_ref is_empty "World.ml" 91 2932 2936 "World.ml" 91 2932 2944
+)
+"World.ml" 108 3649 3674 "World.ml" 108 3649 3675
+type(
+  int
+)
+ident(
+  int_ref x "World.ml" 105 3488 3513 "World.ml" 105 3488 3514
+)
+"World.ml" 108 3649 3676 "World.ml" 108 3649 3677
+type(
+  int
+)
+ident(
+  int_ref y "World.ml" 105 3488 3515 "World.ml" 105 3488 3516
+)
+"World.ml" 108 3649 3674 "World.ml" 108 3649 3677
+type(
+  int * int
+)
+"World.ml" 108 3649 3664 "World.ml" 108 3649 3678
+call(
+  stack
+)
+type(
+  bool
+)
+"World.ml" 108 3649 3659 "World.ml" 108 3649 3679
+type(
+  bool
+)
+"World.ml" 109 3685 3689 "World.ml" 109 3685 3703
+type(
+  int * int -> int * int
+)
+ident(
+  int_ref next_available "World.ml" 105 3488 3496 "World.ml" 105 3488 3510
+)
+"World.ml" 109 3685 3705 "World.ml" 109 3685 3725
+type(
+  int * int -> Direction.direction option -> int * int
+)
+ident(
+  ext_ref Direction.move_point
+)
+"World.ml" 109 3685 3727 "World.ml" 109 3685 3728
+type(
+  int
+)
+ident(
+  int_ref x "World.ml" 105 3488 3513 "World.ml" 105 3488 3514
+)
+"World.ml" 109 3685 3729 "World.ml" 109 3685 3730
+type(
+  int
+)
+ident(
+  int_ref y "World.ml" 105 3488 3515 "World.ml" 105 3488 3516
+)
+"World.ml" 109 3685 3727 "World.ml" 109 3685 3730
+type(
+  int * int
+)
+"World.ml" 109 3685 3739 "World.ml" 109 3685 3755
+type(
+  (int -> int) -> Direction.direction
+)
+ident(
+  ext_ref Direction.random
+)
+"World.ml" 109 3685 3756 "World.ml" 109 3685 3760
+type(
+  int -> int
+)
+ident(
+  int_ref rand "World.ml" 18 402 406 "World.ml" 18 402 410
+)
+"World.ml" 109 3685 3739 "World.ml" 109 3685 3760
+call(
+  stack
+)
+type(
+  Direction.direction
+)
+"World.ml" 109 3685 3733 "World.ml" 109 3685 3761
+type(
+  Direction.direction option
+)
+"World.ml" 109 3685 3705 "World.ml" 109 3685 3762
+call(
+  stack
+)
+type(
+  int * int
+)
+"World.ml" 109 3685 3689 "World.ml" 109 3685 3763
+call(
+  tail
+)
+type(
+  int * int
+)
+"World.ml" 110 3764 3772 "World.ml" 110 3764 3773
+type(
+  int
+)
+ident(
+  int_ref x "World.ml" 105 3488 3513 "World.ml" 105 3488 3514
+)
+"World.ml" 110 3764 3774 "World.ml" 110 3764 3775
+type(
+  int
+)
+ident(
+  int_ref y "World.ml" 105 3488 3515 "World.ml" 105 3488 3516
+)
+"World.ml" 110 3764 3772 "World.ml" 110 3764 3775
+type(
+  int * int
+)
+"World.ml" 108 3649 3656 "World.ml" 110 3764 3776
+type(
+  int * int
+)
+"World.ml" 106 3539 3541 "World.ml" 110 3764 3776
+type(
+  int * int
+)
+type(
+  int * int
+)
+"World.ml" 105 3488 3511 "World.ml" 110 3764 3776
+type(
+  int * int -> int * int
+)
+"World.ml" 118 3977 3985 "World.ml" 118 3977 3990
+type(
+  int -> int * int -> (int * int -> unit) -> unit
+)
+ident(
+  def spawn "World.ml" 118 3977 3977 "World.ml" 1 0 -1
+)
+"World.ml" 118 3977 3992 "World.ml" 118 3977 3993
+type(
+  int
+)
+ident(
+  def n "World.ml" 118 3977 3999 "World.ml" 122 4109 4129
+)
+"World.ml" 118 3977 4000 "World.ml" 118 3977 4001
+type(
+  int * int
+)
+ident(
+  def p "World.ml" 118 3977 4011 "World.ml" 122 4109 4129
+)
+"World.ml" 118 3977 4012 "World.ml" 118 3977 4013
+type(
+  int * int -> unit
+)
+ident(
+  def f "World.ml" 118 3977 4031 "World.ml" 122 4109 4129
+)
+"World.ml" 119 4040 4045 "World.ml" 119 4040 4046
+type(
+  int
+)
+ident(
+  int_ref n "World.ml" 118 3977 3992 "World.ml" 118 3977 3993
+)
+"World.ml" 119 4040 4047 "World.ml" 119 4040 4049
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"World.ml" 119 4040 4050 "World.ml" 119 4040 4051
+type(
+  int
+)
+"World.ml" 119 4040 4045 "World.ml" 119 4040 4051
+type(
+  bool
+)
+"World.ml" 119 4040 4057 "World.ml" 119 4040 4059
+type(
+  unit
+)
+"World.ml" 120 4065 4073 "World.ml" 120 4065 4075
+type(
+  int * int
+)
+ident(
+  def p' "World.ml" 121 4098 4102 "World.ml" 122 4109 4129
+)
+"World.ml" 120 4065 4078 "World.ml" 120 4065 4092
+type(
+  int * int -> int * int
+)
+ident(
+  int_ref next_available "World.ml" 105 3488 3496 "World.ml" 105 3488 3510
+)
+"World.ml" 120 4065 4093 "World.ml" 120 4065 4094
+type(
+  int * int
+)
+ident(
+  int_ref p "World.ml" 118 3977 4000 "World.ml" 118 3977 4001
+)
+"World.ml" 120 4065 4078 "World.ml" 120 4065 4094
+call(
+  stack
+)
+type(
+  int * int
+)
+"World.ml" 121 4098 4102 "World.ml" 121 4098 4103
+type(
+  int * int -> unit
+)
+ident(
+  int_ref f "World.ml" 118 3977 4012 "World.ml" 118 3977 4013
+)
+"World.ml" 121 4098 4104 "World.ml" 121 4098 4106
+type(
+  int * int
+)
+ident(
+  int_ref p' "World.ml" 120 4065 4073 "World.ml" 120 4065 4075
+)
+"World.ml" 121 4098 4102 "World.ml" 121 4098 4106
+call(
+  stack
+)
+type(
+  unit
+)
+"World.ml" 122 4109 4113 "World.ml" 122 4109 4118
+type(
+  int -> int * int -> (int * int -> unit) -> unit
+)
+ident(
+  int_ref spawn "World.ml" 118 3977 3985 "World.ml" 118 3977 3990
+)
+"World.ml" 122 4109 4120 "World.ml" 122 4109 4121
+type(
+  int
+)
+ident(
+  int_ref n "World.ml" 118 3977 3992 "World.ml" 118 3977 3993
+)
+"World.ml" 122 4109 4121 "World.ml" 122 4109 4122
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"World.ml" 122 4109 4122 "World.ml" 122 4109 4123
+type(
+  int
+)
+"World.ml" 122 4109 4120 "World.ml" 122 4109 4123
+type(
+  int
+)
+"World.ml" 122 4109 4125 "World.ml" 122 4109 4127
+type(
+  int * int
+)
+ident(
+  int_ref p' "World.ml" 120 4065 4073 "World.ml" 120 4065 4075
+)
+"World.ml" 122 4109 4128 "World.ml" 122 4109 4129
+type(
+  int * int -> unit
+)
+ident(
+  int_ref f "World.ml" 118 3977 4012 "World.ml" 118 3977 4013
+)
+"World.ml" 122 4109 4113 "World.ml" 122 4109 4129
+call(
+  tail
+)
+type(
+  unit
+)
+"World.ml" 121 4098 4102 "World.ml" 122 4109 4129
+type(
+  unit
+)
+"World.ml" 120 4065 4069 "World.ml" 122 4109 4129
+type(
+  unit
+)
+"World.ml" 119 4040 4042 "World.ml" 122 4109 4129
+type(
+  unit
+)
+type(
+  unit
+)
+"World.ml" 118 3977 4011 "World.ml" 122 4109 4129
+type(
+  (int * int -> unit) -> unit
+)
+"World.ml" 118 3977 3999 "World.ml" 122 4109 4129
+type(
+  int * int -> (int * int -> unit) -> unit
+)
+"World.ml" 118 3977 3991 "World.ml" 122 4109 4129
+type(
+  int -> int * int -> (int * int -> unit) -> unit
+)
+"World.ml" 127 4301 4309 "World.ml" 127 4301 4319
+type(
+  int -> int -> (unit -> unit) -> (int * int -> unit) -> unit
+)
+ident(
+  def spawn_iter "World.ml" 127 4301 4301 "World.ml" 1 0 -1
+)
+"World.ml" 127 4301 4321 "World.ml" 127 4301 4329
+type(
+  int
+)
+ident(
+  def num_iter "World.ml" 128 4335 4354 "World.ml" 135 4616 4621
+)
+"World.ml" 128 4335 4355 "World.ml" 128 4335 4364
+type(
+  int
+)
+ident(
+  def num_spawn "World.ml" 129 4370 4389 "World.ml" 135 4616 4621
+)
+"World.ml" 129 4370 4390 "World.ml" 129 4370 4397
+type(
+  unit -> unit
+)
+ident(
+  def barrier "World.ml" 130 4412 4431 "World.ml" 135 4616 4621
+)
+"World.ml" 130 4412 4432 "World.ml" 130 4412 4433
+type(
+  int * int -> unit
+)
+ident(
+  def f "World.ml" 130 4412 4451 "World.ml" 135 4616 4621
+)
+"World.ml" 131 4460 4465 "World.ml" 131 4460 4473
+type(
+  int
+)
+ident(
+  int_ref num_iter "World.ml" 127 4301 4321 "World.ml" 127 4301 4329
+)
+"World.ml" 131 4460 4474 "World.ml" 131 4460 4475
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"World.ml" 131 4460 4476 "World.ml" 131 4460 4477
+type(
+  int
+)
+"World.ml" 131 4460 4465 "World.ml" 131 4460 4477
+type(
+  bool
+)
+"World.ml" 131 4460 4483 "World.ml" 131 4460 4485
+type(
+  unit
+)
+"World.ml" 132 4497 4501 "World.ml" 132 4497 4508
+type(
+  unit -> unit
+)
+ident(
+  int_ref barrier "World.ml" 129 4370 4390 "World.ml" 129 4370 4397
+)
+"World.ml" 132 4497 4509 "World.ml" 132 4497 4511
+type(
+  unit
+)
+"World.ml" 132 4497 4501 "World.ml" 132 4497 4511
+call(
+  stack
+)
+type(
+  unit
+)
+"World.ml" 133 4514 4518 "World.ml" 133 4514 4523
+type(
+  int -> int * int -> (int * int -> unit) -> unit
+)
+ident(
+  int_ref spawn "World.ml" 118 3977 3985 "World.ml" 118 3977 3990
+)
+"World.ml" 133 4514 4525 "World.ml" 133 4514 4529
+type(
+  int -> int
+)
+ident(
+  int_ref rand "World.ml" 18 402 406 "World.ml" 18 402 410
+)
+"World.ml" 133 4514 4530 "World.ml" 133 4514 4539
+type(
+  int
+)
+ident(
+  int_ref num_spawn "World.ml" 128 4335 4355 "World.ml" 128 4335 4364
+)
+"World.ml" 133 4514 4525 "World.ml" 133 4514 4539
+call(
+  stack
+)
+type(
+  int
+)
+"World.ml" 133 4514 4542 "World.ml" 133 4514 4546
+type(
+  int -> int
+)
+ident(
+  int_ref rand "World.ml" 18 402 406 "World.ml" 18 402 410
+)
+"World.ml" 133 4514 4547 "World.ml" 133 4514 4551
+type(
+  int
+)
+ident(
+  int_ref size "World.ml" 21 503 507 "World.ml" 21 503 511
+)
+"World.ml" 133 4514 4542 "World.ml" 133 4514 4551
+call(
+  stack
+)
+type(
+  int
+)
+"World.ml" 133 4514 4553 "World.ml" 133 4514 4557
+type(
+  int -> int
+)
+ident(
+  int_ref rand "World.ml" 18 402 406 "World.ml" 18 402 410
+)
+"World.ml" 133 4514 4558 "World.ml" 133 4514 4562
+type(
+  int
+)
+ident(
+  int_ref size "World.ml" 21 503 507 "World.ml" 21 503 511
+)
+"World.ml" 133 4514 4553 "World.ml" 133 4514 4562
+call(
+  stack
+)
+type(
+  int
+)
+"World.ml" 133 4514 4542 "World.ml" 133 4514 4562
+type(
+  int * int
+)
+"World.ml" 133 4514 4564 "World.ml" 133 4514 4565
+type(
+  int * int -> unit
+)
+ident(
+  int_ref f "World.ml" 130 4412 4432 "World.ml" 130 4412 4433
+)
+"World.ml" 133 4514 4518 "World.ml" 133 4514 4565
+call(
+  stack
+)
+type(
+  unit
+)
+"World.ml" 134 4568 4572 "World.ml" 134 4568 4582
+type(
+  int -> int -> (unit -> unit) -> (int * int -> unit) -> unit
+)
+ident(
+  int_ref spawn_iter "World.ml" 127 4301 4309 "World.ml" 127 4301 4319
+)
+"World.ml" 134 4568 4584 "World.ml" 134 4568 4592
+type(
+  int
+)
+ident(
+  int_ref num_iter "World.ml" 127 4301 4321 "World.ml" 127 4301 4329
+)
+"World.ml" 134 4568 4592 "World.ml" 134 4568 4593
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"World.ml" 134 4568 4593 "World.ml" 134 4568 4594
+type(
+  int
+)
+"World.ml" 134 4568 4584 "World.ml" 134 4568 4594
+type(
+  int
+)
+"World.ml" 134 4568 4596 "World.ml" 134 4568 4605
+type(
+  int
+)
+ident(
+  int_ref num_spawn "World.ml" 128 4335 4355 "World.ml" 128 4335 4364
+)
+"World.ml" 134 4568 4606 "World.ml" 134 4568 4613
+type(
+  unit -> unit
+)
+ident(
+  int_ref barrier "World.ml" 129 4370 4390 "World.ml" 129 4370 4397
+)
+"World.ml" 134 4568 4614 "World.ml" 134 4568 4615
+type(
+  int * int -> unit
+)
+ident(
+  int_ref f "World.ml" 130 4412 4432 "World.ml" 130 4412 4433
+)
+"World.ml" 134 4568 4572 "World.ml" 134 4568 4615
+call(
+  tail
+)
+type(
+  unit
+)
+"World.ml" 133 4514 4518 "World.ml" 135 4616 4621
+type(
+  unit
+)
+"World.ml" 132 4497 4501 "World.ml" 135 4616 4621
+type(
+  unit
+)
+"World.ml" 131 4460 4462 "World.ml" 135 4616 4621
+type(
+  unit
+)
+type(
+  unit
+)
+"World.ml" 130 4412 4431 "World.ml" 135 4616 4621
+type(
+  (int * int -> unit) -> unit
+)
+"World.ml" 129 4370 4389 "World.ml" 135 4616 4621
+type(
+  (unit -> unit) -> (int * int -> unit) -> unit
+)
+"World.ml" 128 4335 4354 "World.ml" 135 4616 4621
+type(
+  int -> (unit -> unit) -> (int * int -> unit) -> unit
+)
+"World.ml" 127 4301 4320 "World.ml" 135 4616 4621
+type(
+  int -> int -> (unit -> unit) -> (int * int -> unit) -> unit
+)
+"World.ml" 142 4762 4766 "World.ml" 142 4762 4779
+type(
+  int * int -> bool
+)
+ident(
+  def has_obstacles "World.ml" 147 4942 4942 "World.ml" 1 0 -1
+)
+"World.ml" 142 4762 4781 "World.ml" 142 4762 4782
+type(
+  int * int
+)
+ident(
+  def p "World.ml" 142 4762 4792 "World.ml" 144 4838 4888
+)
+"World.ml" 143 4801 4803 "World.ml" 143 4801 4817
+type(
+  bool list -> init:bool -> f:(bool -> bool -> bool) -> bool
+)
+ident(
+  ext_ref Core.Std.List.fold_left
+)
+"World.ml" 143 4801 4821 "World.ml" 143 4801 4825
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"World.ml" 143 4801 4832 "World.ml" 143 4801 4837
+type(
+  bool
+)
+"World.ml" 144 4838 4843 "World.ml" 144 4838 4851
+type(
+  world_object_i list -> f:(world_object_i -> bool) -> bool list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"World.ml" 144 4838 4860 "World.ml" 144 4838 4861
+type(
+  world_object_i
+)
+ident(
+  def o "World.ml" 144 4838 4865 "World.ml" 144 4838 4878
+)
+"World.ml" 144 4838 4865 "World.ml" 144 4838 4866
+type(
+  world_object_i
+)
+ident(
+  int_ref o "World.ml" 144 4838 4860 "World.ml" 144 4838 4861
+)
+"World.ml" 144 4838 4865 "World.ml" 144 4838 4878
+call(
+  tail
+)
+type(
+  bool
+)
+"World.ml" 144 4838 4860 "World.ml" 144 4838 4878
+type(
+  world_object_i -> bool
+)
+"World.ml" 144 4838 4881 "World.ml" 144 4838 4884
+type(
+  int * int -> world_object_i list
+)
+ident(
+  int_ref get "World.ml" 42 1125 1129 "World.ml" 42 1125 1132
+)
+"World.ml" 144 4838 4885 "World.ml" 144 4838 4886
+type(
+  int * int
+)
+ident(
+  int_ref p "World.ml" 142 4762 4781 "World.ml" 142 4762 4782
+)
+"World.ml" 144 4838 4881 "World.ml" 144 4838 4886
+call(
+  stack
+)
+type(
+  world_object_i list
+)
+"World.ml" 144 4838 4843 "World.ml" 144 4838 4887
+call(
+  stack
+)
+type(
+  bool list
+)
+"World.ml" 143 4801 4803 "World.ml" 144 4838 4888
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"World.ml" 142 4762 4780 "World.ml" 144 4838 4888
+type(
+  int * int -> bool
+)
+"World.ml" 147 4942 4946 "World.ml" 147 4942 4964
+type(
+  (int * int) list -> bool
+)
+ident(
+  def path_has_obstacles "World.ml" 152 5158 5158 "World.ml" 1 0 -1
+)
+"World.ml" 147 4942 4966 "World.ml" 147 4942 4968
+type(
+  (int * int) list
+)
+ident(
+  def ps "World.ml" 147 4942 4985 "World.ml" 148 4994 5061
+)
+"World.ml" 148 4994 4996 "World.ml" 148 4994 5010
+type(
+  bool list -> init:bool -> f:(bool -> bool -> bool) -> bool
+)
+ident(
+  ext_ref Core.Std.List.fold_left
+)
+"World.ml" 148 4994 5014 "World.ml" 148 4994 5018
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"World.ml" 148 4994 5025 "World.ml" 148 4994 5030
+type(
+  bool
+)
+"World.ml" 148 4994 5032 "World.ml" 148 4994 5040
+type(
+  (int * int) list -> f:(int * int -> bool) -> bool list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"World.ml" 148 4994 5044 "World.ml" 148 4994 5057
+type(
+  int * int -> bool
+)
+ident(
+  int_ref has_obstacles "World.ml" 142 4762 4766 "World.ml" 142 4762 4779
+)
+"World.ml" 148 4994 5058 "World.ml" 148 4994 5060
+type(
+  (int * int) list
+)
+ident(
+  int_ref ps "World.ml" 147 4942 4966 "World.ml" 147 4942 4968
+)
+"World.ml" 148 4994 5032 "World.ml" 148 4994 5060
+call(
+  stack
+)
+type(
+  bool list
+)
+"World.ml" 148 4994 4996 "World.ml" 148 4994 5061
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"World.ml" 147 4942 4965 "World.ml" 148 4994 5061
+type(
+  (int * int) list -> bool
+)
+"World.ml" 152 5158 5162 "World.ml" 152 5158 5170
+type(
+  int * int -> bool
+)
+ident(
+  def can_move "World.ml" 157 5386 5386 "World.ml" 1 0 -1
+)
+"World.ml" 152 5158 5172 "World.ml" 152 5158 5173
+type(
+  int * int
+)
+ident(
+  def p "World.ml" 152 5158 5183 "World.ml" 153 5192 5233
+)
+"World.ml" 153 5192 5194 "World.ml" 153 5192 5206
+type(
+  int * int -> bool
+)
+ident(
+  int_ref check_bounds "World.ml" 83 2606 2610 "World.ml" 83 2606 2622
+)
+"World.ml" 153 5192 5207 "World.ml" 153 5192 5208
+type(
+  int * int
+)
+ident(
+  int_ref p "World.ml" 152 5158 5172 "World.ml" 152 5158 5173
+)
+"World.ml" 153 5192 5194 "World.ml" 153 5192 5208
+call(
+  stack
+)
+type(
+  bool
+)
+"World.ml" 153 5192 5209 "World.ml" 153 5192 5211
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"World.ml" 153 5192 5212 "World.ml" 153 5192 5215
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"World.ml" 153 5192 5217 "World.ml" 153 5192 5230
+type(
+  int * int -> bool
+)
+ident(
+  int_ref has_obstacles "World.ml" 142 4762 4766 "World.ml" 142 4762 4779
+)
+"World.ml" 153 5192 5231 "World.ml" 153 5192 5232
+type(
+  int * int
+)
+ident(
+  int_ref p "World.ml" 152 5158 5172 "World.ml" 152 5158 5173
+)
+"World.ml" 153 5192 5217 "World.ml" 153 5192 5232
+call(
+  stack
+)
+type(
+  bool
+)
+"World.ml" 153 5192 5212 "World.ml" 153 5192 5233
+type(
+  bool
+)
+"World.ml" 153 5192 5194 "World.ml" 153 5192 5233
+type(
+  bool
+)
+type(
+  bool
+)
+"World.ml" 152 5158 5171 "World.ml" 153 5192 5233
+type(
+  int * int -> bool
+)
+"World.ml" 157 5386 5390 "World.ml" 157 5386 5407
+type(
+  int * int -> int * int -> Direction.direction option
+)
+ident(
+  def direction_from_to "World.ml" 168 5755 5755 "World.ml" 1 0 -1
+)
+"World.ml" 157 5386 5409 "World.ml" 157 5386 5411
+type(
+  int * int
+)
+ident(
+  def p1 "World.ml" 157 5386 5421 "World.ml" 161 5604 5634
+)
+"World.ml" 157 5386 5422 "World.ml" 157 5386 5424
+type(
+  int * int
+)
+ident(
+  def p2 "World.ml" 157 5386 5434 "World.ml" 161 5604 5634
+)
+"World.ml" 158 5465 5475 "World.ml" 158 5465 5487
+type(
+  int * int -> bool
+)
+ident(
+  int_ref check_bounds "World.ml" 83 2606 2610 "World.ml" 83 2606 2622
+)
+"World.ml" 158 5465 5488 "World.ml" 158 5465 5490
+type(
+  int * int
+)
+ident(
+  int_ref p1 "World.ml" 157 5386 5409 "World.ml" 157 5386 5411
+)
+"World.ml" 158 5465 5475 "World.ml" 158 5465 5490
+call(
+  stack
+)
+type(
+  bool
+)
+"World.ml" 158 5465 5491 "World.ml" 158 5465 5493
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"World.ml" 158 5465 5494 "World.ml" 158 5465 5506
+type(
+  int * int -> bool
+)
+ident(
+  int_ref check_bounds "World.ml" 83 2606 2610 "World.ml" 83 2606 2622
+)
+"World.ml" 158 5465 5507 "World.ml" 158 5465 5509
+type(
+  int * int
+)
+ident(
+  int_ref p2 "World.ml" 157 5386 5422 "World.ml" 157 5386 5424
+)
+"World.ml" 158 5465 5494 "World.ml" 158 5465 5509
+call(
+  stack
+)
+type(
+  bool
+)
+"World.ml" 158 5465 5475 "World.ml" 158 5465 5509
+type(
+  bool
+)
+"World.ml" 158 5465 5467 "World.ml" 158 5465 5510
+type(
+  unit
+)
+"World.ml" 159 5513 5518 "World.ml" 159 5513 5536
+type(
+  (int * int) list -> bool
+)
+ident(
+  int_ref path_has_obstacles "World.ml" 147 4942 4946 "World.ml" 147 4942 4964
+)
+"World.ml" 159 5513 5538 "World.ml" 159 5513 5560
+type(
+  int * int -> int * int -> (int * int) list
+)
+ident(
+  ext_ref Direction.natural_path
+)
+"World.ml" 159 5513 5561 "World.ml" 159 5513 5563
+type(
+  int * int
+)
+ident(
+  int_ref p1 "World.ml" 157 5386 5409 "World.ml" 157 5386 5411
+)
+"World.ml" 159 5513 5564 "World.ml" 159 5513 5566
+type(
+  int * int
+)
+ident(
+  int_ref p2 "World.ml" 157 5386 5422 "World.ml" 157 5386 5424
+)
+"World.ml" 159 5513 5538 "World.ml" 159 5513 5566
+call(
+  stack
+)
+type(
+  (int * int) list
+)
+"World.ml" 159 5513 5518 "World.ml" 159 5513 5567
+call(
+  stack
+)
+type(
+  bool
+)
+"World.ml" 160 5568 5581 "World.ml" 160 5568 5597
+type(
+  (int -> int) -> Direction.direction
+)
+ident(
+  ext_ref Direction.random
+)
+"World.ml" 160 5568 5598 "World.ml" 160 5568 5602
+type(
+  int -> int
+)
+ident(
+  int_ref rand "World.ml" 18 402 406 "World.ml" 18 402 410
+)
+"World.ml" 160 5568 5581 "World.ml" 160 5568 5602
+call(
+  stack
+)
+type(
+  Direction.direction
+)
+"World.ml" 160 5568 5575 "World.ml" 160 5568 5603
+type(
+  Direction.direction option
+)
+"World.ml" 161 5604 5611 "World.ml" 161 5604 5628
+type(
+  int * int -> int * int -> Direction.direction option
+)
+ident(
+  ext_ref Direction.natural
+)
+"World.ml" 161 5604 5629 "World.ml" 161 5604 5631
+type(
+  int * int
+)
+ident(
+  int_ref p1 "World.ml" 157 5386 5409 "World.ml" 157 5386 5411
+)
+"World.ml" 161 5604 5632 "World.ml" 161 5604 5634
+type(
+  int * int
+)
+ident(
+  int_ref p2 "World.ml" 157 5386 5422 "World.ml" 157 5386 5424
+)
+"World.ml" 161 5604 5611 "World.ml" 161 5604 5634
+call(
+  tail
+)
+type(
+  Direction.direction option
+)
+"World.ml" 159 5513 5515 "World.ml" 161 5604 5634
+type(
+  Direction.direction option
+)
+"World.ml" 158 5465 5467 "World.ml" 161 5604 5634
+type(
+  Direction.direction option
+)
+type(
+  Direction.direction option
+)
+"World.ml" 157 5386 5421 "World.ml" 161 5604 5634
+type(
+  int * int -> Direction.direction option
+)
+"World.ml" 157 5386 5408 "World.ml" 161 5604 5634
+type(
+  int * int -> int * int -> Direction.direction option
+)
+"World.ml" 168 5755 5759 "World.ml" 168 5755 5771
+type(
+  unit Event51.event
+)
+ident(
+  def action_event "World.ml" 171 5856 5856 "World.ml" 1 0 -1
+)
+"World.ml" 168 5755 5795 "World.ml" 168 5755 5812
+type(
+  unit -> unit Event51.event
+)
+ident(
+  ext_ref Event51.Event51.new_event
+)
+"World.ml" 168 5755 5813 "World.ml" 168 5755 5815
+type(
+  unit
+)
+"World.ml" 168 5755 5795 "World.ml" 168 5755 5815
+call(
+  stack
+)
+type(
+  unit Event51.event
+)
+type(
+  unit Event51.event
+)
+"World.ml" 171 5856 5860 "World.ml" 171 5856 5870
+type(
+  unit Event51.event
+)
+ident(
+  def move_event "World.ml" 174 5954 5954 "World.ml" 1 0 -1
+)
+"World.ml" 171 5856 5894 "World.ml" 171 5856 5911
+type(
+  unit -> unit Event51.event
+)
+ident(
+  ext_ref Event51.Event51.new_event
+)
+"World.ml" 171 5856 5912 "World.ml" 171 5856 5914
+type(
+  unit
+)
+"World.ml" 171 5856 5894 "World.ml" 171 5856 5914
+call(
+  stack
+)
+type(
+  unit Event51.event
+)
+type(
+  unit Event51.event
+)
+"World.ml" 174 5954 5958 "World.ml" 174 5954 5967
+type(
+  unit Event51.event
+)
+ident(
+  def age_event "World.ml" 174 5954 6011 "World.ml" 1 0 -1
+)
+"World.ml" 174 5954 5991 "World.ml" 174 5954 6008
+type(
+  unit -> unit Event51.event
+)
+ident(
+  ext_ref Event51.Event51.new_event
+)
+"World.ml" 174 5954 6009 "World.ml" 174 5954 6011
+type(
+  unit
+)
+"World.ml" 174 5954 5991 "World.ml" 174 5954 6011
+call(
+  stack
+)
+type(
+  unit Event51.event
+)
+type(
+  unit Event51.event
+)

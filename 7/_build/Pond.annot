@@ -1,0 +1,103 @@
+"Pond.ml" 6 109 120 "Pond.ml" 6 109 121
+type(
+  int * int
+)
+"Pond.ml" 7 141 149 "Pond.ml" 7 141 153
+type(
+  < danger : world_object_i -> unit; die : unit; draw : unit;
+    draw_z_axis : int; forfeit_gold : int option;
+    get_danger_event : world_object_i Event51.Event51.event;
+    get_die_event : unit Event51.Event51.event; get_name : string;
+    get_pos : int * int; is_obstacle : bool; receive_damage : unit;
+    receive_gold : int list -> int list; smells_like_gold : int option; .. >
+)
+"Pond.ml" 8 155 178 "Pond.ml" 8 155 179
+type(
+  int * int
+)
+ident(
+  int_ref p "Pond.ml" 6 109 120 "Pond.ml" 6 109 121
+)
+"Pond.ml" 14 293 314 "Pond.ml" 14 293 320
+type(
+  string
+)
+type(
+  string
+)
+"Pond.ml" 14 293 295 "Pond.ml" 14 293 320
+type(
+  (< danger : world_object_i -> unit; die : unit; draw : unit;
+     draw_z_axis : int; forfeit_gold : int option;
+     get_danger_event : world_object_i Event51.Event51.event;
+     get_die_event : unit Event51.Event51.event; get_name : string;
+     get_pos : int * int; is_obstacle : bool; receive_damage : unit;
+     receive_gold : int list -> int list; smells_like_gold : int option; .. >
+   as 'a) ->
+  string
+)
+"Pond.ml" 16 322 339 "Pond.ml" 16 322 343
+type(
+  'a
+)
+ident(
+  int_ref self "Pond.ml" 7 141 149 "Pond.ml" 7 141 153
+)
+"Pond.ml" 16 322 339 "Pond.ml" 16 322 355
+call(
+  tail
+)
+type(
+  int -> int -> string -> unit
+)
+"Pond.ml" 16 322 356 "Pond.ml" 16 322 369
+type(
+  int
+)
+ident(
+  ext_ref Graphics.blue
+)
+"Pond.ml" 16 322 370 "Pond.ml" 16 322 384
+type(
+  int
+)
+ident(
+  ext_ref Graphics.black
+)
+"Pond.ml" 16 322 385 "Pond.ml" 16 322 387
+type(
+  string
+)
+"Pond.ml" 16 322 339 "Pond.ml" 16 322 387
+type(
+  unit
+)
+type(
+  unit
+)
+"Pond.ml" 16 322 324 "Pond.ml" 16 322 387
+type(
+  'a -> unit
+)
+"Pond.ml" 18 389 413 "Pond.ml" 18 389 414
+type(
+  int
+)
+type(
+  int
+)
+"Pond.ml" 18 389 391 "Pond.ml" 18 389 414
+type(
+  'a -> int
+)
+"Pond.ml" 20 416 440 "Pond.ml" 20 416 444
+type(
+  bool
+)
+type(
+  bool
+)
+"Pond.ml" 20 416 418 "Pond.ml" 20 416 444
+type(
+  'a -> bool
+)

@@ -1,0 +1,315 @@
+open Core.Std
+open Order
+
+exception EmptyTree
+
+module SplayTree(C : COMPARABLE) (* : SPLAYTREE *) =
+struct  
+  type elt = C.t
+  type dir = LL | LR | RL | RR | L | R | N
+  type task = SEARCH | INS | DEL
+  type tree = Leaf | Branch of tree * elt * tree 
+  type kicked = Splay of tree * elt * tree | Skip of tree * elt * tree 
+
+  let empty : tree =  Leaf
+
+  let isEmpty (t : tree) : bool = (t = Leaf)
+
+  let branches_of (t : tree) : tree * elt * tree =
+    match t with
+    | Leaf -> failwith "No Branches"
+    | Branch(l,v,r) -> (l,v,r)
+
+  let get_top (t : tree) : elt option  =
+    match t with
+    | Leaf -> None
+    | Branch(_,v,_) -> Some v
+
+  let rec pull_max (t : tree) : elt * tree =
+    match t with
+    | Leaf -> raise EmptyTree
+    | Branch(Leaf,v,Leaf) -> (v, Leaf)
+    | Branch(l,v,Leaf) -> (v, l)
+    | Branch(l,v,r) -> 
+      let v', t' = pull_max r in (v', (Branch(l,v,t')))
+
+  (* Helper function. This is a normal binary tree delete *)
+  let predecesor (t : tree) : tree =
+    match t with
+    | Leaf -> Leaf
+    | Branch(l,_,r) ->
+      (match l with
+       | Leaf -> r
+       | _ -> let v', l' = pull_max l in
+         Branch(l',v',r))
+
+  let splay ?(gp : tree option) (p : tree) (t : tree) (d : dir * dir) =
+    let pl,pv,pr = branches_of p in
+    let tl,tv,tr = branches_of t in
+    match gp with
+    | None ->
+      (match snd d with
+       | L -> Skip(tl,tv,Branch(tr,pv,pr))
+       | R -> Skip(Branch(pl,pv,tl),tv,tr)
+       | _ -> failwith "cannot zig in this direction")
+    | Some Branch(gl,gv,gr) ->
+      (match d with
+      | L,L -> Skip(tl,tv,Branch(tr,pv,Branch(pr,gv,gr)))
+      | R,R -> Skip(Branch(Branch(gl,gv,pl),pv,tl),tv,tr)
+      | L,R -> Skip(Branch(pl,pv,tl),tv,Branch(tr,gv,gr)) 
+      | R,L -> Skip(Branch(gl,gv,tl),tv,Branch(tr,pv,pr))
+      | _ -> failwith "Unexpected")
+    | Some Leaf -> failwith "Unexpected"
+      
+  let rec process_task (tsk : task) (g,g_dir) (p,p_dir) (t,t_dir) e =
+    let _,_,_ = branches_of g in
+    let pl,pv,pr = branches_of p in
+    match t with
+    | Leaf -> 
+      (match tsk with
+       | INS -> splay ~gp:g p (Branch(Leaf,e,Leaf)) (p_dir,t_dir)
+       | SEARCH | DEL -> 
+         if g_dir = N then splay g (Branch(pl,pv,pr)) (N,p_dir)
+	 else Splay(pl,pv,pr))
+    | Branch(l,v,r) -> 
+      (match C.compare e v with
+       | EQUAL -> 
+         (match tsk with
+	  | INS | SEARCH -> splay ~gp:g p t (p_dir,t_dir)
+	  | DEL ->  
+            let t' = predecesor t in                              
+            (match t_dir with
+	     | L -> splay g (Branch(t',pv,pr)) (N,p_dir)
+	     | R -> splay g (Branch(pl,pv,t')) (N,p_dir)
+	     | _ -> failwith "Unexpected"))        
+       | LESS -> 
+          let temp = process_task tsk (p,p_dir) (t,t_dir) (l,L) e in
+          (match temp with
+	   | Splay(l',v',r') -> splay ~gp:g p (Branch(l',v',r')) (p_dir,t_dir)
+	   | Skip(l',v',r') -> 
+             if g_dir = N then splay g (Branch(l',v',r')) (N,p_dir)
+	     else Splay(l',v',r'))
+       | GREATER ->
+          let temp = process_task tsk (p,p_dir) (t,t_dir) (r,R) e in
+          (match temp with
+	   | Splay(l',v',r') -> splay ~gp:g p (Branch(l',v',r')) (p_dir,t_dir)
+	   | Skip(l',v',r') ->
+             if g_dir = N then splay g (Branch(l',v',r')) (N,p_dir)
+	     else Splay(l',v',r')))
+
+
+  let start_task (tsk : task) (e : elt) (t : tree) : tree =
+    match t with
+    | Leaf -> 
+      (match tsk with
+       | INS -> Branch(Leaf,e,Leaf)
+       | SEARCH | DEL -> t)
+    | Branch(l,v,r) ->
+      (match C.compare e v with
+       | EQUAL ->
+         (match tsk with
+	  | INS | SEARCH -> t
+	  | DEL ->
+            if l = Leaf then r else 
+              let v', l' = pull_max l in
+	      Branch(l',v',r))
+       | LESS ->
+         (match l with
+	  | Leaf -> 
+            (match tsk with
+	     | INS -> Branch(Leaf,e,t)
+	     | SEARCH | DEL -> t)
+	  | Branch(ll,lv,lr) ->
+            (match C.compare e lv with
+             | EQUAL -> 
+               (match tsk with
+		| INS | SEARCH -> Branch(ll,lv,Branch(lr,v,r))
+		| DEL ->
+                  if ll = Leaf then Branch(lr,v,r) else 
+                  let lv', ll' = pull_max ll in
+                  Branch(Branch(ll',lv',lr),v,r))
+	     | LESS -> 
+               (match process_task tsk (t,N) (l,L) (ll,L) e with
+		| Splay(l,v,r) | Skip(l,v,r) -> Branch(l,v,r))
+	     | GREATER -> 
+               (match process_task tsk (t,N) (l,L) (lr,R) e with
+		| Splay(l,v,r) | Skip(l,v,r) -> Branch(l,v,r))))
+         | GREATER ->
+         (match r with
+	  | Leaf ->
+            (match tsk with
+	     | INS -> Branch(t,e,Leaf)
+	     | SEARCH | DEL -> t)
+	  | Branch(rl,rv,rr) ->
+            (match C.compare e rv with
+	     | EQUAL -> 
+               (match tsk with
+		| INS | SEARCH -> Branch(Branch(l,v,rl),rv,rr)
+                | DEL ->
+                  if rl = Leaf then Branch(l,v,rr) else 
+                  let rv', rl' = pull_max rl in
+		  Branch(l,v,Branch(rl',rv',rr)))
+	     | LESS -> 
+               (match process_task tsk (t,N) (r,R) (rl,L) e with
+		| Splay(l,v,r) | Skip(l,v,r) -> Branch(l,v,r))
+	     | GREATER -> 
+               (match process_task tsk (t,N) (r,R) (rr,R) e with
+	        | Splay(l,v,r) | Skip(l,v,r) -> Branch(l,v,r)))))
+
+  let insert (e : elt) (t : tree) : tree = start_task INS e t
+
+  let search (e : elt) (t : tree) : tree = start_task SEARCH e t
+
+  let search2 (e : elt) (t : tree) : bool * tree = 
+    let t' = search e t in
+    match t' with
+    | Leaf -> (false, Leaf)
+    | Branch(_,v,_) -> ((v = e), t')
+
+  let delete (e : elt) (t : tree) : tree = start_task DEL e t
+
+  let choose (t : tree) : (elt * tree) option =
+    match t with
+    | Leaf -> None
+    | Branch(_,v,_) -> Some (v, delete v t)
+ 
+end
+
+
+module S = SplayTree(IntCompare);;
+
+let gen_rand_list (n : int) (range : int) =
+  let rec gen (l ) (n : int) =
+    if n > 0 then 
+      gen ((Random.int range) :: l) (n-1)
+    else l in
+    gen [] n
+;;
+
+let rec insert_list (l) (t) =
+  match l with
+  | [] -> t
+  | hd :: tl -> insert_list tl (S.insert hd t)
+;;
+
+let rec search_list_bool l t =
+  match l with
+  | [] -> true
+  | hd :: tl ->
+    let b', t' = S.search2 hd t in
+    let top = 
+      match S.get_top t' with
+      | None -> raise EmptyTree
+      | Some x -> x  in
+    ((b' && (hd = top)) && search_list_bool tl t')
+     
+
+let rec delete_list l t =
+  match l with
+  | [] -> t
+  | hd :: tl -> delete_list tl (S.delete hd t)
+;;
+
+(* generate lists with 100, 10000, 100000 elements *)
+let l0 = gen_rand_list 100 100;;
+let l1 = gen_rand_list 10000 10000;;
+let l2 = gen_rand_list 100000 100000;;
+
+(* insert 100, 10000, 100000 elements in an empty SplayTree *)
+let t0 = insert_list l0 S.empty;;
+let t1 = insert_list l1 S.empty;;
+let t2 = insert_list l2 S.empty;;
+
+
+(* assert that when deleting the same elements, the three ends up empty.. *)
+assert(delete_list l0 t0 = S.Leaf);;
+assert(delete_list l1 t1 = S.Leaf);;
+assert(delete_list l2 t2 = S.Leaf);;
+
+(* search all elements just inserted.. assert all are in tree *)
+assert(search_list_bool l0 t0);;
+assert(search_list_bool l1 t1);;
+assert(search_list_bool l2 t2);; 
+
+(* leaf case *)
+let ins1 = S.insert 7 S.empty;;
+let ins2 = S.insert 9 ins1;;
+let ins3 = S.insert 20 ins2;;
+let ins4 = S.insert 5 ins3;;
+(* insert = search case *)
+let ins5 = S.insert 9 ins4;;
+(* zag-zag case *)
+let ins6 = S.insert 23 ins4;;
+(* zig-zig case with insert = search *)
+let ins7 = S.insert 5 ins5;;
+(* zag-zig  *)
+let ins8 = S.insert 22 ins3;;
+(* zig-zag  *)
+let ins9 = S.insert 6 ins5;;
+
+(* test insert *)
+assert(ins1 = S.Branch (S.Leaf, 7, S.Leaf));;
+assert(ins2 = S.Branch (S.Branch (S.Leaf, 7, S.Leaf), 9, S.Leaf));;
+assert(ins3 = S.Branch (S.Branch (S.Branch (S.Leaf, 7, S.Leaf), 9, S.Leaf), 20, S.Leaf));;
+assert(ins4 = S.Branch (S.Leaf, 5, S.Branch (S.Branch (S.Leaf, 
+    7, S.Branch (S.Leaf, 9, S.Leaf)), 20, S.Leaf)));;
+assert(ins5 = S.Branch (S.Branch (S.Leaf, 5, 
+    S.Branch (S.Leaf, 7, S.Leaf)), 9, S.Branch (S.Leaf, 20, S.Leaf)));;
+assert(ins6 = S.Branch
+   (S.Branch
+     (S.Branch (S.Leaf, 5,
+       S.Branch (S.Leaf, 7, S.Branch (S.Leaf, 9, S.Leaf))),
+     20, S.Leaf),
+   23, S.Leaf));;
+assert(ins7 = S.Branch (S.Leaf, 5,
+   S.Branch (S.Branch (S.Leaf, 7, S.Leaf), 9, S.Branch (S.Leaf, 20, S.Leaf))));;
+assert(ins8 = S.Branch
+   (S.Branch (S.Branch (S.Branch (S.Leaf, 7, S.Leaf), 9, S.Leaf), 20, S.Leaf),
+   22, S.Leaf));;
+assert(ins9 = S.Branch (S.Branch (S.Leaf, 5, S.Leaf), 6,
+   S.Branch (S.Branch (S.Leaf, 7, S.Leaf), 9, S.Branch (S.Leaf, 20, S.Leaf))));;
+
+
+(* test delete *)
+
+(* delete top *)
+assert(S.delete 6 ins9 = S.Branch (S.Leaf, 5,
+ S.Branch (S.Branch (S.Leaf, 7, S.Leaf), 9, S.Branch (S.Leaf, 20, S.Leaf))));;
+(* delete an element requiring zig-zag *)
+assert(S.delete 7 ins6 = S.Branch (S.Leaf, 5,
+ S.Branch (S.Branch (S.Branch (S.Leaf, 9, S.Leaf), 20, S.Leaf), 23, S.Leaf)));;
+(* zag-zag *)
+assert(S.delete 23 ins6 = S.Branch
+ (S.Branch (S.Leaf, 5, S.Branch (S.Leaf, 7, S.Branch (S.Leaf, 9, S.Leaf))),
+ 20, S.Leaf));;
+(* zag-zig *)
+assert(S.delete 20 ins6 = S.Branch
+ (S.Branch (S.Branch (S.Leaf, 5, S.Branch (S.Leaf, 7, S.Leaf)), 9, S.Leaf),
+ 23, S.Leaf));;
+(* zig-zig *)
+assert(S.delete 5 ins5 = S.Branch (S.Branch (S.Leaf, 7, S.Leaf), 9, S.Branch (S.Leaf, 20, S.Leaf)));;
+
+
+(* test search *)
+(* testing non member elements make the last node visited the top element *)
+assert(S.search 77 ins9 = S.Branch
+ (S.Branch
+   (S.Branch (S.Branch (S.Leaf, 5, S.Leaf), 6, S.Branch (S.Leaf, 7, S.Leaf)),
+   9, S.Leaf),
+ 20, S.Leaf));;
+assert(S.search 1 ins9 = S.Branch (S.Leaf, 5,
+ S.Branch (S.Leaf, 6,
+  S.Branch (S.Branch (S.Leaf, 7, S.Leaf), 9, S.Branch (S.Leaf, 20, S.Leaf)))));;
+assert(S.search 8 ins9 = S.Branch (S.Branch (S.Branch (S.Leaf, 5, S.Leaf), 6, S.Leaf), 7,
+ S.Branch (S.Leaf, 9, S.Branch (S.Leaf, 20, S.Leaf))));;
+(* finding an element makes the element just found the top element *)
+assert(S.search 5 ins9 = S.Branch (S.Leaf, 5,
+ S.Branch (S.Leaf, 6,
+  S.Branch (S.Branch (S.Leaf, 7, S.Leaf), 9, S.Branch (S.Leaf, 20, S.Leaf)))));;
+assert(S.search 7 ins9 = S.Branch (S.Branch (S.Branch (S.Leaf, 5, S.Leaf), 6, S.Leaf), 7,
+ S.Branch (S.Leaf, 9, S.Branch (S.Leaf, 20, S.Leaf))));;
+assert(S.search 6 ins9 = S.Branch (S.Branch (S.Leaf, 5, S.Leaf), 6,
+ S.Branch (S.Branch (S.Leaf, 7, S.Leaf), 9, S.Branch (S.Leaf, 20, S.Leaf))));;
+
+
+

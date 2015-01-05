@@ -1,0 +1,1294 @@
+"nodescore.ml" 46 1474 1484 "nodescore.ml" 46 1474 1491
+type(
+  key -> key -> Ordering.t
+)
+ident(
+  def compare "nodescore.ml" 47 1504 1510 "nodescore.ml" 56 1841 1848
+)
+"nodescore.ml" 46 1474 1494 "nodescore.ml" 46 1474 1503
+type(
+  key -> key -> Ordering.t
+)
+ident(
+  ext_ref N.compare
+)
+"nodescore.ml" 47 1504 1514 "nodescore.ml" 47 1504 1527
+type(
+  key -> string
+)
+ident(
+  def string_of_key "nodescore.ml" 48 1547 1553 "nodescore.ml" 56 1841 1848
+)
+"nodescore.ml" 47 1504 1530 "nodescore.ml" 47 1504 1546
+type(
+  key -> string
+)
+ident(
+  ext_ref N.string_of_node
+)
+"nodescore.ml" 48 1547 1557 "nodescore.ml" 48 1547 1572
+type(
+  value -> string
+)
+ident(
+  def string_of_value "nodescore.ml" 49 1591 1597 "nodescore.ml" 56 1841 1848
+)
+"nodescore.ml" 48 1547 1575 "nodescore.ml" 48 1547 1590
+type(
+  value -> string
+)
+ident(
+  ext_ref Core.Std.Float.to_string
+)
+"nodescore.ml" 49 1591 1601 "nodescore.ml" 49 1591 1608
+type(
+  unit -> key
+)
+ident(
+  def gen_key "nodescore.ml" 50 1617 1623 "nodescore.ml" 56 1841 1848
+)
+"nodescore.ml" 49 1591 1611 "nodescore.ml" 49 1591 1616
+type(
+  unit -> key
+)
+ident(
+  ext_ref N.gen
+)
+"nodescore.ml" 50 1617 1627 "nodescore.ml" 50 1617 1637
+type(
+  'a -> unit -> key
+)
+ident(
+  def gen_key_lt "nodescore.ml" 51 1654 1660 "nodescore.ml" 56 1841 1848
+)
+"nodescore.ml" 50 1617 1638 "nodescore.ml" 50 1617 1639
+type(
+  'a
+)
+"nodescore.ml" 50 1617 1640 "nodescore.ml" 50 1617 1642
+type(
+  unit
+)
+"nodescore.ml" 50 1617 1645 "nodescore.ml" 50 1617 1650
+type(
+  unit -> key
+)
+ident(
+  ext_ref N.gen
+)
+"nodescore.ml" 50 1617 1651 "nodescore.ml" 50 1617 1653
+type(
+  unit
+)
+"nodescore.ml" 50 1617 1645 "nodescore.ml" 50 1617 1653
+call(
+  tail
+)
+type(
+  key
+)
+"nodescore.ml" 50 1617 1640 "nodescore.ml" 50 1617 1653
+type(
+  unit -> key
+)
+"nodescore.ml" 50 1617 1638 "nodescore.ml" 50 1617 1653
+type(
+  'a -> unit -> key
+)
+"nodescore.ml" 51 1654 1664 "nodescore.ml" 51 1654 1674
+type(
+  'b -> unit -> key
+)
+ident(
+  def gen_key_gt "nodescore.ml" 52 1691 1697 "nodescore.ml" 56 1841 1848
+)
+"nodescore.ml" 51 1654 1675 "nodescore.ml" 51 1654 1676
+type(
+  'b
+)
+"nodescore.ml" 51 1654 1677 "nodescore.ml" 51 1654 1679
+type(
+  unit
+)
+"nodescore.ml" 51 1654 1682 "nodescore.ml" 51 1654 1687
+type(
+  unit -> key
+)
+ident(
+  ext_ref N.gen
+)
+"nodescore.ml" 51 1654 1688 "nodescore.ml" 51 1654 1690
+type(
+  unit
+)
+"nodescore.ml" 51 1654 1682 "nodescore.ml" 51 1654 1690
+call(
+  tail
+)
+type(
+  key
+)
+"nodescore.ml" 51 1654 1677 "nodescore.ml" 51 1654 1690
+type(
+  unit -> key
+)
+"nodescore.ml" 51 1654 1675 "nodescore.ml" 51 1654 1690
+type(
+  'b -> unit -> key
+)
+"nodescore.ml" 52 1691 1701 "nodescore.ml" 52 1691 1715
+type(
+  unit -> key
+)
+ident(
+  def gen_key_random "nodescore.ml" 53 1724 1730 "nodescore.ml" 56 1841 1848
+)
+"nodescore.ml" 52 1691 1718 "nodescore.ml" 52 1691 1723
+type(
+  unit -> key
+)
+ident(
+  ext_ref N.gen
+)
+"nodescore.ml" 53 1724 1734 "nodescore.ml" 53 1724 1749
+type(
+  'c -> 'd -> unit -> 'e option
+)
+ident(
+  def gen_key_between "nodescore.ml" 54 1764 1770 "nodescore.ml" 56 1841 1848
+)
+"nodescore.ml" 53 1724 1750 "nodescore.ml" 53 1724 1751
+type(
+  'c
+)
+"nodescore.ml" 53 1724 1752 "nodescore.ml" 53 1724 1753
+type(
+  'd
+)
+"nodescore.ml" 53 1724 1754 "nodescore.ml" 53 1724 1756
+type(
+  unit
+)
+"nodescore.ml" 53 1724 1759 "nodescore.ml" 53 1724 1763
+type(
+  'e option
+)
+"nodescore.ml" 53 1724 1754 "nodescore.ml" 53 1724 1763
+type(
+  unit -> 'e option
+)
+"nodescore.ml" 53 1724 1752 "nodescore.ml" 53 1724 1763
+type(
+  'd -> unit -> 'e option
+)
+"nodescore.ml" 53 1724 1750 "nodescore.ml" 53 1724 1763
+type(
+  'c -> 'd -> unit -> 'e option
+)
+"nodescore.ml" 54 1764 1774 "nodescore.ml" 54 1764 1783
+type(
+  unit -> value
+)
+ident(
+  def gen_value "nodescore.ml" 55 1793 1799 "nodescore.ml" 56 1841 1848
+)
+"nodescore.ml" 54 1764 1784 "nodescore.ml" 54 1764 1786
+type(
+  unit
+)
+"nodescore.ml" 54 1764 1789 "nodescore.ml" 54 1764 1792
+type(
+  value
+)
+"nodescore.ml" 54 1764 1784 "nodescore.ml" 54 1764 1792
+type(
+  unit -> value
+)
+"nodescore.ml" 55 1793 1803 "nodescore.ml" 55 1793 1811
+type(
+  unit -> key * value
+)
+ident(
+  def gen_pair "nodescore.ml" 55 1793 1840 "nodescore.ml" 56 1841 1848
+)
+"nodescore.ml" 55 1793 1812 "nodescore.ml" 55 1793 1814
+type(
+  unit
+)
+"nodescore.ml" 55 1793 1818 "nodescore.ml" 55 1793 1825
+type(
+  unit -> key
+)
+ident(
+  int_ref gen_key "nodescore.ml" 49 1591 1601 "nodescore.ml" 49 1591 1608
+)
+"nodescore.ml" 55 1793 1825 "nodescore.ml" 55 1793 1827
+type(
+  unit
+)
+"nodescore.ml" 55 1793 1818 "nodescore.ml" 55 1793 1827
+call(
+  stack
+)
+type(
+  key
+)
+"nodescore.ml" 55 1793 1828 "nodescore.ml" 55 1793 1837
+type(
+  unit -> value
+)
+ident(
+  int_ref gen_value "nodescore.ml" 54 1764 1774 "nodescore.ml" 54 1764 1783
+)
+"nodescore.ml" 55 1793 1837 "nodescore.ml" 55 1793 1839
+type(
+  unit
+)
+"nodescore.ml" 55 1793 1828 "nodescore.ml" 55 1793 1839
+call(
+  stack
+)
+type(
+  value
+)
+"nodescore.ml" 55 1793 1818 "nodescore.ml" 55 1793 1839
+type(
+  key * value
+)
+"nodescore.ml" 55 1793 1812 "nodescore.ml" 55 1793 1840
+type(
+  unit -> key * value
+)
+"nodescore.ml" 42 1392 1405 "nodescore.ml" 56 1841 1849
+call(
+  stack
+)
+"nodescore.ml" 59 1882 1888 "nodescore.ml" 59 1882 1893
+type(
+  node_score_map
+)
+ident(
+  def empty "nodescore.ml" 60 1904 1906 "nodescore.ml" 92 2676 2679
+)
+"nodescore.ml" 59 1882 1896 "nodescore.ml" 59 1882 1903
+type(
+  node_score_map
+)
+ident(
+  ext_ref D.empty
+)
+"nodescore.ml" 60 1904 1910 "nodescore.ml" 60 1904 1915
+type(
+  node_score_map -> float -> node_score_map
+)
+ident(
+  def scale "nodescore.ml" 62 1982 1984 "nodescore.ml" 92 2676 2679
+)
+"nodescore.ml" 60 1904 1916 "nodescore.ml" 60 1904 1918
+type(
+  node_score_map
+)
+ident(
+  def ns "nodescore.ml" 60 1904 1919 "nodescore.ml" 61 1923 1981
+)
+"nodescore.ml" 60 1904 1919 "nodescore.ml" 60 1904 1920
+type(
+  float
+)
+ident(
+  def v "nodescore.ml" 61 1923 1927 "nodescore.ml" 61 1923 1981
+)
+"nodescore.ml" 61 1923 1927 "nodescore.ml" 61 1923 1933
+type(
+  (node -> float -> node_score_map -> node_score_map) ->
+  node_score_map -> node_score_map -> node_score_map
+)
+ident(
+  ext_ref D.fold
+)
+"nodescore.ml" 61 1923 1939 "nodescore.ml" 61 1923 1940
+type(
+  node
+)
+ident(
+  def n "nodescore.ml" 61 1923 1941 "nodescore.ml" 61 1923 1969
+)
+"nodescore.ml" 61 1923 1941 "nodescore.ml" 61 1923 1942
+type(
+  float
+)
+ident(
+  def s "nodescore.ml" 61 1923 1943 "nodescore.ml" 61 1923 1969
+)
+"nodescore.ml" 61 1923 1943 "nodescore.ml" 61 1923 1944
+type(
+  node_score_map
+)
+ident(
+  def r "nodescore.ml" 61 1923 1948 "nodescore.ml" 61 1923 1969
+)
+"nodescore.ml" 61 1923 1948 "nodescore.ml" 61 1923 1956
+type(
+  node_score_map -> node -> float -> node_score_map
+)
+ident(
+  ext_ref D.insert
+)
+"nodescore.ml" 61 1923 1957 "nodescore.ml" 61 1923 1958
+type(
+  node_score_map
+)
+ident(
+  int_ref r "nodescore.ml" 61 1923 1943 "nodescore.ml" 61 1923 1944
+)
+"nodescore.ml" 61 1923 1959 "nodescore.ml" 61 1923 1960
+type(
+  node
+)
+ident(
+  int_ref n "nodescore.ml" 61 1923 1939 "nodescore.ml" 61 1923 1940
+)
+"nodescore.ml" 61 1923 1962 "nodescore.ml" 61 1923 1963
+type(
+  float
+)
+ident(
+  int_ref v "nodescore.ml" 60 1904 1919 "nodescore.ml" 60 1904 1920
+)
+"nodescore.ml" 61 1923 1964 "nodescore.ml" 61 1923 1966
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"nodescore.ml" 61 1923 1967 "nodescore.ml" 61 1923 1968
+type(
+  float
+)
+ident(
+  int_ref s "nodescore.ml" 61 1923 1941 "nodescore.ml" 61 1923 1942
+)
+"nodescore.ml" 61 1923 1962 "nodescore.ml" 61 1923 1968
+type(
+  float
+)
+"nodescore.ml" 61 1923 1948 "nodescore.ml" 61 1923 1969
+call(
+  tail
+)
+type(
+  node_score_map
+)
+"nodescore.ml" 61 1923 1943 "nodescore.ml" 61 1923 1969
+type(
+  node_score_map -> node_score_map
+)
+"nodescore.ml" 61 1923 1941 "nodescore.ml" 61 1923 1969
+type(
+  float -> node_score_map -> node_score_map
+)
+"nodescore.ml" 61 1923 1939 "nodescore.ml" 61 1923 1969
+type(
+  node -> float -> node_score_map -> node_score_map
+)
+"nodescore.ml" 61 1923 1971 "nodescore.ml" 61 1923 1978
+type(
+  node_score_map
+)
+ident(
+  ext_ref D.empty
+)
+"nodescore.ml" 61 1923 1979 "nodescore.ml" 61 1923 1981
+type(
+  node_score_map
+)
+ident(
+  int_ref ns "nodescore.ml" 60 1904 1916 "nodescore.ml" 60 1904 1918
+)
+"nodescore.ml" 61 1923 1927 "nodescore.ml" 61 1923 1981
+call(
+  tail
+)
+type(
+  node_score_map
+)
+"nodescore.ml" 60 1904 1919 "nodescore.ml" 61 1923 1981
+type(
+  float -> node_score_map
+)
+"nodescore.ml" 60 1904 1916 "nodescore.ml" 61 1923 1981
+type(
+  node_score_map -> float -> node_score_map
+)
+"nodescore.ml" 62 1982 1988 "nodescore.ml" 62 1982 1991
+type(
+  node_score_map -> float
+)
+ident(
+  def sum "nodescore.ml" 65 2038 2040 "nodescore.ml" 92 2676 2679
+)
+"nodescore.ml" 62 1982 1992 "nodescore.ml" 62 1982 1994
+type(
+  node_score_map
+)
+ident(
+  def ns "nodescore.ml" 63 1997 2001 "nodescore.ml" 63 1997 2036
+)
+"nodescore.ml" 63 1997 2001 "nodescore.ml" 63 1997 2007
+type(
+  (node -> float -> float -> float) -> float -> node_score_map -> float
+)
+ident(
+  ext_ref D.fold
+)
+"nodescore.ml" 63 1997 2013 "nodescore.ml" 63 1997 2014
+type(
+  node
+)
+"nodescore.ml" 63 1997 2015 "nodescore.ml" 63 1997 2016
+type(
+  float
+)
+ident(
+  def s "nodescore.ml" 63 1997 2017 "nodescore.ml" 63 1997 2028
+)
+"nodescore.ml" 63 1997 2017 "nodescore.ml" 63 1997 2018
+type(
+  float
+)
+ident(
+  def r "nodescore.ml" 63 1997 2022 "nodescore.ml" 63 1997 2028
+)
+"nodescore.ml" 63 1997 2022 "nodescore.ml" 63 1997 2023
+type(
+  float
+)
+ident(
+  int_ref s "nodescore.ml" 63 1997 2015 "nodescore.ml" 63 1997 2016
+)
+"nodescore.ml" 63 1997 2024 "nodescore.ml" 63 1997 2026
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"nodescore.ml" 63 1997 2027 "nodescore.ml" 63 1997 2028
+type(
+  float
+)
+ident(
+  int_ref r "nodescore.ml" 63 1997 2017 "nodescore.ml" 63 1997 2018
+)
+"nodescore.ml" 63 1997 2022 "nodescore.ml" 63 1997 2028
+type(
+  float
+)
+"nodescore.ml" 63 1997 2017 "nodescore.ml" 63 1997 2028
+type(
+  float -> float
+)
+"nodescore.ml" 63 1997 2015 "nodescore.ml" 63 1997 2028
+type(
+  float -> float -> float
+)
+"nodescore.ml" 63 1997 2013 "nodescore.ml" 63 1997 2028
+type(
+  node -> float -> float -> float
+)
+"nodescore.ml" 63 1997 2030 "nodescore.ml" 63 1997 2033
+type(
+  float
+)
+"nodescore.ml" 63 1997 2034 "nodescore.ml" 63 1997 2036
+type(
+  node_score_map
+)
+ident(
+  int_ref ns "nodescore.ml" 62 1982 1992 "nodescore.ml" 62 1982 1994
+)
+"nodescore.ml" 63 1997 2001 "nodescore.ml" 63 1997 2036
+call(
+  tail
+)
+type(
+  float
+)
+"nodescore.ml" 62 1982 1992 "nodescore.ml" 63 1997 2036
+type(
+  node_score_map -> float
+)
+"nodescore.ml" 65 2038 2044 "nodescore.ml" 65 2038 2053
+type(
+  node_score_map -> node_score_map
+)
+ident(
+  def normalize "nodescore.ml" 69 2132 2134 "nodescore.ml" 92 2676 2679
+)
+"nodescore.ml" 65 2038 2054 "nodescore.ml" 65 2038 2056
+type(
+  node_score_map
+)
+ident(
+  def ns "nodescore.ml" 66 2059 2063 "nodescore.ml" 67 2081 2130
+)
+"nodescore.ml" 66 2059 2067 "nodescore.ml" 66 2059 2068
+type(
+  float
+)
+ident(
+  def s "nodescore.ml" 67 2081 2087 "nodescore.ml" 67 2081 2130
+)
+"nodescore.ml" 66 2059 2071 "nodescore.ml" 66 2059 2074
+type(
+  node_score_map -> float
+)
+ident(
+  int_ref sum "nodescore.ml" 62 1982 1988 "nodescore.ml" 62 1982 1991
+)
+"nodescore.ml" 66 2059 2075 "nodescore.ml" 66 2059 2077
+type(
+  node_score_map
+)
+ident(
+  int_ref ns "nodescore.ml" 65 2038 2054 "nodescore.ml" 65 2038 2056
+)
+"nodescore.ml" 66 2059 2071 "nodescore.ml" 66 2059 2077
+call(
+  stack
+)
+type(
+  float
+)
+"nodescore.ml" 67 2081 2090 "nodescore.ml" 67 2081 2091
+type(
+  float
+)
+ident(
+  int_ref s "nodescore.ml" 66 2059 2067 "nodescore.ml" 66 2059 2068
+)
+"nodescore.ml" 67 2081 2092 "nodescore.ml" 67 2081 2093
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"nodescore.ml" 67 2081 2094 "nodescore.ml" 67 2081 2097
+type(
+  float
+)
+"nodescore.ml" 67 2081 2090 "nodescore.ml" 67 2081 2097
+type(
+  bool
+)
+"nodescore.ml" 67 2081 2103 "nodescore.ml" 67 2081 2105
+type(
+  node_score_map
+)
+ident(
+  int_ref ns "nodescore.ml" 65 2038 2054 "nodescore.ml" 65 2038 2056
+)
+"nodescore.ml" 67 2081 2111 "nodescore.ml" 67 2081 2116
+type(
+  node_score_map -> float -> node_score_map
+)
+ident(
+  int_ref scale "nodescore.ml" 60 1904 1910 "nodescore.ml" 60 1904 1915
+)
+"nodescore.ml" 67 2081 2117 "nodescore.ml" 67 2081 2119
+type(
+  node_score_map
+)
+ident(
+  int_ref ns "nodescore.ml" 65 2038 2054 "nodescore.ml" 65 2038 2056
+)
+"nodescore.ml" 67 2081 2121 "nodescore.ml" 67 2081 2124
+type(
+  float
+)
+"nodescore.ml" 67 2081 2125 "nodescore.ml" 67 2081 2127
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"nodescore.ml" 67 2081 2128 "nodescore.ml" 67 2081 2129
+type(
+  float
+)
+ident(
+  int_ref s "nodescore.ml" 66 2059 2067 "nodescore.ml" 66 2059 2068
+)
+"nodescore.ml" 67 2081 2121 "nodescore.ml" 67 2081 2129
+type(
+  float
+)
+"nodescore.ml" 67 2081 2111 "nodescore.ml" 67 2081 2130
+call(
+  tail
+)
+type(
+  node_score_map
+)
+"nodescore.ml" 67 2081 2087 "nodescore.ml" 67 2081 2130
+type(
+  node_score_map
+)
+"nodescore.ml" 66 2059 2063 "nodescore.ml" 67 2081 2130
+type(
+  node_score_map
+)
+"nodescore.ml" 65 2038 2054 "nodescore.ml" 67 2081 2130
+type(
+  node_score_map -> node_score_map
+)
+"nodescore.ml" 69 2132 2138 "nodescore.ml" 69 2132 2143
+type(
+  node_score_map -> node list
+)
+ident(
+  def nodes "nodescore.ml" 72 2189 2191 "nodescore.ml" 92 2676 2679
+)
+"nodescore.ml" 69 2132 2144 "nodescore.ml" 69 2132 2146
+type(
+  node_score_map
+)
+ident(
+  def ns "nodescore.ml" 70 2149 2153 "nodescore.ml" 70 2149 2187
+)
+"nodescore.ml" 70 2149 2153 "nodescore.ml" 70 2149 2159
+type(
+  (node -> float -> node list -> node list) ->
+  node list -> node_score_map -> node list
+)
+ident(
+  ext_ref D.fold
+)
+"nodescore.ml" 70 2149 2165 "nodescore.ml" 70 2149 2166
+type(
+  node
+)
+ident(
+  def n "nodescore.ml" 70 2149 2167 "nodescore.ml" 70 2149 2180
+)
+"nodescore.ml" 70 2149 2167 "nodescore.ml" 70 2149 2168
+type(
+  float
+)
+"nodescore.ml" 70 2149 2169 "nodescore.ml" 70 2149 2170
+type(
+  node list
+)
+ident(
+  def r "nodescore.ml" 70 2149 2174 "nodescore.ml" 70 2149 2180
+)
+"nodescore.ml" 70 2149 2174 "nodescore.ml" 70 2149 2175
+type(
+  node
+)
+ident(
+  int_ref n "nodescore.ml" 70 2149 2165 "nodescore.ml" 70 2149 2166
+)
+"nodescore.ml" 70 2149 2179 "nodescore.ml" 70 2149 2180
+type(
+  node list
+)
+ident(
+  int_ref r "nodescore.ml" 70 2149 2169 "nodescore.ml" 70 2149 2170
+)
+"nodescore.ml" 70 2149 2174 "nodescore.ml" 70 2149 2180
+type(
+  node list
+)
+"nodescore.ml" 70 2149 2169 "nodescore.ml" 70 2149 2180
+type(
+  node list -> node list
+)
+"nodescore.ml" 70 2149 2167 "nodescore.ml" 70 2149 2180
+type(
+  float -> node list -> node list
+)
+"nodescore.ml" 70 2149 2165 "nodescore.ml" 70 2149 2180
+type(
+  node -> float -> node list -> node list
+)
+"nodescore.ml" 70 2149 2182 "nodescore.ml" 70 2149 2184
+type(
+  node list
+)
+"nodescore.ml" 70 2149 2185 "nodescore.ml" 70 2149 2187
+type(
+  node_score_map
+)
+ident(
+  int_ref ns "nodescore.ml" 69 2132 2144 "nodescore.ml" 69 2132 2146
+)
+"nodescore.ml" 70 2149 2153 "nodescore.ml" 70 2149 2187
+call(
+  tail
+)
+type(
+  node list
+)
+"nodescore.ml" 69 2132 2144 "nodescore.ml" 70 2149 2187
+type(
+  node_score_map -> node list
+)
+"nodescore.ml" 72 2189 2195 "nodescore.ml" 72 2189 2204
+type(
+  node_score_map -> node -> float option
+)
+ident(
+  def get_score "nodescore.ml" 75 2231 2233 "nodescore.ml" 92 2676 2679
+)
+"nodescore.ml" 72 2189 2205 "nodescore.ml" 72 2189 2207
+type(
+  node_score_map
+)
+ident(
+  def ns "nodescore.ml" 72 2189 2208 "nodescore.ml" 73 2212 2229
+)
+"nodescore.ml" 72 2189 2208 "nodescore.ml" 72 2189 2209
+type(
+  node
+)
+ident(
+  def n "nodescore.ml" 73 2212 2216 "nodescore.ml" 73 2212 2229
+)
+"nodescore.ml" 73 2212 2216 "nodescore.ml" 73 2212 2224
+type(
+  node_score_map -> node -> float option
+)
+ident(
+  ext_ref D.lookup
+)
+"nodescore.ml" 73 2212 2225 "nodescore.ml" 73 2212 2227
+type(
+  node_score_map
+)
+ident(
+  int_ref ns "nodescore.ml" 72 2189 2205 "nodescore.ml" 72 2189 2207
+)
+"nodescore.ml" 73 2212 2228 "nodescore.ml" 73 2212 2229
+type(
+  node
+)
+ident(
+  int_ref n "nodescore.ml" 72 2189 2208 "nodescore.ml" 72 2189 2209
+)
+"nodescore.ml" 73 2212 2216 "nodescore.ml" 73 2212 2229
+call(
+  tail
+)
+type(
+  float option
+)
+"nodescore.ml" 72 2189 2208 "nodescore.ml" 73 2212 2229
+type(
+  node -> float option
+)
+"nodescore.ml" 72 2189 2205 "nodescore.ml" 73 2212 2229
+type(
+  node_score_map -> node -> float option
+)
+"nodescore.ml" 75 2231 2237 "nodescore.ml" 75 2231 2246
+type(
+  node_score_map -> node -> float -> node_score_map
+)
+ident(
+  def set_score "nodescore.ml" 78 2277 2279 "nodescore.ml" 92 2676 2679
+)
+"nodescore.ml" 75 2231 2247 "nodescore.ml" 75 2231 2249
+type(
+  node_score_map
+)
+ident(
+  def ns "nodescore.ml" 75 2231 2250 "nodescore.ml" 76 2256 2275
+)
+"nodescore.ml" 75 2231 2250 "nodescore.ml" 75 2231 2251
+type(
+  node
+)
+ident(
+  def n "nodescore.ml" 75 2231 2252 "nodescore.ml" 76 2256 2275
+)
+"nodescore.ml" 75 2231 2252 "nodescore.ml" 75 2231 2253
+type(
+  float
+)
+ident(
+  def s "nodescore.ml" 76 2256 2260 "nodescore.ml" 76 2256 2275
+)
+"nodescore.ml" 76 2256 2260 "nodescore.ml" 76 2256 2268
+type(
+  node_score_map -> node -> float -> node_score_map
+)
+ident(
+  ext_ref D.insert
+)
+"nodescore.ml" 76 2256 2269 "nodescore.ml" 76 2256 2271
+type(
+  node_score_map
+)
+ident(
+  int_ref ns "nodescore.ml" 75 2231 2247 "nodescore.ml" 75 2231 2249
+)
+"nodescore.ml" 76 2256 2272 "nodescore.ml" 76 2256 2273
+type(
+  node
+)
+ident(
+  int_ref n "nodescore.ml" 75 2231 2250 "nodescore.ml" 75 2231 2251
+)
+"nodescore.ml" 76 2256 2274 "nodescore.ml" 76 2256 2275
+type(
+  float
+)
+ident(
+  int_ref s "nodescore.ml" 75 2231 2252 "nodescore.ml" 75 2231 2253
+)
+"nodescore.ml" 76 2256 2260 "nodescore.ml" 76 2256 2275
+call(
+  tail
+)
+type(
+  node_score_map
+)
+"nodescore.ml" 75 2231 2252 "nodescore.ml" 76 2256 2275
+type(
+  float -> node_score_map
+)
+"nodescore.ml" 75 2231 2250 "nodescore.ml" 76 2256 2275
+type(
+  node -> float -> node_score_map
+)
+"nodescore.ml" 75 2231 2247 "nodescore.ml" 76 2256 2275
+type(
+  node_score_map -> node -> float -> node_score_map
+)
+"nodescore.ml" 78 2277 2283 "nodescore.ml" 78 2277 2292
+type(
+  node_score_map -> node -> float -> node_score_map
+)
+ident(
+  def add_score "nodescore.ml" 83 2408 2410 "nodescore.ml" 92 2676 2679
+)
+"nodescore.ml" 78 2277 2293 "nodescore.ml" 78 2277 2295
+type(
+  node_score_map
+)
+ident(
+  def ns "nodescore.ml" 78 2277 2296 "nodescore.ml" 81 2365 2406
+)
+"nodescore.ml" 78 2277 2296 "nodescore.ml" 78 2277 2297
+type(
+  node
+)
+ident(
+  def n "nodescore.ml" 78 2277 2298 "nodescore.ml" 81 2365 2406
+)
+"nodescore.ml" 78 2277 2298 "nodescore.ml" 78 2277 2299
+type(
+  float
+)
+ident(
+  def s "nodescore.ml" 79 2302 2306 "nodescore.ml" 81 2365 2406
+)
+"nodescore.ml" 79 2302 2312 "nodescore.ml" 79 2302 2321
+type(
+  node_score_map -> node -> float option
+)
+ident(
+  int_ref get_score "nodescore.ml" 72 2189 2195 "nodescore.ml" 72 2189 2204
+)
+"nodescore.ml" 79 2302 2322 "nodescore.ml" 79 2302 2324
+type(
+  node_score_map
+)
+ident(
+  int_ref ns "nodescore.ml" 78 2277 2293 "nodescore.ml" 78 2277 2295
+)
+"nodescore.ml" 79 2302 2325 "nodescore.ml" 79 2302 2326
+type(
+  node
+)
+ident(
+  int_ref n "nodescore.ml" 78 2277 2296 "nodescore.ml" 78 2277 2297
+)
+"nodescore.ml" 79 2302 2312 "nodescore.ml" 79 2302 2326
+call(
+  stack
+)
+type(
+  float option
+)
+"nodescore.ml" 80 2332 2340 "nodescore.ml" 80 2332 2344
+type(
+  float option
+)
+"nodescore.ml" 80 2332 2348 "nodescore.ml" 80 2332 2357
+type(
+  node_score_map -> node -> float -> node_score_map
+)
+ident(
+  int_ref set_score "nodescore.ml" 75 2231 2237 "nodescore.ml" 75 2231 2246
+)
+"nodescore.ml" 80 2332 2358 "nodescore.ml" 80 2332 2360
+type(
+  node_score_map
+)
+ident(
+  int_ref ns "nodescore.ml" 78 2277 2293 "nodescore.ml" 78 2277 2295
+)
+"nodescore.ml" 80 2332 2361 "nodescore.ml" 80 2332 2362
+type(
+  node
+)
+ident(
+  int_ref n "nodescore.ml" 78 2277 2296 "nodescore.ml" 78 2277 2297
+)
+"nodescore.ml" 80 2332 2363 "nodescore.ml" 80 2332 2364
+type(
+  float
+)
+ident(
+  int_ref s "nodescore.ml" 78 2277 2298 "nodescore.ml" 78 2277 2299
+)
+"nodescore.ml" 80 2332 2348 "nodescore.ml" 80 2332 2364
+call(
+  tail
+)
+type(
+  node_score_map
+)
+"nodescore.ml" 81 2365 2378 "nodescore.ml" 81 2365 2379
+type(
+  float
+)
+ident(
+  def v "nodescore.ml" 81 2365 2383 "nodescore.ml" 81 2365 2406
+)
+"nodescore.ml" 81 2365 2373 "nodescore.ml" 81 2365 2379
+type(
+  float option
+)
+"nodescore.ml" 81 2365 2383 "nodescore.ml" 81 2365 2392
+type(
+  node_score_map -> node -> float -> node_score_map
+)
+ident(
+  int_ref set_score "nodescore.ml" 75 2231 2237 "nodescore.ml" 75 2231 2246
+)
+"nodescore.ml" 81 2365 2393 "nodescore.ml" 81 2365 2395
+type(
+  node_score_map
+)
+ident(
+  int_ref ns "nodescore.ml" 78 2277 2293 "nodescore.ml" 78 2277 2295
+)
+"nodescore.ml" 81 2365 2396 "nodescore.ml" 81 2365 2397
+type(
+  node
+)
+ident(
+  int_ref n "nodescore.ml" 78 2277 2296 "nodescore.ml" 78 2277 2297
+)
+"nodescore.ml" 81 2365 2399 "nodescore.ml" 81 2365 2400
+type(
+  float
+)
+ident(
+  int_ref s "nodescore.ml" 78 2277 2298 "nodescore.ml" 78 2277 2299
+)
+"nodescore.ml" 81 2365 2401 "nodescore.ml" 81 2365 2403
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"nodescore.ml" 81 2365 2404 "nodescore.ml" 81 2365 2405
+type(
+  float
+)
+ident(
+  int_ref v "nodescore.ml" 81 2365 2378 "nodescore.ml" 81 2365 2379
+)
+"nodescore.ml" 81 2365 2399 "nodescore.ml" 81 2365 2405
+type(
+  float
+)
+"nodescore.ml" 81 2365 2383 "nodescore.ml" 81 2365 2406
+call(
+  tail
+)
+type(
+  node_score_map
+)
+"nodescore.ml" 79 2302 2306 "nodescore.ml" 81 2365 2406
+type(
+  node_score_map
+)
+"nodescore.ml" 78 2277 2298 "nodescore.ml" 81 2365 2406
+type(
+  float -> node_score_map
+)
+"nodescore.ml" 78 2277 2296 "nodescore.ml" 81 2365 2406
+type(
+  node -> float -> node_score_map
+)
+"nodescore.ml" 78 2277 2293 "nodescore.ml" 81 2365 2406
+type(
+  node_score_map -> node -> float -> node_score_map
+)
+"nodescore.ml" 83 2408 2414 "nodescore.ml" 83 2408 2438
+type(
+  node_score_map -> string
+)
+ident(
+  def string_of_node_score_map "nodescore.ml" 85 2459 2461 "nodescore.ml" 92 2676 2679
+)
+"nodescore.ml" 83 2408 2441 "nodescore.ml" 83 2408 2457
+type(
+  node_score_map -> string
+)
+ident(
+  ext_ref D.string_of_dict
+)
+"nodescore.ml" 85 2459 2465 "nodescore.ml" 85 2459 2469
+type(
+  (node -> float -> 'f -> 'f) -> 'f -> node_score_map -> 'f
+)
+ident(
+  def fold "nodescore.ml" 88 2498 2500 "nodescore.ml" 92 2676 2679
+)
+"nodescore.ml" 85 2459 2470 "nodescore.ml" 85 2459 2471
+type(
+  node -> float -> 'f -> 'f
+)
+ident(
+  def f "nodescore.ml" 85 2459 2472 "nodescore.ml" 86 2479 2496
+)
+"nodescore.ml" 85 2459 2472 "nodescore.ml" 85 2459 2473
+type(
+  'f
+)
+ident(
+  def u "nodescore.ml" 85 2459 2474 "nodescore.ml" 86 2479 2496
+)
+"nodescore.ml" 85 2459 2474 "nodescore.ml" 85 2459 2476
+type(
+  node_score_map
+)
+ident(
+  def ns "nodescore.ml" 86 2479 2483 "nodescore.ml" 86 2479 2496
+)
+"nodescore.ml" 86 2479 2483 "nodescore.ml" 86 2479 2489
+type(
+  (node -> float -> 'f -> 'f) -> 'f -> node_score_map -> 'f
+)
+ident(
+  ext_ref D.fold
+)
+"nodescore.ml" 86 2479 2490 "nodescore.ml" 86 2479 2491
+type(
+  node -> float -> 'f -> 'f
+)
+ident(
+  int_ref f "nodescore.ml" 85 2459 2470 "nodescore.ml" 85 2459 2471
+)
+"nodescore.ml" 86 2479 2492 "nodescore.ml" 86 2479 2493
+type(
+  'f
+)
+ident(
+  int_ref u "nodescore.ml" 85 2459 2472 "nodescore.ml" 85 2459 2473
+)
+"nodescore.ml" 86 2479 2494 "nodescore.ml" 86 2479 2496
+type(
+  node_score_map
+)
+ident(
+  int_ref ns "nodescore.ml" 85 2459 2474 "nodescore.ml" 85 2459 2476
+)
+"nodescore.ml" 86 2479 2483 "nodescore.ml" 86 2479 2496
+call(
+  tail
+)
+type(
+  'f
+)
+"nodescore.ml" 85 2459 2474 "nodescore.ml" 86 2479 2496
+type(
+  node_score_map -> 'f
+)
+"nodescore.ml" 85 2459 2472 "nodescore.ml" 86 2479 2496
+type(
+  'f -> node_score_map -> 'f
+)
+"nodescore.ml" 85 2459 2470 "nodescore.ml" 86 2479 2496
+type(
+  (node -> float -> 'f -> 'f) -> 'f -> node_score_map -> 'f
+)
+"nodescore.ml" 88 2498 2504 "nodescore.ml" 88 2498 2524
+type(
+  node list -> float -> node_score_map
+)
+ident(
+  def fixed_node_score_map "nodescore.ml" 91 2611 2613 "nodescore.ml" 92 2676 2679
+)
+"nodescore.ml" 88 2498 2525 "nodescore.ml" 88 2498 2530
+type(
+  node list
+)
+ident(
+  def nodes "nodescore.ml" 88 2498 2531 "nodescore.ml" 89 2535 2609
+)
+"nodescore.ml" 88 2498 2531 "nodescore.ml" 88 2498 2532
+type(
+  float
+)
+ident(
+  def v "nodescore.ml" 89 2535 2539 "nodescore.ml" 89 2535 2609
+)
+"nodescore.ml" 89 2535 2539 "nodescore.ml" 89 2535 2553
+type(
+  node list ->
+  init:node_score_map ->
+  f:(node_score_map -> node -> node_score_map) -> node_score_map
+)
+ident(
+  ext_ref Core.Std.List.fold_left
+)
+"nodescore.ml" 89 2535 2554 "nodescore.ml" 89 2535 2559
+type(
+  node list
+)
+ident(
+  int_ref nodes "nodescore.ml" 88 2498 2525 "nodescore.ml" 88 2498 2530
+)
+"nodescore.ml" 89 2535 2568 "nodescore.ml" 89 2535 2569
+type(
+  node_score_map
+)
+ident(
+  def r "nodescore.ml" 89 2535 2570 "nodescore.ml" 89 2535 2596
+)
+"nodescore.ml" 89 2535 2570 "nodescore.ml" 89 2535 2574
+type(
+  node
+)
+ident(
+  def node "nodescore.ml" 89 2535 2578 "nodescore.ml" 89 2535 2596
+)
+"nodescore.ml" 89 2535 2578 "nodescore.ml" 89 2535 2587
+type(
+  node_score_map -> node -> float -> node_score_map
+)
+ident(
+  int_ref set_score "nodescore.ml" 75 2231 2237 "nodescore.ml" 75 2231 2246
+)
+"nodescore.ml" 89 2535 2588 "nodescore.ml" 89 2535 2589
+type(
+  node_score_map
+)
+ident(
+  int_ref r "nodescore.ml" 89 2535 2568 "nodescore.ml" 89 2535 2569
+)
+"nodescore.ml" 89 2535 2590 "nodescore.ml" 89 2535 2594
+type(
+  node
+)
+ident(
+  int_ref node "nodescore.ml" 89 2535 2570 "nodescore.ml" 89 2535 2574
+)
+"nodescore.ml" 89 2535 2595 "nodescore.ml" 89 2535 2596
+type(
+  float
+)
+ident(
+  int_ref v "nodescore.ml" 88 2498 2531 "nodescore.ml" 88 2498 2532
+)
+"nodescore.ml" 89 2535 2578 "nodescore.ml" 89 2535 2596
+call(
+  tail
+)
+type(
+  node_score_map
+)
+"nodescore.ml" 89 2535 2570 "nodescore.ml" 89 2535 2596
+type(
+  node -> node_score_map
+)
+"nodescore.ml" 89 2535 2568 "nodescore.ml" 89 2535 2596
+type(
+  node_score_map -> node -> node_score_map
+)
+"nodescore.ml" 89 2535 2604 "nodescore.ml" 89 2535 2609
+type(
+  node_score_map
+)
+ident(
+  int_ref empty "nodescore.ml" 59 1882 1888 "nodescore.ml" 59 1882 1893
+)
+"nodescore.ml" 89 2535 2539 "nodescore.ml" 89 2535 2609
+call(
+  tail
+)
+type(
+  node_score_map
+)
+"nodescore.ml" 88 2498 2531 "nodescore.ml" 89 2535 2609
+type(
+  float -> node_score_map
+)
+"nodescore.ml" 88 2498 2525 "nodescore.ml" 89 2535 2609
+type(
+  node list -> float -> node_score_map
+)
+"nodescore.ml" 91 2611 2617 "nodescore.ml" 91 2611 2636
+type(
+  node list -> node_score_map
+)
+ident(
+  def zero_node_score_map "nodescore.ml" 91 2611 2675 "nodescore.ml" 92 2676 2679
+)
+"nodescore.ml" 91 2611 2637 "nodescore.ml" 91 2611 2642
+type(
+  node list
+)
+ident(
+  def nodes "nodescore.ml" 91 2611 2645 "nodescore.ml" 91 2611 2675
+)
+"nodescore.ml" 91 2611 2645 "nodescore.ml" 91 2611 2665
+type(
+  node list -> float -> node_score_map
+)
+ident(
+  int_ref fixed_node_score_map "nodescore.ml" 88 2498 2504 "nodescore.ml" 88 2498 2524
+)
+"nodescore.ml" 91 2611 2666 "nodescore.ml" 91 2611 2671
+type(
+  node list
+)
+ident(
+  int_ref nodes "nodescore.ml" 91 2611 2637 "nodescore.ml" 91 2611 2642
+)
+"nodescore.ml" 91 2611 2672 "nodescore.ml" 91 2611 2675
+type(
+  float
+)
+"nodescore.ml" 91 2611 2645 "nodescore.ml" 91 2611 2675
+call(
+  tail
+)
+type(
+  node_score_map
+)
+"nodescore.ml" 91 2611 2637 "nodescore.ml" 91 2611 2675
+type(
+  node list -> node_score_map
+)

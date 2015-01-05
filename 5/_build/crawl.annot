@@ -1,0 +1,1327 @@
+"crawl.ml" 13 269 280 "crawl.ml" 13 269 295
+type(
+  float option
+)
+ident(
+  def do_random_jumps "crawl.ml" 14 308 315 "crawl.ml" 15 336 344
+)
+"crawl.ml" 13 269 303 "crawl.ml" 13 269 307
+type(
+  float
+)
+"crawl.ml" 13 269 298 "crawl.ml" 13 269 307
+type(
+  float option
+)
+"crawl.ml" 14 308 319 "crawl.ml" 14 308 328
+type(
+  int
+)
+ident(
+  def num_steps "crawl.ml" 14 308 335 "crawl.ml" 15 336 344
+)
+"crawl.ml" 14 308 331 "crawl.ml" 14 308 335
+type(
+  int
+)
+"crawl.ml" 12 213 220 "crawl.ml" 15 336 345
+call(
+  stack
+)
+"crawl.ml" 30 651 659 "crawl.ml" 30 651 666
+type(
+  key -> key -> Ordering.t
+)
+ident(
+  def compare "crawl.ml" 31 684 688 "crawl.ml" 42 1079 1084
+)
+"crawl.ml" 30 651 669 "crawl.ml" 30 651 683
+type(
+  key -> key -> Ordering.t
+)
+ident(
+  ext_ref Order.string_compare
+)
+"crawl.ml" 31 684 692 "crawl.ml" 31 684 705
+type(
+  'a -> 'a
+)
+ident(
+  def string_of_key "crawl.ml" 32 721 725 "crawl.ml" 42 1079 1084
+)
+"crawl.ml" 31 684 713 "crawl.ml" 31 684 714
+type(
+  'a
+)
+ident(
+  def s "crawl.ml" 31 684 718 "crawl.ml" 31 684 719
+)
+"crawl.ml" 31 684 718 "crawl.ml" 31 684 719
+type(
+  'a
+)
+ident(
+  int_ref s "crawl.ml" 31 684 713 "crawl.ml" 31 684 714
+)
+"crawl.ml" 31 684 713 "crawl.ml" 31 684 719
+type(
+  'a -> 'a
+)
+"crawl.ml" 32 721 729 "crawl.ml" 32 721 744
+type(
+  value -> key
+)
+ident(
+  def string_of_value "crawl.ml" 35 821 825 "crawl.ml" 42 1079 1084
+)
+"crawl.ml" 32 721 747 "crawl.ml" 32 721 768
+type(
+  value -> key
+)
+ident(
+  ext_ref Pagerank.LinkSet.string_of_set
+)
+"crawl.ml" 35 821 829 "crawl.ml" 35 821 836
+type(
+  unit -> key
+)
+ident(
+  def gen_key "crawl.ml" 36 845 849 "crawl.ml" 42 1079 1084
+)
+"crawl.ml" 35 821 837 "crawl.ml" 35 821 839
+type(
+  unit
+)
+"crawl.ml" 35 821 842 "crawl.ml" 35 821 844
+type(
+  key
+)
+"crawl.ml" 35 821 837 "crawl.ml" 35 821 844
+type(
+  unit -> key
+)
+"crawl.ml" 36 845 853 "crawl.ml" 36 845 863
+type(
+  'b -> unit -> key
+)
+ident(
+  def gen_key_gt "crawl.ml" 37 882 886 "crawl.ml" 42 1079 1084
+)
+"crawl.ml" 36 845 864 "crawl.ml" 36 845 865
+type(
+  'b
+)
+"crawl.ml" 36 845 866 "crawl.ml" 36 845 868
+type(
+  unit
+)
+"crawl.ml" 36 845 871 "crawl.ml" 36 845 878
+type(
+  unit -> key
+)
+ident(
+  int_ref gen_key "crawl.ml" 35 821 829 "crawl.ml" 35 821 836
+)
+"crawl.ml" 36 845 879 "crawl.ml" 36 845 881
+type(
+  unit
+)
+"crawl.ml" 36 845 871 "crawl.ml" 36 845 881
+call(
+  tail
+)
+type(
+  key
+)
+"crawl.ml" 36 845 866 "crawl.ml" 36 845 881
+type(
+  unit -> key
+)
+"crawl.ml" 36 845 864 "crawl.ml" 36 845 881
+type(
+  'b -> unit -> key
+)
+"crawl.ml" 37 882 890 "crawl.ml" 37 882 900
+type(
+  'c -> unit -> key
+)
+ident(
+  def gen_key_lt "crawl.ml" 38 919 923 "crawl.ml" 42 1079 1084
+)
+"crawl.ml" 37 882 901 "crawl.ml" 37 882 902
+type(
+  'c
+)
+"crawl.ml" 37 882 903 "crawl.ml" 37 882 905
+type(
+  unit
+)
+"crawl.ml" 37 882 908 "crawl.ml" 37 882 915
+type(
+  unit -> key
+)
+ident(
+  int_ref gen_key "crawl.ml" 35 821 829 "crawl.ml" 35 821 836
+)
+"crawl.ml" 37 882 916 "crawl.ml" 37 882 918
+type(
+  unit
+)
+"crawl.ml" 37 882 908 "crawl.ml" 37 882 918
+call(
+  tail
+)
+type(
+  key
+)
+"crawl.ml" 37 882 903 "crawl.ml" 37 882 918
+type(
+  unit -> key
+)
+"crawl.ml" 37 882 901 "crawl.ml" 37 882 918
+type(
+  'c -> unit -> key
+)
+"crawl.ml" 38 919 927 "crawl.ml" 38 919 941
+type(
+  unit -> key
+)
+ident(
+  def gen_key_random "crawl.ml" 39 958 962 "crawl.ml" 42 1079 1084
+)
+"crawl.ml" 38 919 942 "crawl.ml" 38 919 944
+type(
+  unit
+)
+"crawl.ml" 38 919 947 "crawl.ml" 38 919 954
+type(
+  unit -> key
+)
+ident(
+  int_ref gen_key "crawl.ml" 35 821 829 "crawl.ml" 35 821 836
+)
+"crawl.ml" 38 919 955 "crawl.ml" 38 919 957
+type(
+  unit
+)
+"crawl.ml" 38 919 947 "crawl.ml" 38 919 957
+call(
+  tail
+)
+type(
+  key
+)
+"crawl.ml" 38 919 942 "crawl.ml" 38 919 957
+type(
+  unit -> key
+)
+"crawl.ml" 39 958 966 "crawl.ml" 39 958 981
+type(
+  'd -> 'e -> unit -> 'f option
+)
+ident(
+  def gen_key_between "crawl.ml" 40 996 1000 "crawl.ml" 42 1079 1084
+)
+"crawl.ml" 39 958 982 "crawl.ml" 39 958 983
+type(
+  'd
+)
+"crawl.ml" 39 958 984 "crawl.ml" 39 958 985
+type(
+  'e
+)
+"crawl.ml" 39 958 986 "crawl.ml" 39 958 988
+type(
+  unit
+)
+"crawl.ml" 39 958 991 "crawl.ml" 39 958 995
+type(
+  'f option
+)
+"crawl.ml" 39 958 986 "crawl.ml" 39 958 995
+type(
+  unit -> 'f option
+)
+"crawl.ml" 39 958 984 "crawl.ml" 39 958 995
+type(
+  'e -> unit -> 'f option
+)
+"crawl.ml" 39 958 982 "crawl.ml" 39 958 995
+type(
+  'd -> 'e -> unit -> 'f option
+)
+"crawl.ml" 40 996 1004 "crawl.ml" 40 996 1013
+type(
+  unit -> value
+)
+ident(
+  def gen_value "crawl.ml" 41 1033 1037 "crawl.ml" 42 1079 1084
+)
+"crawl.ml" 40 996 1014 "crawl.ml" 40 996 1016
+type(
+  unit
+)
+"crawl.ml" 40 996 1019 "crawl.ml" 40 996 1032
+type(
+  value
+)
+ident(
+  ext_ref Pagerank.LinkSet.empty
+)
+"crawl.ml" 40 996 1014 "crawl.ml" 40 996 1032
+type(
+  unit -> value
+)
+"crawl.ml" 41 1033 1041 "crawl.ml" 41 1033 1049
+type(
+  unit -> key * value
+)
+ident(
+  def gen_pair "crawl.ml" 41 1033 1078 "crawl.ml" 42 1079 1084
+)
+"crawl.ml" 41 1033 1050 "crawl.ml" 41 1033 1052
+type(
+  unit
+)
+"crawl.ml" 41 1033 1056 "crawl.ml" 41 1033 1063
+type(
+  unit -> key
+)
+ident(
+  int_ref gen_key "crawl.ml" 35 821 829 "crawl.ml" 35 821 836
+)
+"crawl.ml" 41 1033 1063 "crawl.ml" 41 1033 1065
+type(
+  unit
+)
+"crawl.ml" 41 1033 1056 "crawl.ml" 41 1033 1065
+call(
+  stack
+)
+type(
+  key
+)
+"crawl.ml" 41 1033 1066 "crawl.ml" 41 1033 1075
+type(
+  unit -> value
+)
+ident(
+  int_ref gen_value "crawl.ml" 40 996 1004 "crawl.ml" 40 996 1013
+)
+"crawl.ml" 41 1033 1075 "crawl.ml" 41 1033 1077
+type(
+  unit
+)
+"crawl.ml" 41 1033 1066 "crawl.ml" 41 1033 1077
+call(
+  stack
+)
+type(
+  value
+)
+"crawl.ml" 41 1033 1056 "crawl.ml" 41 1033 1077
+type(
+  key * value
+)
+"crawl.ml" 41 1033 1050 "crawl.ml" 41 1033 1078
+type(
+  unit -> key * value
+)
+"crawl.ml" 26 562 580 "crawl.ml" 42 1079 1085
+call(
+  stack
+)
+"crawl.ml" 45 1139 1150 "crawl.ml" 49 1219 1225
+call(
+  stack
+)
+"crawl.ml" 51 1227 1231 "crawl.ml" 51 1227 1236
+type(
+  string -> unit
+)
+ident(
+  def print "crawl.ml" 73 2045 2045 "crawl.ml" 1 0 -1
+)
+"crawl.ml" 51 1227 1237 "crawl.ml" 51 1227 1238
+type(
+  string
+)
+ident(
+  def s "crawl.ml" 52 1241 1243 "crawl.ml" 53 1277 1290
+)
+"crawl.ml" 52 1241 1247 "crawl.ml" 52 1241 1248
+type(
+  unit
+)
+"crawl.ml" 52 1241 1251 "crawl.ml" 52 1241 1264
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Core.Std.Printf.printf
+)
+"crawl.ml" 52 1241 1265 "crawl.ml" 52 1241 1271
+type(
+  (string -> unit, out_channel, unit) format
+)
+"crawl.ml" 52 1241 1272 "crawl.ml" 52 1241 1273
+type(
+  string
+)
+ident(
+  int_ref s "crawl.ml" 51 1227 1237 "crawl.ml" 51 1227 1238
+)
+"crawl.ml" 52 1241 1251 "crawl.ml" 52 1241 1273
+call(
+  stack
+)
+type(
+  unit
+)
+"crawl.ml" 53 1277 1279 "crawl.ml" 53 1277 1288
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.flush_all
+)
+"crawl.ml" 53 1277 1288 "crawl.ml" 53 1277 1290
+type(
+  unit
+)
+"crawl.ml" 53 1277 1279 "crawl.ml" 53 1277 1290
+call(
+  tail
+)
+type(
+  unit
+)
+"crawl.ml" 52 1241 1243 "crawl.ml" 53 1277 1290
+type(
+  unit
+)
+"crawl.ml" 51 1227 1237 "crawl.ml" 53 1277 1290
+type(
+  string -> unit
+)
+"crawl.ml" 73 2045 2049 "crawl.ml" 73 2045 2060
+type(
+  WordDict.value -> link list -> WordDict.value
+)
+ident(
+  def insert_list "crawl.ml" 77 2233 2233 "crawl.ml" 1 0 -1
+)
+"crawl.ml" 73 2045 2062 "crawl.ml" 73 2045 2066
+type(
+  WordDict.value
+)
+ident(
+  def nset "crawl.ml" 73 2045 2081 "crawl.ml" 74 2114 2180
+)
+"crawl.ml" 73 2045 2082 "crawl.ml" 73 2045 2085
+type(
+  link list
+)
+ident(
+  def lst "crawl.ml" 73 2045 2098 "crawl.ml" 74 2114 2180
+)
+"crawl.ml" 74 2114 2116 "crawl.ml" 74 2114 2130
+type(
+  link list ->
+  init:WordDict.value ->
+  f:(WordDict.value -> link -> WordDict.value) -> WordDict.value
+)
+ident(
+  ext_ref Core.Std.List.fold_left
+)
+"crawl.ml" 74 2114 2131 "crawl.ml" 74 2114 2134
+type(
+  link list
+)
+ident(
+  int_ref lst "crawl.ml" 73 2045 2082 "crawl.ml" 73 2045 2085
+)
+"crawl.ml" 74 2114 2143 "crawl.ml" 74 2114 2144
+type(
+  WordDict.value
+)
+ident(
+  def r "crawl.ml" 74 2114 2145 "crawl.ml" 74 2114 2168
+)
+"crawl.ml" 74 2114 2145 "crawl.ml" 74 2114 2146
+type(
+  link
+)
+ident(
+  def k "crawl.ml" 74 2114 2150 "crawl.ml" 74 2114 2168
+)
+"crawl.ml" 74 2114 2150 "crawl.ml" 74 2114 2164
+type(
+  link -> WordDict.value -> WordDict.value
+)
+ident(
+  ext_ref Pagerank.LinkSet.insert
+)
+"crawl.ml" 74 2114 2165 "crawl.ml" 74 2114 2166
+type(
+  link
+)
+ident(
+  int_ref k "crawl.ml" 74 2114 2145 "crawl.ml" 74 2114 2146
+)
+"crawl.ml" 74 2114 2167 "crawl.ml" 74 2114 2168
+type(
+  WordDict.value
+)
+ident(
+  int_ref r "crawl.ml" 74 2114 2143 "crawl.ml" 74 2114 2144
+)
+"crawl.ml" 74 2114 2150 "crawl.ml" 74 2114 2168
+call(
+  tail
+)
+type(
+  WordDict.value
+)
+"crawl.ml" 74 2114 2145 "crawl.ml" 74 2114 2168
+type(
+  link -> WordDict.value
+)
+"crawl.ml" 74 2114 2143 "crawl.ml" 74 2114 2168
+type(
+  WordDict.value -> link -> WordDict.value
+)
+"crawl.ml" 74 2114 2176 "crawl.ml" 74 2114 2180
+type(
+  WordDict.value
+)
+ident(
+  int_ref nset "crawl.ml" 73 2045 2062 "crawl.ml" 73 2045 2066
+)
+"crawl.ml" 74 2114 2116 "crawl.ml" 74 2114 2180
+call(
+  tail
+)
+type(
+  WordDict.value
+)
+type(
+  WordDict.value
+)
+"crawl.ml" 73 2045 2081 "crawl.ml" 74 2114 2180
+type(
+  link list -> WordDict.value
+)
+"crawl.ml" 73 2045 2061 "crawl.ml" 74 2114 2180
+type(
+  WordDict.value -> link list -> WordDict.value
+)
+"crawl.ml" 77 2233 2241 "crawl.ml" 77 2233 2253
+type(
+  link -> WordDict.dict -> string list -> WordDict.dict
+)
+ident(
+  def insert_words "crawl.ml" 77 2233 2233 "crawl.ml" 1 0 -1
+)
+"crawl.ml" 77 2233 2256 "crawl.ml" 77 2233 2257
+type(
+  link
+)
+ident(
+  def l "crawl.ml" 77 2233 2266 "crawl.ml" 86 2541 2565
+)
+"crawl.ml" 77 2233 2267 "crawl.ml" 77 2233 2268
+type(
+  WordDict.dict
+)
+ident(
+  def d "crawl.ml" 78 2287 2291 "crawl.ml" 86 2541 2565
+)
+"crawl.ml" 78 2287 2292 "crawl.ml" 78 2287 2294
+type(
+  string list
+)
+ident(
+  def wl "crawl.ml" 78 2287 2310 "crawl.ml" 86 2541 2565
+)
+"crawl.ml" 79 2328 2336 "crawl.ml" 79 2328 2338
+type(
+  string list
+)
+ident(
+  int_ref wl "crawl.ml" 78 2287 2292 "crawl.ml" 78 2287 2294
+)
+"crawl.ml" 80 2344 2348 "crawl.ml" 80 2344 2350
+type(
+  string list
+)
+"crawl.ml" 80 2344 2354 "crawl.ml" 80 2344 2355
+type(
+  WordDict.dict
+)
+ident(
+  int_ref d "crawl.ml" 77 2233 2267 "crawl.ml" 77 2233 2268
+)
+"crawl.ml" 81 2356 2360 "crawl.ml" 81 2356 2361
+type(
+  string
+)
+ident(
+  def w "crawl.ml" 82 2371 2375 "crawl.ml" 86 2541 2565
+)
+"crawl.ml" 81 2356 2365 "crawl.ml" 81 2356 2367
+type(
+  string list
+)
+ident(
+  def tl "crawl.ml" 82 2371 2375 "crawl.ml" 86 2541 2565
+)
+"crawl.ml" 81 2356 2360 "crawl.ml" 81 2356 2367
+type(
+  string list
+)
+"crawl.ml" 82 2371 2379 "crawl.ml" 82 2371 2381
+type(
+  WordDict.dict
+)
+ident(
+  def d' "crawl.ml" 86 2541 2545 "crawl.ml" 86 2541 2565
+)
+"crawl.ml" 83 2384 2396 "crawl.ml" 83 2384 2411
+type(
+  WordDict.dict -> string -> WordDict.value option
+)
+ident(
+  ext_ref WordDict.lookup
+)
+"crawl.ml" 83 2384 2412 "crawl.ml" 83 2384 2413
+type(
+  WordDict.dict
+)
+ident(
+  int_ref d "crawl.ml" 77 2233 2267 "crawl.ml" 77 2233 2268
+)
+"crawl.ml" 83 2384 2414 "crawl.ml" 83 2384 2415
+type(
+  string
+)
+ident(
+  int_ref w "crawl.ml" 81 2356 2360 "crawl.ml" 81 2356 2361
+)
+"crawl.ml" 83 2384 2396 "crawl.ml" 83 2384 2415
+call(
+  stack
+)
+type(
+  WordDict.value option
+)
+"crawl.ml" 84 2421 2434 "crawl.ml" 84 2421 2435
+type(
+  WordDict.value
+)
+ident(
+  def x "crawl.ml" 84 2421 2439 "crawl.ml" 84 2421 2479
+)
+"crawl.ml" 84 2421 2429 "crawl.ml" 84 2421 2435
+type(
+  WordDict.value option
+)
+"crawl.ml" 84 2421 2439 "crawl.ml" 84 2421 2454
+type(
+  WordDict.dict -> string -> WordDict.value -> WordDict.dict
+)
+ident(
+  ext_ref WordDict.insert
+)
+"crawl.ml" 84 2421 2455 "crawl.ml" 84 2421 2456
+type(
+  WordDict.dict
+)
+ident(
+  int_ref d "crawl.ml" 77 2233 2267 "crawl.ml" 77 2233 2268
+)
+"crawl.ml" 84 2421 2457 "crawl.ml" 84 2421 2458
+type(
+  string
+)
+ident(
+  int_ref w "crawl.ml" 81 2356 2360 "crawl.ml" 81 2356 2361
+)
+"crawl.ml" 84 2421 2460 "crawl.ml" 84 2421 2474
+type(
+  link -> WordDict.value -> WordDict.value
+)
+ident(
+  ext_ref Pagerank.LinkSet.insert
+)
+"crawl.ml" 84 2421 2475 "crawl.ml" 84 2421 2476
+type(
+  link
+)
+ident(
+  int_ref l "crawl.ml" 77 2233 2256 "crawl.ml" 77 2233 2257
+)
+"crawl.ml" 84 2421 2477 "crawl.ml" 84 2421 2478
+type(
+  WordDict.value
+)
+ident(
+  int_ref x "crawl.ml" 84 2421 2434 "crawl.ml" 84 2421 2435
+)
+"crawl.ml" 84 2421 2460 "crawl.ml" 84 2421 2478
+call(
+  stack
+)
+type(
+  WordDict.value
+)
+"crawl.ml" 84 2421 2439 "crawl.ml" 84 2421 2479
+call(
+  stack
+)
+type(
+  WordDict.dict
+)
+"crawl.ml" 85 2480 2488 "crawl.ml" 85 2480 2492
+type(
+  WordDict.value option
+)
+"crawl.ml" 85 2480 2496 "crawl.ml" 85 2480 2511
+type(
+  WordDict.dict -> string -> WordDict.value -> WordDict.dict
+)
+ident(
+  ext_ref WordDict.insert
+)
+"crawl.ml" 85 2480 2512 "crawl.ml" 85 2480 2513
+type(
+  WordDict.dict
+)
+ident(
+  int_ref d "crawl.ml" 77 2233 2267 "crawl.ml" 77 2233 2268
+)
+"crawl.ml" 85 2480 2514 "crawl.ml" 85 2480 2515
+type(
+  string
+)
+ident(
+  int_ref w "crawl.ml" 81 2356 2360 "crawl.ml" 81 2356 2361
+)
+"crawl.ml" 85 2480 2517 "crawl.ml" 85 2480 2534
+type(
+  link -> WordDict.value
+)
+ident(
+  ext_ref Pagerank.LinkSet.singleton
+)
+"crawl.ml" 85 2480 2535 "crawl.ml" 85 2480 2536
+type(
+  link
+)
+ident(
+  int_ref l "crawl.ml" 77 2233 2256 "crawl.ml" 77 2233 2257
+)
+"crawl.ml" 85 2480 2517 "crawl.ml" 85 2480 2536
+call(
+  stack
+)
+type(
+  WordDict.value
+)
+"crawl.ml" 85 2480 2496 "crawl.ml" 85 2480 2537
+call(
+  stack
+)
+type(
+  WordDict.dict
+)
+"crawl.ml" 83 2384 2390 "crawl.ml" 85 2480 2537
+type(
+  WordDict.dict
+)
+"crawl.ml" 86 2541 2545 "crawl.ml" 86 2541 2557
+type(
+  link -> WordDict.dict -> string list -> WordDict.dict
+)
+ident(
+  int_ref insert_words "crawl.ml" 77 2233 2241 "crawl.ml" 77 2233 2253
+)
+"crawl.ml" 86 2541 2558 "crawl.ml" 86 2541 2559
+type(
+  link
+)
+ident(
+  int_ref l "crawl.ml" 77 2233 2256 "crawl.ml" 77 2233 2257
+)
+"crawl.ml" 86 2541 2560 "crawl.ml" 86 2541 2562
+type(
+  WordDict.dict
+)
+ident(
+  int_ref d' "crawl.ml" 82 2371 2379 "crawl.ml" 82 2371 2381
+)
+"crawl.ml" 86 2541 2563 "crawl.ml" 86 2541 2565
+type(
+  string list
+)
+ident(
+  int_ref tl "crawl.ml" 81 2356 2365 "crawl.ml" 81 2356 2367
+)
+"crawl.ml" 86 2541 2545 "crawl.ml" 86 2541 2565
+call(
+  tail
+)
+type(
+  WordDict.dict
+)
+"crawl.ml" 82 2371 2375 "crawl.ml" 86 2541 2565
+type(
+  WordDict.dict
+)
+"crawl.ml" 79 2328 2330 "crawl.ml" 86 2541 2565
+type(
+  WordDict.dict
+)
+type(
+  WordDict.dict
+)
+"crawl.ml" 78 2287 2291 "crawl.ml" 86 2541 2565
+type(
+  string list -> WordDict.dict
+)
+"crawl.ml" 77 2233 2266 "crawl.ml" 86 2541 2565
+type(
+  WordDict.dict -> string list -> WordDict.dict
+)
+"crawl.ml" 77 2233 2255 "crawl.ml" 86 2541 2565
+type(
+  link -> WordDict.dict -> string list -> WordDict.dict
+)
+"crawl.ml" 89 2628 2636 "crawl.ml" 89 2628 2641
+type(
+  int -> WordDict.value -> WordDict.value -> WordDict.dict -> WordDict.dict
+)
+ident(
+  def crawl "crawl.ml" 89 2628 2628 "crawl.ml" 1 0 -1
+)
+"crawl.ml" 89 2628 2643 "crawl.ml" 89 2628 2644
+type(
+  int
+)
+ident(
+  def n "crawl.ml" 89 2628 2652 "crawl.ml" 100 3122 3180
+)
+"crawl.ml" 89 2628 2653 "crawl.ml" 89 2628 2661
+type(
+  WordDict.value
+)
+ident(
+  def frontier "crawl.ml" 90 2677 2681 "crawl.ml" 100 3122 3180
+)
+"crawl.ml" 90 2677 2682 "crawl.ml" 90 2677 2689
+type(
+  WordDict.value
+)
+ident(
+  def visited "crawl.ml" 90 2677 2705 "crawl.ml" 100 3122 3180
+)
+"crawl.ml" 90 2677 2706 "crawl.ml" 90 2677 2707
+type(
+  WordDict.dict
+)
+ident(
+  def d "crawl.ml" 90 2677 2725 "crawl.ml" 100 3122 3180
+)
+"crawl.ml" 91 2743 2751 "crawl.ml" 91 2743 2752
+type(
+  int
+)
+ident(
+  int_ref n "crawl.ml" 89 2628 2643 "crawl.ml" 89 2628 2644
+)
+"crawl.ml" 91 2743 2754 "crawl.ml" 91 2743 2768
+type(
+  WordDict.value -> (link * WordDict.value) option
+)
+ident(
+  ext_ref Pagerank.LinkSet.choose
+)
+"crawl.ml" 91 2743 2769 "crawl.ml" 91 2743 2777
+type(
+  WordDict.value
+)
+ident(
+  int_ref frontier "crawl.ml" 89 2628 2653 "crawl.ml" 89 2628 2661
+)
+"crawl.ml" 91 2743 2754 "crawl.ml" 91 2743 2777
+call(
+  stack
+)
+type(
+  (link * WordDict.value) option
+)
+"crawl.ml" 91 2743 2751 "crawl.ml" 91 2743 2777
+type(
+  int * (link * WordDict.value) option
+)
+"crawl.ml" 92 2783 2787 "crawl.ml" 92 2783 2788
+type(
+  int
+)
+"crawl.ml" 92 2783 2790 "crawl.ml" 92 2783 2791
+type(
+  (link * WordDict.value) option
+)
+"crawl.ml" 92 2783 2787 "crawl.ml" 92 2783 2791
+type(
+  int * (link * WordDict.value) option
+)
+"crawl.ml" 92 2783 2794 "crawl.ml" 92 2783 2795
+type(
+  int
+)
+"crawl.ml" 92 2783 2797 "crawl.ml" 92 2783 2801
+type(
+  (link * WordDict.value) option
+)
+"crawl.ml" 92 2783 2794 "crawl.ml" 92 2783 2801
+type(
+  int * (link * WordDict.value) option
+)
+"crawl.ml" 92 2783 2787 "crawl.ml" 92 2783 2801
+type(
+  int * (link * WordDict.value) option
+)
+"crawl.ml" 92 2783 2805 "crawl.ml" 92 2783 2806
+type(
+  WordDict.dict
+)
+ident(
+  int_ref d "crawl.ml" 90 2677 2706 "crawl.ml" 90 2677 2707
+)
+"crawl.ml" 93 2807 2811 "crawl.ml" 93 2807 2812
+type(
+  int
+)
+"crawl.ml" 93 2807 2819 "crawl.ml" 93 2807 2823
+type(
+  link
+)
+ident(
+  def elem "crawl.ml" 94 2836 2844 "crawl.ml" 100 3122 3179
+)
+"crawl.ml" 93 2807 2825 "crawl.ml" 93 2807 2829
+type(
+  WordDict.value
+)
+ident(
+  def nset "crawl.ml" 94 2836 2844 "crawl.ml" 100 3122 3179
+)
+"crawl.ml" 93 2807 2813 "crawl.ml" 93 2807 2830
+type(
+  (link * WordDict.value) option
+)
+type(
+  link * WordDict.value
+)
+"crawl.ml" 93 2807 2811 "crawl.ml" 93 2807 2830
+type(
+  int * (link * WordDict.value) option
+)
+"crawl.ml" 94 2836 2850 "crawl.ml" 94 2836 2874
+type(
+  link -> page option
+)
+ident(
+  ext_ref Util.CrawlerServices.get_page
+)
+"crawl.ml" 94 2836 2875 "crawl.ml" 94 2836 2879
+type(
+  link
+)
+ident(
+  int_ref elem "crawl.ml" 93 2807 2819 "crawl.ml" 93 2807 2823
+)
+"crawl.ml" 94 2836 2850 "crawl.ml" 94 2836 2879
+call(
+  stack
+)
+type(
+  page option
+)
+"crawl.ml" 95 2885 2895 "crawl.ml" 95 2885 2899
+type(
+  page option
+)
+"crawl.ml" 95 2885 2903 "crawl.ml" 95 2885 2908
+type(
+  int -> WordDict.value -> WordDict.value -> WordDict.dict -> WordDict.dict
+)
+ident(
+  int_ref crawl "crawl.ml" 89 2628 2636 "crawl.ml" 89 2628 2641
+)
+"crawl.ml" 95 2885 2909 "crawl.ml" 95 2885 2910
+type(
+  int
+)
+ident(
+  int_ref n "crawl.ml" 89 2628 2643 "crawl.ml" 89 2628 2644
+)
+"crawl.ml" 95 2885 2911 "crawl.ml" 95 2885 2915
+type(
+  WordDict.value
+)
+ident(
+  int_ref nset "crawl.ml" 93 2807 2825 "crawl.ml" 93 2807 2829
+)
+"crawl.ml" 95 2885 2916 "crawl.ml" 95 2885 2923
+type(
+  WordDict.value
+)
+ident(
+  int_ref visited "crawl.ml" 90 2677 2682 "crawl.ml" 90 2677 2689
+)
+"crawl.ml" 95 2885 2924 "crawl.ml" 95 2885 2925
+type(
+  WordDict.dict
+)
+ident(
+  int_ref d "crawl.ml" 90 2677 2706 "crawl.ml" 90 2677 2707
+)
+"crawl.ml" 95 2885 2903 "crawl.ml" 95 2885 2925
+call(
+  tail
+)
+type(
+  WordDict.dict
+)
+"crawl.ml" 96 2926 2941 "crawl.ml" 96 2926 2942
+type(
+  page
+)
+ident(
+  def p "crawl.ml" 97 2948 2958 "crawl.ml" 100 3122 3178
+)
+"crawl.ml" 96 2926 2936 "crawl.ml" 96 2926 2942
+type(
+  page option
+)
+"crawl.ml" 97 2948 2964 "crawl.ml" 97 2948 2978
+type(
+  WordDict.value -> link -> bool
+)
+ident(
+  ext_ref Pagerank.LinkSet.member
+)
+"crawl.ml" 97 2948 2979 "crawl.ml" 97 2948 2986
+type(
+  WordDict.value
+)
+ident(
+  int_ref visited "crawl.ml" 90 2677 2682 "crawl.ml" 90 2677 2689
+)
+"crawl.ml" 97 2948 2987 "crawl.ml" 97 2948 2991
+type(
+  link
+)
+ident(
+  int_ref elem "crawl.ml" 93 2807 2819 "crawl.ml" 93 2807 2823
+)
+"crawl.ml" 97 2948 2964 "crawl.ml" 97 2948 2991
+call(
+  stack
+)
+type(
+  bool
+)
+"crawl.ml" 98 2997 3001 "crawl.ml" 98 2997 3005
+type(
+  bool
+)
+"crawl.ml" 98 2997 3009 "crawl.ml" 98 2997 3014
+type(
+  int -> WordDict.value -> WordDict.value -> WordDict.dict -> WordDict.dict
+)
+ident(
+  int_ref crawl "crawl.ml" 89 2628 2636 "crawl.ml" 89 2628 2641
+)
+"crawl.ml" 98 2997 3015 "crawl.ml" 98 2997 3016
+type(
+  int
+)
+ident(
+  int_ref n "crawl.ml" 89 2628 2643 "crawl.ml" 89 2628 2644
+)
+"crawl.ml" 98 2997 3017 "crawl.ml" 98 2997 3021
+type(
+  WordDict.value
+)
+ident(
+  int_ref nset "crawl.ml" 93 2807 2825 "crawl.ml" 93 2807 2829
+)
+"crawl.ml" 98 2997 3022 "crawl.ml" 98 2997 3029
+type(
+  WordDict.value
+)
+ident(
+  int_ref visited "crawl.ml" 90 2677 2682 "crawl.ml" 90 2677 2689
+)
+"crawl.ml" 98 2997 3030 "crawl.ml" 98 2997 3031
+type(
+  WordDict.dict
+)
+ident(
+  int_ref d "crawl.ml" 90 2677 2706 "crawl.ml" 90 2677 2707
+)
+"crawl.ml" 98 2997 3009 "crawl.ml" 98 2997 3031
+call(
+  tail
+)
+type(
+  WordDict.dict
+)
+"crawl.ml" 99 3032 3043 "crawl.ml" 99 3032 3048
+type(
+  bool
+)
+"crawl.ml" 99 3032 3052 "crawl.ml" 99 3032 3057
+type(
+  int -> WordDict.value -> WordDict.value -> WordDict.dict -> WordDict.dict
+)
+ident(
+  int_ref crawl "crawl.ml" 89 2628 2636 "crawl.ml" 89 2628 2641
+)
+"crawl.ml" 99 3032 3059 "crawl.ml" 99 3032 3060
+type(
+  int
+)
+ident(
+  int_ref n "crawl.ml" 89 2628 2643 "crawl.ml" 89 2628 2644
+)
+"crawl.ml" 99 3032 3060 "crawl.ml" 99 3032 3061
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"crawl.ml" 99 3032 3061 "crawl.ml" 99 3032 3062
+type(
+  int
+)
+"crawl.ml" 99 3032 3059 "crawl.ml" 99 3032 3062
+type(
+  int
+)
+"crawl.ml" 99 3032 3065 "crawl.ml" 99 3032 3076
+type(
+  WordDict.value -> link list -> WordDict.value
+)
+ident(
+  int_ref insert_list "crawl.ml" 73 2045 2049 "crawl.ml" 73 2045 2060
+)
+"crawl.ml" 99 3032 3077 "crawl.ml" 99 3032 3081
+type(
+  WordDict.value
+)
+ident(
+  int_ref nset "crawl.ml" 93 2807 2825 "crawl.ml" 93 2807 2829
+)
+"crawl.ml" 99 3032 3082 "crawl.ml" 99 3032 3083
+type(
+  page
+)
+ident(
+  int_ref p "crawl.ml" 96 2926 2941 "crawl.ml" 96 2926 2942
+)
+"crawl.ml" 99 3032 3082 "crawl.ml" 99 3032 3089
+type(
+  link list
+)
+"crawl.ml" 99 3032 3065 "crawl.ml" 99 3032 3089
+call(
+  stack
+)
+type(
+  WordDict.value
+)
+"crawl.ml" 99 3032 3092 "crawl.ml" 99 3032 3106
+type(
+  link -> WordDict.value -> WordDict.value
+)
+ident(
+  ext_ref Pagerank.LinkSet.insert
+)
+"crawl.ml" 99 3032 3107 "crawl.ml" 99 3032 3111
+type(
+  link
+)
+ident(
+  int_ref elem "crawl.ml" 93 2807 2819 "crawl.ml" 93 2807 2823
+)
+"crawl.ml" 99 3032 3112 "crawl.ml" 99 3032 3119
+type(
+  WordDict.value
+)
+ident(
+  int_ref visited "crawl.ml" 90 2677 2682 "crawl.ml" 90 2677 2689
+)
+"crawl.ml" 99 3032 3092 "crawl.ml" 99 3032 3119
+call(
+  stack
+)
+type(
+  WordDict.value
+)
+"crawl.ml" 100 3122 3149 "crawl.ml" 100 3122 3161
+type(
+  link -> WordDict.dict -> string list -> WordDict.dict
+)
+ident(
+  int_ref insert_words "crawl.ml" 77 2233 2241 "crawl.ml" 77 2233 2253
+)
+"crawl.ml" 100 3122 3162 "crawl.ml" 100 3122 3163
+type(
+  page
+)
+ident(
+  int_ref p "crawl.ml" 96 2926 2941 "crawl.ml" 96 2926 2942
+)
+"crawl.ml" 100 3122 3162 "crawl.ml" 100 3122 3167
+type(
+  link
+)
+"crawl.ml" 100 3122 3168 "crawl.ml" 100 3122 3169
+type(
+  WordDict.dict
+)
+ident(
+  int_ref d "crawl.ml" 90 2677 2706 "crawl.ml" 90 2677 2707
+)
+"crawl.ml" 100 3122 3170 "crawl.ml" 100 3122 3171
+type(
+  page
+)
+ident(
+  int_ref p "crawl.ml" 96 2926 2941 "crawl.ml" 96 2926 2942
+)
+"crawl.ml" 100 3122 3170 "crawl.ml" 100 3122 3177
+type(
+  string list
+)
+"crawl.ml" 100 3122 3149 "crawl.ml" 100 3122 3177
+call(
+  stack
+)
+type(
+  WordDict.dict
+)
+"crawl.ml" 99 3032 3052 "crawl.ml" 100 3122 3178
+call(
+  tail
+)
+type(
+  WordDict.dict
+)
+"crawl.ml" 97 2948 2958 "crawl.ml" 100 3122 3178
+type(
+  WordDict.dict
+)
+"crawl.ml" 94 2836 2844 "crawl.ml" 100 3122 3179
+type(
+  WordDict.dict
+)
+"crawl.ml" 91 2743 2745 "crawl.ml" 100 3122 3180
+type(
+  WordDict.dict
+)
+type(
+  WordDict.dict
+)
+"crawl.ml" 90 2677 2705 "crawl.ml" 100 3122 3180
+type(
+  WordDict.dict -> WordDict.dict
+)
+"crawl.ml" 90 2677 2681 "crawl.ml" 100 3122 3180
+type(
+  WordDict.value -> WordDict.dict -> WordDict.dict
+)
+"crawl.ml" 89 2628 2652 "crawl.ml" 100 3122 3180
+type(
+  WordDict.value -> WordDict.value -> WordDict.dict -> WordDict.dict
+)
+"crawl.ml" 89 2628 2642 "crawl.ml" 100 3122 3180
+type(
+  int -> WordDict.value -> WordDict.value -> WordDict.dict -> WordDict.dict
+)
+"crawl.ml" 103 3185 3189 "crawl.ml" 103 3185 3196
+type(
+  unit -> WordDict.dict
+)
+ident(
+  def crawler "crawl.ml" 105 3277 3295 "crawl.ml" 1 0 -1
+)
+"crawl.ml" 103 3185 3197 "crawl.ml" 103 3185 3199
+type(
+  unit
+)
+"crawl.ml" 104 3202 3204 "crawl.ml" 104 3202 3209
+type(
+  int -> WordDict.value -> WordDict.value -> WordDict.dict -> WordDict.dict
+)
+ident(
+  int_ref crawl "crawl.ml" 89 2628 2636 "crawl.ml" 89 2628 2641
+)
+"crawl.ml" 104 3202 3210 "crawl.ml" 104 3202 3229
+type(
+  int
+)
+ident(
+  ext_ref Util.CrawlerServices.num_pages_to_search
+)
+"crawl.ml" 104 3202 3231 "crawl.ml" 104 3202 3248
+type(
+  link -> WordDict.value
+)
+ident(
+  ext_ref Pagerank.LinkSet.singleton
+)
+"crawl.ml" 104 3202 3249 "crawl.ml" 104 3202 3261
+type(
+  link
+)
+ident(
+  ext_ref Util.CrawlerServices.initial_link
+)
+"crawl.ml" 104 3202 3231 "crawl.ml" 104 3202 3261
+call(
+  stack
+)
+type(
+  WordDict.value
+)
+"crawl.ml" 104 3202 3263 "crawl.ml" 104 3202 3276
+type(
+  WordDict.value
+)
+ident(
+  ext_ref Pagerank.LinkSet.empty
+)
+"crawl.ml" 105 3277 3281 "crawl.ml" 105 3277 3295
+type(
+  WordDict.dict
+)
+ident(
+  ext_ref WordDict.empty
+)
+"crawl.ml" 104 3202 3204 "crawl.ml" 105 3277 3295
+call(
+  tail
+)
+type(
+  WordDict.dict
+)
+"crawl.ml" 103 3185 3197 "crawl.ml" 105 3277 3295
+type(
+  unit -> WordDict.dict
+)

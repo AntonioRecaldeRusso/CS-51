@@ -1,0 +1,477 @@
+"Dany.ml" 7 98 102 "Dany.ml" 7 98 119
+type(
+  int
+)
+ident(
+  def spawn_dragon_gold "Dany.ml" 11 223 223 "Dany.ml" 1 0 -1
+)
+"Dany.ml" 7 98 122 "Dany.ml" 7 98 125
+type(
+  int
+)
+"Dany.ml" 11 223 234 "Dany.ml" 11 223 235
+type(
+  int * int
+)
+"Dany.ml" 11 223 236 "Dany.ml" 11 223 240
+type(
+  KingsLanding.kings_landing
+)
+"Dany.ml" 12 259 267 "Dany.ml" 12 259 271
+type(
+  < danger : world_object_i -> unit; die : unit; draw : unit;
+    draw_z_axis : int; forfeit_gold : int option;
+    get_danger_event : world_object_i Event51.event;
+    get_die_event : unit Event51.event; get_name : string;
+    get_pos : int * int; is_obstacle : bool; receive_damage : unit;
+    receive_gold : int list -> int list; smells_like_gold : int option; .. >
+)
+"Dany.ml" 13 273 296 "Dany.ml" 13 273 297
+type(
+  int * int
+)
+ident(
+  int_ref p "Dany.ml" 11 223 234 "Dany.ml" 11 223 235
+)
+"Dany.ml" 20 448 479 "Dany.ml" 20 448 483
+type(
+  bool
+)
+"Dany.ml" 28 627 631 "Dany.ml" 28 627 635
+type(
+  < danger : world_object_i -> unit; die : unit; draw : unit;
+    draw_z_axis : int; forfeit_gold : int option;
+    get_danger_event : world_object_i Event51.event;
+    get_die_event : unit Event51.event; get_name : string;
+    get_pos : int * int; is_obstacle : bool; receive_damage : unit;
+    receive_gold : int list -> int list; smells_like_gold : int option; .. >
+  as 'a
+)
+ident(
+  int_ref self "Dany.ml" 12 259 267 "Dany.ml" 12 259 271
+)
+"Dany.ml" 28 627 631 "Dany.ml" 28 627 652
+call(
+  tail
+)
+type(
+  int Event51.event -> (int -> unit) -> unit
+)
+"Dany.ml" 28 627 653 "Dany.ml" 28 627 657
+type(
+  KingsLanding.kings_landing
+)
+ident(
+  int_ref city "Dany.ml" 11 223 236 "Dany.ml" 11 223 240
+)
+"Dany.ml" 28 627 653 "Dany.ml" 28 627 672
+call(
+  stack
+)
+type(
+  int Event51.event
+)
+"Dany.ml" 28 627 678 "Dany.ml" 28 627 679
+type(
+  int
+)
+"Dany.ml" 28 627 683 "Dany.ml" 28 627 687
+type(
+  'a
+)
+ident(
+  int_ref self "Dany.ml" 12 259 267 "Dany.ml" 12 259 271
+)
+"Dany.ml" 28 627 683 "Dany.ml" 28 627 697
+call(
+  tail
+)
+type(
+  unit
+)
+"Dany.ml" 28 627 678 "Dany.ml" 28 627 697
+type(
+  int -> unit
+)
+"Dany.ml" 28 627 631 "Dany.ml" 28 627 698
+type(
+  'a -> unit
+)
+type(
+  unit
+)
+"Dany.ml" 36 866 874 "Dany.ml" 36 866 878
+type(
+  KingsLanding.kings_landing
+)
+ident(
+  int_ref city "Dany.ml" 11 223 236 "Dany.ml" 11 223 240
+)
+"Dany.ml" 36 866 874 "Dany.ml" 36 866 887
+call(
+  stack
+)
+type(
+  int
+)
+"Dany.ml" 36 866 888 "Dany.ml" 36 866 890
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"Dany.ml" 36 866 892 "Dany.ml" 36 866 909
+type(
+  int
+)
+ident(
+  int_ref spawn_dragon_gold "Dany.ml" 7 98 102 "Dany.ml" 7 98 119
+)
+"Dany.ml" 36 866 874 "Dany.ml" 36 866 909
+type(
+  bool
+)
+"Dany.ml" 36 866 911 "Dany.ml" 36 866 913
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"Dany.ml" 36 866 915 "Dany.ml" 36 866 918
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"Dany.ml" 36 866 919 "Dany.ml" 36 866 923
+type(
+  'a
+)
+ident(
+  int_ref self "Dany.ml" 12 259 267 "Dany.ml" 12 259 271
+)
+"Dany.ml" 36 866 919 "Dany.ml" 36 866 937
+call(
+  stack
+)
+type(
+  bool
+)
+"Dany.ml" 36 866 915 "Dany.ml" 36 866 937
+type(
+  bool
+)
+"Dany.ml" 36 866 873 "Dany.ml" 36 866 938
+type(
+  bool
+)
+"Dany.ml" 37 939 949 "Dany.ml" 37 939 961
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"Dany.ml" 37 939 962 "Dany.ml" 37 939 972
+type(
+  string
+)
+"Dany.ml" 37 939 949 "Dany.ml" 37 939 972
+call(
+  stack
+)
+type(
+  unit
+)
+"Dany.ml" 37 939 974 "Dany.ml" 37 939 983
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.flush_all
+)
+"Dany.ml" 37 939 984 "Dany.ml" 37 939 986
+type(
+  unit
+)
+"Dany.ml" 37 939 974 "Dany.ml" 37 939 986
+call(
+  stack
+)
+type(
+  unit
+)
+"Dany.ml" 37 939 988 "Dany.ml" 37 939 992
+type(
+  'a
+)
+ident(
+  int_ref self "Dany.ml" 12 259 267 "Dany.ml" 12 259 271
+)
+"Dany.ml" 37 939 988 "Dany.ml" 37 939 1005
+call(
+  tail
+)
+type(
+  unit
+)
+"Dany.ml" 37 939 974 "Dany.ml" 37 939 1005
+type(
+  unit
+)
+"Dany.ml" 37 939 949 "Dany.ml" 37 939 1005
+type(
+  unit
+)
+"Dany.ml" 36 866 870 "Dany.ml" 37 939 1006
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"Dany.ml" 35 837 839 "Dany.ml" 37 939 1006
+type(
+  'a -> unit
+)
+"Dany.ml" 43 1161 1165 "Dany.ml" 43 1161 1171
+type(
+  Dragon.dragon -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"Dany.ml" 43 1161 1173 "Dany.ml" 43 1161 1190
+type(
+  int * int -> KingsLanding.kings_landing -> 'a -> Dragon.dragon
+)
+"Dany.ml" 43 1161 1191 "Dany.ml" 43 1161 1195
+type(
+  'a
+)
+ident(
+  int_ref self "Dany.ml" 12 259 267 "Dany.ml" 12 259 271
+)
+"Dany.ml" 43 1161 1191 "Dany.ml" 43 1161 1203
+call(
+  stack
+)
+type(
+  int * int
+)
+"Dany.ml" 43 1161 1204 "Dany.ml" 43 1161 1208
+type(
+  KingsLanding.kings_landing
+)
+ident(
+  int_ref city "Dany.ml" 11 223 236 "Dany.ml" 11 223 240
+)
+"Dany.ml" 43 1161 1209 "Dany.ml" 43 1161 1213
+type(
+  'a
+)
+ident(
+  int_ref self "Dany.ml" 12 259 267 "Dany.ml" 12 259 271
+)
+"Dany.ml" 43 1161 1173 "Dany.ml" 43 1161 1213
+call(
+  stack
+)
+type(
+  Dragon.dragon
+)
+"Dany.ml" 43 1161 1165 "Dany.ml" 43 1161 1214
+type(
+  unit
+)
+type(
+  unit
+)
+"Dany.ml" 42 1120 1123 "Dany.ml" 43 1161 1214
+type(
+  'a -> unit
+)
+"Dany.ml" 46 1257 1261 "Dany.ml" 46 1257 1271
+type(
+  (world_object_i -> bool -> bool) -> bool -> bool
+)
+ident(
+  ext_ref World.fold
+)
+"Dany.ml" 46 1257 1277 "Dany.ml" 46 1257 1278
+type(
+  world_object_i
+)
+ident(
+  def x "Dany.ml" 46 1257 1279 "Dany.ml" 46 1257 1312
+)
+"Dany.ml" 46 1257 1279 "Dany.ml" 46 1257 1280
+type(
+  bool
+)
+ident(
+  def y "Dany.ml" 46 1257 1284 "Dany.ml" 46 1257 1312
+)
+"Dany.ml" 46 1257 1285 "Dany.ml" 46 1257 1286
+type(
+  world_object_i
+)
+ident(
+  int_ref x "Dany.ml" 46 1257 1277 "Dany.ml" 46 1257 1278
+)
+"Dany.ml" 46 1257 1285 "Dany.ml" 46 1257 1295
+call(
+  stack
+)
+type(
+  string
+)
+"Dany.ml" 46 1257 1296 "Dany.ml" 46 1257 1297
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Dany.ml" 46 1257 1298 "Dany.ml" 46 1257 1306
+type(
+  string
+)
+"Dany.ml" 46 1257 1285 "Dany.ml" 46 1257 1306
+type(
+  bool
+)
+"Dany.ml" 46 1257 1308 "Dany.ml" 46 1257 1310
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"Dany.ml" 46 1257 1311 "Dany.ml" 46 1257 1312
+type(
+  bool
+)
+ident(
+  int_ref y "Dany.ml" 46 1257 1279 "Dany.ml" 46 1257 1280
+)
+"Dany.ml" 46 1257 1284 "Dany.ml" 46 1257 1312
+type(
+  bool
+)
+"Dany.ml" 46 1257 1279 "Dany.ml" 46 1257 1312
+type(
+  bool -> bool
+)
+"Dany.ml" 46 1257 1277 "Dany.ml" 46 1257 1312
+type(
+  world_object_i -> bool -> bool
+)
+"Dany.ml" 46 1257 1314 "Dany.ml" 46 1257 1319
+type(
+  bool
+)
+"Dany.ml" 46 1257 1261 "Dany.ml" 46 1257 1319
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"Dany.ml" 45 1216 1219 "Dany.ml" 46 1257 1319
+type(
+  'a -> bool
+)
+"Dany.ml" 55 1471 1492 "Dany.ml" 55 1471 1498
+type(
+  string
+)
+type(
+  string
+)
+"Dany.ml" 55 1471 1473 "Dany.ml" 55 1471 1498
+type(
+  'a -> string
+)
+"Dany.ml" 57 1500 1517 "Dany.ml" 57 1500 1521
+type(
+  'a
+)
+ident(
+  int_ref self "Dany.ml" 12 259 267 "Dany.ml" 12 259 271
+)
+"Dany.ml" 57 1500 1517 "Dany.ml" 57 1500 1533
+call(
+  tail
+)
+type(
+  int -> int -> string -> unit
+)
+"Dany.ml" 57 1500 1534 "Dany.ml" 57 1500 1548
+type(
+  int
+)
+ident(
+  ext_ref Graphics.black
+)
+"Dany.ml" 57 1500 1550 "Dany.ml" 57 1500 1562
+type(
+  int -> int -> int -> int
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"Dany.ml" 57 1500 1563 "Dany.ml" 57 1500 1567
+type(
+  int
+)
+"Dany.ml" 57 1500 1568 "Dany.ml" 57 1500 1572
+type(
+  int
+)
+"Dany.ml" 57 1500 1573 "Dany.ml" 57 1500 1577
+type(
+  int
+)
+"Dany.ml" 57 1500 1550 "Dany.ml" 57 1500 1577
+call(
+  stack
+)
+type(
+  int
+)
+"Dany.ml" 57 1500 1579 "Dany.ml" 57 1500 1582
+type(
+  string
+)
+"Dany.ml" 57 1500 1517 "Dany.ml" 57 1500 1582
+type(
+  unit
+)
+type(
+  unit
+)
+"Dany.ml" 57 1500 1502 "Dany.ml" 57 1500 1582
+type(
+  'a -> unit
+)
+"Dany.ml" 59 1584 1608 "Dany.ml" 59 1584 1609
+type(
+  int
+)
+type(
+  int
+)
+"Dany.ml" 59 1584 1586 "Dany.ml" 59 1584 1609
+type(
+  'a -> int
+)

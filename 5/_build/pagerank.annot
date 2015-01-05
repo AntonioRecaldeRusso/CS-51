@@ -1,0 +1,3530 @@
+"pagerank.ml" 14 232 240 "pagerank.ml" 14 232 247
+type(
+  key -> key -> Ordering.t
+)
+ident(
+  def compare "pagerank.ml" 15 263 267 "pagerank.ml" 24 616 621
+)
+"pagerank.ml" 14 232 250 "pagerank.ml" 14 232 262
+type(
+  key -> key -> Ordering.t
+)
+ident(
+  ext_ref Util.CrawlerServices.link_compare
+)
+"pagerank.ml" 15 263 271 "pagerank.ml" 15 263 284
+type(
+  key -> string
+)
+ident(
+  def string_of_key "pagerank.ml" 16 302 306 "pagerank.ml" 24 616 621
+)
+"pagerank.ml" 15 263 287 "pagerank.ml" 15 263 301
+type(
+  key -> string
+)
+ident(
+  ext_ref Util.CrawlerServices.string_of_link
+)
+"pagerank.ml" 16 302 310 "pagerank.ml" 16 302 325
+type(
+  value -> string
+)
+ident(
+  def string_of_value "pagerank.ml" 17 344 348 "pagerank.ml" 24 616 621
+)
+"pagerank.ml" 16 302 328 "pagerank.ml" 16 302 343
+type(
+  value -> string
+)
+ident(
+  ext_ref Core.Std.Float.to_string
+)
+"pagerank.ml" 17 344 352 "pagerank.ml" 17 344 359
+type(
+  unit -> key
+)
+ident(
+  def gen_key "pagerank.ml" 18 392 396 "pagerank.ml" 24 616 621
+)
+"pagerank.ml" 17 344 360 "pagerank.ml" 17 344 362
+type(
+  unit
+)
+"pagerank.ml" 17 344 371 "pagerank.ml" 17 344 373
+type(
+  string
+)
+"pagerank.ml" 17 344 380 "pagerank.ml" 17 344 381
+type(
+  int
+)
+"pagerank.ml" 17 344 388 "pagerank.ml" 17 344 390
+type(
+  string
+)
+"pagerank.ml" 17 344 365 "pagerank.ml" 17 344 391
+type(
+  key
+)
+"pagerank.ml" 17 344 360 "pagerank.ml" 17 344 391
+type(
+  unit -> key
+)
+"pagerank.ml" 18 392 400 "pagerank.ml" 18 392 410
+type(
+  'a -> unit -> key
+)
+ident(
+  def gen_key_gt "pagerank.ml" 19 429 433 "pagerank.ml" 24 616 621
+)
+"pagerank.ml" 18 392 411 "pagerank.ml" 18 392 412
+type(
+  'a
+)
+"pagerank.ml" 18 392 413 "pagerank.ml" 18 392 415
+type(
+  unit
+)
+"pagerank.ml" 18 392 418 "pagerank.ml" 18 392 425
+type(
+  unit -> key
+)
+ident(
+  int_ref gen_key "pagerank.ml" 17 344 352 "pagerank.ml" 17 344 359
+)
+"pagerank.ml" 18 392 426 "pagerank.ml" 18 392 428
+type(
+  unit
+)
+"pagerank.ml" 18 392 418 "pagerank.ml" 18 392 428
+call(
+  tail
+)
+type(
+  key
+)
+"pagerank.ml" 18 392 413 "pagerank.ml" 18 392 428
+type(
+  unit -> key
+)
+"pagerank.ml" 18 392 411 "pagerank.ml" 18 392 428
+type(
+  'a -> unit -> key
+)
+"pagerank.ml" 19 429 437 "pagerank.ml" 19 429 447
+type(
+  'b -> unit -> key
+)
+ident(
+  def gen_key_lt "pagerank.ml" 20 466 470 "pagerank.ml" 24 616 621
+)
+"pagerank.ml" 19 429 448 "pagerank.ml" 19 429 449
+type(
+  'b
+)
+"pagerank.ml" 19 429 450 "pagerank.ml" 19 429 452
+type(
+  unit
+)
+"pagerank.ml" 19 429 455 "pagerank.ml" 19 429 462
+type(
+  unit -> key
+)
+ident(
+  int_ref gen_key "pagerank.ml" 17 344 352 "pagerank.ml" 17 344 359
+)
+"pagerank.ml" 19 429 463 "pagerank.ml" 19 429 465
+type(
+  unit
+)
+"pagerank.ml" 19 429 455 "pagerank.ml" 19 429 465
+call(
+  tail
+)
+type(
+  key
+)
+"pagerank.ml" 19 429 450 "pagerank.ml" 19 429 465
+type(
+  unit -> key
+)
+"pagerank.ml" 19 429 448 "pagerank.ml" 19 429 465
+type(
+  'b -> unit -> key
+)
+"pagerank.ml" 20 466 474 "pagerank.ml" 20 466 488
+type(
+  unit -> key
+)
+ident(
+  def gen_key_random "pagerank.ml" 21 505 509 "pagerank.ml" 24 616 621
+)
+"pagerank.ml" 20 466 489 "pagerank.ml" 20 466 491
+type(
+  unit
+)
+"pagerank.ml" 20 466 494 "pagerank.ml" 20 466 501
+type(
+  unit -> key
+)
+ident(
+  int_ref gen_key "pagerank.ml" 17 344 352 "pagerank.ml" 17 344 359
+)
+"pagerank.ml" 20 466 502 "pagerank.ml" 20 466 504
+type(
+  unit
+)
+"pagerank.ml" 20 466 494 "pagerank.ml" 20 466 504
+call(
+  tail
+)
+type(
+  key
+)
+"pagerank.ml" 20 466 489 "pagerank.ml" 20 466 504
+type(
+  unit -> key
+)
+"pagerank.ml" 21 505 513 "pagerank.ml" 21 505 528
+type(
+  'c -> 'd -> unit -> 'e option
+)
+ident(
+  def gen_key_between "pagerank.ml" 22 543 547 "pagerank.ml" 24 616 621
+)
+"pagerank.ml" 21 505 529 "pagerank.ml" 21 505 530
+type(
+  'c
+)
+"pagerank.ml" 21 505 531 "pagerank.ml" 21 505 532
+type(
+  'd
+)
+"pagerank.ml" 21 505 533 "pagerank.ml" 21 505 535
+type(
+  unit
+)
+"pagerank.ml" 21 505 538 "pagerank.ml" 21 505 542
+type(
+  'e option
+)
+"pagerank.ml" 21 505 533 "pagerank.ml" 21 505 542
+type(
+  unit -> 'e option
+)
+"pagerank.ml" 21 505 531 "pagerank.ml" 21 505 542
+type(
+  'd -> unit -> 'e option
+)
+"pagerank.ml" 21 505 529 "pagerank.ml" 21 505 542
+type(
+  'c -> 'd -> unit -> 'e option
+)
+"pagerank.ml" 22 543 551 "pagerank.ml" 22 543 560
+type(
+  unit -> value
+)
+ident(
+  def gen_value "pagerank.ml" 23 570 574 "pagerank.ml" 24 616 621
+)
+"pagerank.ml" 22 543 561 "pagerank.ml" 22 543 563
+type(
+  unit
+)
+"pagerank.ml" 22 543 566 "pagerank.ml" 22 543 569
+type(
+  value
+)
+"pagerank.ml" 22 543 561 "pagerank.ml" 22 543 569
+type(
+  unit -> value
+)
+"pagerank.ml" 23 570 578 "pagerank.ml" 23 570 586
+type(
+  unit -> key * value
+)
+ident(
+  def gen_pair "pagerank.ml" 23 570 615 "pagerank.ml" 24 616 621
+)
+"pagerank.ml" 23 570 587 "pagerank.ml" 23 570 589
+type(
+  unit
+)
+"pagerank.ml" 23 570 593 "pagerank.ml" 23 570 600
+type(
+  unit -> key
+)
+ident(
+  int_ref gen_key "pagerank.ml" 17 344 352 "pagerank.ml" 17 344 359
+)
+"pagerank.ml" 23 570 600 "pagerank.ml" 23 570 602
+type(
+  unit
+)
+"pagerank.ml" 23 570 593 "pagerank.ml" 23 570 602
+call(
+  stack
+)
+type(
+  key
+)
+"pagerank.ml" 23 570 603 "pagerank.ml" 23 570 612
+type(
+  unit -> value
+)
+ident(
+  int_ref gen_value "pagerank.ml" 22 543 551 "pagerank.ml" 22 543 560
+)
+"pagerank.ml" 23 570 612 "pagerank.ml" 23 570 614
+type(
+  unit
+)
+"pagerank.ml" 23 570 603 "pagerank.ml" 23 570 614
+call(
+  stack
+)
+type(
+  value
+)
+"pagerank.ml" 23 570 593 "pagerank.ml" 23 570 614
+type(
+  key * value
+)
+"pagerank.ml" 23 570 587 "pagerank.ml" 23 570 615
+type(
+  unit -> key * value
+)
+"pagerank.ml" 10 151 169 "pagerank.ml" 24 616 622
+call(
+  stack
+)
+"pagerank.ml" 29 680 688 "pagerank.ml" 29 680 695
+type(
+  t -> t -> Ordering.t
+)
+ident(
+  def compare "pagerank.ml" 30 740 744 "pagerank.ml" 36 970 975
+)
+"pagerank.ml" 29 680 703 "pagerank.ml" 29 680 704
+type(
+  t
+)
+ident(
+  def a "pagerank.ml" 29 680 705 "pagerank.ml" 29 680 738
+)
+"pagerank.ml" 29 680 705 "pagerank.ml" 29 680 706
+type(
+  t
+)
+ident(
+  def b "pagerank.ml" 29 680 710 "pagerank.ml" 29 680 738
+)
+"pagerank.ml" 29 680 710 "pagerank.ml" 29 680 722
+type(
+  link -> link -> Ordering.t
+)
+ident(
+  ext_ref Util.CrawlerServices.link_compare
+)
+"pagerank.ml" 29 680 724 "pagerank.ml" 29 680 725
+type(
+  t
+)
+ident(
+  int_ref a "pagerank.ml" 29 680 703 "pagerank.ml" 29 680 704
+)
+"pagerank.ml" 29 680 724 "pagerank.ml" 29 680 729
+type(
+  link
+)
+"pagerank.ml" 29 680 732 "pagerank.ml" 29 680 733
+type(
+  t
+)
+ident(
+  int_ref b "pagerank.ml" 29 680 705 "pagerank.ml" 29 680 706
+)
+"pagerank.ml" 29 680 732 "pagerank.ml" 29 680 737
+type(
+  link
+)
+"pagerank.ml" 29 680 710 "pagerank.ml" 29 680 738
+call(
+  tail
+)
+type(
+  Ordering.t
+)
+"pagerank.ml" 29 680 705 "pagerank.ml" 29 680 738
+type(
+  t -> Ordering.t
+)
+"pagerank.ml" 29 680 703 "pagerank.ml" 29 680 738
+type(
+  t -> t -> Ordering.t
+)
+"pagerank.ml" 30 740 748 "pagerank.ml" 30 740 759
+type(
+  t -> string
+)
+ident(
+  def string_of_t "pagerank.ml" 31 777 781 "pagerank.ml" 36 970 975
+)
+"pagerank.ml" 30 740 762 "pagerank.ml" 30 740 776
+type(
+  t -> string
+)
+ident(
+  ext_ref Util.CrawlerServices.string_of_page
+)
+"pagerank.ml" 31 777 785 "pagerank.ml" 31 777 788
+type(
+  unit -> t
+)
+ident(
+  def gen "pagerank.ml" 32 847 851 "pagerank.ml" 36 970 975
+)
+"pagerank.ml" 31 777 789 "pagerank.ml" 31 777 791
+type(
+  unit
+)
+"pagerank.ml" 31 777 805 "pagerank.ml" 31 777 807
+type(
+  string
+)
+"pagerank.ml" 31 777 814 "pagerank.ml" 31 777 815
+type(
+  int
+)
+"pagerank.ml" 31 777 822 "pagerank.ml" 31 777 824
+type(
+  string
+)
+"pagerank.ml" 31 777 799 "pagerank.ml" 31 777 825
+type(
+  link
+)
+"pagerank.ml" 31 777 833 "pagerank.ml" 31 777 835
+type(
+  link list
+)
+"pagerank.ml" 31 777 843 "pagerank.ml" 31 777 845
+type(
+  string list
+)
+"pagerank.ml" 31 777 794 "pagerank.ml" 31 777 846
+type(
+  t
+)
+"pagerank.ml" 31 777 789 "pagerank.ml" 31 777 846
+type(
+  unit -> t
+)
+"pagerank.ml" 32 847 855 "pagerank.ml" 32 847 861
+type(
+  'a -> unit -> t
+)
+ident(
+  def gen_lt "pagerank.ml" 33 876 880 "pagerank.ml" 36 970 975
+)
+"pagerank.ml" 32 847 862 "pagerank.ml" 32 847 863
+type(
+  'a
+)
+"pagerank.ml" 32 847 864 "pagerank.ml" 32 847 866
+type(
+  unit
+)
+"pagerank.ml" 32 847 869 "pagerank.ml" 32 847 872
+type(
+  unit -> t
+)
+ident(
+  int_ref gen "pagerank.ml" 31 777 785 "pagerank.ml" 31 777 788
+)
+"pagerank.ml" 32 847 873 "pagerank.ml" 32 847 875
+type(
+  unit
+)
+"pagerank.ml" 32 847 869 "pagerank.ml" 32 847 875
+call(
+  tail
+)
+type(
+  t
+)
+"pagerank.ml" 32 847 864 "pagerank.ml" 32 847 875
+type(
+  unit -> t
+)
+"pagerank.ml" 32 847 862 "pagerank.ml" 32 847 875
+type(
+  'a -> unit -> t
+)
+"pagerank.ml" 33 876 884 "pagerank.ml" 33 876 890
+type(
+  'b -> unit -> t
+)
+ident(
+  def gen_gt "pagerank.ml" 34 905 909 "pagerank.ml" 36 970 975
+)
+"pagerank.ml" 33 876 891 "pagerank.ml" 33 876 892
+type(
+  'b
+)
+"pagerank.ml" 33 876 893 "pagerank.ml" 33 876 895
+type(
+  unit
+)
+"pagerank.ml" 33 876 898 "pagerank.ml" 33 876 901
+type(
+  unit -> t
+)
+ident(
+  int_ref gen "pagerank.ml" 31 777 785 "pagerank.ml" 31 777 788
+)
+"pagerank.ml" 33 876 902 "pagerank.ml" 33 876 904
+type(
+  unit
+)
+"pagerank.ml" 33 876 898 "pagerank.ml" 33 876 904
+call(
+  tail
+)
+type(
+  t
+)
+"pagerank.ml" 33 876 893 "pagerank.ml" 33 876 904
+type(
+  unit -> t
+)
+"pagerank.ml" 33 876 891 "pagerank.ml" 33 876 904
+type(
+  'b -> unit -> t
+)
+"pagerank.ml" 34 905 913 "pagerank.ml" 34 905 923
+type(
+  unit -> t
+)
+ident(
+  def gen_random "pagerank.ml" 35 936 940 "pagerank.ml" 36 970 975
+)
+"pagerank.ml" 34 905 924 "pagerank.ml" 34 905 926
+type(
+  unit
+)
+"pagerank.ml" 34 905 929 "pagerank.ml" 34 905 932
+type(
+  unit -> t
+)
+ident(
+  int_ref gen "pagerank.ml" 31 777 785 "pagerank.ml" 31 777 788
+)
+"pagerank.ml" 34 905 933 "pagerank.ml" 34 905 935
+type(
+  unit
+)
+"pagerank.ml" 34 905 929 "pagerank.ml" 34 905 935
+call(
+  tail
+)
+type(
+  t
+)
+"pagerank.ml" 34 905 924 "pagerank.ml" 34 905 935
+type(
+  unit -> t
+)
+"pagerank.ml" 35 936 944 "pagerank.ml" 35 936 955
+type(
+  'c -> 'd -> unit -> 'e option
+)
+ident(
+  def gen_between "pagerank.ml" 35 936 969 "pagerank.ml" 36 970 975
+)
+"pagerank.ml" 35 936 956 "pagerank.ml" 35 936 957
+type(
+  'c
+)
+"pagerank.ml" 35 936 958 "pagerank.ml" 35 936 959
+type(
+  'd
+)
+"pagerank.ml" 35 936 960 "pagerank.ml" 35 936 962
+type(
+  unit
+)
+"pagerank.ml" 35 936 965 "pagerank.ml" 35 936 969
+type(
+  'e option
+)
+"pagerank.ml" 35 936 960 "pagerank.ml" 35 936 969
+type(
+  unit -> 'e option
+)
+"pagerank.ml" 35 936 958 "pagerank.ml" 35 936 969
+type(
+  'd -> unit -> 'e option
+)
+"pagerank.ml" 35 936 956 "pagerank.ml" 35 936 969
+type(
+  'c -> 'd -> unit -> 'e option
+)
+"pagerank.ml" 26 624 641 "pagerank.ml" 36 970 976
+call(
+  stack
+)
+"pagerank.ml" 41 1034 1042 "pagerank.ml" 41 1034 1049
+type(
+  t -> t -> Ordering.t
+)
+ident(
+  def compare "pagerank.ml" 42 1065 1069 "pagerank.ml" 48 1269 1274
+)
+"pagerank.ml" 41 1034 1052 "pagerank.ml" 41 1034 1064
+type(
+  t -> t -> Ordering.t
+)
+ident(
+  ext_ref Util.CrawlerServices.link_compare
+)
+"pagerank.ml" 42 1065 1073 "pagerank.ml" 42 1065 1084
+type(
+  t -> string
+)
+ident(
+  def string_of_t "pagerank.ml" 43 1102 1106 "pagerank.ml" 48 1269 1274
+)
+"pagerank.ml" 42 1065 1087 "pagerank.ml" 42 1065 1101
+type(
+  t -> string
+)
+ident(
+  ext_ref Util.CrawlerServices.string_of_link
+)
+"pagerank.ml" 43 1102 1110 "pagerank.ml" 43 1102 1113
+type(
+  unit -> t
+)
+ident(
+  def gen "pagerank.ml" 44 1146 1150 "pagerank.ml" 48 1269 1274
+)
+"pagerank.ml" 43 1102 1114 "pagerank.ml" 43 1102 1116
+type(
+  unit
+)
+"pagerank.ml" 43 1102 1125 "pagerank.ml" 43 1102 1127
+type(
+  string
+)
+"pagerank.ml" 43 1102 1134 "pagerank.ml" 43 1102 1135
+type(
+  int
+)
+"pagerank.ml" 43 1102 1142 "pagerank.ml" 43 1102 1144
+type(
+  string
+)
+"pagerank.ml" 43 1102 1119 "pagerank.ml" 43 1102 1145
+type(
+  t
+)
+"pagerank.ml" 43 1102 1114 "pagerank.ml" 43 1102 1145
+type(
+  unit -> t
+)
+"pagerank.ml" 44 1146 1154 "pagerank.ml" 44 1146 1160
+type(
+  'a -> unit -> t
+)
+ident(
+  def gen_lt "pagerank.ml" 45 1175 1179 "pagerank.ml" 48 1269 1274
+)
+"pagerank.ml" 44 1146 1161 "pagerank.ml" 44 1146 1162
+type(
+  'a
+)
+"pagerank.ml" 44 1146 1163 "pagerank.ml" 44 1146 1165
+type(
+  unit
+)
+"pagerank.ml" 44 1146 1168 "pagerank.ml" 44 1146 1171
+type(
+  unit -> t
+)
+ident(
+  int_ref gen "pagerank.ml" 43 1102 1110 "pagerank.ml" 43 1102 1113
+)
+"pagerank.ml" 44 1146 1172 "pagerank.ml" 44 1146 1174
+type(
+  unit
+)
+"pagerank.ml" 44 1146 1168 "pagerank.ml" 44 1146 1174
+call(
+  tail
+)
+type(
+  t
+)
+"pagerank.ml" 44 1146 1163 "pagerank.ml" 44 1146 1174
+type(
+  unit -> t
+)
+"pagerank.ml" 44 1146 1161 "pagerank.ml" 44 1146 1174
+type(
+  'a -> unit -> t
+)
+"pagerank.ml" 45 1175 1183 "pagerank.ml" 45 1175 1189
+type(
+  'b -> unit -> t
+)
+ident(
+  def gen_gt "pagerank.ml" 46 1204 1208 "pagerank.ml" 48 1269 1274
+)
+"pagerank.ml" 45 1175 1190 "pagerank.ml" 45 1175 1191
+type(
+  'b
+)
+"pagerank.ml" 45 1175 1192 "pagerank.ml" 45 1175 1194
+type(
+  unit
+)
+"pagerank.ml" 45 1175 1197 "pagerank.ml" 45 1175 1200
+type(
+  unit -> t
+)
+ident(
+  int_ref gen "pagerank.ml" 43 1102 1110 "pagerank.ml" 43 1102 1113
+)
+"pagerank.ml" 45 1175 1201 "pagerank.ml" 45 1175 1203
+type(
+  unit
+)
+"pagerank.ml" 45 1175 1197 "pagerank.ml" 45 1175 1203
+call(
+  tail
+)
+type(
+  t
+)
+"pagerank.ml" 45 1175 1192 "pagerank.ml" 45 1175 1203
+type(
+  unit -> t
+)
+"pagerank.ml" 45 1175 1190 "pagerank.ml" 45 1175 1203
+type(
+  'b -> unit -> t
+)
+"pagerank.ml" 46 1204 1212 "pagerank.ml" 46 1204 1222
+type(
+  unit -> t
+)
+ident(
+  def gen_random "pagerank.ml" 47 1235 1239 "pagerank.ml" 48 1269 1274
+)
+"pagerank.ml" 46 1204 1223 "pagerank.ml" 46 1204 1225
+type(
+  unit
+)
+"pagerank.ml" 46 1204 1228 "pagerank.ml" 46 1204 1231
+type(
+  unit -> t
+)
+ident(
+  int_ref gen "pagerank.ml" 43 1102 1110 "pagerank.ml" 43 1102 1113
+)
+"pagerank.ml" 46 1204 1232 "pagerank.ml" 46 1204 1234
+type(
+  unit
+)
+"pagerank.ml" 46 1204 1228 "pagerank.ml" 46 1204 1234
+call(
+  tail
+)
+type(
+  t
+)
+"pagerank.ml" 46 1204 1223 "pagerank.ml" 46 1204 1234
+type(
+  unit -> t
+)
+"pagerank.ml" 47 1235 1243 "pagerank.ml" 47 1235 1254
+type(
+  'c -> 'd -> unit -> 'e option
+)
+ident(
+  def gen_between "pagerank.ml" 47 1235 1268 "pagerank.ml" 48 1269 1274
+)
+"pagerank.ml" 47 1235 1255 "pagerank.ml" 47 1235 1256
+type(
+  'c
+)
+"pagerank.ml" 47 1235 1257 "pagerank.ml" 47 1235 1258
+type(
+  'd
+)
+"pagerank.ml" 47 1235 1259 "pagerank.ml" 47 1235 1261
+type(
+  unit
+)
+"pagerank.ml" 47 1235 1264 "pagerank.ml" 47 1235 1268
+type(
+  'e option
+)
+"pagerank.ml" 47 1235 1259 "pagerank.ml" 47 1235 1268
+type(
+  unit -> 'e option
+)
+"pagerank.ml" 47 1235 1257 "pagerank.ml" 47 1235 1268
+type(
+  'd -> unit -> 'e option
+)
+"pagerank.ml" 47 1235 1255 "pagerank.ml" 47 1235 1268
+type(
+  'c -> 'd -> unit -> 'e option
+)
+"pagerank.ml" 38 978 995 "pagerank.ml" 48 1269 1275
+call(
+  stack
+)
+"pagerank.ml" 53 1334 1342 "pagerank.ml" 53 1334 1349
+type(
+  node -> node -> Ordering.t
+)
+ident(
+  def compare "pagerank.ml" 54 1365 1369 "pagerank.ml" 56 1449 1454
+)
+"pagerank.ml" 53 1334 1352 "pagerank.ml" 53 1334 1364
+type(
+  node -> node -> Ordering.t
+)
+ident(
+  ext_ref Util.CrawlerServices.link_compare
+)
+"pagerank.ml" 54 1365 1373 "pagerank.ml" 54 1365 1387
+type(
+  node -> string
+)
+ident(
+  def string_of_node "pagerank.ml" 55 1405 1409 "pagerank.ml" 56 1449 1454
+)
+"pagerank.ml" 54 1365 1390 "pagerank.ml" 54 1365 1404
+type(
+  node -> string
+)
+ident(
+  ext_ref Util.CrawlerServices.string_of_link
+)
+"pagerank.ml" 55 1405 1413 "pagerank.ml" 55 1405 1416
+type(
+  unit -> node
+)
+ident(
+  def gen "pagerank.ml" 55 1405 1448 "pagerank.ml" 56 1449 1454
+)
+"pagerank.ml" 55 1405 1417 "pagerank.ml" 55 1405 1419
+type(
+  unit
+)
+"pagerank.ml" 55 1405 1428 "pagerank.ml" 55 1405 1430
+type(
+  string
+)
+"pagerank.ml" 55 1405 1437 "pagerank.ml" 55 1405 1438
+type(
+  int
+)
+"pagerank.ml" 55 1405 1445 "pagerank.ml" 55 1405 1447
+type(
+  string
+)
+"pagerank.ml" 55 1405 1422 "pagerank.ml" 55 1405 1448
+type(
+  node
+)
+"pagerank.ml" 55 1405 1417 "pagerank.ml" 55 1405 1448
+type(
+  unit -> node
+)
+"pagerank.ml" 50 1277 1296 "pagerank.ml" 56 1449 1455
+call(
+  stack
+)
+"pagerank.ml" 61 1518 1526 "pagerank.ml" 61 1518 1540
+type(
+  node -> string
+)
+ident(
+  def string_of_node "pagerank.ml" 62 1558 1562 "pagerank.ml" 64 1633 1638
+)
+"pagerank.ml" 61 1518 1543 "pagerank.ml" 61 1518 1557
+type(
+  node -> string
+)
+ident(
+  ext_ref Util.CrawlerServices.string_of_link
+)
+"pagerank.ml" 62 1558 1566 "pagerank.ml" 62 1558 1573
+type(
+  node -> node -> Ordering.t
+)
+ident(
+  def compare "pagerank.ml" 63 1589 1593 "pagerank.ml" 64 1633 1638
+)
+"pagerank.ml" 62 1558 1576 "pagerank.ml" 62 1558 1588
+type(
+  node -> node -> Ordering.t
+)
+ident(
+  ext_ref Util.CrawlerServices.link_compare
+)
+"pagerank.ml" 63 1589 1597 "pagerank.ml" 63 1589 1600
+type(
+  unit -> node
+)
+ident(
+  def gen "pagerank.ml" 63 1589 1632 "pagerank.ml" 64 1633 1638
+)
+"pagerank.ml" 63 1589 1601 "pagerank.ml" 63 1589 1603
+type(
+  unit
+)
+"pagerank.ml" 63 1589 1612 "pagerank.ml" 63 1589 1614
+type(
+  string
+)
+"pagerank.ml" 63 1589 1621 "pagerank.ml" 63 1589 1622
+type(
+  int
+)
+"pagerank.ml" 63 1589 1629 "pagerank.ml" 63 1589 1631
+type(
+  string
+)
+"pagerank.ml" 63 1589 1606 "pagerank.ml" 63 1589 1632
+type(
+  node
+)
+"pagerank.ml" 63 1589 1601 "pagerank.ml" 63 1589 1632
+type(
+  unit -> node
+)
+"pagerank.ml" 58 1457 1476 "pagerank.ml" 64 1633 1639
+call(
+  stack
+)
+"pagerank.ml" 67 1695 1699 "pagerank.ml" 67 1695 1713
+type(
+  PageSet.set -> PageGraph.graph
+)
+ident(
+  def graph_of_pages "pagerank.ml" 85 2266 2266 "pagerank.ml" 1 0 -1
+)
+"pagerank.ml" 67 1695 1715 "pagerank.ml" 67 1695 1720
+type(
+  PageSet.set
+)
+ident(
+  def pages "pagerank.ml" 67 1695 1736 "pagerank.ml" 81 2152 2200
+)
+"pagerank.ml" 69 1816 1822 "pagerank.ml" 69 1816 1835
+type(
+  LinkSet.set
+)
+ident(
+  def crawled_links "pagerank.ml" 73 1928 1930 "pagerank.ml" 81 2152 2200
+)
+"pagerank.ml" 70 1838 1842 "pagerank.ml" 70 1838 1854
+type(
+  (page -> LinkSet.set -> LinkSet.set) ->
+  LinkSet.set -> PageSet.set -> LinkSet.set
+)
+ident(
+  ext_ref PageSet.fold
+)
+"pagerank.ml" 70 1838 1860 "pagerank.ml" 70 1838 1864
+type(
+  page
+)
+ident(
+  def page "pagerank.ml" 70 1838 1865 "pagerank.ml" 70 1838 1895
+)
+"pagerank.ml" 70 1838 1865 "pagerank.ml" 70 1838 1866
+type(
+  LinkSet.set
+)
+ident(
+  def s "pagerank.ml" 70 1838 1870 "pagerank.ml" 70 1838 1895
+)
+"pagerank.ml" 70 1838 1870 "pagerank.ml" 70 1838 1884
+type(
+  link -> LinkSet.set -> LinkSet.set
+)
+ident(
+  ext_ref LinkSet.insert
+)
+"pagerank.ml" 70 1838 1885 "pagerank.ml" 70 1838 1889
+type(
+  page
+)
+ident(
+  int_ref page "pagerank.ml" 70 1838 1860 "pagerank.ml" 70 1838 1864
+)
+"pagerank.ml" 70 1838 1885 "pagerank.ml" 70 1838 1893
+type(
+  link
+)
+"pagerank.ml" 70 1838 1894 "pagerank.ml" 70 1838 1895
+type(
+  LinkSet.set
+)
+ident(
+  int_ref s "pagerank.ml" 70 1838 1865 "pagerank.ml" 70 1838 1866
+)
+"pagerank.ml" 70 1838 1870 "pagerank.ml" 70 1838 1895
+call(
+  tail
+)
+type(
+  LinkSet.set
+)
+"pagerank.ml" 70 1838 1865 "pagerank.ml" 70 1838 1895
+type(
+  LinkSet.set -> LinkSet.set
+)
+"pagerank.ml" 70 1838 1860 "pagerank.ml" 70 1838 1895
+type(
+  page -> LinkSet.set -> LinkSet.set
+)
+"pagerank.ml" 71 1897 1903 "pagerank.ml" 71 1897 1916
+type(
+  LinkSet.set
+)
+ident(
+  ext_ref LinkSet.empty
+)
+"pagerank.ml" 71 1897 1917 "pagerank.ml" 71 1897 1922
+type(
+  PageSet.set
+)
+ident(
+  int_ref pages "pagerank.ml" 67 1695 1715 "pagerank.ml" 67 1695 1720
+)
+"pagerank.ml" 70 1838 1842 "pagerank.ml" 71 1897 1922
+call(
+  stack
+)
+type(
+  LinkSet.set
+)
+"pagerank.ml" 73 1928 1934 "pagerank.ml" 73 1928 1943
+type(
+  page -> PageGraph.graph -> PageGraph.graph
+)
+ident(
+  def add_links "pagerank.ml" 81 2152 2156 "pagerank.ml" 81 2152 2200
+)
+"pagerank.ml" 73 1928 1944 "pagerank.ml" 73 1928 1948
+type(
+  page
+)
+ident(
+  def page "pagerank.ml" 73 1928 1949 "pagerank.ml" 79 2091 2146
+)
+"pagerank.ml" 73 1928 1949 "pagerank.ml" 73 1928 1954
+type(
+  PageGraph.graph
+)
+ident(
+  def graph "pagerank.ml" 74 1957 1961 "pagerank.ml" 79 2091 2146
+)
+"pagerank.ml" 74 1957 1965 "pagerank.ml" 74 1957 1973
+type(
+  PageGraph.graph -> link -> PageGraph.graph
+)
+ident(
+  def add_link "pagerank.ml" 79 2091 2097 "pagerank.ml" 79 2091 2146
+)
+"pagerank.ml" 74 1957 1974 "pagerank.ml" 74 1957 1975
+type(
+  PageGraph.graph
+)
+ident(
+  def g "pagerank.ml" 74 1957 1976 "pagerank.ml" 77 2071 2083
+)
+"pagerank.ml" 74 1957 1976 "pagerank.ml" 74 1957 1979
+type(
+  link
+)
+ident(
+  def dst "pagerank.ml" 75 1982 1988 "pagerank.ml" 77 2071 2083
+)
+"pagerank.ml" 75 1982 1991 "pagerank.ml" 75 1982 2005
+type(
+  LinkSet.set -> link -> bool
+)
+ident(
+  ext_ref LinkSet.member
+)
+"pagerank.ml" 75 1982 2006 "pagerank.ml" 75 1982 2019
+type(
+  LinkSet.set
+)
+ident(
+  int_ref crawled_links "pagerank.ml" 69 1816 1822 "pagerank.ml" 69 1816 1835
+)
+"pagerank.ml" 75 1982 2020 "pagerank.ml" 75 1982 2023
+type(
+  link
+)
+ident(
+  int_ref dst "pagerank.ml" 74 1957 1976 "pagerank.ml" 74 1957 1979
+)
+"pagerank.ml" 75 1982 1991 "pagerank.ml" 75 1982 2023
+call(
+  stack
+)
+type(
+  bool
+)
+"pagerank.ml" 76 2029 2037 "pagerank.ml" 76 2029 2055
+type(
+  PageGraph.graph -> link -> link -> PageGraph.graph
+)
+ident(
+  ext_ref PageGraph.add_edge
+)
+"pagerank.ml" 76 2029 2056 "pagerank.ml" 76 2029 2057
+type(
+  PageGraph.graph
+)
+ident(
+  int_ref g "pagerank.ml" 74 1957 1974 "pagerank.ml" 74 1957 1975
+)
+"pagerank.ml" 76 2029 2058 "pagerank.ml" 76 2029 2062
+type(
+  page
+)
+ident(
+  int_ref page "pagerank.ml" 73 1928 1944 "pagerank.ml" 73 1928 1948
+)
+"pagerank.ml" 76 2029 2058 "pagerank.ml" 76 2029 2066
+type(
+  link
+)
+"pagerank.ml" 76 2029 2067 "pagerank.ml" 76 2029 2070
+type(
+  link
+)
+ident(
+  int_ref dst "pagerank.ml" 74 1957 1976 "pagerank.ml" 74 1957 1979
+)
+"pagerank.ml" 76 2029 2037 "pagerank.ml" 76 2029 2070
+call(
+  tail
+)
+type(
+  PageGraph.graph
+)
+"pagerank.ml" 77 2071 2082 "pagerank.ml" 77 2071 2083
+type(
+  PageGraph.graph
+)
+ident(
+  int_ref g "pagerank.ml" 74 1957 1974 "pagerank.ml" 74 1957 1975
+)
+"pagerank.ml" 75 1982 1988 "pagerank.ml" 77 2071 2083
+type(
+  PageGraph.graph
+)
+"pagerank.ml" 74 1957 1976 "pagerank.ml" 77 2071 2083
+type(
+  link -> PageGraph.graph
+)
+"pagerank.ml" 74 1957 1974 "pagerank.ml" 77 2071 2083
+type(
+  PageGraph.graph -> link -> PageGraph.graph
+)
+"pagerank.ml" 79 2091 2097 "pagerank.ml" 79 2091 2111
+type(
+  link list ->
+  init:PageGraph.graph ->
+  f:(PageGraph.graph -> link -> PageGraph.graph) -> PageGraph.graph
+)
+ident(
+  ext_ref Core.Std.List.fold_left
+)
+"pagerank.ml" 79 2091 2112 "pagerank.ml" 79 2091 2116
+type(
+  page
+)
+ident(
+  int_ref page "pagerank.ml" 73 1928 1944 "pagerank.ml" 73 1928 1948
+)
+"pagerank.ml" 79 2091 2112 "pagerank.ml" 79 2091 2122
+type(
+  link list
+)
+"pagerank.ml" 79 2091 2126 "pagerank.ml" 79 2091 2134
+type(
+  PageGraph.graph -> link -> PageGraph.graph
+)
+ident(
+  int_ref add_link "pagerank.ml" 74 1957 1965 "pagerank.ml" 74 1957 1973
+)
+"pagerank.ml" 79 2091 2141 "pagerank.ml" 79 2091 2146
+type(
+  PageGraph.graph
+)
+ident(
+  int_ref graph "pagerank.ml" 73 1928 1949 "pagerank.ml" 73 1928 1954
+)
+"pagerank.ml" 79 2091 2097 "pagerank.ml" 79 2091 2146
+call(
+  tail
+)
+type(
+  PageGraph.graph
+)
+"pagerank.ml" 74 1957 1961 "pagerank.ml" 79 2091 2146
+type(
+  PageGraph.graph
+)
+"pagerank.ml" 73 1928 1949 "pagerank.ml" 79 2091 2146
+type(
+  PageGraph.graph -> PageGraph.graph
+)
+"pagerank.ml" 73 1928 1944 "pagerank.ml" 79 2091 2146
+type(
+  page -> PageGraph.graph -> PageGraph.graph
+)
+"pagerank.ml" 81 2152 2156 "pagerank.ml" 81 2152 2168
+type(
+  (page -> PageGraph.graph -> PageGraph.graph) ->
+  PageGraph.graph -> PageSet.set -> PageGraph.graph
+)
+ident(
+  ext_ref PageSet.fold
+)
+"pagerank.ml" 81 2152 2169 "pagerank.ml" 81 2152 2178
+type(
+  page -> PageGraph.graph -> PageGraph.graph
+)
+ident(
+  int_ref add_links "pagerank.ml" 73 1928 1934 "pagerank.ml" 73 1928 1943
+)
+"pagerank.ml" 81 2152 2179 "pagerank.ml" 81 2152 2194
+type(
+  PageGraph.graph
+)
+ident(
+  ext_ref PageGraph.empty
+)
+"pagerank.ml" 81 2152 2195 "pagerank.ml" 81 2152 2200
+type(
+  PageSet.set
+)
+ident(
+  int_ref pages "pagerank.ml" 67 1695 1715 "pagerank.ml" 67 1695 1720
+)
+"pagerank.ml" 81 2152 2156 "pagerank.ml" 81 2152 2200
+call(
+  tail
+)
+type(
+  PageGraph.graph
+)
+"pagerank.ml" 73 1928 1930 "pagerank.ml" 81 2152 2200
+type(
+  PageGraph.graph
+)
+"pagerank.ml" 69 1816 1818 "pagerank.ml" 81 2152 2200
+type(
+  PageGraph.graph
+)
+type(
+  PageGraph.graph
+)
+"pagerank.ml" 67 1695 1714 "pagerank.ml" 81 2152 2200
+type(
+  PageSet.set -> PageGraph.graph
+)
+"pagerank.ml" 85 2266 2270 "pagerank.ml" 85 2266 2280
+type(
+  PageScore.node_score_map -> RankDict.dict
+)
+ident(
+  def dict_of_ns "pagerank.ml" 90 2487 2487 "pagerank.ml" 1 0 -1
+)
+"pagerank.ml" 85 2266 2282 "pagerank.ml" 85 2266 2284
+type(
+  PageScore.node_score_map
+)
+ident(
+  def ns "pagerank.ml" 85 2266 2313 "pagerank.ml" 87 2399 2420
+)
+"pagerank.ml" 86 2331 2333 "pagerank.ml" 86 2331 2347
+type(
+  (link -> float -> RankDict.dict -> RankDict.dict) ->
+  RankDict.dict -> PageScore.node_score_map -> RankDict.dict
+)
+ident(
+  ext_ref PageScore.fold
+)
+"pagerank.ml" 86 2331 2353 "pagerank.ml" 86 2331 2357
+type(
+  link
+)
+ident(
+  def node "pagerank.ml" 86 2331 2358 "pagerank.ml" 86 2331 2397
+)
+"pagerank.ml" 86 2331 2358 "pagerank.ml" 86 2331 2363
+type(
+  float
+)
+ident(
+  def score "pagerank.ml" 86 2331 2364 "pagerank.ml" 86 2331 2397
+)
+"pagerank.ml" 86 2331 2364 "pagerank.ml" 86 2331 2365
+type(
+  RankDict.dict
+)
+ident(
+  def r "pagerank.ml" 86 2331 2369 "pagerank.ml" 86 2331 2397
+)
+"pagerank.ml" 86 2331 2369 "pagerank.ml" 86 2331 2384
+type(
+  RankDict.dict -> link -> float -> RankDict.dict
+)
+ident(
+  ext_ref RankDict.insert
+)
+"pagerank.ml" 86 2331 2385 "pagerank.ml" 86 2331 2386
+type(
+  RankDict.dict
+)
+ident(
+  int_ref r "pagerank.ml" 86 2331 2364 "pagerank.ml" 86 2331 2365
+)
+"pagerank.ml" 86 2331 2387 "pagerank.ml" 86 2331 2391
+type(
+  link
+)
+ident(
+  int_ref node "pagerank.ml" 86 2331 2353 "pagerank.ml" 86 2331 2357
+)
+"pagerank.ml" 86 2331 2392 "pagerank.ml" 86 2331 2397
+type(
+  float
+)
+ident(
+  int_ref score "pagerank.ml" 86 2331 2358 "pagerank.ml" 86 2331 2363
+)
+"pagerank.ml" 86 2331 2369 "pagerank.ml" 86 2331 2397
+call(
+  tail
+)
+type(
+  RankDict.dict
+)
+"pagerank.ml" 86 2331 2364 "pagerank.ml" 86 2331 2397
+type(
+  RankDict.dict -> RankDict.dict
+)
+"pagerank.ml" 86 2331 2358 "pagerank.ml" 86 2331 2397
+type(
+  float -> RankDict.dict -> RankDict.dict
+)
+"pagerank.ml" 86 2331 2353 "pagerank.ml" 86 2331 2397
+type(
+  link -> float -> RankDict.dict -> RankDict.dict
+)
+"pagerank.ml" 87 2399 2403 "pagerank.ml" 87 2399 2417
+type(
+  RankDict.dict
+)
+ident(
+  ext_ref RankDict.empty
+)
+"pagerank.ml" 87 2399 2418 "pagerank.ml" 87 2399 2420
+type(
+  PageScore.node_score_map
+)
+ident(
+  int_ref ns "pagerank.ml" 85 2266 2282 "pagerank.ml" 85 2266 2284
+)
+"pagerank.ml" 86 2331 2333 "pagerank.ml" 87 2399 2420
+call(
+  tail
+)
+type(
+  RankDict.dict
+)
+type(
+  RankDict.dict
+)
+"pagerank.ml" 85 2266 2281 "pagerank.ml" 87 2399 2420
+type(
+  PageScore.node_score_map -> RankDict.dict
+)
+"pagerank.ml" 104 2844 2850 "pagerank.ml" 104 2844 2854
+type(
+  G.graph -> NS.node_score_map
+)
+ident(
+  def rank "pagerank.ml" 113 3145 3226 "pagerank.ml" 114 3227 3230
+)
+"pagerank.ml" 104 2844 2856 "pagerank.ml" 104 2844 2857
+type(
+  G.graph
+)
+ident(
+  def g "pagerank.ml" 105 2871 2875 "pagerank.ml" 113 3145 3226
+)
+"pagerank.ml" 105 2871 2879 "pagerank.ml" 105 2871 2893
+type(
+  NS.node_score_map -> NS.node -> NS.node_score_map
+)
+ident(
+  def add_node_edges "pagerank.ml" 112 3114 3118 "pagerank.ml" 113 3145 3226
+)
+"pagerank.ml" 105 2871 2894 "pagerank.ml" 105 2871 2896
+type(
+  NS.node_score_map
+)
+ident(
+  def ns "pagerank.ml" 105 2871 2897 "pagerank.ml" 110 3010 3106
+)
+"pagerank.ml" 105 2871 2897 "pagerank.ml" 105 2871 2901
+type(
+  NS.node
+)
+ident(
+  def node "pagerank.ml" 106 2904 2910 "pagerank.ml" 110 3010 3106
+)
+"pagerank.ml" 106 2904 2914 "pagerank.ml" 106 2904 2923
+type(
+  NS.node list
+)
+ident(
+  def neighbors "pagerank.ml" 110 3010 3018 "pagerank.ml" 110 3010 3106
+)
+"pagerank.ml" 106 2904 2932 "pagerank.ml" 106 2904 2943
+type(
+  G.graph -> NS.node -> NS.node list option
+)
+ident(
+  ext_ref G.neighbors
+)
+"pagerank.ml" 106 2904 2944 "pagerank.ml" 106 2904 2945
+type(
+  G.graph
+)
+ident(
+  int_ref g "pagerank.ml" 104 2844 2856 "pagerank.ml" 104 2844 2857
+)
+"pagerank.ml" 106 2904 2946 "pagerank.ml" 106 2904 2950
+type(
+  NS.node
+)
+ident(
+  int_ref node "pagerank.ml" 105 2871 2897 "pagerank.ml" 105 2871 2901
+)
+"pagerank.ml" 106 2904 2932 "pagerank.ml" 106 2904 2950
+call(
+  stack
+)
+type(
+  NS.node list option
+)
+"pagerank.ml" 107 2956 2966 "pagerank.ml" 107 2956 2970
+type(
+  NS.node list option
+)
+"pagerank.ml" 107 2956 2974 "pagerank.ml" 107 2956 2976
+type(
+  NS.node list
+)
+"pagerank.ml" 108 2977 2992 "pagerank.ml" 108 2977 2994
+type(
+  NS.node list
+)
+ident(
+  def xs "pagerank.ml" 108 2977 2998 "pagerank.ml" 108 2977 3000
+)
+"pagerank.ml" 108 2977 2987 "pagerank.ml" 108 2977 2994
+type(
+  NS.node list option
+)
+"pagerank.ml" 108 2977 2998 "pagerank.ml" 108 2977 3000
+type(
+  NS.node list
+)
+ident(
+  int_ref xs "pagerank.ml" 108 2977 2992 "pagerank.ml" 108 2977 2994
+)
+"pagerank.ml" 106 2904 2926 "pagerank.ml" 108 2977 3000
+type(
+  NS.node list
+)
+"pagerank.ml" 110 3010 3018 "pagerank.ml" 110 3010 3032
+type(
+  NS.node list ->
+  init:NS.node_score_map ->
+  f:(NS.node_score_map -> NS.node -> NS.node_score_map) -> NS.node_score_map
+)
+ident(
+  ext_ref Core.Std.List.fold_left
+)
+"pagerank.ml" 110 3010 3033 "pagerank.ml" 110 3010 3042
+type(
+  NS.node list
+)
+ident(
+  int_ref neighbors "pagerank.ml" 106 2904 2914 "pagerank.ml" 106 2904 2923
+)
+"pagerank.ml" 110 3010 3051 "pagerank.ml" 110 3010 3054
+type(
+  NS.node_score_map
+)
+ident(
+  def ns' "pagerank.ml" 110 3010 3055 "pagerank.ml" 110 3010 3096
+)
+"pagerank.ml" 110 3010 3055 "pagerank.ml" 110 3010 3063
+type(
+  NS.node
+)
+ident(
+  def neighbor "pagerank.ml" 110 3010 3067 "pagerank.ml" 110 3010 3096
+)
+"pagerank.ml" 110 3010 3067 "pagerank.ml" 110 3010 3079
+type(
+  NS.node_score_map -> NS.node -> float -> NS.node_score_map
+)
+ident(
+  ext_ref NS.add_score
+)
+"pagerank.ml" 110 3010 3080 "pagerank.ml" 110 3010 3083
+type(
+  NS.node_score_map
+)
+ident(
+  int_ref ns' "pagerank.ml" 110 3010 3051 "pagerank.ml" 110 3010 3054
+)
+"pagerank.ml" 110 3010 3084 "pagerank.ml" 110 3010 3092
+type(
+  NS.node
+)
+ident(
+  int_ref neighbor "pagerank.ml" 110 3010 3055 "pagerank.ml" 110 3010 3063
+)
+"pagerank.ml" 110 3010 3093 "pagerank.ml" 110 3010 3096
+type(
+  float
+)
+"pagerank.ml" 110 3010 3067 "pagerank.ml" 110 3010 3096
+call(
+  tail
+)
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 110 3010 3055 "pagerank.ml" 110 3010 3096
+type(
+  NS.node -> NS.node_score_map
+)
+"pagerank.ml" 110 3010 3051 "pagerank.ml" 110 3010 3096
+type(
+  NS.node_score_map -> NS.node -> NS.node_score_map
+)
+"pagerank.ml" 110 3010 3104 "pagerank.ml" 110 3010 3106
+type(
+  NS.node_score_map
+)
+ident(
+  int_ref ns "pagerank.ml" 105 2871 2894 "pagerank.ml" 105 2871 2896
+)
+"pagerank.ml" 110 3010 3018 "pagerank.ml" 110 3010 3106
+call(
+  tail
+)
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 106 2904 2910 "pagerank.ml" 110 3010 3106
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 105 2871 2897 "pagerank.ml" 110 3010 3106
+type(
+  NS.node -> NS.node_score_map
+)
+"pagerank.ml" 105 2871 2894 "pagerank.ml" 110 3010 3106
+type(
+  NS.node_score_map -> NS.node -> NS.node_score_map
+)
+"pagerank.ml" 112 3114 3122 "pagerank.ml" 112 3114 3127
+type(
+  NS.node list
+)
+ident(
+  def nodes "pagerank.ml" 113 3145 3151 "pagerank.ml" 113 3145 3226
+)
+"pagerank.ml" 112 3114 3131 "pagerank.ml" 112 3114 3138
+type(
+  G.graph -> NS.node list
+)
+ident(
+  ext_ref G.nodes
+)
+"pagerank.ml" 112 3114 3139 "pagerank.ml" 112 3114 3140
+type(
+  G.graph
+)
+ident(
+  int_ref g "pagerank.ml" 104 2844 2856 "pagerank.ml" 104 2844 2857
+)
+"pagerank.ml" 112 3114 3131 "pagerank.ml" 112 3114 3140
+call(
+  stack
+)
+type(
+  NS.node list
+)
+"pagerank.ml" 113 3145 3151 "pagerank.ml" 113 3145 3165
+type(
+  NS.node list ->
+  init:NS.node_score_map ->
+  f:(NS.node_score_map -> NS.node -> NS.node_score_map) -> NS.node_score_map
+)
+ident(
+  ext_ref Core.Std.List.fold_left
+)
+"pagerank.ml" 113 3145 3166 "pagerank.ml" 113 3145 3171
+type(
+  NS.node list
+)
+ident(
+  int_ref nodes "pagerank.ml" 112 3114 3122 "pagerank.ml" 112 3114 3127
+)
+"pagerank.ml" 113 3145 3175 "pagerank.ml" 113 3145 3189
+type(
+  NS.node_score_map -> NS.node -> NS.node_score_map
+)
+ident(
+  int_ref add_node_edges "pagerank.ml" 105 2871 2879 "pagerank.ml" 105 2871 2893
+)
+"pagerank.ml" 113 3145 3197 "pagerank.ml" 113 3145 3219
+type(
+  NS.node list -> NS.node_score_map
+)
+ident(
+  ext_ref NS.zero_node_score_map
+)
+"pagerank.ml" 113 3145 3220 "pagerank.ml" 113 3145 3225
+type(
+  NS.node list
+)
+ident(
+  int_ref nodes "pagerank.ml" 112 3114 3122 "pagerank.ml" 112 3114 3127
+)
+"pagerank.ml" 113 3145 3197 "pagerank.ml" 113 3145 3225
+call(
+  stack
+)
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 113 3145 3151 "pagerank.ml" 113 3145 3226
+call(
+  tail
+)
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 112 3114 3118 "pagerank.ml" 113 3145 3226
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 105 2871 2875 "pagerank.ml" 113 3145 3226
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 104 2844 2855 "pagerank.ml" 113 3145 3226
+type(
+  G.graph -> NS.node_score_map
+)
+"pagerank.ml" 154 4420 4426 "pagerank.ml" 154 4420 4435
+type(
+  int
+)
+ident(
+  def num_steps "pagerank.ml" 155 4450 4452 "pagerank.ml" 201 6094 6097
+)
+"pagerank.ml" 154 4420 4438 "pagerank.ml" 154 4420 4449
+type(
+  int
+)
+ident(
+  int_ref P.num_steps "pagerank.ml" 131 3767 3769 "pagerank.ml" 131 3767 3788
+)
+"pagerank.ml" 155 4450 4456 "pagerank.ml" 155 4450 4461
+type(
+  float option
+)
+ident(
+  def alpha "pagerank.ml" 158 4530 4532 "pagerank.ml" 201 6094 6097
+)
+"pagerank.ml" 155 4450 4464 "pagerank.ml" 155 4450 4481
+type(
+  float option
+)
+ident(
+  int_ref P.do_random_jumps "pagerank.ml" 129 3694 3696 "pagerank.ml" 129 3694 3730
+)
+"pagerank.ml" 158 4530 4536 "pagerank.ml" 158 4530 4552
+type(
+  'a list -> 'a option
+)
+ident(
+  def random_from_list "pagerank.ml" 164 4742 4744 "pagerank.ml" 201 6094 6097
+)
+"pagerank.ml" 158 4530 4553 "pagerank.ml" 158 4530 4556
+type(
+  'a list
+)
+ident(
+  def lst "pagerank.ml" 159 4559 4563 "pagerank.ml" 161 4654 4681
+)
+"pagerank.ml" 159 4559 4567 "pagerank.ml" 159 4559 4570
+type(
+  int
+)
+ident(
+  def len "pagerank.ml" 160 4592 4596 "pagerank.ml" 161 4654 4681
+)
+"pagerank.ml" 159 4559 4573 "pagerank.ml" 159 4559 4584
+type(
+  'a list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"pagerank.ml" 159 4559 4585 "pagerank.ml" 159 4559 4588
+type(
+  'a list
+)
+ident(
+  int_ref lst "pagerank.ml" 158 4530 4553 "pagerank.ml" 158 4530 4556
+)
+"pagerank.ml" 159 4559 4573 "pagerank.ml" 159 4559 4588
+call(
+  stack
+)
+type(
+  int
+)
+"pagerank.ml" 160 4592 4600 "pagerank.ml" 160 4592 4610
+type(
+  int
+)
+ident(
+  def random_int "pagerank.ml" 161 4654 4658 "pagerank.ml" 161 4654 4681
+)
+"pagerank.ml" 160 4592 4616 "pagerank.ml" 160 4592 4619
+type(
+  int
+)
+ident(
+  int_ref len "pagerank.ml" 159 4559 4567 "pagerank.ml" 159 4559 4570
+)
+"pagerank.ml" 160 4592 4620 "pagerank.ml" 160 4592 4621
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"pagerank.ml" 160 4592 4622 "pagerank.ml" 160 4592 4623
+type(
+  int
+)
+"pagerank.ml" 160 4592 4616 "pagerank.ml" 160 4592 4623
+type(
+  bool
+)
+"pagerank.ml" 160 4592 4629 "pagerank.ml" 160 4592 4630
+type(
+  int
+)
+"pagerank.ml" 160 4592 4636 "pagerank.ml" 160 4592 4646
+type(
+  int -> int
+)
+ident(
+  ext_ref Core.Std.Random.int
+)
+"pagerank.ml" 160 4592 4647 "pagerank.ml" 160 4592 4650
+type(
+  int
+)
+ident(
+  int_ref len "pagerank.ml" 159 4559 4567 "pagerank.ml" 159 4559 4570
+)
+"pagerank.ml" 160 4592 4636 "pagerank.ml" 160 4592 4650
+call(
+  stack
+)
+type(
+  int
+)
+"pagerank.ml" 160 4592 4613 "pagerank.ml" 160 4592 4650
+type(
+  int
+)
+"pagerank.ml" 161 4654 4658 "pagerank.ml" 161 4654 4666
+type(
+  'a list -> int -> 'a option
+)
+ident(
+  ext_ref Core.Std.List.nth
+)
+"pagerank.ml" 161 4654 4667 "pagerank.ml" 161 4654 4670
+type(
+  'a list
+)
+ident(
+  int_ref lst "pagerank.ml" 158 4530 4553 "pagerank.ml" 158 4530 4556
+)
+"pagerank.ml" 161 4654 4671 "pagerank.ml" 161 4654 4681
+type(
+  int
+)
+ident(
+  int_ref random_int "pagerank.ml" 160 4592 4600 "pagerank.ml" 160 4592 4610
+)
+"pagerank.ml" 161 4654 4658 "pagerank.ml" 161 4654 4681
+call(
+  tail
+)
+type(
+  'a option
+)
+"pagerank.ml" 160 4592 4596 "pagerank.ml" 161 4654 4681
+type(
+  'a option
+)
+"pagerank.ml" 159 4559 4563 "pagerank.ml" 161 4654 4681
+type(
+  'a option
+)
+"pagerank.ml" 158 4530 4553 "pagerank.ml" 161 4654 4681
+type(
+  'a list -> 'a option
+)
+"pagerank.ml" 164 4742 4748 "pagerank.ml" 164 4742 4763
+type(
+  'b list option -> 'b option option
+)
+ident(
+  def random_neighbor "pagerank.ml" 170 4902 4904 "pagerank.ml" 201 6094 6097
+)
+"pagerank.ml" 164 4742 4764 "pagerank.ml" 164 4742 4780
+type(
+  'b list option
+)
+ident(
+  def list_of_neighbor "pagerank.ml" 165 4783 4787 "pagerank.ml" 167 4834 4877
+)
+"pagerank.ml" 165 4783 4793 "pagerank.ml" 165 4783 4809
+type(
+  'b list option
+)
+ident(
+  int_ref list_of_neighbor "pagerank.ml" 164 4742 4764 "pagerank.ml" 164 4742 4780
+)
+"pagerank.ml" 166 4815 4821 "pagerank.ml" 166 4815 4825
+type(
+  'b list option
+)
+"pagerank.ml" 166 4815 4829 "pagerank.ml" 166 4815 4833
+type(
+  'b option option
+)
+"pagerank.ml" 167 4834 4845 "pagerank.ml" 167 4834 4847
+type(
+  'b list
+)
+ident(
+  def xs "pagerank.ml" 167 4834 4851 "pagerank.ml" 167 4834 4877
+)
+"pagerank.ml" 167 4834 4840 "pagerank.ml" 167 4834 4847
+type(
+  'b list option
+)
+"pagerank.ml" 167 4834 4857 "pagerank.ml" 167 4834 4873
+type(
+  'b list -> 'b option
+)
+ident(
+  int_ref random_from_list "pagerank.ml" 158 4530 4536 "pagerank.ml" 158 4530 4552
+)
+"pagerank.ml" 167 4834 4874 "pagerank.ml" 167 4834 4876
+type(
+  'b list
+)
+ident(
+  int_ref xs "pagerank.ml" 167 4834 4845 "pagerank.ml" 167 4834 4847
+)
+"pagerank.ml" 167 4834 4857 "pagerank.ml" 167 4834 4876
+call(
+  stack
+)
+type(
+  'b option
+)
+"pagerank.ml" 167 4834 4851 "pagerank.ml" 167 4834 4877
+type(
+  'b option option
+)
+"pagerank.ml" 165 4783 4787 "pagerank.ml" 167 4834 4877
+type(
+  'b option option
+)
+"pagerank.ml" 164 4742 4764 "pagerank.ml" 167 4834 4877
+type(
+  'b list option -> 'b option option
+)
+"pagerank.ml" 170 4902 4908 "pagerank.ml" 170 4902 4921
+type(
+  'c option -> 'c
+)
+ident(
+  def deoptionalize "pagerank.ml" 176 5023 5025 "pagerank.ml" 201 6094 6097
+)
+"pagerank.ml" 170 4902 4922 "pagerank.ml" 170 4902 4923
+type(
+  'c option
+)
+ident(
+  def n "pagerank.ml" 171 4926 4930 "pagerank.ml" 173 4981 4998
+)
+"pagerank.ml" 171 4926 4936 "pagerank.ml" 171 4926 4937
+type(
+  'c option
+)
+ident(
+  int_ref n "pagerank.ml" 170 4902 4922 "pagerank.ml" 170 4902 4923
+)
+"pagerank.ml" 172 4943 4949 "pagerank.ml" 172 4943 4953
+type(
+  'c option
+)
+"pagerank.ml" 172 4943 4957 "pagerank.ml" 172 4943 4965
+type(
+  string -> 'c
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"pagerank.ml" 172 4943 4966 "pagerank.ml" 172 4943 4980
+type(
+  string
+)
+"pagerank.ml" 172 4943 4957 "pagerank.ml" 172 4943 4980
+call(
+  tail
+)
+type(
+  'c
+)
+"pagerank.ml" 173 4981 4992 "pagerank.ml" 173 4981 4993
+type(
+  'c
+)
+ident(
+  def n "pagerank.ml" 173 4981 4997 "pagerank.ml" 173 4981 4998
+)
+"pagerank.ml" 173 4981 4987 "pagerank.ml" 173 4981 4993
+type(
+  'c option
+)
+"pagerank.ml" 173 4981 4997 "pagerank.ml" 173 4981 4998
+type(
+  'c
+)
+ident(
+  int_ref n "pagerank.ml" 173 4981 4992 "pagerank.ml" 173 4981 4993
+)
+"pagerank.ml" 171 4926 4930 "pagerank.ml" 173 4981 4998
+type(
+  'c
+)
+"pagerank.ml" 170 4902 4922 "pagerank.ml" 173 4981 4998
+type(
+  'c option -> 'c
+)
+"pagerank.ml" 176 5023 5033 "pagerank.ml" 176 5023 5037
+type(
+  G.graph -> int -> NS.node -> NS.node_score_map -> NS.node_score_map
+)
+ident(
+  def walk "pagerank.ml" 176 5023 5025 "pagerank.ml" 201 6094 6097
+)
+"pagerank.ml" 176 5023 5039 "pagerank.ml" 176 5023 5040
+type(
+  G.graph
+)
+ident(
+  def g "pagerank.ml" 176 5023 5051 "pagerank.ml" 192 5683 5747
+)
+"pagerank.ml" 176 5023 5052 "pagerank.ml" 176 5023 5061
+type(
+  int
+)
+ident(
+  def num_steps "pagerank.ml" 176 5023 5068 "pagerank.ml" 192 5683 5747
+)
+"pagerank.ml" 176 5023 5069 "pagerank.ml" 176 5023 5073
+type(
+  NS.node
+)
+ident(
+  def node "pagerank.ml" 177 5076 5084 "pagerank.ml" 192 5683 5747
+)
+"pagerank.ml" 177 5076 5085 "pagerank.ml" 177 5076 5091
+type(
+  NS.node_score_map
+)
+ident(
+  def ns_map "pagerank.ml" 177 5076 5112 "pagerank.ml" 192 5683 5747
+)
+"pagerank.ml" 178 5134 5141 "pagerank.ml" 178 5134 5151
+type(
+  G.graph -> bool
+)
+ident(
+  ext_ref G.is_empty
+)
+"pagerank.ml" 178 5134 5152 "pagerank.ml" 178 5134 5153
+type(
+  G.graph
+)
+ident(
+  int_ref g "pagerank.ml" 176 5023 5039 "pagerank.ml" 176 5023 5040
+)
+"pagerank.ml" 178 5134 5141 "pagerank.ml" 178 5134 5153
+call(
+  stack
+)
+type(
+  bool
+)
+"pagerank.ml" 178 5134 5159 "pagerank.ml" 178 5134 5165
+type(
+  NS.node_score_map
+)
+ident(
+  int_ref ns_map "pagerank.ml" 177 5076 5085 "pagerank.ml" 177 5076 5091
+)
+"pagerank.ml" 179 5171 5181 "pagerank.ml" 179 5171 5190
+type(
+  int
+)
+ident(
+  int_ref num_steps "pagerank.ml" 176 5023 5052 "pagerank.ml" 176 5023 5061
+)
+"pagerank.ml" 180 5196 5202 "pagerank.ml" 180 5196 5203
+type(
+  int
+)
+"pagerank.ml" 180 5196 5207 "pagerank.ml" 180 5196 5213
+type(
+  NS.node_score_map
+)
+ident(
+  int_ref ns_map "pagerank.ml" 177 5076 5085 "pagerank.ml" 177 5076 5091
+)
+"pagerank.ml" 181 5215 5221 "pagerank.ml" 181 5215 5222
+type(
+  int
+)
+"pagerank.ml" 181 5215 5230 "pagerank.ml" 181 5215 5231
+type(
+  float
+)
+ident(
+  def a "pagerank.ml" 185 5307 5320 "pagerank.ml" 192 5683 5747
+)
+"pagerank.ml" 182 5234 5253 "pagerank.ml" 182 5234 5258
+type(
+  float option
+)
+ident(
+  int_ref alpha "pagerank.ml" 155 4450 4456 "pagerank.ml" 155 4450 4461
+)
+"pagerank.ml" 183 5264 5272 "pagerank.ml" 183 5264 5276
+type(
+  float option
+)
+"pagerank.ml" 183 5264 5280 "pagerank.ml" 183 5264 5283
+type(
+  float
+)
+"pagerank.ml" 184 5284 5297 "pagerank.ml" 184 5284 5298
+type(
+  float
+)
+ident(
+  def a "pagerank.ml" 184 5284 5302 "pagerank.ml" 184 5284 5303
+)
+"pagerank.ml" 184 5284 5292 "pagerank.ml" 184 5284 5298
+type(
+  float option
+)
+"pagerank.ml" 184 5284 5302 "pagerank.ml" 184 5284 5303
+type(
+  float
+)
+ident(
+  int_ref a "pagerank.ml" 184 5284 5297 "pagerank.ml" 184 5284 5298
+)
+"pagerank.ml" 182 5234 5247 "pagerank.ml" 184 5284 5303
+type(
+  float
+)
+"pagerank.ml" 185 5307 5324 "pagerank.ml" 185 5307 5325
+type(
+  NS.node option option
+)
+ident(
+  def n "pagerank.ml" 186 5368 5376 "pagerank.ml" 192 5683 5747
+)
+"pagerank.ml" 185 5307 5328 "pagerank.ml" 185 5307 5343
+type(
+  NS.node list option -> NS.node option option
+)
+ident(
+  int_ref random_neighbor "pagerank.ml" 164 4742 4748 "pagerank.ml" 164 4742 4763
+)
+"pagerank.ml" 185 5307 5345 "pagerank.ml" 185 5307 5356
+type(
+  G.graph -> NS.node -> NS.node list option
+)
+ident(
+  ext_ref G.neighbors
+)
+"pagerank.ml" 185 5307 5357 "pagerank.ml" 185 5307 5358
+type(
+  G.graph
+)
+ident(
+  int_ref g "pagerank.ml" 176 5023 5039 "pagerank.ml" 176 5023 5040
+)
+"pagerank.ml" 185 5307 5359 "pagerank.ml" 185 5307 5363
+type(
+  NS.node
+)
+ident(
+  int_ref node "pagerank.ml" 176 5023 5069 "pagerank.ml" 176 5023 5073
+)
+"pagerank.ml" 185 5307 5345 "pagerank.ml" 185 5307 5363
+call(
+  stack
+)
+type(
+  NS.node list option
+)
+"pagerank.ml" 185 5307 5328 "pagerank.ml" 185 5307 5364
+call(
+  stack
+)
+type(
+  NS.node option option
+)
+"pagerank.ml" 186 5368 5380 "pagerank.ml" 186 5368 5388
+type(
+  NS.node option
+)
+ident(
+  def new_node "pagerank.ml" 190 5554 5569 "pagerank.ml" 192 5683 5747
+)
+"pagerank.ml" 187 5392 5414 "pagerank.ml" 187 5392 5426
+type(
+  float -> float
+)
+ident(
+  ext_ref Core.Std.Random.float
+)
+"pagerank.ml" 187 5392 5427 "pagerank.ml" 187 5392 5430
+type(
+  float
+)
+"pagerank.ml" 187 5392 5414 "pagerank.ml" 187 5392 5430
+call(
+  stack
+)
+type(
+  float
+)
+"pagerank.ml" 187 5392 5431 "pagerank.ml" 187 5392 5432
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"pagerank.ml" 187 5392 5433 "pagerank.ml" 187 5392 5434
+type(
+  float
+)
+ident(
+  int_ref a "pagerank.ml" 181 5215 5230 "pagerank.ml" 181 5215 5231
+)
+"pagerank.ml" 187 5392 5414 "pagerank.ml" 187 5392 5434
+type(
+  bool
+)
+"pagerank.ml" 187 5392 5436 "pagerank.ml" 187 5392 5438
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"pagerank.ml" 187 5392 5440 "pagerank.ml" 187 5392 5441
+type(
+  NS.node option option
+)
+ident(
+  int_ref n "pagerank.ml" 185 5307 5324 "pagerank.ml" 185 5307 5325
+)
+"pagerank.ml" 187 5392 5442 "pagerank.ml" 187 5392 5443
+type(
+  NS.node option option -> NS.node option option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"pagerank.ml" 187 5392 5444 "pagerank.ml" 187 5392 5448
+type(
+  NS.node option option
+)
+"pagerank.ml" 187 5392 5440 "pagerank.ml" 187 5392 5448
+type(
+  bool
+)
+"pagerank.ml" 187 5392 5449 "pagerank.ml" 187 5392 5451
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"pagerank.ml" 187 5392 5452 "pagerank.ml" 187 5392 5453
+type(
+  NS.node option option
+)
+ident(
+  int_ref n "pagerank.ml" 185 5307 5324 "pagerank.ml" 185 5307 5325
+)
+"pagerank.ml" 187 5392 5454 "pagerank.ml" 187 5392 5455
+type(
+  NS.node option option -> NS.node option option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"pagerank.ml" 187 5392 5461 "pagerank.ml" 187 5392 5465
+type(
+  NS.node option
+)
+"pagerank.ml" 187 5392 5456 "pagerank.ml" 187 5392 5465
+type(
+  NS.node option option
+)
+"pagerank.ml" 187 5392 5452 "pagerank.ml" 187 5392 5465
+type(
+  bool
+)
+"pagerank.ml" 187 5392 5440 "pagerank.ml" 187 5392 5465
+type(
+  bool
+)
+"pagerank.ml" 187 5392 5413 "pagerank.ml" 187 5392 5466
+type(
+  bool
+)
+"pagerank.ml" 188 5469 5491 "pagerank.ml" 188 5469 5508
+type(
+  G.graph -> NS.node option
+)
+ident(
+  ext_ref G.get_random_node
+)
+"pagerank.ml" 188 5469 5509 "pagerank.ml" 188 5469 5510
+type(
+  G.graph
+)
+ident(
+  int_ref g "pagerank.ml" 176 5023 5039 "pagerank.ml" 176 5023 5040
+)
+"pagerank.ml" 188 5469 5491 "pagerank.ml" 188 5469 5510
+call(
+  stack
+)
+type(
+  NS.node option
+)
+"pagerank.ml" 189 5511 5534 "pagerank.ml" 189 5511 5547
+type(
+  NS.node option option -> NS.node option
+)
+ident(
+  int_ref deoptionalize "pagerank.ml" 170 4902 4908 "pagerank.ml" 170 4902 4921
+)
+"pagerank.ml" 189 5511 5548 "pagerank.ml" 189 5511 5549
+type(
+  NS.node option option
+)
+ident(
+  int_ref n "pagerank.ml" 185 5307 5324 "pagerank.ml" 185 5307 5325
+)
+"pagerank.ml" 189 5511 5534 "pagerank.ml" 189 5511 5549
+call(
+  stack
+)
+type(
+  NS.node option
+)
+"pagerank.ml" 187 5392 5409 "pagerank.ml" 189 5511 5550
+type(
+  NS.node option
+)
+"pagerank.ml" 190 5554 5573 "pagerank.ml" 190 5554 5580
+type(
+  NS.node_score_map
+)
+ident(
+  def ns_map' "pagerank.ml" 191 5635 5650 "pagerank.ml" 192 5683 5747
+)
+"pagerank.ml" 190 5554 5583 "pagerank.ml" 190 5554 5595
+type(
+  NS.node_score_map -> NS.node -> float -> NS.node_score_map
+)
+ident(
+  ext_ref NS.add_score
+)
+"pagerank.ml" 190 5554 5596 "pagerank.ml" 190 5554 5602
+type(
+  NS.node_score_map
+)
+ident(
+  int_ref ns_map "pagerank.ml" 177 5076 5085 "pagerank.ml" 177 5076 5091
+)
+"pagerank.ml" 190 5554 5604 "pagerank.ml" 190 5554 5617
+type(
+  NS.node option -> NS.node
+)
+ident(
+  int_ref deoptionalize "pagerank.ml" 170 4902 4908 "pagerank.ml" 170 4902 4921
+)
+"pagerank.ml" 190 5554 5618 "pagerank.ml" 190 5554 5626
+type(
+  NS.node option
+)
+ident(
+  int_ref new_node "pagerank.ml" 186 5368 5380 "pagerank.ml" 186 5368 5388
+)
+"pagerank.ml" 190 5554 5604 "pagerank.ml" 190 5554 5626
+call(
+  stack
+)
+type(
+  NS.node
+)
+"pagerank.ml" 190 5554 5628 "pagerank.ml" 190 5554 5631
+type(
+  float
+)
+"pagerank.ml" 190 5554 5583 "pagerank.ml" 190 5554 5631
+call(
+  stack
+)
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 191 5635 5654 "pagerank.ml" 191 5635 5663
+type(
+  int
+)
+ident(
+  def new_steps "pagerank.ml" 192 5683 5698 "pagerank.ml" 192 5683 5747
+)
+"pagerank.ml" 191 5635 5666 "pagerank.ml" 191 5635 5675
+type(
+  int
+)
+ident(
+  int_ref num_steps "pagerank.ml" 176 5023 5052 "pagerank.ml" 176 5023 5061
+)
+"pagerank.ml" 191 5635 5676 "pagerank.ml" 191 5635 5677
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"pagerank.ml" 191 5635 5678 "pagerank.ml" 191 5635 5679
+type(
+  int
+)
+"pagerank.ml" 191 5635 5666 "pagerank.ml" 191 5635 5679
+type(
+  int
+)
+"pagerank.ml" 192 5683 5698 "pagerank.ml" 192 5683 5702
+type(
+  G.graph -> int -> NS.node -> NS.node_score_map -> NS.node_score_map
+)
+ident(
+  int_ref walk "pagerank.ml" 176 5023 5033 "pagerank.ml" 176 5023 5037
+)
+"pagerank.ml" 192 5683 5703 "pagerank.ml" 192 5683 5704
+type(
+  G.graph
+)
+ident(
+  int_ref g "pagerank.ml" 176 5023 5039 "pagerank.ml" 176 5023 5040
+)
+"pagerank.ml" 192 5683 5705 "pagerank.ml" 192 5683 5714
+type(
+  int
+)
+ident(
+  int_ref new_steps "pagerank.ml" 191 5635 5654 "pagerank.ml" 191 5635 5663
+)
+"pagerank.ml" 192 5683 5716 "pagerank.ml" 192 5683 5729
+type(
+  NS.node option -> NS.node
+)
+ident(
+  int_ref deoptionalize "pagerank.ml" 170 4902 4908 "pagerank.ml" 170 4902 4921
+)
+"pagerank.ml" 192 5683 5730 "pagerank.ml" 192 5683 5738
+type(
+  NS.node option
+)
+ident(
+  int_ref new_node "pagerank.ml" 186 5368 5380 "pagerank.ml" 186 5368 5388
+)
+"pagerank.ml" 192 5683 5716 "pagerank.ml" 192 5683 5738
+call(
+  stack
+)
+type(
+  NS.node
+)
+"pagerank.ml" 192 5683 5740 "pagerank.ml" 192 5683 5747
+type(
+  NS.node_score_map
+)
+ident(
+  int_ref ns_map' "pagerank.ml" 190 5554 5573 "pagerank.ml" 190 5554 5580
+)
+"pagerank.ml" 192 5683 5698 "pagerank.ml" 192 5683 5747
+call(
+  tail
+)
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 191 5635 5650 "pagerank.ml" 192 5683 5747
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 190 5554 5569 "pagerank.ml" 192 5683 5747
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 186 5368 5376 "pagerank.ml" 192 5683 5747
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 185 5307 5320 "pagerank.ml" 192 5683 5747
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 181 5215 5226 "pagerank.ml" 192 5683 5747
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 179 5171 5175 "pagerank.ml" 192 5683 5747
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 178 5134 5138 "pagerank.ml" 192 5683 5747
+type(
+  NS.node_score_map
+)
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 177 5076 5084 "pagerank.ml" 192 5683 5747
+type(
+  NS.node_score_map -> NS.node_score_map
+)
+"pagerank.ml" 176 5023 5068 "pagerank.ml" 192 5683 5747
+type(
+  NS.node -> NS.node_score_map -> NS.node_score_map
+)
+"pagerank.ml" 176 5023 5051 "pagerank.ml" 192 5683 5747
+type(
+  int -> NS.node -> NS.node_score_map -> NS.node_score_map
+)
+"pagerank.ml" 176 5023 5038 "pagerank.ml" 192 5683 5747
+type(
+  G.graph -> int -> NS.node -> NS.node_score_map -> NS.node_score_map
+)
+"pagerank.ml" 195 5839 5845 "pagerank.ml" 195 5839 5849
+type(
+  G.graph -> NS.node_score_map
+)
+ident(
+  def rank "pagerank.ml" 199 6017 6091 "pagerank.ml" 201 6094 6097
+)
+"pagerank.ml" 195 5839 5851 "pagerank.ml" 195 5839 5852
+type(
+  G.graph
+)
+ident(
+  def g "pagerank.ml" 195 5839 5863 "pagerank.ml" 199 6017 6091
+)
+"pagerank.ml" 196 5885 5893 "pagerank.ml" 196 5885 5898
+type(
+  NS.node list
+)
+ident(
+  def nodes "pagerank.ml" 197 5916 5920 "pagerank.ml" 199 6017 6091
+)
+"pagerank.ml" 196 5885 5902 "pagerank.ml" 196 5885 5909
+type(
+  G.graph -> NS.node list
+)
+ident(
+  ext_ref G.nodes
+)
+"pagerank.ml" 196 5885 5910 "pagerank.ml" 196 5885 5911
+type(
+  G.graph
+)
+ident(
+  int_ref g "pagerank.ml" 195 5839 5851 "pagerank.ml" 195 5839 5852
+)
+"pagerank.ml" 196 5885 5902 "pagerank.ml" 196 5885 5911
+call(
+  stack
+)
+type(
+  NS.node list
+)
+"pagerank.ml" 197 5916 5924 "pagerank.ml" 197 5916 5934
+type(
+  NS.node_score_map
+)
+ident(
+  def node_score "pagerank.ml" 198 5970 5974 "pagerank.ml" 199 6017 6091
+)
+"pagerank.ml" 197 5916 5937 "pagerank.ml" 197 5916 5959
+type(
+  NS.node list -> NS.node_score_map
+)
+ident(
+  ext_ref NS.zero_node_score_map
+)
+"pagerank.ml" 197 5916 5960 "pagerank.ml" 197 5916 5965
+type(
+  NS.node list
+)
+ident(
+  int_ref nodes "pagerank.ml" 196 5885 5893 "pagerank.ml" 196 5885 5898
+)
+"pagerank.ml" 197 5916 5937 "pagerank.ml" 197 5916 5965
+call(
+  stack
+)
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 198 5970 5978 "pagerank.ml" 198 5970 5989
+type(
+  NS.node option
+)
+ident(
+  def random_node "pagerank.ml" 199 6017 6021 "pagerank.ml" 199 6017 6091
+)
+"pagerank.ml" 198 5970 5992 "pagerank.ml" 198 5970 6009
+type(
+  G.graph -> NS.node option
+)
+ident(
+  ext_ref G.get_random_node
+)
+"pagerank.ml" 198 5970 6010 "pagerank.ml" 198 5970 6011
+type(
+  G.graph
+)
+ident(
+  int_ref g "pagerank.ml" 195 5839 5851 "pagerank.ml" 195 5839 5852
+)
+"pagerank.ml" 198 5970 5992 "pagerank.ml" 198 5970 6011
+call(
+  stack
+)
+type(
+  NS.node option
+)
+"pagerank.ml" 199 6017 6021 "pagerank.ml" 199 6017 6033
+type(
+  NS.node_score_map -> NS.node_score_map
+)
+ident(
+  ext_ref NS.normalize
+)
+"pagerank.ml" 199 6017 6035 "pagerank.ml" 199 6017 6039
+type(
+  G.graph -> int -> NS.node -> NS.node_score_map -> NS.node_score_map
+)
+ident(
+  int_ref walk "pagerank.ml" 176 5023 5033 "pagerank.ml" 176 5023 5037
+)
+"pagerank.ml" 199 6017 6040 "pagerank.ml" 199 6017 6041
+type(
+  G.graph
+)
+ident(
+  int_ref g "pagerank.ml" 195 5839 5851 "pagerank.ml" 195 5839 5852
+)
+"pagerank.ml" 199 6017 6042 "pagerank.ml" 199 6017 6051
+type(
+  int
+)
+ident(
+  int_ref num_steps "pagerank.ml" 154 4420 4426 "pagerank.ml" 154 4420 4435
+)
+"pagerank.ml" 199 6017 6053 "pagerank.ml" 199 6017 6066
+type(
+  NS.node option -> NS.node
+)
+ident(
+  int_ref deoptionalize "pagerank.ml" 170 4902 4908 "pagerank.ml" 170 4902 4921
+)
+"pagerank.ml" 199 6017 6067 "pagerank.ml" 199 6017 6078
+type(
+  NS.node option
+)
+ident(
+  int_ref random_node "pagerank.ml" 198 5970 5978 "pagerank.ml" 198 5970 5989
+)
+"pagerank.ml" 199 6017 6053 "pagerank.ml" 199 6017 6078
+call(
+  stack
+)
+type(
+  NS.node
+)
+"pagerank.ml" 199 6017 6080 "pagerank.ml" 199 6017 6090
+type(
+  NS.node_score_map
+)
+ident(
+  int_ref node_score "pagerank.ml" 197 5916 5924 "pagerank.ml" 197 5916 5934
+)
+"pagerank.ml" 199 6017 6035 "pagerank.ml" 199 6017 6090
+call(
+  stack
+)
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 199 6017 6021 "pagerank.ml" 199 6017 6091
+call(
+  tail
+)
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 198 5970 5974 "pagerank.ml" 199 6017 6091
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 197 5916 5920 "pagerank.ml" 199 6017 6091
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 196 5885 5889 "pagerank.ml" 199 6017 6091
+type(
+  NS.node_score_map
+)
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 195 5839 5850 "pagerank.ml" 199 6017 6091
+type(
+  G.graph -> NS.node_score_map
+)
+"pagerank.ml" 240 6973 6979 "pagerank.ml" 240 6973 6980
+type(
+  G.graph
+)
+ident(
+  def g "pagerank.ml" 241 7012 7014 "pagerank.ml" 264 7852 7855
+)
+"pagerank.ml" 240 6973 6983 "pagerank.ml" 240 6973 6993
+type(
+  G.graph -> string -> string -> G.graph
+)
+ident(
+  ext_ref G.add_edge
+)
+"pagerank.ml" 240 6973 6994 "pagerank.ml" 240 6973 7001
+type(
+  G.graph
+)
+ident(
+  ext_ref G.empty
+)
+"pagerank.ml" 240 6973 7002 "pagerank.ml" 240 6973 7005
+type(
+  string
+)
+"pagerank.ml" 240 6973 7006 "pagerank.ml" 240 6973 7009
+type(
+  string
+)
+"pagerank.ml" 240 6973 6983 "pagerank.ml" 240 6973 7009
+call(
+  stack
+)
+type(
+  G.graph
+)
+"pagerank.ml" 241 7012 7018 "pagerank.ml" 241 7012 7020
+type(
+  G.graph
+)
+ident(
+  def g2 "pagerank.ml" 243 7047 7049 "pagerank.ml" 264 7852 7855
+)
+"pagerank.ml" 241 7012 7023 "pagerank.ml" 241 7012 7033
+type(
+  G.graph -> string -> string -> G.graph
+)
+ident(
+  ext_ref G.add_edge
+)
+"pagerank.ml" 241 7012 7034 "pagerank.ml" 241 7012 7035
+type(
+  G.graph
+)
+ident(
+  int_ref g "pagerank.ml" 240 6973 6979 "pagerank.ml" 240 6973 6980
+)
+"pagerank.ml" 241 7012 7036 "pagerank.ml" 241 7012 7039
+type(
+  string
+)
+"pagerank.ml" 241 7012 7040 "pagerank.ml" 241 7012 7043
+type(
+  string
+)
+"pagerank.ml" 241 7012 7023 "pagerank.ml" 241 7012 7043
+call(
+  stack
+)
+type(
+  G.graph
+)
+"pagerank.ml" 245 7125 7156 "pagerank.ml" 245 7125 7163
+type(
+  node -> node -> Ordering.t
+)
+ident(
+  def compare "pagerank.ml" 246 7181 7208 "pagerank.ml" 248 7283 7311
+)
+"pagerank.ml" 245 7125 7166 "pagerank.ml" 245 7125 7180
+type(
+  node -> node -> Ordering.t
+)
+ident(
+  ext_ref Order.string_compare
+)
+"pagerank.ml" 246 7181 7212 "pagerank.ml" 246 7181 7226
+type(
+  'a -> 'a
+)
+ident(
+  def string_of_node "pagerank.ml" 247 7240 7267 "pagerank.ml" 248 7283 7311
+)
+"pagerank.ml" 246 7181 7233 "pagerank.ml" 246 7181 7234
+type(
+  'a
+)
+ident(
+  def x "pagerank.ml" 246 7181 7238 "pagerank.ml" 246 7181 7239
+)
+"pagerank.ml" 246 7181 7238 "pagerank.ml" 246 7181 7239
+type(
+  'a
+)
+ident(
+  int_ref x "pagerank.ml" 246 7181 7233 "pagerank.ml" 246 7181 7234
+)
+"pagerank.ml" 246 7181 7233 "pagerank.ml" 246 7181 7239
+type(
+  'a -> 'a
+)
+"pagerank.ml" 247 7240 7271 "pagerank.ml" 247 7240 7274
+type(
+  unit -> node
+)
+ident(
+  def gen "pagerank.ml" 247 7240 7282 "pagerank.ml" 248 7283 7311
+)
+"pagerank.ml" 247 7240 7275 "pagerank.ml" 247 7240 7277
+type(
+  unit
+)
+"pagerank.ml" 247 7240 7280 "pagerank.ml" 247 7240 7282
+type(
+  node
+)
+"pagerank.ml" 247 7240 7275 "pagerank.ml" 247 7240 7282
+type(
+  unit -> node
+)
+"pagerank.ml" 243 7047 7061 "pagerank.ml" 248 7283 7312
+call(
+  stack
+)
+"pagerank.ml" 250 7316 7334 "pagerank.ml" 250 7316 7357
+call(
+  stack
+)
+"pagerank.ml" 251 7360 7366 "pagerank.ml" 251 7360 7368
+type(
+  NS.node_score_map
+)
+ident(
+  def ns "pagerank.ml" 253 7465 7467 "pagerank.ml" 264 7852 7855
+)
+"pagerank.ml" 251 7360 7371 "pagerank.ml" 251 7360 7382
+type(
+  G.graph -> NS.node_score_map
+)
+ident(
+  int_ref Ranker.rank "pagerank.ml" 94 2554 2556 "pagerank.ml" 94 2554 2595
+)
+"pagerank.ml" 251 7360 7383 "pagerank.ml" 251 7360 7385
+type(
+  G.graph
+)
+ident(
+  int_ref g2 "pagerank.ml" 241 7012 7018 "pagerank.ml" 241 7012 7020
+)
+"pagerank.ml" 251 7360 7371 "pagerank.ml" 251 7360 7385
+call(
+  stack
+)
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 253 7465 7476 "pagerank.ml" 253 7465 7488
+type(
+  NS.node_score_map -> string -> float option
+)
+ident(
+  ext_ref NS.get_score
+)
+"pagerank.ml" 253 7465 7489 "pagerank.ml" 253 7465 7491
+type(
+  NS.node_score_map
+)
+ident(
+  int_ref ns "pagerank.ml" 251 7360 7366 "pagerank.ml" 251 7360 7368
+)
+"pagerank.ml" 253 7465 7492 "pagerank.ml" 253 7465 7495
+type(
+  string
+)
+"pagerank.ml" 253 7465 7476 "pagerank.ml" 253 7465 7495
+call(
+  stack
+)
+type(
+  float option
+)
+"pagerank.ml" 253 7465 7497 "pagerank.ml" 253 7465 7498
+type(
+  float option -> float option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"pagerank.ml" 253 7465 7504 "pagerank.ml" 253 7465 7507
+type(
+  float
+)
+"pagerank.ml" 253 7465 7499 "pagerank.ml" 253 7465 7507
+type(
+  float option
+)
+"pagerank.ml" 253 7465 7475 "pagerank.ml" 253 7465 7507
+type(
+  bool
+)
+"pagerank.ml" 253 7465 7467 "pagerank.ml" 253 7465 7508
+type(
+  unit
+)
+"pagerank.ml" 254 7511 7522 "pagerank.ml" 254 7511 7534
+type(
+  NS.node_score_map -> string -> float option
+)
+ident(
+  ext_ref NS.get_score
+)
+"pagerank.ml" 254 7511 7535 "pagerank.ml" 254 7511 7537
+type(
+  NS.node_score_map
+)
+ident(
+  int_ref ns "pagerank.ml" 251 7360 7366 "pagerank.ml" 251 7360 7368
+)
+"pagerank.ml" 254 7511 7538 "pagerank.ml" 254 7511 7541
+type(
+  string
+)
+"pagerank.ml" 254 7511 7522 "pagerank.ml" 254 7511 7541
+call(
+  stack
+)
+type(
+  float option
+)
+"pagerank.ml" 254 7511 7543 "pagerank.ml" 254 7511 7544
+type(
+  float option -> float option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"pagerank.ml" 254 7511 7550 "pagerank.ml" 254 7511 7553
+type(
+  float
+)
+"pagerank.ml" 254 7511 7545 "pagerank.ml" 254 7511 7553
+type(
+  float option
+)
+"pagerank.ml" 254 7511 7521 "pagerank.ml" 254 7511 7553
+type(
+  bool
+)
+"pagerank.ml" 254 7511 7513 "pagerank.ml" 254 7511 7554
+type(
+  unit
+)
+"pagerank.ml" 255 7557 7568 "pagerank.ml" 255 7557 7580
+type(
+  NS.node_score_map -> string -> float option
+)
+ident(
+  ext_ref NS.get_score
+)
+"pagerank.ml" 255 7557 7581 "pagerank.ml" 255 7557 7583
+type(
+  NS.node_score_map
+)
+ident(
+  int_ref ns "pagerank.ml" 251 7360 7366 "pagerank.ml" 251 7360 7368
+)
+"pagerank.ml" 255 7557 7584 "pagerank.ml" 255 7557 7587
+type(
+  string
+)
+"pagerank.ml" 255 7557 7568 "pagerank.ml" 255 7557 7587
+call(
+  stack
+)
+type(
+  float option
+)
+"pagerank.ml" 255 7557 7589 "pagerank.ml" 255 7557 7590
+type(
+  float option -> float option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"pagerank.ml" 255 7557 7596 "pagerank.ml" 255 7557 7599
+type(
+  float
+)
+"pagerank.ml" 255 7557 7591 "pagerank.ml" 255 7557 7599
+type(
+  float option
+)
+"pagerank.ml" 255 7557 7567 "pagerank.ml" 255 7557 7599
+type(
+  bool
+)
+"pagerank.ml" 255 7557 7559 "pagerank.ml" 255 7557 7600
+type(
+  unit
+)
+"pagerank.ml" 256 7603 7614 "pagerank.ml" 256 7603 7626
+type(
+  NS.node_score_map -> string -> float option
+)
+ident(
+  ext_ref NS.get_score
+)
+"pagerank.ml" 256 7603 7627 "pagerank.ml" 256 7603 7629
+type(
+  NS.node_score_map
+)
+ident(
+  int_ref ns "pagerank.ml" 251 7360 7366 "pagerank.ml" 251 7360 7368
+)
+"pagerank.ml" 256 7603 7630 "pagerank.ml" 256 7603 7633
+type(
+  string
+)
+"pagerank.ml" 256 7603 7614 "pagerank.ml" 256 7603 7633
+call(
+  stack
+)
+type(
+  float option
+)
+"pagerank.ml" 256 7603 7635 "pagerank.ml" 256 7603 7636
+type(
+  float option -> float option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"pagerank.ml" 256 7603 7637 "pagerank.ml" 256 7603 7641
+type(
+  float option
+)
+"pagerank.ml" 256 7603 7613 "pagerank.ml" 256 7603 7641
+type(
+  bool
+)
+"pagerank.ml" 256 7603 7605 "pagerank.ml" 256 7603 7642
+type(
+  unit
+)
+"pagerank.ml" 258 7646 7652 "pagerank.ml" 258 7646 7654
+type(
+  G.graph
+)
+ident(
+  def g3 "pagerank.ml" 259 7681 7683 "pagerank.ml" 264 7852 7855
+)
+"pagerank.ml" 258 7646 7657 "pagerank.ml" 258 7646 7667
+type(
+  G.graph -> string -> string -> G.graph
+)
+ident(
+  ext_ref G.add_edge
+)
+"pagerank.ml" 258 7646 7668 "pagerank.ml" 258 7646 7670
+type(
+  G.graph
+)
+ident(
+  int_ref g2 "pagerank.ml" 241 7012 7018 "pagerank.ml" 241 7012 7020
+)
+"pagerank.ml" 258 7646 7671 "pagerank.ml" 258 7646 7674
+type(
+  string
+)
+"pagerank.ml" 258 7646 7675 "pagerank.ml" 258 7646 7678
+type(
+  string
+)
+"pagerank.ml" 258 7646 7657 "pagerank.ml" 258 7646 7678
+call(
+  stack
+)
+type(
+  G.graph
+)
+"pagerank.ml" 259 7681 7687 "pagerank.ml" 259 7681 7690
+type(
+  NS.node_score_map
+)
+ident(
+  def ns2 "pagerank.ml" 260 7710 7712 "pagerank.ml" 264 7852 7855
+)
+"pagerank.ml" 259 7681 7693 "pagerank.ml" 259 7681 7704
+type(
+  G.graph -> NS.node_score_map
+)
+ident(
+  int_ref Ranker.rank "pagerank.ml" 94 2554 2556 "pagerank.ml" 94 2554 2595
+)
+"pagerank.ml" 259 7681 7705 "pagerank.ml" 259 7681 7707
+type(
+  G.graph
+)
+ident(
+  int_ref g3 "pagerank.ml" 258 7646 7652 "pagerank.ml" 258 7646 7654
+)
+"pagerank.ml" 259 7681 7693 "pagerank.ml" 259 7681 7707
+call(
+  stack
+)
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 260 7710 7721 "pagerank.ml" 260 7710 7733
+type(
+  NS.node_score_map -> string -> float option
+)
+ident(
+  ext_ref NS.get_score
+)
+"pagerank.ml" 260 7710 7734 "pagerank.ml" 260 7710 7737
+type(
+  NS.node_score_map
+)
+ident(
+  int_ref ns2 "pagerank.ml" 259 7681 7687 "pagerank.ml" 259 7681 7690
+)
+"pagerank.ml" 260 7710 7738 "pagerank.ml" 260 7710 7741
+type(
+  string
+)
+"pagerank.ml" 260 7710 7721 "pagerank.ml" 260 7710 7741
+call(
+  stack
+)
+type(
+  float option
+)
+"pagerank.ml" 260 7710 7743 "pagerank.ml" 260 7710 7744
+type(
+  float option -> float option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"pagerank.ml" 260 7710 7750 "pagerank.ml" 260 7710 7753
+type(
+  float
+)
+"pagerank.ml" 260 7710 7745 "pagerank.ml" 260 7710 7753
+type(
+  float option
+)
+"pagerank.ml" 260 7710 7720 "pagerank.ml" 260 7710 7753
+type(
+  bool
+)
+"pagerank.ml" 260 7710 7712 "pagerank.ml" 260 7710 7754
+type(
+  unit
+)
+"pagerank.ml" 261 7757 7768 "pagerank.ml" 261 7757 7780
+type(
+  NS.node_score_map -> string -> float option
+)
+ident(
+  ext_ref NS.get_score
+)
+"pagerank.ml" 261 7757 7781 "pagerank.ml" 261 7757 7784
+type(
+  NS.node_score_map
+)
+ident(
+  int_ref ns2 "pagerank.ml" 259 7681 7687 "pagerank.ml" 259 7681 7690
+)
+"pagerank.ml" 261 7757 7785 "pagerank.ml" 261 7757 7788
+type(
+  string
+)
+"pagerank.ml" 261 7757 7768 "pagerank.ml" 261 7757 7788
+call(
+  stack
+)
+type(
+  float option
+)
+"pagerank.ml" 261 7757 7790 "pagerank.ml" 261 7757 7791
+type(
+  float option -> float option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"pagerank.ml" 261 7757 7797 "pagerank.ml" 261 7757 7800
+type(
+  float
+)
+"pagerank.ml" 261 7757 7792 "pagerank.ml" 261 7757 7800
+type(
+  float option
+)
+"pagerank.ml" 261 7757 7767 "pagerank.ml" 261 7757 7800
+type(
+  bool
+)
+"pagerank.ml" 261 7757 7759 "pagerank.ml" 261 7757 7801
+type(
+  unit
+)
+"pagerank.ml" 262 7804 7815 "pagerank.ml" 262 7804 7827
+type(
+  NS.node_score_map -> string -> float option
+)
+ident(
+  ext_ref NS.get_score
+)
+"pagerank.ml" 262 7804 7828 "pagerank.ml" 262 7804 7831
+type(
+  NS.node_score_map
+)
+ident(
+  int_ref ns2 "pagerank.ml" 259 7681 7687 "pagerank.ml" 259 7681 7690
+)
+"pagerank.ml" 262 7804 7832 "pagerank.ml" 262 7804 7835
+type(
+  string
+)
+"pagerank.ml" 262 7804 7815 "pagerank.ml" 262 7804 7835
+call(
+  stack
+)
+type(
+  float option
+)
+"pagerank.ml" 262 7804 7837 "pagerank.ml" 262 7804 7838
+type(
+  float option -> float option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"pagerank.ml" 262 7804 7844 "pagerank.ml" 262 7804 7847
+type(
+  float
+)
+"pagerank.ml" 262 7804 7839 "pagerank.ml" 262 7804 7847
+type(
+  float option
+)
+"pagerank.ml" 262 7804 7814 "pagerank.ml" 262 7804 7847
+type(
+  bool
+)
+"pagerank.ml" 262 7804 7806 "pagerank.ml" 262 7804 7848
+type(
+  unit
+)
+"pagerank.ml" 270 7919 7925 "pagerank.ml" 270 7919 7926
+type(
+  G.graph
+)
+ident(
+  def g "pagerank.ml" 278 8171 8173 "pagerank.ml" 296 8752 8755
+)
+"pagerank.ml" 270 7919 7929 "pagerank.ml" 270 7919 7941
+type(
+  (string * string) list -> G.graph
+)
+ident(
+  ext_ref G.from_edges
+)
+"pagerank.ml" 270 7919 7944 "pagerank.ml" 270 7919 7947
+type(
+  string
+)
+"pagerank.ml" 270 7919 7948 "pagerank.ml" 270 7919 7951
+type(
+  string
+)
+"pagerank.ml" 270 7919 7944 "pagerank.ml" 270 7919 7951
+type(
+  string * string
+)
+"pagerank.ml" 271 7955 7980 "pagerank.ml" 271 7955 7983
+type(
+  string
+)
+"pagerank.ml" 271 7955 7984 "pagerank.ml" 271 7955 7987
+type(
+  string
+)
+"pagerank.ml" 271 7955 7980 "pagerank.ml" 271 7955 7987
+type(
+  string * string
+)
+"pagerank.ml" 272 7991 8016 "pagerank.ml" 272 7991 8019
+type(
+  string
+)
+"pagerank.ml" 272 7991 8020 "pagerank.ml" 272 7991 8023
+type(
+  string
+)
+"pagerank.ml" 272 7991 8016 "pagerank.ml" 272 7991 8023
+type(
+  string * string
+)
+"pagerank.ml" 273 8027 8052 "pagerank.ml" 273 8027 8055
+type(
+  string
+)
+"pagerank.ml" 273 8027 8056 "pagerank.ml" 273 8027 8059
+type(
+  string
+)
+"pagerank.ml" 273 8027 8052 "pagerank.ml" 273 8027 8059
+type(
+  string * string
+)
+"pagerank.ml" 274 8063 8088 "pagerank.ml" 274 8063 8091
+type(
+  string
+)
+"pagerank.ml" 274 8063 8092 "pagerank.ml" 274 8063 8095
+type(
+  string
+)
+"pagerank.ml" 274 8063 8088 "pagerank.ml" 274 8063 8095
+type(
+  string * string
+)
+"pagerank.ml" 275 8099 8124 "pagerank.ml" 275 8099 8127
+type(
+  string
+)
+"pagerank.ml" 275 8099 8128 "pagerank.ml" 275 8099 8131
+type(
+  string
+)
+"pagerank.ml" 275 8099 8124 "pagerank.ml" 275 8099 8131
+type(
+  string * string
+)
+"pagerank.ml" 276 8135 8160 "pagerank.ml" 276 8135 8163
+type(
+  string
+)
+"pagerank.ml" 276 8135 8164 "pagerank.ml" 276 8135 8167
+type(
+  string
+)
+"pagerank.ml" 276 8135 8160 "pagerank.ml" 276 8135 8167
+type(
+  string * string
+)
+"pagerank.ml" 276 8135 8159 "pagerank.ml" 276 8135 8168
+type(
+  (string * string) list
+)
+"pagerank.ml" 275 8099 8123 "pagerank.ml" 276 8135 8168
+type(
+  (string * string) list
+)
+"pagerank.ml" 274 8063 8087 "pagerank.ml" 276 8135 8168
+type(
+  (string * string) list
+)
+"pagerank.ml" 273 8027 8051 "pagerank.ml" 276 8135 8168
+type(
+  (string * string) list
+)
+"pagerank.ml" 272 7991 8015 "pagerank.ml" 276 8135 8168
+type(
+  (string * string) list
+)
+"pagerank.ml" 271 7955 7979 "pagerank.ml" 276 8135 8168
+type(
+  (string * string) list
+)
+"pagerank.ml" 270 7919 7943 "pagerank.ml" 276 8135 8168
+type(
+  (string * string) list
+)
+"pagerank.ml" 270 7919 7942 "pagerank.ml" 276 8135 8169
+type(
+  (string * string) list
+)
+"pagerank.ml" 270 7919 7929 "pagerank.ml" 276 8135 8169
+call(
+  stack
+)
+type(
+  G.graph
+)
+"pagerank.ml" 280 8249 8280 "pagerank.ml" 280 8249 8287
+type(
+  node -> node -> Ordering.t
+)
+ident(
+  def compare "pagerank.ml" 281 8305 8332 "pagerank.ml" 283 8407 8435
+)
+"pagerank.ml" 280 8249 8290 "pagerank.ml" 280 8249 8304
+type(
+  node -> node -> Ordering.t
+)
+ident(
+  ext_ref Order.string_compare
+)
+"pagerank.ml" 281 8305 8336 "pagerank.ml" 281 8305 8350
+type(
+  'a -> 'a
+)
+ident(
+  def string_of_node "pagerank.ml" 282 8364 8391 "pagerank.ml" 283 8407 8435
+)
+"pagerank.ml" 281 8305 8357 "pagerank.ml" 281 8305 8358
+type(
+  'a
+)
+ident(
+  def x "pagerank.ml" 281 8305 8362 "pagerank.ml" 281 8305 8363
+)
+"pagerank.ml" 281 8305 8362 "pagerank.ml" 281 8305 8363
+type(
+  'a
+)
+ident(
+  int_ref x "pagerank.ml" 281 8305 8357 "pagerank.ml" 281 8305 8358
+)
+"pagerank.ml" 281 8305 8357 "pagerank.ml" 281 8305 8363
+type(
+  'a -> 'a
+)
+"pagerank.ml" 282 8364 8395 "pagerank.ml" 282 8364 8398
+type(
+  unit -> node
+)
+ident(
+  def gen "pagerank.ml" 282 8364 8406 "pagerank.ml" 283 8407 8435
+)
+"pagerank.ml" 282 8364 8399 "pagerank.ml" 282 8364 8401
+type(
+  unit
+)
+"pagerank.ml" 282 8364 8404 "pagerank.ml" 282 8364 8406
+type(
+  node
+)
+"pagerank.ml" 282 8364 8399 "pagerank.ml" 282 8364 8406
+type(
+  unit -> node
+)
+"pagerank.ml" 278 8171 8185 "pagerank.ml" 283 8407 8436
+call(
+  stack
+)
+"pagerank.ml" 287 8496 8507 "pagerank.ml" 287 8496 8522
+type(
+  'b option
+)
+ident(
+  def do_random_jumps "pagerank.ml" 288 8530 8537 "pagerank.ml" 289 8558 8566
+)
+"pagerank.ml" 287 8496 8525 "pagerank.ml" 287 8496 8529
+type(
+  'b option
+)
+"pagerank.ml" 288 8530 8541 "pagerank.ml" 288 8530 8550
+type(
+  int
+)
+ident(
+  def num_steps "pagerank.ml" 288 8530 8557 "pagerank.ml" 289 8558 8566
+)
+"pagerank.ml" 288 8530 8553 "pagerank.ml" 288 8530 8557
+type(
+  int
+)
+"pagerank.ml" 285 8440 8458 "pagerank.ml" 289 8558 8567
+call(
+  stack
+)
+"pagerank.ml" 291 8569 8575 "pagerank.ml" 291 8569 8577
+type(
+  NS.node_score_map
+)
+ident(
+  def ns "pagerank.ml" 292 8594 8596 "pagerank.ml" 296 8752 8755
+)
+"pagerank.ml" 291 8569 8580 "pagerank.ml" 291 8569 8591
+type(
+  G.graph -> NS.node_score_map
+)
+ident(
+  int_ref Ranker.rank "pagerank.ml" 94 2554 2556 "pagerank.ml" 94 2554 2595
+)
+"pagerank.ml" 291 8569 8592 "pagerank.ml" 291 8569 8593
+type(
+  G.graph
+)
+ident(
+  int_ref g "pagerank.ml" 270 7919 7925 "pagerank.ml" 270 7919 7926
+)
+"pagerank.ml" 291 8569 8580 "pagerank.ml" 291 8569 8593
+call(
+  stack
+)
+type(
+  NS.node_score_map
+)
+"pagerank.ml" 292 8594 8604 "pagerank.ml" 292 8594 8617
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Core.Std.Printf.printf
+)
+"pagerank.ml" 292 8594 8618 "pagerank.ml" 292 8594 8656
+type(
+  (string -> unit, out_channel, unit) format
+)
+"pagerank.ml" 293 8657 8662 "pagerank.ml" 293 8657 8689
+type(
+  NS.node_score_map -> string
+)
+ident(
+  ext_ref NS.string_of_node_score_map
+)
+"pagerank.ml" 293 8657 8690 "pagerank.ml" 293 8657 8692
+type(
+  NS.node_score_map
+)
+ident(
+  int_ref ns "pagerank.ml" 291 8569 8575 "pagerank.ml" 291 8569 8577
+)
+"pagerank.ml" 293 8657 8662 "pagerank.ml" 293 8657 8692
+call(
+  stack
+)
+type(
+  string
+)
+"pagerank.ml" 292 8594 8604 "pagerank.ml" 293 8657 8693
+call(
+  stack
+)
+type(
+  unit
+)

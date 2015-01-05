@@ -1,0 +1,177 @@
+"CarbonBased.ml" 3 94 113 "CarbonBased.ml" 3 94 114
+type(
+  int * int
+)
+"CarbonBased.ml" 3 94 115 "CarbonBased.ml" 3 94 124
+type(
+  int option
+)
+"CarbonBased.ml" 3 94 125 "CarbonBased.ml" 3 94 142
+type(
+  int
+)
+"CarbonBased.ml" 3 94 143 "CarbonBased.ml" 3 94 155
+type(
+  int
+)
+"CarbonBased.ml" 5 181 189 "CarbonBased.ml" 5 181 193
+type(
+  < danger : WorldObjectI.world_object_i -> unit; die : unit; draw : 
+    unit; draw_picture : unit; draw_z_axis : int; forfeit_gold : int option;
+    get_danger_event : WorldObjectI.world_object_i Event51.Event51.event;
+    get_die_event : unit Event51.Event51.event; get_name : string;
+    get_pos : int * int; is_obstacle : bool;
+    next_direction : Direction.direction option; receive_damage : unit;
+    receive_gold : int list -> int list; reset_life : unit;
+    smells_like_gold : int option; .. >
+)
+"CarbonBased.ml" 6 195 221 "CarbonBased.ml" 6 195 222
+type(
+  int * int
+)
+ident(
+  int_ref p "CarbonBased.ml" 3 94 113 "CarbonBased.ml" 3 94 114
+)
+"CarbonBased.ml" 6 195 223 "CarbonBased.ml" 6 195 232
+type(
+  int option
+)
+ident(
+  int_ref inv_speed "CarbonBased.ml" 3 94 115 "CarbonBased.ml" 3 94 124
+)
+"CarbonBased.ml" 6 195 233 "CarbonBased.ml" 6 195 250
+type(
+  int
+)
+ident(
+  int_ref starting_lifetime "CarbonBased.ml" 3 94 125 "CarbonBased.ml" 3 94 142
+)
+"CarbonBased.ml" 6 195 251 "CarbonBased.ml" 6 195 263
+type(
+  int
+)
+ident(
+  int_ref max_lifetime "CarbonBased.ml" 3 94 143 "CarbonBased.ml" 3 94 155
+)
+"CarbonBased.ml" 14 395 399 "CarbonBased.ml" 14 395 403
+type(
+  < danger : WorldObjectI.world_object_i -> unit; die : unit; draw : 
+    unit; draw_picture : unit; draw_z_axis : int; forfeit_gold : int option;
+    get_danger_event : WorldObjectI.world_object_i Event51.Event51.event;
+    get_die_event : unit Event51.Event51.event; get_name : string;
+    get_pos : int * int; is_obstacle : bool;
+    next_direction : Direction.direction option; receive_damage : unit;
+    receive_gold : int list -> int list; reset_life : unit;
+    smells_like_gold : int option; .. >
+  as 'a
+)
+ident(
+  int_ref self "CarbonBased.ml" 5 181 189 "CarbonBased.ml" 5 181 193
+)
+"CarbonBased.ml" 14 395 399 "CarbonBased.ml" 14 395 420
+call(
+  tail
+)
+type(
+  unit Event51.Event51.event -> (unit -> unit) -> unit
+)
+"CarbonBased.ml" 14 395 421 "CarbonBased.ml" 14 395 425
+type(
+  'a
+)
+ident(
+  int_ref self "CarbonBased.ml" 5 181 189 "CarbonBased.ml" 5 181 193
+)
+"CarbonBased.ml" 14 395 421 "CarbonBased.ml" 14 395 439
+call(
+  stack
+)
+type(
+  unit Event51.Event51.event
+)
+"CarbonBased.ml" 14 395 440 "CarbonBased.ml" 14 395 444
+type(
+  'a
+)
+ident(
+  int_ref self "CarbonBased.ml" 5 181 189 "CarbonBased.ml" 5 181 193
+)
+"CarbonBased.ml" 14 395 440 "CarbonBased.ml" 14 395 454
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"CarbonBased.ml" 14 395 399 "CarbonBased.ml" 14 395 454
+type(
+  'a -> unit
+)
+type(
+  unit
+)
+"CarbonBased.ml" 16 456 483 "CarbonBased.ml" 16 456 485
+type(
+  unit
+)
+"CarbonBased.ml" 17 488 492 "CarbonBased.ml" 17 488 498
+type(
+  Dust.dust -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"CarbonBased.ml" 17 488 500 "CarbonBased.ml" 17 488 513
+type(
+  int * int -> string -> Dust.dust
+)
+"CarbonBased.ml" 17 488 514 "CarbonBased.ml" 17 488 518
+type(
+  'a
+)
+ident(
+  int_ref self "CarbonBased.ml" 5 181 189 "CarbonBased.ml" 5 181 193
+)
+"CarbonBased.ml" 17 488 514 "CarbonBased.ml" 17 488 526
+call(
+  stack
+)
+type(
+  int * int
+)
+"CarbonBased.ml" 17 488 527 "CarbonBased.ml" 17 488 531
+type(
+  'a
+)
+ident(
+  int_ref self "CarbonBased.ml" 5 181 189 "CarbonBased.ml" 5 181 193
+)
+"CarbonBased.ml" 17 488 527 "CarbonBased.ml" 17 488 540
+call(
+  stack
+)
+type(
+  string
+)
+"CarbonBased.ml" 17 488 500 "CarbonBased.ml" 17 488 540
+call(
+  stack
+)
+type(
+  Dust.dust
+)
+"CarbonBased.ml" 17 488 492 "CarbonBased.ml" 17 488 541
+type(
+  unit
+)
+"CarbonBased.ml" 16 456 483 "CarbonBased.ml" 17 488 541
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+"CarbonBased.ml" 16 456 458 "CarbonBased.ml" 17 488 541
+type(
+  'a -> unit -> unit
+)

@@ -1,0 +1,5668 @@
+"util.ml" 48 1944 1952 "util.ml" 48 1944 1966
+type(
+  bool
+)
+ident(
+  def crawl_internet "util.ml" 51 2027 2031 "util.ml" 320 12547 12552
+)
+"util.ml" 48 1944 1969 "util.ml" 48 1944 1974
+type(
+  bool
+)
+"util.ml" 56 2236 2244 "util.ml" 56 2236 2258
+type(
+  link -> string
+)
+ident(
+  def string_of_link "util.ml" 64 2443 2447 "util.ml" 320 12547 12552
+)
+"util.ml" 56 2236 2259 "util.ml" 56 2236 2260
+type(
+  link
+)
+ident(
+  def l "util.ml" 57 2263 2269 "util.ml" 61 2380 2434
+)
+"util.ml" 57 2263 2272 "util.ml" 57 2263 2273
+type(
+  link
+)
+ident(
+  int_ref l "util.ml" 56 2236 2259 "util.ml" 56 2236 2260
+)
+"util.ml" 57 2263 2272 "util.ml" 57 2263 2278
+type(
+  string
+)
+"util.ml" 57 2263 2279 "util.ml" 57 2263 2280
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"util.ml" 57 2263 2281 "util.ml" 57 2263 2283
+type(
+  string
+)
+"util.ml" 57 2263 2272 "util.ml" 57 2263 2283
+type(
+  bool
+)
+"util.ml" 57 2263 2289 "util.ml" 57 2263 2298
+type(
+  string
+)
+"util.ml" 57 2263 2299 "util.ml" 57 2263 2300
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 57 2263 2301 "util.ml" 57 2263 2302
+type(
+  link
+)
+ident(
+  int_ref l "util.ml" 56 2236 2259 "util.ml" 56 2236 2260
+)
+"util.ml" 57 2263 2301 "util.ml" 57 2263 2307
+type(
+  string
+)
+"util.ml" 57 2263 2289 "util.ml" 57 2263 2307
+call(
+  tail
+)
+type(
+  string
+)
+"util.ml" 58 2308 2322 "util.ml" 58 2308 2323
+type(
+  link
+)
+ident(
+  int_ref l "util.ml" 56 2236 2259 "util.ml" 56 2236 2260
+)
+"util.ml" 58 2308 2322 "util.ml" 58 2308 2328
+type(
+  int
+)
+"util.ml" 58 2308 2329 "util.ml" 58 2308 2330
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"util.ml" 58 2308 2331 "util.ml" 58 2308 2333
+type(
+  int
+)
+"util.ml" 58 2308 2322 "util.ml" 58 2308 2333
+type(
+  bool
+)
+"util.ml" 59 2339 2347 "util.ml" 59 2339 2348
+type(
+  link
+)
+ident(
+  int_ref l "util.ml" 56 2236 2259 "util.ml" 56 2236 2260
+)
+"util.ml" 59 2339 2347 "util.ml" 59 2339 2353
+type(
+  string
+)
+"util.ml" 59 2339 2354 "util.ml" 59 2339 2355
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 59 2339 2356 "util.ml" 59 2339 2359
+type(
+  string
+)
+"util.ml" 59 2339 2360 "util.ml" 59 2339 2361
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 59 2339 2362 "util.ml" 59 2339 2363
+type(
+  link
+)
+ident(
+  int_ref l "util.ml" 56 2236 2259 "util.ml" 56 2236 2260
+)
+"util.ml" 59 2339 2362 "util.ml" 59 2339 2368
+type(
+  string
+)
+"util.ml" 59 2339 2356 "util.ml" 59 2339 2368
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 59 2339 2347 "util.ml" 59 2339 2368
+call(
+  tail
+)
+type(
+  string
+)
+"util.ml" 61 2380 2388 "util.ml" 61 2380 2389
+type(
+  link
+)
+ident(
+  int_ref l "util.ml" 56 2236 2259 "util.ml" 56 2236 2260
+)
+"util.ml" 61 2380 2388 "util.ml" 61 2380 2394
+type(
+  string
+)
+"util.ml" 61 2380 2395 "util.ml" 61 2380 2396
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 61 2380 2397 "util.ml" 61 2380 2400
+type(
+  string
+)
+"util.ml" 61 2380 2401 "util.ml" 61 2380 2402
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 61 2380 2404 "util.ml" 61 2380 2417
+type(
+  int -> string
+)
+ident(
+  ext_ref Core.Std.String.create
+)
+"util.ml" 61 2380 2418 "util.ml" 61 2380 2419
+type(
+  link
+)
+ident(
+  int_ref l "util.ml" 56 2236 2259 "util.ml" 56 2236 2260
+)
+"util.ml" 61 2380 2418 "util.ml" 61 2380 2424
+type(
+  int
+)
+"util.ml" 61 2380 2404 "util.ml" 61 2380 2424
+type(
+  string
+)
+"util.ml" 61 2380 2426 "util.ml" 61 2380 2427
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 61 2380 2428 "util.ml" 61 2380 2429
+type(
+  link
+)
+ident(
+  int_ref l "util.ml" 56 2236 2259 "util.ml" 56 2236 2260
+)
+"util.ml" 61 2380 2428 "util.ml" 61 2380 2434
+type(
+  string
+)
+"util.ml" 61 2380 2403 "util.ml" 61 2380 2434
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 61 2380 2397 "util.ml" 61 2380 2434
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 61 2380 2388 "util.ml" 61 2380 2434
+call(
+  tail
+)
+type(
+  string
+)
+"util.ml" 58 2308 2319 "util.ml" 61 2380 2434
+type(
+  string
+)
+"util.ml" 57 2263 2269 "util.ml" 61 2380 2434
+type(
+  string
+)
+"util.ml" 56 2236 2259 "util.ml" 61 2380 2434
+type(
+  link -> string
+)
+"util.ml" 64 2443 2451 "util.ml" 64 2443 2463
+type(
+  link -> link -> Ordering.t
+)
+ident(
+  def link_compare "util.ml" 76 2883 2887 "util.ml" 320 12547 12552
+)
+"util.ml" 64 2443 2465 "util.ml" 64 2443 2466
+type(
+  link
+)
+ident(
+  def x "util.ml" 64 2443 2473 "util.ml" 72 2791 2811
+)
+"util.ml" 64 2443 2474 "util.ml" 64 2443 2475
+type(
+  link
+)
+ident(
+  def y "util.ml" 64 2443 2482 "util.ml" 72 2791 2811
+)
+"util.ml" 65 2497 2509 "util.ml" 65 2497 2523
+type(
+  string -> string -> Ordering.t
+)
+ident(
+  ext_ref Order.string_compare
+)
+"util.ml" 65 2497 2524 "util.ml" 65 2497 2525
+type(
+  link
+)
+ident(
+  int_ref x "util.ml" 64 2443 2465 "util.ml" 64 2443 2466
+)
+"util.ml" 65 2497 2524 "util.ml" 65 2497 2530
+type(
+  string
+)
+"util.ml" 65 2497 2531 "util.ml" 65 2497 2532
+type(
+  link
+)
+ident(
+  int_ref y "util.ml" 64 2443 2474 "util.ml" 64 2443 2475
+)
+"util.ml" 65 2497 2531 "util.ml" 65 2497 2537
+type(
+  string
+)
+"util.ml" 65 2497 2509 "util.ml" 65 2497 2537
+call(
+  stack
+)
+type(
+  Ordering.t
+)
+"util.ml" 66 2543 2553 "util.ml" 66 2543 2558
+type(
+  Ordering.t
+)
+"util.ml" 67 2562 2581 "util.ml" 67 2562 2592
+type(
+  int -> int -> Ordering.t
+)
+ident(
+  ext_ref Order.int_compare
+)
+"util.ml" 67 2562 2593 "util.ml" 67 2562 2594
+type(
+  link
+)
+ident(
+  int_ref x "util.ml" 64 2443 2465 "util.ml" 64 2443 2466
+)
+"util.ml" 67 2562 2593 "util.ml" 67 2562 2599
+type(
+  int
+)
+"util.ml" 67 2562 2600 "util.ml" 67 2562 2601
+type(
+  link
+)
+ident(
+  int_ref y "util.ml" 64 2443 2474 "util.ml" 64 2443 2475
+)
+"util.ml" 67 2562 2600 "util.ml" 67 2562 2606
+type(
+  int
+)
+"util.ml" 67 2562 2581 "util.ml" 67 2562 2606
+call(
+  stack
+)
+type(
+  Ordering.t
+)
+"util.ml" 68 2612 2629 "util.ml" 68 2612 2634
+type(
+  Ordering.t
+)
+"util.ml" 68 2612 2645 "util.ml" 68 2612 2659
+type(
+  string -> string -> Ordering.t
+)
+ident(
+  ext_ref Order.string_compare
+)
+"util.ml" 68 2612 2660 "util.ml" 68 2612 2661
+type(
+  link
+)
+ident(
+  int_ref x "util.ml" 64 2443 2465 "util.ml" 64 2443 2466
+)
+"util.ml" 68 2612 2660 "util.ml" 68 2612 2666
+type(
+  string
+)
+"util.ml" 68 2612 2667 "util.ml" 68 2612 2668
+type(
+  link
+)
+ident(
+  int_ref y "util.ml" 64 2443 2474 "util.ml" 64 2443 2475
+)
+"util.ml" 68 2612 2667 "util.ml" 68 2612 2673
+type(
+  string
+)
+"util.ml" 68 2612 2645 "util.ml" 68 2612 2673
+call(
+  stack
+)
+type(
+  Ordering.t
+)
+"util.ml" 69 2679 2707 "util.ml" 69 2679 2712
+type(
+  Ordering.t
+)
+"util.ml" 69 2679 2716 "util.ml" 69 2679 2721
+type(
+  Ordering.t
+)
+"util.ml" 70 2722 2750 "util.ml" 70 2722 2753
+type(
+  Ordering.t
+)
+ident(
+  def ans "util.ml" 70 2722 2757 "util.ml" 70 2722 2760
+)
+"util.ml" 70 2722 2757 "util.ml" 70 2722 2760
+type(
+  Ordering.t
+)
+ident(
+  int_ref ans "util.ml" 70 2722 2750 "util.ml" 70 2722 2753
+)
+"util.ml" 68 2612 2639 "util.ml" 70 2722 2760
+type(
+  Ordering.t
+)
+"util.ml" 71 2762 2779 "util.ml" 71 2762 2782
+type(
+  Ordering.t
+)
+ident(
+  def ans "util.ml" 71 2762 2786 "util.ml" 71 2762 2789
+)
+"util.ml" 71 2762 2786 "util.ml" 71 2762 2789
+type(
+  Ordering.t
+)
+ident(
+  int_ref ans "util.ml" 71 2762 2779 "util.ml" 71 2762 2782
+)
+"util.ml" 67 2562 2575 "util.ml" 71 2762 2789
+type(
+  Ordering.t
+)
+"util.ml" 72 2791 2801 "util.ml" 72 2791 2804
+type(
+  Ordering.t
+)
+ident(
+  def ans "util.ml" 72 2791 2808 "util.ml" 72 2791 2811
+)
+"util.ml" 72 2791 2808 "util.ml" 72 2791 2811
+type(
+  Ordering.t
+)
+ident(
+  int_ref ans "util.ml" 72 2791 2801 "util.ml" 72 2791 2804
+)
+"util.ml" 65 2497 2503 "util.ml" 72 2791 2811
+type(
+  Ordering.t
+)
+type(
+  Ordering.t
+)
+"util.ml" 64 2443 2473 "util.ml" 72 2791 2811
+type(
+  link -> Ordering.t
+)
+"util.ml" 64 2443 2464 "util.ml" 72 2791 2811
+type(
+  link -> link -> Ordering.t
+)
+"util.ml" 81 3009 3017 "util.ml" 81 3009 3031
+type(
+  page -> string
+)
+ident(
+  def string_of_page "util.ml" 98 3719 3723 "util.ml" 320 12547 12552
+)
+"util.ml" 81 3009 3032 "util.ml" 81 3009 3033
+type(
+  page
+)
+ident(
+  def p "util.ml" 83 3092 3098 "util.ml" 93 3531 3582
+)
+"util.ml" 83 3092 3102 "util.ml" 83 3092 3107
+type(
+  string -> string
+)
+ident(
+  def trunc "util.ml" 88 3269 3275 "util.ml" 93 3531 3582
+)
+"util.ml" 83 3092 3108 "util.ml" 83 3092 3109
+type(
+  string
+)
+ident(
+  def s "util.ml" 84 3112 3120 "util.ml" 86 3199 3213
+)
+"util.ml" 84 3112 3123 "util.ml" 84 3112 3136
+type(
+  string -> int
+)
+ident(
+  ext_ref Core.Std.String.length
+)
+"util.ml" 84 3112 3137 "util.ml" 84 3112 3138
+type(
+  string
+)
+ident(
+  int_ref s "util.ml" 83 3092 3108 "util.ml" 83 3092 3109
+)
+"util.ml" 84 3112 3123 "util.ml" 84 3112 3138
+type(
+  int
+)
+"util.ml" 84 3112 3139 "util.ml" 84 3112 3140
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"util.ml" 84 3112 3141 "util.ml" 84 3112 3144
+type(
+  int
+)
+"util.ml" 84 3112 3123 "util.ml" 84 3112 3144
+type(
+  bool
+)
+"util.ml" 85 3150 3161 "util.ml" 85 3150 3171
+type(
+  (string, string) Blit.sub
+)
+ident(
+  ext_ref Core.Std.String.sub
+)
+"util.ml" 85 3150 3172 "util.ml" 85 3150 3173
+type(
+  string
+)
+ident(
+  int_ref s "util.ml" 83 3092 3108 "util.ml" 83 3092 3109
+)
+"util.ml" 85 3150 3179 "util.ml" 85 3150 3180
+type(
+  int
+)
+"util.ml" 85 3150 3186 "util.ml" 85 3150 3189
+type(
+  int
+)
+"util.ml" 85 3150 3161 "util.ml" 85 3150 3189
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 85 3150 3191 "util.ml" 85 3150 3192
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 85 3150 3193 "util.ml" 85 3150 3198
+type(
+  string
+)
+"util.ml" 85 3150 3160 "util.ml" 85 3150 3198
+call(
+  tail
+)
+type(
+  string
+)
+"util.ml" 86 3199 3212 "util.ml" 86 3199 3213
+type(
+  string
+)
+ident(
+  int_ref s "util.ml" 83 3092 3108 "util.ml" 83 3092 3109
+)
+"util.ml" 84 3112 3120 "util.ml" 86 3199 3213
+type(
+  string
+)
+"util.ml" 83 3092 3108 "util.ml" 86 3199 3213
+type(
+  string -> string
+)
+"util.ml" 88 3269 3279 "util.ml" 88 3269 3281
+type(
+  string
+)
+ident(
+  def ls "util.ml" 91 3431 3437 "util.ml" 93 3531 3582
+)
+"util.ml" 88 3269 3284 "util.ml" 88 3269 3289
+type(
+  string -> string
+)
+ident(
+  int_ref trunc "util.ml" 83 3092 3102 "util.ml" 83 3092 3107
+)
+"util.ml" 88 3269 3291 "util.ml" 88 3269 3304
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"util.ml" 88 3269 3310 "util.ml" 88 3269 3313
+type(
+  string
+)
+"util.ml" 89 3314 3339 "util.ml" 89 3314 3347
+type(
+  link list -> f:(link -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"util.ml" 89 3314 3348 "util.ml" 89 3314 3349
+type(
+  page
+)
+ident(
+  int_ref p "util.ml" 81 3009 3032 "util.ml" 81 3009 3033
+)
+"util.ml" 89 3314 3348 "util.ml" 89 3314 3355
+type(
+  link list
+)
+"util.ml" 89 3314 3359 "util.ml" 89 3314 3373
+type(
+  link -> string
+)
+ident(
+  int_ref string_of_link "util.ml" 56 2236 2244 "util.ml" 56 2236 2258
+)
+"util.ml" 89 3314 3339 "util.ml" 89 3314 3373
+call(
+  stack
+)
+type(
+  string list
+)
+"util.ml" 88 3269 3291 "util.ml" 89 3314 3374
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 88 3269 3284 "util.ml" 89 3314 3375
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 91 3431 3441 "util.ml" 91 3431 3443
+type(
+  string
+)
+ident(
+  def ws "util.ml" 92 3488 3496 "util.ml" 93 3531 3582
+)
+"util.ml" 91 3431 3446 "util.ml" 91 3431 3451
+type(
+  string -> string
+)
+ident(
+  int_ref trunc "util.ml" 83 3092 3102 "util.ml" 83 3092 3107
+)
+"util.ml" 91 3431 3453 "util.ml" 91 3431 3466
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"util.ml" 91 3431 3472 "util.ml" 91 3431 3475
+type(
+  string
+)
+"util.ml" 91 3431 3476 "util.ml" 91 3431 3477
+type(
+  page
+)
+ident(
+  int_ref p "util.ml" 81 3009 3032 "util.ml" 81 3009 3033
+)
+"util.ml" 91 3431 3476 "util.ml" 91 3431 3483
+type(
+  string list
+)
+"util.ml" 91 3431 3453 "util.ml" 91 3431 3483
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 91 3431 3446 "util.ml" 91 3431 3484
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 92 3488 3496 "util.ml" 92 3488 3503
+type(
+  string
+)
+"util.ml" 92 3488 3504 "util.ml" 92 3488 3505
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 92 3488 3507 "util.ml" 92 3488 3521
+type(
+  link -> string
+)
+ident(
+  int_ref string_of_link "util.ml" 56 2236 2244 "util.ml" 56 2236 2258
+)
+"util.ml" 92 3488 3522 "util.ml" 92 3488 3523
+type(
+  page
+)
+ident(
+  int_ref p "util.ml" 81 3009 3032 "util.ml" 81 3009 3033
+)
+"util.ml" 92 3488 3522 "util.ml" 92 3488 3527
+type(
+  link
+)
+"util.ml" 92 3488 3507 "util.ml" 92 3488 3527
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 92 3488 3529 "util.ml" 92 3488 3530
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 93 3531 3541 "util.ml" 93 3531 3552
+type(
+  string
+)
+"util.ml" 93 3531 3553 "util.ml" 93 3531 3554
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 93 3531 3555 "util.ml" 93 3531 3557
+type(
+  string
+)
+ident(
+  int_ref ls "util.ml" 88 3269 3279 "util.ml" 88 3269 3281
+)
+"util.ml" 93 3531 3558 "util.ml" 93 3531 3559
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 93 3531 3560 "util.ml" 93 3531 3571
+type(
+  string
+)
+"util.ml" 93 3531 3572 "util.ml" 93 3531 3573
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 93 3531 3574 "util.ml" 93 3531 3576
+type(
+  string
+)
+ident(
+  int_ref ws "util.ml" 91 3431 3441 "util.ml" 91 3431 3443
+)
+"util.ml" 93 3531 3577 "util.ml" 93 3531 3578
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 93 3531 3579 "util.ml" 93 3531 3582
+type(
+  string
+)
+"util.ml" 93 3531 3574 "util.ml" 93 3531 3582
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 93 3531 3560 "util.ml" 93 3531 3582
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 93 3531 3555 "util.ml" 93 3531 3582
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 93 3531 3541 "util.ml" 93 3531 3582
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 92 3488 3506 "util.ml" 93 3531 3582
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 92 3488 3496 "util.ml" 93 3531 3582
+call(
+  tail
+)
+type(
+  string
+)
+"util.ml" 91 3431 3437 "util.ml" 93 3531 3582
+type(
+  string
+)
+"util.ml" 88 3269 3275 "util.ml" 93 3531 3582
+type(
+  string
+)
+"util.ml" 83 3092 3098 "util.ml" 93 3531 3582
+type(
+  string
+)
+"util.ml" 81 3009 3032 "util.ml" 93 3531 3582
+type(
+  page -> string
+)
+"util.ml" 98 3719 3727 "util.ml" 98 3719 3734
+type(
+  Str.regexp
+)
+ident(
+  def http_re "util.ml" 101 3816 3820 "util.ml" 320 12547 12552
+)
+"util.ml" 99 3737 3743 "util.ml" 99 3737 3753
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"util.ml" 99 3737 3754 "util.ml" 99 3737 3814
+type(
+  string
+)
+"util.ml" 99 3737 3743 "util.ml" 99 3737 3814
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"util.ml" 101 3816 3824 "util.ml" 101 3816 3833
+type(
+  string -> link
+)
+ident(
+  def parse_url "util.ml" 115 4464 4468 "util.ml" 320 12547 12552
+)
+"util.ml" 101 3816 3834 "util.ml" 101 3816 3837
+type(
+  string
+)
+ident(
+  def url "util.ml" 102 3840 3846 "util.ml" 109 4191 4217
+)
+"util.ml" 102 3840 3849 "util.ml" 102 3840 3865
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  ext_ref Str.string_match
+)
+"util.ml" 102 3840 3866 "util.ml" 102 3840 3873
+type(
+  Str.regexp
+)
+ident(
+  int_ref http_re "util.ml" 98 3719 3727 "util.ml" 98 3719 3734
+)
+"util.ml" 102 3840 3874 "util.ml" 102 3840 3877
+type(
+  string
+)
+ident(
+  int_ref url "util.ml" 101 3816 3834 "util.ml" 101 3816 3837
+)
+"util.ml" 102 3840 3878 "util.ml" 102 3840 3879
+type(
+  int
+)
+"util.ml" 102 3840 3849 "util.ml" 102 3840 3879
+call(
+  stack
+)
+type(
+  bool
+)
+"util.ml" 103 3885 3897 "util.ml" 103 3885 3901
+type(
+  string
+)
+ident(
+  def host "util.ml" 104 3931 3939 "util.ml" 108 4141 4190
+)
+"util.ml" 103 3885 3904 "util.ml" 103 3885 3921
+type(
+  int -> string -> string
+)
+ident(
+  ext_ref Str.matched_group
+)
+"util.ml" 103 3885 3922 "util.ml" 103 3885 3923
+type(
+  int
+)
+"util.ml" 103 3885 3924 "util.ml" 103 3885 3927
+type(
+  string
+)
+ident(
+  int_ref url "util.ml" 101 3816 3834 "util.ml" 101 3816 3837
+)
+"util.ml" 103 3885 3904 "util.ml" 103 3885 3927
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 104 3931 3943 "util.ml" 104 3931 3947
+type(
+  int
+)
+ident(
+  def port "util.ml" 106 4027 4035 "util.ml" 108 4141 4190
+)
+"util.ml" 105 3950 3964 "util.ml" 105 3950 3977
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"util.ml" 105 3950 3978 "util.ml" 105 3950 3995
+type(
+  int -> string -> string
+)
+ident(
+  ext_ref Str.matched_group
+)
+"util.ml" 105 3950 3996 "util.ml" 105 3950 3997
+type(
+  int
+)
+"util.ml" 105 3950 3998 "util.ml" 105 3950 4001
+type(
+  string
+)
+ident(
+  int_ref url "util.ml" 101 3816 3834 "util.ml" 101 3816 3837
+)
+"util.ml" 105 3950 3978 "util.ml" 105 3950 4001
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 105 3950 3964 "util.ml" 105 3950 4002
+type(
+  int
+)
+"util.ml" 105 3950 4008 "util.ml" 105 3950 4017
+type(
+  exn
+)
+"util.ml" 105 3950 4021 "util.ml" 105 3950 4023
+type(
+  int
+)
+"util.ml" 105 3950 3960 "util.ml" 105 3950 4023
+type(
+  int
+)
+"util.ml" 106 4027 4039 "util.ml" 106 4027 4048
+type(
+  string
+)
+ident(
+  def init_path "util.ml" 107 4103 4111 "util.ml" 108 4141 4190
+)
+"util.ml" 106 4027 4055 "util.ml" 106 4027 4072
+type(
+  int -> string -> string
+)
+ident(
+  ext_ref Str.matched_group
+)
+"util.ml" 106 4027 4073 "util.ml" 106 4027 4074
+type(
+  int
+)
+"util.ml" 106 4027 4075 "util.ml" 106 4027 4078
+type(
+  string
+)
+ident(
+  int_ref url "util.ml" 101 3816 3834 "util.ml" 101 3816 3837
+)
+"util.ml" 106 4027 4055 "util.ml" 106 4027 4078
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 106 4027 4084 "util.ml" 106 4027 4093
+type(
+  exn
+)
+"util.ml" 106 4027 4097 "util.ml" 106 4027 4099
+type(
+  string
+)
+"util.ml" 106 4027 4051 "util.ml" 106 4027 4099
+type(
+  string
+)
+"util.ml" 107 4103 4115 "util.ml" 107 4103 4119
+type(
+  string
+)
+ident(
+  def path "util.ml" 108 4141 4151 "util.ml" 108 4141 4190
+)
+"util.ml" 107 4103 4122 "util.ml" 107 4103 4125
+type(
+  string
+)
+"util.ml" 107 4103 4126 "util.ml" 107 4103 4127
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 107 4103 4128 "util.ml" 107 4103 4137
+type(
+  string
+)
+ident(
+  int_ref init_path "util.ml" 106 4027 4039 "util.ml" 106 4027 4048
+)
+"util.ml" 107 4103 4122 "util.ml" 107 4103 4137
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 108 4141 4159 "util.ml" 108 4141 4163
+type(
+  string
+)
+ident(
+  int_ref host "util.ml" 103 3885 3897 "util.ml" 103 3885 3901
+)
+"util.ml" 108 4141 4172 "util.ml" 108 4141 4176
+type(
+  int
+)
+ident(
+  int_ref port "util.ml" 104 3931 3943 "util.ml" 104 3931 3947
+)
+"util.ml" 108 4141 4185 "util.ml" 108 4141 4189
+type(
+  string
+)
+ident(
+  int_ref path "util.ml" 107 4103 4115 "util.ml" 107 4103 4119
+)
+"util.ml" 108 4141 4151 "util.ml" 108 4141 4190
+type(
+  link
+)
+"util.ml" 107 4103 4111 "util.ml" 108 4141 4190
+type(
+  link
+)
+"util.ml" 106 4027 4035 "util.ml" 108 4141 4190
+type(
+  link
+)
+"util.ml" 104 3931 3939 "util.ml" 108 4141 4190
+type(
+  link
+)
+"util.ml" 103 3885 3893 "util.ml" 108 4141 4190
+type(
+  link
+)
+"util.ml" 109 4191 4202 "util.ml" 109 4191 4207
+type(
+  exn -> link
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"util.ml" 109 4191 4208 "util.ml" 109 4191 4217
+type(
+  exn
+)
+"util.ml" 109 4191 4202 "util.ml" 109 4191 4217
+type(
+  link
+)
+"util.ml" 102 3840 3846 "util.ml" 109 4191 4217
+type(
+  link
+)
+"util.ml" 101 3816 3834 "util.ml" 109 4191 4217
+type(
+  string -> link
+)
+"util.ml" 115 4464 4472 "util.ml" 115 4464 4485
+type(
+  string -> string
+)
+ident(
+  def strip_headers "util.ml" 134 5127 5131 "util.ml" 320 12547 12552
+)
+"util.ml" 115 4464 4486 "util.ml" 115 4464 4490
+type(
+  string
+)
+ident(
+  def page "util.ml" 116 4493 4499 "util.ml" 131 5050 5124
+)
+"util.ml" 116 4493 4507 "util.ml" 116 4493 4524
+type(
+  int -> int option
+)
+ident(
+  def find_two_newlines "util.ml" 116 4493 4499 "util.ml" 131 5050 5124
+)
+"util.ml" 116 4493 4525 "util.ml" 116 4493 4526
+type(
+  int
+)
+ident(
+  def i "util.ml" 117 4529 4537 "util.ml" 127 4959 4976
+)
+"util.ml" 117 4529 4540 "util.ml" 117 4529 4541
+type(
+  int
+)
+ident(
+  int_ref i "util.ml" 116 4493 4525 "util.ml" 116 4493 4526
+)
+"util.ml" 117 4529 4541 "util.ml" 117 4529 4542
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"util.ml" 117 4529 4542 "util.ml" 117 4529 4543
+type(
+  int
+)
+"util.ml" 117 4529 4540 "util.ml" 117 4529 4543
+type(
+  int
+)
+"util.ml" 117 4529 4544 "util.ml" 117 4529 4545
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"util.ml" 117 4529 4546 "util.ml" 117 4529 4559
+type(
+  string -> int
+)
+ident(
+  ext_ref Core.Std.String.length
+)
+"util.ml" 117 4529 4560 "util.ml" 117 4529 4564
+type(
+  string
+)
+ident(
+  int_ref page "util.ml" 115 4464 4486 "util.ml" 115 4464 4490
+)
+"util.ml" 117 4529 4546 "util.ml" 117 4529 4564
+type(
+  int
+)
+"util.ml" 117 4529 4540 "util.ml" 117 4529 4564
+type(
+  bool
+)
+"util.ml" 118 4570 4586 "util.ml" 118 4570 4596
+type(
+  (string, string) Blit.sub
+)
+ident(
+  ext_ref Core.Std.String.sub
+)
+"util.ml" 118 4570 4597 "util.ml" 118 4570 4601
+type(
+  string
+)
+ident(
+  int_ref page "util.ml" 115 4464 4486 "util.ml" 115 4464 4490
+)
+"util.ml" 118 4570 4607 "util.ml" 118 4570 4608
+type(
+  int
+)
+ident(
+  int_ref i "util.ml" 116 4493 4525 "util.ml" 116 4493 4526
+)
+"util.ml" 118 4570 4614 "util.ml" 118 4570 4615
+type(
+  int
+)
+"util.ml" 118 4570 4586 "util.ml" 118 4570 4615
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 119 4621 4635 "util.ml" 119 4621 4641
+type(
+  string
+)
+"util.ml" 119 4621 4651 "util.ml" 119 4621 4652
+type(
+  int
+)
+ident(
+  int_ref i "util.ml" 116 4493 4525 "util.ml" 116 4493 4526
+)
+"util.ml" 119 4621 4652 "util.ml" 119 4621 4653
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"util.ml" 119 4621 4653 "util.ml" 119 4621 4654
+type(
+  int
+)
+"util.ml" 119 4621 4651 "util.ml" 119 4621 4654
+type(
+  int
+)
+"util.ml" 119 4621 4645 "util.ml" 119 4621 4655
+type(
+  int option
+)
+"util.ml" 120 4656 4670 "util.ml" 120 4656 4676
+type(
+  string
+)
+"util.ml" 121 4680 4699 "util.ml" 121 4680 4700
+type(
+  int
+)
+ident(
+  int_ref i "util.ml" 116 4493 4525 "util.ml" 116 4493 4526
+)
+"util.ml" 121 4680 4700 "util.ml" 121 4680 4701
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"util.ml" 121 4680 4701 "util.ml" 121 4680 4702
+type(
+  int
+)
+"util.ml" 121 4680 4699 "util.ml" 121 4680 4702
+type(
+  int
+)
+"util.ml" 121 4680 4703 "util.ml" 121 4680 4704
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"util.ml" 121 4680 4705 "util.ml" 121 4680 4718
+type(
+  string -> int
+)
+ident(
+  ext_ref Core.Std.String.length
+)
+"util.ml" 121 4680 4719 "util.ml" 121 4680 4723
+type(
+  string
+)
+ident(
+  int_ref page "util.ml" 115 4464 4486 "util.ml" 115 4464 4490
+)
+"util.ml" 121 4680 4705 "util.ml" 121 4680 4723
+type(
+  int
+)
+"util.ml" 121 4680 4699 "util.ml" 121 4680 4723
+type(
+  bool
+)
+"util.ml" 122 4729 4754 "util.ml" 122 4729 4764
+type(
+  (string, string) Blit.sub
+)
+ident(
+  ext_ref Core.Std.String.sub
+)
+"util.ml" 122 4729 4765 "util.ml" 122 4729 4769
+type(
+  string
+)
+ident(
+  int_ref page "util.ml" 115 4464 4486 "util.ml" 115 4464 4490
+)
+"util.ml" 122 4729 4776 "util.ml" 122 4729 4777
+type(
+  int
+)
+ident(
+  int_ref i "util.ml" 116 4493 4525 "util.ml" 116 4493 4526
+)
+"util.ml" 122 4729 4777 "util.ml" 122 4729 4778
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"util.ml" 122 4729 4778 "util.ml" 122 4729 4779
+type(
+  int
+)
+"util.ml" 122 4729 4776 "util.ml" 122 4729 4779
+type(
+  int
+)
+"util.ml" 122 4729 4786 "util.ml" 122 4729 4787
+type(
+  int
+)
+"util.ml" 122 4729 4754 "util.ml" 122 4729 4787
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 123 4793 4816 "util.ml" 123 4793 4822
+type(
+  string
+)
+"util.ml" 123 4793 4832 "util.ml" 123 4793 4833
+type(
+  int
+)
+ident(
+  int_ref i "util.ml" 116 4493 4525 "util.ml" 116 4493 4526
+)
+"util.ml" 123 4793 4833 "util.ml" 123 4793 4834
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"util.ml" 123 4793 4834 "util.ml" 123 4793 4835
+type(
+  int
+)
+"util.ml" 123 4793 4832 "util.ml" 123 4793 4835
+type(
+  int
+)
+"util.ml" 123 4793 4826 "util.ml" 123 4793 4836
+type(
+  int option
+)
+"util.ml" 124 4837 4860 "util.ml" 124 4837 4861
+type(
+  string
+)
+"util.ml" 124 4837 4865 "util.ml" 124 4837 4882
+type(
+  int -> int option
+)
+ident(
+  int_ref find_two_newlines "util.ml" 116 4493 4507 "util.ml" 116 4493 4524
+)
+"util.ml" 124 4837 4884 "util.ml" 124 4837 4885
+type(
+  int
+)
+ident(
+  int_ref i "util.ml" 116 4493 4525 "util.ml" 116 4493 4526
+)
+"util.ml" 124 4837 4885 "util.ml" 124 4837 4886
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"util.ml" 124 4837 4886 "util.ml" 124 4837 4887
+type(
+  int
+)
+"util.ml" 124 4837 4884 "util.ml" 124 4837 4887
+type(
+  int
+)
+"util.ml" 124 4837 4865 "util.ml" 124 4837 4888
+call(
+  tail
+)
+type(
+  int option
+)
+"util.ml" 122 4729 4748 "util.ml" 124 4837 4888
+type(
+  int option
+)
+"util.ml" 125 4890 4911 "util.ml" 125 4890 4915
+type(
+  int option
+)
+"util.ml" 121 4680 4696 "util.ml" 125 4890 4915
+type(
+  int option
+)
+"util.ml" 126 4916 4930 "util.ml" 126 4916 4931
+type(
+  string
+)
+"util.ml" 126 4916 4935 "util.ml" 126 4916 4952
+type(
+  int -> int option
+)
+ident(
+  int_ref find_two_newlines "util.ml" 116 4493 4507 "util.ml" 116 4493 4524
+)
+"util.ml" 126 4916 4954 "util.ml" 126 4916 4955
+type(
+  int
+)
+ident(
+  int_ref i "util.ml" 116 4493 4525 "util.ml" 116 4493 4526
+)
+"util.ml" 126 4916 4955 "util.ml" 126 4916 4956
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"util.ml" 126 4916 4956 "util.ml" 126 4916 4957
+type(
+  int
+)
+"util.ml" 126 4916 4954 "util.ml" 126 4916 4957
+type(
+  int
+)
+"util.ml" 126 4916 4935 "util.ml" 126 4916 4958
+call(
+  tail
+)
+type(
+  int option
+)
+"util.ml" 118 4570 4580 "util.ml" 126 4916 4958
+type(
+  int option
+)
+"util.ml" 127 4959 4972 "util.ml" 127 4959 4976
+type(
+  int option
+)
+"util.ml" 117 4529 4537 "util.ml" 127 4959 4976
+type(
+  int option
+)
+"util.ml" 116 4493 4525 "util.ml" 127 4959 4976
+type(
+  int -> int option
+)
+"util.ml" 129 4986 5000 "util.ml" 129 4986 5017
+type(
+  int -> int option
+)
+ident(
+  int_ref find_two_newlines "util.ml" 116 4493 4507 "util.ml" 116 4493 4524
+)
+"util.ml" 129 4986 5018 "util.ml" 129 4986 5019
+type(
+  int
+)
+"util.ml" 129 4986 5000 "util.ml" 129 4986 5019
+call(
+  stack
+)
+type(
+  int option
+)
+"util.ml" 130 5025 5037 "util.ml" 130 5025 5041
+type(
+  int option
+)
+"util.ml" 130 5025 5045 "util.ml" 130 5025 5049
+type(
+  string
+)
+ident(
+  int_ref page "util.ml" 115 4464 4486 "util.ml" 115 4464 4490
+)
+"util.ml" 131 5050 5067 "util.ml" 131 5050 5068
+type(
+  int
+)
+ident(
+  def i "util.ml" 131 5050 5072 "util.ml" 131 5050 5124
+)
+"util.ml" 131 5050 5062 "util.ml" 131 5050 5068
+type(
+  int option
+)
+"util.ml" 131 5050 5072 "util.ml" 131 5050 5082
+type(
+  (string, string) Blit.sub
+)
+ident(
+  ext_ref Core.Std.String.sub
+)
+"util.ml" 131 5050 5083 "util.ml" 131 5050 5087
+type(
+  string
+)
+ident(
+  int_ref page "util.ml" 115 4464 4486 "util.ml" 115 4464 4490
+)
+"util.ml" 131 5050 5093 "util.ml" 131 5050 5094
+type(
+  int
+)
+ident(
+  int_ref i "util.ml" 131 5050 5067 "util.ml" 131 5050 5068
+)
+"util.ml" 131 5050 5101 "util.ml" 131 5050 5114
+type(
+  string -> int
+)
+ident(
+  ext_ref Core.Std.String.length
+)
+"util.ml" 131 5050 5115 "util.ml" 131 5050 5119
+type(
+  string
+)
+ident(
+  int_ref page "util.ml" 115 4464 4486 "util.ml" 115 4464 4490
+)
+"util.ml" 131 5050 5101 "util.ml" 131 5050 5119
+type(
+  int
+)
+"util.ml" 131 5050 5120 "util.ml" 131 5050 5121
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"util.ml" 131 5050 5122 "util.ml" 131 5050 5123
+type(
+  int
+)
+ident(
+  int_ref i "util.ml" 131 5050 5067 "util.ml" 131 5050 5068
+)
+"util.ml" 131 5050 5101 "util.ml" 131 5050 5123
+type(
+  int
+)
+"util.ml" 131 5050 5072 "util.ml" 131 5050 5124
+call(
+  tail
+)
+type(
+  string
+)
+"util.ml" 129 4986 4994 "util.ml" 131 5050 5124
+type(
+  string
+)
+"util.ml" 116 4493 4499 "util.ml" 131 5050 5124
+type(
+  string
+)
+"util.ml" 115 4464 4486 "util.ml" 131 5050 5124
+type(
+  string -> string
+)
+"util.ml" 134 5127 5135 "util.ml" 134 5127 5142
+type(
+  int
+)
+ident(
+  def buf_len "util.ml" 135 5153 5157 "util.ml" 320 12547 12552
+)
+"util.ml" 134 5127 5145 "util.ml" 134 5127 5149
+type(
+  int
+)
+"util.ml" 135 5153 5161 "util.ml" 135 5153 5164
+type(
+  string
+)
+ident(
+  def buf "util.ml" 137 5222 5226 "util.ml" 320 12547 12552
+)
+"util.ml" 135 5153 5167 "util.ml" 135 5153 5180
+type(
+  int -> string
+)
+ident(
+  ext_ref Core.Std.String.create
+)
+"util.ml" 135 5153 5181 "util.ml" 135 5153 5188
+type(
+  int
+)
+ident(
+  int_ref buf_len "util.ml" 134 5127 5135 "util.ml" 134 5127 5142
+)
+"util.ml" 135 5153 5167 "util.ml" 135 5153 5188
+type(
+  string
+)
+"util.ml" 137 5222 5234 "util.ml" 137 5222 5249
+type(
+  UnixLabels.file_descr -> string list -> string
+)
+ident(
+  def receive_message "util.ml" 137 5222 5226 "util.ml" 320 12547 12552
+)
+"util.ml" 137 5222 5250 "util.ml" 137 5222 5252
+type(
+  UnixLabels.file_descr
+)
+ident(
+  def fd "util.ml" 137 5222 5253 "util.ml" 140 5400 5476
+)
+"util.ml" 137 5222 5253 "util.ml" 137 5222 5261
+type(
+  string list
+)
+ident(
+  def contents "util.ml" 138 5264 5270 "util.ml" 140 5400 5476
+)
+"util.ml" 138 5264 5274 "util.ml" 138 5264 5277
+type(
+  int
+)
+ident(
+  def len "util.ml" 139 5334 5342 "util.ml" 140 5400 5476
+)
+"util.ml" 138 5264 5280 "util.ml" 138 5264 5289
+type(
+  UnixLabels.file_descr ->
+  buf:string -> pos:int -> len:int -> mode:UnixLabels.msg_flag list -> int
+)
+ident(
+  ext_ref Core.Std.Unix.recv
+)
+"util.ml" 138 5264 5290 "util.ml" 138 5264 5292
+type(
+  UnixLabels.file_descr
+)
+ident(
+  int_ref fd "util.ml" 137 5222 5250 "util.ml" 137 5222 5252
+)
+"util.ml" 138 5264 5298 "util.ml" 138 5264 5301
+type(
+  string
+)
+ident(
+  int_ref buf "util.ml" 135 5153 5161 "util.ml" 135 5153 5164
+)
+"util.ml" 138 5264 5307 "util.ml" 138 5264 5308
+type(
+  int
+)
+"util.ml" 138 5264 5314 "util.ml" 138 5264 5321
+type(
+  int
+)
+ident(
+  int_ref buf_len "util.ml" 134 5127 5135 "util.ml" 134 5127 5142
+)
+"util.ml" 138 5264 5328 "util.ml" 138 5264 5330
+type(
+  UnixLabels.msg_flag list
+)
+"util.ml" 138 5264 5280 "util.ml" 138 5264 5330
+call(
+  stack
+)
+type(
+  int
+)
+"util.ml" 139 5334 5345 "util.ml" 139 5334 5348
+type(
+  int
+)
+ident(
+  int_ref len "util.ml" 138 5264 5274 "util.ml" 138 5264 5277
+)
+"util.ml" 139 5334 5349 "util.ml" 139 5334 5350
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"util.ml" 139 5334 5351 "util.ml" 139 5334 5352
+type(
+  int
+)
+"util.ml" 139 5334 5345 "util.ml" 139 5334 5352
+type(
+  bool
+)
+"util.ml" 139 5334 5358 "util.ml" 139 5334 5371
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"util.ml" 139 5334 5377 "util.ml" 139 5334 5379
+type(
+  string
+)
+"util.ml" 139 5334 5381 "util.ml" 139 5334 5389
+type(
+  string list -> string list
+)
+ident(
+  ext_ref Core.Std.List.rev
+)
+"util.ml" 139 5334 5390 "util.ml" 139 5334 5398
+type(
+  string list
+)
+ident(
+  int_ref contents "util.ml" 137 5222 5253 "util.ml" 137 5222 5261
+)
+"util.ml" 139 5334 5381 "util.ml" 139 5334 5398
+call(
+  stack
+)
+type(
+  string list
+)
+"util.ml" 139 5334 5358 "util.ml" 139 5334 5399
+call(
+  tail
+)
+type(
+  string
+)
+"util.ml" 140 5400 5413 "util.ml" 140 5400 5428
+type(
+  UnixLabels.file_descr -> string list -> string
+)
+ident(
+  int_ref receive_message "util.ml" 137 5222 5234 "util.ml" 137 5222 5249
+)
+"util.ml" 140 5400 5429 "util.ml" 140 5400 5431
+type(
+  UnixLabels.file_descr
+)
+ident(
+  int_ref fd "util.ml" 137 5222 5250 "util.ml" 137 5222 5252
+)
+"util.ml" 140 5400 5434 "util.ml" 140 5400 5444
+type(
+  (string, string) Blit.sub
+)
+ident(
+  ext_ref Core.Std.String.sub
+)
+"util.ml" 140 5400 5445 "util.ml" 140 5400 5448
+type(
+  string
+)
+ident(
+  int_ref buf "util.ml" 135 5153 5161 "util.ml" 135 5153 5164
+)
+"util.ml" 140 5400 5454 "util.ml" 140 5400 5455
+type(
+  int
+)
+"util.ml" 140 5400 5461 "util.ml" 140 5400 5464
+type(
+  int
+)
+ident(
+  int_ref len "util.ml" 138 5264 5274 "util.ml" 138 5264 5277
+)
+"util.ml" 140 5400 5434 "util.ml" 140 5400 5464
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 140 5400 5467 "util.ml" 140 5400 5475
+type(
+  string list
+)
+ident(
+  int_ref contents "util.ml" 137 5222 5253 "util.ml" 137 5222 5261
+)
+"util.ml" 140 5400 5433 "util.ml" 140 5400 5475
+type(
+  string list
+)
+"util.ml" 140 5400 5413 "util.ml" 140 5400 5476
+call(
+  tail
+)
+type(
+  string
+)
+"util.ml" 139 5334 5342 "util.ml" 140 5400 5476
+type(
+  string
+)
+"util.ml" 138 5264 5270 "util.ml" 140 5400 5476
+type(
+  string
+)
+"util.ml" 137 5222 5253 "util.ml" 140 5400 5476
+type(
+  string list -> string
+)
+"util.ml" 137 5222 5250 "util.ml" 140 5400 5476
+type(
+  UnixLabels.file_descr -> string list -> string
+)
+"util.ml" 149 5806 5814 "util.ml" 149 5806 5828
+type(
+  link -> string option
+)
+ident(
+  def inet_fetch_url "util.ml" 167 6722 6726 "util.ml" 320 12547 12552
+)
+"util.ml" 149 5806 5829 "util.ml" 149 5806 5833
+type(
+  link
+)
+ident(
+  def link "util.ml" 149 5806 5834 "util.ml" 162 6520 6575
+)
+"util.ml" 150 5852 5862 "util.ml" 150 5852 5871
+type(
+  UnixLabels.inet_addr
+)
+ident(
+  def host_addr "util.ml" 154 6020 6026 "util.ml" 162 6520 6575
+)
+"util.ml" 151 5874 5886 "util.ml" 151 5874 5910
+type(
+  string -> UnixLabels.inet_addr
+)
+ident(
+  ext_ref Core.Std.Unix.Inet_addr.of_string
+)
+"util.ml" 151 5874 5911 "util.ml" 151 5874 5915
+type(
+  link
+)
+ident(
+  int_ref link "util.ml" 149 5806 5829 "util.ml" 149 5806 5833
+)
+"util.ml" 151 5874 5911 "util.ml" 151 5874 5920
+type(
+  string
+)
+"util.ml" 151 5874 5886 "util.ml" 151 5874 5920
+call(
+  stack
+)
+type(
+  UnixLabels.inet_addr
+)
+"util.ml" 152 5921 5942 "util.ml" 152 5921 5943
+type(
+  string
+)
+"util.ml" 152 5921 5934 "util.ml" 152 5921 5943
+type(
+  exn
+)
+"util.ml" 153 5947 5958 "util.ml" 153 5947 5981
+type(
+  string -> Unix.Host.t
+)
+ident(
+  ext_ref Core.Std.Unix.Host.getbyname_exn
+)
+"util.ml" 153 5947 5982 "util.ml" 153 5947 5986
+type(
+  link
+)
+ident(
+  int_ref link "util.ml" 149 5806 5829 "util.ml" 149 5806 5833
+)
+"util.ml" 153 5947 5982 "util.ml" 153 5947 5991
+type(
+  string
+)
+"util.ml" 153 5947 5958 "util.ml" 153 5947 5991
+call(
+  stack
+)
+type(
+  Unix.Host.t
+)
+"util.ml" 153 5947 5957 "util.ml" 153 5947 6012
+type(
+  UnixLabels.inet_addr array
+)
+"util.ml" 153 5947 6014 "util.ml" 153 5947 6015
+type(
+  int
+)
+"util.ml" 153 5947 5957 "util.ml" 153 5947 6016
+type(
+  UnixLabels.inet_addr
+)
+type(
+  UnixLabels.inet_addr array -> int -> UnixLabels.inet_addr
+)
+ident(
+  ext_ref Core.Std.Array.get
+)
+"util.ml" 151 5874 5882 "util.ml" 153 5947 6016
+type(
+  UnixLabels.inet_addr
+)
+"util.ml" 154 6020 6030 "util.ml" 154 6020 6032
+type(
+  UnixLabels.file_descr
+)
+ident(
+  def fd "util.ml" 155 6106 6112 "util.ml" 162 6520 6575
+)
+"util.ml" 154 6020 6035 "util.ml" 154 6020 6046
+type(
+  domain:UnixLabels.socket_domain ->
+  kind:UnixLabels.socket_type -> protocol:int -> UnixLabels.file_descr
+)
+ident(
+  ext_ref Core.Std.Unix.socket
+)
+"util.ml" 154 6020 6055 "util.ml" 154 6020 6067
+type(
+  UnixLabels.socket_domain
+)
+"util.ml" 154 6020 6074 "util.ml" 154 6020 6090
+type(
+  UnixLabels.socket_type
+)
+"util.ml" 154 6020 6101 "util.ml" 154 6020 6102
+type(
+  int
+)
+"util.ml" 154 6020 6035 "util.ml" 154 6020 6102
+call(
+  stack
+)
+type(
+  UnixLabels.file_descr
+)
+"util.ml" 155 6106 6116 "util.ml" 155 6106 6117
+type(
+  unit
+)
+"util.ml" 155 6106 6120 "util.ml" 155 6106 6132
+type(
+  UnixLabels.file_descr -> addr:UnixLabels.sockaddr -> unit
+)
+ident(
+  ext_ref Core.Std.Unix.connect
+)
+"util.ml" 155 6106 6133 "util.ml" 155 6106 6135
+type(
+  UnixLabels.file_descr
+)
+ident(
+  int_ref fd "util.ml" 154 6020 6030 "util.ml" 154 6020 6032
+)
+"util.ml" 155 6106 6159 "util.ml" 155 6106 6168
+type(
+  UnixLabels.inet_addr
+)
+ident(
+  int_ref host_addr "util.ml" 150 5852 5862 "util.ml" 150 5852 5871
+)
+"util.ml" 155 6106 6169 "util.ml" 155 6106 6173
+type(
+  link
+)
+ident(
+  int_ref link "util.ml" 149 5806 5829 "util.ml" 149 5806 5833
+)
+"util.ml" 155 6106 6169 "util.ml" 155 6106 6178
+type(
+  int
+)
+"util.ml" 155 6106 6143 "util.ml" 155 6106 6179
+type(
+  UnixLabels.sockaddr
+)
+"util.ml" 155 6106 6120 "util.ml" 155 6106 6180
+call(
+  stack
+)
+type(
+  unit
+)
+"util.ml" 156 6184 6194 "util.ml" 156 6184 6197
+type(
+  string
+)
+ident(
+  def msg "util.ml" 159 6329 6335 "util.ml" 162 6520 6575
+)
+"util.ml" 157 6200 6208 "util.ml" 157 6200 6214
+type(
+  string
+)
+"util.ml" 157 6200 6214 "util.ml" 157 6200 6215
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 157 6200 6215 "util.ml" 157 6200 6219
+type(
+  link
+)
+ident(
+  int_ref link "util.ml" 149 5806 5829 "util.ml" 149 5806 5833
+)
+"util.ml" 157 6200 6215 "util.ml" 157 6200 6224
+type(
+  string
+)
+"util.ml" 157 6200 6224 "util.ml" 157 6200 6225
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 157 6200 6225 "util.ml" 157 6200 6246
+type(
+  string
+)
+"util.ml" 157 6200 6246 "util.ml" 157 6200 6247
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 157 6200 6247 "util.ml" 157 6200 6251
+type(
+  link
+)
+ident(
+  int_ref link "util.ml" 149 5806 5829 "util.ml" 149 5806 5833
+)
+"util.ml" 157 6200 6247 "util.ml" 157 6200 6256
+type(
+  string
+)
+"util.ml" 157 6200 6256 "util.ml" 157 6200 6257
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 157 6200 6257 "util.ml" 157 6200 6260
+type(
+  string
+)
+"util.ml" 157 6200 6260 "util.ml" 157 6200 6261
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 158 6262 6273 "util.ml" 158 6262 6286
+type(
+  int -> string
+)
+ident(
+  ext_ref Core.Std.String.create
+)
+"util.ml" 158 6262 6287 "util.ml" 158 6262 6291
+type(
+  link
+)
+ident(
+  int_ref link "util.ml" 149 5806 5829 "util.ml" 149 5806 5833
+)
+"util.ml" 158 6262 6287 "util.ml" 158 6262 6296
+type(
+  int
+)
+"util.ml" 158 6262 6273 "util.ml" 158 6262 6296
+type(
+  string
+)
+"util.ml" 158 6262 6297 "util.ml" 158 6262 6298
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 158 6262 6298 "util.ml" 158 6262 6325
+type(
+  string
+)
+"util.ml" 158 6262 6272 "util.ml" 158 6262 6325
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 157 6200 6257 "util.ml" 158 6262 6325
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 157 6200 6247 "util.ml" 158 6262 6325
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 157 6200 6225 "util.ml" 158 6262 6325
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 157 6200 6215 "util.ml" 158 6262 6325
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 157 6200 6208 "util.ml" 158 6262 6325
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 159 6329 6339 "util.ml" 159 6329 6340
+type(
+  int
+)
+ident(
+  def i "util.ml" 160 6409 6417 "util.ml" 162 6520 6575
+)
+"util.ml" 159 6329 6343 "util.ml" 159 6329 6352
+type(
+  UnixLabels.file_descr ->
+  buf:string -> pos:int -> len:int -> mode:UnixLabels.msg_flag list -> int
+)
+ident(
+  ext_ref Core.Std.Unix.send
+)
+"util.ml" 159 6329 6353 "util.ml" 159 6329 6355
+type(
+  UnixLabels.file_descr
+)
+ident(
+  int_ref fd "util.ml" 154 6020 6030 "util.ml" 154 6020 6032
+)
+"util.ml" 159 6329 6361 "util.ml" 159 6329 6364
+type(
+  string
+)
+ident(
+  int_ref msg "util.ml" 156 6184 6194 "util.ml" 156 6184 6197
+)
+"util.ml" 159 6329 6370 "util.ml" 159 6329 6371
+type(
+  int
+)
+"util.ml" 159 6329 6378 "util.ml" 159 6329 6391
+type(
+  string -> int
+)
+ident(
+  ext_ref Core.Std.String.length
+)
+"util.ml" 159 6329 6392 "util.ml" 159 6329 6395
+type(
+  string
+)
+ident(
+  int_ref msg "util.ml" 156 6184 6194 "util.ml" 156 6184 6197
+)
+"util.ml" 159 6329 6378 "util.ml" 159 6329 6395
+type(
+  int
+)
+"util.ml" 159 6329 6403 "util.ml" 159 6329 6405
+type(
+  UnixLabels.msg_flag list
+)
+"util.ml" 159 6329 6343 "util.ml" 159 6329 6405
+call(
+  stack
+)
+type(
+  int
+)
+"util.ml" 160 6409 6420 "util.ml" 160 6409 6421
+type(
+  int
+)
+ident(
+  int_ref i "util.ml" 159 6329 6339 "util.ml" 159 6329 6340
+)
+"util.ml" 160 6409 6422 "util.ml" 160 6409 6423
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"util.ml" 160 6409 6424 "util.ml" 160 6409 6426
+type(
+  int
+)
+"util.ml" 160 6409 6420 "util.ml" 160 6409 6426
+type(
+  bool
+)
+"util.ml" 160 6409 6432 "util.ml" 160 6409 6437
+type(
+  exn -> string option
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"util.ml" 160 6409 6447 "util.ml" 160 6409 6465
+type(
+  string
+)
+"util.ml" 160 6409 6439 "util.ml" 160 6409 6465
+type(
+  exn
+)
+"util.ml" 160 6409 6432 "util.ml" 160 6409 6466
+type(
+  string option
+)
+"util.ml" 161 6472 6486 "util.ml" 161 6472 6492
+type(
+  string
+)
+ident(
+  def result "util.ml" 162 6520 6532 "util.ml" 162 6520 6575
+)
+"util.ml" 161 6472 6495 "util.ml" 161 6472 6510
+type(
+  UnixLabels.file_descr -> string list -> string
+)
+ident(
+  int_ref receive_message "util.ml" 137 5222 5234 "util.ml" 137 5222 5249
+)
+"util.ml" 161 6472 6511 "util.ml" 161 6472 6513
+type(
+  UnixLabels.file_descr
+)
+ident(
+  int_ref fd "util.ml" 154 6020 6030 "util.ml" 154 6020 6032
+)
+"util.ml" 161 6472 6514 "util.ml" 161 6472 6516
+type(
+  string list
+)
+"util.ml" 161 6472 6495 "util.ml" 161 6472 6516
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 162 6520 6532 "util.ml" 162 6520 6542
+type(
+  ?restart:bool -> UnixLabels.file_descr -> unit
+)
+ident(
+  ext_ref Core.Std.Unix.close
+)
+"util.ml" 162 6520 6543 "util.ml" 162 6520 6545
+type(
+  UnixLabels.file_descr
+)
+ident(
+  int_ref fd "util.ml" 154 6020 6030 "util.ml" 154 6020 6032
+)
+"util.ml" 162 6520 6532 "util.ml" 162 6520 6545
+call(
+  stack
+)
+type(
+  unit
+)
+"util.ml" 162 6520 6554 "util.ml" 162 6520 6567
+type(
+  string -> string
+)
+ident(
+  int_ref strip_headers "util.ml" 115 4464 4472 "util.ml" 115 4464 4485
+)
+"util.ml" 162 6520 6568 "util.ml" 162 6520 6574
+type(
+  string
+)
+ident(
+  int_ref result "util.ml" 161 6472 6486 "util.ml" 161 6472 6492
+)
+"util.ml" 162 6520 6554 "util.ml" 162 6520 6574
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 162 6520 6548 "util.ml" 162 6520 6575
+type(
+  string option
+)
+"util.ml" 162 6520 6532 "util.ml" 162 6520 6575
+type(
+  string option
+)
+"util.ml" 161 6472 6482 "util.ml" 162 6520 6575
+type(
+  string option
+)
+"util.ml" 160 6409 6417 "util.ml" 162 6520 6575
+type(
+  string option
+)
+"util.ml" 159 6329 6335 "util.ml" 162 6520 6575
+type(
+  string option
+)
+"util.ml" 156 6184 6190 "util.ml" 162 6520 6575
+type(
+  string option
+)
+"util.ml" 155 6106 6112 "util.ml" 162 6520 6575
+type(
+  string option
+)
+"util.ml" 154 6020 6026 "util.ml" 162 6520 6575
+type(
+  string option
+)
+"util.ml" 150 5852 5858 "util.ml" 162 6520 6575
+type(
+  string option
+)
+type(
+  string option
+)
+"util.ml" 149 5806 5829 "util.ml" 162 6520 6575
+type(
+  link -> string option
+)
+"util.ml" 167 6722 6730 "util.ml" 167 6722 6737
+type(
+  int
+)
+ident(
+  def buf_len "util.ml" 168 6748 6752 "util.ml" 320 12547 12552
+)
+"util.ml" 167 6722 6740 "util.ml" 167 6722 6744
+type(
+  int
+)
+"util.ml" 168 6748 6756 "util.ml" 168 6748 6759
+type(
+  string
+)
+ident(
+  def buf "util.ml" 170 6817 6821 "util.ml" 320 12547 12552
+)
+"util.ml" 168 6748 6762 "util.ml" 168 6748 6775
+type(
+  int -> string
+)
+ident(
+  ext_ref Core.Std.String.create
+)
+"util.ml" 168 6748 6776 "util.ml" 168 6748 6783
+type(
+  int
+)
+ident(
+  int_ref buf_len "util.ml" 167 6722 6730 "util.ml" 167 6722 6737
+)
+"util.ml" 168 6748 6762 "util.ml" 168 6748 6783
+type(
+  string
+)
+"util.ml" 170 6817 6825 "util.ml" 170 6817 6839
+type(
+  link -> string option
+)
+ident(
+  def file_fetch_url "util.ml" 181 7335 7339 "util.ml" 320 12547 12552
+)
+"util.ml" 170 6817 6840 "util.ml" 170 6817 6844
+type(
+  link
+)
+ident(
+  def link "util.ml" 170 6817 6845 "util.ml" 177 7191 7234
+)
+"util.ml" 171 6863 6873 "util.ml" 171 6863 6877
+type(
+  in_channel
+)
+ident(
+  def chan "util.ml" 172 6901 6907 "util.ml" 177 7191 7234
+)
+"util.ml" 171 6863 6880 "util.ml" 171 6863 6887
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"util.ml" 171 6863 6888 "util.ml" 171 6863 6892
+type(
+  link
+)
+ident(
+  int_ref link "util.ml" 170 6817 6840 "util.ml" 170 6817 6844
+)
+"util.ml" 171 6863 6888 "util.ml" 171 6863 6897
+type(
+  string
+)
+"util.ml" 171 6863 6880 "util.ml" 171 6863 6897
+call(
+  stack
+)
+type(
+  in_channel
+)
+"util.ml" 172 6901 6915 "util.ml" 172 6901 6930
+type(
+  in_channel -> string list -> string
+)
+ident(
+  def receive_message "util.ml" 172 6901 6907 "util.ml" 177 7191 7234
+)
+"util.ml" 172 6901 6931 "util.ml" 172 6901 6935
+type(
+  in_channel
+)
+ident(
+  def chan "util.ml" 172 6901 6936 "util.ml" 175 7061 7141
+)
+"util.ml" 172 6901 6936 "util.ml" 172 6901 6944
+type(
+  string list
+)
+ident(
+  def contents "util.ml" 173 6947 6955 "util.ml" 175 7061 7141
+)
+"util.ml" 173 6947 6959 "util.ml" 173 6947 6962
+type(
+  int
+)
+ident(
+  def len "util.ml" 174 6993 7003 "util.ml" 175 7061 7141
+)
+"util.ml" 173 6947 6965 "util.ml" 173 6947 6970
+type(
+  in_channel -> string -> int -> int -> int
+)
+ident(
+  ext_ref Pervasives.input
+)
+"util.ml" 173 6947 6971 "util.ml" 173 6947 6975
+type(
+  in_channel
+)
+ident(
+  int_ref chan "util.ml" 172 6901 6931 "util.ml" 172 6901 6935
+)
+"util.ml" 173 6947 6976 "util.ml" 173 6947 6979
+type(
+  string
+)
+ident(
+  int_ref buf "util.ml" 168 6748 6756 "util.ml" 168 6748 6759
+)
+"util.ml" 173 6947 6980 "util.ml" 173 6947 6981
+type(
+  int
+)
+"util.ml" 173 6947 6982 "util.ml" 173 6947 6989
+type(
+  int
+)
+ident(
+  int_ref buf_len "util.ml" 167 6722 6730 "util.ml" 167 6722 6737
+)
+"util.ml" 173 6947 6965 "util.ml" 173 6947 6989
+call(
+  stack
+)
+type(
+  int
+)
+"util.ml" 174 6993 7006 "util.ml" 174 6993 7009
+type(
+  int
+)
+ident(
+  int_ref len "util.ml" 173 6947 6959 "util.ml" 173 6947 6962
+)
+"util.ml" 174 6993 7010 "util.ml" 174 6993 7011
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"util.ml" 174 6993 7012 "util.ml" 174 6993 7013
+type(
+  int
+)
+"util.ml" 174 6993 7006 "util.ml" 174 6993 7013
+type(
+  bool
+)
+"util.ml" 174 6993 7019 "util.ml" 174 6993 7032
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"util.ml" 174 6993 7038 "util.ml" 174 6993 7040
+type(
+  string
+)
+"util.ml" 174 6993 7042 "util.ml" 174 6993 7050
+type(
+  string list -> string list
+)
+ident(
+  ext_ref Core.Std.List.rev
+)
+"util.ml" 174 6993 7051 "util.ml" 174 6993 7059
+type(
+  string list
+)
+ident(
+  int_ref contents "util.ml" 172 6901 6936 "util.ml" 172 6901 6944
+)
+"util.ml" 174 6993 7042 "util.ml" 174 6993 7059
+call(
+  stack
+)
+type(
+  string list
+)
+"util.ml" 174 6993 7019 "util.ml" 174 6993 7060
+call(
+  tail
+)
+type(
+  string
+)
+"util.ml" 175 7061 7076 "util.ml" 175 7061 7091
+type(
+  in_channel -> string list -> string
+)
+ident(
+  int_ref receive_message "util.ml" 172 6901 6915 "util.ml" 172 6901 6930
+)
+"util.ml" 175 7061 7092 "util.ml" 175 7061 7096
+type(
+  in_channel
+)
+ident(
+  int_ref chan "util.ml" 172 6901 6931 "util.ml" 172 6901 6935
+)
+"util.ml" 175 7061 7099 "util.ml" 175 7061 7109
+type(
+  (string, string) Blit.sub
+)
+ident(
+  ext_ref Core.Std.String.sub
+)
+"util.ml" 175 7061 7110 "util.ml" 175 7061 7113
+type(
+  string
+)
+ident(
+  int_ref buf "util.ml" 168 6748 6756 "util.ml" 168 6748 6759
+)
+"util.ml" 175 7061 7119 "util.ml" 175 7061 7120
+type(
+  int
+)
+"util.ml" 175 7061 7126 "util.ml" 175 7061 7129
+type(
+  int
+)
+ident(
+  int_ref len "util.ml" 173 6947 6959 "util.ml" 173 6947 6962
+)
+"util.ml" 175 7061 7099 "util.ml" 175 7061 7129
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 175 7061 7132 "util.ml" 175 7061 7140
+type(
+  string list
+)
+ident(
+  int_ref contents "util.ml" 172 6901 6936 "util.ml" 172 6901 6944
+)
+"util.ml" 175 7061 7098 "util.ml" 175 7061 7140
+type(
+  string list
+)
+"util.ml" 175 7061 7076 "util.ml" 175 7061 7141
+call(
+  tail
+)
+type(
+  string
+)
+"util.ml" 174 6993 7003 "util.ml" 175 7061 7141
+type(
+  string
+)
+"util.ml" 173 6947 6955 "util.ml" 175 7061 7141
+type(
+  string
+)
+"util.ml" 172 6901 6936 "util.ml" 175 7061 7141
+type(
+  string list -> string
+)
+"util.ml" 172 6901 6931 "util.ml" 175 7061 7141
+type(
+  in_channel -> string list -> string
+)
+"util.ml" 176 7145 7155 "util.ml" 176 7145 7161
+type(
+  string
+)
+ident(
+  def result "util.ml" 177 7191 7199 "util.ml" 177 7191 7234
+)
+"util.ml" 176 7145 7164 "util.ml" 176 7145 7179
+type(
+  in_channel -> string list -> string
+)
+ident(
+  int_ref receive_message "util.ml" 172 6901 6915 "util.ml" 172 6901 6930
+)
+"util.ml" 176 7145 7180 "util.ml" 176 7145 7184
+type(
+  in_channel
+)
+ident(
+  int_ref chan "util.ml" 171 6863 6873 "util.ml" 171 6863 6877
+)
+"util.ml" 176 7145 7185 "util.ml" 176 7145 7187
+type(
+  string list
+)
+"util.ml" 176 7145 7164 "util.ml" 176 7145 7187
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 177 7191 7199 "util.ml" 177 7191 7215
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Core.Std.In_channel.close
+)
+"util.ml" 177 7191 7216 "util.ml" 177 7191 7220
+type(
+  in_channel
+)
+ident(
+  int_ref chan "util.ml" 171 6863 6873 "util.ml" 171 6863 6877
+)
+"util.ml" 177 7191 7199 "util.ml" 177 7191 7220
+call(
+  stack
+)
+type(
+  unit
+)
+"util.ml" 177 7191 7228 "util.ml" 177 7191 7234
+type(
+  string
+)
+ident(
+  int_ref result "util.ml" 176 7145 7155 "util.ml" 176 7145 7161
+)
+"util.ml" 177 7191 7223 "util.ml" 177 7191 7234
+type(
+  string option
+)
+"util.ml" 177 7191 7199 "util.ml" 177 7191 7234
+type(
+  string option
+)
+"util.ml" 176 7145 7151 "util.ml" 177 7191 7234
+type(
+  string option
+)
+"util.ml" 172 6901 6907 "util.ml" 177 7191 7234
+type(
+  string option
+)
+"util.ml" 171 6863 6869 "util.ml" 177 7191 7234
+type(
+  string option
+)
+type(
+  string option
+)
+"util.ml" 170 6817 6840 "util.ml" 177 7191 7234
+type(
+  link -> string option
+)
+"util.ml" 181 7335 7343 "util.ml" 181 7335 7357
+type(
+  string list
+)
+ident(
+  def valid_suffixes "util.ml" 184 7424 7428 "util.ml" 320 12547 12552
+)
+"util.ml" 182 7360 7368 "util.ml" 182 7360 7370
+type(
+  string
+)
+"util.ml" 182 7360 7372 "util.ml" 182 7360 7379
+type(
+  string
+)
+"util.ml" 182 7360 7381 "util.ml" 182 7360 7388
+type(
+  string
+)
+"util.ml" 182 7360 7390 "util.ml" 182 7360 7396
+type(
+  string
+)
+"util.ml" 182 7360 7398 "util.ml" 182 7360 7405
+type(
+  string
+)
+"util.ml" 182 7360 7407 "util.ml" 182 7360 7412
+type(
+  string
+)
+"util.ml" 182 7360 7414 "util.ml" 182 7360 7420
+type(
+  string
+)
+type(
+  string list
+)
+"util.ml" 182 7360 7407 "util.ml" 182 7360 7420
+type(
+  string list
+)
+"util.ml" 182 7360 7398 "util.ml" 182 7360 7420
+type(
+  string list
+)
+"util.ml" 182 7360 7390 "util.ml" 182 7360 7420
+type(
+  string list
+)
+"util.ml" 182 7360 7381 "util.ml" 182 7360 7420
+type(
+  string list
+)
+"util.ml" 182 7360 7372 "util.ml" 182 7360 7420
+type(
+  string list
+)
+"util.ml" 182 7360 7368 "util.ml" 182 7360 7420
+type(
+  string list
+)
+"util.ml" 182 7360 7366 "util.ml" 182 7360 7422
+type(
+  string list
+)
+"util.ml" 184 7424 7432 "util.ml" 184 7424 7441
+type(
+  link -> string option
+)
+ident(
+  def fetch_url "util.ml" 192 7685 7689 "util.ml" 320 12547 12552
+)
+"util.ml" 184 7424 7442 "util.ml" 184 7424 7446
+type(
+  link
+)
+ident(
+  def link "util.ml" 184 7424 7447 "util.ml" 190 7663 7683
+)
+"util.ml" 186 7475 7487 "util.ml" 186 7475 7498
+type(
+  string list -> f:(string -> bool) -> bool
+)
+ident(
+  ext_ref Core.Std.List.exists
+)
+"util.ml" 186 7475 7499 "util.ml" 186 7475 7513
+type(
+  string list
+)
+ident(
+  int_ref valid_suffixes "util.ml" 181 7335 7343 "util.ml" 181 7335 7357
+)
+"util.ml" 186 7475 7518 "util.ml" 186 7475 7539
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Core.Std.Filename.check_suffix
+)
+"util.ml" 186 7475 7540 "util.ml" 186 7475 7544
+type(
+  link
+)
+ident(
+  int_ref link "util.ml" 184 7424 7442 "util.ml" 184 7424 7446
+)
+"util.ml" 186 7475 7540 "util.ml" 186 7475 7549
+type(
+  string
+)
+"util.ml" 186 7475 7518 "util.ml" 186 7475 7549
+call(
+  stack
+)
+type(
+  string -> bool
+)
+"util.ml" 186 7475 7487 "util.ml" 186 7475 7550
+call(
+  stack
+)
+type(
+  bool
+)
+"util.ml" 187 7557 7570 "util.ml" 187 7557 7584
+type(
+  bool
+)
+ident(
+  int_ref crawl_internet "util.ml" 48 1944 1952 "util.ml" 48 1944 1966
+)
+"util.ml" 187 7557 7590 "util.ml" 187 7557 7604
+type(
+  link -> string option
+)
+ident(
+  int_ref inet_fetch_url "util.ml" 149 5806 5814 "util.ml" 149 5806 5828
+)
+"util.ml" 187 7557 7605 "util.ml" 187 7557 7609
+type(
+  link
+)
+ident(
+  int_ref link "util.ml" 184 7424 7442 "util.ml" 184 7424 7446
+)
+"util.ml" 187 7557 7590 "util.ml" 187 7557 7609
+call(
+  stack
+)
+type(
+  string option
+)
+"util.ml" 188 7610 7625 "util.ml" 188 7610 7639
+type(
+  link -> string option
+)
+ident(
+  int_ref file_fetch_url "util.ml" 170 6817 6825 "util.ml" 170 6817 6839
+)
+"util.ml" 188 7610 7640 "util.ml" 188 7610 7644
+type(
+  link
+)
+ident(
+  int_ref link "util.ml" 184 7424 7442 "util.ml" 184 7424 7446
+)
+"util.ml" 188 7610 7625 "util.ml" 188 7610 7644
+call(
+  stack
+)
+type(
+  string option
+)
+"util.ml" 187 7557 7567 "util.ml" 188 7610 7644
+type(
+  string option
+)
+"util.ml" 189 7645 7658 "util.ml" 189 7645 7662
+type(
+  string option
+)
+"util.ml" 186 7475 7483 "util.ml" 189 7645 7662
+type(
+  string option
+)
+"util.ml" 190 7663 7674 "util.ml" 190 7663 7675
+type(
+  exn
+)
+"util.ml" 190 7663 7679 "util.ml" 190 7663 7683
+type(
+  string option
+)
+"util.ml" 185 7465 7471 "util.ml" 190 7663 7683
+type(
+  string option
+)
+type(
+  string option
+)
+"util.ml" 184 7424 7442 "util.ml" 190 7663 7683
+type(
+  link -> string option
+)
+"util.ml" 192 7685 7693 "util.ml" 192 7685 7700
+type(
+  Str.regexp
+)
+ident(
+  def href_re "util.ml" 193 7762 7766 "util.ml" 320 12547 12552
+)
+"util.ml" 192 7685 7703 "util.ml" 192 7685 7723
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp_case_fold
+)
+"util.ml" 192 7685 7724 "util.ml" 192 7685 7758
+type(
+  string
+)
+"util.ml" 192 7685 7703 "util.ml" 192 7685 7758
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"util.ml" 193 7762 7770 "util.ml" 193 7762 7786
+type(
+  Str.regexp
+)
+ident(
+  def absolute_path_re "util.ml" 194 7811 7815 "util.ml" 320 12547 12552
+)
+"util.ml" 193 7762 7789 "util.ml" 193 7762 7799
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"util.ml" 193 7762 7800 "util.ml" 193 7762 7807
+type(
+  string
+)
+"util.ml" 193 7762 7789 "util.ml" 193 7762 7807
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"util.ml" 194 7811 7819 "util.ml" 194 7811 7832
+type(
+  Str.regexp
+)
+ident(
+  def javascript_re "util.ml" 195 7867 7871 "util.ml" 320 12547 12552
+)
+"util.ml" 194 7811 7835 "util.ml" 194 7811 7845
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"util.ml" 194 7811 7846 "util.ml" 194 7811 7863
+type(
+  string
+)
+"util.ml" 194 7811 7835 "util.ml" 194 7811 7863
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"util.ml" 195 7867 7875 "util.ml" 195 7867 7889
+type(
+  Str.regexp
+)
+ident(
+  def parent_path_re "util.ml" 204 8300 8304 "util.ml" 320 12547 12552
+)
+"util.ml" 195 7867 7892 "util.ml" 195 7867 7902
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"util.ml" 195 7867 7903 "util.ml" 195 7867 7914
+type(
+  string
+)
+"util.ml" 195 7867 7892 "util.ml" 195 7867 7914
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"util.ml" 204 8300 8308 "util.ml" 204 8300 8322
+type(
+  link -> string -> link option
+)
+ident(
+  def link_of_string "util.ml" 228 9310 9314 "util.ml" 320 12547 12552
+)
+"util.ml" 204 8300 8323 "util.ml" 204 8300 8334
+type(
+  link
+)
+ident(
+  def source_link "util.ml" 204 8300 8335 "util.ml" 223 9168 9198
+)
+"util.ml" 204 8300 8335 "util.ml" 204 8300 8346
+type(
+  string
+)
+ident(
+  def link_string "util.ml" 205 8349 8355 "util.ml" 223 9168 9198
+)
+"util.ml" 205 8349 8365 "util.ml" 205 8349 8374
+type(
+  string -> link
+)
+ident(
+  int_ref parse_url "util.ml" 101 3816 3824 "util.ml" 101 3816 3833
+)
+"util.ml" 205 8349 8375 "util.ml" 205 8349 8386
+type(
+  string
+)
+ident(
+  int_ref link_string "util.ml" 204 8300 8335 "util.ml" 204 8300 8346
+)
+"util.ml" 205 8349 8365 "util.ml" 205 8349 8386
+call(
+  stack
+)
+type(
+  link
+)
+"util.ml" 205 8349 8359 "util.ml" 205 8349 8387
+type(
+  link option
+)
+"util.ml" 206 8388 8399 "util.ml" 206 8388 8408
+type(
+  exn
+)
+"util.ml" 207 8412 8423 "util.ml" 207 8412 8439
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  ext_ref Str.string_match
+)
+"util.ml" 207 8412 8440 "util.ml" 207 8412 8456
+type(
+  Str.regexp
+)
+ident(
+  int_ref absolute_path_re "util.ml" 193 7762 7770 "util.ml" 193 7762 7786
+)
+"util.ml" 207 8412 8457 "util.ml" 207 8412 8468
+type(
+  string
+)
+ident(
+  int_ref link_string "util.ml" 204 8300 8335 "util.ml" 204 8300 8346
+)
+"util.ml" 207 8412 8469 "util.ml" 207 8412 8470
+type(
+  int
+)
+"util.ml" 207 8412 8423 "util.ml" 207 8412 8470
+call(
+  stack
+)
+type(
+  bool
+)
+"util.ml" 208 8476 8497 "util.ml" 208 8476 8508
+type(
+  link
+)
+ident(
+  int_ref source_link "util.ml" 204 8300 8323 "util.ml" 204 8300 8334
+)
+"util.ml" 208 8476 8497 "util.ml" 208 8476 8513
+type(
+  string
+)
+"util.ml" 209 8515 8536 "util.ml" 209 8515 8547
+type(
+  link
+)
+ident(
+  int_ref source_link "util.ml" 204 8300 8323 "util.ml" 204 8300 8334
+)
+"util.ml" 209 8515 8536 "util.ml" 209 8515 8552
+type(
+  int
+)
+"util.ml" 209 8515 8559 "util.ml" 209 8515 8570
+type(
+  string
+)
+ident(
+  int_ref link_string "util.ml" 204 8300 8335 "util.ml" 204 8300 8346
+)
+"util.ml" 208 8476 8491 "util.ml" 209 8515 8571
+type(
+  link
+)
+"util.ml" 208 8476 8486 "util.ml" 209 8515 8571
+type(
+  link option
+)
+"util.ml" 210 8572 8588 "util.ml" 210 8572 8604
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  ext_ref Str.string_match
+)
+"util.ml" 210 8572 8605 "util.ml" 210 8572 8618
+type(
+  Str.regexp
+)
+ident(
+  int_ref javascript_re "util.ml" 194 7811 7819 "util.ml" 194 7811 7832
+)
+"util.ml" 210 8572 8619 "util.ml" 210 8572 8630
+type(
+  string
+)
+ident(
+  int_ref link_string "util.ml" 204 8300 8335 "util.ml" 204 8300 8346
+)
+"util.ml" 210 8572 8631 "util.ml" 210 8572 8632
+type(
+  int
+)
+"util.ml" 210 8572 8588 "util.ml" 210 8572 8632
+call(
+  stack
+)
+type(
+  bool
+)
+"util.ml" 211 8638 8648 "util.ml" 211 8638 8652
+type(
+  link option
+)
+"util.ml" 215 8773 8791 "util.ml" 215 8773 8801
+type(
+  string -> string -> string
+)
+ident(
+  def glue_paths "util.ml" 215 8773 8783 "util.ml" 223 9168 9198
+)
+"util.ml" 215 8773 8802 "util.ml" 215 8773 8803
+type(
+  string
+)
+ident(
+  def p "util.ml" 215 8773 8804 "util.ml" 219 8975 9003
+)
+"util.ml" 215 8773 8804 "util.ml" 215 8773 8805
+type(
+  string
+)
+ident(
+  def s "util.ml" 216 8808 8820 "util.ml" 219 8975 9003
+)
+"util.ml" 216 8808 8823 "util.ml" 216 8808 8839
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  ext_ref Str.string_match
+)
+"util.ml" 216 8808 8840 "util.ml" 216 8808 8854
+type(
+  Str.regexp
+)
+ident(
+  int_ref parent_path_re "util.ml" 195 7867 7875 "util.ml" 195 7867 7889
+)
+"util.ml" 216 8808 8855 "util.ml" 216 8808 8856
+type(
+  string
+)
+ident(
+  int_ref s "util.ml" 215 8773 8804 "util.ml" 215 8773 8805
+)
+"util.ml" 216 8808 8857 "util.ml" 216 8808 8858
+type(
+  int
+)
+"util.ml" 216 8808 8823 "util.ml" 216 8808 8858
+call(
+  stack
+)
+type(
+  bool
+)
+"util.ml" 217 8864 8878 "util.ml" 217 8864 8888
+type(
+  string -> string -> string
+)
+ident(
+  int_ref glue_paths "util.ml" 215 8773 8791 "util.ml" 215 8773 8801
+)
+"util.ml" 217 8864 8890 "util.ml" 217 8864 8906
+type(
+  string -> string
+)
+ident(
+  ext_ref Core.Std.Filename.dirname
+)
+"util.ml" 217 8864 8907 "util.ml" 217 8864 8908
+type(
+  string
+)
+ident(
+  int_ref p "util.ml" 215 8773 8802 "util.ml" 215 8773 8803
+)
+"util.ml" 217 8864 8890 "util.ml" 217 8864 8908
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 218 8910 8927 "util.ml" 218 8910 8937
+type(
+  (string, string) Blit.sub
+)
+ident(
+  ext_ref Core.Std.String.sub
+)
+"util.ml" 218 8910 8938 "util.ml" 218 8910 8939
+type(
+  string
+)
+ident(
+  int_ref s "util.ml" 215 8773 8804 "util.ml" 215 8773 8805
+)
+"util.ml" 218 8910 8945 "util.ml" 218 8910 8946
+type(
+  int
+)
+"util.ml" 218 8910 8953 "util.ml" 218 8910 8966
+type(
+  string -> int
+)
+ident(
+  ext_ref Core.Std.String.length
+)
+"util.ml" 218 8910 8967 "util.ml" 218 8910 8968
+type(
+  string
+)
+ident(
+  int_ref s "util.ml" 215 8773 8804 "util.ml" 215 8773 8805
+)
+"util.ml" 218 8910 8953 "util.ml" 218 8910 8968
+type(
+  int
+)
+"util.ml" 218 8910 8969 "util.ml" 218 8910 8970
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"util.ml" 218 8910 8971 "util.ml" 218 8910 8972
+type(
+  int
+)
+"util.ml" 218 8910 8953 "util.ml" 218 8910 8972
+type(
+  int
+)
+"util.ml" 218 8910 8927 "util.ml" 218 8910 8973
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 217 8864 8878 "util.ml" 218 8910 8974
+call(
+  tail
+)
+type(
+  string
+)
+"util.ml" 219 8975 8992 "util.ml" 219 8975 8993
+type(
+  string
+)
+ident(
+  int_ref p "util.ml" 215 8773 8802 "util.ml" 215 8773 8803
+)
+"util.ml" 219 8975 8994 "util.ml" 219 8975 8995
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 219 8975 8996 "util.ml" 219 8975 8999
+type(
+  string
+)
+"util.ml" 219 8975 9000 "util.ml" 219 8975 9001
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 219 8975 9002 "util.ml" 219 8975 9003
+type(
+  string
+)
+ident(
+  int_ref s "util.ml" 215 8773 8804 "util.ml" 215 8773 8805
+)
+"util.ml" 219 8975 8996 "util.ml" 219 8975 9003
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 219 8975 8992 "util.ml" 219 8975 9003
+call(
+  tail
+)
+type(
+  string
+)
+"util.ml" 216 8808 8820 "util.ml" 219 8975 9003
+type(
+  string
+)
+"util.ml" 215 8773 8804 "util.ml" 219 8975 9003
+type(
+  string -> string
+)
+"util.ml" 215 8773 8802 "util.ml" 219 8975 9003
+type(
+  string -> string -> string
+)
+"util.ml" 220 9007 9021 "util.ml" 220 9007 9029
+type(
+  string
+)
+ident(
+  def new_path "util.ml" 222 9106 9116 "util.ml" 223 9168 9198
+)
+"util.ml" 221 9032 9044 "util.ml" 221 9032 9054
+type(
+  string -> string -> string
+)
+ident(
+  int_ref glue_paths "util.ml" 215 8773 8791 "util.ml" 215 8773 8801
+)
+"util.ml" 221 9032 9056 "util.ml" 221 9032 9072
+type(
+  string -> string
+)
+ident(
+  ext_ref Core.Std.Filename.dirname
+)
+"util.ml" 221 9032 9073 "util.ml" 221 9032 9084
+type(
+  link
+)
+ident(
+  int_ref source_link "util.ml" 204 8300 8323 "util.ml" 204 8300 8334
+)
+"util.ml" 221 9032 9073 "util.ml" 221 9032 9089
+type(
+  string
+)
+"util.ml" 221 9032 9056 "util.ml" 221 9032 9089
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 221 9032 9091 "util.ml" 221 9032 9102
+type(
+  string
+)
+ident(
+  int_ref link_string "util.ml" 204 8300 8335 "util.ml" 204 8300 8346
+)
+"util.ml" 221 9032 9044 "util.ml" 221 9032 9102
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 222 9106 9127 "util.ml" 222 9106 9138
+type(
+  link
+)
+ident(
+  int_ref source_link "util.ml" 204 8300 8323 "util.ml" 204 8300 8334
+)
+"util.ml" 222 9106 9127 "util.ml" 222 9106 9143
+type(
+  string
+)
+"util.ml" 222 9106 9150 "util.ml" 222 9106 9161
+type(
+  link
+)
+ident(
+  int_ref source_link "util.ml" 204 8300 8323 "util.ml" 204 8300 8334
+)
+"util.ml" 222 9106 9150 "util.ml" 222 9106 9166
+type(
+  int
+)
+"util.ml" 223 9168 9189 "util.ml" 223 9168 9197
+type(
+  string
+)
+ident(
+  int_ref new_path "util.ml" 220 9007 9021 "util.ml" 220 9007 9029
+)
+"util.ml" 222 9106 9121 "util.ml" 223 9168 9198
+type(
+  link
+)
+"util.ml" 222 9106 9116 "util.ml" 223 9168 9198
+type(
+  link option
+)
+"util.ml" 220 9007 9017 "util.ml" 223 9168 9198
+type(
+  link option
+)
+"util.ml" 215 8773 8783 "util.ml" 223 9168 9198
+type(
+  link option
+)
+"util.ml" 210 8572 8585 "util.ml" 223 9168 9198
+type(
+  link option
+)
+"util.ml" 207 8412 8420 "util.ml" 223 9168 9198
+type(
+  link option
+)
+"util.ml" 205 8349 8355 "util.ml" 223 9168 9198
+type(
+  link option
+)
+"util.ml" 204 8300 8335 "util.ml" 223 9168 9198
+type(
+  string -> link option
+)
+"util.ml" 204 8300 8323 "util.ml" 223 9168 9198
+type(
+  link -> string -> link option
+)
+"util.ml" 228 9310 9318 "util.ml" 228 9310 9327
+type(
+  link -> string -> link list
+)
+ident(
+  def get_links "util.ml" 247 10018 10022 "util.ml" 320 12547 12552
+)
+"util.ml" 228 9310 9328 "util.ml" 228 9310 9339
+type(
+  link
+)
+ident(
+  def source_link "util.ml" 228 9310 9340 "util.ml" 240 9760 9777
+)
+"util.ml" 228 9310 9340 "util.ml" 228 9310 9344
+type(
+  string
+)
+ident(
+  def page "util.ml" 229 9347 9353 "util.ml" 240 9760 9777
+)
+"util.ml" 229 9347 9361 "util.ml" 229 9347 9365
+type(
+  int -> link list -> link list
+)
+ident(
+  def loop "util.ml" 229 9347 9353 "util.ml" 240 9760 9777
+)
+"util.ml" 229 9347 9366 "util.ml" 229 9347 9369
+type(
+  int
+)
+ident(
+  def pos "util.ml" 229 9347 9370 "util.ml" 238 9711 9750
+)
+"util.ml" 229 9347 9370 "util.ml" 229 9347 9375
+type(
+  link list
+)
+ident(
+  def links "util.ml" 230 9378 9386 "util.ml" 238 9711 9750
+)
+"util.ml" 231 9390 9404 "util.ml" 231 9390 9405
+type(
+  int
+)
+"util.ml" 231 9390 9408 "util.ml" 231 9390 9426
+type(
+  Str.regexp -> string -> int -> int
+)
+ident(
+  ext_ref Str.search_forward
+)
+"util.ml" 231 9390 9427 "util.ml" 231 9390 9434
+type(
+  Str.regexp
+)
+ident(
+  int_ref href_re "util.ml" 192 7685 7693 "util.ml" 192 7685 7700
+)
+"util.ml" 231 9390 9435 "util.ml" 231 9390 9439
+type(
+  string
+)
+ident(
+  int_ref page "util.ml" 228 9310 9340 "util.ml" 228 9310 9344
+)
+"util.ml" 231 9390 9440 "util.ml" 231 9390 9443
+type(
+  int
+)
+ident(
+  int_ref pos "util.ml" 229 9347 9366 "util.ml" 229 9347 9369
+)
+"util.ml" 231 9390 9408 "util.ml" 231 9390 9443
+call(
+  stack
+)
+type(
+  int
+)
+"util.ml" 232 9447 9461 "util.ml" 232 9447 9472
+type(
+  string
+)
+ident(
+  def link_string "util.ml" 233 9503 9513 "util.ml" 236 9649 9697
+)
+"util.ml" 232 9447 9475 "util.ml" 232 9447 9492
+type(
+  int -> string -> string
+)
+ident(
+  ext_ref Str.matched_group
+)
+"util.ml" 232 9447 9493 "util.ml" 232 9447 9494
+type(
+  int
+)
+"util.ml" 232 9447 9495 "util.ml" 232 9447 9499
+type(
+  string
+)
+ident(
+  int_ref page "util.ml" 228 9310 9340 "util.ml" 228 9310 9344
+)
+"util.ml" 232 9447 9475 "util.ml" 232 9447 9499
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 233 9503 9517 "util.ml" 233 9503 9523
+type(
+  int
+)
+ident(
+  def newpos "util.ml" 234 9545 9557 "util.ml" 236 9649 9697
+)
+"util.ml" 233 9503 9526 "util.ml" 233 9503 9539
+type(
+  unit -> int
+)
+ident(
+  ext_ref Str.match_end
+)
+"util.ml" 233 9503 9539 "util.ml" 233 9503 9541
+type(
+  unit
+)
+"util.ml" 233 9503 9526 "util.ml" 233 9503 9541
+call(
+  stack
+)
+type(
+  int
+)
+"util.ml" 234 9545 9563 "util.ml" 234 9545 9577
+type(
+  link -> string -> link option
+)
+ident(
+  int_ref link_of_string "util.ml" 204 8300 8308 "util.ml" 204 8300 8322
+)
+"util.ml" 234 9545 9578 "util.ml" 234 9545 9589
+type(
+  link
+)
+ident(
+  int_ref source_link "util.ml" 228 9310 9328 "util.ml" 228 9310 9339
+)
+"util.ml" 234 9545 9590 "util.ml" 234 9545 9601
+type(
+  string
+)
+ident(
+  int_ref link_string "util.ml" 232 9447 9461 "util.ml" 232 9447 9472
+)
+"util.ml" 234 9545 9563 "util.ml" 234 9545 9601
+call(
+  stack
+)
+type(
+  link option
+)
+"util.ml" 235 9607 9623 "util.ml" 235 9607 9627
+type(
+  link option
+)
+"util.ml" 235 9607 9631 "util.ml" 235 9607 9635
+type(
+  int -> link list -> link list
+)
+ident(
+  int_ref loop "util.ml" 229 9347 9361 "util.ml" 229 9347 9365
+)
+"util.ml" 235 9607 9636 "util.ml" 235 9607 9642
+type(
+  int
+)
+ident(
+  int_ref newpos "util.ml" 233 9503 9517 "util.ml" 233 9503 9523
+)
+"util.ml" 235 9607 9643 "util.ml" 235 9607 9648
+type(
+  link list
+)
+ident(
+  int_ref links "util.ml" 229 9347 9370 "util.ml" 229 9347 9375
+)
+"util.ml" 235 9607 9631 "util.ml" 235 9607 9648
+call(
+  stack
+)
+type(
+  link list
+)
+"util.ml" 236 9649 9670 "util.ml" 236 9649 9671
+type(
+  link
+)
+ident(
+  def l "util.ml" 236 9649 9675 "util.ml" 236 9649 9697
+)
+"util.ml" 236 9649 9665 "util.ml" 236 9649 9671
+type(
+  link option
+)
+"util.ml" 236 9649 9675 "util.ml" 236 9649 9679
+type(
+  int -> link list -> link list
+)
+ident(
+  int_ref loop "util.ml" 229 9347 9361 "util.ml" 229 9347 9365
+)
+"util.ml" 236 9649 9680 "util.ml" 236 9649 9686
+type(
+  int
+)
+ident(
+  int_ref newpos "util.ml" 233 9503 9517 "util.ml" 233 9503 9523
+)
+"util.ml" 236 9649 9688 "util.ml" 236 9649 9689
+type(
+  link
+)
+ident(
+  int_ref l "util.ml" 236 9649 9670 "util.ml" 236 9649 9671
+)
+"util.ml" 236 9649 9691 "util.ml" 236 9649 9696
+type(
+  link list
+)
+ident(
+  int_ref links "util.ml" 229 9347 9370 "util.ml" 229 9347 9375
+)
+"util.ml" 236 9649 9688 "util.ml" 236 9649 9696
+type(
+  link list
+)
+"util.ml" 236 9649 9675 "util.ml" 236 9649 9697
+call(
+  stack
+)
+type(
+  link list
+)
+"util.ml" 234 9545 9557 "util.ml" 236 9649 9697
+type(
+  link list
+)
+"util.ml" 233 9503 9513 "util.ml" 236 9649 9697
+type(
+  link list
+)
+"util.ml" 232 9447 9457 "util.ml" 236 9649 9697
+type(
+  link list
+)
+"util.ml" 231 9390 9400 "util.ml" 236 9649 9697
+type(
+  link list
+)
+"util.ml" 238 9711 9723 "util.ml" 238 9711 9732
+type(
+  exn
+)
+"util.ml" 238 9711 9736 "util.ml" 238 9711 9744
+type(
+  link list -> link list
+)
+ident(
+  ext_ref Core.Std.List.rev
+)
+"util.ml" 238 9711 9745 "util.ml" 238 9711 9750
+type(
+  link list
+)
+ident(
+  int_ref links "util.ml" 229 9347 9370 "util.ml" 229 9347 9375
+)
+"util.ml" 238 9711 9736 "util.ml" 238 9711 9750
+call(
+  tail
+)
+type(
+  link list
+)
+"util.ml" 230 9378 9386 "util.ml" 238 9711 9750
+type(
+  link list
+)
+"util.ml" 229 9347 9370 "util.ml" 238 9711 9750
+type(
+  link list -> link list
+)
+"util.ml" 229 9347 9366 "util.ml" 238 9711 9750
+type(
+  int -> link list -> link list
+)
+"util.ml" 240 9760 9768 "util.ml" 240 9760 9772
+type(
+  int -> link list -> link list
+)
+ident(
+  int_ref loop "util.ml" 229 9347 9361 "util.ml" 229 9347 9365
+)
+"util.ml" 240 9760 9773 "util.ml" 240 9760 9774
+type(
+  int
+)
+"util.ml" 240 9760 9775 "util.ml" 240 9760 9777
+type(
+  link list
+)
+"util.ml" 240 9760 9768 "util.ml" 240 9760 9777
+call(
+  tail
+)
+type(
+  link list
+)
+"util.ml" 229 9347 9353 "util.ml" 240 9760 9777
+type(
+  link list
+)
+"util.ml" 228 9310 9340 "util.ml" 240 9760 9777
+type(
+  string -> link list
+)
+"util.ml" 228 9310 9328 "util.ml" 240 9760 9777
+type(
+  link -> string -> link list
+)
+"util.ml" 247 10018 10026 "util.ml" 247 10018 10035
+type(
+  string -> string list
+)
+ident(
+  def get_words "util.ml" 264 10584 10588 "util.ml" 320 12547 12552
+)
+"util.ml" 247 10018 10036 "util.ml" 247 10018 10040
+type(
+  string
+)
+ident(
+  def page "util.ml" 248 10043 10049 "util.ml" 262 10564 10582
+)
+"util.ml" 248 10043 10053 "util.ml" 248 10043 10056
+type(
+  int
+)
+ident(
+  def len "util.ml" 249 10081 10087 "util.ml" 262 10564 10582
+)
+"util.ml" 248 10043 10059 "util.ml" 248 10043 10072
+type(
+  string -> int
+)
+ident(
+  ext_ref Core.Std.String.length
+)
+"util.ml" 248 10043 10073 "util.ml" 248 10043 10077
+type(
+  string
+)
+ident(
+  int_ref page "util.ml" 247 10018 10036 "util.ml" 247 10018 10040
+)
+"util.ml" 248 10043 10059 "util.ml" 248 10043 10077
+type(
+  int
+)
+"util.ml" 249 10081 10095 "util.ml" 249 10081 10099
+type(
+  int -> string list -> string list
+)
+ident(
+  def loop "util.ml" 249 10081 10087 "util.ml" 262 10564 10582
+)
+"util.ml" 249 10081 10100 "util.ml" 249 10081 10103
+type(
+  int
+)
+ident(
+  def pos "util.ml" 249 10081 10104 "util.ml" 261 10543 10563
+)
+"util.ml" 249 10081 10104 "util.ml" 249 10081 10109
+type(
+  string list
+)
+ident(
+  def words "util.ml" 250 10112 10120 "util.ml" 261 10543 10563
+)
+"util.ml" 250 10112 10128 "util.ml" 250 10112 10136
+type(
+  int -> int
+)
+ident(
+  def find_end "util.ml" 250 10112 10120 "util.ml" 261 10543 10563
+)
+"util.ml" 250 10112 10137 "util.ml" 250 10112 10138
+type(
+  int
+)
+ident(
+  def i "util.ml" 251 10141 10151 "util.ml" 256 10337 10353
+)
+"util.ml" 251 10141 10154 "util.ml" 251 10141 10155
+type(
+  int
+)
+ident(
+  int_ref i "util.ml" 250 10112 10137 "util.ml" 250 10112 10138
+)
+"util.ml" 251 10141 10156 "util.ml" 251 10141 10157
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"util.ml" 251 10141 10158 "util.ml" 251 10141 10161
+type(
+  int
+)
+ident(
+  int_ref len "util.ml" 248 10043 10053 "util.ml" 248 10043 10056
+)
+"util.ml" 251 10141 10154 "util.ml" 251 10141 10161
+type(
+  bool
+)
+"util.ml" 252 10167 10183 "util.ml" 252 10167 10184
+type(
+  char
+)
+ident(
+  def c "util.ml" 253 10214 10228 "util.ml" 255 10316 10336
+)
+"util.ml" 252 10167 10187 "util.ml" 252 10167 10197
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref Core.Std.String.get
+)
+"util.ml" 252 10167 10198 "util.ml" 252 10167 10202
+type(
+  string
+)
+ident(
+  int_ref page "util.ml" 247 10018 10036 "util.ml" 247 10018 10040
+)
+"util.ml" 252 10167 10204 "util.ml" 252 10167 10207
+type(
+  int
+)
+ident(
+  int_ref pos "util.ml" 249 10081 10100 "util.ml" 249 10081 10103
+)
+"util.ml" 252 10167 10207 "util.ml" 252 10167 10208
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"util.ml" 252 10167 10208 "util.ml" 252 10167 10209
+type(
+  int
+)
+ident(
+  int_ref i "util.ml" 250 10112 10137 "util.ml" 250 10112 10138
+)
+"util.ml" 252 10167 10204 "util.ml" 252 10167 10209
+type(
+  int
+)
+"util.ml" 252 10167 10187 "util.ml" 252 10167 10210
+type(
+  char
+)
+"util.ml" 253 10214 10232 "util.ml" 253 10214 10233
+type(
+  char
+)
+ident(
+  int_ref c "util.ml" 252 10167 10183 "util.ml" 252 10167 10184
+)
+"util.ml" 253 10214 10234 "util.ml" 253 10214 10236
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"util.ml" 253 10214 10237 "util.ml" 253 10214 10240
+type(
+  char
+)
+"util.ml" 253 10214 10232 "util.ml" 253 10214 10240
+type(
+  bool
+)
+"util.ml" 253 10214 10241 "util.ml" 253 10214 10243
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"util.ml" 253 10214 10244 "util.ml" 253 10214 10245
+type(
+  char
+)
+ident(
+  int_ref c "util.ml" 252 10167 10183 "util.ml" 252 10167 10184
+)
+"util.ml" 253 10214 10246 "util.ml" 253 10214 10248
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"util.ml" 253 10214 10249 "util.ml" 253 10214 10252
+type(
+  char
+)
+"util.ml" 253 10214 10244 "util.ml" 253 10214 10252
+type(
+  bool
+)
+"util.ml" 253 10214 10232 "util.ml" 253 10214 10252
+type(
+  bool
+)
+"util.ml" 253 10214 10254 "util.ml" 253 10214 10256
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"util.ml" 253 10214 10258 "util.ml" 253 10214 10259
+type(
+  char
+)
+ident(
+  int_ref c "util.ml" 252 10167 10183 "util.ml" 252 10167 10184
+)
+"util.ml" 253 10214 10260 "util.ml" 253 10214 10262
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"util.ml" 253 10214 10263 "util.ml" 253 10214 10266
+type(
+  char
+)
+"util.ml" 253 10214 10258 "util.ml" 253 10214 10266
+type(
+  bool
+)
+"util.ml" 253 10214 10267 "util.ml" 253 10214 10269
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"util.ml" 253 10214 10270 "util.ml" 253 10214 10271
+type(
+  char
+)
+ident(
+  int_ref c "util.ml" 252 10167 10183 "util.ml" 252 10167 10184
+)
+"util.ml" 253 10214 10272 "util.ml" 253 10214 10274
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"util.ml" 253 10214 10275 "util.ml" 253 10214 10278
+type(
+  char
+)
+"util.ml" 253 10214 10270 "util.ml" 253 10214 10278
+type(
+  bool
+)
+"util.ml" 253 10214 10258 "util.ml" 253 10214 10278
+type(
+  bool
+)
+"util.ml" 253 10214 10231 "util.ml" 253 10214 10279
+type(
+  bool
+)
+"util.ml" 254 10285 10301 "util.ml" 254 10285 10309
+type(
+  int -> int
+)
+ident(
+  int_ref find_end "util.ml" 250 10112 10128 "util.ml" 250 10112 10136
+)
+"util.ml" 254 10285 10311 "util.ml" 254 10285 10312
+type(
+  int
+)
+ident(
+  int_ref i "util.ml" 250 10112 10137 "util.ml" 250 10112 10138
+)
+"util.ml" 254 10285 10312 "util.ml" 254 10285 10313
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"util.ml" 254 10285 10313 "util.ml" 254 10285 10314
+type(
+  int
+)
+"util.ml" 254 10285 10311 "util.ml" 254 10285 10314
+type(
+  int
+)
+"util.ml" 254 10285 10301 "util.ml" 254 10285 10315
+call(
+  tail
+)
+type(
+  int
+)
+"util.ml" 255 10316 10335 "util.ml" 255 10316 10336
+type(
+  int
+)
+ident(
+  int_ref i "util.ml" 250 10112 10137 "util.ml" 250 10112 10138
+)
+"util.ml" 253 10214 10228 "util.ml" 255 10316 10336
+type(
+  int
+)
+"util.ml" 252 10167 10179 "util.ml" 255 10316 10336
+type(
+  int
+)
+"util.ml" 256 10337 10352 "util.ml" 256 10337 10353
+type(
+  int
+)
+"util.ml" 251 10141 10151 "util.ml" 256 10337 10353
+type(
+  int
+)
+"util.ml" 250 10112 10137 "util.ml" 256 10337 10353
+type(
+  int -> int
+)
+"util.ml" 257 10357 10370 "util.ml" 257 10357 10373
+type(
+  int
+)
+ident(
+  int_ref pos "util.ml" 249 10081 10100 "util.ml" 249 10081 10103
+)
+"util.ml" 257 10357 10374 "util.ml" 257 10357 10375
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"util.ml" 257 10357 10376 "util.ml" 257 10357 10379
+type(
+  int
+)
+ident(
+  int_ref len "util.ml" 248 10043 10053 "util.ml" 248 10043 10056
+)
+"util.ml" 257 10357 10370 "util.ml" 257 10357 10379
+type(
+  bool
+)
+"util.ml" 258 10385 10401 "util.ml" 258 10385 10402
+type(
+  int
+)
+ident(
+  def e "util.ml" 259 10419 10433 "util.ml" 260 10471 10542
+)
+"util.ml" 258 10385 10405 "util.ml" 258 10385 10413
+type(
+  int -> int
+)
+ident(
+  int_ref find_end "util.ml" 250 10112 10128 "util.ml" 250 10112 10136
+)
+"util.ml" 258 10385 10414 "util.ml" 258 10385 10415
+type(
+  int
+)
+"util.ml" 258 10385 10405 "util.ml" 258 10385 10415
+call(
+  stack
+)
+type(
+  int
+)
+"util.ml" 259 10419 10436 "util.ml" 259 10419 10437
+type(
+  int
+)
+ident(
+  int_ref e "util.ml" 258 10385 10401 "util.ml" 258 10385 10402
+)
+"util.ml" 259 10419 10438 "util.ml" 259 10419 10439
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"util.ml" 259 10419 10440 "util.ml" 259 10419 10441
+type(
+  int
+)
+"util.ml" 259 10419 10436 "util.ml" 259 10419 10441
+type(
+  bool
+)
+"util.ml" 259 10419 10447 "util.ml" 259 10419 10451
+type(
+  int -> string list -> string list
+)
+ident(
+  int_ref loop "util.ml" 249 10081 10095 "util.ml" 249 10081 10099
+)
+"util.ml" 259 10419 10453 "util.ml" 259 10419 10456
+type(
+  int
+)
+ident(
+  int_ref pos "util.ml" 249 10081 10100 "util.ml" 249 10081 10103
+)
+"util.ml" 259 10419 10456 "util.ml" 259 10419 10457
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"util.ml" 259 10419 10457 "util.ml" 259 10419 10458
+type(
+  int
+)
+"util.ml" 259 10419 10453 "util.ml" 259 10419 10458
+type(
+  int
+)
+"util.ml" 259 10419 10460 "util.ml" 259 10419 10465
+type(
+  string list
+)
+ident(
+  int_ref words "util.ml" 249 10081 10104 "util.ml" 249 10081 10109
+)
+"util.ml" 259 10419 10447 "util.ml" 259 10419 10465
+call(
+  tail
+)
+type(
+  string list
+)
+"util.ml" 260 10471 10487 "util.ml" 260 10471 10491
+type(
+  int -> string list -> string list
+)
+ident(
+  int_ref loop "util.ml" 249 10081 10095 "util.ml" 249 10081 10099
+)
+"util.ml" 260 10471 10493 "util.ml" 260 10471 10496
+type(
+  int
+)
+ident(
+  int_ref pos "util.ml" 249 10081 10100 "util.ml" 249 10081 10103
+)
+"util.ml" 260 10471 10496 "util.ml" 260 10471 10497
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"util.ml" 260 10471 10497 "util.ml" 260 10471 10498
+type(
+  int
+)
+ident(
+  int_ref e "util.ml" 258 10385 10401 "util.ml" 258 10385 10402
+)
+"util.ml" 260 10471 10493 "util.ml" 260 10471 10498
+type(
+  int
+)
+"util.ml" 260 10471 10502 "util.ml" 260 10471 10512
+type(
+  (string, string) Blit.sub
+)
+ident(
+  ext_ref Core.Std.String.sub
+)
+"util.ml" 260 10471 10513 "util.ml" 260 10471 10517
+type(
+  string
+)
+ident(
+  int_ref page "util.ml" 247 10018 10036 "util.ml" 247 10018 10040
+)
+"util.ml" 260 10471 10523 "util.ml" 260 10471 10526
+type(
+  int
+)
+ident(
+  int_ref pos "util.ml" 249 10081 10100 "util.ml" 249 10081 10103
+)
+"util.ml" 260 10471 10532 "util.ml" 260 10471 10533
+type(
+  int
+)
+ident(
+  int_ref e "util.ml" 258 10385 10401 "util.ml" 258 10385 10402
+)
+"util.ml" 260 10471 10502 "util.ml" 260 10471 10533
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 260 10471 10536 "util.ml" 260 10471 10541
+type(
+  string list
+)
+ident(
+  int_ref words "util.ml" 249 10081 10104 "util.ml" 249 10081 10109
+)
+"util.ml" 260 10471 10501 "util.ml" 260 10471 10541
+type(
+  string list
+)
+"util.ml" 260 10471 10487 "util.ml" 260 10471 10542
+call(
+  tail
+)
+type(
+  string list
+)
+"util.ml" 259 10419 10433 "util.ml" 260 10471 10542
+type(
+  string list
+)
+"util.ml" 258 10385 10397 "util.ml" 260 10471 10542
+type(
+  string list
+)
+"util.ml" 261 10543 10558 "util.ml" 261 10543 10563
+type(
+  string list
+)
+ident(
+  int_ref words "util.ml" 249 10081 10104 "util.ml" 249 10081 10109
+)
+"util.ml" 257 10357 10367 "util.ml" 261 10543 10563
+type(
+  string list
+)
+"util.ml" 250 10112 10120 "util.ml" 261 10543 10563
+type(
+  string list
+)
+"util.ml" 249 10081 10104 "util.ml" 261 10543 10563
+type(
+  string list -> string list
+)
+"util.ml" 249 10081 10100 "util.ml" 261 10543 10563
+type(
+  int -> string list -> string list
+)
+"util.ml" 262 10564 10573 "util.ml" 262 10564 10577
+type(
+  int -> string list -> string list
+)
+ident(
+  int_ref loop "util.ml" 249 10081 10095 "util.ml" 249 10081 10099
+)
+"util.ml" 262 10564 10578 "util.ml" 262 10564 10579
+type(
+  int
+)
+"util.ml" 262 10564 10580 "util.ml" 262 10564 10582
+type(
+  string list
+)
+"util.ml" 262 10564 10573 "util.ml" 262 10564 10582
+call(
+  tail
+)
+type(
+  string list
+)
+"util.ml" 249 10081 10087 "util.ml" 262 10564 10582
+type(
+  string list
+)
+"util.ml" 248 10043 10049 "util.ml" 262 10564 10582
+type(
+  string list
+)
+"util.ml" 247 10018 10036 "util.ml" 262 10564 10582
+type(
+  string -> string list
+)
+"util.ml" 264 10584 10592 "util.ml" 264 10584 10600
+type(
+  link -> page option
+)
+ident(
+  def get_page "util.ml" 275 11008 11012 "util.ml" 320 12547 12552
+)
+"util.ml" 264 10584 10601 "util.ml" 264 10584 10605
+type(
+  link
+)
+ident(
+  def link "util.ml" 265 10608 10614 "util.ml" 270 10775 10838
+)
+"util.ml" 265 10608 10620 "util.ml" 265 10608 10629
+type(
+  link -> string option
+)
+ident(
+  int_ref fetch_url "util.ml" 184 7424 7432 "util.ml" 184 7424 7441
+)
+"util.ml" 265 10608 10630 "util.ml" 265 10608 10634
+type(
+  link
+)
+ident(
+  int_ref link "util.ml" 264 10584 10601 "util.ml" 264 10584 10605
+)
+"util.ml" 265 10608 10620 "util.ml" 265 10608 10634
+call(
+  stack
+)
+type(
+  string option
+)
+"util.ml" 266 10640 10650 "util.ml" 266 10640 10654
+type(
+  string option
+)
+"util.ml" 266 10640 10658 "util.ml" 266 10640 10662
+type(
+  page option
+)
+"util.ml" 267 10663 10678 "util.ml" 267 10663 10682
+type(
+  string
+)
+ident(
+  def page "util.ml" 268 10686 10698 "util.ml" 270 10775 10838
+)
+"util.ml" 267 10663 10673 "util.ml" 267 10663 10682
+type(
+  string option
+)
+"util.ml" 268 10686 10702 "util.ml" 268 10686 10707
+type(
+  link list
+)
+ident(
+  def links "util.ml" 269 10733 10745 "util.ml" 270 10775 10838
+)
+"util.ml" 268 10686 10710 "util.ml" 268 10686 10719
+type(
+  link -> string -> link list
+)
+ident(
+  int_ref get_links "util.ml" 228 9310 9318 "util.ml" 228 9310 9327
+)
+"util.ml" 268 10686 10720 "util.ml" 268 10686 10724
+type(
+  link
+)
+ident(
+  int_ref link "util.ml" 264 10584 10601 "util.ml" 264 10584 10605
+)
+"util.ml" 268 10686 10725 "util.ml" 268 10686 10729
+type(
+  string
+)
+ident(
+  int_ref page "util.ml" 267 10663 10678 "util.ml" 267 10663 10682
+)
+"util.ml" 268 10686 10710 "util.ml" 268 10686 10729
+call(
+  stack
+)
+type(
+  link list
+)
+"util.ml" 269 10733 10749 "util.ml" 269 10733 10754
+type(
+  string list
+)
+ident(
+  def words "util.ml" 270 10775 10789 "util.ml" 270 10775 10838
+)
+"util.ml" 269 10733 10757 "util.ml" 269 10733 10766
+type(
+  string -> string list
+)
+ident(
+  int_ref get_words "util.ml" 247 10018 10026 "util.ml" 247 10018 10035
+)
+"util.ml" 269 10733 10767 "util.ml" 269 10733 10771
+type(
+  string
+)
+ident(
+  int_ref page "util.ml" 267 10663 10678 "util.ml" 267 10663 10682
+)
+"util.ml" 269 10733 10757 "util.ml" 269 10733 10771
+call(
+  stack
+)
+type(
+  string list
+)
+"util.ml" 270 10775 10801 "util.ml" 270 10775 10805
+type(
+  link
+)
+ident(
+  int_ref link "util.ml" 264 10584 10601 "util.ml" 264 10584 10605
+)
+"util.ml" 270 10775 10816 "util.ml" 270 10775 10821
+type(
+  link list
+)
+ident(
+  int_ref links "util.ml" 268 10686 10702 "util.ml" 268 10686 10707
+)
+"util.ml" 270 10775 10832 "util.ml" 270 10775 10837
+type(
+  string list
+)
+ident(
+  int_ref words "util.ml" 269 10733 10749 "util.ml" 269 10733 10754
+)
+"util.ml" 270 10775 10794 "util.ml" 270 10775 10838
+type(
+  page
+)
+"util.ml" 270 10775 10789 "util.ml" 270 10775 10838
+type(
+  page option
+)
+"util.ml" 269 10733 10745 "util.ml" 270 10775 10838
+type(
+  page option
+)
+"util.ml" 268 10686 10698 "util.ml" 270 10775 10838
+type(
+  page option
+)
+"util.ml" 265 10608 10614 "util.ml" 270 10775 10838
+type(
+  page option
+)
+"util.ml" 264 10584 10601 "util.ml" 270 10775 10838
+type(
+  link -> page option
+)
+"util.ml" 275 11008 11017 "util.ml" 275 11008 11028
+type(
+  int
+)
+ident(
+  def server_port "util.ml" 288 11477 11481 "util.ml" 320 12547 12552
+)
+"util.ml" 275 11008 11030 "util.ml" 275 11008 11049
+type(
+  int
+)
+ident(
+  def num_pages_to_search "util.ml" 288 11477 11481 "util.ml" 320 12547 12552
+)
+"util.ml" 275 11008 11051 "util.ml" 275 11008 11059
+type(
+  string
+)
+ident(
+  def root_url "util.ml" 288 11477 11481 "util.ml" 320 12547 12552
+)
+"util.ml" 275 11008 11017 "util.ml" 275 11008 11059
+type(
+  int * int * string
+)
+"util.ml" 276 11063 11073 "util.ml" 276 11063 11077
+type(
+  string array
+)
+ident(
+  def args "util.ml" 277 11092 11100 "util.ml" 286 11448 11475
+)
+"util.ml" 276 11063 11080 "util.ml" 276 11063 11088
+type(
+  string array
+)
+ident(
+  ext_ref Core.Std.Sys.argv
+)
+"util.ml" 278 11104 11118 "util.ml" 278 11104 11122
+type(
+  int
+)
+ident(
+  def port "util.ml" 279 11160 11170 "util.ml" 281 11260 11293
+)
+"util.ml" 278 11104 11125 "util.ml" 278 11104 11138
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"util.ml" 278 11104 11139 "util.ml" 278 11104 11148
+type(
+  string array -> int -> string
+)
+ident(
+  ext_ref Core.Std.Array.get
+)
+"util.ml" 278 11104 11149 "util.ml" 278 11104 11153
+type(
+  string array
+)
+ident(
+  int_ref args "util.ml" 276 11063 11073 "util.ml" 276 11063 11077
+)
+"util.ml" 278 11104 11154 "util.ml" 278 11104 11155
+type(
+  int
+)
+"util.ml" 278 11104 11139 "util.ml" 278 11104 11155
+type(
+  string
+)
+"util.ml" 278 11104 11125 "util.ml" 278 11104 11156
+type(
+  int
+)
+"util.ml" 279 11160 11174 "util.ml" 279 11160 11177
+type(
+  int
+)
+ident(
+  def num "util.ml" 280 11215 11225 "util.ml" 281 11260 11293
+)
+"util.ml" 279 11160 11180 "util.ml" 279 11160 11193
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"util.ml" 279 11160 11194 "util.ml" 279 11160 11203
+type(
+  string array -> int -> string
+)
+ident(
+  ext_ref Core.Std.Array.get
+)
+"util.ml" 279 11160 11204 "util.ml" 279 11160 11208
+type(
+  string array
+)
+ident(
+  int_ref args "util.ml" 276 11063 11073 "util.ml" 276 11063 11077
+)
+"util.ml" 279 11160 11209 "util.ml" 279 11160 11210
+type(
+  int
+)
+"util.ml" 279 11160 11194 "util.ml" 279 11160 11210
+type(
+  string
+)
+"util.ml" 279 11160 11180 "util.ml" 279 11160 11211
+type(
+  int
+)
+"util.ml" 280 11215 11229 "util.ml" 280 11215 11237
+type(
+  string
+)
+ident(
+  def root_url "util.ml" 281 11260 11273 "util.ml" 281 11260 11292
+)
+"util.ml" 280 11215 11240 "util.ml" 280 11215 11249
+type(
+  string array -> int -> string
+)
+ident(
+  ext_ref Core.Std.Array.get
+)
+"util.ml" 280 11215 11250 "util.ml" 280 11215 11254
+type(
+  string array
+)
+ident(
+  int_ref args "util.ml" 276 11063 11073 "util.ml" 276 11063 11077
+)
+"util.ml" 280 11215 11255 "util.ml" 280 11215 11256
+type(
+  int
+)
+"util.ml" 280 11215 11240 "util.ml" 280 11215 11256
+type(
+  string
+)
+"util.ml" 281 11260 11273 "util.ml" 281 11260 11277
+type(
+  int
+)
+ident(
+  int_ref port "util.ml" 278 11104 11118 "util.ml" 278 11104 11122
+)
+"util.ml" 281 11260 11279 "util.ml" 281 11260 11282
+type(
+  int
+)
+ident(
+  int_ref num "util.ml" 279 11160 11174 "util.ml" 279 11160 11177
+)
+"util.ml" 281 11260 11284 "util.ml" 281 11260 11292
+type(
+  string
+)
+ident(
+  int_ref root_url "util.ml" 280 11215 11229 "util.ml" 280 11215 11237
+)
+"util.ml" 281 11260 11273 "util.ml" 281 11260 11292
+type(
+  int * int * string
+)
+"util.ml" 280 11215 11225 "util.ml" 281 11260 11293
+type(
+  int * int * string
+)
+"util.ml" 279 11160 11170 "util.ml" 281 11260 11293
+type(
+  int * int * string
+)
+"util.ml" 278 11104 11114 "util.ml" 281 11260 11293
+type(
+  int * int * string
+)
+"util.ml" 283 11307 11319 "util.ml" 283 11307 11320
+type(
+  exn
+)
+"util.ml" 283 11307 11325 "util.ml" 283 11307 11338
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Core.Std.Printf.printf
+)
+"util.ml" 284 11339 11361 "util.ml" 284 11339 11404
+type(
+  (string -> unit, out_channel, unit) format
+)
+"util.ml" 285 11405 11428 "util.ml" 285 11405 11437
+type(
+  string array -> int -> string
+)
+ident(
+  ext_ref Core.Std.Array.get
+)
+"util.ml" 285 11405 11438 "util.ml" 285 11405 11442
+type(
+  string array
+)
+ident(
+  int_ref args "util.ml" 276 11063 11073 "util.ml" 276 11063 11077
+)
+"util.ml" 285 11405 11443 "util.ml" 285 11405 11444
+type(
+  int
+)
+"util.ml" 285 11405 11428 "util.ml" 285 11405 11444
+type(
+  string
+)
+"util.ml" 283 11307 11325 "util.ml" 285 11405 11445
+call(
+  stack
+)
+type(
+  unit
+)
+"util.ml" 286 11448 11468 "util.ml" 286 11448 11472
+type(
+  int -> int * int * string
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"util.ml" 286 11448 11473 "util.ml" 286 11448 11474
+type(
+  int
+)
+"util.ml" 286 11448 11468 "util.ml" 286 11448 11474
+call(
+  stack
+)
+type(
+  int * int * string
+)
+"util.ml" 283 11307 11325 "util.ml" 286 11448 11474
+type(
+  int * int * string
+)
+"util.ml" 277 11092 11100 "util.ml" 286 11448 11475
+type(
+  int * int * string
+)
+"util.ml" 276 11063 11069 "util.ml" 286 11448 11475
+type(
+  int * int * string
+)
+"util.ml" 288 11477 11485 "util.ml" 288 11477 11497
+type(
+  link
+)
+ident(
+  def initial_link "util.ml" 298 11792 11796 "util.ml" 320 12547 12552
+)
+"util.ml" 289 11500 11510 "util.ml" 289 11500 11519
+type(
+  string -> link
+)
+ident(
+  int_ref parse_url "util.ml" 101 3816 3824 "util.ml" 101 3816 3833
+)
+"util.ml" 289 11500 11520 "util.ml" 289 11500 11528
+type(
+  string
+)
+ident(
+  int_ref root_url "util.ml" 275 11008 11051 "util.ml" 275 11008 11059
+)
+"util.ml" 289 11500 11510 "util.ml" 289 11500 11528
+call(
+  stack
+)
+type(
+  link
+)
+"util.ml" 290 11529 11540 "util.ml" 290 11529 11549
+type(
+  exn
+)
+"util.ml" 291 11553 11567 "util.ml" 291 11553 11581
+type(
+  link -> string -> link option
+)
+ident(
+  int_ref link_of_string "util.ml" 204 8300 8308 "util.ml" 204 8300 8322
+)
+"util.ml" 291 11553 11588 "util.ml" 291 11553 11590
+type(
+  string
+)
+"util.ml" 291 11553 11597 "util.ml" 291 11553 11599
+type(
+  int
+)
+"util.ml" 291 11553 11606 "util.ml" 291 11553 11608
+type(
+  string
+)
+"util.ml" 291 11553 11582 "util.ml" 291 11553 11609
+type(
+  link
+)
+"util.ml" 291 11553 11610 "util.ml" 291 11553 11618
+type(
+  string
+)
+ident(
+  int_ref root_url "util.ml" 275 11008 11051 "util.ml" 275 11008 11059
+)
+"util.ml" 291 11553 11567 "util.ml" 291 11553 11618
+call(
+  stack
+)
+type(
+  link option
+)
+"util.ml" 292 11624 11636 "util.ml" 292 11624 11640
+type(
+  link option
+)
+"util.ml" 293 11644 11659 "util.ml" 293 11644 11672
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Core.Std.Printf.printf
+)
+"util.ml" 294 11673 11690 "util.ml" 294 11673 11741
+type(
+  (unit, out_channel, unit) format
+)
+"util.ml" 293 11644 11659 "util.ml" 294 11673 11741
+call(
+  stack
+)
+type(
+  unit
+)
+"util.ml" 295 11744 11759 "util.ml" 295 11744 11763
+type(
+  int -> link
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"util.ml" 295 11744 11764 "util.ml" 295 11744 11765
+type(
+  int
+)
+"util.ml" 295 11744 11759 "util.ml" 295 11744 11765
+call(
+  stack
+)
+type(
+  link
+)
+"util.ml" 293 11644 11659 "util.ml" 295 11744 11765
+type(
+  link
+)
+"util.ml" 296 11767 11784 "util.ml" 296 11767 11785
+type(
+  link
+)
+ident(
+  def l "util.ml" 296 11767 11789 "util.ml" 296 11767 11790
+)
+"util.ml" 296 11767 11779 "util.ml" 296 11767 11785
+type(
+  link option
+)
+"util.ml" 296 11767 11789 "util.ml" 296 11767 11790
+type(
+  link
+)
+ident(
+  int_ref l "util.ml" 296 11767 11784 "util.ml" 296 11767 11785
+)
+"util.ml" 291 11553 11561 "util.ml" 296 11767 11790
+type(
+  link
+)
+"util.ml" 289 11500 11506 "util.ml" 296 11767 11790
+type(
+  link
+)
+"util.ml" 298 11792 11800 "util.ml" 298 11792 11808
+type(
+  string
+)
+ident(
+  def root_dir "util.ml" 306 12042 12046 "util.ml" 320 12547 12552
+)
+"util.ml" 299 11811 11820 "util.ml" 299 11811 11832
+type(
+  link
+)
+ident(
+  int_ref initial_link "util.ml" 288 11477 11485 "util.ml" 288 11477 11497
+)
+"util.ml" 299 11811 11820 "util.ml" 299 11811 11837
+type(
+  string
+)
+"util.ml" 299 11811 11838 "util.ml" 299 11811 11839
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"util.ml" 299 11811 11840 "util.ml" 299 11811 11842
+type(
+  string
+)
+"util.ml" 299 11811 11820 "util.ml" 299 11811 11842
+type(
+  bool
+)
+"util.ml" 300 11843 11854 "util.ml" 300 11843 11870
+type(
+  string -> string
+)
+ident(
+  ext_ref Core.Std.Filename.dirname
+)
+"util.ml" 300 11843 11871 "util.ml" 300 11843 11883
+type(
+  link
+)
+ident(
+  int_ref initial_link "util.ml" 288 11477 11485 "util.ml" 288 11477 11497
+)
+"util.ml" 300 11843 11871 "util.ml" 300 11843 11888
+type(
+  string
+)
+"util.ml" 300 11843 11854 "util.ml" 300 11843 11888
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 301 11889 11900 "util.ml" 301 11889 11902
+type(
+  string
+)
+"util.ml" 299 11811 11817 "util.ml" 301 11889 11902
+type(
+  string
+)
+"util.ml" 306 12042 12050 "util.ml" 306 12042 12062
+type(
+  link -> string
+)
+ident(
+  def href_of_link "util.ml" 319 12492 12546 "util.ml" 320 12547 12552
+)
+"util.ml" 306 12042 12063 "util.ml" 306 12042 12064
+type(
+  link
+)
+ident(
+  def l "util.ml" 307 12067 12073 "util.ml" 319 12492 12546
+)
+"util.ml" 307 12067 12077 "util.ml" 307 12067 12083
+type(
+  string -> int -> string
+)
+ident(
+  def suffix "util.ml" 311 12197 12203 "util.ml" 319 12492 12546
+)
+"util.ml" 307 12067 12084 "util.ml" 307 12067 12087
+type(
+  string
+)
+ident(
+  def str "util.ml" 307 12067 12088 "util.ml" 309 12135 12187
+)
+"util.ml" 307 12067 12088 "util.ml" 307 12067 12093
+type(
+  int
+)
+ident(
+  def start "util.ml" 308 12096 12104 "util.ml" 309 12135 12187
+)
+"util.ml" 308 12096 12108 "util.ml" 308 12096 12111
+type(
+  int
+)
+ident(
+  def len "util.ml" 309 12135 12143 "util.ml" 309 12135 12187
+)
+"util.ml" 308 12096 12114 "util.ml" 308 12096 12127
+type(
+  string -> int
+)
+ident(
+  ext_ref Core.Std.String.length
+)
+"util.ml" 308 12096 12128 "util.ml" 308 12096 12131
+type(
+  string
+)
+ident(
+  int_ref str "util.ml" 307 12067 12084 "util.ml" 307 12067 12087
+)
+"util.ml" 308 12096 12114 "util.ml" 308 12096 12131
+type(
+  int
+)
+"util.ml" 309 12135 12143 "util.ml" 309 12135 12153
+type(
+  (string, string) Blit.sub
+)
+ident(
+  ext_ref Core.Std.String.sub
+)
+"util.ml" 309 12135 12154 "util.ml" 309 12135 12157
+type(
+  string
+)
+ident(
+  int_ref str "util.ml" 307 12067 12084 "util.ml" 307 12067 12087
+)
+"util.ml" 309 12135 12163 "util.ml" 309 12135 12168
+type(
+  int
+)
+ident(
+  int_ref start "util.ml" 307 12067 12088 "util.ml" 307 12067 12093
+)
+"util.ml" 309 12135 12175 "util.ml" 309 12135 12178
+type(
+  int
+)
+ident(
+  int_ref len "util.ml" 308 12096 12108 "util.ml" 308 12096 12111
+)
+"util.ml" 309 12135 12179 "util.ml" 309 12135 12180
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"util.ml" 309 12135 12181 "util.ml" 309 12135 12186
+type(
+  int
+)
+ident(
+  int_ref start "util.ml" 307 12067 12088 "util.ml" 307 12067 12093
+)
+"util.ml" 309 12135 12175 "util.ml" 309 12135 12186
+type(
+  int
+)
+"util.ml" 309 12135 12143 "util.ml" 309 12135 12187
+call(
+  tail
+)
+type(
+  string
+)
+"util.ml" 308 12096 12104 "util.ml" 309 12135 12187
+type(
+  string
+)
+"util.ml" 307 12067 12088 "util.ml" 309 12135 12187
+type(
+  int -> string
+)
+"util.ml" 307 12067 12084 "util.ml" 309 12135 12187
+type(
+  string -> int -> string
+)
+"util.ml" 311 12197 12206 "util.ml" 311 12197 12207
+type(
+  link
+)
+ident(
+  int_ref l "util.ml" 306 12042 12063 "util.ml" 306 12042 12064
+)
+"util.ml" 311 12197 12206 "util.ml" 311 12197 12212
+type(
+  string
+)
+"util.ml" 311 12197 12213 "util.ml" 311 12197 12214
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"util.ml" 311 12197 12215 "util.ml" 311 12197 12217
+type(
+  string
+)
+"util.ml" 311 12197 12206 "util.ml" 311 12197 12217
+type(
+  bool
+)
+"util.ml" 312 12223 12235 "util.ml" 312 12223 12246
+type(
+  Str.regexp
+)
+ident(
+  def root_regexp "util.ml" 313 12279 12289 "util.ml" 315 12386 12419
+)
+"util.ml" 312 12223 12249 "util.ml" 312 12223 12266
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp_string
+)
+"util.ml" 312 12223 12267 "util.ml" 312 12223 12275
+type(
+  string
+)
+ident(
+  int_ref root_dir "util.ml" 298 11792 11800 "util.ml" 298 11792 11808
+)
+"util.ml" 312 12223 12249 "util.ml" 312 12223 12275
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"util.ml" 313 12279 12292 "util.ml" 313 12279 12316
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  ext_ref Str.string_partial_match
+)
+"util.ml" 313 12279 12317 "util.ml" 313 12279 12328
+type(
+  Str.regexp
+)
+ident(
+  int_ref root_regexp "util.ml" 312 12223 12235 "util.ml" 312 12223 12246
+)
+"util.ml" 313 12279 12329 "util.ml" 313 12279 12330
+type(
+  link
+)
+ident(
+  int_ref l "util.ml" 306 12042 12063 "util.ml" 306 12042 12064
+)
+"util.ml" 313 12279 12329 "util.ml" 313 12279 12335
+type(
+  string
+)
+"util.ml" 313 12279 12336 "util.ml" 313 12279 12337
+type(
+  int
+)
+"util.ml" 313 12279 12292 "util.ml" 313 12279 12337
+call(
+  stack
+)
+type(
+  bool
+)
+"util.ml" 314 12338 12353 "util.ml" 314 12338 12359
+type(
+  string -> int -> string
+)
+ident(
+  int_ref suffix "util.ml" 307 12067 12077 "util.ml" 307 12067 12083
+)
+"util.ml" 314 12338 12360 "util.ml" 314 12338 12361
+type(
+  link
+)
+ident(
+  int_ref l "util.ml" 306 12042 12063 "util.ml" 306 12042 12064
+)
+"util.ml" 314 12338 12360 "util.ml" 314 12338 12366
+type(
+  string
+)
+"util.ml" 314 12338 12368 "util.ml" 314 12338 12381
+type(
+  unit -> int
+)
+ident(
+  ext_ref Str.match_end
+)
+"util.ml" 314 12338 12382 "util.ml" 314 12338 12384
+type(
+  unit
+)
+"util.ml" 314 12338 12368 "util.ml" 314 12338 12384
+call(
+  stack
+)
+type(
+  int
+)
+"util.ml" 314 12338 12353 "util.ml" 314 12338 12385
+call(
+  tail
+)
+type(
+  string
+)
+"util.ml" 315 12386 12401 "util.ml" 315 12386 12410
+type(
+  string
+)
+"util.ml" 315 12386 12411 "util.ml" 315 12386 12412
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 315 12386 12413 "util.ml" 315 12386 12414
+type(
+  link
+)
+ident(
+  int_ref l "util.ml" 306 12042 12063 "util.ml" 306 12042 12064
+)
+"util.ml" 315 12386 12413 "util.ml" 315 12386 12419
+type(
+  string
+)
+"util.ml" 315 12386 12401 "util.ml" 315 12386 12419
+call(
+  tail
+)
+type(
+  string
+)
+"util.ml" 313 12279 12289 "util.ml" 315 12386 12419
+type(
+  string
+)
+"util.ml" 312 12223 12231 "util.ml" 315 12386 12419
+type(
+  string
+)
+"util.ml" 316 12420 12434 "util.ml" 316 12420 12435
+type(
+  link
+)
+ident(
+  int_ref l "util.ml" 306 12042 12063 "util.ml" 306 12042 12064
+)
+"util.ml" 316 12420 12434 "util.ml" 316 12420 12440
+type(
+  int
+)
+"util.ml" 316 12420 12441 "util.ml" 316 12420 12442
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"util.ml" 316 12420 12443 "util.ml" 316 12420 12445
+type(
+  int
+)
+"util.ml" 316 12420 12434 "util.ml" 316 12420 12445
+type(
+  bool
+)
+"util.ml" 317 12451 12459 "util.ml" 317 12451 12460
+type(
+  link
+)
+ident(
+  int_ref l "util.ml" 306 12042 12063 "util.ml" 306 12042 12064
+)
+"util.ml" 317 12451 12459 "util.ml" 317 12451 12465
+type(
+  string
+)
+"util.ml" 317 12451 12466 "util.ml" 317 12451 12467
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 317 12451 12468 "util.ml" 317 12451 12471
+type(
+  string
+)
+"util.ml" 317 12451 12472 "util.ml" 317 12451 12473
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 317 12451 12474 "util.ml" 317 12451 12475
+type(
+  link
+)
+ident(
+  int_ref l "util.ml" 306 12042 12063 "util.ml" 306 12042 12064
+)
+"util.ml" 317 12451 12474 "util.ml" 317 12451 12480
+type(
+  string
+)
+"util.ml" 317 12451 12468 "util.ml" 317 12451 12480
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 317 12451 12459 "util.ml" 317 12451 12480
+call(
+  tail
+)
+type(
+  string
+)
+"util.ml" 319 12492 12500 "util.ml" 319 12492 12501
+type(
+  link
+)
+ident(
+  int_ref l "util.ml" 306 12042 12063 "util.ml" 306 12042 12064
+)
+"util.ml" 319 12492 12500 "util.ml" 319 12492 12506
+type(
+  string
+)
+"util.ml" 319 12492 12507 "util.ml" 319 12492 12508
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 319 12492 12509 "util.ml" 319 12492 12512
+type(
+  string
+)
+"util.ml" 319 12492 12513 "util.ml" 319 12492 12514
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 319 12492 12516 "util.ml" 319 12492 12529
+type(
+  int -> string
+)
+ident(
+  ext_ref Core.Std.String.create
+)
+"util.ml" 319 12492 12530 "util.ml" 319 12492 12531
+type(
+  link
+)
+ident(
+  int_ref l "util.ml" 306 12042 12063 "util.ml" 306 12042 12064
+)
+"util.ml" 319 12492 12530 "util.ml" 319 12492 12536
+type(
+  int
+)
+"util.ml" 319 12492 12516 "util.ml" 319 12492 12536
+type(
+  string
+)
+"util.ml" 319 12492 12538 "util.ml" 319 12492 12539
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"util.ml" 319 12492 12540 "util.ml" 319 12492 12541
+type(
+  link
+)
+ident(
+  int_ref l "util.ml" 306 12042 12063 "util.ml" 306 12042 12064
+)
+"util.ml" 319 12492 12540 "util.ml" 319 12492 12546
+type(
+  string
+)
+"util.ml" 319 12492 12515 "util.ml" 319 12492 12546
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 319 12492 12509 "util.ml" 319 12492 12546
+call(
+  stack
+)
+type(
+  string
+)
+"util.ml" 319 12492 12500 "util.ml" 319 12492 12546
+call(
+  tail
+)
+type(
+  string
+)
+"util.ml" 316 12420 12431 "util.ml" 319 12492 12546
+type(
+  string
+)
+"util.ml" 311 12197 12203 "util.ml" 319 12492 12546
+type(
+  string
+)
+"util.ml" 307 12067 12073 "util.ml" 319 12492 12546
+type(
+  string
+)
+"util.ml" 306 12042 12063 "util.ml" 319 12492 12546
+type(
+  link -> string
+)

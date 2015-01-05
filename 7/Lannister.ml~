@@ -1,0 +1,41 @@
+open Core.Std
+open WorldObject
+open WorldObjectI
+
+(* Baratheons should travel in a random direction. *)
+class Lannister p city : world_object_i =
+object (self)
+  inherit human p city as super
+
+  (******************************)
+  (***** Instance Variables *****)
+  (******************************)
+
+
+  (* ### TODO: Part 5 Smart Humans *)
+  val mutable last_direction : Direction.direction option = 
+    super#next_direction_default
+
+  (********************************)
+  (***** WorldObjectI Methods *****)
+  (********************************)
+
+  (* ### TODO: Part 5 Smart Humans *)
+  method! get_name = "baratheon"
+  method! draw_picture = self#draw_circle Graphics.yellow Graphics.black 
+                           (string_of_int (List.length self#human_gold))
+
+  (***********************)
+  (***** Human Methods *****)
+  (***********************)
+
+  (* ### TODO: Part 5 Smart Humans *)
+  method! next_direction : Direction.direction option = 
+    match last_direction with
+    | None -> last_direction <- (Direction.random World.rand); Some last_direction
+    | _ -> if can_move self#pos last_direction
+           then last_direction
+           else new_direction
+
+
+end

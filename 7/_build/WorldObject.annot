@@ -1,0 +1,939 @@
+"WorldObject.ml" 10 239 259 "WorldObject.ml" 10 239 268
+type(
+  int * int
+)
+"WorldObject.ml" 11 297 305 "WorldObject.ml" 11 297 309
+type(
+  < danger : world_object_i -> unit; die : unit; draw : unit;
+    draw_z_axis : int; forfeit_gold : int option;
+    get_danger_event : world_object_i Event51.event;
+    get_die_event : unit Event51.event; get_name : string;
+    get_pos : int * int; is_obstacle : bool; receive_damage : unit;
+    receive_gold : int list -> int list; smells_like_gold : int option; .. >
+)
+"WorldObject.ml" 17 418 457 "WorldObject.ml" 17 418 474
+type(
+  unit -> unit Event51.event
+)
+ident(
+  ext_ref Event51.Event51.new_event
+)
+"WorldObject.ml" 17 418 475 "WorldObject.ml" 17 418 477
+type(
+  unit
+)
+"WorldObject.ml" 17 418 457 "WorldObject.ml" 17 418 477
+call(
+  stack
+)
+type(
+  unit Event51.event
+)
+type(
+  unit Event51.event
+)
+"WorldObject.ml" 18 478 530 "WorldObject.ml" 18 478 547
+type(
+  unit -> world_object_i Event51.event
+)
+ident(
+  ext_ref Event51.Event51.new_event
+)
+"WorldObject.ml" 18 478 548 "WorldObject.ml" 18 478 550
+type(
+  unit
+)
+"WorldObject.ml" 18 478 530 "WorldObject.ml" 18 478 550
+call(
+  stack
+)
+type(
+  world_object_i Event51.event
+)
+type(
+  world_object_i Event51.event
+)
+"WorldObject.ml" 20 552 582 "WorldObject.ml" 20 552 591
+type(
+  int * int
+)
+type(
+  int * int
+)
+ident(
+  int_ref initial_p "WorldObject.ml" 10 239 259 "WorldObject.ml" 10 239 268
+)
+"WorldObject.ml" 27 692 696 "WorldObject.ml" 27 692 705
+type(
+  int * int -> world_object_i -> unit
+)
+ident(
+  ext_ref World.add
+)
+"WorldObject.ml" 27 692 706 "WorldObject.ml" 27 692 709
+type(
+  int * int
+)
+ident(
+  ext_ref pos
+)
+"WorldObject.ml" 27 692 711 "WorldObject.ml" 27 692 715
+type(
+  world_object_i
+)
+type(
+  < danger : world_object_i -> unit; die : unit; draw : unit;
+    draw_z_axis : int; forfeit_gold : int option;
+    get_danger_event : world_object_i Event51.event;
+    get_die_event : unit Event51.event; get_name : string;
+    get_pos : int * int; is_obstacle : bool; receive_damage : unit;
+    receive_gold : int list -> int list; smells_like_gold : int option; .. >
+  as 'a
+)
+ident(
+  int_ref self "WorldObject.ml" 11 297 305 "WorldObject.ml" 11 297 309
+)
+"WorldObject.ml" 27 692 696 "WorldObject.ml" 27 692 734
+call(
+  tail
+)
+type(
+  'a -> unit
+)
+type(
+  unit
+)
+"WorldObject.ml" 33 832 858 "WorldObject.ml" 33 832 859
+type(
+  int * int
+)
+ident(
+  def p "WorldObject.ml" 33 832 869 "WorldObject.ml" 39 1047 1055
+)
+"WorldObject.ml" 34 878 885 "WorldObject.ml" 34 878 899
+type(
+  int * int -> bool
+)
+ident(
+  ext_ref World.can_move
+)
+"WorldObject.ml" 34 878 900 "WorldObject.ml" 34 878 901
+type(
+  int * int
+)
+ident(
+  int_ref p "WorldObject.ml" 33 832 858 "WorldObject.ml" 33 832 859
+)
+"WorldObject.ml" 34 878 885 "WorldObject.ml" 34 878 901
+call(
+  stack
+)
+type(
+  bool
+)
+"WorldObject.ml" 35 913 919 "WorldObject.ml" 35 913 942
+type(
+  int * int -> world_object_i -> unit
+)
+ident(
+  ext_ref World.remove_must_exist
+)
+"WorldObject.ml" 35 913 943 "WorldObject.ml" 35 913 946
+type(
+  int * int
+)
+ident(
+  ext_ref pos
+)
+"WorldObject.ml" 35 913 948 "WorldObject.ml" 35 913 952
+type(
+  world_object_i
+)
+type(
+  'a
+)
+ident(
+  int_ref self "WorldObject.ml" 11 297 305 "WorldObject.ml" 11 297 309
+)
+"WorldObject.ml" 35 913 919 "WorldObject.ml" 35 913 971
+call(
+  stack
+)
+type(
+  unit
+)
+"WorldObject.ml" 36 974 980 "WorldObject.ml" 36 974 989
+type(
+  int * int -> world_object_i -> unit
+)
+ident(
+  ext_ref World.add
+)
+"WorldObject.ml" 36 974 990 "WorldObject.ml" 36 974 991
+type(
+  int * int
+)
+ident(
+  int_ref p "WorldObject.ml" 33 832 858 "WorldObject.ml" 33 832 859
+)
+"WorldObject.ml" 36 974 993 "WorldObject.ml" 36 974 997
+type(
+  world_object_i
+)
+type(
+  'a
+)
+ident(
+  int_ref self "WorldObject.ml" 11 297 305 "WorldObject.ml" 11 297 309
+)
+"WorldObject.ml" 36 974 980 "WorldObject.ml" 36 974 1016
+call(
+  stack
+)
+type(
+  unit
+)
+"WorldObject.ml" 37 1019 1032 "WorldObject.ml" 37 1019 1033
+type(
+  int * int
+)
+ident(
+  int_ref p "WorldObject.ml" 33 832 858 "WorldObject.ml" 33 832 859
+)
+"WorldObject.ml" 37 1019 1025 "WorldObject.ml" 37 1019 1033
+type(
+  unit
+)
+"WorldObject.ml" 36 974 980 "WorldObject.ml" 38 1034 1041
+type(
+  unit
+)
+"WorldObject.ml" 35 913 919 "WorldObject.ml" 38 1034 1041
+type(
+  unit
+)
+"WorldObject.ml" 39 1047 1053 "WorldObject.ml" 39 1047 1055
+type(
+  unit
+)
+"WorldObject.ml" 34 878 882 "WorldObject.ml" 39 1047 1055
+type(
+  unit
+)
+type(
+  unit
+)
+"WorldObject.ml" 33 832 857 "WorldObject.ml" 39 1047 1055
+type(
+  int * int -> unit
+)
+type(
+  int * int -> unit
+)
+"WorldObject.ml" 33 832 834 "WorldObject.ml" 39 1047 1055
+type(
+  'a -> int * int -> unit
+)
+"WorldObject.ml" 47 1253 1261 "WorldObject.ml" 47 1253 1262
+type(
+  'b Event51.event
+)
+ident(
+  def e "WorldObject.ml" 47 1253 1263 "WorldObject.ml" 50 1355 1404
+)
+"WorldObject.ml" 47 1253 1263 "WorldObject.ml" 47 1253 1264
+type(
+  'b -> unit
+)
+ident(
+  def f "WorldObject.ml" 48 1268 1274 "WorldObject.ml" 50 1355 1404
+)
+"WorldObject.ml" 48 1268 1278 "WorldObject.ml" 48 1268 1280
+type(
+  Event51.id
+)
+ident(
+  def id "WorldObject.ml" 49 1311 1317 "WorldObject.ml" 50 1355 1404
+)
+"WorldObject.ml" 48 1268 1283 "WorldObject.ml" 48 1268 1303
+type(
+  'b Event51.event -> ('b -> unit) -> Event51.id
+)
+ident(
+  ext_ref Event51.Event51.add_listener
+)
+"WorldObject.ml" 48 1268 1304 "WorldObject.ml" 48 1268 1305
+type(
+  'b Event51.event
+)
+ident(
+  int_ref e "WorldObject.ml" 47 1253 1261 "WorldObject.ml" 47 1253 1262
+)
+"WorldObject.ml" 48 1268 1306 "WorldObject.ml" 48 1268 1307
+type(
+  'b -> unit
+)
+ident(
+  int_ref f "WorldObject.ml" 47 1253 1263 "WorldObject.ml" 47 1253 1264
+)
+"WorldObject.ml" 48 1268 1283 "WorldObject.ml" 48 1268 1307
+call(
+  stack
+)
+type(
+  Event51.id
+)
+"WorldObject.ml" 49 1311 1317 "WorldObject.ml" 49 1311 1323
+type(
+  Event51.id -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"WorldObject.ml" 49 1311 1324 "WorldObject.ml" 49 1311 1344
+type(
+  unit Event51.event -> (unit -> unit) -> Event51.id
+)
+ident(
+  ext_ref Event51.Event51.add_listener
+)
+"WorldObject.ml" 49 1311 1345 "WorldObject.ml" 49 1311 1354
+type(
+  unit Event51.event
+)
+ident(
+  ext_ref die_event
+)
+"WorldObject.ml" 50 1355 1368 "WorldObject.ml" 50 1355 1370
+type(
+  unit
+)
+"WorldObject.ml" 50 1355 1374 "WorldObject.ml" 50 1355 1397
+type(
+  'b Event51.event -> Event51.id -> unit
+)
+ident(
+  ext_ref Event51.Event51.remove_listener
+)
+"WorldObject.ml" 50 1355 1398 "WorldObject.ml" 50 1355 1399
+type(
+  'b Event51.event
+)
+ident(
+  int_ref e "WorldObject.ml" 47 1253 1261 "WorldObject.ml" 47 1253 1262
+)
+"WorldObject.ml" 50 1355 1400 "WorldObject.ml" 50 1355 1402
+type(
+  Event51.id
+)
+ident(
+  int_ref id "WorldObject.ml" 48 1268 1278 "WorldObject.ml" 48 1268 1280
+)
+"WorldObject.ml" 50 1355 1374 "WorldObject.ml" 50 1355 1402
+call(
+  tail
+)
+type(
+  unit
+)
+"WorldObject.ml" 50 1355 1368 "WorldObject.ml" 50 1355 1402
+type(
+  unit -> unit
+)
+"WorldObject.ml" 49 1311 1324 "WorldObject.ml" 50 1355 1403
+call(
+  stack
+)
+type(
+  Event51.id
+)
+"WorldObject.ml" 49 1311 1317 "WorldObject.ml" 50 1355 1404
+type(
+  unit
+)
+"WorldObject.ml" 48 1268 1274 "WorldObject.ml" 50 1355 1404
+type(
+  unit
+)
+"WorldObject.ml" 47 1253 1263 "WorldObject.ml" 50 1355 1404
+type(
+  ('b -> unit) -> unit
+)
+"WorldObject.ml" 47 1253 1261 "WorldObject.ml" 50 1355 1404
+type(
+  'a0. 'a0 Event51.event -> ('a0 -> unit) -> unit
+)
+type(
+  'b Event51.event -> ('b -> unit) -> unit
+)
+"WorldObject.ml" 45 1166 1168 "WorldObject.ml" 50 1355 1404
+type(
+  'a -> ('a0. 'a0 Event51.event -> ('a0 -> unit) -> unit)
+)
+"WorldObject.ml" 52 1406 1428 "WorldObject.ml" 52 1406 1429
+type(
+  Direction.direction option
+)
+ident(
+  def d "WorldObject.ml" 53 1432 1436 "WorldObject.ml" 53 1432 1477
+)
+"WorldObject.ml" 53 1432 1436 "WorldObject.ml" 53 1432 1440
+type(
+  'a
+)
+ident(
+  int_ref self "WorldObject.ml" 11 297 305 "WorldObject.ml" 11 297 309
+)
+"WorldObject.ml" 53 1432 1436 "WorldObject.ml" 53 1432 1448
+call(
+  tail
+)
+type(
+  int * int -> unit
+)
+"WorldObject.ml" 53 1432 1450 "WorldObject.ml" 53 1432 1470
+type(
+  int * int -> Direction.direction option -> int * int
+)
+ident(
+  ext_ref Direction.move_point
+)
+"WorldObject.ml" 53 1432 1471 "WorldObject.ml" 53 1432 1474
+type(
+  int * int
+)
+ident(
+  ext_ref pos
+)
+"WorldObject.ml" 53 1432 1475 "WorldObject.ml" 53 1432 1476
+type(
+  Direction.direction option
+)
+ident(
+  int_ref d "WorldObject.ml" 52 1406 1428 "WorldObject.ml" 52 1406 1429
+)
+"WorldObject.ml" 53 1432 1450 "WorldObject.ml" 53 1432 1476
+call(
+  stack
+)
+type(
+  int * int
+)
+"WorldObject.ml" 53 1432 1436 "WorldObject.ml" 53 1432 1477
+type(
+  unit
+)
+"WorldObject.ml" 52 1406 1428 "WorldObject.ml" 53 1432 1477
+type(
+  Direction.direction option -> unit
+)
+type(
+  Direction.direction option -> unit
+)
+"WorldObject.ml" 52 1406 1408 "WorldObject.ml" 53 1432 1477
+type(
+  'a -> Direction.direction option -> unit
+)
+"WorldObject.ml" 55 1479 1508 "WorldObject.ml" 55 1479 1510
+type(
+  int
+)
+ident(
+  def bg "WorldObject.ml" 55 1479 1511 "WorldObject.ml" 56 1521 1584
+)
+"WorldObject.ml" 55 1479 1511 "WorldObject.ml" 55 1479 1513
+type(
+  int
+)
+ident(
+  def fg "WorldObject.ml" 55 1479 1514 "WorldObject.ml" 56 1521 1584
+)
+"WorldObject.ml" 55 1479 1514 "WorldObject.ml" 55 1479 1518
+type(
+  string
+)
+ident(
+  def text "WorldObject.ml" 56 1521 1525 "WorldObject.ml" 56 1521 1584
+)
+"WorldObject.ml" 56 1521 1525 "WorldObject.ml" 56 1521 1536
+type(
+  int * int -> int -> int -> int -> int -> string -> unit
+)
+ident(
+  ext_ref Draw.circle
+)
+"WorldObject.ml" 56 1521 1537 "WorldObject.ml" 56 1521 1540
+type(
+  int * int
+)
+ident(
+  ext_ref pos
+)
+"WorldObject.ml" 56 1521 1541 "WorldObject.ml" 56 1521 1556
+type(
+  int
+)
+ident(
+  ext_ref World.obj_width
+)
+"WorldObject.ml" 56 1521 1557 "WorldObject.ml" 56 1521 1573
+type(
+  int
+)
+ident(
+  ext_ref World.obj_height
+)
+"WorldObject.ml" 56 1521 1574 "WorldObject.ml" 56 1521 1576
+type(
+  int
+)
+ident(
+  int_ref bg "WorldObject.ml" 55 1479 1508 "WorldObject.ml" 55 1479 1510
+)
+"WorldObject.ml" 56 1521 1577 "WorldObject.ml" 56 1521 1579
+type(
+  int
+)
+ident(
+  int_ref fg "WorldObject.ml" 55 1479 1511 "WorldObject.ml" 55 1479 1513
+)
+"WorldObject.ml" 56 1521 1580 "WorldObject.ml" 56 1521 1584
+type(
+  string
+)
+ident(
+  int_ref text "WorldObject.ml" 55 1479 1514 "WorldObject.ml" 55 1479 1518
+)
+"WorldObject.ml" 56 1521 1525 "WorldObject.ml" 56 1521 1584
+call(
+  tail
+)
+type(
+  unit
+)
+"WorldObject.ml" 55 1479 1514 "WorldObject.ml" 56 1521 1584
+type(
+  string -> unit
+)
+"WorldObject.ml" 55 1479 1511 "WorldObject.ml" 56 1521 1584
+type(
+  int -> string -> unit
+)
+"WorldObject.ml" 55 1479 1508 "WorldObject.ml" 56 1521 1584
+type(
+  int -> int -> string -> unit
+)
+type(
+  int -> int -> string -> unit
+)
+"WorldObject.ml" 55 1479 1481 "WorldObject.ml" 56 1521 1584
+type(
+  'a -> int -> int -> string -> unit
+)
+"WorldObject.ml" 58 1586 1619 "WorldObject.ml" 58 1586 1620
+type(
+  int
+)
+ident(
+  def c "WorldObject.ml" 58 1586 1621 "WorldObject.ml" 60 1662 1724
+)
+"WorldObject.ml" 58 1586 1621 "WorldObject.ml" 58 1586 1622
+type(
+  float
+)
+ident(
+  def v "WorldObject.ml" 59 1625 1629 "WorldObject.ml" 60 1662 1724
+)
+"WorldObject.ml" 59 1625 1633 "WorldObject.ml" 59 1625 1634
+type(
+  int
+)
+ident(
+  def h "WorldObject.ml" 60 1662 1666 "WorldObject.ml" 60 1662 1724
+)
+"WorldObject.ml" 59 1625 1637 "WorldObject.ml" 59 1625 1653
+type(
+  int
+)
+ident(
+  ext_ref World.obj_height
+)
+"WorldObject.ml" 59 1625 1654 "WorldObject.ml" 59 1625 1655
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"WorldObject.ml" 59 1625 1656 "WorldObject.ml" 59 1625 1658
+type(
+  int
+)
+"WorldObject.ml" 59 1625 1637 "WorldObject.ml" 59 1625 1658
+type(
+  int
+)
+"WorldObject.ml" 60 1662 1666 "WorldObject.ml" 60 1662 1681
+type(
+  int * int -> int -> int -> int -> int -> float -> unit
+)
+ident(
+  ext_ref Draw.status_bar
+)
+"WorldObject.ml" 60 1662 1682 "WorldObject.ml" 60 1662 1685
+type(
+  int * int
+)
+ident(
+  ext_ref pos
+)
+"WorldObject.ml" 60 1662 1686 "WorldObject.ml" 60 1662 1701
+type(
+  int
+)
+ident(
+  ext_ref World.obj_width
+)
+"WorldObject.ml" 60 1662 1702 "WorldObject.ml" 60 1662 1718
+type(
+  int
+)
+ident(
+  ext_ref World.obj_height
+)
+"WorldObject.ml" 60 1662 1719 "WorldObject.ml" 60 1662 1720
+type(
+  int
+)
+ident(
+  int_ref c "WorldObject.ml" 58 1586 1619 "WorldObject.ml" 58 1586 1620
+)
+"WorldObject.ml" 60 1662 1721 "WorldObject.ml" 60 1662 1722
+type(
+  int
+)
+ident(
+  int_ref h "WorldObject.ml" 59 1625 1633 "WorldObject.ml" 59 1625 1634
+)
+"WorldObject.ml" 60 1662 1723 "WorldObject.ml" 60 1662 1724
+type(
+  float
+)
+ident(
+  int_ref v "WorldObject.ml" 58 1586 1621 "WorldObject.ml" 58 1586 1622
+)
+"WorldObject.ml" 60 1662 1666 "WorldObject.ml" 60 1662 1724
+call(
+  tail
+)
+type(
+  unit
+)
+"WorldObject.ml" 59 1625 1629 "WorldObject.ml" 60 1662 1724
+type(
+  unit
+)
+"WorldObject.ml" 58 1586 1621 "WorldObject.ml" 60 1662 1724
+type(
+  float -> unit
+)
+"WorldObject.ml" 58 1586 1619 "WorldObject.ml" 60 1662 1724
+type(
+  int -> float -> unit
+)
+type(
+  int -> float -> unit
+)
+"WorldObject.ml" 58 1586 1588 "WorldObject.ml" 60 1662 1724
+type(
+  'a -> int -> float -> unit
+)
+"WorldObject.ml" 62 1726 1746 "WorldObject.ml" 62 1726 1754
+type(
+  string
+)
+type(
+  string
+)
+"WorldObject.ml" 62 1726 1728 "WorldObject.ml" 62 1726 1754
+type(
+  'a -> string
+)
+"WorldObject.ml" 64 1756 1775 "WorldObject.ml" 64 1756 1778
+type(
+  int * int
+)
+type(
+  int * int
+)
+ident(
+  ext_ref pos
+)
+"WorldObject.ml" 64 1756 1758 "WorldObject.ml" 64 1756 1778
+type(
+  'a -> int * int
+)
+"WorldObject.ml" 66 1780 1796 "WorldObject.ml" 66 1780 1800
+type(
+  'a
+)
+ident(
+  int_ref self "WorldObject.ml" 11 297 305 "WorldObject.ml" 11 297 309
+)
+"WorldObject.ml" 66 1780 1796 "WorldObject.ml" 66 1780 1812
+call(
+  tail
+)
+type(
+  int -> int -> string -> unit
+)
+"WorldObject.ml" 66 1780 1813 "WorldObject.ml" 66 1780 1827
+type(
+  int
+)
+ident(
+  ext_ref Graphics.green
+)
+"WorldObject.ml" 66 1780 1828 "WorldObject.ml" 66 1780 1842
+type(
+  int
+)
+ident(
+  ext_ref Graphics.black
+)
+"WorldObject.ml" 66 1780 1843 "WorldObject.ml" 66 1780 1845
+type(
+  string
+)
+"WorldObject.ml" 66 1780 1796 "WorldObject.ml" 66 1780 1845
+type(
+  unit
+)
+type(
+  unit
+)
+"WorldObject.ml" 66 1780 1782 "WorldObject.ml" 66 1780 1845
+type(
+  'a -> unit
+)
+"WorldObject.ml" 68 1847 1870 "WorldObject.ml" 68 1847 1871
+type(
+  int
+)
+type(
+  int
+)
+"WorldObject.ml" 68 1847 1849 "WorldObject.ml" 68 1847 1871
+type(
+  'a -> int
+)
+"WorldObject.ml" 70 1873 1896 "WorldObject.ml" 70 1873 1901
+type(
+  bool
+)
+type(
+  bool
+)
+"WorldObject.ml" 70 1873 1875 "WorldObject.ml" 70 1873 1901
+type(
+  'a -> bool
+)
+"WorldObject.ml" 72 1903 1931 "WorldObject.ml" 72 1903 1935
+type(
+  int option
+)
+type(
+  int option
+)
+"WorldObject.ml" 72 1903 1905 "WorldObject.ml" 72 1903 1935
+type(
+  'a -> int option
+)
+"WorldObject.ml" 74 1937 1961 "WorldObject.ml" 74 1937 1965
+type(
+  int option
+)
+type(
+  int option
+)
+"WorldObject.ml" 74 1937 1939 "WorldObject.ml" 74 1937 1965
+type(
+  'a -> int option
+)
+"WorldObject.ml" 76 1967 1989 "WorldObject.ml" 76 1967 1991
+type(
+  int list
+)
+ident(
+  def ps "WorldObject.ml" 76 1967 1994 "WorldObject.ml" 76 1967 1996
+)
+"WorldObject.ml" 76 1967 1994 "WorldObject.ml" 76 1967 1996
+type(
+  int list
+)
+ident(
+  int_ref ps "WorldObject.ml" 76 1967 1989 "WorldObject.ml" 76 1967 1991
+)
+"WorldObject.ml" 76 1967 1989 "WorldObject.ml" 76 1967 1996
+type(
+  int list -> int list
+)
+type(
+  int list -> int list
+)
+"WorldObject.ml" 76 1967 1969 "WorldObject.ml" 76 1967 1996
+type(
+  'a -> int list -> int list
+)
+"WorldObject.ml" 78 1998 2024 "WorldObject.ml" 78 1998 2026
+type(
+  unit
+)
+type(
+  unit
+)
+"WorldObject.ml" 78 1998 2000 "WorldObject.ml" 78 1998 2026
+type(
+  'a -> unit
+)
+"WorldObject.ml" 80 2028 2053 "WorldObject.ml" 80 2028 2062
+type(
+  unit Event51.event
+)
+type(
+  unit Event51.event
+)
+ident(
+  ext_ref die_event
+)
+"WorldObject.ml" 80 2028 2030 "WorldObject.ml" 80 2028 2062
+type(
+  'a -> unit Event51.event
+)
+"WorldObject.ml" 83 2079 2083 "WorldObject.ml" 83 2079 2101
+type(
+  unit Event51.event -> unit -> unit
+)
+ident(
+  ext_ref Event51.Event51.fire_event
+)
+"WorldObject.ml" 83 2079 2102 "WorldObject.ml" 83 2079 2111
+type(
+  unit Event51.event
+)
+ident(
+  ext_ref die_event
+)
+"WorldObject.ml" 83 2079 2112 "WorldObject.ml" 83 2079 2114
+type(
+  unit
+)
+"WorldObject.ml" 83 2079 2083 "WorldObject.ml" 83 2079 2114
+call(
+  stack
+)
+type(
+  unit
+)
+"WorldObject.ml" 84 2117 2121 "WorldObject.ml" 84 2117 2144
+type(
+  int * int -> world_object_i -> unit
+)
+ident(
+  ext_ref World.remove_must_exist
+)
+"WorldObject.ml" 84 2117 2145 "WorldObject.ml" 84 2117 2148
+type(
+  int * int
+)
+ident(
+  ext_ref pos
+)
+"WorldObject.ml" 84 2117 2150 "WorldObject.ml" 84 2117 2154
+type(
+  world_object_i
+)
+type(
+  'a
+)
+ident(
+  int_ref self "WorldObject.ml" 11 297 305 "WorldObject.ml" 11 297 309
+)
+"WorldObject.ml" 84 2117 2121 "WorldObject.ml" 84 2117 2173
+call(
+  tail
+)
+type(
+  unit
+)
+"WorldObject.ml" 83 2079 2083 "WorldObject.ml" 84 2117 2173
+type(
+  unit
+)
+type(
+  unit
+)
+"WorldObject.ml" 82 2064 2066 "WorldObject.ml" 84 2117 2173
+type(
+  'a -> unit
+)
+"WorldObject.ml" 86 2175 2203 "WorldObject.ml" 86 2175 2215
+type(
+  world_object_i Event51.event
+)
+type(
+  world_object_i Event51.event
+)
+ident(
+  ext_ref danger_event
+)
+"WorldObject.ml" 86 2175 2177 "WorldObject.ml" 86 2175 2215
+type(
+  'a -> world_object_i Event51.event
+)
+"WorldObject.ml" 88 2217 2233 "WorldObject.ml" 88 2217 2234
+type(
+  world_object_i
+)
+ident(
+  def o "WorldObject.ml" 88 2217 2237 "WorldObject.ml" 88 2217 2270
+)
+"WorldObject.ml" 88 2217 2237 "WorldObject.ml" 88 2217 2255
+type(
+  world_object_i Event51.event -> world_object_i -> unit
+)
+ident(
+  ext_ref Event51.Event51.fire_event
+)
+"WorldObject.ml" 88 2217 2256 "WorldObject.ml" 88 2217 2268
+type(
+  world_object_i Event51.event
+)
+ident(
+  ext_ref danger_event
+)
+"WorldObject.ml" 88 2217 2269 "WorldObject.ml" 88 2217 2270
+type(
+  world_object_i
+)
+ident(
+  int_ref o "WorldObject.ml" 88 2217 2233 "WorldObject.ml" 88 2217 2234
+)
+"WorldObject.ml" 88 2217 2237 "WorldObject.ml" 88 2217 2270
+call(
+  tail
+)
+type(
+  unit
+)
+"WorldObject.ml" 88 2217 2233 "WorldObject.ml" 88 2217 2270
+type(
+  world_object_i -> unit
+)
+type(
+  world_object_i -> unit
+)
+"WorldObject.ml" 88 2217 2219 "WorldObject.ml" 88 2217 2270
+type(
+  'a -> world_object_i -> unit
+)

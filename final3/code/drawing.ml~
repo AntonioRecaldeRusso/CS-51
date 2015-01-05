@@ -1,0 +1,249 @@
+
+(* If you're using the CS50 appliance with our standard OCaml installation, you
+   can install the graphics library used during this lecture by typing the
+   following command into the terminal in your appliance:
+
+    curl -s http://sites.fas.harvard.edu/~cs51/graphics.sh | sh
+
+ *)
+
+#require "graphics"
+
+(* Open the graphics window, run the specified drawing thunk, and then
+   close the window and return when the user pressed the 'q' key. *)
+let with_graph ~(draw : unit -> 'a) : unit =
+  Graphics.((
+    close_graph ();
+    open_graph "";
+    ignore (draw ());
+    let rec loop () =
+      if (wait_next_event [Key_pressed]).key = 'q'
+      then ()
+      else loop () in
+    loop ();
+    close_graph ()
+  ))
+
+(* 2-D cartesian points *)
+type point = { x : int; y : int }
+
+let p1 = { x = 300; y = 225 }
+let p2 = { x = 100; y = 100 }
+let p3 = { x = 500; y = 350 }
+
+(* Class type for display elements. This is the interface that display
+   elements present not only to clients, but to subclasses (in particular,
+   the inheritance interface includes the mutable variable point) *)
+class type display_elt =
+object
+  val mutable pos  : point
+  method draw      : unit
+  method get_color : Graphics.color
+  method set_color : Graphics.color -> unit
+  method translate : dx:int -> dy:int -> unit
+end
+
+(* Translate a point by the given x and y displacements *)
+let translate_point (p : point) ~(dx : int) ~(dy : int) : point =
+  { x = p.x + dx; y = p.y + dy }
+
+(* Helper class describing shapes with updatable positions and colors *)
+class shape (p : point) =
+object
+  val mutable pos = p
+  val mutable color = Graphics.black
+
+  method get_color = color
+  method set_color c = color <- c
+  method translate ~dx ~dy = pos <- translate_point ~dx ~dy pos
+end
+
+class rect (ll : point) (width : int) (height : int) : display_elt =
+object
+  inherit shape ll
+
+  method draw = Graphics.set_color color;
+                Graphics.fill_rect pos.x pos.y width height
+end
+
+class circ (center : point) (radius : int) : display_elt =
+object
+  inherit shape center
+
+  method draw = Graphics.set_color color;
+                Graphics.fill_circle pos.x pos.y radius
+end
+
+class branch (center : point) (span : int) (height: int) : display_elt =
+object
+  inherit shape center
+  method draw = Graphics.set_color Graphics.green;
+                Graphics.moveto center.x center.y;
+                Graphics.lineto (center.x - span) (center.y - height);
+                Graphics.moveto center.x center.y;
+                Graphics.lineto (center.x + span) (center.y - height);
+                Graphics.moveto (center.x - 2) center.y;
+                Graphics.set_color color;
+                Graphics.draw_string "1";
+
+
+   if span > 4 then
+   ((new branch {x = center.x - span; y = center.y - height} (span / 2) height)#draw; 
+   (new branch {x = center.x + span; y = center.y - height} (span / 2) height)#draw)
+ 
+  
+  
+end
+
+class square (ll : point) (width : int) : display_elt =
+object
+  inherit rect ll width width
+end
+
+let _ =
+  let scene1 = [ new square p2 50; new circ p2 50 ] in
+  with_graph ~draw:fun () ->
+    List.iter scene1 ~f:fun elt ->
+      elt#set_color Graphics.red;
+      elt#draw;
+      elt#translate ~dx:150 ~dy:100;
+      elt#set_color Graphics.green;
+      elt#draw;
+      elt#translate ~dx:150 ~dy:100;
+      elt#set_color Graphics.blue;
+      elt#draw
+
+(** Object subtyping *)
+
+let square1 = new square p1 100
+let circ1 = new circ p2 50
+
+#typeof "square1"
+
+#typeof "+"
+
+#typeof "circ1"
+
+#typeof "rect"
+
+#typeof "circ"
+
+(*** TO SLIDES ***)
+
+(*
+class type drawable =
+object
+  method draw : unit
+end
+*)
+
+type drawable = < draw : unit >
+
+let draw_list (drawables : drawable list) : unit =
+  List.iter drawables ~f:fun d -> d#draw
+
+let _ = with_graph ~draw:fun () ->
+  draw_list [ (square1 :> drawable); (circ1 :> drawable)]
+
+let draw_list drawables =
+  List.iter drawables ~f:fun d -> d#draw
+
+let _ = with_graph ~draw:fun () ->
+  draw_list [ square1; circ1 ]
+
+class border_rect (ll : point) (width : int) (height : int) =
+object
+  inherit rect ll width height as mom
+
+  method! draw =
+    mom#draw;
+    Graphics.set_color Graphics.black;
+    Graphics.draw_rect pos.x pos.y width height
+end
+
+let _ = with_graph ~draw:fun () ->
+                         let r = new border_rect p2 200 100 in
+                         r#set_color Graphics.red;
+                         r#draw
+
+class cs51 =
+object (self)
+  method greet = printf "Hello, %s\n" self#who
+  method who = "CS 51"
+end
+
+class csci_e51 =
+object
+  inherit cs51
+  method! who = "CSCI E-51"
+end
+
+let _ =
+  new cs51#greet;
+  new csci_e51#greet
+
+(*** TO SLIDES ***)
+
+(* Overriding for mixins *)
+
+class virtual greeter =
+object (self)
+  method virtual who : string
+  method greet = printf "Hello, %s\n" self#who
+end
+
+class cs51 =
+object
+  inherit greeter
+  method who = "CS 51"
+end
+
+class csci_e51 =
+object
+  inherit greeter
+  method who = "CSCI E-51"
+end
+
+let _ =
+  new cs51#greet;
+  new csci_e51#greet
+
+(* A larger example *)
+
+class virtual erasable =
+object (self)
+    method virtual draw : unit
+    method virtual get_color : Graphics.color
+    method virtual set_color : Graphics.color -> unit
+
+    method erase =
+      let old_color = self#get_color in
+      self#set_color Graphics.white;
+      self#draw;
+      self#set_color old_color;
+  end
+
+class rect (ll : point) (width : int) (height : int) =
+object
+  inherit shape ll
+  inherit erasable
+
+  method draw = Graphics.set_color color;
+                Graphics.fill_rect pos.x pos.y width height
+end
+
+class old_circ = circ
+
+class circ (center : point) (radius : int) =
+object
+  inherit old_circ center radius
+  inherit erasable
+end
+
+class square (ll : point) (width : int) = rect ll width width
+
+let _ = with_graph ~draw:fun () ->
+          let c = new circ p1 100 in
+          c#draw;
+          c#translate ~dx:10 ~dy:10;
+          c#erase

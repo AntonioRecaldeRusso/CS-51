@@ -1,0 +1,988 @@
+"Town.ml" 7 92 96 "Town.ml" 7 92 108
+type(
+  int ref
+)
+ident(
+  def next_gold_id "Town.ml" 8 117 117 "Town.ml" 1 0 -1
+)
+"Town.ml" 7 92 111 "Town.ml" 7 92 114
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"Town.ml" 7 92 115 "Town.ml" 7 92 116
+type(
+  int
+)
+"Town.ml" 7 92 111 "Town.ml" 7 92 116
+type(
+  int ref
+)
+"Town.ml" 8 117 121 "Town.ml" 8 117 137
+type(
+  unit -> int
+)
+ident(
+  def get_next_gold_id "Town.ml" 12 222 222 "Town.ml" 1 0 -1
+)
+"Town.ml" 8 117 138 "Town.ml" 8 117 140
+type(
+  unit
+)
+"Town.ml" 9 143 149 "Town.ml" 9 143 150
+type(
+  int
+)
+ident(
+  def p "Town.ml" 9 143 170 "Town.ml" 9 143 191
+)
+"Town.ml" 9 143 154 "Town.ml" 9 143 166
+type(
+  int ref
+)
+ident(
+  int_ref next_gold_id "Town.ml" 7 92 96 "Town.ml" 7 92 108
+)
+"Town.ml" 9 143 153 "Town.ml" 9 143 166
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Town.ml" 9 143 170 "Town.ml" 9 143 174
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"Town.ml" 9 143 175 "Town.ml" 9 143 187
+type(
+  int ref
+)
+ident(
+  int_ref next_gold_id "Town.ml" 7 92 96 "Town.ml" 7 92 108
+)
+"Town.ml" 9 143 170 "Town.ml" 9 143 187
+type(
+  unit
+)
+"Town.ml" 9 143 190 "Town.ml" 9 143 191
+type(
+  int
+)
+ident(
+  int_ref p "Town.ml" 9 143 149 "Town.ml" 9 143 150
+)
+"Town.ml" 9 143 170 "Town.ml" 9 143 191
+type(
+  int
+)
+"Town.ml" 9 143 145 "Town.ml" 9 143 191
+type(
+  int
+)
+"Town.ml" 8 117 138 "Town.ml" 9 143 191
+type(
+  unit -> int
+)
+"Town.ml" 12 222 226 "Town.ml" 12 222 234
+type(
+  int
+)
+ident(
+  def max_gold "Town.ml" 13 239 239 "Town.ml" 1 0 -1
+)
+"Town.ml" 12 222 237 "Town.ml" 12 222 238
+type(
+  int
+)
+"Town.ml" 13 239 243 "Town.ml" 13 239 267
+type(
+  int
+)
+ident(
+  def produce_gold_probability "Town.ml" 14 273 273 "Town.ml" 1 0 -1
+)
+"Town.ml" 13 239 270 "Town.ml" 13 239 272
+type(
+  int
+)
+"Town.ml" 14 273 277 "Town.ml" 14 273 295
+type(
+  int
+)
+ident(
+  def expand_probability "Town.ml" 15 303 303 "Town.ml" 1 0 -1
+)
+"Town.ml" 14 273 298 "Town.ml" 14 273 302
+type(
+  int
+)
+"Town.ml" 15 303 307 "Town.ml" 15 303 331
+type(
+  int
+)
+ident(
+  def forfeit_gold_probability "Town.ml" 18 364 364 "Town.ml" 1 0 -1
+)
+"Town.ml" 15 303 334 "Town.ml" 15 303 335
+type(
+  int
+)
+"Town.ml" 18 364 368 "Town.ml" 18 364 381
+type(
+  int
+)
+ident(
+  def town_lifetime "Town.ml" 22 486 486 "Town.ml" 1 0 -1
+)
+"Town.ml" 18 364 384 "Town.ml" 18 364 388
+type(
+  int
+)
+"Town.ml" 22 486 497 "Town.ml" 22 486 498
+type(
+  int * int
+)
+"Town.ml" 22 486 499 "Town.ml" 22 486 506
+type(
+  int
+)
+"Town.ml" 23 529 537 "Town.ml" 23 529 541
+type(
+  < danger : world_object_i -> unit; die : unit; draw : unit;
+    draw_picture : unit; draw_z_axis : int; forfeit_gold : int option;
+    get_danger_event : world_object_i Event51.Event51.event;
+    get_die_event : unit Event51.Event51.event; get_name : string;
+    get_pos : int * int; is_obstacle : bool;
+    next_direction : Direction.direction option; receive_damage : unit;
+    receive_gold : int list -> int list; reset_life : unit;
+    smells_like_gold : int option; .. >
+)
+"Town.ml" 24 543 578 "Town.ml" 24 543 579
+type(
+  int * int
+)
+ident(
+  int_ref p "Town.ml" 22 486 497 "Town.ml" 22 486 498
+)
+"Town.ml" 24 543 580 "Town.ml" 24 543 584
+type(
+  int option
+)
+"Town.ml" 24 543 586 "Town.ml" 24 543 596
+type(
+  int -> int
+)
+ident(
+  ext_ref World.rand
+)
+"Town.ml" 24 543 597 "Town.ml" 24 543 610
+type(
+  int
+)
+ident(
+  int_ref town_lifetime "Town.ml" 18 364 368 "Town.ml" 18 364 381
+)
+"Town.ml" 24 543 586 "Town.ml" 24 543 610
+call(
+  stack
+)
+type(
+  int
+)
+"Town.ml" 24 543 612 "Town.ml" 24 543 625
+type(
+  int
+)
+ident(
+  int_ref town_lifetime "Town.ml" 18 364 368 "Town.ml" 18 364 381
+)
+"Town.ml" 29 733 759 "Town.ml" 29 733 769
+type(
+  int -> int
+)
+ident(
+  ext_ref World.rand
+)
+"Town.ml" 29 733 770 "Town.ml" 29 733 778
+type(
+  int
+)
+ident(
+  int_ref max_gold "Town.ml" 12 222 226 "Town.ml" 12 222 234
+)
+"Town.ml" 29 733 759 "Town.ml" 29 733 778
+call(
+  stack
+)
+type(
+  int
+)
+"Town.ml" 38 919 923 "Town.ml" 38 919 927
+type(
+  < danger : world_object_i -> unit; die : unit; draw : unit;
+    draw_picture : unit; draw_z_axis : int; forfeit_gold : int option;
+    get_danger_event : world_object_i Event51.Event51.event;
+    get_die_event : unit Event51.Event51.event; get_name : string;
+    get_pos : int * int; is_obstacle : bool;
+    next_direction : Direction.direction option; receive_damage : unit;
+    receive_gold : int list -> int list; reset_life : unit;
+    smells_like_gold : int option; .. >
+  as 'a
+)
+ident(
+  int_ref self "Town.ml" 23 529 537 "Town.ml" 23 529 541
+)
+"Town.ml" 38 919 923 "Town.ml" 38 919 944
+call(
+  tail
+)
+type(
+  unit Event51.Event51.event -> (unit -> unit) -> unit
+)
+"Town.ml" 38 919 945 "Town.ml" 38 919 963
+type(
+  unit Event51.Event51.event
+)
+ident(
+  ext_ref World.action_event
+)
+"Town.ml" 38 919 964 "Town.ml" 38 919 968
+type(
+  'a
+)
+ident(
+  int_ref self "Town.ml" 23 529 537 "Town.ml" 23 529 541
+)
+"Town.ml" 38 919 964 "Town.ml" 38 919 978
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"Town.ml" 38 919 923 "Town.ml" 38 919 978
+type(
+  'a -> unit
+)
+type(
+  unit
+)
+"Town.ml" 47 1186 1193 "Town.ml" 47 1186 1202
+type(
+  int
+)
+ident(
+  ext_ref town_gold
+)
+"Town.ml" 47 1186 1203 "Town.ml" 47 1186 1204
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"Town.ml" 47 1186 1205 "Town.ml" 47 1186 1213
+type(
+  int
+)
+ident(
+  int_ref max_gold "Town.ml" 12 222 226 "Town.ml" 12 222 234
+)
+"Town.ml" 47 1186 1193 "Town.ml" 47 1186 1213
+type(
+  bool
+)
+"Town.ml" 48 1216 1224 "Town.ml" 48 1216 1244
+type(
+  (int -> int) -> int -> (unit -> unit) -> unit
+)
+ident(
+  ext_ref Helpers.with_inv_probability
+)
+"Town.ml" 48 1216 1245 "Town.ml" 48 1216 1255
+type(
+  int -> int
+)
+ident(
+  ext_ref World.rand
+)
+"Town.ml" 48 1216 1256 "Town.ml" 48 1216 1280
+type(
+  int
+)
+ident(
+  int_ref produce_gold_probability "Town.ml" 13 239 243 "Town.ml" 13 239 267
+)
+"Town.ml" 48 1216 1286 "Town.ml" 48 1216 1288
+type(
+  unit
+)
+"Town.ml" 48 1216 1306 "Town.ml" 48 1216 1315
+type(
+  int
+)
+ident(
+  ext_ref town_gold
+)
+"Town.ml" 48 1216 1316 "Town.ml" 48 1216 1317
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"Town.ml" 48 1216 1318 "Town.ml" 48 1216 1319
+type(
+  int
+)
+"Town.ml" 48 1216 1306 "Town.ml" 48 1216 1319
+type(
+  int
+)
+"Town.ml" 48 1216 1292 "Town.ml" 48 1216 1320
+type(
+  unit
+)
+"Town.ml" 48 1216 1286 "Town.ml" 48 1216 1320
+type(
+  unit -> unit
+)
+"Town.ml" 48 1216 1224 "Town.ml" 48 1216 1321
+call(
+  tail
+)
+type(
+  unit
+)
+"Town.ml" 49 1323 1331 "Town.ml" 49 1323 1333
+type(
+  unit
+)
+"Town.ml" 47 1186 1189 "Town.ml" 49 1323 1333
+type(
+  unit
+)
+type(
+  unit
+)
+"Town.ml" 46 1153 1155 "Town.ml" 49 1323 1333
+type(
+  'a -> unit
+)
+"Town.ml" 51 1361 1365 "Town.ml" 51 1361 1385
+type(
+  (int -> int) -> int -> (unit -> unit) -> unit
+)
+ident(
+  ext_ref Helpers.with_inv_probability
+)
+"Town.ml" 51 1361 1386 "Town.ml" 51 1361 1396
+type(
+  int -> int
+)
+ident(
+  ext_ref World.rand
+)
+"Town.ml" 51 1361 1397 "Town.ml" 51 1361 1415
+type(
+  int
+)
+ident(
+  int_ref expand_probability "Town.ml" 14 273 277 "Town.ml" 14 273 295
+)
+"Town.ml" 52 1417 1426 "Town.ml" 52 1417 1428
+type(
+  unit
+)
+"Town.ml" 52 1417 1432 "Town.ml" 52 1417 1443
+type(
+  int -> int * int -> (int * int -> unit) -> unit
+)
+ident(
+  ext_ref World.spawn
+)
+"Town.ml" 52 1417 1445 "Town.ml" 52 1417 1446
+type(
+  int
+)
+"Town.ml" 52 1417 1449 "Town.ml" 52 1417 1453
+type(
+  'a
+)
+ident(
+  int_ref self "Town.ml" 23 529 537 "Town.ml" 23 529 541
+)
+"Town.ml" 52 1417 1449 "Town.ml" 52 1417 1461
+call(
+  stack
+)
+type(
+  int * int
+)
+"Town.ml" 52 1417 1468 "Town.ml" 52 1417 1469
+type(
+  int * int
+)
+ident(
+  def x "Town.ml" 52 1417 1473 "Town.ml" 52 1417 1501
+)
+"Town.ml" 52 1417 1473 "Town.ml" 52 1417 1479
+type(
+  town -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"Town.ml" 52 1417 1480 "Town.ml" 52 1417 1488
+type(
+  int * int -> int -> town
+)
+"Town.ml" 52 1417 1489 "Town.ml" 52 1417 1490
+type(
+  int * int
+)
+ident(
+  int_ref x "Town.ml" 52 1417 1468 "Town.ml" 52 1417 1469
+)
+"Town.ml" 52 1417 1492 "Town.ml" 52 1417 1499
+type(
+  int
+)
+ident(
+  int_ref gold_id "Town.ml" 22 486 499 "Town.ml" 22 486 506
+)
+"Town.ml" 52 1417 1480 "Town.ml" 52 1417 1500
+call(
+  stack
+)
+type(
+  town
+)
+"Town.ml" 52 1417 1473 "Town.ml" 52 1417 1501
+type(
+  unit
+)
+"Town.ml" 52 1417 1468 "Town.ml" 52 1417 1501
+type(
+  int * int -> unit
+)
+"Town.ml" 52 1417 1432 "Town.ml" 52 1417 1502
+call(
+  tail
+)
+type(
+  unit
+)
+"Town.ml" 52 1417 1426 "Town.ml" 52 1417 1502
+type(
+  unit -> unit
+)
+"Town.ml" 51 1361 1365 "Town.ml" 52 1417 1503
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"Town.ml" 50 1334 1336 "Town.ml" 52 1417 1503
+type(
+  'a -> unit
+)
+"Town.ml" 55 1537 1545 "Town.ml" 55 1537 1554
+type(
+  int
+)
+ident(
+  ext_ref town_gold
+)
+"Town.ml" 55 1537 1555 "Town.ml" 55 1537 1556
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"Town.ml" 55 1537 1557 "Town.ml" 55 1537 1558
+type(
+  int
+)
+"Town.ml" 55 1537 1545 "Town.ml" 55 1537 1558
+type(
+  bool
+)
+"Town.ml" 55 1537 1570 "Town.ml" 55 1537 1577
+type(
+  int
+)
+ident(
+  int_ref gold_id "Town.ml" 22 486 499 "Town.ml" 22 486 506
+)
+"Town.ml" 55 1537 1565 "Town.ml" 55 1537 1577
+type(
+  int option
+)
+"Town.ml" 55 1537 1583 "Town.ml" 55 1537 1587
+type(
+  int option
+)
+"Town.ml" 55 1537 1541 "Town.ml" 55 1537 1587
+type(
+  int option
+)
+type(
+  int option
+)
+"Town.ml" 54 1507 1509 "Town.ml" 55 1537 1587
+type(
+  'a -> int option
+)
+"Town.ml" 58 1615 1619 "Town.ml" 58 1615 1642
+type(
+  (int -> int) ->
+  int -> (unit -> int option) -> (unit -> int option) -> int option
+)
+ident(
+  ext_ref Helpers.with_inv_probability_or
+)
+"Town.ml" 58 1615 1643 "Town.ml" 58 1615 1653
+type(
+  int -> int
+)
+ident(
+  ext_ref World.rand
+)
+"Town.ml" 58 1615 1654 "Town.ml" 58 1615 1678
+type(
+  int
+)
+ident(
+  int_ref forfeit_gold_probability "Town.ml" 15 303 307 "Town.ml" 15 303 331
+)
+"Town.ml" 59 1679 1688 "Town.ml" 59 1679 1690
+type(
+  unit
+)
+"Town.ml" 60 1694 1706 "Town.ml" 60 1694 1715
+type(
+  int
+)
+ident(
+  ext_ref town_gold
+)
+"Town.ml" 61 1721 1729 "Town.ml" 61 1721 1730
+type(
+  int
+)
+"Town.ml" 61 1721 1735 "Town.ml" 61 1721 1739
+type(
+  int option
+)
+"Town.ml" 62 1740 1748 "Town.ml" 62 1740 1749
+type(
+  int
+)
+"Town.ml" 62 1740 1769 "Town.ml" 62 1740 1778
+type(
+  int
+)
+ident(
+  ext_ref town_gold
+)
+"Town.ml" 62 1740 1779 "Town.ml" 62 1740 1780
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"Town.ml" 62 1740 1781 "Town.ml" 62 1740 1782
+type(
+  int
+)
+"Town.ml" 62 1740 1769 "Town.ml" 62 1740 1782
+type(
+  int
+)
+"Town.ml" 62 1740 1755 "Town.ml" 62 1740 1783
+type(
+  unit
+)
+"Town.ml" 62 1740 1792 "Town.ml" 62 1740 1799
+type(
+  int
+)
+ident(
+  int_ref gold_id "Town.ml" 22 486 499 "Town.ml" 22 486 506
+)
+"Town.ml" 62 1740 1786 "Town.ml" 62 1740 1800
+type(
+  int option
+)
+"Town.ml" 62 1740 1755 "Town.ml" 62 1740 1800
+type(
+  int option
+)
+"Town.ml" 60 1694 1700 "Town.ml" 62 1740 1800
+type(
+  int option
+)
+"Town.ml" 59 1679 1688 "Town.ml" 62 1740 1800
+type(
+  unit -> int option
+)
+"Town.ml" 63 1802 1811 "Town.ml" 63 1802 1813
+type(
+  unit
+)
+"Town.ml" 63 1802 1817 "Town.ml" 63 1802 1821
+type(
+  int option
+)
+"Town.ml" 63 1802 1811 "Town.ml" 63 1802 1821
+type(
+  unit -> int option
+)
+"Town.ml" 58 1615 1619 "Town.ml" 63 1802 1822
+call(
+  tail
+)
+type(
+  int option
+)
+type(
+  int option
+)
+"Town.ml" 57 1590 1592 "Town.ml" 63 1802 1822
+type(
+  'a -> int option
+)
+"Town.ml" 66 1825 1852 "Town.ml" 66 1825 1854
+type(
+  unit
+)
+"Town.ml" 67 1858 1860 "Town.ml" 67 1858 1864
+type(
+  'a
+)
+ident(
+  int_ref self "Town.ml" 23 529 537 "Town.ml" 23 529 541
+)
+"Town.ml" 67 1858 1860 "Town.ml" 67 1858 1877
+call(
+  stack
+)
+type(
+  unit
+)
+"Town.ml" 68 1879 1881 "Town.ml" 68 1879 1885
+type(
+  'a
+)
+ident(
+  int_ref self "Town.ml" 23 529 537 "Town.ml" 23 529 541
+)
+"Town.ml" 68 1879 1881 "Town.ml" 68 1879 1892
+call(
+  tail
+)
+type(
+  unit
+)
+"Town.ml" 67 1858 1860 "Town.ml" 68 1879 1892
+type(
+  unit
+)
+"Town.ml" 66 1825 1852 "Town.ml" 68 1879 1892
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+"Town.ml" 66 1825 1827 "Town.ml" 68 1879 1892
+type(
+  'a -> unit -> unit
+)
+"Town.ml" 76 2043 2064 "Town.ml" 76 2043 2070
+type(
+  string
+)
+type(
+  string
+)
+"Town.ml" 76 2043 2045 "Town.ml" 76 2043 2070
+type(
+  'a -> string
+)
+"Town.ml" 78 2072 2097 "Town.ml" 78 2072 2101
+type(
+  'a
+)
+ident(
+  int_ref self "Town.ml" 23 529 537 "Town.ml" 23 529 541
+)
+"Town.ml" 78 2072 2097 "Town.ml" 78 2072 2113
+call(
+  tail
+)
+type(
+  int -> int -> string -> unit
+)
+"Town.ml" 78 2072 2115 "Town.ml" 78 2072 2127
+type(
+  int -> int -> int -> int
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"Town.ml" 78 2072 2128 "Town.ml" 78 2072 2132
+type(
+  int
+)
+"Town.ml" 78 2072 2133 "Town.ml" 78 2072 2137
+type(
+  int
+)
+"Town.ml" 79 2138 2155 "Town.ml" 79 2138 2159
+type(
+  int
+)
+"Town.ml" 78 2072 2115 "Town.ml" 79 2138 2159
+call(
+  stack
+)
+type(
+  int
+)
+"Town.ml" 79 2138 2161 "Town.ml" 79 2138 2175
+type(
+  int
+)
+ident(
+  ext_ref Graphics.black
+)
+"Town.ml" 79 2138 2177 "Town.ml" 79 2138 2190
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"Town.ml" 79 2138 2191 "Town.ml" 79 2138 2200
+type(
+  int
+)
+ident(
+  ext_ref town_gold
+)
+"Town.ml" 79 2138 2177 "Town.ml" 79 2138 2200
+call(
+  stack
+)
+type(
+  string
+)
+"Town.ml" 78 2072 2097 "Town.ml" 79 2138 2201
+type(
+  unit
+)
+type(
+  unit
+)
+"Town.ml" 78 2072 2074 "Town.ml" 79 2138 2201
+type(
+  'a -> unit
+)
+"Town.ml" 81 2203 2227 "Town.ml" 81 2203 2228
+type(
+  int
+)
+type(
+  int
+)
+"Town.ml" 81 2203 2205 "Town.ml" 81 2203 2228
+type(
+  'a -> int
+)
+"Town.ml" 85 2266 2288 "Town.ml" 85 2266 2290
+type(
+  int list
+)
+ident(
+  def ps "Town.ml" 86 2293 2297 "Town.ml" 93 2462 2476
+)
+"Town.ml" 86 2293 2301 "Town.ml" 86 2293 2308
+type(
+  'b -> int list
+)
+ident(
+  def receive "Town.ml" 93 2462 2466 "Town.ml" 93 2462 2476
+)
+"Town.ml" 86 2293 2309 "Town.ml" 86 2293 2312
+type(
+  'b
+)
+ident(
+  def lst "Town.ml" 87 2316 2322 "Town.ml" 92 2443 2458
+)
+"Town.ml" 87 2316 2328 "Town.ml" 87 2316 2330
+type(
+  int list
+)
+ident(
+  int_ref ps "Town.ml" 85 2266 2288 "Town.ml" 85 2266 2290
+)
+"Town.ml" 88 2336 2344 "Town.ml" 88 2336 2346
+type(
+  int list
+)
+"Town.ml" 88 2336 2350 "Town.ml" 88 2336 2352
+type(
+  int list
+)
+"Town.ml" 89 2353 2361 "Town.ml" 89 2353 2363
+type(
+  int
+)
+ident(
+  def hd "Town.ml" 90 2374 2382 "Town.ml" 92 2443 2458
+)
+"Town.ml" 89 2353 2367 "Town.ml" 89 2353 2369
+type(
+  int list
+)
+ident(
+  def tl "Town.ml" 90 2374 2382 "Town.ml" 92 2443 2458
+)
+"Town.ml" 89 2353 2361 "Town.ml" 89 2353 2369
+type(
+  int list
+)
+"Town.ml" 90 2374 2385 "Town.ml" 90 2374 2387
+type(
+  int
+)
+ident(
+  int_ref hd "Town.ml" 89 2353 2361 "Town.ml" 89 2353 2363
+)
+"Town.ml" 90 2374 2388 "Town.ml" 90 2374 2390
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"Town.ml" 90 2374 2391 "Town.ml" 90 2374 2398
+type(
+  int
+)
+ident(
+  int_ref gold_id "Town.ml" 22 486 499 "Town.ml" 22 486 506
+)
+"Town.ml" 90 2374 2385 "Town.ml" 90 2374 2398
+type(
+  bool
+)
+"Town.ml" 91 2399 2413 "Town.ml" 91 2399 2419
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"Town.ml" 91 2399 2421 "Town.ml" 91 2399 2425
+type(
+  'a
+)
+ident(
+  int_ref self "Town.ml" 23 529 537 "Town.ml" 23 529 541
+)
+"Town.ml" 91 2399 2421 "Town.ml" 91 2399 2436
+call(
+  stack
+)
+type(
+  unit
+)
+"Town.ml" 91 2399 2413 "Town.ml" 91 2399 2437
+type(
+  unit
+)
+"Town.ml" 91 2399 2439 "Town.ml" 91 2399 2441
+type(
+  int list
+)
+ident(
+  int_ref ps "Town.ml" 85 2266 2288 "Town.ml" 85 2266 2290
+)
+"Town.ml" 91 2399 2413 "Town.ml" 91 2399 2441
+type(
+  int list
+)
+"Town.ml" 92 2443 2456 "Town.ml" 92 2443 2458
+type(
+  int list
+)
+ident(
+  int_ref ps "Town.ml" 85 2266 2288 "Town.ml" 85 2266 2290
+)
+"Town.ml" 90 2374 2382 "Town.ml" 92 2443 2458
+type(
+  int list
+)
+"Town.ml" 87 2316 2322 "Town.ml" 92 2443 2458
+type(
+  int list
+)
+"Town.ml" 86 2293 2309 "Town.ml" 92 2443 2458
+type(
+  'b -> int list
+)
+"Town.ml" 93 2462 2466 "Town.ml" 93 2462 2473
+type(
+  int list -> int list
+)
+ident(
+  int_ref receive "Town.ml" 86 2293 2301 "Town.ml" 86 2293 2308
+)
+"Town.ml" 93 2462 2474 "Town.ml" 93 2462 2476
+type(
+  int list
+)
+ident(
+  int_ref ps "Town.ml" 85 2266 2288 "Town.ml" 85 2266 2290
+)
+"Town.ml" 93 2462 2466 "Town.ml" 93 2462 2476
+call(
+  tail
+)
+type(
+  int list
+)
+"Town.ml" 86 2293 2297 "Town.ml" 93 2462 2476
+type(
+  int list
+)
+"Town.ml" 85 2266 2288 "Town.ml" 93 2462 2476
+type(
+  int list -> int list
+)
+type(
+  int list -> int list
+)
+"Town.ml" 85 2266 2268 "Town.ml" 93 2462 2476
+type(
+  'a -> int list -> int list
+)

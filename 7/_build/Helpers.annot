@@ -1,0 +1,1082 @@
+"Helpers.ml" 10 220 224 "Helpers.ml" 10 220 240
+type(
+  ('a -> 'a) -> 'a array -> unit
+)
+ident(
+  def array_map_modify "Helpers.ml" 18 461 461 "Helpers.ml" 1 0 -1
+)
+"Helpers.ml" 10 220 242 "Helpers.ml" 10 220 243
+type(
+  'a -> 'a
+)
+ident(
+  def f "Helpers.ml" 10 220 254 "Helpers.ml" 11 278 334
+)
+"Helpers.ml" 10 220 255 "Helpers.ml" 10 220 258
+type(
+  'a array
+)
+ident(
+  def arr "Helpers.ml" 10 220 269 "Helpers.ml" 11 278 334
+)
+"Helpers.ml" 11 278 280 "Helpers.ml" 11 278 291
+type(
+  f:(int -> 'a -> unit) -> 'a array -> unit
+)
+ident(
+  ext_ref Core.Std.Array.iteri
+)
+"Helpers.ml" 11 278 300 "Helpers.ml" 11 278 301
+type(
+  int
+)
+ident(
+  def i "Helpers.ml" 11 278 302 "Helpers.ml" 11 278 329
+)
+"Helpers.ml" 11 278 302 "Helpers.ml" 11 278 303
+type(
+  'a
+)
+"Helpers.ml" 11 278 307 "Helpers.ml" 11 278 310
+type(
+  'a array
+)
+ident(
+  int_ref arr "Helpers.ml" 10 220 255 "Helpers.ml" 10 220 258
+)
+"Helpers.ml" 11 278 312 "Helpers.ml" 11 278 313
+type(
+  int
+)
+ident(
+  int_ref i "Helpers.ml" 11 278 300 "Helpers.ml" 11 278 301
+)
+"Helpers.ml" 11 278 307 "Helpers.ml" 11 278 314
+type(
+  'a array -> int -> 'a -> unit
+)
+ident(
+  ext_ref Core.Std.Array.set
+)
+"Helpers.ml" 11 278 318 "Helpers.ml" 11 278 319
+type(
+  'a -> 'a
+)
+ident(
+  int_ref f "Helpers.ml" 10 220 242 "Helpers.ml" 10 220 243
+)
+"Helpers.ml" 11 278 321 "Helpers.ml" 11 278 324
+type(
+  'a array
+)
+ident(
+  int_ref arr "Helpers.ml" 10 220 255 "Helpers.ml" 10 220 258
+)
+"Helpers.ml" 11 278 326 "Helpers.ml" 11 278 327
+type(
+  int
+)
+ident(
+  int_ref i "Helpers.ml" 11 278 300 "Helpers.ml" 11 278 301
+)
+"Helpers.ml" 11 278 321 "Helpers.ml" 11 278 328
+type(
+  'a
+)
+type(
+  'a array -> int -> 'a
+)
+ident(
+  ext_ref Core.Std.Array.get
+)
+"Helpers.ml" 11 278 318 "Helpers.ml" 11 278 329
+call(
+  stack
+)
+type(
+  'a
+)
+"Helpers.ml" 11 278 307 "Helpers.ml" 11 278 329
+type(
+  unit
+)
+"Helpers.ml" 11 278 302 "Helpers.ml" 11 278 329
+type(
+  'a -> unit
+)
+"Helpers.ml" 11 278 300 "Helpers.ml" 11 278 329
+type(
+  int -> 'a -> unit
+)
+"Helpers.ml" 11 278 331 "Helpers.ml" 11 278 334
+type(
+  'a array
+)
+ident(
+  int_ref arr "Helpers.ml" 10 220 255 "Helpers.ml" 10 220 258
+)
+"Helpers.ml" 11 278 280 "Helpers.ml" 11 278 334
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"Helpers.ml" 10 220 254 "Helpers.ml" 11 278 334
+type(
+  'a array -> unit
+)
+"Helpers.ml" 10 220 241 "Helpers.ml" 11 278 334
+type(
+  ('a -> 'a) -> 'a array -> unit
+)
+"Helpers.ml" 18 461 469 "Helpers.ml" 18 461 478
+type(
+  int -> 'a -> 'a list
+)
+ident(
+  def replicate "Helpers.ml" 18 461 461 "Helpers.ml" 1 0 -1
+)
+"Helpers.ml" 18 461 480 "Helpers.ml" 18 461 481
+type(
+  int
+)
+ident(
+  def n "Helpers.ml" 18 461 487 "Helpers.ml" 19 506 550
+)
+"Helpers.ml" 18 461 488 "Helpers.ml" 18 461 489
+type(
+  'a
+)
+ident(
+  def e "Helpers.ml" 18 461 494 "Helpers.ml" 19 506 550
+)
+"Helpers.ml" 19 506 511 "Helpers.ml" 19 506 512
+type(
+  int
+)
+ident(
+  int_ref n "Helpers.ml" 18 461 480 "Helpers.ml" 18 461 481
+)
+"Helpers.ml" 19 506 513 "Helpers.ml" 19 506 514
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Helpers.ml" 19 506 515 "Helpers.ml" 19 506 516
+type(
+  int
+)
+"Helpers.ml" 19 506 511 "Helpers.ml" 19 506 516
+type(
+  bool
+)
+"Helpers.ml" 19 506 522 "Helpers.ml" 19 506 524
+type(
+  'a list
+)
+"Helpers.ml" 19 506 530 "Helpers.ml" 19 506 531
+type(
+  'a
+)
+ident(
+  int_ref e "Helpers.ml" 18 461 488 "Helpers.ml" 18 461 489
+)
+"Helpers.ml" 19 506 533 "Helpers.ml" 19 506 542
+type(
+  int -> 'a -> 'a list
+)
+ident(
+  int_ref replicate "Helpers.ml" 18 461 469 "Helpers.ml" 18 461 478
+)
+"Helpers.ml" 19 506 544 "Helpers.ml" 19 506 545
+type(
+  int
+)
+ident(
+  int_ref n "Helpers.ml" 18 461 480 "Helpers.ml" 18 461 481
+)
+"Helpers.ml" 19 506 545 "Helpers.ml" 19 506 546
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"Helpers.ml" 19 506 546 "Helpers.ml" 19 506 547
+type(
+  int
+)
+"Helpers.ml" 19 506 544 "Helpers.ml" 19 506 547
+type(
+  int
+)
+"Helpers.ml" 19 506 549 "Helpers.ml" 19 506 550
+type(
+  'a
+)
+ident(
+  int_ref e "Helpers.ml" 18 461 488 "Helpers.ml" 18 461 489
+)
+"Helpers.ml" 19 506 533 "Helpers.ml" 19 506 550
+call(
+  stack
+)
+type(
+  'a list
+)
+"Helpers.ml" 19 506 530 "Helpers.ml" 19 506 550
+type(
+  'a list
+)
+"Helpers.ml" 19 506 508 "Helpers.ml" 19 506 550
+type(
+  'a list
+)
+type(
+  'a list
+)
+"Helpers.ml" 18 461 487 "Helpers.ml" 19 506 550
+type(
+  'a -> 'a list
+)
+"Helpers.ml" 18 461 479 "Helpers.ml" 19 506 550
+type(
+  int -> 'a -> 'a list
+)
+"Helpers.ml" 23 644 652 "Helpers.ml" 23 644 657
+type(
+  'a list -> 'b list -> ('a * 'b) list
+)
+ident(
+  def cross "Helpers.ml" 23 644 644 "Helpers.ml" 1 0 -1
+)
+"Helpers.ml" 23 644 659 "Helpers.ml" 23 644 661
+type(
+  'a list
+)
+ident(
+  def xs "Helpers.ml" 23 644 671 "Helpers.ml" 26 730 790
+)
+"Helpers.ml" 23 644 672 "Helpers.ml" 23 644 674
+type(
+  'b list
+)
+ident(
+  def ys "Helpers.ml" 23 644 684 "Helpers.ml" 26 730 790
+)
+"Helpers.ml" 24 701 709 "Helpers.ml" 24 701 711
+type(
+  'a list
+)
+ident(
+  int_ref xs "Helpers.ml" 23 644 659 "Helpers.ml" 23 644 661
+)
+"Helpers.ml" 25 717 721 "Helpers.ml" 25 717 723
+type(
+  'a list
+)
+"Helpers.ml" 25 717 727 "Helpers.ml" 25 717 729
+type(
+  ('a * 'b) list
+)
+"Helpers.ml" 26 730 734 "Helpers.ml" 26 730 736
+type(
+  'a
+)
+ident(
+  def hd "Helpers.ml" 26 730 744 "Helpers.ml" 26 730 790
+)
+"Helpers.ml" 26 730 738 "Helpers.ml" 26 730 740
+type(
+  'a list
+)
+ident(
+  def tl "Helpers.ml" 26 730 744 "Helpers.ml" 26 730 790
+)
+"Helpers.ml" 26 730 734 "Helpers.ml" 26 730 740
+type(
+  'a list
+)
+"Helpers.ml" 26 730 744 "Helpers.ml" 26 730 752
+type(
+  'b list -> f:('b -> 'a * 'b) -> ('a * 'b) list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"Helpers.ml" 26 730 761 "Helpers.ml" 26 730 762
+type(
+  'b
+)
+ident(
+  def y "Helpers.ml" 26 730 767 "Helpers.ml" 26 730 771
+)
+"Helpers.ml" 26 730 767 "Helpers.ml" 26 730 769
+type(
+  'a
+)
+ident(
+  int_ref hd "Helpers.ml" 26 730 734 "Helpers.ml" 26 730 736
+)
+"Helpers.ml" 26 730 770 "Helpers.ml" 26 730 771
+type(
+  'b
+)
+ident(
+  int_ref y "Helpers.ml" 26 730 761 "Helpers.ml" 26 730 762
+)
+"Helpers.ml" 26 730 767 "Helpers.ml" 26 730 771
+type(
+  'a * 'b
+)
+"Helpers.ml" 26 730 761 "Helpers.ml" 26 730 772
+type(
+  'b -> 'a * 'b
+)
+"Helpers.ml" 26 730 774 "Helpers.ml" 26 730 776
+type(
+  'b list
+)
+ident(
+  int_ref ys "Helpers.ml" 23 644 672 "Helpers.ml" 23 644 674
+)
+"Helpers.ml" 26 730 744 "Helpers.ml" 26 730 776
+call(
+  stack
+)
+type(
+  ('a * 'b) list
+)
+"Helpers.ml" 26 730 777 "Helpers.ml" 26 730 778
+type(
+  ('a * 'b) list -> ('a * 'b) list -> ('a * 'b) list
+)
+ident(
+  ext_ref Core.Std.( @ )
+)
+"Helpers.ml" 26 730 779 "Helpers.ml" 26 730 784
+type(
+  'a list -> 'b list -> ('a * 'b) list
+)
+ident(
+  int_ref cross "Helpers.ml" 23 644 652 "Helpers.ml" 23 644 657
+)
+"Helpers.ml" 26 730 785 "Helpers.ml" 26 730 787
+type(
+  'a list
+)
+ident(
+  int_ref tl "Helpers.ml" 26 730 738 "Helpers.ml" 26 730 740
+)
+"Helpers.ml" 26 730 788 "Helpers.ml" 26 730 790
+type(
+  'b list
+)
+ident(
+  int_ref ys "Helpers.ml" 23 644 672 "Helpers.ml" 23 644 674
+)
+"Helpers.ml" 26 730 779 "Helpers.ml" 26 730 790
+call(
+  stack
+)
+type(
+  ('a * 'b) list
+)
+"Helpers.ml" 26 730 744 "Helpers.ml" 26 730 790
+call(
+  tail
+)
+type(
+  ('a * 'b) list
+)
+"Helpers.ml" 24 701 703 "Helpers.ml" 26 730 790
+type(
+  ('a * 'b) list
+)
+type(
+  ('a * 'b) list
+)
+"Helpers.ml" 23 644 671 "Helpers.ml" 26 730 790
+type(
+  'b list -> ('a * 'b) list
+)
+"Helpers.ml" 23 644 658 "Helpers.ml" 26 730 790
+type(
+  'a list -> 'b list -> ('a * 'b) list
+)
+"Helpers.ml" 30 903 911 "Helpers.ml" 30 903 916
+type(
+  int -> int -> int list
+)
+ident(
+  def range "Helpers.ml" 30 903 903 "Helpers.ml" 1 0 -1
+)
+"Helpers.ml" 30 903 918 "Helpers.ml" 30 903 920
+type(
+  int
+)
+ident(
+  def n1 "Helpers.ml" 30 903 926 "Helpers.ml" 31 948 993
+)
+"Helpers.ml" 30 903 927 "Helpers.ml" 30 903 929
+type(
+  int
+)
+ident(
+  def n2 "Helpers.ml" 30 903 935 "Helpers.ml" 31 948 993
+)
+"Helpers.ml" 31 948 953 "Helpers.ml" 31 948 955
+type(
+  int
+)
+ident(
+  int_ref n1 "Helpers.ml" 30 903 918 "Helpers.ml" 30 903 920
+)
+"Helpers.ml" 31 948 956 "Helpers.ml" 31 948 957
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"Helpers.ml" 31 948 958 "Helpers.ml" 31 948 960
+type(
+  int
+)
+ident(
+  int_ref n2 "Helpers.ml" 30 903 927 "Helpers.ml" 30 903 929
+)
+"Helpers.ml" 31 948 953 "Helpers.ml" 31 948 960
+type(
+  bool
+)
+"Helpers.ml" 31 948 966 "Helpers.ml" 31 948 968
+type(
+  int list
+)
+"Helpers.ml" 31 948 974 "Helpers.ml" 31 948 976
+type(
+  int
+)
+ident(
+  int_ref n1 "Helpers.ml" 30 903 918 "Helpers.ml" 30 903 920
+)
+"Helpers.ml" 31 948 978 "Helpers.ml" 31 948 983
+type(
+  int -> int -> int list
+)
+ident(
+  int_ref range "Helpers.ml" 30 903 911 "Helpers.ml" 30 903 916
+)
+"Helpers.ml" 31 948 985 "Helpers.ml" 31 948 987
+type(
+  int
+)
+ident(
+  int_ref n1 "Helpers.ml" 30 903 918 "Helpers.ml" 30 903 920
+)
+"Helpers.ml" 31 948 987 "Helpers.ml" 31 948 988
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"Helpers.ml" 31 948 988 "Helpers.ml" 31 948 989
+type(
+  int
+)
+"Helpers.ml" 31 948 985 "Helpers.ml" 31 948 989
+type(
+  int
+)
+"Helpers.ml" 31 948 991 "Helpers.ml" 31 948 993
+type(
+  int
+)
+ident(
+  int_ref n2 "Helpers.ml" 30 903 927 "Helpers.ml" 30 903 929
+)
+"Helpers.ml" 31 948 978 "Helpers.ml" 31 948 993
+call(
+  stack
+)
+type(
+  int list
+)
+"Helpers.ml" 31 948 974 "Helpers.ml" 31 948 993
+type(
+  int list
+)
+"Helpers.ml" 31 948 950 "Helpers.ml" 31 948 993
+type(
+  int list
+)
+type(
+  int list
+)
+"Helpers.ml" 30 903 926 "Helpers.ml" 31 948 993
+type(
+  int -> int list
+)
+"Helpers.ml" 30 903 917 "Helpers.ml" 31 948 993
+type(
+  int -> int -> int list
+)
+"Helpers.ml" 34 1037 1045 "Helpers.ml" 34 1037 1051
+type(
+  'a list -> 'a list
+)
+ident(
+  def unique "Helpers.ml" 34 1037 1037 "Helpers.ml" 1 0 -1
+)
+"Helpers.ml" 34 1037 1053 "Helpers.ml" 34 1037 1055
+type(
+  'a list
+)
+ident(
+  def xs "Helpers.ml" 34 1037 1067 "Helpers.ml" 39 1151 1197
+)
+"Helpers.ml" 35 1079 1087 "Helpers.ml" 35 1079 1089
+type(
+  'a list
+)
+ident(
+  int_ref xs "Helpers.ml" 34 1037 1053 "Helpers.ml" 34 1037 1055
+)
+"Helpers.ml" 36 1095 1099 "Helpers.ml" 36 1095 1101
+type(
+  'a list
+)
+"Helpers.ml" 36 1095 1105 "Helpers.ml" 36 1095 1107
+type(
+  'a list
+)
+"Helpers.ml" 37 1108 1112 "Helpers.ml" 37 1108 1114
+type(
+  'a
+)
+ident(
+  def hd "Helpers.ml" 38 1122 1128 "Helpers.ml" 39 1151 1197
+)
+"Helpers.ml" 37 1108 1116 "Helpers.ml" 37 1108 1118
+type(
+  'a list
+)
+ident(
+  def tl "Helpers.ml" 38 1122 1128 "Helpers.ml" 39 1151 1197
+)
+"Helpers.ml" 37 1108 1112 "Helpers.ml" 37 1108 1118
+type(
+  'a list
+)
+"Helpers.ml" 38 1122 1132 "Helpers.ml" 38 1122 1135
+type(
+  'a list
+)
+ident(
+  def tl' "Helpers.ml" 39 1151 1157 "Helpers.ml" 39 1151 1197
+)
+"Helpers.ml" 38 1122 1138 "Helpers.ml" 38 1122 1144
+type(
+  'a list -> 'a list
+)
+ident(
+  int_ref unique "Helpers.ml" 34 1037 1045 "Helpers.ml" 34 1037 1051
+)
+"Helpers.ml" 38 1122 1145 "Helpers.ml" 38 1122 1147
+type(
+  'a list
+)
+ident(
+  int_ref tl "Helpers.ml" 37 1108 1116 "Helpers.ml" 37 1108 1118
+)
+"Helpers.ml" 38 1122 1138 "Helpers.ml" 38 1122 1147
+call(
+  stack
+)
+type(
+  'a list
+)
+"Helpers.ml" 39 1151 1160 "Helpers.ml" 39 1151 1168
+type(
+  ?equal:('a -> 'a -> bool) -> 'a list -> 'a -> bool
+)
+ident(
+  ext_ref Core.Std.List.mem
+)
+"Helpers.ml" 39 1151 1169 "Helpers.ml" 39 1151 1172
+type(
+  'a list
+)
+ident(
+  int_ref tl' "Helpers.ml" 38 1122 1132 "Helpers.ml" 38 1122 1135
+)
+"Helpers.ml" 39 1151 1173 "Helpers.ml" 39 1151 1175
+type(
+  'a
+)
+ident(
+  int_ref hd "Helpers.ml" 37 1108 1112 "Helpers.ml" 37 1108 1114
+)
+"Helpers.ml" 39 1151 1160 "Helpers.ml" 39 1151 1175
+call(
+  stack
+)
+type(
+  bool
+)
+"Helpers.ml" 39 1151 1181 "Helpers.ml" 39 1151 1184
+type(
+  'a list
+)
+ident(
+  int_ref tl' "Helpers.ml" 38 1122 1132 "Helpers.ml" 38 1122 1135
+)
+"Helpers.ml" 39 1151 1190 "Helpers.ml" 39 1151 1192
+type(
+  'a
+)
+ident(
+  int_ref hd "Helpers.ml" 37 1108 1112 "Helpers.ml" 37 1108 1114
+)
+"Helpers.ml" 39 1151 1194 "Helpers.ml" 39 1151 1197
+type(
+  'a list
+)
+ident(
+  int_ref tl' "Helpers.ml" 38 1122 1132 "Helpers.ml" 38 1122 1135
+)
+"Helpers.ml" 39 1151 1190 "Helpers.ml" 39 1151 1197
+type(
+  'a list
+)
+"Helpers.ml" 39 1151 1157 "Helpers.ml" 39 1151 1197
+type(
+  'a list
+)
+"Helpers.ml" 38 1122 1128 "Helpers.ml" 39 1151 1197
+type(
+  'a list
+)
+"Helpers.ml" 35 1079 1081 "Helpers.ml" 39 1151 1197
+type(
+  'a list
+)
+type(
+  'a list
+)
+"Helpers.ml" 34 1037 1052 "Helpers.ml" 39 1151 1197
+type(
+  'a list -> 'a list
+)
+"Helpers.ml" 46 1324 1328 "Helpers.ml" 46 1324 1333
+type(
+  int -> int -> int -> int
+)
+ident(
+  def bound "Helpers.ml" 53 1561 1561 "Helpers.ml" 1 0 -1
+)
+"Helpers.ml" 46 1324 1335 "Helpers.ml" 46 1324 1338
+type(
+  int
+)
+ident(
+  def low "Helpers.ml" 46 1324 1344 "Helpers.ml" 46 1324 1391
+)
+"Helpers.ml" 46 1324 1345 "Helpers.ml" 46 1324 1349
+type(
+  int
+)
+ident(
+  def high "Helpers.ml" 46 1324 1355 "Helpers.ml" 46 1324 1391
+)
+"Helpers.ml" 46 1324 1356 "Helpers.ml" 46 1324 1357
+type(
+  int
+)
+ident(
+  def x "Helpers.ml" 46 1324 1363 "Helpers.ml" 46 1324 1391
+)
+"Helpers.ml" 46 1324 1371 "Helpers.ml" 46 1324 1374
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"Helpers.ml" 46 1324 1376 "Helpers.ml" 46 1324 1379
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.max
+)
+"Helpers.ml" 46 1324 1380 "Helpers.ml" 46 1324 1383
+type(
+  int
+)
+ident(
+  int_ref low "Helpers.ml" 46 1324 1335 "Helpers.ml" 46 1324 1338
+)
+"Helpers.ml" 46 1324 1384 "Helpers.ml" 46 1324 1385
+type(
+  int
+)
+ident(
+  int_ref x "Helpers.ml" 46 1324 1356 "Helpers.ml" 46 1324 1357
+)
+"Helpers.ml" 46 1324 1376 "Helpers.ml" 46 1324 1385
+call(
+  stack
+)
+type(
+  int
+)
+"Helpers.ml" 46 1324 1387 "Helpers.ml" 46 1324 1391
+type(
+  int
+)
+ident(
+  int_ref high "Helpers.ml" 46 1324 1345 "Helpers.ml" 46 1324 1349
+)
+"Helpers.ml" 46 1324 1371 "Helpers.ml" 46 1324 1391
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"Helpers.ml" 46 1324 1355 "Helpers.ml" 46 1324 1391
+type(
+  int -> int
+)
+"Helpers.ml" 46 1324 1344 "Helpers.ml" 46 1324 1391
+type(
+  int -> int -> int
+)
+"Helpers.ml" 46 1324 1334 "Helpers.ml" 46 1324 1391
+type(
+  int -> int -> int -> int
+)
+"Helpers.ml" 53 1561 1565 "Helpers.ml" 53 1561 1588
+type(
+  (int -> int) -> int -> (unit -> 'a) -> (unit -> 'a) -> 'a
+)
+ident(
+  def with_inv_probability_or "Helpers.ml" 58 1779 1779 "Helpers.ml" 1 0 -1
+)
+"Helpers.ml" 53 1561 1590 "Helpers.ml" 53 1561 1591
+type(
+  int -> int
+)
+ident(
+  def r "Helpers.ml" 53 1561 1602 "Helpers.ml" 55 1671 1703
+)
+"Helpers.ml" 53 1561 1603 "Helpers.ml" 53 1561 1604
+type(
+  int
+)
+ident(
+  def p "Helpers.ml" 54 1610 1638 "Helpers.ml" 55 1671 1703
+)
+"Helpers.ml" 54 1610 1639 "Helpers.ml" 54 1610 1640
+type(
+  unit -> 'a
+)
+ident(
+  def f "Helpers.ml" 54 1610 1651 "Helpers.ml" 55 1671 1703
+)
+"Helpers.ml" 54 1610 1652 "Helpers.ml" 54 1610 1653
+type(
+  unit -> 'a
+)
+ident(
+  def g "Helpers.ml" 54 1610 1664 "Helpers.ml" 55 1671 1703
+)
+"Helpers.ml" 55 1671 1676 "Helpers.ml" 55 1671 1677
+type(
+  int -> int
+)
+ident(
+  int_ref r "Helpers.ml" 53 1561 1590 "Helpers.ml" 53 1561 1591
+)
+"Helpers.ml" 55 1671 1678 "Helpers.ml" 55 1671 1679
+type(
+  int
+)
+ident(
+  int_ref p "Helpers.ml" 53 1561 1603 "Helpers.ml" 53 1561 1604
+)
+"Helpers.ml" 55 1671 1676 "Helpers.ml" 55 1671 1679
+call(
+  stack
+)
+type(
+  int
+)
+"Helpers.ml" 55 1671 1680 "Helpers.ml" 55 1671 1681
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Helpers.ml" 55 1671 1682 "Helpers.ml" 55 1671 1683
+type(
+  int
+)
+"Helpers.ml" 55 1671 1676 "Helpers.ml" 55 1671 1683
+type(
+  bool
+)
+"Helpers.ml" 55 1671 1689 "Helpers.ml" 55 1671 1690
+type(
+  unit -> 'a
+)
+ident(
+  int_ref f "Helpers.ml" 54 1610 1639 "Helpers.ml" 54 1610 1640
+)
+"Helpers.ml" 55 1671 1691 "Helpers.ml" 55 1671 1693
+type(
+  unit
+)
+"Helpers.ml" 55 1671 1689 "Helpers.ml" 55 1671 1693
+call(
+  tail
+)
+type(
+  'a
+)
+"Helpers.ml" 55 1671 1699 "Helpers.ml" 55 1671 1700
+type(
+  unit -> 'a
+)
+ident(
+  int_ref g "Helpers.ml" 54 1610 1652 "Helpers.ml" 54 1610 1653
+)
+"Helpers.ml" 55 1671 1701 "Helpers.ml" 55 1671 1703
+type(
+  unit
+)
+"Helpers.ml" 55 1671 1699 "Helpers.ml" 55 1671 1703
+call(
+  tail
+)
+type(
+  'a
+)
+"Helpers.ml" 55 1671 1673 "Helpers.ml" 55 1671 1703
+type(
+  'a
+)
+type(
+  'a
+)
+"Helpers.ml" 54 1610 1651 "Helpers.ml" 55 1671 1703
+type(
+  (unit -> 'a) -> 'a
+)
+"Helpers.ml" 54 1610 1638 "Helpers.ml" 55 1671 1703
+type(
+  (unit -> 'a) -> (unit -> 'a) -> 'a
+)
+"Helpers.ml" 53 1561 1602 "Helpers.ml" 55 1671 1703
+type(
+  int -> (unit -> 'a) -> (unit -> 'a) -> 'a
+)
+"Helpers.ml" 53 1561 1589 "Helpers.ml" 55 1671 1703
+type(
+  (int -> int) -> int -> (unit -> 'a) -> (unit -> 'a) -> 'a
+)
+"Helpers.ml" 58 1779 1783 "Helpers.ml" 58 1779 1803
+type(
+  (int -> int) -> int -> (unit -> unit) -> unit
+)
+ident(
+  def with_inv_probability "Helpers.ml" 62 1966 1966 "Helpers.ml" 1 0 -1
+)
+"Helpers.ml" 58 1779 1805 "Helpers.ml" 58 1779 1806
+type(
+  int -> int
+)
+ident(
+  def r "Helpers.ml" 58 1779 1817 "Helpers.ml" 59 1849 1895
+)
+"Helpers.ml" 58 1779 1818 "Helpers.ml" 58 1779 1819
+type(
+  int
+)
+ident(
+  def p "Helpers.ml" 58 1779 1825 "Helpers.ml" 59 1849 1895
+)
+"Helpers.ml" 58 1779 1826 "Helpers.ml" 58 1779 1827
+type(
+  unit -> unit
+)
+ident(
+  def f "Helpers.ml" 58 1779 1840 "Helpers.ml" 59 1849 1895
+)
+"Helpers.ml" 59 1849 1851 "Helpers.ml" 59 1849 1874
+type(
+  (int -> int) -> int -> (unit -> unit) -> (unit -> unit) -> unit
+)
+ident(
+  int_ref with_inv_probability_or "Helpers.ml" 53 1561 1565 "Helpers.ml" 53 1561 1588
+)
+"Helpers.ml" 59 1849 1875 "Helpers.ml" 59 1849 1876
+type(
+  int -> int
+)
+ident(
+  int_ref r "Helpers.ml" 58 1779 1805 "Helpers.ml" 58 1779 1806
+)
+"Helpers.ml" 59 1849 1877 "Helpers.ml" 59 1849 1878
+type(
+  int
+)
+ident(
+  int_ref p "Helpers.ml" 58 1779 1818 "Helpers.ml" 58 1779 1819
+)
+"Helpers.ml" 59 1849 1879 "Helpers.ml" 59 1849 1880
+type(
+  unit -> unit
+)
+ident(
+  int_ref f "Helpers.ml" 58 1779 1826 "Helpers.ml" 58 1779 1827
+)
+"Helpers.ml" 59 1849 1886 "Helpers.ml" 59 1849 1888
+type(
+  unit
+)
+"Helpers.ml" 59 1849 1892 "Helpers.ml" 59 1849 1894
+type(
+  unit
+)
+"Helpers.ml" 59 1849 1886 "Helpers.ml" 59 1849 1894
+type(
+  unit -> unit
+)
+"Helpers.ml" 59 1849 1851 "Helpers.ml" 59 1849 1895
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"Helpers.ml" 58 1779 1825 "Helpers.ml" 59 1849 1895
+type(
+  (unit -> unit) -> unit
+)
+"Helpers.ml" 58 1779 1817 "Helpers.ml" 59 1849 1895
+type(
+  int -> (unit -> unit) -> unit
+)
+"Helpers.ml" 58 1779 1804 "Helpers.ml" 59 1849 1895
+type(
+  (int -> int) -> int -> (unit -> unit) -> unit
+)
+"Helpers.ml" 62 1966 1970 "Helpers.ml" 62 1966 1992
+type(
+  (int -> int) -> (unit -> unit) list -> unit
+)
+ident(
+  def with_equal_probability "Helpers.ml" 63 2040 2083 "Helpers.ml" 1 0 -1
+)
+"Helpers.ml" 62 1966 1994 "Helpers.ml" 62 1966 1995
+type(
+  int -> int
+)
+ident(
+  def r "Helpers.ml" 62 1966 2006 "Helpers.ml" 63 2040 2083
+)
+"Helpers.ml" 62 1966 2007 "Helpers.ml" 62 1966 2009
+type(
+  (unit -> unit) list
+)
+ident(
+  def fs "Helpers.ml" 62 1966 2031 "Helpers.ml" 63 2040 2083
+)
+"Helpers.ml" 63 2040 2043 "Helpers.ml" 63 2040 2055
+type(
+  (unit -> unit) list -> int -> unit -> unit
+)
+ident(
+  ext_ref Core.Std.List.nth_exn
+)
+"Helpers.ml" 63 2040 2056 "Helpers.ml" 63 2040 2058
+type(
+  (unit -> unit) list
+)
+ident(
+  int_ref fs "Helpers.ml" 62 1966 2007 "Helpers.ml" 62 1966 2009
+)
+"Helpers.ml" 63 2040 2060 "Helpers.ml" 63 2040 2061
+type(
+  int -> int
+)
+ident(
+  int_ref r "Helpers.ml" 62 1966 1994 "Helpers.ml" 62 1966 1995
+)
+"Helpers.ml" 63 2040 2063 "Helpers.ml" 63 2040 2074
+type(
+  (unit -> unit) list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"Helpers.ml" 63 2040 2075 "Helpers.ml" 63 2040 2077
+type(
+  (unit -> unit) list
+)
+ident(
+  int_ref fs "Helpers.ml" 62 1966 2007 "Helpers.ml" 62 1966 2009
+)
+"Helpers.ml" 63 2040 2063 "Helpers.ml" 63 2040 2077
+call(
+  stack
+)
+type(
+  int
+)
+"Helpers.ml" 63 2040 2060 "Helpers.ml" 63 2040 2078
+call(
+  stack
+)
+type(
+  int
+)
+"Helpers.ml" 63 2040 2081 "Helpers.ml" 63 2040 2083
+type(
+  unit
+)
+"Helpers.ml" 63 2040 2042 "Helpers.ml" 63 2040 2083
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"Helpers.ml" 62 1966 2006 "Helpers.ml" 63 2040 2083
+type(
+  (unit -> unit) list -> unit
+)
+"Helpers.ml" 62 1966 1993 "Helpers.ml" 63 2040 2083
+type(
+  (int -> int) -> (unit -> unit) list -> unit
+)

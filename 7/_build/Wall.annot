@@ -1,0 +1,576 @@
+"Wall.ml" 7 98 102 "Wall.ml" 7 98 112
+type(
+  int
+)
+ident(
+  def town_limit "Wall.ml" 11 208 208 "Wall.ml" 1 0 -1
+)
+"Wall.ml" 7 98 115 "Wall.ml" 7 98 118
+type(
+  int
+)
+"Wall.ml" 11 208 219 "Wall.ml" 11 208 220
+type(
+  int * int
+)
+"Wall.ml" 11 208 222 "Wall.ml" 11 208 226
+type(
+  KingsLanding.kings_landing
+)
+"Wall.ml" 12 275 283 "Wall.ml" 12 275 287
+type(
+  < danger : world_object_i -> unit; die : unit; draw : unit;
+    draw_z_axis : int; forfeit_gold : int option;
+    get_danger_event : world_object_i Event51.Event51.event;
+    get_die_event : unit Event51.Event51.event; get_name : string;
+    get_pos : int * int; is_obstacle : bool; receive_damage : unit;
+    receive_gold : int list -> int list; smells_like_gold : int option; .. >
+)
+"Wall.ml" 13 289 312 "Wall.ml" 13 289 313
+type(
+  int * int
+)
+ident(
+  int_ref p "Wall.ml" 11 208 219 "Wall.ml" 11 208 220
+)
+"Wall.ml" 27 605 609 "Wall.ml" 27 605 613
+type(
+  < danger : world_object_i -> unit; die : unit; draw : unit;
+    draw_z_axis : int; forfeit_gold : int option;
+    get_danger_event : world_object_i Event51.Event51.event;
+    get_die_event : unit Event51.Event51.event; get_name : string;
+    get_pos : int * int; is_obstacle : bool; receive_damage : unit;
+    receive_gold : int list -> int list; smells_like_gold : int option; .. >
+  as 'a
+)
+ident(
+  int_ref self "Wall.ml" 12 275 283 "Wall.ml" 12 275 287
+)
+"Wall.ml" 27 605 609 "Wall.ml" 27 605 630
+call(
+  tail
+)
+type(
+  unit Event51.Event51.event -> (unit -> unit) -> unit
+)
+"Wall.ml" 27 605 631 "Wall.ml" 27 605 649
+type(
+  unit Event51.Event51.event
+)
+ident(
+  ext_ref World.action_event
+)
+"Wall.ml" 27 605 650 "Wall.ml" 27 605 654
+type(
+  'a
+)
+ident(
+  int_ref self "Wall.ml" 12 275 283 "Wall.ml" 12 275 287
+)
+"Wall.ml" 27 605 650 "Wall.ml" 27 605 664
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"Wall.ml" 27 605 609 "Wall.ml" 27 605 664
+type(
+  'a -> unit
+)
+type(
+  unit
+)
+"Wall.ml" 34 802 829 "Wall.ml" 34 802 831
+type(
+  unit
+)
+"Wall.ml" 35 835 844 "Wall.ml" 35 835 848
+type(
+  'a
+)
+ident(
+  int_ref self "Wall.ml" 12 275 283 "Wall.ml" 12 275 287
+)
+"Wall.ml" 35 835 844 "Wall.ml" 35 835 867
+call(
+  stack
+)
+type(
+  int
+)
+"Wall.ml" 35 835 868 "Wall.ml" 35 835 869
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"Wall.ml" 35 835 870 "Wall.ml" 35 835 880
+type(
+  int
+)
+ident(
+  int_ref town_limit "Wall.ml" 7 98 102 "Wall.ml" 7 98 112
+)
+"Wall.ml" 35 835 844 "Wall.ml" 35 835 880
+type(
+  bool
+)
+"Wall.ml" 35 835 882 "Wall.ml" 35 835 884
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"Wall.ml" 35 835 885 "Wall.ml" 35 835 888
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"Wall.ml" 35 835 889 "Wall.ml" 35 835 893
+type(
+  'a
+)
+ident(
+  int_ref self "Wall.ml" 12 275 283 "Wall.ml" 12 275 287
+)
+"Wall.ml" 35 835 889 "Wall.ml" 35 835 913
+call(
+  stack
+)
+type(
+  bool
+)
+"Wall.ml" 35 835 885 "Wall.ml" 35 835 914
+type(
+  bool
+)
+"Wall.ml" 35 835 843 "Wall.ml" 35 835 914
+type(
+  bool
+)
+"Wall.ml" 36 916 926 "Wall.ml" 36 916 938
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"Wall.ml" 36 916 939 "Wall.ml" 36 916 956
+type(
+  string
+)
+"Wall.ml" 36 916 926 "Wall.ml" 36 916 956
+call(
+  stack
+)
+type(
+  unit
+)
+"Wall.ml" 36 916 958 "Wall.ml" 36 916 967
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.flush_all
+)
+"Wall.ml" 36 916 968 "Wall.ml" 36 916 970
+type(
+  unit
+)
+"Wall.ml" 36 916 958 "Wall.ml" 36 916 970
+call(
+  stack
+)
+type(
+  unit
+)
+"Wall.ml" 36 916 972 "Wall.ml" 36 916 976
+type(
+  'a
+)
+ident(
+  int_ref self "Wall.ml" 12 275 283 "Wall.ml" 12 275 287
+)
+"Wall.ml" 36 916 972 "Wall.ml" 36 916 995
+call(
+  tail
+)
+type(
+  unit
+)
+"Wall.ml" 36 916 958 "Wall.ml" 36 916 995
+type(
+  unit
+)
+"Wall.ml" 36 916 926 "Wall.ml" 36 916 995
+type(
+  unit
+)
+"Wall.ml" 37 997 1006 "Wall.ml" 37 997 1008
+type(
+  unit
+)
+"Wall.ml" 35 835 839 "Wall.ml" 37 997 1008
+type(
+  unit
+)
+"Wall.ml" 34 802 829 "Wall.ml" 37 997 1008
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+"Wall.ml" 34 802 804 "Wall.ml" 37 997 1008
+type(
+  'a -> unit -> unit
+)
+"Wall.ml" 43 1159 1163 "Wall.ml" 43 1159 1173
+type(
+  (world_object_i -> int -> int) -> int -> int
+)
+ident(
+  ext_ref World.fold
+)
+"Wall.ml" 43 1159 1179 "Wall.ml" 43 1159 1180
+type(
+  world_object_i
+)
+ident(
+  def x "Wall.ml" 43 1159 1181 "Wall.ml" 45 1231 1247
+)
+"Wall.ml" 43 1159 1181 "Wall.ml" 43 1159 1182
+type(
+  int
+)
+ident(
+  def y "Wall.ml" 44 1187 1193 "Wall.ml" 45 1231 1247
+)
+"Wall.ml" 44 1187 1197 "Wall.ml" 44 1187 1198
+type(
+  world_object_i
+)
+ident(
+  int_ref x "Wall.ml" 43 1159 1179 "Wall.ml" 43 1159 1180
+)
+"Wall.ml" 44 1187 1197 "Wall.ml" 44 1187 1215
+call(
+  stack
+)
+type(
+  int option
+)
+"Wall.ml" 44 1187 1216 "Wall.ml" 44 1187 1217
+type(
+  int option -> int option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Wall.ml" 44 1187 1218 "Wall.ml" 44 1187 1222
+type(
+  int option
+)
+"Wall.ml" 44 1187 1197 "Wall.ml" 44 1187 1222
+type(
+  bool
+)
+"Wall.ml" 44 1187 1229 "Wall.ml" 44 1187 1230
+type(
+  int
+)
+ident(
+  int_ref y "Wall.ml" 43 1159 1181 "Wall.ml" 43 1159 1182
+)
+"Wall.ml" 45 1231 1242 "Wall.ml" 45 1231 1243
+type(
+  int
+)
+ident(
+  int_ref y "Wall.ml" 43 1159 1181 "Wall.ml" 43 1159 1182
+)
+"Wall.ml" 45 1231 1244 "Wall.ml" 45 1231 1245
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"Wall.ml" 45 1231 1246 "Wall.ml" 45 1231 1247
+type(
+  int
+)
+"Wall.ml" 45 1231 1242 "Wall.ml" 45 1231 1247
+type(
+  int
+)
+"Wall.ml" 44 1187 1193 "Wall.ml" 45 1231 1247
+type(
+  int
+)
+"Wall.ml" 43 1159 1181 "Wall.ml" 45 1231 1247
+type(
+  int -> int
+)
+"Wall.ml" 43 1159 1179 "Wall.ml" 45 1231 1247
+type(
+  world_object_i -> int -> int
+)
+"Wall.ml" 45 1231 1249 "Wall.ml" 45 1231 1250
+type(
+  int
+)
+"Wall.ml" 43 1159 1163 "Wall.ml" 45 1231 1250
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"Wall.ml" 42 1121 1123 "Wall.ml" 45 1231 1250
+type(
+  'a -> int
+)
+"Wall.ml" 48 1290 1294 "Wall.ml" 48 1290 1300
+type(
+  WhiteWalker.white_walker -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"Wall.ml" 48 1290 1302 "Wall.ml" 48 1290 1330
+type(
+  int * int -> KingsLanding.kings_landing -> 'a -> WhiteWalker.white_walker
+)
+"Wall.ml" 48 1290 1331 "Wall.ml" 48 1290 1335
+type(
+  'a
+)
+ident(
+  int_ref self "Wall.ml" 12 275 283 "Wall.ml" 12 275 287
+)
+"Wall.ml" 48 1290 1331 "Wall.ml" 48 1290 1343
+call(
+  stack
+)
+type(
+  int * int
+)
+"Wall.ml" 48 1290 1344 "Wall.ml" 48 1290 1348
+type(
+  KingsLanding.kings_landing
+)
+ident(
+  int_ref city "Wall.ml" 11 208 222 "Wall.ml" 11 208 226
+)
+"Wall.ml" 48 1290 1349 "Wall.ml" 48 1290 1353
+type(
+  'a
+)
+ident(
+  int_ref self "Wall.ml" 12 275 283 "Wall.ml" 12 275 287
+)
+"Wall.ml" 48 1290 1302 "Wall.ml" 48 1290 1353
+call(
+  stack
+)
+type(
+  WhiteWalker.white_walker
+)
+"Wall.ml" 48 1290 1294 "Wall.ml" 48 1290 1354
+type(
+  unit
+)
+type(
+  unit
+)
+"Wall.ml" 47 1252 1254 "Wall.ml" 48 1290 1354
+type(
+  'a -> unit
+)
+"Wall.ml" 51 1395 1399 "Wall.ml" 51 1395 1409
+type(
+  (world_object_i -> bool -> bool) -> bool -> bool
+)
+ident(
+  ext_ref World.fold
+)
+"Wall.ml" 51 1395 1415 "Wall.ml" 51 1395 1416
+type(
+  world_object_i
+)
+ident(
+  def x "Wall.ml" 51 1395 1417 "Wall.ml" 51 1395 1456
+)
+"Wall.ml" 51 1395 1417 "Wall.ml" 51 1395 1418
+type(
+  bool
+)
+ident(
+  def y "Wall.ml" 51 1395 1422 "Wall.ml" 51 1395 1456
+)
+"Wall.ml" 51 1395 1423 "Wall.ml" 51 1395 1424
+type(
+  world_object_i
+)
+ident(
+  int_ref x "Wall.ml" 51 1395 1415 "Wall.ml" 51 1395 1416
+)
+"Wall.ml" 51 1395 1423 "Wall.ml" 51 1395 1433
+call(
+  stack
+)
+type(
+  string
+)
+"Wall.ml" 51 1395 1434 "Wall.ml" 51 1395 1435
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Wall.ml" 51 1395 1436 "Wall.ml" 51 1395 1450
+type(
+  string
+)
+"Wall.ml" 51 1395 1423 "Wall.ml" 51 1395 1450
+type(
+  bool
+)
+"Wall.ml" 51 1395 1452 "Wall.ml" 51 1395 1454
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"Wall.ml" 51 1395 1455 "Wall.ml" 51 1395 1456
+type(
+  bool
+)
+ident(
+  int_ref y "Wall.ml" 51 1395 1417 "Wall.ml" 51 1395 1418
+)
+"Wall.ml" 51 1395 1422 "Wall.ml" 51 1395 1456
+type(
+  bool
+)
+"Wall.ml" 51 1395 1417 "Wall.ml" 51 1395 1456
+type(
+  bool -> bool
+)
+"Wall.ml" 51 1395 1415 "Wall.ml" 51 1395 1456
+type(
+  world_object_i -> bool -> bool
+)
+"Wall.ml" 51 1395 1458 "Wall.ml" 51 1395 1463
+type(
+  bool
+)
+"Wall.ml" 51 1395 1399 "Wall.ml" 51 1395 1463
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"Wall.ml" 50 1356 1358 "Wall.ml" 51 1395 1463
+type(
+  'a -> bool
+)
+"Wall.ml" 60 1613 1634 "Wall.ml" 60 1613 1640
+type(
+  string
+)
+type(
+  string
+)
+"Wall.ml" 60 1613 1615 "Wall.ml" 60 1613 1640
+type(
+  'a -> string
+)
+"Wall.ml" 62 1642 1659 "Wall.ml" 62 1642 1663
+type(
+  'a
+)
+ident(
+  int_ref self "Wall.ml" 12 275 283 "Wall.ml" 12 275 287
+)
+"Wall.ml" 62 1642 1659 "Wall.ml" 62 1642 1675
+call(
+  tail
+)
+type(
+  int -> int -> string -> unit
+)
+"Wall.ml" 62 1642 1677 "Wall.ml" 62 1642 1689
+type(
+  int -> int -> int -> int
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"Wall.ml" 62 1642 1690 "Wall.ml" 62 1642 1692
+type(
+  int
+)
+"Wall.ml" 62 1642 1693 "Wall.ml" 62 1642 1696
+type(
+  int
+)
+"Wall.ml" 62 1642 1697 "Wall.ml" 62 1642 1700
+type(
+  int
+)
+"Wall.ml" 62 1642 1677 "Wall.ml" 62 1642 1700
+call(
+  stack
+)
+type(
+  int
+)
+"Wall.ml" 62 1642 1702 "Wall.ml" 62 1642 1716
+type(
+  int
+)
+ident(
+  ext_ref Graphics.white
+)
+"Wall.ml" 62 1642 1717 "Wall.ml" 62 1642 1720
+type(
+  string
+)
+"Wall.ml" 62 1642 1659 "Wall.ml" 62 1642 1720
+type(
+  unit
+)
+type(
+  unit
+)
+"Wall.ml" 62 1642 1644 "Wall.ml" 62 1642 1720
+type(
+  'a -> unit
+)
+"Wall.ml" 64 1722 1746 "Wall.ml" 64 1722 1747
+type(
+  int
+)
+type(
+  int
+)
+"Wall.ml" 64 1722 1724 "Wall.ml" 64 1722 1747
+type(
+  'a -> int
+)

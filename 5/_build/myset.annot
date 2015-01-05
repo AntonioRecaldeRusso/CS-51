@@ -1,0 +1,5872 @@
+"myset.ml" 89 2149 2155 "myset.ml" 89 2149 2162
+type(
+  'a -> 'a -> Ordering.t
+)
+ident(
+  def compare "myset.ml" 90 2226 2228 "myset.ml" 100 2550 2553
+)
+"myset.ml" 89 2149 2163 "myset.ml" 89 2149 2164
+type(
+  'a
+)
+ident(
+  def x "myset.ml" 89 2149 2165 "myset.ml" 89 2149 2225
+)
+"myset.ml" 89 2149 2165 "myset.ml" 89 2149 2166
+type(
+  'a
+)
+ident(
+  def y "myset.ml" 89 2149 2169 "myset.ml" 89 2149 2225
+)
+"myset.ml" 89 2149 2172 "myset.ml" 89 2149 2173
+type(
+  'a
+)
+ident(
+  int_ref x "myset.ml" 89 2149 2163 "myset.ml" 89 2149 2164
+)
+"myset.ml" 89 2149 2174 "myset.ml" 89 2149 2175
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"myset.ml" 89 2149 2176 "myset.ml" 89 2149 2177
+type(
+  'a
+)
+ident(
+  int_ref y "myset.ml" 89 2149 2165 "myset.ml" 89 2149 2166
+)
+"myset.ml" 89 2149 2172 "myset.ml" 89 2149 2177
+type(
+  bool
+)
+"myset.ml" 89 2149 2183 "myset.ml" 89 2149 2187
+type(
+  Ordering.t
+)
+"myset.ml" 89 2149 2196 "myset.ml" 89 2149 2197
+type(
+  'a
+)
+ident(
+  int_ref x "myset.ml" 89 2149 2163 "myset.ml" 89 2149 2164
+)
+"myset.ml" 89 2149 2198 "myset.ml" 89 2149 2199
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"myset.ml" 89 2149 2200 "myset.ml" 89 2149 2201
+type(
+  'a
+)
+ident(
+  int_ref y "myset.ml" 89 2149 2165 "myset.ml" 89 2149 2166
+)
+"myset.ml" 89 2149 2196 "myset.ml" 89 2149 2201
+type(
+  bool
+)
+"myset.ml" 89 2149 2207 "myset.ml" 89 2149 2214
+type(
+  Ordering.t
+)
+"myset.ml" 89 2149 2220 "myset.ml" 89 2149 2225
+type(
+  Ordering.t
+)
+"myset.ml" 89 2149 2193 "myset.ml" 89 2149 2225
+type(
+  Ordering.t
+)
+"myset.ml" 89 2149 2169 "myset.ml" 89 2149 2225
+type(
+  Ordering.t
+)
+"myset.ml" 89 2149 2165 "myset.ml" 89 2149 2225
+type(
+  'a -> Ordering.t
+)
+"myset.ml" 89 2149 2163 "myset.ml" 89 2149 2225
+type(
+  'a -> 'a -> Ordering.t
+)
+"myset.ml" 90 2226 2232 "myset.ml" 90 2226 2243
+type(
+  t -> string
+)
+ident(
+  def string_of_t "myset.ml" 91 2260 2262 "myset.ml" 100 2550 2553
+)
+"myset.ml" 90 2226 2246 "myset.ml" 90 2226 2259
+type(
+  t -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"myset.ml" 91 2260 2266 "myset.ml" 91 2260 2269
+type(
+  unit -> t
+)
+ident(
+  def gen "myset.ml" 92 2277 2279 "myset.ml" 100 2550 2553
+)
+"myset.ml" 91 2260 2270 "myset.ml" 91 2260 2272
+type(
+  unit
+)
+"myset.ml" 91 2260 2275 "myset.ml" 91 2260 2276
+type(
+  t
+)
+"myset.ml" 91 2260 2270 "myset.ml" 91 2260 2276
+type(
+  unit -> t
+)
+"myset.ml" 92 2277 2283 "myset.ml" 92 2277 2293
+type(
+  unit -> t
+)
+ident(
+  def gen_random "myset.ml" 95 2364 2366 "myset.ml" 100 2550 2553
+)
+"myset.ml" 93 2296 2304 "myset.ml" 93 2296 2305
+type(
+  unit
+)
+"myset.ml" 93 2296 2308 "myset.ml" 93 2296 2324
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Core.Std.Random.self_init
+)
+"myset.ml" 93 2296 2325 "myset.ml" 93 2296 2327
+type(
+  unit
+)
+"myset.ml" 93 2296 2308 "myset.ml" 93 2296 2327
+call(
+  stack
+)
+type(
+  unit
+)
+"myset.ml" 94 2331 2340 "myset.ml" 94 2331 2342
+type(
+  unit
+)
+"myset.ml" 94 2331 2346 "myset.ml" 94 2331 2356
+type(
+  t -> t
+)
+ident(
+  ext_ref Core.Std.Random.int
+)
+"myset.ml" 94 2331 2357 "myset.ml" 94 2331 2362
+type(
+  t
+)
+"myset.ml" 94 2331 2346 "myset.ml" 94 2331 2362
+call(
+  tail
+)
+type(
+  t
+)
+"myset.ml" 94 2331 2340 "myset.ml" 94 2331 2362
+type(
+  unit -> t
+)
+"myset.ml" 93 2296 2300 "myset.ml" 94 2331 2363
+type(
+  unit -> t
+)
+"myset.ml" 95 2364 2370 "myset.ml" 95 2364 2376
+type(
+  t -> unit -> t
+)
+ident(
+  def gen_gt "myset.ml" 96 2390 2392 "myset.ml" 100 2550 2553
+)
+"myset.ml" 95 2364 2377 "myset.ml" 95 2364 2378
+type(
+  t
+)
+ident(
+  def x "myset.ml" 95 2364 2379 "myset.ml" 95 2364 2389
+)
+"myset.ml" 95 2364 2379 "myset.ml" 95 2364 2381
+type(
+  unit
+)
+"myset.ml" 95 2364 2384 "myset.ml" 95 2364 2385
+type(
+  t
+)
+ident(
+  int_ref x "myset.ml" 95 2364 2377 "myset.ml" 95 2364 2378
+)
+"myset.ml" 95 2364 2386 "myset.ml" 95 2364 2387
+type(
+  t -> t -> t
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"myset.ml" 95 2364 2388 "myset.ml" 95 2364 2389
+type(
+  t
+)
+"myset.ml" 95 2364 2384 "myset.ml" 95 2364 2389
+type(
+  t
+)
+"myset.ml" 95 2364 2379 "myset.ml" 95 2364 2389
+type(
+  unit -> t
+)
+"myset.ml" 95 2364 2377 "myset.ml" 95 2364 2389
+type(
+  t -> unit -> t
+)
+"myset.ml" 96 2390 2396 "myset.ml" 96 2390 2402
+type(
+  t -> unit -> t
+)
+ident(
+  def gen_lt "myset.ml" 97 2416 2418 "myset.ml" 100 2550 2553
+)
+"myset.ml" 96 2390 2403 "myset.ml" 96 2390 2404
+type(
+  t
+)
+ident(
+  def x "myset.ml" 96 2390 2405 "myset.ml" 96 2390 2415
+)
+"myset.ml" 96 2390 2405 "myset.ml" 96 2390 2407
+type(
+  unit
+)
+"myset.ml" 96 2390 2410 "myset.ml" 96 2390 2411
+type(
+  t
+)
+ident(
+  int_ref x "myset.ml" 96 2390 2403 "myset.ml" 96 2390 2404
+)
+"myset.ml" 96 2390 2412 "myset.ml" 96 2390 2413
+type(
+  t -> t -> t
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"myset.ml" 96 2390 2414 "myset.ml" 96 2390 2415
+type(
+  t
+)
+"myset.ml" 96 2390 2410 "myset.ml" 96 2390 2415
+type(
+  t
+)
+"myset.ml" 96 2390 2405 "myset.ml" 96 2390 2415
+type(
+  unit -> t
+)
+"myset.ml" 96 2390 2403 "myset.ml" 96 2390 2415
+type(
+  t -> unit -> t
+)
+"myset.ml" 97 2416 2422 "myset.ml" 97 2416 2433
+type(
+  t -> t -> unit -> t option
+)
+ident(
+  def gen_between "myset.ml" 99 2491 2549 "myset.ml" 100 2550 2553
+)
+"myset.ml" 97 2416 2434 "myset.ml" 97 2416 2435
+type(
+  t
+)
+ident(
+  def x "myset.ml" 97 2416 2436 "myset.ml" 99 2491 2549
+)
+"myset.ml" 97 2416 2436 "myset.ml" 97 2416 2437
+type(
+  t
+)
+ident(
+  def y "myset.ml" 97 2416 2438 "myset.ml" 99 2491 2549
+)
+"myset.ml" 97 2416 2438 "myset.ml" 97 2416 2440
+type(
+  unit
+)
+"myset.ml" 98 2443 2452 "myset.ml" 98 2443 2457
+type(
+  t
+)
+ident(
+  def lower "myset.ml" 99 2491 2495 "myset.ml" 99 2491 2549
+)
+"myset.ml" 98 2443 2459 "myset.ml" 98 2443 2465
+type(
+  t
+)
+ident(
+  def higher "myset.ml" 99 2491 2495 "myset.ml" 99 2491 2549
+)
+"myset.ml" 98 2443 2452 "myset.ml" 98 2443 2465
+type(
+  t * t
+)
+"myset.ml" 98 2443 2470 "myset.ml" 98 2443 2473
+type(
+  t -> t -> t
+)
+ident(
+  ext_ref Pervasives.min
+)
+"myset.ml" 98 2443 2474 "myset.ml" 98 2443 2475
+type(
+  t
+)
+ident(
+  int_ref x "myset.ml" 97 2416 2434 "myset.ml" 97 2416 2435
+)
+"myset.ml" 98 2443 2476 "myset.ml" 98 2443 2477
+type(
+  t
+)
+ident(
+  int_ref y "myset.ml" 97 2416 2436 "myset.ml" 97 2416 2437
+)
+"myset.ml" 98 2443 2470 "myset.ml" 98 2443 2477
+call(
+  stack
+)
+type(
+  t
+)
+"myset.ml" 98 2443 2479 "myset.ml" 98 2443 2482
+type(
+  t -> t -> t
+)
+ident(
+  ext_ref Pervasives.max
+)
+"myset.ml" 98 2443 2483 "myset.ml" 98 2443 2484
+type(
+  t
+)
+ident(
+  int_ref x "myset.ml" 97 2416 2434 "myset.ml" 97 2416 2435
+)
+"myset.ml" 98 2443 2485 "myset.ml" 98 2443 2486
+type(
+  t
+)
+ident(
+  int_ref y "myset.ml" 97 2416 2436 "myset.ml" 97 2416 2437
+)
+"myset.ml" 98 2443 2479 "myset.ml" 98 2443 2486
+call(
+  stack
+)
+type(
+  t
+)
+"myset.ml" 98 2443 2470 "myset.ml" 98 2443 2486
+type(
+  t * t
+)
+"myset.ml" 99 2491 2498 "myset.ml" 99 2491 2504
+type(
+  t
+)
+ident(
+  int_ref higher "myset.ml" 98 2443 2459 "myset.ml" 98 2443 2465
+)
+"myset.ml" 99 2491 2505 "myset.ml" 99 2491 2506
+type(
+  t -> t -> t
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"myset.ml" 99 2491 2507 "myset.ml" 99 2491 2512
+type(
+  t
+)
+ident(
+  int_ref lower "myset.ml" 98 2443 2452 "myset.ml" 98 2443 2457
+)
+"myset.ml" 99 2491 2498 "myset.ml" 99 2491 2512
+type(
+  t
+)
+"myset.ml" 99 2491 2513 "myset.ml" 99 2491 2514
+type(
+  t -> t -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"myset.ml" 99 2491 2515 "myset.ml" 99 2491 2516
+type(
+  t
+)
+"myset.ml" 99 2491 2498 "myset.ml" 99 2491 2516
+type(
+  bool
+)
+"myset.ml" 99 2491 2522 "myset.ml" 99 2491 2526
+type(
+  t option
+)
+"myset.ml" 99 2491 2538 "myset.ml" 99 2491 2544
+type(
+  t
+)
+ident(
+  int_ref higher "myset.ml" 98 2443 2459 "myset.ml" 98 2443 2465
+)
+"myset.ml" 99 2491 2545 "myset.ml" 99 2491 2546
+type(
+  t -> t -> t
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"myset.ml" 99 2491 2547 "myset.ml" 99 2491 2548
+type(
+  t
+)
+"myset.ml" 99 2491 2538 "myset.ml" 99 2491 2548
+type(
+  t
+)
+"myset.ml" 99 2491 2532 "myset.ml" 99 2491 2549
+type(
+  t option
+)
+"myset.ml" 99 2491 2495 "myset.ml" 99 2491 2549
+type(
+  t option
+)
+"myset.ml" 98 2443 2447 "myset.ml" 99 2491 2549
+type(
+  t option
+)
+"myset.ml" 97 2416 2438 "myset.ml" 99 2491 2549
+type(
+  unit -> t option
+)
+"myset.ml" 97 2416 2436 "myset.ml" 99 2491 2549
+type(
+  t -> unit -> t option
+)
+"myset.ml" 97 2416 2434 "myset.ml" 99 2491 2549
+type(
+  t -> t -> unit -> t option
+)
+"myset.ml" 112 2773 2779 "myset.ml" 112 2773 2784
+type(
+  'a list
+)
+ident(
+  def empty "myset.ml" 113 2790 2792 "myset.ml" 224 5656 5659
+)
+"myset.ml" 112 2773 2787 "myset.ml" 112 2773 2789
+type(
+  'a list
+)
+"myset.ml" 113 2790 2796 "myset.ml" 113 2790 2804
+type(
+  'b list -> bool
+)
+ident(
+  def is_empty "myset.ml" 117 2866 2868 "myset.ml" 224 5656 5659
+)
+"myset.ml" 113 2790 2805 "myset.ml" 113 2790 2807
+type(
+  'b list
+)
+ident(
+  def xs "myset.ml" 114 2810 2814 "myset.ml" 116 2847 2865
+)
+"myset.ml" 114 2810 2820 "myset.ml" 114 2810 2822
+type(
+  'b list
+)
+ident(
+  int_ref xs "myset.ml" 113 2790 2805 "myset.ml" 113 2790 2807
+)
+"myset.ml" 115 2828 2836 "myset.ml" 115 2828 2838
+type(
+  'b list
+)
+"myset.ml" 115 2828 2842 "myset.ml" 115 2828 2846
+type(
+  bool
+)
+"myset.ml" 116 2847 2855 "myset.ml" 116 2847 2856
+type(
+  'b list
+)
+"myset.ml" 116 2847 2860 "myset.ml" 116 2847 2865
+type(
+  bool
+)
+"myset.ml" 114 2810 2814 "myset.ml" 116 2847 2865
+type(
+  bool
+)
+"myset.ml" 113 2790 2805 "myset.ml" 116 2847 2865
+type(
+  'b list -> bool
+)
+"myset.ml" 117 2866 2872 "myset.ml" 117 2866 2881
+type(
+  'c -> 'c list
+)
+ident(
+  def singleton "myset.ml" 118 2890 2892 "myset.ml" 224 5656 5659
+)
+"myset.ml" 117 2866 2882 "myset.ml" 117 2866 2883
+type(
+  'c
+)
+ident(
+  def x "myset.ml" 117 2866 2887 "myset.ml" 117 2866 2888
+)
+"myset.ml" 117 2866 2887 "myset.ml" 117 2866 2888
+type(
+  'c
+)
+ident(
+  int_ref x "myset.ml" 117 2866 2882 "myset.ml" 117 2866 2883
+)
+type(
+  'c list
+)
+"myset.ml" 117 2866 2886 "myset.ml" 117 2866 2889
+type(
+  'c list
+)
+"myset.ml" 117 2866 2882 "myset.ml" 117 2866 2889
+type(
+  'c -> 'c list
+)
+"myset.ml" 118 2890 2900 "myset.ml" 118 2890 2906
+type(
+  elt -> elt list -> elt list
+)
+ident(
+  def insert "myset.ml" 118 2890 2892 "myset.ml" 224 5656 5659
+)
+"myset.ml" 118 2890 2907 "myset.ml" 118 2890 2908
+type(
+  elt
+)
+ident(
+  def x "myset.ml" 118 2890 2909 "myset.ml" 124 3057 3083
+)
+"myset.ml" 118 2890 2909 "myset.ml" 118 2890 2911
+type(
+  elt list
+)
+ident(
+  def xs "myset.ml" 119 2914 2918 "myset.ml" 124 3057 3083
+)
+"myset.ml" 119 2914 2924 "myset.ml" 119 2914 2926
+type(
+  elt list
+)
+ident(
+  int_ref xs "myset.ml" 118 2890 2909 "myset.ml" 118 2890 2911
+)
+"myset.ml" 120 2932 2940 "myset.ml" 120 2932 2942
+type(
+  elt list
+)
+"myset.ml" 120 2932 2947 "myset.ml" 120 2932 2948
+type(
+  elt
+)
+ident(
+  int_ref x "myset.ml" 118 2890 2907 "myset.ml" 118 2890 2908
+)
+type(
+  elt list
+)
+"myset.ml" 120 2932 2946 "myset.ml" 120 2932 2949
+type(
+  elt list
+)
+"myset.ml" 121 2950 2958 "myset.ml" 121 2950 2959
+type(
+  elt
+)
+ident(
+  def y "myset.ml" 121 2950 2968 "myset.ml" 124 3057 3082
+)
+"myset.ml" 121 2950 2961 "myset.ml" 121 2950 2963
+type(
+  elt list
+)
+ident(
+  def ys "myset.ml" 121 2950 2968 "myset.ml" 124 3057 3082
+)
+"myset.ml" 121 2950 2958 "myset.ml" 121 2950 2963
+type(
+  elt list
+)
+"myset.ml" 121 2950 2974 "myset.ml" 121 2950 2983
+type(
+  elt -> elt -> Ordering.t
+)
+ident(
+  int_ref C.compare "myset.ml" 58 1374 1376 "myset.ml" 58 1374 1410
+)
+"myset.ml" 121 2950 2984 "myset.ml" 121 2950 2985
+type(
+  elt
+)
+ident(
+  int_ref x "myset.ml" 118 2890 2907 "myset.ml" 118 2890 2908
+)
+"myset.ml" 121 2950 2986 "myset.ml" 121 2950 2987
+type(
+  elt
+)
+ident(
+  int_ref y "myset.ml" 121 2950 2958 "myset.ml" 121 2950 2959
+)
+"myset.ml" 121 2950 2974 "myset.ml" 121 2950 2987
+call(
+  stack
+)
+type(
+  Ordering.t
+)
+"myset.ml" 122 2993 3005 "myset.ml" 122 2993 3012
+type(
+  Ordering.t
+)
+"myset.ml" 122 2993 3016 "myset.ml" 122 2993 3017
+type(
+  elt
+)
+ident(
+  int_ref y "myset.ml" 121 2950 2958 "myset.ml" 121 2950 2959
+)
+"myset.ml" 122 2993 3020 "myset.ml" 122 2993 3026
+type(
+  elt -> elt list -> elt list
+)
+ident(
+  int_ref insert "myset.ml" 118 2890 2900 "myset.ml" 118 2890 2906
+)
+"myset.ml" 122 2993 3027 "myset.ml" 122 2993 3028
+type(
+  elt
+)
+ident(
+  int_ref x "myset.ml" 118 2890 2907 "myset.ml" 118 2890 2908
+)
+"myset.ml" 122 2993 3029 "myset.ml" 122 2993 3031
+type(
+  elt list
+)
+ident(
+  int_ref ys "myset.ml" 121 2950 2961 "myset.ml" 121 2950 2963
+)
+"myset.ml" 122 2993 3020 "myset.ml" 122 2993 3031
+call(
+  stack
+)
+type(
+  elt list
+)
+"myset.ml" 122 2993 3016 "myset.ml" 122 2993 3032
+type(
+  elt list
+)
+"myset.ml" 123 3033 3045 "myset.ml" 123 3033 3050
+type(
+  Ordering.t
+)
+"myset.ml" 123 3033 3054 "myset.ml" 123 3033 3056
+type(
+  elt list
+)
+ident(
+  int_ref xs "myset.ml" 118 2890 2909 "myset.ml" 118 2890 2911
+)
+"myset.ml" 124 3057 3069 "myset.ml" 124 3057 3073
+type(
+  Ordering.t
+)
+"myset.ml" 124 3057 3077 "myset.ml" 124 3057 3078
+type(
+  elt
+)
+ident(
+  int_ref x "myset.ml" 118 2890 2907 "myset.ml" 118 2890 2908
+)
+"myset.ml" 124 3057 3080 "myset.ml" 124 3057 3082
+type(
+  elt list
+)
+ident(
+  int_ref xs "myset.ml" 118 2890 2909 "myset.ml" 118 2890 2911
+)
+"myset.ml" 124 3057 3077 "myset.ml" 124 3057 3082
+type(
+  elt list
+)
+"myset.ml" 121 2950 2968 "myset.ml" 124 3057 3082
+type(
+  elt list
+)
+"myset.ml" 119 2914 2918 "myset.ml" 124 3057 3083
+type(
+  elt list
+)
+"myset.ml" 118 2890 2909 "myset.ml" 124 3057 3083
+type(
+  elt list -> elt list
+)
+"myset.ml" 118 2890 2907 "myset.ml" 124 3057 3083
+type(
+  elt -> elt list -> elt list
+)
+"myset.ml" 126 3085 3091 "myset.ml" 126 3085 3096
+type(
+  elt list -> elt list -> elt list
+)
+ident(
+  def union "myset.ml" 127 3143 3145 "myset.ml" 224 5656 5659
+)
+"myset.ml" 126 3085 3097 "myset.ml" 126 3085 3099
+type(
+  elt list
+)
+ident(
+  def xs "myset.ml" 126 3085 3100 "myset.ml" 126 3085 3142
+)
+"myset.ml" 126 3085 3100 "myset.ml" 126 3085 3102
+type(
+  elt list
+)
+ident(
+  def ys "myset.ml" 126 3085 3105 "myset.ml" 126 3085 3142
+)
+"myset.ml" 126 3085 3105 "myset.ml" 126 3085 3120
+type(
+  elt list -> f:(elt -> elt list -> elt list) -> init:elt list -> elt list
+)
+ident(
+  ext_ref Core.Std.List.fold_right
+)
+"myset.ml" 126 3085 3121 "myset.ml" 126 3085 3123
+type(
+  elt list
+)
+ident(
+  int_ref xs "myset.ml" 126 3085 3097 "myset.ml" 126 3085 3099
+)
+"myset.ml" 126 3085 3127 "myset.ml" 126 3085 3133
+type(
+  elt -> elt list -> elt list
+)
+ident(
+  int_ref insert "myset.ml" 118 2890 2900 "myset.ml" 118 2890 2906
+)
+"myset.ml" 126 3085 3140 "myset.ml" 126 3085 3142
+type(
+  elt list
+)
+ident(
+  int_ref ys "myset.ml" 126 3085 3100 "myset.ml" 126 3085 3102
+)
+"myset.ml" 126 3085 3105 "myset.ml" 126 3085 3142
+call(
+  tail
+)
+type(
+  elt list
+)
+"myset.ml" 126 3085 3100 "myset.ml" 126 3085 3142
+type(
+  elt list -> elt list
+)
+"myset.ml" 126 3085 3097 "myset.ml" 126 3085 3142
+type(
+  elt list -> elt list -> elt list
+)
+"myset.ml" 127 3143 3153 "myset.ml" 127 3143 3159
+type(
+  elt -> elt list -> elt list
+)
+ident(
+  def remove "myset.ml" 127 3143 3145 "myset.ml" 224 5656 5659
+)
+"myset.ml" 127 3143 3160 "myset.ml" 127 3143 3161
+type(
+  elt
+)
+ident(
+  def y "myset.ml" 127 3143 3162 "myset.ml" 133 3294 3335
+)
+"myset.ml" 127 3143 3162 "myset.ml" 127 3143 3164
+type(
+  elt list
+)
+ident(
+  def xs "myset.ml" 128 3167 3171 "myset.ml" 133 3294 3335
+)
+"myset.ml" 128 3167 3177 "myset.ml" 128 3167 3179
+type(
+  elt list
+)
+ident(
+  int_ref xs "myset.ml" 127 3143 3162 "myset.ml" 127 3143 3164
+)
+"myset.ml" 129 3185 3193 "myset.ml" 129 3185 3195
+type(
+  elt list
+)
+"myset.ml" 129 3185 3199 "myset.ml" 129 3185 3201
+type(
+  elt list
+)
+"myset.ml" 130 3202 3210 "myset.ml" 130 3202 3211
+type(
+  elt
+)
+ident(
+  def x "myset.ml" 130 3202 3221 "myset.ml" 133 3294 3334
+)
+"myset.ml" 130 3202 3213 "myset.ml" 130 3202 3216
+type(
+  elt list
+)
+ident(
+  def xs1 "myset.ml" 130 3202 3221 "myset.ml" 133 3294 3334
+)
+"myset.ml" 130 3202 3210 "myset.ml" 130 3202 3216
+type(
+  elt list
+)
+"myset.ml" 130 3202 3227 "myset.ml" 130 3202 3236
+type(
+  elt -> elt -> Ordering.t
+)
+ident(
+  int_ref C.compare "myset.ml" 58 1374 1376 "myset.ml" 58 1374 1410
+)
+"myset.ml" 130 3202 3237 "myset.ml" 130 3202 3238
+type(
+  elt
+)
+ident(
+  int_ref y "myset.ml" 127 3143 3160 "myset.ml" 127 3143 3161
+)
+"myset.ml" 130 3202 3239 "myset.ml" 130 3202 3240
+type(
+  elt
+)
+ident(
+  int_ref x "myset.ml" 130 3202 3210 "myset.ml" 130 3202 3211
+)
+"myset.ml" 130 3202 3227 "myset.ml" 130 3202 3240
+call(
+  stack
+)
+type(
+  Ordering.t
+)
+"myset.ml" 131 3246 3258 "myset.ml" 131 3246 3263
+type(
+  Ordering.t
+)
+"myset.ml" 131 3246 3267 "myset.ml" 131 3246 3270
+type(
+  elt list
+)
+ident(
+  int_ref xs1 "myset.ml" 130 3202 3213 "myset.ml" 130 3202 3216
+)
+"myset.ml" 132 3271 3283 "myset.ml" 132 3271 3287
+type(
+  Ordering.t
+)
+"myset.ml" 132 3271 3291 "myset.ml" 132 3271 3293
+type(
+  elt list
+)
+ident(
+  int_ref xs "myset.ml" 127 3143 3162 "myset.ml" 127 3143 3164
+)
+"myset.ml" 133 3294 3306 "myset.ml" 133 3294 3313
+type(
+  Ordering.t
+)
+"myset.ml" 133 3294 3317 "myset.ml" 133 3294 3318
+type(
+  elt
+)
+ident(
+  int_ref x "myset.ml" 130 3202 3210 "myset.ml" 130 3202 3211
+)
+"myset.ml" 133 3294 3321 "myset.ml" 133 3294 3327
+type(
+  elt -> elt list -> elt list
+)
+ident(
+  int_ref remove "myset.ml" 127 3143 3153 "myset.ml" 127 3143 3159
+)
+"myset.ml" 133 3294 3328 "myset.ml" 133 3294 3329
+type(
+  elt
+)
+ident(
+  int_ref y "myset.ml" 127 3143 3160 "myset.ml" 127 3143 3161
+)
+"myset.ml" 133 3294 3330 "myset.ml" 133 3294 3333
+type(
+  elt list
+)
+ident(
+  int_ref xs1 "myset.ml" 130 3202 3213 "myset.ml" 130 3202 3216
+)
+"myset.ml" 133 3294 3321 "myset.ml" 133 3294 3333
+call(
+  stack
+)
+type(
+  elt list
+)
+"myset.ml" 133 3294 3317 "myset.ml" 133 3294 3334
+type(
+  elt list
+)
+"myset.ml" 130 3202 3221 "myset.ml" 133 3294 3334
+type(
+  elt list
+)
+"myset.ml" 128 3167 3171 "myset.ml" 133 3294 3335
+type(
+  elt list
+)
+"myset.ml" 127 3143 3162 "myset.ml" 133 3294 3335
+type(
+  elt list -> elt list
+)
+"myset.ml" 127 3143 3160 "myset.ml" 133 3294 3335
+type(
+  elt -> elt list -> elt list
+)
+"myset.ml" 135 3337 3347 "myset.ml" 135 3337 3356
+type(
+  elt list -> elt list -> elt list
+)
+ident(
+  def intersect "myset.ml" 135 3337 3339 "myset.ml" 224 5656 5659
+)
+"myset.ml" 135 3337 3357 "myset.ml" 135 3337 3359
+type(
+  elt list
+)
+ident(
+  def xs "myset.ml" 135 3337 3360 "myset.ml" 142 3560 3599
+)
+"myset.ml" 135 3337 3360 "myset.ml" 135 3337 3362
+type(
+  elt list
+)
+ident(
+  def ys "myset.ml" 136 3365 3369 "myset.ml" 142 3560 3599
+)
+"myset.ml" 136 3365 3375 "myset.ml" 136 3365 3377
+type(
+  elt list
+)
+ident(
+  int_ref xs "myset.ml" 135 3337 3357 "myset.ml" 135 3337 3359
+)
+"myset.ml" 136 3365 3379 "myset.ml" 136 3365 3381
+type(
+  elt list
+)
+ident(
+  int_ref ys "myset.ml" 135 3337 3360 "myset.ml" 135 3337 3362
+)
+"myset.ml" 136 3365 3375 "myset.ml" 136 3365 3381
+type(
+  elt list * elt list
+)
+"myset.ml" 137 3387 3395 "myset.ml" 137 3387 3397
+type(
+  elt list
+)
+"myset.ml" 137 3387 3399 "myset.ml" 137 3387 3400
+type(
+  elt list
+)
+"myset.ml" 137 3387 3395 "myset.ml" 137 3387 3400
+type(
+  elt list * elt list
+)
+"myset.ml" 137 3387 3404 "myset.ml" 137 3387 3406
+type(
+  elt list
+)
+"myset.ml" 138 3407 3415 "myset.ml" 138 3407 3416
+type(
+  elt list
+)
+"myset.ml" 138 3407 3418 "myset.ml" 138 3407 3420
+type(
+  elt list
+)
+"myset.ml" 138 3407 3415 "myset.ml" 138 3407 3420
+type(
+  elt list * elt list
+)
+"myset.ml" 138 3407 3424 "myset.ml" 138 3407 3426
+type(
+  elt list
+)
+"myset.ml" 139 3427 3435 "myset.ml" 139 3427 3437
+type(
+  elt
+)
+ident(
+  def xh "myset.ml" 139 3427 3454 "myset.ml" 142 3560 3598
+)
+"myset.ml" 139 3427 3439 "myset.ml" 139 3427 3441
+type(
+  elt list
+)
+ident(
+  def xt "myset.ml" 139 3427 3454 "myset.ml" 142 3560 3598
+)
+"myset.ml" 139 3427 3435 "myset.ml" 139 3427 3441
+type(
+  elt list
+)
+"myset.ml" 139 3427 3443 "myset.ml" 139 3427 3445
+type(
+  elt
+)
+ident(
+  def yh "myset.ml" 139 3427 3454 "myset.ml" 142 3560 3598
+)
+"myset.ml" 139 3427 3447 "myset.ml" 139 3427 3449
+type(
+  elt list
+)
+ident(
+  def yt "myset.ml" 139 3427 3454 "myset.ml" 142 3560 3598
+)
+"myset.ml" 139 3427 3443 "myset.ml" 139 3427 3449
+type(
+  elt list
+)
+"myset.ml" 139 3427 3435 "myset.ml" 139 3427 3449
+type(
+  elt list * elt list
+)
+"myset.ml" 139 3427 3460 "myset.ml" 139 3427 3469
+type(
+  elt -> elt -> Ordering.t
+)
+ident(
+  int_ref C.compare "myset.ml" 58 1374 1376 "myset.ml" 58 1374 1410
+)
+"myset.ml" 139 3427 3470 "myset.ml" 139 3427 3472
+type(
+  elt
+)
+ident(
+  int_ref xh "myset.ml" 139 3427 3435 "myset.ml" 139 3427 3437
+)
+"myset.ml" 139 3427 3473 "myset.ml" 139 3427 3475
+type(
+  elt
+)
+ident(
+  int_ref yh "myset.ml" 139 3427 3443 "myset.ml" 139 3427 3445
+)
+"myset.ml" 139 3427 3460 "myset.ml" 139 3427 3475
+call(
+  stack
+)
+type(
+  Ordering.t
+)
+"myset.ml" 140 3481 3493 "myset.ml" 140 3481 3498
+type(
+  Ordering.t
+)
+"myset.ml" 140 3481 3502 "myset.ml" 140 3481 3504
+type(
+  elt
+)
+ident(
+  int_ref xh "myset.ml" 139 3427 3435 "myset.ml" 139 3427 3437
+)
+"myset.ml" 140 3481 3507 "myset.ml" 140 3481 3516
+type(
+  elt list -> elt list -> elt list
+)
+ident(
+  int_ref intersect "myset.ml" 135 3337 3347 "myset.ml" 135 3337 3356
+)
+"myset.ml" 140 3481 3517 "myset.ml" 140 3481 3519
+type(
+  elt list
+)
+ident(
+  int_ref xt "myset.ml" 139 3427 3439 "myset.ml" 139 3427 3441
+)
+"myset.ml" 140 3481 3520 "myset.ml" 140 3481 3522
+type(
+  elt list
+)
+ident(
+  int_ref yt "myset.ml" 139 3427 3447 "myset.ml" 139 3427 3449
+)
+"myset.ml" 140 3481 3507 "myset.ml" 140 3481 3522
+call(
+  stack
+)
+type(
+  elt list
+)
+"myset.ml" 140 3481 3502 "myset.ml" 140 3481 3523
+type(
+  elt list
+)
+"myset.ml" 141 3524 3536 "myset.ml" 141 3524 3540
+type(
+  Ordering.t
+)
+"myset.ml" 141 3524 3544 "myset.ml" 141 3524 3553
+type(
+  elt list -> elt list -> elt list
+)
+ident(
+  int_ref intersect "myset.ml" 135 3337 3347 "myset.ml" 135 3337 3356
+)
+"myset.ml" 141 3524 3554 "myset.ml" 141 3524 3556
+type(
+  elt list
+)
+ident(
+  int_ref xt "myset.ml" 139 3427 3439 "myset.ml" 139 3427 3441
+)
+"myset.ml" 141 3524 3557 "myset.ml" 141 3524 3559
+type(
+  elt list
+)
+ident(
+  int_ref ys "myset.ml" 135 3337 3360 "myset.ml" 135 3337 3362
+)
+"myset.ml" 141 3524 3544 "myset.ml" 141 3524 3559
+call(
+  tail
+)
+type(
+  elt list
+)
+"myset.ml" 142 3560 3572 "myset.ml" 142 3560 3579
+type(
+  Ordering.t
+)
+"myset.ml" 142 3560 3583 "myset.ml" 142 3560 3592
+type(
+  elt list -> elt list -> elt list
+)
+ident(
+  int_ref intersect "myset.ml" 135 3337 3347 "myset.ml" 135 3337 3356
+)
+"myset.ml" 142 3560 3593 "myset.ml" 142 3560 3595
+type(
+  elt list
+)
+ident(
+  int_ref xs "myset.ml" 135 3337 3357 "myset.ml" 135 3337 3359
+)
+"myset.ml" 142 3560 3596 "myset.ml" 142 3560 3598
+type(
+  elt list
+)
+ident(
+  int_ref yt "myset.ml" 139 3427 3447 "myset.ml" 139 3427 3449
+)
+"myset.ml" 142 3560 3583 "myset.ml" 142 3560 3598
+call(
+  tail
+)
+type(
+  elt list
+)
+"myset.ml" 139 3427 3454 "myset.ml" 142 3560 3598
+type(
+  elt list
+)
+"myset.ml" 136 3365 3369 "myset.ml" 142 3560 3599
+type(
+  elt list
+)
+"myset.ml" 135 3337 3360 "myset.ml" 142 3560 3599
+type(
+  elt list -> elt list
+)
+"myset.ml" 135 3337 3357 "myset.ml" 142 3560 3599
+type(
+  elt list -> elt list -> elt list
+)
+"myset.ml" 144 3601 3611 "myset.ml" 144 3601 3617
+type(
+  elt list -> elt -> bool
+)
+ident(
+  def member "myset.ml" 144 3601 3603 "myset.ml" 224 5656 5659
+)
+"myset.ml" 144 3601 3618 "myset.ml" 144 3601 3620
+type(
+  elt list
+)
+ident(
+  def xs "myset.ml" 144 3601 3621 "myset.ml" 150 3767 3793
+)
+"myset.ml" 144 3601 3621 "myset.ml" 144 3601 3622
+type(
+  elt
+)
+ident(
+  def x "myset.ml" 145 3625 3629 "myset.ml" 150 3767 3793
+)
+"myset.ml" 145 3625 3635 "myset.ml" 145 3625 3637
+type(
+  elt list
+)
+ident(
+  int_ref xs "myset.ml" 144 3601 3618 "myset.ml" 144 3601 3620
+)
+"myset.ml" 146 3643 3651 "myset.ml" 146 3643 3653
+type(
+  elt list
+)
+"myset.ml" 146 3643 3657 "myset.ml" 146 3643 3662
+type(
+  bool
+)
+"myset.ml" 147 3663 3671 "myset.ml" 147 3663 3672
+type(
+  elt
+)
+ident(
+  def y "myset.ml" 147 3663 3681 "myset.ml" 150 3767 3792
+)
+"myset.ml" 147 3663 3674 "myset.ml" 147 3663 3676
+type(
+  elt list
+)
+ident(
+  def ys "myset.ml" 147 3663 3681 "myset.ml" 150 3767 3792
+)
+"myset.ml" 147 3663 3671 "myset.ml" 147 3663 3676
+type(
+  elt list
+)
+"myset.ml" 147 3663 3687 "myset.ml" 147 3663 3696
+type(
+  elt -> elt -> Ordering.t
+)
+ident(
+  int_ref C.compare "myset.ml" 58 1374 1376 "myset.ml" 58 1374 1410
+)
+"myset.ml" 147 3663 3697 "myset.ml" 147 3663 3698
+type(
+  elt
+)
+ident(
+  int_ref x "myset.ml" 144 3601 3621 "myset.ml" 144 3601 3622
+)
+"myset.ml" 147 3663 3699 "myset.ml" 147 3663 3700
+type(
+  elt
+)
+ident(
+  int_ref y "myset.ml" 147 3663 3671 "myset.ml" 147 3663 3672
+)
+"myset.ml" 147 3663 3687 "myset.ml" 147 3663 3700
+call(
+  stack
+)
+type(
+  Ordering.t
+)
+"myset.ml" 148 3706 3718 "myset.ml" 148 3706 3723
+type(
+  Ordering.t
+)
+"myset.ml" 148 3706 3727 "myset.ml" 148 3706 3731
+type(
+  bool
+)
+"myset.ml" 149 3732 3744 "myset.ml" 149 3732 3751
+type(
+  Ordering.t
+)
+"myset.ml" 149 3732 3755 "myset.ml" 149 3732 3761
+type(
+  elt list -> elt -> bool
+)
+ident(
+  int_ref member "myset.ml" 144 3601 3611 "myset.ml" 144 3601 3617
+)
+"myset.ml" 149 3732 3762 "myset.ml" 149 3732 3764
+type(
+  elt list
+)
+ident(
+  int_ref ys "myset.ml" 147 3663 3674 "myset.ml" 147 3663 3676
+)
+"myset.ml" 149 3732 3765 "myset.ml" 149 3732 3766
+type(
+  elt
+)
+ident(
+  int_ref x "myset.ml" 144 3601 3621 "myset.ml" 144 3601 3622
+)
+"myset.ml" 149 3732 3755 "myset.ml" 149 3732 3766
+call(
+  tail
+)
+type(
+  bool
+)
+"myset.ml" 150 3767 3779 "myset.ml" 150 3767 3783
+type(
+  Ordering.t
+)
+"myset.ml" 150 3767 3787 "myset.ml" 150 3767 3792
+type(
+  bool
+)
+"myset.ml" 147 3663 3681 "myset.ml" 150 3767 3792
+type(
+  bool
+)
+"myset.ml" 145 3625 3629 "myset.ml" 150 3767 3793
+type(
+  bool
+)
+"myset.ml" 144 3601 3621 "myset.ml" 150 3767 3793
+type(
+  elt -> bool
+)
+"myset.ml" 144 3601 3618 "myset.ml" 150 3767 3793
+type(
+  elt list -> elt -> bool
+)
+"myset.ml" 152 3795 3801 "myset.ml" 152 3795 3807
+type(
+  'd list -> ('d * 'd list) option
+)
+ident(
+  def choose "myset.ml" 156 3883 3885 "myset.ml" 224 5656 5659
+)
+"myset.ml" 152 3795 3808 "myset.ml" 152 3795 3810
+type(
+  'd list
+)
+ident(
+  def xs "myset.ml" 153 3813 3817 "myset.ml" 155 3850 3882
+)
+"myset.ml" 153 3813 3823 "myset.ml" 153 3813 3825
+type(
+  'd list
+)
+ident(
+  int_ref xs "myset.ml" 152 3795 3808 "myset.ml" 152 3795 3810
+)
+"myset.ml" 154 3831 3839 "myset.ml" 154 3831 3841
+type(
+  'd list
+)
+"myset.ml" 154 3831 3845 "myset.ml" 154 3831 3849
+type(
+  ('d * 'd list) option
+)
+"myset.ml" 155 3850 3858 "myset.ml" 155 3850 3859
+type(
+  'd
+)
+ident(
+  def x "myset.ml" 155 3850 3869 "myset.ml" 155 3850 3882
+)
+"myset.ml" 155 3850 3861 "myset.ml" 155 3850 3865
+type(
+  'd list
+)
+ident(
+  def rest "myset.ml" 155 3850 3869 "myset.ml" 155 3850 3882
+)
+"myset.ml" 155 3850 3858 "myset.ml" 155 3850 3865
+type(
+  'd list
+)
+"myset.ml" 155 3850 3875 "myset.ml" 155 3850 3876
+type(
+  'd
+)
+ident(
+  int_ref x "myset.ml" 155 3850 3858 "myset.ml" 155 3850 3859
+)
+"myset.ml" 155 3850 3877 "myset.ml" 155 3850 3881
+type(
+  'd list
+)
+ident(
+  int_ref rest "myset.ml" 155 3850 3861 "myset.ml" 155 3850 3865
+)
+"myset.ml" 155 3850 3869 "myset.ml" 155 3850 3882
+type(
+  'd * 'd list
+)
+type(
+  ('d * 'd list) option
+)
+"myset.ml" 153 3813 3817 "myset.ml" 155 3850 3882
+type(
+  ('d * 'd list) option
+)
+"myset.ml" 152 3795 3808 "myset.ml" 155 3850 3882
+type(
+  'd list -> ('d * 'd list) option
+)
+"myset.ml" 156 3883 3889 "myset.ml" 156 3883 3893
+type(
+  ('e -> 'f -> 'f) -> 'f -> 'e list -> 'f
+)
+ident(
+  def fold "myset.ml" 158 3946 3948 "myset.ml" 224 5656 5659
+)
+"myset.ml" 156 3883 3894 "myset.ml" 156 3883 3895
+type(
+  'e -> 'f -> 'f
+)
+ident(
+  def f "myset.ml" 156 3883 3896 "myset.ml" 156 3883 3944
+)
+"myset.ml" 156 3883 3896 "myset.ml" 156 3883 3897
+type(
+  'f
+)
+ident(
+  def e "myset.ml" 156 3883 3900 "myset.ml" 156 3883 3944
+)
+"myset.ml" 156 3883 3900 "myset.ml" 156 3883 3914
+type(
+  'e list -> init:'f -> f:('f -> 'e -> 'f) -> 'f
+)
+ident(
+  ext_ref Core.Std.List.fold_left
+)
+"myset.ml" 156 3883 3923 "myset.ml" 156 3883 3924
+type(
+  'f
+)
+ident(
+  def a "myset.ml" 156 3883 3925 "myset.ml" 156 3883 3935
+)
+"myset.ml" 156 3883 3925 "myset.ml" 156 3883 3926
+type(
+  'e
+)
+ident(
+  def x "myset.ml" 156 3883 3930 "myset.ml" 156 3883 3935
+)
+"myset.ml" 156 3883 3930 "myset.ml" 156 3883 3931
+type(
+  'e -> 'f -> 'f
+)
+ident(
+  int_ref f "myset.ml" 156 3883 3894 "myset.ml" 156 3883 3895
+)
+"myset.ml" 156 3883 3932 "myset.ml" 156 3883 3933
+type(
+  'e
+)
+ident(
+  int_ref x "myset.ml" 156 3883 3925 "myset.ml" 156 3883 3926
+)
+"myset.ml" 156 3883 3934 "myset.ml" 156 3883 3935
+type(
+  'f
+)
+ident(
+  int_ref a "myset.ml" 156 3883 3923 "myset.ml" 156 3883 3924
+)
+"myset.ml" 156 3883 3930 "myset.ml" 156 3883 3935
+call(
+  tail
+)
+type(
+  'f
+)
+"myset.ml" 156 3883 3925 "myset.ml" 156 3883 3935
+type(
+  'e -> 'f
+)
+"myset.ml" 156 3883 3923 "myset.ml" 156 3883 3935
+type(
+  'f -> 'e -> 'f
+)
+"myset.ml" 156 3883 3943 "myset.ml" 156 3883 3944
+type(
+  'f
+)
+ident(
+  int_ref e "myset.ml" 156 3883 3896 "myset.ml" 156 3883 3897
+)
+"myset.ml" 156 3883 3900 "myset.ml" 156 3883 3944
+call(
+  tail
+)
+type(
+  'e list -> 'f
+)
+"myset.ml" 156 3883 3896 "myset.ml" 156 3883 3944
+type(
+  'f -> 'e list -> 'f
+)
+"myset.ml" 156 3883 3894 "myset.ml" 156 3883 3944
+type(
+  ('e -> 'f -> 'f) -> 'f -> 'e list -> 'f
+)
+"myset.ml" 158 3946 3952 "myset.ml" 158 3946 3965
+type(
+  elt -> string
+)
+ident(
+  def string_of_elt "myset.ml" 159 3982 3984 "myset.ml" 224 5656 5659
+)
+"myset.ml" 158 3946 3968 "myset.ml" 158 3946 3981
+type(
+  elt -> string
+)
+ident(
+  int_ref C.string_of_t "myset.ml" 59 1411 1413 "myset.ml" 59 1411 1442
+)
+"myset.ml" 159 3982 3988 "myset.ml" 159 3982 4001
+type(
+  set -> string
+)
+ident(
+  def string_of_set "myset.ml" 171 4543 4545 "myset.ml" 224 5656 5659
+)
+"myset.ml" 159 3982 4003 "myset.ml" 159 3982 4004
+type(
+  set
+)
+ident(
+  def s "myset.ml" 159 3982 4011 "myset.ml" 161 4077 4130
+)
+"myset.ml" 160 4022 4030 "myset.ml" 160 4022 4031
+type(
+  string -> elt -> string
+)
+ident(
+  def f "myset.ml" 161 4077 4081 "myset.ml" 161 4077 4130
+)
+"myset.ml" 160 4022 4039 "myset.ml" 160 4022 4040
+type(
+  string
+)
+ident(
+  def y "myset.ml" 160 4022 4041 "myset.ml" 160 4022 4072
+)
+"myset.ml" 160 4022 4041 "myset.ml" 160 4022 4042
+type(
+  elt
+)
+ident(
+  def e "myset.ml" 160 4022 4046 "myset.ml" 160 4022 4072
+)
+"myset.ml" 160 4022 4046 "myset.ml" 160 4022 4047
+type(
+  string
+)
+ident(
+  int_ref y "myset.ml" 160 4022 4039 "myset.ml" 160 4022 4040
+)
+"myset.ml" 160 4022 4048 "myset.ml" 160 4022 4049
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myset.ml" 160 4022 4050 "myset.ml" 160 4022 4054
+type(
+  string
+)
+"myset.ml" 160 4022 4055 "myset.ml" 160 4022 4056
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myset.ml" 160 4022 4057 "myset.ml" 160 4022 4070
+type(
+  elt -> string
+)
+ident(
+  int_ref C.string_of_t "myset.ml" 59 1411 1413 "myset.ml" 59 1411 1442
+)
+"myset.ml" 160 4022 4071 "myset.ml" 160 4022 4072
+type(
+  elt
+)
+ident(
+  int_ref e "myset.ml" 160 4022 4041 "myset.ml" 160 4022 4042
+)
+"myset.ml" 160 4022 4057 "myset.ml" 160 4022 4072
+call(
+  stack
+)
+type(
+  string
+)
+"myset.ml" 160 4022 4050 "myset.ml" 160 4022 4072
+call(
+  stack
+)
+type(
+  string
+)
+"myset.ml" 160 4022 4046 "myset.ml" 160 4022 4072
+call(
+  tail
+)
+type(
+  string
+)
+"myset.ml" 160 4022 4041 "myset.ml" 160 4022 4072
+type(
+  elt -> string
+)
+"myset.ml" 160 4022 4039 "myset.ml" 160 4022 4072
+type(
+  string -> elt -> string
+)
+"myset.ml" 161 4077 4081 "myset.ml" 161 4077 4088
+type(
+  string
+)
+"myset.ml" 161 4077 4089 "myset.ml" 161 4077 4090
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myset.ml" 161 4077 4092 "myset.ml" 161 4077 4106
+type(
+  elt list -> init:string -> f:(string -> elt -> string) -> string
+)
+ident(
+  ext_ref Core.Std.List.fold_left
+)
+"myset.ml" 161 4077 4107 "myset.ml" 161 4077 4108
+type(
+  set
+)
+ident(
+  int_ref s "myset.ml" 159 3982 4003 "myset.ml" 159 3982 4004
+)
+"myset.ml" 161 4077 4112 "myset.ml" 161 4077 4113
+type(
+  string -> elt -> string
+)
+ident(
+  int_ref f "myset.ml" 160 4022 4030 "myset.ml" 160 4022 4031
+)
+"myset.ml" 161 4077 4120 "myset.ml" 161 4077 4122
+type(
+  string
+)
+"myset.ml" 161 4077 4092 "myset.ml" 161 4077 4122
+call(
+  stack
+)
+type(
+  string
+)
+"myset.ml" 161 4077 4124 "myset.ml" 161 4077 4125
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myset.ml" 161 4077 4126 "myset.ml" 161 4077 4130
+type(
+  string
+)
+"myset.ml" 161 4077 4091 "myset.ml" 161 4077 4130
+call(
+  stack
+)
+type(
+  string
+)
+"myset.ml" 161 4077 4081 "myset.ml" 161 4077 4130
+call(
+  tail
+)
+type(
+  string
+)
+"myset.ml" 160 4022 4026 "myset.ml" 161 4077 4130
+type(
+  string
+)
+type(
+  string
+)
+"myset.ml" 159 3982 4002 "myset.ml" 161 4077 4130
+type(
+  set -> string
+)
+"myset.ml" 171 4543 4549 "myset.ml" 171 4543 4560
+type(
+  set -> elt list -> set
+)
+ident(
+  def insert_list "myset.ml" 174 4653 4655 "myset.ml" 224 5656 5659
+)
+"myset.ml" 171 4543 4562 "myset.ml" 171 4543 4563
+type(
+  set
+)
+ident(
+  def d "myset.ml" 171 4543 4570 "myset.ml" 172 4594 4651
+)
+"myset.ml" 171 4543 4571 "myset.ml" 171 4543 4574
+type(
+  elt list
+)
+ident(
+  def lst "myset.ml" 171 4543 4586 "myset.ml" 172 4594 4651
+)
+"myset.ml" 172 4594 4598 "myset.ml" 172 4594 4612
+type(
+  elt list -> init:set -> f:(set -> elt -> set) -> set
+)
+ident(
+  ext_ref Core.Std.List.fold_left
+)
+"myset.ml" 172 4594 4613 "myset.ml" 172 4594 4616
+type(
+  elt list
+)
+ident(
+  int_ref lst "myset.ml" 171 4543 4571 "myset.ml" 171 4543 4574
+)
+"myset.ml" 172 4594 4625 "myset.ml" 172 4594 4626
+type(
+  set
+)
+ident(
+  def r "myset.ml" 172 4594 4627 "myset.ml" 172 4594 4642
+)
+"myset.ml" 172 4594 4627 "myset.ml" 172 4594 4628
+type(
+  elt
+)
+ident(
+  def k "myset.ml" 172 4594 4632 "myset.ml" 172 4594 4642
+)
+"myset.ml" 172 4594 4632 "myset.ml" 172 4594 4638
+type(
+  elt -> set -> set
+)
+ident(
+  int_ref insert "myset.ml" 118 2890 2900 "myset.ml" 118 2890 2906
+)
+"myset.ml" 172 4594 4639 "myset.ml" 172 4594 4640
+type(
+  elt
+)
+ident(
+  int_ref k "myset.ml" 172 4594 4627 "myset.ml" 172 4594 4628
+)
+"myset.ml" 172 4594 4641 "myset.ml" 172 4594 4642
+type(
+  set
+)
+ident(
+  int_ref r "myset.ml" 172 4594 4625 "myset.ml" 172 4594 4626
+)
+"myset.ml" 172 4594 4632 "myset.ml" 172 4594 4642
+call(
+  tail
+)
+type(
+  set
+)
+"myset.ml" 172 4594 4627 "myset.ml" 172 4594 4642
+type(
+  elt -> set
+)
+"myset.ml" 172 4594 4625 "myset.ml" 172 4594 4642
+type(
+  set -> elt -> set
+)
+"myset.ml" 172 4594 4650 "myset.ml" 172 4594 4651
+type(
+  set
+)
+ident(
+  int_ref d "myset.ml" 171 4543 4562 "myset.ml" 171 4543 4563
+)
+"myset.ml" 172 4594 4598 "myset.ml" 172 4594 4651
+call(
+  tail
+)
+type(
+  set
+)
+type(
+  set
+)
+"myset.ml" 171 4543 4570 "myset.ml" 172 4594 4651
+type(
+  elt list -> set
+)
+"myset.ml" 171 4543 4561 "myset.ml" 172 4594 4651
+type(
+  set -> elt list -> set
+)
+"myset.ml" 174 4653 4663 "myset.ml" 174 4653 4683
+type(
+  int -> elt list
+)
+ident(
+  def generate_random_list "myset.ml" 174 4653 4655 "myset.ml" 224 5656 5659
+)
+"myset.ml" 174 4653 4685 "myset.ml" 174 4653 4689
+type(
+  int
+)
+ident(
+  def size "myset.ml" 174 4653 4696 "myset.ml" 176 4734 4796
+)
+"myset.ml" 175 4709 4716 "myset.ml" 175 4709 4720
+type(
+  int
+)
+ident(
+  int_ref size "myset.ml" 174 4653 4685 "myset.ml" 174 4653 4689
+)
+"myset.ml" 175 4709 4721 "myset.ml" 175 4709 4723
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"myset.ml" 175 4709 4724 "myset.ml" 175 4709 4725
+type(
+  int
+)
+"myset.ml" 175 4709 4716 "myset.ml" 175 4709 4725
+type(
+  bool
+)
+"myset.ml" 175 4709 4731 "myset.ml" 175 4709 4733
+type(
+  elt list
+)
+"myset.ml" 176 4734 4744 "myset.ml" 176 4734 4756
+type(
+  unit -> elt
+)
+ident(
+  int_ref C.gen_random "myset.ml" 68 1656 1658 "myset.ml" 68 1656 1684
+)
+"myset.ml" 176 4734 4756 "myset.ml" 176 4734 4758
+type(
+  unit
+)
+"myset.ml" 176 4734 4744 "myset.ml" 176 4734 4758
+call(
+  stack
+)
+type(
+  elt
+)
+"myset.ml" 176 4734 4764 "myset.ml" 176 4734 4784
+type(
+  int -> elt list
+)
+ident(
+  int_ref generate_random_list "myset.ml" 174 4653 4663 "myset.ml" 174 4653 4683
+)
+"myset.ml" 176 4734 4786 "myset.ml" 176 4734 4790
+type(
+  int
+)
+ident(
+  int_ref size "myset.ml" 174 4653 4685 "myset.ml" 174 4653 4689
+)
+"myset.ml" 176 4734 4791 "myset.ml" 176 4734 4792
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"myset.ml" 176 4734 4793 "myset.ml" 176 4734 4794
+type(
+  int
+)
+"myset.ml" 176 4734 4786 "myset.ml" 176 4734 4794
+type(
+  int
+)
+"myset.ml" 176 4734 4764 "myset.ml" 176 4734 4795
+call(
+  stack
+)
+type(
+  elt list
+)
+"myset.ml" 176 4734 4743 "myset.ml" 176 4734 4796
+type(
+  elt list
+)
+"myset.ml" 175 4709 4713 "myset.ml" 176 4734 4796
+type(
+  elt list
+)
+type(
+  elt list
+)
+"myset.ml" 174 4653 4684 "myset.ml" 176 4734 4796
+type(
+  int -> elt list
+)
+"myset.ml" 178 4798 4804 "myset.ml" 178 4798 4815
+type(
+  unit -> unit
+)
+ident(
+  def test_insert "myset.ml" 184 4966 4968 "myset.ml" 224 5656 5659
+)
+"myset.ml" 178 4798 4816 "myset.ml" 178 4798 4818
+type(
+  unit
+)
+"myset.ml" 179 4821 4829 "myset.ml" 179 4821 4833
+type(
+  elt list
+)
+ident(
+  def elts "myset.ml" 180 4864 4868 "myset.ml" 182 4958 4964
+)
+"myset.ml" 179 4821 4836 "myset.ml" 179 4821 4856
+type(
+  int -> elt list
+)
+ident(
+  int_ref generate_random_list "myset.ml" 174 4653 4663 "myset.ml" 174 4653 4683
+)
+"myset.ml" 179 4821 4857 "myset.ml" 179 4821 4860
+type(
+  int
+)
+"myset.ml" 179 4821 4836 "myset.ml" 179 4821 4860
+call(
+  stack
+)
+type(
+  elt list
+)
+"myset.ml" 180 4864 4872 "myset.ml" 180 4864 4874
+type(
+  set
+)
+ident(
+  def s1 "myset.ml" 181 4903 4907 "myset.ml" 182 4958 4964
+)
+"myset.ml" 180 4864 4877 "myset.ml" 180 4864 4888
+type(
+  set -> elt list -> set
+)
+ident(
+  int_ref insert_list "myset.ml" 171 4543 4549 "myset.ml" 171 4543 4560
+)
+"myset.ml" 180 4864 4889 "myset.ml" 180 4864 4894
+type(
+  set
+)
+ident(
+  int_ref empty "myset.ml" 112 2773 2779 "myset.ml" 112 2773 2784
+)
+"myset.ml" 180 4864 4895 "myset.ml" 180 4864 4899
+type(
+  elt list
+)
+ident(
+  int_ref elts "myset.ml" 179 4821 4829 "myset.ml" 179 4821 4833
+)
+"myset.ml" 180 4864 4877 "myset.ml" 180 4864 4899
+call(
+  stack
+)
+type(
+  set
+)
+"myset.ml" 181 4903 4907 "myset.ml" 181 4903 4916
+type(
+  elt list -> f:(elt -> unit) -> unit
+)
+ident(
+  ext_ref Core.Std.List.iter
+)
+"myset.ml" 181 4903 4917 "myset.ml" 181 4903 4921
+type(
+  elt list
+)
+ident(
+  int_ref elts "myset.ml" 179 4821 4829 "myset.ml" 179 4821 4833
+)
+"myset.ml" 181 4903 4930 "myset.ml" 181 4903 4931
+type(
+  elt
+)
+ident(
+  def k "myset.ml" 181 4903 4935 "myset.ml" 181 4903 4954
+)
+"myset.ml" 181 4903 4942 "myset.ml" 181 4903 4948
+type(
+  set -> elt -> bool
+)
+ident(
+  int_ref member "myset.ml" 144 3601 3611 "myset.ml" 144 3601 3617
+)
+"myset.ml" 181 4903 4949 "myset.ml" 181 4903 4951
+type(
+  set
+)
+ident(
+  int_ref s1 "myset.ml" 180 4864 4872 "myset.ml" 180 4864 4874
+)
+"myset.ml" 181 4903 4952 "myset.ml" 181 4903 4953
+type(
+  elt
+)
+ident(
+  int_ref k "myset.ml" 181 4903 4930 "myset.ml" 181 4903 4931
+)
+"myset.ml" 181 4903 4942 "myset.ml" 181 4903 4953
+call(
+  stack
+)
+type(
+  bool
+)
+"myset.ml" 181 4903 4935 "myset.ml" 181 4903 4954
+type(
+  unit
+)
+"myset.ml" 181 4903 4930 "myset.ml" 181 4903 4954
+type(
+  elt -> unit
+)
+"myset.ml" 181 4903 4907 "myset.ml" 181 4903 4955
+call(
+  stack
+)
+type(
+  unit
+)
+"myset.ml" 182 4958 4962 "myset.ml" 182 4958 4964
+type(
+  unit
+)
+"myset.ml" 181 4903 4907 "myset.ml" 182 4958 4964
+type(
+  unit
+)
+"myset.ml" 180 4864 4868 "myset.ml" 182 4958 4964
+type(
+  unit
+)
+"myset.ml" 179 4821 4825 "myset.ml" 182 4958 4964
+type(
+  unit
+)
+"myset.ml" 178 4798 4816 "myset.ml" 182 4958 4964
+type(
+  unit -> unit
+)
+"myset.ml" 184 4966 4972 "myset.ml" 184 4966 4983
+type(
+  unit -> unit
+)
+ident(
+  def test_remove "myset.ml" 191 5213 5215 "myset.ml" 224 5656 5659
+)
+"myset.ml" 184 4966 4984 "myset.ml" 184 4966 4986
+type(
+  unit
+)
+"myset.ml" 185 4989 4997 "myset.ml" 185 4989 5001
+type(
+  elt list
+)
+ident(
+  def elts "myset.ml" 186 5032 5036 "myset.ml" 189 5205 5211
+)
+"myset.ml" 185 4989 5004 "myset.ml" 185 4989 5024
+type(
+  int -> elt list
+)
+ident(
+  int_ref generate_random_list "myset.ml" 174 4653 4663 "myset.ml" 174 4653 4683
+)
+"myset.ml" 185 4989 5025 "myset.ml" 185 4989 5028
+type(
+  int
+)
+"myset.ml" 185 4989 5004 "myset.ml" 185 4989 5028
+call(
+  stack
+)
+type(
+  elt list
+)
+"myset.ml" 186 5032 5040 "myset.ml" 186 5032 5042
+type(
+  set
+)
+ident(
+  def s1 "myset.ml" 187 5071 5075 "myset.ml" 189 5205 5211
+)
+"myset.ml" 186 5032 5045 "myset.ml" 186 5032 5056
+type(
+  set -> elt list -> set
+)
+ident(
+  int_ref insert_list "myset.ml" 171 4543 4549 "myset.ml" 171 4543 4560
+)
+"myset.ml" 186 5032 5057 "myset.ml" 186 5032 5062
+type(
+  set
+)
+ident(
+  int_ref empty "myset.ml" 112 2773 2779 "myset.ml" 112 2773 2784
+)
+"myset.ml" 186 5032 5063 "myset.ml" 186 5032 5067
+type(
+  elt list
+)
+ident(
+  int_ref elts "myset.ml" 185 4989 4997 "myset.ml" 185 4989 5001
+)
+"myset.ml" 186 5032 5045 "myset.ml" 186 5032 5067
+call(
+  stack
+)
+type(
+  set
+)
+"myset.ml" 187 5071 5079 "myset.ml" 187 5071 5081
+type(
+  set
+)
+ident(
+  def s2 "myset.ml" 188 5144 5148 "myset.ml" 189 5205 5211
+)
+"myset.ml" 187 5071 5084 "myset.ml" 187 5071 5099
+type(
+  elt list -> f:(elt -> set -> set) -> init:set -> set
+)
+ident(
+  ext_ref Core.Std.List.fold_right
+)
+"myset.ml" 187 5071 5100 "myset.ml" 187 5071 5104
+type(
+  elt list
+)
+ident(
+  int_ref elts "myset.ml" 185 4989 4997 "myset.ml" 185 4989 5001
+)
+"myset.ml" 187 5071 5113 "myset.ml" 187 5071 5114
+type(
+  elt
+)
+ident(
+  def k "myset.ml" 187 5071 5115 "myset.ml" 187 5071 5130
+)
+"myset.ml" 187 5071 5115 "myset.ml" 187 5071 5116
+type(
+  set
+)
+ident(
+  def r "myset.ml" 187 5071 5120 "myset.ml" 187 5071 5130
+)
+"myset.ml" 187 5071 5120 "myset.ml" 187 5071 5126
+type(
+  elt -> set -> set
+)
+ident(
+  int_ref remove "myset.ml" 127 3143 3153 "myset.ml" 127 3143 3159
+)
+"myset.ml" 187 5071 5127 "myset.ml" 187 5071 5128
+type(
+  elt
+)
+ident(
+  int_ref k "myset.ml" 187 5071 5113 "myset.ml" 187 5071 5114
+)
+"myset.ml" 187 5071 5129 "myset.ml" 187 5071 5130
+type(
+  set
+)
+ident(
+  int_ref r "myset.ml" 187 5071 5115 "myset.ml" 187 5071 5116
+)
+"myset.ml" 187 5071 5120 "myset.ml" 187 5071 5130
+call(
+  tail
+)
+type(
+  set
+)
+"myset.ml" 187 5071 5115 "myset.ml" 187 5071 5130
+type(
+  set -> set
+)
+"myset.ml" 187 5071 5113 "myset.ml" 187 5071 5130
+type(
+  elt -> set -> set
+)
+"myset.ml" 187 5071 5138 "myset.ml" 187 5071 5140
+type(
+  set
+)
+ident(
+  int_ref s1 "myset.ml" 186 5032 5040 "myset.ml" 186 5032 5042
+)
+"myset.ml" 187 5071 5084 "myset.ml" 187 5071 5140
+call(
+  stack
+)
+type(
+  set
+)
+"myset.ml" 188 5144 5148 "myset.ml" 188 5144 5157
+type(
+  elt list -> f:(elt -> unit) -> unit
+)
+ident(
+  ext_ref Core.Std.List.iter
+)
+"myset.ml" 188 5144 5158 "myset.ml" 188 5144 5162
+type(
+  elt list
+)
+ident(
+  int_ref elts "myset.ml" 185 4989 4997 "myset.ml" 185 4989 5001
+)
+"myset.ml" 188 5144 5171 "myset.ml" 188 5144 5172
+type(
+  elt
+)
+ident(
+  def k "myset.ml" 188 5144 5176 "myset.ml" 188 5144 5201
+)
+"myset.ml" 188 5144 5183 "myset.ml" 188 5144 5186
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"myset.ml" 188 5144 5188 "myset.ml" 188 5144 5194
+type(
+  set -> elt -> bool
+)
+ident(
+  int_ref member "myset.ml" 144 3601 3611 "myset.ml" 144 3601 3617
+)
+"myset.ml" 188 5144 5195 "myset.ml" 188 5144 5197
+type(
+  set
+)
+ident(
+  int_ref s2 "myset.ml" 187 5071 5079 "myset.ml" 187 5071 5081
+)
+"myset.ml" 188 5144 5198 "myset.ml" 188 5144 5199
+type(
+  elt
+)
+ident(
+  int_ref k "myset.ml" 188 5144 5171 "myset.ml" 188 5144 5172
+)
+"myset.ml" 188 5144 5188 "myset.ml" 188 5144 5199
+call(
+  stack
+)
+type(
+  bool
+)
+"myset.ml" 188 5144 5183 "myset.ml" 188 5144 5200
+type(
+  bool
+)
+"myset.ml" 188 5144 5176 "myset.ml" 188 5144 5201
+type(
+  unit
+)
+"myset.ml" 188 5144 5171 "myset.ml" 188 5144 5201
+type(
+  elt -> unit
+)
+"myset.ml" 188 5144 5148 "myset.ml" 188 5144 5202
+call(
+  stack
+)
+type(
+  unit
+)
+"myset.ml" 189 5205 5209 "myset.ml" 189 5205 5211
+type(
+  unit
+)
+"myset.ml" 188 5144 5148 "myset.ml" 189 5205 5211
+type(
+  unit
+)
+"myset.ml" 187 5071 5075 "myset.ml" 189 5205 5211
+type(
+  unit
+)
+"myset.ml" 186 5032 5036 "myset.ml" 189 5205 5211
+type(
+  unit
+)
+"myset.ml" 185 4989 4993 "myset.ml" 189 5205 5211
+type(
+  unit
+)
+"myset.ml" 184 4966 4984 "myset.ml" 189 5205 5211
+type(
+  unit -> unit
+)
+"myset.ml" 191 5213 5219 "myset.ml" 191 5213 5229
+type(
+  unit -> unit
+)
+ident(
+  def test_union "myset.ml" 194 5243 5245 "myset.ml" 224 5656 5659
+)
+"myset.ml" 191 5213 5230 "myset.ml" 191 5213 5232
+type(
+  unit
+)
+"myset.ml" 192 5235 5239 "myset.ml" 192 5235 5241
+type(
+  unit
+)
+"myset.ml" 191 5213 5230 "myset.ml" 192 5235 5241
+type(
+  unit -> unit
+)
+"myset.ml" 194 5243 5249 "myset.ml" 194 5243 5263
+type(
+  unit -> unit
+)
+ident(
+  def test_intersect "myset.ml" 197 5277 5279 "myset.ml" 224 5656 5659
+)
+"myset.ml" 194 5243 5264 "myset.ml" 194 5243 5266
+type(
+  unit
+)
+"myset.ml" 195 5269 5273 "myset.ml" 195 5269 5275
+type(
+  unit
+)
+"myset.ml" 194 5243 5264 "myset.ml" 195 5269 5275
+type(
+  unit -> unit
+)
+"myset.ml" 197 5277 5283 "myset.ml" 197 5277 5294
+type(
+  unit -> unit
+)
+ident(
+  def test_member "myset.ml" 200 5308 5310 "myset.ml" 224 5656 5659
+)
+"myset.ml" 197 5277 5295 "myset.ml" 197 5277 5297
+type(
+  unit
+)
+"myset.ml" 198 5300 5304 "myset.ml" 198 5300 5306
+type(
+  unit
+)
+"myset.ml" 197 5277 5295 "myset.ml" 198 5300 5306
+type(
+  unit -> unit
+)
+"myset.ml" 200 5308 5314 "myset.ml" 200 5308 5325
+type(
+  unit -> unit
+)
+ident(
+  def test_choose "myset.ml" 203 5338 5340 "myset.ml" 224 5656 5659
+)
+"myset.ml" 200 5308 5326 "myset.ml" 200 5308 5328
+type(
+  unit
+)
+"myset.ml" 201 5331 5334 "myset.ml" 201 5331 5336
+type(
+  unit
+)
+"myset.ml" 200 5308 5326 "myset.ml" 201 5331 5336
+type(
+  unit -> unit
+)
+"myset.ml" 203 5338 5344 "myset.ml" 203 5338 5353
+type(
+  unit -> unit
+)
+ident(
+  def test_fold "myset.ml" 206 5367 5369 "myset.ml" 224 5656 5659
+)
+"myset.ml" 203 5338 5354 "myset.ml" 203 5338 5356
+type(
+  unit
+)
+"myset.ml" 204 5359 5363 "myset.ml" 204 5359 5365
+type(
+  unit
+)
+"myset.ml" 203 5338 5354 "myset.ml" 204 5359 5365
+type(
+  unit -> unit
+)
+"myset.ml" 206 5367 5373 "myset.ml" 206 5367 5386
+type(
+  unit -> unit
+)
+ident(
+  def test_is_empty "myset.ml" 209 5400 5402 "myset.ml" 224 5656 5659
+)
+"myset.ml" 206 5367 5387 "myset.ml" 206 5367 5389
+type(
+  unit
+)
+"myset.ml" 207 5392 5396 "myset.ml" 207 5392 5398
+type(
+  unit
+)
+"myset.ml" 206 5367 5387 "myset.ml" 207 5392 5398
+type(
+  unit -> unit
+)
+"myset.ml" 209 5400 5406 "myset.ml" 209 5400 5420
+type(
+  unit -> unit
+)
+ident(
+  def test_singleton "myset.ml" 212 5434 5436 "myset.ml" 224 5656 5659
+)
+"myset.ml" 209 5400 5421 "myset.ml" 209 5400 5423
+type(
+  unit
+)
+"myset.ml" 210 5426 5430 "myset.ml" 210 5426 5432
+type(
+  unit
+)
+"myset.ml" 209 5400 5421 "myset.ml" 210 5426 5432
+type(
+  unit -> unit
+)
+"myset.ml" 212 5434 5440 "myset.ml" 212 5434 5449
+type(
+  unit -> unit
+)
+ident(
+  def run_tests "myset.ml" 222 5648 5654 "myset.ml" 224 5656 5659
+)
+"myset.ml" 212 5434 5450 "myset.ml" 212 5434 5452
+type(
+  unit
+)
+"myset.ml" 213 5455 5459 "myset.ml" 213 5455 5470
+type(
+  unit -> unit
+)
+ident(
+  int_ref test_insert "myset.ml" 178 4798 4804 "myset.ml" 178 4798 4815
+)
+"myset.ml" 213 5455 5471 "myset.ml" 213 5455 5473
+type(
+  unit
+)
+"myset.ml" 213 5455 5459 "myset.ml" 213 5455 5473
+call(
+  stack
+)
+type(
+  unit
+)
+"myset.ml" 214 5476 5480 "myset.ml" 214 5476 5491
+type(
+  unit -> unit
+)
+ident(
+  int_ref test_remove "myset.ml" 184 4966 4972 "myset.ml" 184 4966 4983
+)
+"myset.ml" 214 5476 5492 "myset.ml" 214 5476 5494
+type(
+  unit
+)
+"myset.ml" 214 5476 5480 "myset.ml" 214 5476 5494
+call(
+  stack
+)
+type(
+  unit
+)
+"myset.ml" 215 5497 5501 "myset.ml" 215 5497 5511
+type(
+  unit -> unit
+)
+ident(
+  int_ref test_union "myset.ml" 191 5213 5219 "myset.ml" 191 5213 5229
+)
+"myset.ml" 215 5497 5512 "myset.ml" 215 5497 5514
+type(
+  unit
+)
+"myset.ml" 215 5497 5501 "myset.ml" 215 5497 5514
+call(
+  stack
+)
+type(
+  unit
+)
+"myset.ml" 216 5517 5521 "myset.ml" 216 5517 5535
+type(
+  unit -> unit
+)
+ident(
+  int_ref test_intersect "myset.ml" 194 5243 5249 "myset.ml" 194 5243 5263
+)
+"myset.ml" 216 5517 5536 "myset.ml" 216 5517 5538
+type(
+  unit
+)
+"myset.ml" 216 5517 5521 "myset.ml" 216 5517 5538
+call(
+  stack
+)
+type(
+  unit
+)
+"myset.ml" 217 5541 5544 "myset.ml" 217 5541 5555
+type(
+  unit -> unit
+)
+ident(
+  int_ref test_member "myset.ml" 197 5277 5283 "myset.ml" 197 5277 5294
+)
+"myset.ml" 217 5541 5556 "myset.ml" 217 5541 5558
+type(
+  unit
+)
+"myset.ml" 217 5541 5544 "myset.ml" 217 5541 5558
+call(
+  stack
+)
+type(
+  unit
+)
+"myset.ml" 218 5561 5565 "myset.ml" 218 5561 5576
+type(
+  unit -> unit
+)
+ident(
+  int_ref test_choose "myset.ml" 200 5308 5314 "myset.ml" 200 5308 5325
+)
+"myset.ml" 218 5561 5577 "myset.ml" 218 5561 5579
+type(
+  unit
+)
+"myset.ml" 218 5561 5565 "myset.ml" 218 5561 5579
+call(
+  stack
+)
+type(
+  unit
+)
+"myset.ml" 219 5582 5586 "myset.ml" 219 5582 5595
+type(
+  unit -> unit
+)
+ident(
+  int_ref test_fold "myset.ml" 203 5338 5344 "myset.ml" 203 5338 5353
+)
+"myset.ml" 219 5582 5596 "myset.ml" 219 5582 5598
+type(
+  unit
+)
+"myset.ml" 219 5582 5586 "myset.ml" 219 5582 5598
+call(
+  stack
+)
+type(
+  unit
+)
+"myset.ml" 220 5601 5605 "myset.ml" 220 5601 5618
+type(
+  unit -> unit
+)
+ident(
+  int_ref test_is_empty "myset.ml" 206 5367 5373 "myset.ml" 206 5367 5386
+)
+"myset.ml" 220 5601 5619 "myset.ml" 220 5601 5621
+type(
+  unit
+)
+"myset.ml" 220 5601 5605 "myset.ml" 220 5601 5621
+call(
+  stack
+)
+type(
+  unit
+)
+"myset.ml" 221 5624 5628 "myset.ml" 221 5624 5642
+type(
+  unit -> unit
+)
+ident(
+  int_ref test_singleton "myset.ml" 209 5400 5406 "myset.ml" 209 5400 5420
+)
+"myset.ml" 221 5624 5643 "myset.ml" 221 5624 5645
+type(
+  unit
+)
+"myset.ml" 221 5624 5628 "myset.ml" 221 5624 5645
+call(
+  stack
+)
+type(
+  unit
+)
+"myset.ml" 222 5648 5652 "myset.ml" 222 5648 5654
+type(
+  unit
+)
+"myset.ml" 221 5624 5628 "myset.ml" 222 5648 5654
+type(
+  unit
+)
+"myset.ml" 220 5601 5605 "myset.ml" 222 5648 5654
+type(
+  unit
+)
+"myset.ml" 219 5582 5586 "myset.ml" 222 5648 5654
+type(
+  unit
+)
+"myset.ml" 218 5561 5565 "myset.ml" 222 5648 5654
+type(
+  unit
+)
+"myset.ml" 217 5541 5544 "myset.ml" 222 5648 5654
+type(
+  unit
+)
+"myset.ml" 216 5517 5521 "myset.ml" 222 5648 5654
+type(
+  unit
+)
+"myset.ml" 215 5497 5501 "myset.ml" 222 5648 5654
+type(
+  unit
+)
+"myset.ml" 214 5476 5480 "myset.ml" 222 5648 5654
+type(
+  unit
+)
+"myset.ml" 213 5455 5459 "myset.ml" 222 5648 5654
+type(
+  unit
+)
+"myset.ml" 212 5434 5450 "myset.ml" 222 5648 5654
+type(
+  unit -> unit
+)
+"myset.ml" 238 6087 6097 "myset.ml" 238 6087 6104
+type(
+  key -> key -> Ordering.t
+)
+ident(
+  def compare "myset.ml" 239 6129 6135 "myset.ml" 248 6482 6487
+)
+"myset.ml" 238 6087 6105 "myset.ml" 238 6087 6107
+type(
+  key
+)
+ident(
+  def k1 "myset.ml" 238 6087 6108 "myset.ml" 238 6087 6128
+)
+"myset.ml" 238 6087 6108 "myset.ml" 238 6087 6110
+type(
+  key
+)
+ident(
+  def k2 "myset.ml" 238 6087 6113 "myset.ml" 238 6087 6128
+)
+"myset.ml" 238 6087 6113 "myset.ml" 238 6087 6122
+type(
+  key -> key -> Ordering.t
+)
+ident(
+  int_ref C.compare "myset.ml" 58 1374 1376 "myset.ml" 58 1374 1410
+)
+"myset.ml" 238 6087 6123 "myset.ml" 238 6087 6125
+type(
+  key
+)
+ident(
+  int_ref k1 "myset.ml" 238 6087 6105 "myset.ml" 238 6087 6107
+)
+"myset.ml" 238 6087 6126 "myset.ml" 238 6087 6128
+type(
+  key
+)
+ident(
+  int_ref k2 "myset.ml" 238 6087 6108 "myset.ml" 238 6087 6110
+)
+"myset.ml" 238 6087 6113 "myset.ml" 238 6087 6128
+call(
+  tail
+)
+type(
+  Ordering.t
+)
+"myset.ml" 238 6087 6108 "myset.ml" 238 6087 6128
+type(
+  key -> Ordering.t
+)
+"myset.ml" 238 6087 6105 "myset.ml" 238 6087 6128
+type(
+  key -> key -> Ordering.t
+)
+"myset.ml" 239 6129 6139 "myset.ml" 239 6129 6152
+type(
+  key -> string
+)
+ident(
+  def string_of_key "myset.ml" 240 6174 6180 "myset.ml" 248 6482 6487
+)
+"myset.ml" 239 6129 6153 "myset.ml" 239 6129 6154
+type(
+  key
+)
+ident(
+  def k "myset.ml" 239 6129 6157 "myset.ml" 239 6129 6172
+)
+"myset.ml" 239 6129 6157 "myset.ml" 239 6129 6170
+type(
+  key -> string
+)
+ident(
+  int_ref C.string_of_t "myset.ml" 59 1411 1413 "myset.ml" 59 1411 1442
+)
+"myset.ml" 239 6129 6171 "myset.ml" 239 6129 6172
+type(
+  key
+)
+ident(
+  int_ref k "myset.ml" 239 6129 6153 "myset.ml" 239 6129 6154
+)
+"myset.ml" 239 6129 6157 "myset.ml" 239 6129 6172
+call(
+  tail
+)
+type(
+  string
+)
+"myset.ml" 239 6129 6153 "myset.ml" 239 6129 6172
+type(
+  key -> string
+)
+"myset.ml" 240 6174 6184 "myset.ml" 240 6174 6199
+type(
+  'a -> string
+)
+ident(
+  def string_of_value "myset.ml" 241 6209 6215 "myset.ml" 248 6482 6487
+)
+"myset.ml" 240 6174 6200 "myset.ml" 240 6174 6201
+type(
+  'a
+)
+"myset.ml" 240 6174 6204 "myset.ml" 240 6174 6208
+type(
+  string
+)
+"myset.ml" 240 6174 6200 "myset.ml" 240 6174 6208
+type(
+  'a -> string
+)
+"myset.ml" 241 6209 6219 "myset.ml" 241 6209 6226
+type(
+  value -> key
+)
+ident(
+  def gen_key "myset.ml" 242 6242 6248 "myset.ml" 248 6482 6487
+)
+"myset.ml" 241 6209 6227 "myset.ml" 241 6209 6229
+type(
+  value
+)
+"myset.ml" 241 6209 6232 "myset.ml" 241 6209 6237
+type(
+  value -> key
+)
+ident(
+  int_ref C.gen "myset.ml" 65 1590 1592 "myset.ml" 65 1590 1611
+)
+"myset.ml" 241 6209 6238 "myset.ml" 241 6209 6240
+type(
+  value
+)
+"myset.ml" 241 6209 6232 "myset.ml" 241 6209 6240
+call(
+  tail
+)
+type(
+  key
+)
+"myset.ml" 241 6209 6227 "myset.ml" 241 6209 6240
+type(
+  value -> key
+)
+"myset.ml" 242 6242 6252 "myset.ml" 242 6242 6266
+type(
+  value -> key
+)
+ident(
+  def gen_key_random "myset.ml" 243 6288 6294 "myset.ml" 248 6482 6487
+)
+"myset.ml" 242 6242 6267 "myset.ml" 242 6242 6269
+type(
+  value
+)
+"myset.ml" 242 6242 6271 "myset.ml" 242 6242 6283
+type(
+  value -> key
+)
+ident(
+  int_ref C.gen_random "myset.ml" 68 1656 1658 "myset.ml" 68 1656 1684
+)
+"myset.ml" 242 6242 6284 "myset.ml" 242 6242 6286
+type(
+  value
+)
+"myset.ml" 242 6242 6271 "myset.ml" 242 6242 6286
+call(
+  tail
+)
+type(
+  key
+)
+"myset.ml" 242 6242 6267 "myset.ml" 242 6242 6286
+type(
+  value -> key
+)
+"myset.ml" 243 6288 6298 "myset.ml" 243 6288 6308
+type(
+  key -> value -> key
+)
+ident(
+  def gen_key_gt "myset.ml" 244 6324 6330 "myset.ml" 248 6482 6487
+)
+"myset.ml" 243 6288 6309 "myset.ml" 243 6288 6310
+type(
+  key
+)
+ident(
+  def k "myset.ml" 243 6288 6313 "myset.ml" 243 6288 6323
+)
+"myset.ml" 243 6288 6313 "myset.ml" 243 6288 6321
+type(
+  key -> value -> key
+)
+ident(
+  int_ref C.gen_gt "myset.ml" 71 1734 1736 "myset.ml" 71 1734 1763
+)
+"myset.ml" 243 6288 6322 "myset.ml" 243 6288 6323
+type(
+  key
+)
+ident(
+  int_ref k "myset.ml" 243 6288 6309 "myset.ml" 243 6288 6310
+)
+"myset.ml" 243 6288 6313 "myset.ml" 243 6288 6323
+call(
+  tail
+)
+type(
+  value -> key
+)
+"myset.ml" 243 6288 6309 "myset.ml" 243 6288 6323
+type(
+  key -> value -> key
+)
+"myset.ml" 244 6324 6334 "myset.ml" 244 6324 6344
+type(
+  key -> value -> key
+)
+ident(
+  def gen_key_lt "myset.ml" 245 6360 6366 "myset.ml" 248 6482 6487
+)
+"myset.ml" 244 6324 6345 "myset.ml" 244 6324 6346
+type(
+  key
+)
+ident(
+  def k "myset.ml" 244 6324 6349 "myset.ml" 244 6324 6359
+)
+"myset.ml" 244 6324 6349 "myset.ml" 244 6324 6357
+type(
+  key -> value -> key
+)
+ident(
+  int_ref C.gen_lt "myset.ml" 74 1810 1812 "myset.ml" 74 1810 1839
+)
+"myset.ml" 244 6324 6358 "myset.ml" 244 6324 6359
+type(
+  key
+)
+ident(
+  int_ref k "myset.ml" 244 6324 6345 "myset.ml" 244 6324 6346
+)
+"myset.ml" 244 6324 6349 "myset.ml" 244 6324 6359
+call(
+  tail
+)
+type(
+  value -> key
+)
+"myset.ml" 244 6324 6345 "myset.ml" 244 6324 6359
+type(
+  key -> value -> key
+)
+"myset.ml" 245 6360 6370 "myset.ml" 245 6360 6379
+type(
+  value -> value
+)
+ident(
+  def gen_value "myset.ml" 246 6388 6394 "myset.ml" 248 6482 6487
+)
+"myset.ml" 245 6360 6380 "myset.ml" 245 6360 6382
+type(
+  value
+)
+"myset.ml" 245 6360 6385 "myset.ml" 245 6360 6387
+type(
+  value
+)
+"myset.ml" 245 6360 6380 "myset.ml" 245 6360 6387
+type(
+  value -> value
+)
+"myset.ml" 246 6388 6398 "myset.ml" 246 6388 6406
+type(
+  value -> key * value
+)
+ident(
+  def gen_pair "myset.ml" 247 6428 6434 "myset.ml" 248 6482 6487
+)
+"myset.ml" 246 6388 6407 "myset.ml" 246 6388 6409
+type(
+  value
+)
+"myset.ml" 246 6388 6413 "myset.ml" 246 6388 6418
+type(
+  value -> key
+)
+ident(
+  int_ref C.gen "myset.ml" 65 1590 1592 "myset.ml" 65 1590 1611
+)
+"myset.ml" 246 6388 6419 "myset.ml" 246 6388 6421
+type(
+  value
+)
+"myset.ml" 246 6388 6413 "myset.ml" 246 6388 6421
+call(
+  stack
+)
+type(
+  key
+)
+"myset.ml" 246 6388 6423 "myset.ml" 246 6388 6425
+type(
+  value
+)
+"myset.ml" 246 6388 6413 "myset.ml" 246 6388 6425
+type(
+  key * value
+)
+"myset.ml" 246 6388 6407 "myset.ml" 246 6388 6426
+type(
+  value -> key * value
+)
+"myset.ml" 247 6428 6438 "myset.ml" 247 6428 6453
+type(
+  key -> key -> value -> key option
+)
+ident(
+  def gen_key_between "myset.ml" 247 6428 6481 "myset.ml" 248 6482 6487
+)
+"myset.ml" 247 6428 6454 "myset.ml" 247 6428 6456
+type(
+  key
+)
+ident(
+  def k1 "myset.ml" 247 6428 6457 "myset.ml" 247 6428 6481
+)
+"myset.ml" 247 6428 6457 "myset.ml" 247 6428 6459
+type(
+  key
+)
+ident(
+  def k2 "myset.ml" 247 6428 6462 "myset.ml" 247 6428 6481
+)
+"myset.ml" 247 6428 6462 "myset.ml" 247 6428 6475
+type(
+  key -> key -> value -> key option
+)
+ident(
+  int_ref C.gen_between "myset.ml" 78 1927 1929 "myset.ml" 78 1927 1973
+)
+"myset.ml" 247 6428 6476 "myset.ml" 247 6428 6478
+type(
+  key
+)
+ident(
+  int_ref k1 "myset.ml" 247 6428 6454 "myset.ml" 247 6428 6456
+)
+"myset.ml" 247 6428 6479 "myset.ml" 247 6428 6481
+type(
+  key
+)
+ident(
+  int_ref k2 "myset.ml" 247 6428 6457 "myset.ml" 247 6428 6459
+)
+"myset.ml" 247 6428 6462 "myset.ml" 247 6428 6481
+call(
+  tail
+)
+type(
+  value -> key option
+)
+"myset.ml" 247 6428 6457 "myset.ml" 247 6428 6481
+type(
+  key -> value -> key option
+)
+"myset.ml" 247 6428 6454 "myset.ml" 247 6428 6481
+type(
+  key -> key -> value -> key option
+)
+"myset.ml" 234 6007 6020 "myset.ml" 248 6482 6488
+call(
+  stack
+)
+"myset.ml" 257 6634 6640 "myset.ml" 257 6634 6645
+type(
+  set
+)
+ident(
+  def empty "myset.ml" 260 6698 6700 "myset.ml" 379 10471 10474
+)
+"myset.ml" 257 6634 6648 "myset.ml" 257 6634 6655
+type(
+  set
+)
+ident(
+  ext_ref D.empty
+)
+"myset.ml" 260 6698 6704 "myset.ml" 260 6698 6712
+type(
+  set -> bool
+)
+ident(
+  def is_empty "myset.ml" 263 6788 6790 "myset.ml" 379 10471 10474
+)
+"myset.ml" 260 6698 6714 "myset.ml" 260 6698 6715
+type(
+  set
+)
+ident(
+  def s "myset.ml" 260 6698 6723 "myset.ml" 260 6698 6743
+)
+"myset.ml" 260 6698 6733 "myset.ml" 260 6698 6734
+type(
+  set
+)
+ident(
+  int_ref s "myset.ml" 260 6698 6714 "myset.ml" 260 6698 6715
+)
+"myset.ml" 260 6698 6735 "myset.ml" 260 6698 6736
+type(
+  set -> set -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"myset.ml" 260 6698 6737 "myset.ml" 260 6698 6742
+type(
+  set
+)
+ident(
+  int_ref empty "myset.ml" 257 6634 6640 "myset.ml" 257 6634 6645
+)
+"myset.ml" 260 6698 6733 "myset.ml" 260 6698 6742
+type(
+  bool
+)
+type(
+  bool
+)
+"myset.ml" 260 6698 6713 "myset.ml" 260 6698 6743
+type(
+  set -> bool
+)
+"myset.ml" 263 6788 6794 "myset.ml" 263 6788 6800
+type(
+  elt -> set -> set
+)
+ident(
+  def insert "myset.ml" 266 6895 6897 "myset.ml" 379 10471 10474
+)
+"myset.ml" 263 6788 6804 "myset.ml" 263 6788 6805
+type(
+  elt
+)
+ident(
+  def k "myset.ml" 263 6788 6814 "myset.ml" 263 6788 6847
+)
+"myset.ml" 263 6788 6815 "myset.ml" 263 6788 6816
+type(
+  set
+)
+ident(
+  def d "myset.ml" 263 6788 6823 "myset.ml" 263 6788 6847
+)
+"myset.ml" 263 6788 6832 "myset.ml" 263 6788 6840
+type(
+  set -> elt -> unit -> set
+)
+ident(
+  ext_ref D.insert
+)
+"myset.ml" 263 6788 6841 "myset.ml" 263 6788 6842
+type(
+  set
+)
+ident(
+  int_ref d "myset.ml" 263 6788 6815 "myset.ml" 263 6788 6816
+)
+"myset.ml" 263 6788 6843 "myset.ml" 263 6788 6844
+type(
+  elt
+)
+ident(
+  int_ref k "myset.ml" 263 6788 6804 "myset.ml" 263 6788 6805
+)
+"myset.ml" 263 6788 6845 "myset.ml" 263 6788 6847
+type(
+  unit
+)
+"myset.ml" 263 6788 6832 "myset.ml" 263 6788 6847
+call(
+  tail
+)
+type(
+  set
+)
+type(
+  set
+)
+"myset.ml" 263 6788 6814 "myset.ml" 263 6788 6847
+type(
+  set -> set
+)
+"myset.ml" 263 6788 6803 "myset.ml" 263 6788 6847
+type(
+  elt -> set -> set
+)
+"myset.ml" 266 6895 6901 "myset.ml" 266 6895 6910
+type(
+  elt -> set
+)
+ident(
+  def singleton "myset.ml" 269 7033 7035 "myset.ml" 379 10471 10474
+)
+"myset.ml" 266 6895 6912 "myset.ml" 266 6895 6916
+type(
+  elt
+)
+ident(
+  def elem "myset.ml" 266 6895 6925 "myset.ml" 266 6895 6957
+)
+"myset.ml" 266 6895 6933 "myset.ml" 266 6895 6941
+type(
+  set -> elt -> unit -> set
+)
+ident(
+  ext_ref D.insert
+)
+"myset.ml" 266 6895 6942 "myset.ml" 266 6895 6949
+type(
+  set
+)
+ident(
+  ext_ref D.empty
+)
+"myset.ml" 266 6895 6950 "myset.ml" 266 6895 6954
+type(
+  elt
+)
+ident(
+  int_ref elem "myset.ml" 266 6895 6912 "myset.ml" 266 6895 6916
+)
+"myset.ml" 266 6895 6955 "myset.ml" 266 6895 6957
+type(
+  unit
+)
+"myset.ml" 266 6895 6933 "myset.ml" 266 6895 6957
+call(
+  tail
+)
+type(
+  set
+)
+type(
+  set
+)
+"myset.ml" 266 6895 6911 "myset.ml" 266 6895 6957
+type(
+  elt -> set
+)
+"myset.ml" 269 7033 7043 "myset.ml" 269 7033 7048
+type(
+  set -> set -> set
+)
+ident(
+  def union "myset.ml" 269 7033 7035 "myset.ml" 379 10471 10474
+)
+"myset.ml" 269 7033 7050 "myset.ml" 269 7033 7052
+type(
+  set
+)
+ident(
+  def d1 "myset.ml" 269 7033 7060 "myset.ml" 272 7124 7185
+)
+"myset.ml" 269 7033 7061 "myset.ml" 269 7033 7063
+type(
+  set
+)
+ident(
+  def d2 "myset.ml" 269 7033 7071 "myset.ml" 272 7124 7185
+)
+"myset.ml" 270 7080 7090 "myset.ml" 270 7080 7098
+type(
+  set -> (elt * unit * set) option
+)
+ident(
+  ext_ref D.choose
+)
+"myset.ml" 270 7080 7099 "myset.ml" 270 7080 7101
+type(
+  set
+)
+ident(
+  int_ref d1 "myset.ml" 269 7033 7050 "myset.ml" 269 7033 7052
+)
+"myset.ml" 270 7080 7090 "myset.ml" 270 7080 7101
+call(
+  stack
+)
+type(
+  (elt * unit * set) option
+)
+"myset.ml" 271 7107 7113 "myset.ml" 271 7107 7117
+type(
+  (elt * unit * set) option
+)
+"myset.ml" 271 7107 7121 "myset.ml" 271 7107 7123
+type(
+  set
+)
+ident(
+  int_ref d2 "myset.ml" 269 7033 7061 "myset.ml" 269 7033 7063
+)
+"myset.ml" 272 7124 7136 "myset.ml" 272 7124 7140
+type(
+  elt
+)
+ident(
+  def elem "myset.ml" 272 7124 7154 "myset.ml" 272 7124 7185
+)
+"myset.ml" 272 7124 7142 "myset.ml" 272 7124 7144
+type(
+  unit
+)
+"myset.ml" 272 7124 7146 "myset.ml" 272 7124 7149
+type(
+  set
+)
+ident(
+  def d1' "myset.ml" 272 7124 7154 "myset.ml" 272 7124 7185
+)
+"myset.ml" 272 7124 7130 "myset.ml" 272 7124 7150
+type(
+  (elt * unit * set) option
+)
+type(
+  elt * unit * set
+)
+"myset.ml" 272 7124 7154 "myset.ml" 272 7124 7159
+type(
+  set -> set -> set
+)
+ident(
+  int_ref union "myset.ml" 269 7033 7043 "myset.ml" 269 7033 7048
+)
+"myset.ml" 272 7124 7160 "myset.ml" 272 7124 7163
+type(
+  set
+)
+ident(
+  int_ref d1' "myset.ml" 272 7124 7146 "myset.ml" 272 7124 7149
+)
+"myset.ml" 272 7124 7165 "myset.ml" 272 7124 7173
+type(
+  set -> elt -> unit -> set
+)
+ident(
+  ext_ref D.insert
+)
+"myset.ml" 272 7124 7174 "myset.ml" 272 7124 7176
+type(
+  set
+)
+ident(
+  int_ref d2 "myset.ml" 269 7033 7061 "myset.ml" 269 7033 7063
+)
+"myset.ml" 272 7124 7177 "myset.ml" 272 7124 7181
+type(
+  elt
+)
+ident(
+  int_ref elem "myset.ml" 272 7124 7136 "myset.ml" 272 7124 7140
+)
+"myset.ml" 272 7124 7182 "myset.ml" 272 7124 7184
+type(
+  unit
+)
+"myset.ml" 272 7124 7165 "myset.ml" 272 7124 7184
+call(
+  stack
+)
+type(
+  set
+)
+"myset.ml" 272 7124 7154 "myset.ml" 272 7124 7185
+call(
+  tail
+)
+type(
+  set
+)
+"myset.ml" 270 7080 7084 "myset.ml" 272 7124 7185
+type(
+  set
+)
+type(
+  set
+)
+"myset.ml" 269 7033 7060 "myset.ml" 272 7124 7185
+type(
+  set -> set
+)
+"myset.ml" 269 7033 7049 "myset.ml" 272 7124 7185
+type(
+  set -> set -> set
+)
+"myset.ml" 275 7251 7257 "myset.ml" 275 7251 7263
+type(
+  set -> elt -> bool
+)
+ident(
+  def member "myset.ml" 278 7393 7395 "myset.ml" 379 10471 10474
+)
+"myset.ml" 275 7251 7265 "myset.ml" 275 7251 7266
+type(
+  set
+)
+ident(
+  def d "myset.ml" 275 7251 7274 "myset.ml" 275 7251 7311
+)
+"myset.ml" 275 7251 7275 "myset.ml" 275 7251 7279
+type(
+  elt
+)
+ident(
+  def elem "myset.ml" 275 7251 7287 "myset.ml" 275 7251 7311
+)
+"myset.ml" 275 7251 7296 "myset.ml" 275 7251 7304
+type(
+  set -> elt -> bool
+)
+ident(
+  ext_ref D.member
+)
+"myset.ml" 275 7251 7305 "myset.ml" 275 7251 7306
+type(
+  set
+)
+ident(
+  int_ref d "myset.ml" 275 7251 7265 "myset.ml" 275 7251 7266
+)
+"myset.ml" 275 7251 7307 "myset.ml" 275 7251 7311
+type(
+  elt
+)
+ident(
+  int_ref elem "myset.ml" 275 7251 7275 "myset.ml" 275 7251 7279
+)
+"myset.ml" 275 7251 7296 "myset.ml" 275 7251 7311
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"myset.ml" 275 7251 7274 "myset.ml" 275 7251 7311
+type(
+  elt -> bool
+)
+"myset.ml" 275 7251 7264 "myset.ml" 275 7251 7311
+type(
+  set -> elt -> bool
+)
+"myset.ml" 278 7393 7403 "myset.ml" 278 7393 7412
+type(
+  set -> set -> set
+)
+ident(
+  def intersect "myset.ml" 278 7393 7395 "myset.ml" 379 10471 10474
+)
+"myset.ml" 278 7393 7414 "myset.ml" 278 7393 7416
+type(
+  set
+)
+ident(
+  def d1 "myset.ml" 278 7393 7424 "myset.ml" 283 7590 7622
+)
+"myset.ml" 278 7393 7425 "myset.ml" 278 7393 7427
+type(
+  set
+)
+ident(
+  def d2 "myset.ml" 278 7393 7435 "myset.ml" 283 7590 7622
+)
+"myset.ml" 279 7443 7453 "myset.ml" 279 7443 7461
+type(
+  set -> (elt * unit * set) option
+)
+ident(
+  ext_ref D.choose
+)
+"myset.ml" 279 7443 7462 "myset.ml" 279 7443 7464
+type(
+  set
+)
+ident(
+  int_ref d1 "myset.ml" 278 7393 7414 "myset.ml" 278 7393 7416
+)
+"myset.ml" 279 7443 7453 "myset.ml" 279 7443 7464
+call(
+  stack
+)
+type(
+  (elt * unit * set) option
+)
+"myset.ml" 280 7470 7476 "myset.ml" 280 7470 7480
+type(
+  (elt * unit * set) option
+)
+"myset.ml" 280 7470 7484 "myset.ml" 280 7470 7489
+type(
+  set
+)
+ident(
+  int_ref empty "myset.ml" 257 6634 6640 "myset.ml" 257 6634 6645
+)
+"myset.ml" 281 7490 7502 "myset.ml" 281 7490 7506
+type(
+  elt
+)
+ident(
+  def elem "myset.ml" 282 7524 7530 "myset.ml" 283 7590 7622
+)
+"myset.ml" 281 7490 7508 "myset.ml" 281 7490 7510
+type(
+  unit
+)
+"myset.ml" 281 7490 7512 "myset.ml" 281 7490 7518
+type(
+  set
+)
+ident(
+  def nextd1 "myset.ml" 282 7524 7530 "myset.ml" 283 7590 7622
+)
+"myset.ml" 281 7490 7496 "myset.ml" 281 7490 7519
+type(
+  (elt * unit * set) option
+)
+type(
+  elt * unit * set
+)
+"myset.ml" 282 7524 7534 "myset.ml" 282 7524 7540
+type(
+  set -> elt -> bool
+)
+ident(
+  int_ref member "myset.ml" 275 7251 7257 "myset.ml" 275 7251 7263
+)
+"myset.ml" 282 7524 7541 "myset.ml" 282 7524 7543
+type(
+  set
+)
+ident(
+  int_ref d2 "myset.ml" 278 7393 7425 "myset.ml" 278 7393 7427
+)
+"myset.ml" 282 7524 7544 "myset.ml" 282 7524 7548
+type(
+  elt
+)
+ident(
+  int_ref elem "myset.ml" 281 7490 7502 "myset.ml" 281 7490 7506
+)
+"myset.ml" 282 7524 7534 "myset.ml" 282 7524 7548
+call(
+  stack
+)
+type(
+  bool
+)
+"myset.ml" 282 7524 7555 "myset.ml" 282 7524 7561
+type(
+  elt -> set -> set
+)
+ident(
+  int_ref insert "myset.ml" 263 6788 6794 "myset.ml" 263 6788 6800
+)
+"myset.ml" 282 7524 7562 "myset.ml" 282 7524 7566
+type(
+  elt
+)
+ident(
+  int_ref elem "myset.ml" 281 7490 7502 "myset.ml" 281 7490 7506
+)
+"myset.ml" 282 7524 7568 "myset.ml" 282 7524 7577
+type(
+  set -> set -> set
+)
+ident(
+  int_ref intersect "myset.ml" 278 7393 7403 "myset.ml" 278 7393 7412
+)
+"myset.ml" 282 7524 7578 "myset.ml" 282 7524 7584
+type(
+  set
+)
+ident(
+  int_ref nextd1 "myset.ml" 281 7490 7512 "myset.ml" 281 7490 7518
+)
+"myset.ml" 282 7524 7585 "myset.ml" 282 7524 7587
+type(
+  set
+)
+ident(
+  int_ref d2 "myset.ml" 278 7393 7425 "myset.ml" 278 7393 7427
+)
+"myset.ml" 282 7524 7568 "myset.ml" 282 7524 7587
+call(
+  stack
+)
+type(
+  set
+)
+"myset.ml" 282 7524 7555 "myset.ml" 282 7524 7588
+call(
+  tail
+)
+type(
+  set
+)
+"myset.ml" 283 7590 7602 "myset.ml" 283 7590 7611
+type(
+  set -> set -> set
+)
+ident(
+  int_ref intersect "myset.ml" 278 7393 7403 "myset.ml" 278 7393 7412
+)
+"myset.ml" 283 7590 7612 "myset.ml" 283 7590 7618
+type(
+  set
+)
+ident(
+  int_ref nextd1 "myset.ml" 281 7490 7512 "myset.ml" 281 7490 7518
+)
+"myset.ml" 283 7590 7619 "myset.ml" 283 7590 7621
+type(
+  set
+)
+ident(
+  int_ref d2 "myset.ml" 278 7393 7425 "myset.ml" 278 7393 7427
+)
+"myset.ml" 283 7590 7602 "myset.ml" 283 7590 7621
+call(
+  tail
+)
+type(
+  set
+)
+"myset.ml" 282 7524 7530 "myset.ml" 283 7590 7622
+type(
+  set
+)
+"myset.ml" 279 7443 7447 "myset.ml" 283 7590 7622
+type(
+  set
+)
+type(
+  set
+)
+"myset.ml" 278 7393 7424 "myset.ml" 283 7590 7622
+type(
+  set -> set
+)
+"myset.ml" 278 7393 7413 "myset.ml" 283 7590 7622
+type(
+  set -> set -> set
+)
+"myset.ml" 287 7719 7725 "myset.ml" 287 7719 7731
+type(
+  elt -> set -> set
+)
+ident(
+  def remove "myset.ml" 291 7882 7884 "myset.ml" 379 10471 10474
+)
+"myset.ml" 287 7719 7734 "myset.ml" 287 7719 7738
+type(
+  elt
+)
+ident(
+  def elem "myset.ml" 287 7719 7746 "myset.ml" 287 7719 7779
+)
+"myset.ml" 287 7719 7747 "myset.ml" 287 7719 7748
+type(
+  set
+)
+ident(
+  def d "myset.ml" 287 7719 7756 "myset.ml" 287 7719 7779
+)
+"myset.ml" 287 7719 7764 "myset.ml" 287 7719 7772
+type(
+  set -> elt -> set
+)
+ident(
+  ext_ref D.remove
+)
+"myset.ml" 287 7719 7773 "myset.ml" 287 7719 7774
+type(
+  set
+)
+ident(
+  int_ref d "myset.ml" 287 7719 7747 "myset.ml" 287 7719 7748
+)
+"myset.ml" 287 7719 7775 "myset.ml" 287 7719 7779
+type(
+  elt
+)
+ident(
+  int_ref elem "myset.ml" 287 7719 7734 "myset.ml" 287 7719 7738
+)
+"myset.ml" 287 7719 7764 "myset.ml" 287 7719 7779
+call(
+  tail
+)
+type(
+  set
+)
+type(
+  set
+)
+"myset.ml" 287 7719 7746 "myset.ml" 287 7719 7779
+type(
+  set -> set
+)
+"myset.ml" 287 7719 7733 "myset.ml" 287 7719 7779
+type(
+  elt -> set -> set
+)
+"myset.ml" 291 7882 7888 "myset.ml" 291 7882 7894
+type(
+  set -> (elt * set) option
+)
+ident(
+  def choose "myset.ml" 299 8129 8131 "myset.ml" 379 10471 10474
+)
+"myset.ml" 291 7882 7896 "myset.ml" 291 7882 7897
+type(
+  set
+)
+ident(
+  def d "myset.ml" 291 7882 7905 "myset.ml" 294 7971 8015
+)
+"myset.ml" 292 7929 7937 "myset.ml" 292 7929 7945
+type(
+  set -> (elt * unit * set) option
+)
+ident(
+  ext_ref D.choose
+)
+"myset.ml" 292 7929 7946 "myset.ml" 292 7929 7947
+type(
+  set
+)
+ident(
+  int_ref d "myset.ml" 291 7882 7896 "myset.ml" 291 7882 7897
+)
+"myset.ml" 292 7929 7937 "myset.ml" 292 7929 7947
+call(
+  stack
+)
+type(
+  (elt * unit * set) option
+)
+"myset.ml" 293 7954 7958 "myset.ml" 293 7954 7962
+type(
+  (elt * unit * set) option
+)
+"myset.ml" 293 7954 7966 "myset.ml" 293 7954 7970
+type(
+  (elt * set) option
+)
+"myset.ml" 294 7971 7981 "myset.ml" 294 7971 7985
+type(
+  elt
+)
+ident(
+  def elem "myset.ml" 294 7971 7999 "myset.ml" 294 7971 8015
+)
+"myset.ml" 294 7971 7987 "myset.ml" 294 7971 7989
+type(
+  unit
+)
+"myset.ml" 294 7971 7991 "myset.ml" 294 7971 7994
+type(
+  set
+)
+ident(
+  def d1' "myset.ml" 294 7971 7999 "myset.ml" 294 7971 8015
+)
+"myset.ml" 294 7971 7975 "myset.ml" 294 7971 7995
+type(
+  (elt * unit * set) option
+)
+type(
+  elt * unit * set
+)
+"myset.ml" 294 7971 8005 "myset.ml" 294 7971 8009
+type(
+  elt
+)
+ident(
+  int_ref elem "myset.ml" 294 7971 7981 "myset.ml" 294 7971 7985
+)
+"myset.ml" 294 7971 8011 "myset.ml" 294 7971 8014
+type(
+  set
+)
+ident(
+  int_ref d1' "myset.ml" 294 7971 7991 "myset.ml" 294 7971 7994
+)
+"myset.ml" 294 7971 7999 "myset.ml" 294 7971 8015
+type(
+  elt * set
+)
+type(
+  (elt * set) option
+)
+"myset.ml" 292 7929 7931 "myset.ml" 294 7971 8015
+type(
+  (elt * set) option
+)
+type(
+  (elt * set) option
+)
+"myset.ml" 291 7882 7895 "myset.ml" 294 7971 8015
+type(
+  set -> (elt * set) option
+)
+"myset.ml" 299 8129 8139 "myset.ml" 299 8129 8143
+type(
+  (elt -> 'b -> 'b) -> 'b -> set -> 'b
+)
+ident(
+  def fold "myset.ml" 299 8129 8131 "myset.ml" 379 10471 10474
+)
+"myset.ml" 299 8129 8144 "myset.ml" 299 8129 8145
+type(
+  elt -> 'b -> 'b
+)
+ident(
+  def f "myset.ml" 299 8129 8146 "myset.ml" 302 8200 8246
+)
+"myset.ml" 299 8129 8146 "myset.ml" 299 8129 8150
+type(
+  'b
+)
+ident(
+  def init "myset.ml" 299 8129 8151 "myset.ml" 302 8200 8246
+)
+"myset.ml" 299 8129 8151 "myset.ml" 299 8129 8152
+type(
+  set
+)
+ident(
+  def d "myset.ml" 300 8157 8161 "myset.ml" 302 8200 8246
+)
+"myset.ml" 300 8157 8167 "myset.ml" 300 8157 8173
+type(
+  set -> (elt * set) option
+)
+ident(
+  int_ref choose "myset.ml" 291 7882 7888 "myset.ml" 291 7882 7894
+)
+"myset.ml" 300 8157 8174 "myset.ml" 300 8157 8175
+type(
+  set
+)
+ident(
+  int_ref d "myset.ml" 299 8129 8151 "myset.ml" 299 8129 8152
+)
+"myset.ml" 300 8157 8167 "myset.ml" 300 8157 8175
+call(
+  stack
+)
+type(
+  (elt * set) option
+)
+"myset.ml" 301 8181 8187 "myset.ml" 301 8181 8191
+type(
+  (elt * set) option
+)
+"myset.ml" 301 8181 8195 "myset.ml" 301 8181 8199
+type(
+  'b
+)
+ident(
+  int_ref init "myset.ml" 299 8129 8146 "myset.ml" 299 8129 8150
+)
+"myset.ml" 302 8200 8212 "myset.ml" 302 8200 8215
+type(
+  elt
+)
+ident(
+  def ele "myset.ml" 302 8200 8224 "myset.ml" 302 8200 8246
+)
+"myset.ml" 302 8200 8217 "myset.ml" 302 8200 8219
+type(
+  set
+)
+ident(
+  def d1 "myset.ml" 302 8200 8224 "myset.ml" 302 8200 8246
+)
+"myset.ml" 302 8200 8206 "myset.ml" 302 8200 8220
+type(
+  (elt * set) option
+)
+type(
+  elt * set
+)
+"myset.ml" 302 8200 8224 "myset.ml" 302 8200 8225
+type(
+  elt -> 'b -> 'b
+)
+ident(
+  int_ref f "myset.ml" 299 8129 8144 "myset.ml" 299 8129 8145
+)
+"myset.ml" 302 8200 8226 "myset.ml" 302 8200 8229
+type(
+  elt
+)
+ident(
+  int_ref ele "myset.ml" 302 8200 8212 "myset.ml" 302 8200 8215
+)
+"myset.ml" 302 8200 8231 "myset.ml" 302 8200 8235
+type(
+  (elt -> 'b -> 'b) -> 'b -> set -> 'b
+)
+ident(
+  int_ref fold "myset.ml" 299 8129 8139 "myset.ml" 299 8129 8143
+)
+"myset.ml" 302 8200 8236 "myset.ml" 302 8200 8237
+type(
+  elt -> 'b -> 'b
+)
+ident(
+  int_ref f "myset.ml" 299 8129 8144 "myset.ml" 299 8129 8145
+)
+"myset.ml" 302 8200 8238 "myset.ml" 302 8200 8242
+type(
+  'b
+)
+ident(
+  int_ref init "myset.ml" 299 8129 8146 "myset.ml" 299 8129 8150
+)
+"myset.ml" 302 8200 8243 "myset.ml" 302 8200 8245
+type(
+  set
+)
+ident(
+  int_ref d1 "myset.ml" 302 8200 8217 "myset.ml" 302 8200 8219
+)
+"myset.ml" 302 8200 8231 "myset.ml" 302 8200 8245
+call(
+  stack
+)
+type(
+  'b
+)
+"myset.ml" 302 8200 8224 "myset.ml" 302 8200 8246
+call(
+  tail
+)
+type(
+  'b
+)
+"myset.ml" 300 8157 8161 "myset.ml" 302 8200 8246
+type(
+  'b
+)
+"myset.ml" 299 8129 8151 "myset.ml" 302 8200 8246
+type(
+  set -> 'b
+)
+"myset.ml" 299 8129 8146 "myset.ml" 302 8200 8246
+type(
+  'b -> set -> 'b
+)
+"myset.ml" 299 8129 8144 "myset.ml" 302 8200 8246
+type(
+  (elt -> 'b -> 'b) -> 'b -> set -> 'b
+)
+"myset.ml" 308 8366 8372 "myset.ml" 308 8366 8385
+type(
+  elt -> string
+)
+ident(
+  def string_of_elt "myset.ml" 309 8404 8406 "myset.ml" 379 10471 10474
+)
+"myset.ml" 308 8366 8388 "myset.ml" 308 8366 8403
+type(
+  elt -> string
+)
+ident(
+  ext_ref D.string_of_key
+)
+"myset.ml" 309 8404 8410 "myset.ml" 309 8404 8423
+type(
+  set -> string
+)
+ident(
+  def string_of_set "myset.ml" 319 8903 8906 "myset.ml" 379 10471 10474
+)
+"myset.ml" 309 8404 8424 "myset.ml" 309 8404 8425
+type(
+  set
+)
+ident(
+  def s "myset.ml" 309 8404 8428 "myset.ml" 309 8404 8446
+)
+"myset.ml" 309 8404 8428 "myset.ml" 309 8404 8444
+type(
+  set -> string
+)
+ident(
+  ext_ref D.string_of_dict
+)
+"myset.ml" 309 8404 8445 "myset.ml" 309 8404 8446
+type(
+  set
+)
+ident(
+  int_ref s "myset.ml" 309 8404 8424 "myset.ml" 309 8404 8425
+)
+"myset.ml" 309 8404 8428 "myset.ml" 309 8404 8446
+call(
+  tail
+)
+type(
+  string
+)
+"myset.ml" 309 8404 8424 "myset.ml" 309 8404 8446
+type(
+  set -> string
+)
+"myset.ml" 319 8903 8910 "myset.ml" 319 8903 8914
+type(
+  elt
+)
+ident(
+  def key1 "myset.ml" 320 8927 8930 "myset.ml" 379 10471 10474
+)
+"myset.ml" 319 8903 8917 "myset.ml" 319 8903 8922
+type(
+  unit -> elt
+)
+ident(
+  int_ref C.gen "myset.ml" 65 1590 1592 "myset.ml" 65 1590 1611
+)
+"myset.ml" 319 8903 8923 "myset.ml" 319 8903 8925
+type(
+  unit
+)
+"myset.ml" 319 8903 8917 "myset.ml" 319 8903 8925
+call(
+  stack
+)
+type(
+  elt
+)
+"myset.ml" 320 8927 8934 "myset.ml" 320 8927 8938
+type(
+  elt
+)
+ident(
+  def key2 "myset.ml" 321 8958 8961 "myset.ml" 379 10471 10474
+)
+"myset.ml" 320 8927 8941 "myset.ml" 320 8927 8949
+type(
+  elt -> unit -> elt
+)
+ident(
+  int_ref C.gen_gt "myset.ml" 71 1734 1736 "myset.ml" 71 1734 1763
+)
+"myset.ml" 320 8927 8950 "myset.ml" 320 8927 8954
+type(
+  elt
+)
+ident(
+  int_ref key1 "myset.ml" 319 8903 8910 "myset.ml" 319 8903 8914
+)
+"myset.ml" 320 8927 8955 "myset.ml" 320 8927 8957
+type(
+  unit
+)
+"myset.ml" 320 8927 8941 "myset.ml" 320 8927 8957
+call(
+  stack
+)
+type(
+  elt
+)
+"myset.ml" 321 8958 8965 "myset.ml" 321 8958 8969
+type(
+  elt
+)
+ident(
+  def key3 "myset.ml" 322 8989 8992 "myset.ml" 379 10471 10474
+)
+"myset.ml" 321 8958 8972 "myset.ml" 321 8958 8980
+type(
+  elt -> unit -> elt
+)
+ident(
+  int_ref C.gen_gt "myset.ml" 71 1734 1736 "myset.ml" 71 1734 1763
+)
+"myset.ml" 321 8958 8981 "myset.ml" 321 8958 8985
+type(
+  elt
+)
+ident(
+  int_ref key2 "myset.ml" 320 8927 8934 "myset.ml" 320 8927 8938
+)
+"myset.ml" 321 8958 8986 "myset.ml" 321 8958 8988
+type(
+  unit
+)
+"myset.ml" 321 8958 8972 "myset.ml" 321 8958 8988
+call(
+  stack
+)
+type(
+  elt
+)
+"myset.ml" 322 8989 8996 "myset.ml" 322 8989 8998
+type(
+  set
+)
+ident(
+  def d1 "myset.ml" 323 9020 9023 "myset.ml" 379 10471 10474
+)
+"myset.ml" 322 8989 9001 "myset.ml" 322 8989 9007
+type(
+  elt -> set -> set
+)
+ident(
+  int_ref insert "myset.ml" 263 6788 6794 "myset.ml" 263 6788 6800
+)
+"myset.ml" 322 8989 9008 "myset.ml" 322 8989 9012
+type(
+  elt
+)
+ident(
+  int_ref key1 "myset.ml" 319 8903 8910 "myset.ml" 319 8903 8914
+)
+"myset.ml" 322 8989 9013 "myset.ml" 322 8989 9018
+type(
+  set
+)
+ident(
+  int_ref empty "myset.ml" 257 6634 6640 "myset.ml" 257 6634 6645
+)
+"myset.ml" 322 8989 9001 "myset.ml" 322 8989 9018
+call(
+  stack
+)
+type(
+  set
+)
+"myset.ml" 323 9020 9027 "myset.ml" 323 9020 9029
+type(
+  set
+)
+ident(
+  def d2 "myset.ml" 324 9047 9050 "myset.ml" 379 10471 10474
+)
+"myset.ml" 323 9020 9032 "myset.ml" 323 9020 9038
+type(
+  elt -> set -> set
+)
+ident(
+  int_ref insert "myset.ml" 263 6788 6794 "myset.ml" 263 6788 6800
+)
+"myset.ml" 323 9020 9039 "myset.ml" 323 9020 9043
+type(
+  elt
+)
+ident(
+  int_ref key2 "myset.ml" 320 8927 8934 "myset.ml" 320 8927 8938
+)
+"myset.ml" 323 9020 9044 "myset.ml" 323 9020 9046
+type(
+  set
+)
+ident(
+  int_ref d1 "myset.ml" 322 8989 8996 "myset.ml" 322 8989 8998
+)
+"myset.ml" 323 9020 9032 "myset.ml" 323 9020 9046
+call(
+  stack
+)
+type(
+  set
+)
+"myset.ml" 324 9047 9054 "myset.ml" 324 9047 9056
+type(
+  set
+)
+ident(
+  def d3 "myset.ml" 325 9074 9077 "myset.ml" 379 10471 10474
+)
+"myset.ml" 324 9047 9059 "myset.ml" 324 9047 9065
+type(
+  elt -> set -> set
+)
+ident(
+  int_ref insert "myset.ml" 263 6788 6794 "myset.ml" 263 6788 6800
+)
+"myset.ml" 324 9047 9066 "myset.ml" 324 9047 9070
+type(
+  elt
+)
+ident(
+  int_ref key3 "myset.ml" 321 8958 8965 "myset.ml" 321 8958 8969
+)
+"myset.ml" 324 9047 9071 "myset.ml" 324 9047 9073
+type(
+  set
+)
+ident(
+  int_ref d2 "myset.ml" 323 9020 9027 "myset.ml" 323 9020 9029
+)
+"myset.ml" 324 9047 9059 "myset.ml" 324 9047 9073
+call(
+  stack
+)
+type(
+  set
+)
+"myset.ml" 325 9074 9081 "myset.ml" 325 9074 9083
+type(
+  set
+)
+ident(
+  def d4 "myset.ml" 326 9104 9107 "myset.ml" 379 10471 10474
+)
+"myset.ml" 325 9074 9086 "myset.ml" 325 9074 9092
+type(
+  elt -> set -> set
+)
+ident(
+  int_ref insert "myset.ml" 263 6788 6794 "myset.ml" 263 6788 6800
+)
+"myset.ml" 325 9074 9093 "myset.ml" 325 9074 9097
+type(
+  elt
+)
+ident(
+  int_ref key3 "myset.ml" 321 8958 8965 "myset.ml" 321 8958 8969
+)
+"myset.ml" 325 9074 9098 "myset.ml" 325 9074 9103
+type(
+  set
+)
+ident(
+  int_ref empty "myset.ml" 257 6634 6640 "myset.ml" 257 6634 6645
+)
+"myset.ml" 325 9074 9086 "myset.ml" 325 9074 9103
+call(
+  stack
+)
+type(
+  set
+)
+"myset.ml" 326 9104 9111 "myset.ml" 326 9104 9113
+type(
+  set
+)
+ident(
+  def d5 "myset.ml" 329 9150 9153 "myset.ml" 379 10471 10474
+)
+"myset.ml" 326 9104 9116 "myset.ml" 326 9104 9122
+type(
+  elt -> set -> set
+)
+ident(
+  int_ref insert "myset.ml" 263 6788 6794 "myset.ml" 263 6788 6800
+)
+"myset.ml" 326 9104 9123 "myset.ml" 326 9104 9127
+type(
+  elt
+)
+ident(
+  int_ref key2 "myset.ml" 320 8927 8934 "myset.ml" 320 8927 8938
+)
+"myset.ml" 326 9104 9128 "myset.ml" 326 9104 9133
+type(
+  set
+)
+ident(
+  int_ref empty "myset.ml" 257 6634 6640 "myset.ml" 257 6634 6645
+)
+"myset.ml" 326 9104 9116 "myset.ml" 326 9104 9133
+call(
+  stack
+)
+type(
+  set
+)
+"myset.ml" 329 9150 9157 "myset.ml" 329 9150 9168
+type(
+  unit -> unit
+)
+ident(
+  def test_insert "myset.ml" 335 9291 9294 "myset.ml" 379 10471 10474
+)
+"myset.ml" 329 9150 9169 "myset.ml" 329 9150 9171
+type(
+  unit
+)
+"myset.ml" 330 9174 9187 "myset.ml" 330 9174 9193
+type(
+  elt -> set -> set
+)
+ident(
+  int_ref remove "myset.ml" 287 7719 7725 "myset.ml" 287 7719 7731
+)
+"myset.ml" 330 9174 9194 "myset.ml" 330 9174 9198
+type(
+  elt
+)
+ident(
+  int_ref key1 "myset.ml" 319 8903 8910 "myset.ml" 319 8903 8914
+)
+"myset.ml" 330 9174 9199 "myset.ml" 330 9174 9201
+type(
+  set
+)
+ident(
+  int_ref d1 "myset.ml" 322 8989 8996 "myset.ml" 322 8989 8998
+)
+"myset.ml" 330 9174 9187 "myset.ml" 330 9174 9201
+call(
+  stack
+)
+type(
+  set
+)
+"myset.ml" 330 9174 9202 "myset.ml" 330 9174 9203
+type(
+  set -> set -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"myset.ml" 330 9174 9204 "myset.ml" 330 9174 9209
+type(
+  set
+)
+ident(
+  int_ref empty "myset.ml" 257 6634 6640 "myset.ml" 257 6634 6645
+)
+"myset.ml" 330 9174 9187 "myset.ml" 330 9174 9209
+type(
+  bool
+)
+"myset.ml" 330 9174 9179 "myset.ml" 330 9174 9210
+type(
+  unit
+)
+"myset.ml" 331 9212 9225 "myset.ml" 331 9212 9231
+type(
+  elt -> set -> set
+)
+ident(
+  int_ref remove "myset.ml" 287 7719 7725 "myset.ml" 287 7719 7731
+)
+"myset.ml" 331 9212 9232 "myset.ml" 331 9212 9236
+type(
+  elt
+)
+ident(
+  int_ref key3 "myset.ml" 321 8958 8965 "myset.ml" 321 8958 8969
+)
+"myset.ml" 331 9212 9237 "myset.ml" 331 9212 9239
+type(
+  set
+)
+ident(
+  int_ref d3 "myset.ml" 324 9047 9054 "myset.ml" 324 9047 9056
+)
+"myset.ml" 331 9212 9225 "myset.ml" 331 9212 9239
+call(
+  stack
+)
+type(
+  set
+)
+"myset.ml" 331 9212 9240 "myset.ml" 331 9212 9241
+type(
+  set -> set -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"myset.ml" 331 9212 9242 "myset.ml" 331 9212 9244
+type(
+  set
+)
+ident(
+  int_ref d2 "myset.ml" 323 9020 9027 "myset.ml" 323 9020 9029
+)
+"myset.ml" 331 9212 9225 "myset.ml" 331 9212 9244
+type(
+  bool
+)
+"myset.ml" 331 9212 9217 "myset.ml" 331 9212 9245
+type(
+  unit
+)
+"myset.ml" 332 9247 9260 "myset.ml" 332 9247 9266
+type(
+  elt -> set -> set
+)
+ident(
+  int_ref remove "myset.ml" 287 7719 7725 "myset.ml" 287 7719 7731
+)
+"myset.ml" 332 9247 9267 "myset.ml" 332 9247 9271
+type(
+  elt
+)
+ident(
+  int_ref key2 "myset.ml" 320 8927 8934 "myset.ml" 320 8927 8938
+)
+"myset.ml" 332 9247 9272 "myset.ml" 332 9247 9274
+type(
+  set
+)
+ident(
+  int_ref d2 "myset.ml" 323 9020 9027 "myset.ml" 323 9020 9029
+)
+"myset.ml" 332 9247 9260 "myset.ml" 332 9247 9274
+call(
+  stack
+)
+type(
+  set
+)
+"myset.ml" 332 9247 9275 "myset.ml" 332 9247 9276
+type(
+  set -> set -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"myset.ml" 332 9247 9277 "myset.ml" 332 9247 9279
+type(
+  set
+)
+ident(
+  int_ref d1 "myset.ml" 322 8989 8996 "myset.ml" 322 8989 8998
+)
+"myset.ml" 332 9247 9260 "myset.ml" 332 9247 9279
+type(
+  bool
+)
+"myset.ml" 332 9247 9252 "myset.ml" 332 9247 9280
+type(
+  unit
+)
+"myset.ml" 333 9282 9287 "myset.ml" 333 9282 9289
+type(
+  unit
+)
+"myset.ml" 332 9247 9252 "myset.ml" 333 9282 9289
+type(
+  unit
+)
+"myset.ml" 331 9212 9217 "myset.ml" 333 9282 9289
+type(
+  unit
+)
+"myset.ml" 330 9174 9179 "myset.ml" 333 9282 9289
+type(
+  unit
+)
+"myset.ml" 329 9150 9169 "myset.ml" 333 9282 9289
+type(
+  unit -> unit
+)
+"myset.ml" 335 9291 9298 "myset.ml" 335 9291 9311
+type(
+  unit -> unit
+)
+ident(
+  def test_is_empty "myset.ml" 341 9429 9432 "myset.ml" 379 10471 10474
+)
+"myset.ml" 335 9291 9312 "myset.ml" 335 9291 9314
+type(
+  unit
+)
+"myset.ml" 336 9317 9330 "myset.ml" 336 9317 9338
+type(
+  set -> bool
+)
+ident(
+  int_ref is_empty "myset.ml" 260 6698 6704 "myset.ml" 260 6698 6712
+)
+"myset.ml" 336 9317 9340 "myset.ml" 336 9317 9346
+type(
+  elt -> set -> set
+)
+ident(
+  int_ref remove "myset.ml" 287 7719 7725 "myset.ml" 287 7719 7731
+)
+"myset.ml" 336 9317 9347 "myset.ml" 336 9317 9351
+type(
+  elt
+)
+ident(
+  int_ref key1 "myset.ml" 319 8903 8910 "myset.ml" 319 8903 8914
+)
+"myset.ml" 336 9317 9352 "myset.ml" 336 9317 9354
+type(
+  set
+)
+ident(
+  int_ref d1 "myset.ml" 322 8989 8996 "myset.ml" 322 8989 8998
+)
+"myset.ml" 336 9317 9340 "myset.ml" 336 9317 9354
+call(
+  stack
+)
+type(
+  set
+)
+"myset.ml" 336 9317 9330 "myset.ml" 336 9317 9355
+call(
+  stack
+)
+type(
+  bool
+)
+"myset.ml" 336 9317 9322 "myset.ml" 336 9317 9356
+type(
+  unit
+)
+"myset.ml" 337 9358 9371 "myset.ml" 337 9358 9379
+type(
+  set -> bool
+)
+ident(
+  int_ref is_empty "myset.ml" 260 6698 6704 "myset.ml" 260 6698 6712
+)
+"myset.ml" 337 9358 9380 "myset.ml" 337 9358 9385
+type(
+  set
+)
+ident(
+  int_ref empty "myset.ml" 257 6634 6640 "myset.ml" 257 6634 6645
+)
+"myset.ml" 337 9358 9371 "myset.ml" 337 9358 9385
+call(
+  stack
+)
+type(
+  bool
+)
+"myset.ml" 337 9358 9363 "myset.ml" 337 9358 9386
+type(
+  unit
+)
+"myset.ml" 338 9388 9401 "myset.ml" 338 9388 9404
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"myset.ml" 338 9388 9405 "myset.ml" 338 9388 9413
+type(
+  set -> bool
+)
+ident(
+  int_ref is_empty "myset.ml" 260 6698 6704 "myset.ml" 260 6698 6712
+)
+"myset.ml" 338 9388 9414 "myset.ml" 338 9388 9416
+type(
+  set
+)
+ident(
+  int_ref d1 "myset.ml" 322 8989 8996 "myset.ml" 322 8989 8998
+)
+"myset.ml" 338 9388 9405 "myset.ml" 338 9388 9416
+call(
+  stack
+)
+type(
+  bool
+)
+"myset.ml" 338 9388 9401 "myset.ml" 338 9388 9417
+type(
+  bool
+)
+"myset.ml" 338 9388 9393 "myset.ml" 338 9388 9418
+type(
+  unit
+)
+"myset.ml" 339 9420 9425 "myset.ml" 339 9420 9427
+type(
+  unit
+)
+"myset.ml" 338 9388 9393 "myset.ml" 339 9420 9427
+type(
+  unit
+)
+"myset.ml" 337 9358 9363 "myset.ml" 339 9420 9427
+type(
+  unit
+)
+"myset.ml" 336 9317 9322 "myset.ml" 339 9420 9427
+type(
+  unit
+)
+"myset.ml" 335 9291 9312 "myset.ml" 339 9420 9427
+type(
+  unit -> unit
+)
+"myset.ml" 341 9429 9436 "myset.ml" 341 9429 9450
+type(
+  unit -> unit
+)
+ident(
+  def test_singleton "myset.ml" 345 9503 9506 "myset.ml" 379 10471 10474
+)
+"myset.ml" 341 9429 9451 "myset.ml" 341 9429 9453
+type(
+  unit
+)
+"myset.ml" 342 9456 9469 "myset.ml" 342 9456 9478
+type(
+  elt -> set
+)
+ident(
+  int_ref singleton "myset.ml" 266 6895 6901 "myset.ml" 266 6895 6910
+)
+"myset.ml" 342 9456 9479 "myset.ml" 342 9456 9483
+type(
+  elt
+)
+ident(
+  int_ref key1 "myset.ml" 319 8903 8910 "myset.ml" 319 8903 8914
+)
+"myset.ml" 342 9456 9469 "myset.ml" 342 9456 9483
+call(
+  stack
+)
+type(
+  set
+)
+"myset.ml" 342 9456 9484 "myset.ml" 342 9456 9485
+type(
+  set -> set -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"myset.ml" 342 9456 9486 "myset.ml" 342 9456 9488
+type(
+  set
+)
+ident(
+  int_ref d1 "myset.ml" 322 8989 8996 "myset.ml" 322 8989 8998
+)
+"myset.ml" 342 9456 9469 "myset.ml" 342 9456 9488
+type(
+  bool
+)
+"myset.ml" 342 9456 9461 "myset.ml" 342 9456 9489
+type(
+  unit
+)
+"myset.ml" 343 9491 9496 "myset.ml" 343 9491 9498
+type(
+  unit
+)
+"myset.ml" 342 9456 9461 "myset.ml" 343 9491 9498
+type(
+  unit
+)
+"myset.ml" 341 9429 9451 "myset.ml" 343 9491 9498
+type(
+  unit -> unit
+)
+"myset.ml" 345 9503 9510 "myset.ml" 345 9503 9520
+type(
+  unit -> unit
+)
+ident(
+  def test_union "myset.ml" 352 9692 9695 "myset.ml" 379 10471 10474
+)
+"myset.ml" 345 9503 9521 "myset.ml" 345 9503 9523
+type(
+  unit
+)
+"myset.ml" 346 9526 9539 "myset.ml" 346 9526 9544
+type(
+  set -> set -> set
+)
+ident(
+  int_ref union "myset.ml" 269 7033 7043 "myset.ml" 269 7033 7048
+)
+"myset.ml" 346 9526 9545 "myset.ml" 346 9526 9547
+type(
+  set
+)
+ident(
+  int_ref d1 "myset.ml" 322 8989 8996 "myset.ml" 322 8989 8998
+)
+"myset.ml" 346 9526 9548 "myset.ml" 346 9526 9550
+type(
+  set
+)
+ident(
+  int_ref d2 "myset.ml" 323 9020 9027 "myset.ml" 323 9020 9029
+)
+"myset.ml" 346 9526 9539 "myset.ml" 346 9526 9550
+call(
+  stack
+)
+type(
+  set
+)
+"myset.ml" 346 9526 9551 "myset.ml" 346 9526 9552
+type(
+  set -> set -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"myset.ml" 346 9526 9553 "myset.ml" 346 9526 9555
+type(
+  set
+)
+ident(
+  int_ref d2 "myset.ml" 323 9020 9027 "myset.ml" 323 9020 9029
+)
+"myset.ml" 346 9526 9539 "myset.ml" 346 9526 9555
+type(
+  bool
+)
+"myset.ml" 346 9526 9531 "myset.ml" 346 9526 9556
+type(
+  unit
+)
+"myset.ml" 347 9558 9567 "myset.ml" 347 9558 9568
+type(
+  set
+)
+ident(
+  def u "myset.ml" 348 9586 9591 "myset.ml" 349 9678 9685
+)
+"myset.ml" 347 9558 9571 "myset.ml" 347 9558 9576
+type(
+  set -> set -> set
+)
+ident(
+  int_ref union "myset.ml" 269 7033 7043 "myset.ml" 269 7033 7048
+)
+"myset.ml" 347 9558 9577 "myset.ml" 347 9558 9579
+type(
+  set
+)
+ident(
+  int_ref d1 "myset.ml" 322 8989 8996 "myset.ml" 322 8989 8998
+)
+"myset.ml" 347 9558 9580 "myset.ml" 347 9558 9582
+type(
+  set
+)
+ident(
+  int_ref d2 "myset.ml" 323 9020 9027 "myset.ml" 323 9020 9029
+)
+"myset.ml" 347 9558 9571 "myset.ml" 347 9558 9582
+call(
+  stack
+)
+type(
+  set
+)
+"myset.ml" 348 9586 9599 "myset.ml" 348 9586 9605
+type(
+  set -> elt -> bool
+)
+ident(
+  int_ref member "myset.ml" 275 7251 7257 "myset.ml" 275 7251 7263
+)
+"myset.ml" 348 9586 9606 "myset.ml" 348 9586 9607
+type(
+  set
+)
+ident(
+  int_ref u "myset.ml" 347 9558 9567 "myset.ml" 347 9558 9568
+)
+"myset.ml" 348 9586 9615 "myset.ml" 348 9586 9621
+type(
+  set -> (elt * set) option
+)
+ident(
+  int_ref choose "myset.ml" 291 7882 7888 "myset.ml" 291 7882 7894
+)
+"myset.ml" 348 9586 9622 "myset.ml" 348 9586 9624
+type(
+  set
+)
+ident(
+  int_ref d1 "myset.ml" 322 8989 8996 "myset.ml" 322 8989 8998
+)
+"myset.ml" 348 9586 9615 "myset.ml" 348 9586 9624
+call(
+  stack
+)
+type(
+  (elt * set) option
+)
+"myset.ml" 348 9586 9638 "myset.ml" 348 9586 9639
+type(
+  elt
+)
+ident(
+  def x "myset.ml" 348 9586 9646 "myset.ml" 348 9586 9647
+)
+"myset.ml" 348 9586 9640 "myset.ml" 348 9586 9641
+type(
+  set
+)
+"myset.ml" 348 9586 9632 "myset.ml" 348 9586 9642
+type(
+  (elt * set) option
+)
+type(
+  elt * set
+)
+"myset.ml" 348 9586 9646 "myset.ml" 348 9586 9647
+type(
+  elt
+)
+ident(
+  int_ref x "myset.ml" 348 9586 9638 "myset.ml" 348 9586 9639
+)
+"myset.ml" 348 9586 9650 "myset.ml" 348 9586 9654
+type(
+  (elt * set) option
+)
+"myset.ml" 348 9586 9658 "myset.ml" 348 9586 9663
+type(
+  exn -> elt
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"myset.ml" 348 9586 9664 "myset.ml" 348 9586 9674
+type(
+  exn
+)
+"myset.ml" 348 9586 9658 "myset.ml" 348 9586 9674
+type(
+  elt
+)
+"myset.ml" 348 9586 9609 "myset.ml" 348 9586 9674
+type(
+  elt
+)
+"myset.ml" 348 9586 9599 "myset.ml" 348 9586 9675
+call(
+  stack
+)
+type(
+  bool
+)
+"myset.ml" 348 9586 9591 "myset.ml" 348 9586 9676
+type(
+  unit
+)
+"myset.ml" 349 9678 9683 "myset.ml" 349 9678 9685
+type(
+  unit
+)
+"myset.ml" 348 9586 9591 "myset.ml" 349 9678 9685
+type(
+  unit
+)
+"myset.ml" 347 9558 9563 "myset.ml" 349 9678 9685
+type(
+  unit
+)
+"myset.ml" 346 9526 9531 "myset.ml" 349 9678 9685
+type(
+  unit
+)
+"myset.ml" 345 9503 9521 "myset.ml" 349 9678 9685
+type(
+  unit -> unit
+)
+"myset.ml" 352 9692 9699 "myset.ml" 352 9692 9713
+type(
+  unit -> unit
+)
+ident(
+  def test_intersect "myset.ml" 361 9971 9974 "myset.ml" 379 10471 10474
+)
+"myset.ml" 352 9692 9714 "myset.ml" 352 9692 9716
+type(
+  unit
+)
+"myset.ml" 353 9719 9732 "myset.ml" 353 9719 9741
+type(
+  set -> set -> set
+)
+ident(
+  int_ref intersect "myset.ml" 278 7393 7403 "myset.ml" 278 7393 7412
+)
+"myset.ml" 353 9719 9742 "myset.ml" 353 9719 9744
+type(
+  set
+)
+ident(
+  int_ref d2 "myset.ml" 323 9020 9027 "myset.ml" 323 9020 9029
+)
+"myset.ml" 353 9719 9745 "myset.ml" 353 9719 9747
+type(
+  set
+)
+ident(
+  int_ref d3 "myset.ml" 324 9047 9054 "myset.ml" 324 9047 9056
+)
+"myset.ml" 353 9719 9732 "myset.ml" 353 9719 9747
+call(
+  stack
+)
+type(
+  set
+)
+"myset.ml" 353 9719 9748 "myset.ml" 353 9719 9749
+type(
+  set -> set -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"myset.ml" 353 9719 9750 "myset.ml" 353 9719 9752
+type(
+  set
+)
+ident(
+  int_ref d2 "myset.ml" 323 9020 9027 "myset.ml" 323 9020 9029
+)
+"myset.ml" 353 9719 9732 "myset.ml" 353 9719 9752
+type(
+  bool
+)
+"myset.ml" 353 9719 9724 "myset.ml" 353 9719 9753
+type(
+  unit
+)
+"myset.ml" 354 9755 9768 "myset.ml" 354 9755 9777
+type(
+  set -> set -> set
+)
+ident(
+  int_ref intersect "myset.ml" 278 7393 7403 "myset.ml" 278 7393 7412
+)
+"myset.ml" 354 9755 9778 "myset.ml" 354 9755 9780
+type(
+  set
+)
+ident(
+  int_ref d1 "myset.ml" 322 8989 8996 "myset.ml" 322 8989 8998
+)
+"myset.ml" 354 9755 9781 "myset.ml" 354 9755 9783
+type(
+  set
+)
+ident(
+  int_ref d3 "myset.ml" 324 9047 9054 "myset.ml" 324 9047 9056
+)
+"myset.ml" 354 9755 9768 "myset.ml" 354 9755 9783
+call(
+  stack
+)
+type(
+  set
+)
+"myset.ml" 354 9755 9784 "myset.ml" 354 9755 9785
+type(
+  set -> set -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"myset.ml" 354 9755 9786 "myset.ml" 354 9755 9788
+type(
+  set
+)
+ident(
+  int_ref d1 "myset.ml" 322 8989 8996 "myset.ml" 322 8989 8998
+)
+"myset.ml" 354 9755 9768 "myset.ml" 354 9755 9788
+type(
+  bool
+)
+"myset.ml" 354 9755 9760 "myset.ml" 354 9755 9789
+type(
+  unit
+)
+"myset.ml" 355 9791 9804 "myset.ml" 355 9791 9813
+type(
+  set -> set -> set
+)
+ident(
+  int_ref intersect "myset.ml" 278 7393 7403 "myset.ml" 278 7393 7412
+)
+"myset.ml" 355 9791 9814 "myset.ml" 355 9791 9819
+type(
+  set
+)
+ident(
+  int_ref empty "myset.ml" 257 6634 6640 "myset.ml" 257 6634 6645
+)
+"myset.ml" 355 9791 9820 "myset.ml" 355 9791 9825
+type(
+  set
+)
+ident(
+  int_ref empty "myset.ml" 257 6634 6640 "myset.ml" 257 6634 6645
+)
+"myset.ml" 355 9791 9804 "myset.ml" 355 9791 9825
+call(
+  stack
+)
+type(
+  set
+)
+"myset.ml" 355 9791 9826 "myset.ml" 355 9791 9827
+type(
+  set -> set -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"myset.ml" 355 9791 9828 "myset.ml" 355 9791 9833
+type(
+  set
+)
+ident(
+  int_ref empty "myset.ml" 257 6634 6640 "myset.ml" 257 6634 6645
+)
+"myset.ml" 355 9791 9804 "myset.ml" 355 9791 9833
+type(
+  bool
+)
+"myset.ml" 355 9791 9796 "myset.ml" 355 9791 9834
+type(
+  unit
+)
+"myset.ml" 356 9836 9849 "myset.ml" 356 9836 9858
+type(
+  set -> set -> set
+)
+ident(
+  int_ref intersect "myset.ml" 278 7393 7403 "myset.ml" 278 7393 7412
+)
+"myset.ml" 356 9836 9859 "myset.ml" 356 9836 9864
+type(
+  set
+)
+ident(
+  int_ref empty "myset.ml" 257 6634 6640 "myset.ml" 257 6634 6645
+)
+"myset.ml" 356 9836 9865 "myset.ml" 356 9836 9867
+type(
+  set
+)
+ident(
+  int_ref d1 "myset.ml" 322 8989 8996 "myset.ml" 322 8989 8998
+)
+"myset.ml" 356 9836 9849 "myset.ml" 356 9836 9867
+call(
+  stack
+)
+type(
+  set
+)
+"myset.ml" 356 9836 9868 "myset.ml" 356 9836 9869
+type(
+  set -> set -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"myset.ml" 356 9836 9870 "myset.ml" 356 9836 9875
+type(
+  set
+)
+ident(
+  int_ref empty "myset.ml" 257 6634 6640 "myset.ml" 257 6634 6645
+)
+"myset.ml" 356 9836 9849 "myset.ml" 356 9836 9875
+type(
+  bool
+)
+"myset.ml" 356 9836 9841 "myset.ml" 356 9836 9876
+type(
+  unit
+)
+"myset.ml" 357 9878 9891 "myset.ml" 357 9878 9900
+type(
+  set -> set -> set
+)
+ident(
+  int_ref intersect "myset.ml" 278 7393 7403 "myset.ml" 278 7393 7412
+)
+"myset.ml" 357 9878 9901 "myset.ml" 357 9878 9903
+type(
+  set
+)
+ident(
+  int_ref d1 "myset.ml" 322 8989 8996 "myset.ml" 322 8989 8998
+)
+"myset.ml" 357 9878 9904 "myset.ml" 357 9878 9909
+type(
+  set
+)
+ident(
+  int_ref empty "myset.ml" 257 6634 6640 "myset.ml" 257 6634 6645
+)
+"myset.ml" 357 9878 9891 "myset.ml" 357 9878 9909
+call(
+  stack
+)
+type(
+  set
+)
+"myset.ml" 357 9878 9910 "myset.ml" 357 9878 9911
+type(
+  set -> set -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"myset.ml" 357 9878 9912 "myset.ml" 357 9878 9917
+type(
+  set
+)
+ident(
+  int_ref empty "myset.ml" 257 6634 6640 "myset.ml" 257 6634 6645
+)
+"myset.ml" 357 9878 9891 "myset.ml" 357 9878 9917
+type(
+  bool
+)
+"myset.ml" 357 9878 9883 "myset.ml" 357 9878 9918
+type(
+  unit
+)
+"myset.ml" 358 9920 9933 "myset.ml" 358 9920 9942
+type(
+  set -> set -> set
+)
+ident(
+  int_ref intersect "myset.ml" 278 7393 7403 "myset.ml" 278 7393 7412
+)
+"myset.ml" 358 9920 9943 "myset.ml" 358 9920 9945
+type(
+  set
+)
+ident(
+  int_ref d4 "myset.ml" 325 9074 9081 "myset.ml" 325 9074 9083
+)
+"myset.ml" 358 9920 9946 "myset.ml" 358 9920 9948
+type(
+  set
+)
+ident(
+  int_ref d5 "myset.ml" 326 9104 9111 "myset.ml" 326 9104 9113
+)
+"myset.ml" 358 9920 9933 "myset.ml" 358 9920 9948
+call(
+  stack
+)
+type(
+  set
+)
+"myset.ml" 358 9920 9949 "myset.ml" 358 9920 9950
+type(
+  set -> set -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"myset.ml" 358 9920 9951 "myset.ml" 358 9920 9956
+type(
+  set
+)
+ident(
+  int_ref empty "myset.ml" 257 6634 6640 "myset.ml" 257 6634 6645
+)
+"myset.ml" 358 9920 9933 "myset.ml" 358 9920 9956
+type(
+  bool
+)
+"myset.ml" 358 9920 9925 "myset.ml" 358 9920 9957
+type(
+  unit
+)
+"myset.ml" 359 9959 9964 "myset.ml" 359 9959 9966
+type(
+  unit
+)
+"myset.ml" 358 9920 9925 "myset.ml" 359 9959 9966
+type(
+  unit
+)
+"myset.ml" 357 9878 9883 "myset.ml" 359 9959 9966
+type(
+  unit
+)
+"myset.ml" 356 9836 9841 "myset.ml" 359 9959 9966
+type(
+  unit
+)
+"myset.ml" 355 9791 9796 "myset.ml" 359 9959 9966
+type(
+  unit
+)
+"myset.ml" 354 9755 9760 "myset.ml" 359 9959 9966
+type(
+  unit
+)
+"myset.ml" 353 9719 9724 "myset.ml" 359 9959 9966
+type(
+  unit
+)
+"myset.ml" 352 9692 9714 "myset.ml" 359 9959 9966
+type(
+  unit -> unit
+)
+"myset.ml" 361 9971 9978 "myset.ml" 361 9971 9989
+type(
+  unit -> unit
+)
+ident(
+  def test_choose "myset.ml" 365 10050 10053 "myset.ml" 379 10471 10474
+)
+"myset.ml" 361 9971 9990 "myset.ml" 361 9971 9992
+type(
+  unit
+)
+"myset.ml" 362 9995 10008 "myset.ml" 362 9995 10014
+type(
+  set -> (elt * set) option
+)
+ident(
+  int_ref choose "myset.ml" 291 7882 7888 "myset.ml" 291 7882 7894
+)
+"myset.ml" 362 9995 10015 "myset.ml" 362 9995 10017
+type(
+  set
+)
+ident(
+  int_ref d1 "myset.ml" 322 8989 8996 "myset.ml" 322 8989 8998
+)
+"myset.ml" 362 9995 10008 "myset.ml" 362 9995 10017
+call(
+  stack
+)
+type(
+  (elt * set) option
+)
+"myset.ml" 362 9995 10018 "myset.ml" 362 9995 10019
+type(
+  (elt * set) option -> (elt * set) option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"myset.ml" 362 9995 10026 "myset.ml" 362 9995 10030
+type(
+  elt
+)
+ident(
+  int_ref key1 "myset.ml" 319 8903 8910 "myset.ml" 319 8903 8914
+)
+"myset.ml" 362 9995 10032 "myset.ml" 362 9995 10037
+type(
+  set
+)
+ident(
+  int_ref empty "myset.ml" 257 6634 6640 "myset.ml" 257 6634 6645
+)
+"myset.ml" 362 9995 10020 "myset.ml" 362 9995 10038
+type(
+  elt * set
+)
+type(
+  (elt * set) option
+)
+"myset.ml" 362 9995 10008 "myset.ml" 362 9995 10038
+type(
+  bool
+)
+"myset.ml" 362 9995 10000 "myset.ml" 362 9995 10039
+type(
+  unit
+)
+"myset.ml" 363 10041 10046 "myset.ml" 363 10041 10048
+type(
+  unit
+)
+"myset.ml" 362 9995 10000 "myset.ml" 363 10041 10048
+type(
+  unit
+)
+"myset.ml" 361 9971 9990 "myset.ml" 363 10041 10048
+type(
+  unit -> unit
+)
+"myset.ml" 365 10050 10057 "myset.ml" 365 10050 10066
+type(
+  unit -> unit
+)
+ident(
+  def test_fold "myset.ml" 370 10309 10311 "myset.ml" 379 10471 10474
+)
+"myset.ml" 365 10050 10067 "myset.ml" 365 10050 10069
+type(
+  unit
+)
+"myset.ml" 366 10072 10081 "myset.ml" 366 10072 10082
+type(
+  elt -> string -> string
+)
+ident(
+  def f "myset.ml" 367 10148 10153 "myset.ml" 367 10148 10262
+)
+"myset.ml" 366 10072 10084 "myset.ml" 366 10072 10087
+type(
+  elt
+)
+ident(
+  def elt "myset.ml" 366 10072 10094 "myset.ml" 366 10072 10144
+)
+"myset.ml" 366 10072 10095 "myset.ml" 366 10072 10099
+type(
+  string
+)
+ident(
+  def init "myset.ml" 366 10072 10112 "myset.ml" 366 10072 10144
+)
+"myset.ml" 366 10072 10113 "myset.ml" 366 10072 10126
+type(
+  elt -> string
+)
+ident(
+  int_ref string_of_elt "myset.ml" 308 8366 8372 "myset.ml" 308 8366 8385
+)
+"myset.ml" 366 10072 10127 "myset.ml" 366 10072 10130
+type(
+  elt
+)
+ident(
+  int_ref elt "myset.ml" 366 10072 10084 "myset.ml" 366 10072 10087
+)
+"myset.ml" 366 10072 10113 "myset.ml" 366 10072 10130
+call(
+  stack
+)
+type(
+  string
+)
+"myset.ml" 366 10072 10132 "myset.ml" 366 10072 10133
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myset.ml" 366 10072 10134 "myset.ml" 366 10072 10137
+type(
+  string
+)
+"myset.ml" 366 10072 10138 "myset.ml" 366 10072 10139
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myset.ml" 366 10072 10140 "myset.ml" 366 10072 10144
+type(
+  string
+)
+ident(
+  int_ref init "myset.ml" 366 10072 10095 "myset.ml" 366 10072 10099
+)
+"myset.ml" 366 10072 10134 "myset.ml" 366 10072 10144
+call(
+  stack
+)
+type(
+  string
+)
+"myset.ml" 366 10072 10112 "myset.ml" 366 10072 10144
+call(
+  tail
+)
+type(
+  string
+)
+"myset.ml" 366 10072 10094 "myset.ml" 366 10072 10144
+type(
+  string -> string
+)
+"myset.ml" 366 10072 10083 "myset.ml" 366 10072 10144
+type(
+  elt -> string -> string
+)
+"myset.ml" 367 10148 10161 "myset.ml" 367 10148 10165
+type(
+  (elt -> string -> string) -> string -> set -> string
+)
+ident(
+  int_ref fold "myset.ml" 299 8129 8139 "myset.ml" 299 8129 8143
+)
+"myset.ml" 367 10148 10166 "myset.ml" 367 10148 10167
+type(
+  elt -> string -> string
+)
+ident(
+  int_ref f "myset.ml" 366 10072 10081 "myset.ml" 366 10072 10082
+)
+"myset.ml" 367 10148 10168 "myset.ml" 367 10148 10170
+type(
+  string
+)
+"myset.ml" 367 10148 10171 "myset.ml" 367 10148 10173
+type(
+  set
+)
+ident(
+  int_ref d3 "myset.ml" 324 9047 9054 "myset.ml" 324 9047 9056
+)
+"myset.ml" 367 10148 10161 "myset.ml" 367 10148 10173
+call(
+  stack
+)
+type(
+  string
+)
+"myset.ml" 367 10148 10175 "myset.ml" 367 10148 10176
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"myset.ml" 367 10148 10178 "myset.ml" 367 10148 10191
+type(
+  elt -> string
+)
+ident(
+  int_ref string_of_elt "myset.ml" 308 8366 8372 "myset.ml" 308 8366 8385
+)
+"myset.ml" 367 10148 10192 "myset.ml" 367 10148 10196
+type(
+  elt
+)
+ident(
+  int_ref key2 "myset.ml" 320 8927 8934 "myset.ml" 320 8927 8938
+)
+"myset.ml" 367 10148 10178 "myset.ml" 367 10148 10196
+call(
+  stack
+)
+type(
+  string
+)
+"myset.ml" 367 10148 10198 "myset.ml" 367 10148 10199
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myset.ml" 367 10148 10200 "myset.ml" 367 10148 10203
+type(
+  string
+)
+"myset.ml" 367 10148 10204 "myset.ml" 367 10148 10205
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myset.ml" 367 10148 10207 "myset.ml" 367 10148 10220
+type(
+  elt -> string
+)
+ident(
+  int_ref string_of_elt "myset.ml" 308 8366 8372 "myset.ml" 308 8366 8385
+)
+"myset.ml" 367 10148 10221 "myset.ml" 367 10148 10225
+type(
+  elt
+)
+ident(
+  int_ref key1 "myset.ml" 319 8903 8910 "myset.ml" 319 8903 8914
+)
+"myset.ml" 367 10148 10207 "myset.ml" 367 10148 10225
+call(
+  stack
+)
+type(
+  string
+)
+"myset.ml" 367 10148 10227 "myset.ml" 367 10148 10228
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myset.ml" 367 10148 10229 "myset.ml" 367 10148 10232
+type(
+  string
+)
+"myset.ml" 367 10148 10233 "myset.ml" 367 10148 10234
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myset.ml" 367 10148 10236 "myset.ml" 367 10148 10249
+type(
+  elt -> string
+)
+ident(
+  int_ref string_of_elt "myset.ml" 308 8366 8372 "myset.ml" 308 8366 8385
+)
+"myset.ml" 367 10148 10250 "myset.ml" 367 10148 10254
+type(
+  elt
+)
+ident(
+  int_ref key3 "myset.ml" 321 8958 8965 "myset.ml" 321 8958 8969
+)
+"myset.ml" 367 10148 10236 "myset.ml" 367 10148 10254
+call(
+  stack
+)
+type(
+  string
+)
+"myset.ml" 367 10148 10256 "myset.ml" 367 10148 10257
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myset.ml" 367 10148 10258 "myset.ml" 367 10148 10261
+type(
+  string
+)
+"myset.ml" 367 10148 10235 "myset.ml" 367 10148 10261
+call(
+  stack
+)
+type(
+  string
+)
+"myset.ml" 367 10148 10229 "myset.ml" 367 10148 10261
+call(
+  stack
+)
+type(
+  string
+)
+"myset.ml" 367 10148 10206 "myset.ml" 367 10148 10261
+call(
+  stack
+)
+type(
+  string
+)
+"myset.ml" 367 10148 10200 "myset.ml" 367 10148 10261
+call(
+  stack
+)
+type(
+  string
+)
+"myset.ml" 367 10148 10177 "myset.ml" 367 10148 10261
+call(
+  stack
+)
+type(
+  string
+)
+"myset.ml" 367 10148 10160 "myset.ml" 367 10148 10261
+type(
+  bool
+)
+"myset.ml" 367 10148 10153 "myset.ml" 367 10148 10262
+type(
+  unit
+)
+"myset.ml" 366 10072 10077 "myset.ml" 367 10148 10262
+type(
+  unit
+)
+"myset.ml" 365 10050 10067 "myset.ml" 367 10148 10262
+type(
+  unit -> unit
+)
+"myset.ml" 370 10309 10315 "myset.ml" 370 10309 10324
+type(
+  unit -> unit
+)
+ident(
+  def run_tests "myset.ml" 378 10466 10470 "myset.ml" 379 10471 10474
+)
+"myset.ml" 370 10309 10325 "myset.ml" 370 10309 10327
+type(
+  unit
+)
+"myset.ml" 371 10330 10332 "myset.ml" 371 10330 10343
+type(
+  unit -> unit
+)
+ident(
+  int_ref test_insert "myset.ml" 329 9150 9157 "myset.ml" 329 9150 9168
+)
+"myset.ml" 371 10330 10343 "myset.ml" 371 10330 10345
+type(
+  unit
+)
+"myset.ml" 371 10330 10332 "myset.ml" 371 10330 10345
+call(
+  stack
+)
+type(
+  unit
+)
+"myset.ml" 372 10348 10350 "myset.ml" 372 10348 10363
+type(
+  unit -> unit
+)
+ident(
+  int_ref test_is_empty "myset.ml" 335 9291 9298 "myset.ml" 335 9291 9311
+)
+"myset.ml" 372 10348 10363 "myset.ml" 372 10348 10365
+type(
+  unit
+)
+"myset.ml" 372 10348 10350 "myset.ml" 372 10348 10365
+call(
+  stack
+)
+type(
+  unit
+)
+"myset.ml" 373 10368 10370 "myset.ml" 373 10368 10384
+type(
+  unit -> unit
+)
+ident(
+  int_ref test_singleton "myset.ml" 341 9429 9436 "myset.ml" 341 9429 9450
+)
+"myset.ml" 373 10368 10384 "myset.ml" 373 10368 10386
+type(
+  unit
+)
+"myset.ml" 373 10368 10370 "myset.ml" 373 10368 10386
+call(
+  stack
+)
+type(
+  unit
+)
+"myset.ml" 374 10389 10391 "myset.ml" 374 10389 10401
+type(
+  unit -> unit
+)
+ident(
+  int_ref test_union "myset.ml" 345 9503 9510 "myset.ml" 345 9503 9520
+)
+"myset.ml" 374 10389 10402 "myset.ml" 374 10389 10404
+type(
+  unit
+)
+"myset.ml" 374 10389 10391 "myset.ml" 374 10389 10404
+call(
+  stack
+)
+type(
+  unit
+)
+"myset.ml" 375 10409 10411 "myset.ml" 375 10409 10425
+type(
+  unit -> unit
+)
+ident(
+  int_ref test_intersect "myset.ml" 352 9692 9699 "myset.ml" 352 9692 9713
+)
+"myset.ml" 375 10409 10425 "myset.ml" 375 10409 10427
+type(
+  unit
+)
+"myset.ml" 375 10409 10411 "myset.ml" 375 10409 10427
+call(
+  stack
+)
+type(
+  unit
+)
+"myset.ml" 376 10430 10432 "myset.ml" 376 10430 10443
+type(
+  unit -> unit
+)
+ident(
+  int_ref test_choose "myset.ml" 361 9971 9978 "myset.ml" 361 9971 9989
+)
+"myset.ml" 376 10430 10444 "myset.ml" 376 10430 10446
+type(
+  unit
+)
+"myset.ml" 376 10430 10432 "myset.ml" 376 10430 10446
+call(
+  stack
+)
+type(
+  unit
+)
+"myset.ml" 377 10449 10451 "myset.ml" 377 10449 10460
+type(
+  unit -> unit
+)
+ident(
+  int_ref test_fold "myset.ml" 365 10050 10057 "myset.ml" 365 10050 10066
+)
+"myset.ml" 377 10449 10461 "myset.ml" 377 10449 10463
+type(
+  unit
+)
+"myset.ml" 377 10449 10451 "myset.ml" 377 10449 10463
+call(
+  stack
+)
+type(
+  unit
+)
+"myset.ml" 378 10466 10468 "myset.ml" 378 10466 10470
+type(
+  unit
+)
+"myset.ml" 377 10449 10451 "myset.ml" 378 10466 10470
+type(
+  unit
+)
+"myset.ml" 376 10430 10432 "myset.ml" 378 10466 10470
+type(
+  unit
+)
+"myset.ml" 375 10409 10411 "myset.ml" 378 10466 10470
+type(
+  unit
+)
+"myset.ml" 374 10389 10391 "myset.ml" 378 10466 10470
+type(
+  unit
+)
+"myset.ml" 373 10368 10370 "myset.ml" 378 10466 10470
+type(
+  unit
+)
+"myset.ml" 372 10348 10350 "myset.ml" 378 10466 10470
+type(
+  unit
+)
+"myset.ml" 371 10330 10332 "myset.ml" 378 10466 10470
+type(
+  unit
+)
+"myset.ml" 370 10309 10325 "myset.ml" 378 10466 10470
+type(
+  unit -> unit
+)
+"myset.ml" 389 10741 10761 "myset.ml" 389 10741 10783
+call(
+  stack
+)
+"myset.ml" 390 10787 10787 "myset.ml" 390 10787 10807
+type(
+  unit -> unit
+)
+ident(
+  int_ref IntListSet.run_tests "myset.ml" 46 1154 1156 "myset.ml" 46 1154 1184
+)
+"myset.ml" 390 10787 10807 "myset.ml" 390 10787 10809
+type(
+  unit
+)
+"myset.ml" 390 10787 10787 "myset.ml" 390 10787 10809
+call(
+  stack
+)
+type(
+  unit
+)
+"myset.ml" 397 10966 10986 "myset.ml" 397 10966 11008
+call(
+  stack
+)
+"myset.ml" 398 11012 11012 "myset.ml" 398 11012 11032
+type(
+  unit -> unit
+)
+ident(
+  int_ref IntDictSet.run_tests "myset.ml" 46 1154 1156 "myset.ml" 46 1154 1184
+)
+"myset.ml" 398 11012 11032 "myset.ml" 398 11012 11034
+type(
+  unit
+)
+"myset.ml" 398 11012 11012 "myset.ml" 398 11012 11034
+call(
+  stack
+)
+type(
+  unit
+)
+"myset.ml" 410 11484 11486 "myset.ml" 410 11484 11497
+call(
+  tail
+)

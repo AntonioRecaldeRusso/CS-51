@@ -1,0 +1,3701 @@
+"graph.ml" 59 1316 1328 "graph.ml" 59 1316 1335
+type(
+  t -> t -> Ordering.t
+)
+ident(
+  def compare "graph.ml" 60 1348 1356 "graph.ml" 66 1554 1563
+)
+"graph.ml" 59 1316 1338 "graph.ml" 59 1316 1347
+type(
+  t -> t -> Ordering.t
+)
+ident(
+  int_ref N.compare "graph.ml" 8 108 110 "graph.ml" 8 108 150
+)
+"graph.ml" 60 1348 1360 "graph.ml" 60 1348 1371
+type(
+  t -> string
+)
+ident(
+  def string_of_t "graph.ml" 61 1391 1399 "graph.ml" 66 1554 1563
+)
+"graph.ml" 60 1348 1374 "graph.ml" 60 1348 1390
+type(
+  t -> string
+)
+ident(
+  int_ref N.string_of_node "graph.ml" 9 151 153 "graph.ml" 9 151 188
+)
+"graph.ml" 61 1391 1403 "graph.ml" 61 1391 1406
+type(
+  unit -> t
+)
+ident(
+  def gen "graph.ml" 62 1415 1423 "graph.ml" 66 1554 1563
+)
+"graph.ml" 61 1391 1409 "graph.ml" 61 1391 1414
+type(
+  unit -> t
+)
+ident(
+  int_ref N.gen "graph.ml" 10 189 191 "graph.ml" 10 189 213
+)
+"graph.ml" 62 1415 1427 "graph.ml" 62 1415 1437
+type(
+  unit -> t
+)
+ident(
+  def gen_random "graph.ml" 63 1446 1454 "graph.ml" 66 1554 1563
+)
+"graph.ml" 62 1415 1440 "graph.ml" 62 1415 1445
+type(
+  unit -> t
+)
+ident(
+  int_ref N.gen "graph.ml" 10 189 191 "graph.ml" 10 189 213
+)
+"graph.ml" 63 1446 1458 "graph.ml" 63 1446 1464
+type(
+  'a -> unit -> t
+)
+ident(
+  def gen_gt "graph.ml" 64 1481 1489 "graph.ml" 66 1554 1563
+)
+"graph.ml" 63 1446 1465 "graph.ml" 63 1446 1466
+type(
+  'a
+)
+"graph.ml" 63 1446 1467 "graph.ml" 63 1446 1469
+type(
+  unit
+)
+"graph.ml" 63 1446 1472 "graph.ml" 63 1446 1477
+type(
+  unit -> t
+)
+ident(
+  int_ref N.gen "graph.ml" 10 189 191 "graph.ml" 10 189 213
+)
+"graph.ml" 63 1446 1478 "graph.ml" 63 1446 1480
+type(
+  unit
+)
+"graph.ml" 63 1446 1472 "graph.ml" 63 1446 1480
+call(
+  tail
+)
+type(
+  t
+)
+"graph.ml" 63 1446 1467 "graph.ml" 63 1446 1480
+type(
+  unit -> t
+)
+"graph.ml" 63 1446 1465 "graph.ml" 63 1446 1480
+type(
+  'a -> unit -> t
+)
+"graph.ml" 64 1481 1493 "graph.ml" 64 1481 1499
+type(
+  'b -> unit -> t
+)
+ident(
+  def gen_lt "graph.ml" 65 1516 1524 "graph.ml" 66 1554 1563
+)
+"graph.ml" 64 1481 1500 "graph.ml" 64 1481 1501
+type(
+  'b
+)
+"graph.ml" 64 1481 1502 "graph.ml" 64 1481 1504
+type(
+  unit
+)
+"graph.ml" 64 1481 1507 "graph.ml" 64 1481 1512
+type(
+  unit -> t
+)
+ident(
+  int_ref N.gen "graph.ml" 10 189 191 "graph.ml" 10 189 213
+)
+"graph.ml" 64 1481 1513 "graph.ml" 64 1481 1515
+type(
+  unit
+)
+"graph.ml" 64 1481 1507 "graph.ml" 64 1481 1515
+call(
+  tail
+)
+type(
+  t
+)
+"graph.ml" 64 1481 1502 "graph.ml" 64 1481 1515
+type(
+  unit -> t
+)
+"graph.ml" 64 1481 1500 "graph.ml" 64 1481 1515
+type(
+  'b -> unit -> t
+)
+"graph.ml" 65 1516 1528 "graph.ml" 65 1516 1539
+type(
+  'c -> 'd -> unit -> 'e option
+)
+ident(
+  def gen_between "graph.ml" 65 1516 1553 "graph.ml" 66 1554 1563
+)
+"graph.ml" 65 1516 1540 "graph.ml" 65 1516 1541
+type(
+  'c
+)
+"graph.ml" 65 1516 1542 "graph.ml" 65 1516 1543
+type(
+  'd
+)
+"graph.ml" 65 1516 1544 "graph.ml" 65 1516 1546
+type(
+  unit
+)
+"graph.ml" 65 1516 1549 "graph.ml" 65 1516 1553
+type(
+  'e option
+)
+"graph.ml" 65 1516 1544 "graph.ml" 65 1516 1553
+type(
+  unit -> 'e option
+)
+"graph.ml" 65 1516 1542 "graph.ml" 65 1516 1553
+type(
+  'd -> unit -> 'e option
+)
+"graph.ml" 65 1516 1540 "graph.ml" 65 1516 1553
+type(
+  'c -> 'd -> unit -> 'e option
+)
+"graph.ml" 56 1247 1270 "graph.ml" 66 1554 1564
+call(
+  stack
+)
+"graph.ml" 72 1665 1675 "graph.ml" 72 1665 1682
+type(
+  key -> key -> Ordering.t
+)
+ident(
+  def compare "graph.ml" 73 1695 1701 "graph.ml" 82 2062 2069
+)
+"graph.ml" 72 1665 1685 "graph.ml" 72 1665 1694
+type(
+  key -> key -> Ordering.t
+)
+ident(
+  int_ref N.compare "graph.ml" 8 108 110 "graph.ml" 8 108 150
+)
+"graph.ml" 73 1695 1705 "graph.ml" 73 1695 1718
+type(
+  key -> string
+)
+ident(
+  def string_of_key "graph.ml" 74 1738 1744 "graph.ml" 82 2062 2069
+)
+"graph.ml" 73 1695 1721 "graph.ml" 73 1695 1737
+type(
+  key -> string
+)
+ident(
+  int_ref N.string_of_node "graph.ml" 9 151 153 "graph.ml" 9 151 188
+)
+"graph.ml" 74 1738 1748 "graph.ml" 74 1738 1763
+type(
+  value -> string
+)
+ident(
+  def string_of_value "graph.ml" 75 1798 1804 "graph.ml" 82 2062 2069
+)
+"graph.ml" 74 1738 1764 "graph.ml" 74 1738 1766
+type(
+  value
+)
+ident(
+  def ns "graph.ml" 74 1738 1769 "graph.ml" 74 1738 1797
+)
+"graph.ml" 74 1738 1769 "graph.ml" 74 1738 1794
+type(
+  value -> string
+)
+ident(
+  ext_ref NeighborSet.string_of_set
+)
+"graph.ml" 74 1738 1795 "graph.ml" 74 1738 1797
+type(
+  value
+)
+ident(
+  int_ref ns "graph.ml" 74 1738 1764 "graph.ml" 74 1738 1766
+)
+"graph.ml" 74 1738 1769 "graph.ml" 74 1738 1797
+call(
+  tail
+)
+type(
+  string
+)
+"graph.ml" 74 1738 1764 "graph.ml" 74 1738 1797
+type(
+  value -> string
+)
+"graph.ml" 75 1798 1808 "graph.ml" 75 1798 1815
+type(
+  unit -> key
+)
+ident(
+  def gen_key "graph.ml" 76 1824 1830 "graph.ml" 82 2062 2069
+)
+"graph.ml" 75 1798 1818 "graph.ml" 75 1798 1823
+type(
+  unit -> key
+)
+ident(
+  int_ref N.gen "graph.ml" 10 189 191 "graph.ml" 10 189 213
+)
+"graph.ml" 76 1824 1834 "graph.ml" 76 1824 1848
+type(
+  unit -> key
+)
+ident(
+  def gen_key_random "graph.ml" 77 1857 1863 "graph.ml" 82 2062 2069
+)
+"graph.ml" 76 1824 1851 "graph.ml" 76 1824 1856
+type(
+  unit -> key
+)
+ident(
+  int_ref N.gen "graph.ml" 10 189 191 "graph.ml" 10 189 213
+)
+"graph.ml" 77 1857 1867 "graph.ml" 77 1857 1877
+type(
+  'f -> unit -> key
+)
+ident(
+  def gen_key_gt "graph.ml" 78 1894 1900 "graph.ml" 82 2062 2069
+)
+"graph.ml" 77 1857 1878 "graph.ml" 77 1857 1879
+type(
+  'f
+)
+"graph.ml" 77 1857 1880 "graph.ml" 77 1857 1882
+type(
+  unit
+)
+"graph.ml" 77 1857 1885 "graph.ml" 77 1857 1890
+type(
+  unit -> key
+)
+ident(
+  int_ref N.gen "graph.ml" 10 189 191 "graph.ml" 10 189 213
+)
+"graph.ml" 77 1857 1891 "graph.ml" 77 1857 1893
+type(
+  unit
+)
+"graph.ml" 77 1857 1885 "graph.ml" 77 1857 1893
+call(
+  tail
+)
+type(
+  key
+)
+"graph.ml" 77 1857 1880 "graph.ml" 77 1857 1893
+type(
+  unit -> key
+)
+"graph.ml" 77 1857 1878 "graph.ml" 77 1857 1893
+type(
+  'f -> unit -> key
+)
+"graph.ml" 78 1894 1904 "graph.ml" 78 1894 1914
+type(
+  'g -> unit -> key
+)
+ident(
+  def gen_key_lt "graph.ml" 79 1931 1937 "graph.ml" 82 2062 2069
+)
+"graph.ml" 78 1894 1915 "graph.ml" 78 1894 1916
+type(
+  'g
+)
+"graph.ml" 78 1894 1917 "graph.ml" 78 1894 1919
+type(
+  unit
+)
+"graph.ml" 78 1894 1922 "graph.ml" 78 1894 1927
+type(
+  unit -> key
+)
+ident(
+  int_ref N.gen "graph.ml" 10 189 191 "graph.ml" 10 189 213
+)
+"graph.ml" 78 1894 1928 "graph.ml" 78 1894 1930
+type(
+  unit
+)
+"graph.ml" 78 1894 1922 "graph.ml" 78 1894 1930
+call(
+  tail
+)
+type(
+  key
+)
+"graph.ml" 78 1894 1917 "graph.ml" 78 1894 1930
+type(
+  unit -> key
+)
+"graph.ml" 78 1894 1915 "graph.ml" 78 1894 1930
+type(
+  'g -> unit -> key
+)
+"graph.ml" 79 1931 1941 "graph.ml" 79 1931 1956
+type(
+  'h -> 'i -> unit -> 'j option
+)
+ident(
+  def gen_key_between "graph.ml" 80 1971 1977 "graph.ml" 82 2062 2069
+)
+"graph.ml" 79 1931 1957 "graph.ml" 79 1931 1958
+type(
+  'h
+)
+"graph.ml" 79 1931 1959 "graph.ml" 79 1931 1960
+type(
+  'i
+)
+"graph.ml" 79 1931 1961 "graph.ml" 79 1931 1963
+type(
+  unit
+)
+"graph.ml" 79 1931 1966 "graph.ml" 79 1931 1970
+type(
+  'j option
+)
+"graph.ml" 79 1931 1961 "graph.ml" 79 1931 1970
+type(
+  unit -> 'j option
+)
+"graph.ml" 79 1931 1959 "graph.ml" 79 1931 1970
+type(
+  'i -> unit -> 'j option
+)
+"graph.ml" 79 1931 1957 "graph.ml" 79 1931 1970
+type(
+  'h -> 'i -> unit -> 'j option
+)
+"graph.ml" 80 1971 1981 "graph.ml" 80 1971 1990
+type(
+  unit -> value
+)
+ident(
+  def gen_value "graph.ml" 81 2014 2020 "graph.ml" 82 2062 2069
+)
+"graph.ml" 80 1971 1991 "graph.ml" 80 1971 1993
+type(
+  unit
+)
+"graph.ml" 80 1971 1996 "graph.ml" 80 1971 2013
+type(
+  value
+)
+ident(
+  ext_ref NeighborSet.empty
+)
+"graph.ml" 80 1971 1991 "graph.ml" 80 1971 2013
+type(
+  unit -> value
+)
+"graph.ml" 81 2014 2024 "graph.ml" 81 2014 2032
+type(
+  unit -> key * value
+)
+ident(
+  def gen_pair "graph.ml" 81 2014 2061 "graph.ml" 82 2062 2069
+)
+"graph.ml" 81 2014 2033 "graph.ml" 81 2014 2035
+type(
+  unit
+)
+"graph.ml" 81 2014 2039 "graph.ml" 81 2014 2046
+type(
+  unit -> key
+)
+ident(
+  int_ref gen_key "graph.ml" 75 1798 1808 "graph.ml" 75 1798 1815
+)
+"graph.ml" 81 2014 2046 "graph.ml" 81 2014 2048
+type(
+  unit
+)
+"graph.ml" 81 2014 2039 "graph.ml" 81 2014 2048
+call(
+  stack
+)
+type(
+  key
+)
+"graph.ml" 81 2014 2049 "graph.ml" 81 2014 2058
+type(
+  unit -> value
+)
+ident(
+  int_ref gen_value "graph.ml" 80 1971 1981 "graph.ml" 80 1971 1990
+)
+"graph.ml" 81 2014 2058 "graph.ml" 81 2014 2060
+type(
+  unit
+)
+"graph.ml" 81 2014 2049 "graph.ml" 81 2014 2060
+call(
+  stack
+)
+type(
+  value
+)
+"graph.ml" 81 2014 2039 "graph.ml" 81 2014 2060
+type(
+  key * value
+)
+"graph.ml" 81 2014 2033 "graph.ml" 81 2014 2061
+type(
+  unit -> key * value
+)
+"graph.ml" 68 1566 1586 "graph.ml" 82 2062 2070
+call(
+  stack
+)
+"graph.ml" 88 2158 2168 "graph.ml" 88 2158 2175
+type(
+  key -> key -> Ordering.t
+)
+ident(
+  def compare "graph.ml" 89 2190 2196 "graph.ml" 98 2511 2518
+)
+"graph.ml" 88 2158 2178 "graph.ml" 88 2158 2189
+type(
+  key -> key -> Ordering.t
+)
+ident(
+  ext_ref Order.int_compare
+)
+"graph.ml" 89 2190 2200 "graph.ml" 89 2190 2213
+type(
+  key -> string
+)
+ident(
+  def string_of_key "graph.ml" 90 2230 2236 "graph.ml" 98 2511 2518
+)
+"graph.ml" 89 2190 2216 "graph.ml" 89 2190 2229
+type(
+  key -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"graph.ml" 90 2230 2240 "graph.ml" 90 2230 2255
+type(
+  value -> string
+)
+ident(
+  def string_of_value "graph.ml" 91 2275 2281 "graph.ml" 98 2511 2518
+)
+"graph.ml" 90 2230 2258 "graph.ml" 90 2230 2274
+type(
+  value -> string
+)
+ident(
+  int_ref N.string_of_node "graph.ml" 9 151 153 "graph.ml" 9 151 188
+)
+"graph.ml" 91 2275 2285 "graph.ml" 91 2275 2292
+type(
+  unit -> key
+)
+ident(
+  def gen_key "graph.ml" 92 2300 2306 "graph.ml" 98 2511 2518
+)
+"graph.ml" 91 2275 2293 "graph.ml" 91 2275 2295
+type(
+  unit
+)
+"graph.ml" 91 2275 2298 "graph.ml" 91 2275 2299
+type(
+  key
+)
+"graph.ml" 91 2275 2293 "graph.ml" 91 2275 2299
+type(
+  unit -> key
+)
+"graph.ml" 92 2300 2310 "graph.ml" 92 2300 2324
+type(
+  unit -> key
+)
+ident(
+  def gen_key_random "graph.ml" 93 2332 2338 "graph.ml" 98 2511 2518
+)
+"graph.ml" 92 2300 2325 "graph.ml" 92 2300 2327
+type(
+  unit
+)
+"graph.ml" 92 2300 2330 "graph.ml" 92 2300 2331
+type(
+  key
+)
+"graph.ml" 92 2300 2325 "graph.ml" 92 2300 2331
+type(
+  unit -> key
+)
+"graph.ml" 93 2332 2342 "graph.ml" 93 2332 2352
+type(
+  'k -> unit -> key
+)
+ident(
+  def gen_key_gt "graph.ml" 94 2362 2368 "graph.ml" 98 2511 2518
+)
+"graph.ml" 93 2332 2353 "graph.ml" 93 2332 2354
+type(
+  'k
+)
+"graph.ml" 93 2332 2355 "graph.ml" 93 2332 2357
+type(
+  unit
+)
+"graph.ml" 93 2332 2360 "graph.ml" 93 2332 2361
+type(
+  key
+)
+"graph.ml" 93 2332 2355 "graph.ml" 93 2332 2361
+type(
+  unit -> key
+)
+"graph.ml" 93 2332 2353 "graph.ml" 93 2332 2361
+type(
+  'k -> unit -> key
+)
+"graph.ml" 94 2362 2372 "graph.ml" 94 2362 2382
+type(
+  'l -> unit -> key
+)
+ident(
+  def gen_key_lt "graph.ml" 95 2395 2401 "graph.ml" 98 2511 2518
+)
+"graph.ml" 94 2362 2383 "graph.ml" 94 2362 2384
+type(
+  'l
+)
+"graph.ml" 94 2362 2385 "graph.ml" 94 2362 2387
+type(
+  unit
+)
+"graph.ml" 94 2362 2391 "graph.ml" 94 2362 2393
+type(
+  key
+)
+"graph.ml" 94 2362 2385 "graph.ml" 94 2362 2394
+type(
+  unit -> key
+)
+"graph.ml" 94 2362 2383 "graph.ml" 94 2362 2394
+type(
+  'l -> unit -> key
+)
+"graph.ml" 95 2395 2405 "graph.ml" 95 2395 2420
+type(
+  'm -> 'n -> unit -> 'o option
+)
+ident(
+  def gen_key_between "graph.ml" 96 2435 2441 "graph.ml" 98 2511 2518
+)
+"graph.ml" 95 2395 2421 "graph.ml" 95 2395 2422
+type(
+  'm
+)
+"graph.ml" 95 2395 2423 "graph.ml" 95 2395 2424
+type(
+  'n
+)
+"graph.ml" 95 2395 2425 "graph.ml" 95 2395 2427
+type(
+  unit
+)
+"graph.ml" 95 2395 2430 "graph.ml" 95 2395 2434
+type(
+  'o option
+)
+"graph.ml" 95 2395 2425 "graph.ml" 95 2395 2434
+type(
+  unit -> 'o option
+)
+"graph.ml" 95 2395 2423 "graph.ml" 95 2395 2434
+type(
+  'n -> unit -> 'o option
+)
+"graph.ml" 95 2395 2421 "graph.ml" 95 2395 2434
+type(
+  'm -> 'n -> unit -> 'o option
+)
+"graph.ml" 96 2435 2445 "graph.ml" 96 2435 2454
+type(
+  unit -> value
+)
+ident(
+  def gen_value "graph.ml" 97 2463 2469 "graph.ml" 98 2511 2518
+)
+"graph.ml" 96 2435 2457 "graph.ml" 96 2435 2462
+type(
+  unit -> value
+)
+ident(
+  int_ref N.gen "graph.ml" 10 189 191 "graph.ml" 10 189 213
+)
+"graph.ml" 97 2463 2473 "graph.ml" 97 2463 2481
+type(
+  unit -> key * value
+)
+ident(
+  def gen_pair "graph.ml" 97 2463 2510 "graph.ml" 98 2511 2518
+)
+"graph.ml" 97 2463 2482 "graph.ml" 97 2463 2484
+type(
+  unit
+)
+"graph.ml" 97 2463 2488 "graph.ml" 97 2463 2495
+type(
+  unit -> key
+)
+ident(
+  int_ref gen_key "graph.ml" 91 2275 2285 "graph.ml" 91 2275 2292
+)
+"graph.ml" 97 2463 2495 "graph.ml" 97 2463 2497
+type(
+  unit
+)
+"graph.ml" 97 2463 2488 "graph.ml" 97 2463 2497
+call(
+  stack
+)
+type(
+  key
+)
+"graph.ml" 97 2463 2498 "graph.ml" 97 2463 2507
+type(
+  unit -> value
+)
+ident(
+  int_ref gen_value "graph.ml" 96 2435 2445 "graph.ml" 96 2435 2454
+)
+"graph.ml" 97 2463 2507 "graph.ml" 97 2463 2509
+type(
+  unit
+)
+"graph.ml" 97 2463 2498 "graph.ml" 97 2463 2509
+call(
+  stack
+)
+type(
+  value
+)
+"graph.ml" 97 2463 2488 "graph.ml" 97 2463 2509
+type(
+  key * value
+)
+"graph.ml" 97 2463 2482 "graph.ml" 97 2463 2510
+type(
+  unit -> key * value
+)
+"graph.ml" 84 2072 2091 "graph.ml" 98 2511 2519
+call(
+  stack
+)
+"graph.ml" 104 2647 2652 "graph.ml" 104 2647 2657
+type(
+  graph
+)
+ident(
+  def empty "graph.ml" 108 2792 2793 "graph.ml" 156 4418 4421
+)
+"graph.ml" 104 2647 2678 "graph.ml" 104 2647 2692
+type(
+  EdgeDict.dict
+)
+ident(
+  ext_ref EdgeDict.empty
+)
+"graph.ml" 105 2694 2729 "graph.ml" 105 2694 2730
+type(
+  int
+)
+"graph.ml" 106 2732 2775 "graph.ml" 106 2732 2788
+type(
+  IntNode.dict
+)
+ident(
+  ext_ref IntNode.empty
+)
+"graph.ml" 104 2647 2668 "graph.ml" 106 2732 2790
+type(
+  graph
+)
+type(
+  graph
+)
+"graph.ml" 108 2792 2797 "graph.ml" 108 2792 2805
+type(
+  graph -> node -> graph
+)
+ident(
+  def add_node "graph.ml" 116 3047 3049 "graph.ml" 156 4418 4421
+)
+"graph.ml" 108 2792 2806 "graph.ml" 108 2792 2807
+type(
+  graph
+)
+ident(
+  def g "graph.ml" 108 2792 2808 "graph.ml" 114 2986 3045
+)
+"graph.ml" 108 2792 2808 "graph.ml" 108 2792 2809
+type(
+  node
+)
+ident(
+  def n "graph.ml" 109 2812 2815 "graph.ml" 114 2986 3045
+)
+"graph.ml" 109 2812 2818 "graph.ml" 109 2812 2833
+type(
+  EdgeDict.dict -> node -> bool
+)
+ident(
+  ext_ref EdgeDict.member
+)
+"graph.ml" 109 2812 2834 "graph.ml" 109 2812 2835
+type(
+  graph
+)
+ident(
+  int_ref g "graph.ml" 108 2792 2806 "graph.ml" 108 2792 2807
+)
+"graph.ml" 109 2812 2834 "graph.ml" 109 2812 2841
+type(
+  EdgeDict.dict
+)
+"graph.ml" 109 2812 2842 "graph.ml" 109 2812 2843
+type(
+  node
+)
+ident(
+  int_ref n "graph.ml" 108 2792 2808 "graph.ml" 108 2792 2809
+)
+"graph.ml" 109 2812 2818 "graph.ml" 109 2812 2843
+call(
+  stack
+)
+type(
+  bool
+)
+"graph.ml" 109 2812 2849 "graph.ml" 109 2812 2850
+type(
+  graph
+)
+ident(
+  int_ref g "graph.ml" 108 2792 2806 "graph.ml" 108 2792 2807
+)
+"graph.ml" 111 2859 2874 "graph.ml" 111 2859 2889
+type(
+  EdgeDict.dict -> node -> EdgeDict.value -> EdgeDict.dict
+)
+ident(
+  ext_ref EdgeDict.insert
+)
+"graph.ml" 111 2859 2890 "graph.ml" 111 2859 2891
+type(
+  graph
+)
+ident(
+  int_ref g "graph.ml" 108 2792 2806 "graph.ml" 108 2792 2807
+)
+"graph.ml" 111 2859 2890 "graph.ml" 111 2859 2897
+type(
+  EdgeDict.dict
+)
+"graph.ml" 111 2859 2898 "graph.ml" 111 2859 2899
+type(
+  node
+)
+ident(
+  int_ref n "graph.ml" 108 2792 2808 "graph.ml" 108 2792 2809
+)
+"graph.ml" 111 2859 2901 "graph.ml" 111 2859 2918
+type(
+  EdgeDict.value
+)
+ident(
+  ext_ref NeighborSet.empty
+)
+"graph.ml" 111 2859 2874 "graph.ml" 111 2859 2919
+call(
+  stack
+)
+type(
+  EdgeDict.dict
+)
+"graph.ml" 112 2922 2941 "graph.ml" 112 2922 2942
+type(
+  graph
+)
+ident(
+  int_ref g "graph.ml" 108 2792 2806 "graph.ml" 108 2792 2807
+)
+"graph.ml" 112 2922 2941 "graph.ml" 112 2922 2952
+type(
+  int
+)
+"graph.ml" 112 2922 2953 "graph.ml" 112 2922 2954
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"graph.ml" 112 2922 2955 "graph.ml" 112 2922 2956
+type(
+  int
+)
+"graph.ml" 112 2922 2941 "graph.ml" 112 2922 2956
+type(
+  int
+)
+"graph.ml" 114 2986 2995 "graph.ml" 114 2986 3009
+type(
+  IntNode.dict -> int -> node -> IntNode.dict
+)
+ident(
+  ext_ref IntNode.insert
+)
+"graph.ml" 114 2986 3010 "graph.ml" 114 2986 3011
+type(
+  graph
+)
+ident(
+  int_ref g "graph.ml" 108 2792 2806 "graph.ml" 108 2792 2807
+)
+"graph.ml" 114 2986 3010 "graph.ml" 114 2986 3029
+type(
+  IntNode.dict
+)
+"graph.ml" 114 2986 3030 "graph.ml" 114 2986 3031
+type(
+  graph
+)
+ident(
+  int_ref g "graph.ml" 108 2792 2806 "graph.ml" 108 2792 2807
+)
+"graph.ml" 114 2986 3030 "graph.ml" 114 2986 3041
+type(
+  int
+)
+"graph.ml" 114 2986 3042 "graph.ml" 114 2986 3043
+type(
+  node
+)
+ident(
+  int_ref n "graph.ml" 108 2792 2808 "graph.ml" 108 2792 2809
+)
+"graph.ml" 114 2986 2995 "graph.ml" 114 2986 3043
+call(
+  stack
+)
+type(
+  IntNode.dict
+)
+"graph.ml" 111 2859 2864 "graph.ml" 114 2986 3045
+type(
+  graph
+)
+"graph.ml" 109 2812 2815 "graph.ml" 114 2986 3045
+type(
+  graph
+)
+"graph.ml" 108 2792 2808 "graph.ml" 114 2986 3045
+type(
+  node -> graph
+)
+"graph.ml" 108 2792 2806 "graph.ml" 114 2986 3045
+type(
+  graph -> node -> graph
+)
+"graph.ml" 116 3047 3053 "graph.ml" 116 3047 3058
+type(
+  graph -> node list
+)
+ident(
+  def nodes "graph.ml" 119 3115 3117 "graph.ml" 156 4418 4421
+)
+"graph.ml" 116 3047 3059 "graph.ml" 116 3047 3060
+type(
+  graph
+)
+ident(
+  def g "graph.ml" 117 3063 3067 "graph.ml" 117 3063 3113
+)
+"graph.ml" 117 3063 3067 "graph.ml" 117 3063 3080
+type(
+  (node -> EdgeDict.value -> node list -> node list) ->
+  node list -> EdgeDict.dict -> node list
+)
+ident(
+  ext_ref EdgeDict.fold
+)
+"graph.ml" 117 3063 3086 "graph.ml" 117 3063 3087
+type(
+  node
+)
+ident(
+  def k "graph.ml" 117 3063 3088 "graph.ml" 117 3063 3101
+)
+"graph.ml" 117 3063 3088 "graph.ml" 117 3063 3089
+type(
+  EdgeDict.value
+)
+"graph.ml" 117 3063 3090 "graph.ml" 117 3063 3091
+type(
+  node list
+)
+ident(
+  def r "graph.ml" 117 3063 3095 "graph.ml" 117 3063 3101
+)
+"graph.ml" 117 3063 3095 "graph.ml" 117 3063 3096
+type(
+  node
+)
+ident(
+  int_ref k "graph.ml" 117 3063 3086 "graph.ml" 117 3063 3087
+)
+"graph.ml" 117 3063 3100 "graph.ml" 117 3063 3101
+type(
+  node list
+)
+ident(
+  int_ref r "graph.ml" 117 3063 3090 "graph.ml" 117 3063 3091
+)
+"graph.ml" 117 3063 3095 "graph.ml" 117 3063 3101
+type(
+  node list
+)
+"graph.ml" 117 3063 3090 "graph.ml" 117 3063 3101
+type(
+  node list -> node list
+)
+"graph.ml" 117 3063 3088 "graph.ml" 117 3063 3101
+type(
+  EdgeDict.value -> node list -> node list
+)
+"graph.ml" 117 3063 3086 "graph.ml" 117 3063 3101
+type(
+  node -> EdgeDict.value -> node list -> node list
+)
+"graph.ml" 117 3063 3103 "graph.ml" 117 3063 3105
+type(
+  node list
+)
+"graph.ml" 117 3063 3106 "graph.ml" 117 3063 3107
+type(
+  graph
+)
+ident(
+  int_ref g "graph.ml" 116 3047 3059 "graph.ml" 116 3047 3060
+)
+"graph.ml" 117 3063 3106 "graph.ml" 117 3063 3113
+type(
+  EdgeDict.dict
+)
+"graph.ml" 117 3063 3067 "graph.ml" 117 3063 3113
+call(
+  tail
+)
+type(
+  node list
+)
+"graph.ml" 116 3047 3059 "graph.ml" 117 3063 3113
+type(
+  graph -> node list
+)
+"graph.ml" 119 3115 3121 "graph.ml" 119 3115 3129
+type(
+  graph -> bool
+)
+ident(
+  def is_empty "graph.ml" 122 3208 3210 "graph.ml" 156 4418 4421
+)
+"graph.ml" 119 3115 3130 "graph.ml" 119 3115 3131
+type(
+  graph
+)
+ident(
+  def g "graph.ml" 119 3115 3135 "graph.ml" 119 3115 3150
+)
+"graph.ml" 119 3115 3135 "graph.ml" 119 3115 3136
+type(
+  graph
+)
+ident(
+  int_ref g "graph.ml" 119 3115 3130 "graph.ml" 119 3115 3131
+)
+"graph.ml" 119 3115 3135 "graph.ml" 119 3115 3146
+type(
+  int
+)
+"graph.ml" 119 3115 3147 "graph.ml" 119 3115 3148
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"graph.ml" 119 3115 3149 "graph.ml" 119 3115 3150
+type(
+  int
+)
+"graph.ml" 119 3115 3135 "graph.ml" 119 3115 3150
+type(
+  bool
+)
+"graph.ml" 119 3115 3130 "graph.ml" 119 3115 3151
+type(
+  graph -> bool
+)
+"graph.ml" 122 3208 3214 "graph.ml" 122 3208 3222
+type(
+  graph -> node -> node -> graph
+)
+ident(
+  def add_edge "graph.ml" 133 3663 3665 "graph.ml" 156 4418 4421
+)
+"graph.ml" 122 3208 3223 "graph.ml" 122 3208 3224
+type(
+  graph
+)
+ident(
+  def g "graph.ml" 122 3208 3225 "graph.ml" 131 3613 3661
+)
+"graph.ml" 122 3208 3225 "graph.ml" 122 3208 3228
+type(
+  node
+)
+ident(
+  def src "graph.ml" 122 3208 3229 "graph.ml" 131 3613 3661
+)
+"graph.ml" 122 3208 3229 "graph.ml" 122 3208 3232
+type(
+  node
+)
+ident(
+  def dst "graph.ml" 123 3235 3239 "graph.ml" 131 3613 3661
+)
+"graph.ml" 123 3235 3243 "graph.ml" 123 3235 3256
+type(
+  EdgeDict.value
+)
+ident(
+  def new_neighbors "graph.ml" 128 3473 3477 "graph.ml" 131 3613 3661
+)
+"graph.ml" 123 3235 3265 "graph.ml" 123 3235 3280
+type(
+  EdgeDict.dict -> node -> EdgeDict.value option
+)
+ident(
+  ext_ref EdgeDict.lookup
+)
+"graph.ml" 123 3235 3281 "graph.ml" 123 3235 3282
+type(
+  graph
+)
+ident(
+  int_ref g "graph.ml" 122 3208 3223 "graph.ml" 122 3208 3224
+)
+"graph.ml" 123 3235 3281 "graph.ml" 123 3235 3288
+type(
+  EdgeDict.dict
+)
+"graph.ml" 123 3235 3289 "graph.ml" 123 3235 3292
+type(
+  node
+)
+ident(
+  int_ref src "graph.ml" 122 3208 3225 "graph.ml" 122 3208 3228
+)
+"graph.ml" 123 3235 3265 "graph.ml" 123 3235 3292
+call(
+  stack
+)
+type(
+  EdgeDict.value option
+)
+"graph.ml" 124 3298 3306 "graph.ml" 124 3298 3310
+type(
+  EdgeDict.value option
+)
+"graph.ml" 124 3298 3314 "graph.ml" 124 3298 3332
+type(
+  node -> EdgeDict.value -> EdgeDict.value
+)
+ident(
+  ext_ref NeighborSet.insert
+)
+"graph.ml" 124 3298 3333 "graph.ml" 124 3298 3336
+type(
+  node
+)
+ident(
+  int_ref dst "graph.ml" 122 3208 3229 "graph.ml" 122 3208 3232
+)
+"graph.ml" 124 3298 3337 "graph.ml" 124 3298 3354
+type(
+  EdgeDict.value
+)
+ident(
+  ext_ref NeighborSet.empty
+)
+"graph.ml" 124 3298 3314 "graph.ml" 124 3298 3354
+call(
+  stack
+)
+type(
+  EdgeDict.value
+)
+"graph.ml" 125 3355 3368 "graph.ml" 125 3355 3369
+type(
+  EdgeDict.value
+)
+ident(
+  def s "graph.ml" 125 3355 3373 "graph.ml" 125 3355 3397
+)
+"graph.ml" 125 3355 3363 "graph.ml" 125 3355 3369
+type(
+  EdgeDict.value option
+)
+"graph.ml" 125 3355 3373 "graph.ml" 125 3355 3391
+type(
+  node -> EdgeDict.value -> EdgeDict.value
+)
+ident(
+  ext_ref NeighborSet.insert
+)
+"graph.ml" 125 3355 3392 "graph.ml" 125 3355 3395
+type(
+  node
+)
+ident(
+  int_ref dst "graph.ml" 122 3208 3229 "graph.ml" 122 3208 3232
+)
+"graph.ml" 125 3355 3396 "graph.ml" 125 3355 3397
+type(
+  EdgeDict.value
+)
+ident(
+  int_ref s "graph.ml" 125 3355 3368 "graph.ml" 125 3355 3369
+)
+"graph.ml" 125 3355 3373 "graph.ml" 125 3355 3397
+call(
+  stack
+)
+type(
+  EdgeDict.value
+)
+"graph.ml" 123 3235 3259 "graph.ml" 125 3355 3397
+type(
+  EdgeDict.value
+)
+"graph.ml" 128 3473 3481 "graph.ml" 128 3473 3483
+type(
+  graph
+)
+ident(
+  def g' "graph.ml" 129 3521 3527 "graph.ml" 131 3613 3661
+)
+"graph.ml" 128 3473 3487 "graph.ml" 128 3473 3495
+type(
+  graph -> node -> graph
+)
+ident(
+  int_ref add_node "graph.ml" 108 2792 2797 "graph.ml" 108 2792 2805
+)
+"graph.ml" 128 3473 3497 "graph.ml" 128 3473 3505
+type(
+  graph -> node -> graph
+)
+ident(
+  int_ref add_node "graph.ml" 108 2792 2797 "graph.ml" 108 2792 2805
+)
+"graph.ml" 128 3473 3506 "graph.ml" 128 3473 3507
+type(
+  graph
+)
+ident(
+  int_ref g "graph.ml" 122 3208 3223 "graph.ml" 122 3208 3224
+)
+"graph.ml" 128 3473 3508 "graph.ml" 128 3473 3511
+type(
+  node
+)
+ident(
+  int_ref src "graph.ml" 122 3208 3225 "graph.ml" 122 3208 3228
+)
+"graph.ml" 128 3473 3497 "graph.ml" 128 3473 3511
+call(
+  stack
+)
+type(
+  graph
+)
+"graph.ml" 128 3473 3513 "graph.ml" 128 3473 3516
+type(
+  node
+)
+ident(
+  int_ref dst "graph.ml" 122 3208 3229 "graph.ml" 122 3208 3232
+)
+"graph.ml" 128 3473 3487 "graph.ml" 128 3473 3516
+call(
+  stack
+)
+type(
+  graph
+)
+"graph.ml" 129 3521 3536 "graph.ml" 129 3521 3551
+type(
+  EdgeDict.dict -> node -> EdgeDict.value -> EdgeDict.dict
+)
+ident(
+  ext_ref EdgeDict.insert
+)
+"graph.ml" 129 3521 3552 "graph.ml" 129 3521 3554
+type(
+  graph
+)
+ident(
+  int_ref g' "graph.ml" 128 3473 3481 "graph.ml" 128 3473 3483
+)
+"graph.ml" 129 3521 3552 "graph.ml" 129 3521 3560
+type(
+  EdgeDict.dict
+)
+"graph.ml" 129 3521 3561 "graph.ml" 129 3521 3564
+type(
+  node
+)
+ident(
+  int_ref src "graph.ml" 122 3208 3225 "graph.ml" 122 3208 3228
+)
+"graph.ml" 129 3521 3565 "graph.ml" 129 3521 3578
+type(
+  EdgeDict.value
+)
+ident(
+  int_ref new_neighbors "graph.ml" 123 3235 3243 "graph.ml" 123 3235 3256
+)
+"graph.ml" 129 3521 3536 "graph.ml" 129 3521 3578
+call(
+  stack
+)
+type(
+  EdgeDict.dict
+)
+"graph.ml" 130 3580 3599 "graph.ml" 130 3580 3601
+type(
+  graph
+)
+ident(
+  int_ref g' "graph.ml" 128 3473 3481 "graph.ml" 128 3473 3483
+)
+"graph.ml" 130 3580 3599 "graph.ml" 130 3580 3611
+type(
+  int
+)
+"graph.ml" 131 3613 3640 "graph.ml" 131 3613 3642
+type(
+  graph
+)
+ident(
+  int_ref g' "graph.ml" 128 3473 3481 "graph.ml" 128 3473 3483
+)
+"graph.ml" 131 3613 3640 "graph.ml" 131 3613 3660
+type(
+  IntNode.dict
+)
+"graph.ml" 129 3521 3527 "graph.ml" 131 3613 3661
+type(
+  graph
+)
+"graph.ml" 128 3473 3477 "graph.ml" 131 3613 3661
+type(
+  graph
+)
+"graph.ml" 123 3235 3239 "graph.ml" 131 3613 3661
+type(
+  graph
+)
+"graph.ml" 122 3208 3229 "graph.ml" 131 3613 3661
+type(
+  node -> graph
+)
+"graph.ml" 122 3208 3225 "graph.ml" 131 3613 3661
+type(
+  node -> node -> graph
+)
+"graph.ml" 122 3208 3223 "graph.ml" 131 3613 3661
+type(
+  graph -> node -> node -> graph
+)
+"graph.ml" 133 3663 3669 "graph.ml" 133 3663 3678
+type(
+  graph -> node -> node list option
+)
+ident(
+  def neighbors "graph.ml" 138 3842 3844 "graph.ml" 156 4418 4421
+)
+"graph.ml" 133 3663 3679 "graph.ml" 133 3663 3680
+type(
+  graph
+)
+ident(
+  def g "graph.ml" 133 3663 3681 "graph.ml" 136 3766 3840
+)
+"graph.ml" 133 3663 3681 "graph.ml" 133 3663 3682
+type(
+  node
+)
+ident(
+  def n "graph.ml" 133 3663 3683 "graph.ml" 136 3766 3840
+)
+"graph.ml" 134 3704 3714 "graph.ml" 134 3704 3729
+type(
+  EdgeDict.dict -> node -> EdgeDict.value option
+)
+ident(
+  ext_ref EdgeDict.lookup
+)
+"graph.ml" 134 3704 3730 "graph.ml" 134 3704 3731
+type(
+  graph
+)
+ident(
+  int_ref g "graph.ml" 133 3663 3679 "graph.ml" 133 3663 3680
+)
+"graph.ml" 134 3704 3730 "graph.ml" 134 3704 3737
+type(
+  EdgeDict.dict
+)
+"graph.ml" 134 3704 3738 "graph.ml" 134 3704 3739
+type(
+  node
+)
+ident(
+  int_ref n "graph.ml" 133 3663 3681 "graph.ml" 133 3663 3682
+)
+"graph.ml" 134 3704 3714 "graph.ml" 134 3704 3739
+call(
+  stack
+)
+type(
+  EdgeDict.value option
+)
+"graph.ml" 135 3745 3753 "graph.ml" 135 3745 3757
+type(
+  EdgeDict.value option
+)
+"graph.ml" 135 3745 3761 "graph.ml" 135 3745 3765
+type(
+  node list option
+)
+"graph.ml" 136 3766 3779 "graph.ml" 136 3766 3780
+type(
+  EdgeDict.value
+)
+ident(
+  def s "graph.ml" 136 3766 3784 "graph.ml" 136 3766 3840
+)
+"graph.ml" 136 3766 3774 "graph.ml" 136 3766 3780
+type(
+  EdgeDict.value option
+)
+"graph.ml" 136 3766 3790 "graph.ml" 136 3766 3806
+type(
+  (node -> node list -> node list) ->
+  node list -> EdgeDict.value -> node list
+)
+ident(
+  ext_ref NeighborSet.fold
+)
+"graph.ml" 136 3766 3812 "graph.ml" 136 3766 3817
+type(
+  node
+)
+ident(
+  def neigh "graph.ml" 136 3766 3818 "graph.ml" 136 3766 3833
+)
+"graph.ml" 136 3766 3818 "graph.ml" 136 3766 3819
+type(
+  node list
+)
+ident(
+  def r "graph.ml" 136 3766 3823 "graph.ml" 136 3766 3833
+)
+"graph.ml" 136 3766 3823 "graph.ml" 136 3766 3828
+type(
+  node
+)
+ident(
+  int_ref neigh "graph.ml" 136 3766 3812 "graph.ml" 136 3766 3817
+)
+"graph.ml" 136 3766 3832 "graph.ml" 136 3766 3833
+type(
+  node list
+)
+ident(
+  int_ref r "graph.ml" 136 3766 3818 "graph.ml" 136 3766 3819
+)
+"graph.ml" 136 3766 3823 "graph.ml" 136 3766 3833
+type(
+  node list
+)
+"graph.ml" 136 3766 3818 "graph.ml" 136 3766 3833
+type(
+  node list -> node list
+)
+"graph.ml" 136 3766 3812 "graph.ml" 136 3766 3833
+type(
+  node -> node list -> node list
+)
+"graph.ml" 136 3766 3835 "graph.ml" 136 3766 3837
+type(
+  node list
+)
+"graph.ml" 136 3766 3838 "graph.ml" 136 3766 3839
+type(
+  EdgeDict.value
+)
+ident(
+  int_ref s "graph.ml" 136 3766 3779 "graph.ml" 136 3766 3780
+)
+"graph.ml" 136 3766 3790 "graph.ml" 136 3766 3839
+call(
+  stack
+)
+type(
+  node list
+)
+"graph.ml" 136 3766 3784 "graph.ml" 136 3766 3840
+type(
+  node list option
+)
+"graph.ml" 134 3704 3708 "graph.ml" 136 3766 3840
+type(
+  node list option
+)
+type(
+  node list option
+)
+"graph.ml" 133 3663 3681 "graph.ml" 136 3766 3840
+type(
+  node -> node list option
+)
+"graph.ml" 133 3663 3679 "graph.ml" 136 3766 3840
+type(
+  graph -> node -> node list option
+)
+"graph.ml" 138 3842 3848 "graph.ml" 138 3842 3862
+type(
+  graph -> node -> (node * node) list option
+)
+ident(
+  def outgoing_edges "graph.ml" 144 4087 4089 "graph.ml" 156 4418 4421
+)
+"graph.ml" 138 3842 3863 "graph.ml" 138 3842 3864
+type(
+  graph
+)
+ident(
+  def g "graph.ml" 138 3842 3865 "graph.ml" 142 4018 4085
+)
+"graph.ml" 138 3842 3865 "graph.ml" 138 3842 3868
+type(
+  node
+)
+ident(
+  def src "graph.ml" 138 3842 3869 "graph.ml" 142 4018 4085
+)
+"graph.ml" 139 3899 3909 "graph.ml" 139 3899 3924
+type(
+  EdgeDict.dict -> node -> EdgeDict.value option
+)
+ident(
+  ext_ref EdgeDict.lookup
+)
+"graph.ml" 139 3899 3925 "graph.ml" 139 3899 3926
+type(
+  graph
+)
+ident(
+  int_ref g "graph.ml" 138 3842 3863 "graph.ml" 138 3842 3864
+)
+"graph.ml" 139 3899 3925 "graph.ml" 139 3899 3932
+type(
+  EdgeDict.dict
+)
+"graph.ml" 139 3899 3933 "graph.ml" 139 3899 3936
+type(
+  node
+)
+ident(
+  int_ref src "graph.ml" 138 3842 3865 "graph.ml" 138 3842 3868
+)
+"graph.ml" 139 3899 3909 "graph.ml" 139 3899 3936
+call(
+  stack
+)
+type(
+  EdgeDict.value option
+)
+"graph.ml" 140 3942 3950 "graph.ml" 140 3942 3954
+type(
+  EdgeDict.value option
+)
+"graph.ml" 140 3942 3958 "graph.ml" 140 3942 3962
+type(
+  (node * node) list option
+)
+"graph.ml" 141 3963 3976 "graph.ml" 141 3963 3977
+type(
+  EdgeDict.value
+)
+ident(
+  def s "graph.ml" 141 3963 3981 "graph.ml" 142 4018 4085
+)
+"graph.ml" 141 3963 3971 "graph.ml" 141 3963 3977
+type(
+  EdgeDict.value option
+)
+"graph.ml" 141 3963 3987 "graph.ml" 141 3963 4003
+type(
+  (node -> (node * node) list -> (node * node) list) ->
+  (node * node) list -> EdgeDict.value -> (node * node) list
+)
+ident(
+  ext_ref NeighborSet.fold
+)
+"graph.ml" 141 3963 4009 "graph.ml" 141 3963 4012
+type(
+  node
+)
+ident(
+  def dst "graph.ml" 141 3963 4013 "graph.ml" 142 4018 4078
+)
+"graph.ml" 141 3963 4013 "graph.ml" 141 3963 4014
+type(
+  (node * node) list
+)
+ident(
+  def r "graph.ml" 142 4018 4063 "graph.ml" 142 4018 4078
+)
+"graph.ml" 142 4018 4064 "graph.ml" 142 4018 4067
+type(
+  node
+)
+ident(
+  int_ref src "graph.ml" 138 3842 3865 "graph.ml" 138 3842 3868
+)
+"graph.ml" 142 4018 4069 "graph.ml" 142 4018 4072
+type(
+  node
+)
+ident(
+  int_ref dst "graph.ml" 141 3963 4009 "graph.ml" 141 3963 4012
+)
+"graph.ml" 142 4018 4064 "graph.ml" 142 4018 4072
+type(
+  node * node
+)
+"graph.ml" 142 4018 4077 "graph.ml" 142 4018 4078
+type(
+  (node * node) list
+)
+ident(
+  int_ref r "graph.ml" 141 3963 4013 "graph.ml" 141 3963 4014
+)
+"graph.ml" 142 4018 4063 "graph.ml" 142 4018 4078
+type(
+  (node * node) list
+)
+"graph.ml" 141 3963 4013 "graph.ml" 142 4018 4078
+type(
+  (node * node) list -> (node * node) list
+)
+"graph.ml" 141 3963 4009 "graph.ml" 142 4018 4078
+type(
+  node -> (node * node) list -> (node * node) list
+)
+"graph.ml" 142 4018 4080 "graph.ml" 142 4018 4082
+type(
+  (node * node) list
+)
+"graph.ml" 142 4018 4083 "graph.ml" 142 4018 4084
+type(
+  EdgeDict.value
+)
+ident(
+  int_ref s "graph.ml" 141 3963 3976 "graph.ml" 141 3963 3977
+)
+"graph.ml" 141 3963 3987 "graph.ml" 142 4018 4084
+call(
+  stack
+)
+type(
+  (node * node) list
+)
+"graph.ml" 141 3963 3981 "graph.ml" 142 4018 4085
+type(
+  (node * node) list option
+)
+"graph.ml" 139 3899 3903 "graph.ml" 142 4018 4085
+type(
+  (node * node) list option
+)
+type(
+  (node * node) list option
+)
+"graph.ml" 138 3842 3865 "graph.ml" 142 4018 4085
+type(
+  node -> (node * node) list option
+)
+"graph.ml" 138 3842 3863 "graph.ml" 142 4018 4085
+type(
+  graph -> node -> (node * node) list option
+)
+"graph.ml" 144 4087 4093 "graph.ml" 144 4087 4101
+type(
+  graph -> node -> bool
+)
+ident(
+  def has_node "graph.ml" 149 4190 4192 "graph.ml" 156 4418 4421
+)
+"graph.ml" 144 4087 4102 "graph.ml" 144 4087 4103
+type(
+  graph
+)
+ident(
+  def g "graph.ml" 144 4087 4104 "graph.ml" 147 4171 4188
+)
+"graph.ml" 144 4087 4104 "graph.ml" 144 4087 4105
+type(
+  node
+)
+ident(
+  def n "graph.ml" 145 4108 4112 "graph.ml" 147 4171 4188
+)
+"graph.ml" 145 4108 4118 "graph.ml" 145 4108 4133
+type(
+  EdgeDict.dict -> node -> EdgeDict.value option
+)
+ident(
+  ext_ref EdgeDict.lookup
+)
+"graph.ml" 145 4108 4134 "graph.ml" 145 4108 4135
+type(
+  graph
+)
+ident(
+  int_ref g "graph.ml" 144 4087 4102 "graph.ml" 144 4087 4103
+)
+"graph.ml" 145 4108 4134 "graph.ml" 145 4108 4141
+type(
+  EdgeDict.dict
+)
+"graph.ml" 145 4108 4142 "graph.ml" 145 4108 4143
+type(
+  node
+)
+ident(
+  int_ref n "graph.ml" 144 4087 4104 "graph.ml" 144 4087 4105
+)
+"graph.ml" 145 4108 4118 "graph.ml" 145 4108 4143
+call(
+  stack
+)
+type(
+  EdgeDict.value option
+)
+"graph.ml" 146 4149 4157 "graph.ml" 146 4149 4161
+type(
+  EdgeDict.value option
+)
+"graph.ml" 146 4149 4165 "graph.ml" 146 4149 4170
+type(
+  bool
+)
+"graph.ml" 147 4171 4179 "graph.ml" 147 4171 4180
+type(
+  EdgeDict.value option
+)
+"graph.ml" 147 4171 4184 "graph.ml" 147 4171 4188
+type(
+  bool
+)
+"graph.ml" 145 4108 4112 "graph.ml" 147 4171 4188
+type(
+  bool
+)
+"graph.ml" 144 4087 4104 "graph.ml" 147 4171 4188
+type(
+  node -> bool
+)
+"graph.ml" 144 4087 4102 "graph.ml" 147 4171 4188
+type(
+  graph -> node -> bool
+)
+"graph.ml" 149 4190 4196 "graph.ml" 149 4190 4211
+type(
+  graph -> node option
+)
+ident(
+  def get_random_node "graph.ml" 154 4342 4344 "graph.ml" 156 4418 4421
+)
+"graph.ml" 149 4190 4212 "graph.ml" 149 4190 4213
+type(
+  graph
+)
+ident(
+  def g "graph.ml" 150 4216 4220 "graph.ml" 152 4296 4340
+)
+"graph.ml" 150 4216 4223 "graph.ml" 150 4216 4224
+type(
+  graph
+)
+ident(
+  int_ref g "graph.ml" 149 4190 4212 "graph.ml" 149 4190 4213
+)
+"graph.ml" 150 4216 4223 "graph.ml" 150 4216 4234
+type(
+  int
+)
+"graph.ml" 150 4216 4235 "graph.ml" 150 4216 4236
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"graph.ml" 150 4216 4237 "graph.ml" 150 4216 4238
+type(
+  int
+)
+"graph.ml" 150 4216 4223 "graph.ml" 150 4216 4238
+type(
+  bool
+)
+"graph.ml" 150 4216 4244 "graph.ml" 150 4216 4248
+type(
+  node option
+)
+"graph.ml" 151 4254 4264 "graph.ml" 151 4254 4265
+type(
+  int
+)
+ident(
+  def r "graph.ml" 152 4296 4304 "graph.ml" 152 4296 4340
+)
+"graph.ml" 151 4254 4268 "graph.ml" 151 4254 4278
+type(
+  int -> int
+)
+ident(
+  ext_ref Core.Std.Random.int
+)
+"graph.ml" 151 4254 4280 "graph.ml" 151 4254 4281
+type(
+  graph
+)
+ident(
+  int_ref g "graph.ml" 149 4190 4212 "graph.ml" 149 4190 4213
+)
+"graph.ml" 151 4254 4280 "graph.ml" 151 4254 4291
+type(
+  int
+)
+"graph.ml" 151 4254 4268 "graph.ml" 151 4254 4292
+call(
+  stack
+)
+type(
+  int
+)
+"graph.ml" 152 4296 4304 "graph.ml" 152 4296 4318
+type(
+  IntNode.dict -> int -> node option
+)
+ident(
+  ext_ref IntNode.lookup
+)
+"graph.ml" 152 4296 4319 "graph.ml" 152 4296 4320
+type(
+  graph
+)
+ident(
+  int_ref g "graph.ml" 149 4190 4212 "graph.ml" 149 4190 4213
+)
+"graph.ml" 152 4296 4319 "graph.ml" 152 4296 4338
+type(
+  IntNode.dict
+)
+"graph.ml" 152 4296 4339 "graph.ml" 152 4296 4340
+type(
+  int
+)
+ident(
+  int_ref r "graph.ml" 151 4254 4264 "graph.ml" 151 4254 4265
+)
+"graph.ml" 152 4296 4304 "graph.ml" 152 4296 4340
+call(
+  tail
+)
+type(
+  node option
+)
+"graph.ml" 151 4254 4260 "graph.ml" 152 4296 4340
+type(
+  node option
+)
+"graph.ml" 150 4216 4220 "graph.ml" 152 4296 4340
+type(
+  node option
+)
+"graph.ml" 149 4190 4212 "graph.ml" 152 4296 4340
+type(
+  graph -> node option
+)
+"graph.ml" 154 4342 4348 "graph.ml" 154 4342 4363
+type(
+  graph -> string
+)
+ident(
+  def string_of_graph "graph.ml" 155 4368 4417 "graph.ml" 156 4418 4421
+)
+"graph.ml" 154 4342 4364 "graph.ml" 154 4342 4365
+type(
+  graph
+)
+ident(
+  def g "graph.ml" 155 4368 4372 "graph.ml" 155 4368 4417
+)
+"graph.ml" 155 4368 4372 "graph.ml" 155 4368 4381
+type(
+  string
+)
+"graph.ml" 155 4368 4382 "graph.ml" 155 4368 4383
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"graph.ml" 155 4368 4385 "graph.ml" 155 4368 4408
+type(
+  EdgeDict.dict -> string
+)
+ident(
+  ext_ref EdgeDict.string_of_dict
+)
+"graph.ml" 155 4368 4409 "graph.ml" 155 4368 4410
+type(
+  graph
+)
+ident(
+  int_ref g "graph.ml" 154 4342 4364 "graph.ml" 154 4342 4365
+)
+"graph.ml" 155 4368 4409 "graph.ml" 155 4368 4416
+type(
+  EdgeDict.dict
+)
+"graph.ml" 155 4368 4385 "graph.ml" 155 4368 4416
+call(
+  stack
+)
+type(
+  string
+)
+"graph.ml" 155 4368 4372 "graph.ml" 155 4368 4417
+call(
+  tail
+)
+type(
+  string
+)
+"graph.ml" 154 4342 4364 "graph.ml" 155 4368 4417
+type(
+  graph -> string
+)
+"graph.ml" 162 4510 4532 "graph.ml" 162 4510 4539
+type(
+  node -> node -> Ordering.t
+)
+ident(
+  def compare "graph.ml" 163 4563 4581 "graph.ml" 165 4647 4666
+)
+"graph.ml" 162 4510 4542 "graph.ml" 162 4510 4562
+type(
+  node -> node -> Ordering.t
+)
+ident(
+  ext_ref Order.string_compare
+)
+"graph.ml" 163 4563 4585 "graph.ml" 163 4563 4599
+type(
+  'a -> 'a
+)
+ident(
+  def string_of_node "graph.ml" 164 4613 4631 "graph.ml" 165 4647 4666
+)
+"graph.ml" 163 4563 4606 "graph.ml" 163 4563 4607
+type(
+  'a
+)
+ident(
+  def x "graph.ml" 163 4563 4611 "graph.ml" 163 4563 4612
+)
+"graph.ml" 163 4563 4611 "graph.ml" 163 4563 4612
+type(
+  'a
+)
+ident(
+  int_ref x "graph.ml" 163 4563 4606 "graph.ml" 163 4563 4607
+)
+"graph.ml" 163 4563 4606 "graph.ml" 163 4563 4612
+type(
+  'a -> 'a
+)
+"graph.ml" 164 4613 4635 "graph.ml" 164 4613 4638
+type(
+  unit -> node
+)
+ident(
+  def gen "graph.ml" 164 4613 4646 "graph.ml" 165 4647 4666
+)
+"graph.ml" 164 4613 4639 "graph.ml" 164 4613 4641
+type(
+  unit
+)
+"graph.ml" 164 4613 4644 "graph.ml" 164 4613 4646
+type(
+  node
+)
+"graph.ml" 164 4613 4639 "graph.ml" 164 4613 4646
+type(
+  unit -> node
+)
+"graph.ml" 160 4450 4460 "graph.ml" 165 4647 4667
+call(
+  stack
+)
+"graph.ml" 166 4669 4675 "graph.ml" 166 4669 4685
+type(
+  (node * node) list -> graph
+)
+ident(
+  def from_edges "graph.ml" 167 4725 4802 "graph.ml" 168 4803 4806
+)
+"graph.ml" 166 4669 4687 "graph.ml" 166 4669 4689
+type(
+  (node * node) list
+)
+ident(
+  def es "graph.ml" 166 4669 4715 "graph.ml" 167 4725 4802
+)
+"graph.ml" 167 4725 4729 "graph.ml" 167 4725 4743
+type(
+  (node * node) list ->
+  init:graph -> f:(graph -> node * node -> graph) -> graph
+)
+ident(
+  ext_ref Core.Std.List.fold_left
+)
+"graph.ml" 167 4725 4744 "graph.ml" 167 4725 4746
+type(
+  (node * node) list
+)
+ident(
+  int_ref es "graph.ml" 166 4669 4687 "graph.ml" 166 4669 4689
+)
+"graph.ml" 167 4725 4755 "graph.ml" 167 4725 4756
+type(
+  graph
+)
+ident(
+  def g "graph.ml" 167 4725 4757 "graph.ml" 167 4725 4789
+)
+"graph.ml" 167 4725 4758 "graph.ml" 167 4725 4761
+type(
+  node
+)
+ident(
+  def src "graph.ml" 167 4725 4771 "graph.ml" 167 4725 4789
+)
+"graph.ml" 167 4725 4763 "graph.ml" 167 4725 4766
+type(
+  node
+)
+ident(
+  def dst "graph.ml" 167 4725 4771 "graph.ml" 167 4725 4789
+)
+"graph.ml" 167 4725 4758 "graph.ml" 167 4725 4766
+type(
+  node * node
+)
+"graph.ml" 167 4725 4771 "graph.ml" 167 4725 4779
+type(
+  graph -> node -> node -> graph
+)
+ident(
+  int_ref add_edge "graph.ml" 29 539 541 "graph.ml" 29 539 586
+)
+"graph.ml" 167 4725 4780 "graph.ml" 167 4725 4781
+type(
+  graph
+)
+ident(
+  int_ref g "graph.ml" 167 4725 4755 "graph.ml" 167 4725 4756
+)
+"graph.ml" 167 4725 4782 "graph.ml" 167 4725 4785
+type(
+  node
+)
+ident(
+  int_ref src "graph.ml" 167 4725 4758 "graph.ml" 167 4725 4761
+)
+"graph.ml" 167 4725 4786 "graph.ml" 167 4725 4789
+type(
+  node
+)
+ident(
+  int_ref dst "graph.ml" 167 4725 4763 "graph.ml" 167 4725 4766
+)
+"graph.ml" 167 4725 4771 "graph.ml" 167 4725 4789
+call(
+  tail
+)
+type(
+  graph
+)
+"graph.ml" 167 4725 4757 "graph.ml" 167 4725 4789
+type(
+  node * node -> graph
+)
+"graph.ml" 167 4725 4755 "graph.ml" 167 4725 4789
+type(
+  graph -> node * node -> graph
+)
+"graph.ml" 167 4725 4797 "graph.ml" 167 4725 4802
+type(
+  graph
+)
+ident(
+  int_ref empty "graph.ml" 20 356 358 "graph.ml" 20 356 375
+)
+"graph.ml" 167 4725 4729 "graph.ml" 167 4725 4802
+call(
+  tail
+)
+type(
+  graph
+)
+type(
+  graph
+)
+"graph.ml" 166 4669 4686 "graph.ml" 167 4725 4802
+type(
+  (node * node) list -> graph
+)
+"graph.ml" 175 4933 4939 "graph.ml" 175 4933 4940
+type(
+  G.graph
+)
+ident(
+  def g "graph.ml" 176 4972 4974 "graph.ml" 223 6396 6399
+)
+"graph.ml" 175 4933 4943 "graph.ml" 175 4933 4953
+type(
+  G.graph -> string -> string -> G.graph
+)
+ident(
+  int_ref G.add_edge "graph.ml" 29 539 541 "graph.ml" 29 539 586
+)
+"graph.ml" 175 4933 4954 "graph.ml" 175 4933 4961
+type(
+  G.graph
+)
+ident(
+  int_ref G.empty "graph.ml" 20 356 358 "graph.ml" 20 356 375
+)
+"graph.ml" 175 4933 4962 "graph.ml" 175 4933 4965
+type(
+  string
+)
+"graph.ml" 175 4933 4966 "graph.ml" 175 4933 4969
+type(
+  string
+)
+"graph.ml" 175 4933 4943 "graph.ml" 175 4933 4969
+call(
+  stack
+)
+type(
+  G.graph
+)
+"graph.ml" 176 4972 4978 "graph.ml" 176 4972 4980
+type(
+  G.graph
+)
+ident(
+  def g2 "graph.ml" 178 5007 5009 "graph.ml" 223 6396 6399
+)
+"graph.ml" 176 4972 4983 "graph.ml" 176 4972 4993
+type(
+  G.graph -> string -> string -> G.graph
+)
+ident(
+  int_ref G.add_edge "graph.ml" 29 539 541 "graph.ml" 29 539 586
+)
+"graph.ml" 176 4972 4994 "graph.ml" 176 4972 4995
+type(
+  G.graph
+)
+ident(
+  int_ref g "graph.ml" 175 4933 4939 "graph.ml" 175 4933 4940
+)
+"graph.ml" 176 4972 4996 "graph.ml" 176 4972 4999
+type(
+  string
+)
+"graph.ml" 176 4972 5000 "graph.ml" 176 4972 5003
+type(
+  string
+)
+"graph.ml" 176 4972 4983 "graph.ml" 176 4972 5003
+call(
+  stack
+)
+type(
+  G.graph
+)
+"graph.ml" 178 5007 5013 "graph.ml" 178 5007 5022
+type(
+  'a list option -> int
+)
+ident(
+  def deopt_len "graph.ml" 183 5102 5104 "graph.ml" 223 6396 6399
+)
+"graph.ml" 178 5007 5023 "graph.ml" 178 5007 5025
+type(
+  'a list option
+)
+ident(
+  def lo "graph.ml" 179 5028 5032 "graph.ml" 181 5065 5098
+)
+"graph.ml" 179 5028 5038 "graph.ml" 179 5028 5040
+type(
+  'a list option
+)
+ident(
+  int_ref lo "graph.ml" 178 5007 5023 "graph.ml" 178 5007 5025
+)
+"graph.ml" 180 5047 5055 "graph.ml" 180 5047 5059
+type(
+  'a list option
+)
+"graph.ml" 180 5047 5063 "graph.ml" 180 5047 5064
+type(
+  int
+)
+"graph.ml" 181 5065 5078 "graph.ml" 181 5065 5080
+type(
+  'a list
+)
+ident(
+  def xs "graph.ml" 181 5065 5084 "graph.ml" 181 5065 5098
+)
+"graph.ml" 181 5065 5073 "graph.ml" 181 5065 5080
+type(
+  'a list option
+)
+"graph.ml" 181 5065 5084 "graph.ml" 181 5065 5095
+type(
+  'a list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"graph.ml" 181 5065 5096 "graph.ml" 181 5065 5098
+type(
+  'a list
+)
+ident(
+  int_ref xs "graph.ml" 181 5065 5078 "graph.ml" 181 5065 5080
+)
+"graph.ml" 181 5065 5084 "graph.ml" 181 5065 5098
+call(
+  tail
+)
+type(
+  int
+)
+"graph.ml" 179 5028 5032 "graph.ml" 181 5065 5098
+type(
+  int
+)
+"graph.ml" 178 5007 5023 "graph.ml" 181 5065 5098
+type(
+  'a list option -> int
+)
+"graph.ml" 183 5102 5108 "graph.ml" 183 5102 5117
+type(
+  'b list option -> 'b list
+)
+ident(
+  def deopt_lst "graph.ml" 188 5185 5187 "graph.ml" 223 6396 6399
+)
+"graph.ml" 183 5102 5118 "graph.ml" 183 5102 5120
+type(
+  'b list option
+)
+ident(
+  def lo "graph.ml" 184 5123 5127 "graph.ml" 186 5160 5181
+)
+"graph.ml" 184 5123 5133 "graph.ml" 184 5123 5135
+type(
+  'b list option
+)
+ident(
+  int_ref lo "graph.ml" 183 5102 5118 "graph.ml" 183 5102 5120
+)
+"graph.ml" 185 5141 5149 "graph.ml" 185 5141 5153
+type(
+  'b list option
+)
+"graph.ml" 185 5141 5157 "graph.ml" 185 5141 5159
+type(
+  'b list
+)
+"graph.ml" 186 5160 5173 "graph.ml" 186 5160 5175
+type(
+  'b list
+)
+ident(
+  def xs "graph.ml" 186 5160 5179 "graph.ml" 186 5160 5181
+)
+"graph.ml" 186 5160 5168 "graph.ml" 186 5160 5175
+type(
+  'b list option
+)
+"graph.ml" 186 5160 5179 "graph.ml" 186 5160 5181
+type(
+  'b list
+)
+ident(
+  int_ref xs "graph.ml" 186 5160 5173 "graph.ml" 186 5160 5175
+)
+"graph.ml" 184 5123 5127 "graph.ml" 186 5160 5181
+type(
+  'b list
+)
+"graph.ml" 183 5102 5118 "graph.ml" 186 5160 5181
+type(
+  'b list option -> 'b list
+)
+"graph.ml" 188 5185 5191 "graph.ml" 188 5185 5201
+type(
+  string option -> string
+)
+ident(
+  def deopt_node "graph.ml" 193 5271 5273 "graph.ml" 223 6396 6399
+)
+"graph.ml" 188 5185 5202 "graph.ml" 188 5185 5204
+type(
+  string option
+)
+ident(
+  def no "graph.ml" 189 5207 5211 "graph.ml" 191 5248 5267
+)
+"graph.ml" 189 5207 5217 "graph.ml" 189 5207 5219
+type(
+  string option
+)
+ident(
+  int_ref no "graph.ml" 188 5185 5202 "graph.ml" 188 5185 5204
+)
+"graph.ml" 190 5225 5233 "graph.ml" 190 5225 5237
+type(
+  string option
+)
+"graph.ml" 190 5225 5241 "graph.ml" 190 5225 5247
+type(
+  string
+)
+"graph.ml" 191 5248 5261 "graph.ml" 191 5248 5262
+type(
+  string
+)
+ident(
+  def n "graph.ml" 191 5248 5266 "graph.ml" 191 5248 5267
+)
+"graph.ml" 191 5248 5256 "graph.ml" 191 5248 5262
+type(
+  string option
+)
+"graph.ml" 191 5248 5266 "graph.ml" 191 5248 5267
+type(
+  string
+)
+ident(
+  int_ref n "graph.ml" 191 5248 5261 "graph.ml" 191 5248 5262
+)
+"graph.ml" 189 5207 5211 "graph.ml" 191 5248 5267
+type(
+  string
+)
+"graph.ml" 188 5185 5202 "graph.ml" 191 5248 5267
+type(
+  string option -> string
+)
+"graph.ml" 193 5271 5273 "graph.ml" 193 5271 5285
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"graph.ml" 193 5271 5288 "graph.ml" 193 5271 5305
+type(
+  G.graph -> string
+)
+ident(
+  int_ref G.string_of_graph "graph.ml" 42 930 932 "graph.ml" 42 930 969
+)
+"graph.ml" 193 5271 5306 "graph.ml" 193 5271 5307
+type(
+  G.graph
+)
+ident(
+  int_ref g "graph.ml" 175 4933 4939 "graph.ml" 175 4933 4940
+)
+"graph.ml" 193 5271 5288 "graph.ml" 193 5271 5307
+call(
+  stack
+)
+type(
+  string
+)
+"graph.ml" 193 5271 5308 "graph.ml" 193 5271 5309
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"graph.ml" 193 5271 5309 "graph.ml" 193 5271 5313
+type(
+  string
+)
+"graph.ml" 193 5271 5287 "graph.ml" 193 5271 5313
+call(
+  stack
+)
+type(
+  string
+)
+"graph.ml" 193 5271 5273 "graph.ml" 193 5271 5315
+call(
+  stack
+)
+type(
+  unit
+)
+"graph.ml" 194 5318 5320 "graph.ml" 194 5318 5332
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"graph.ml" 194 5318 5335 "graph.ml" 194 5318 5352
+type(
+  G.graph -> string
+)
+ident(
+  int_ref G.string_of_graph "graph.ml" 42 930 932 "graph.ml" 42 930 969
+)
+"graph.ml" 194 5318 5353 "graph.ml" 194 5318 5355
+type(
+  G.graph
+)
+ident(
+  int_ref g2 "graph.ml" 176 4972 4978 "graph.ml" 176 4972 4980
+)
+"graph.ml" 194 5318 5335 "graph.ml" 194 5318 5355
+call(
+  stack
+)
+type(
+  string
+)
+"graph.ml" 194 5318 5356 "graph.ml" 194 5318 5357
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"graph.ml" 194 5318 5357 "graph.ml" 194 5318 5361
+type(
+  string
+)
+"graph.ml" 194 5318 5334 "graph.ml" 194 5318 5361
+call(
+  stack
+)
+type(
+  string
+)
+"graph.ml" 194 5318 5320 "graph.ml" 194 5318 5363
+call(
+  stack
+)
+type(
+  unit
+)
+"graph.ml" 195 5365 5367 "graph.ml" 195 5365 5379
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"graph.ml" 195 5365 5382 "graph.ml" 195 5365 5395
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"graph.ml" 195 5365 5397 "graph.ml" 195 5365 5408
+type(
+  string list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"graph.ml" 195 5365 5410 "graph.ml" 195 5365 5417
+type(
+  G.graph -> string list
+)
+ident(
+  int_ref G.nodes "graph.ml" 22 377 379 "graph.ml" 22 377 409
+)
+"graph.ml" 195 5365 5418 "graph.ml" 195 5365 5419
+type(
+  G.graph
+)
+ident(
+  int_ref g "graph.ml" 175 4933 4939 "graph.ml" 175 4933 4940
+)
+"graph.ml" 195 5365 5410 "graph.ml" 195 5365 5419
+call(
+  stack
+)
+type(
+  string list
+)
+"graph.ml" 195 5365 5397 "graph.ml" 195 5365 5420
+call(
+  stack
+)
+type(
+  int
+)
+"graph.ml" 195 5365 5382 "graph.ml" 195 5365 5421
+call(
+  stack
+)
+type(
+  string
+)
+"graph.ml" 195 5365 5422 "graph.ml" 195 5365 5423
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"graph.ml" 195 5365 5423 "graph.ml" 195 5365 5427
+type(
+  string
+)
+"graph.ml" 195 5365 5381 "graph.ml" 195 5365 5427
+call(
+  stack
+)
+type(
+  string
+)
+"graph.ml" 195 5365 5367 "graph.ml" 195 5365 5429
+call(
+  stack
+)
+type(
+  unit
+)
+"graph.ml" 196 5432 5434 "graph.ml" 196 5432 5446
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"graph.ml" 196 5432 5449 "graph.ml" 196 5432 5462
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"graph.ml" 196 5432 5464 "graph.ml" 196 5432 5475
+type(
+  string list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"graph.ml" 196 5432 5477 "graph.ml" 196 5432 5484
+type(
+  G.graph -> string list
+)
+ident(
+  int_ref G.nodes "graph.ml" 22 377 379 "graph.ml" 22 377 409
+)
+"graph.ml" 196 5432 5485 "graph.ml" 196 5432 5487
+type(
+  G.graph
+)
+ident(
+  int_ref g2 "graph.ml" 176 4972 4978 "graph.ml" 176 4972 4980
+)
+"graph.ml" 196 5432 5477 "graph.ml" 196 5432 5487
+call(
+  stack
+)
+type(
+  string list
+)
+"graph.ml" 196 5432 5464 "graph.ml" 196 5432 5488
+call(
+  stack
+)
+type(
+  int
+)
+"graph.ml" 196 5432 5449 "graph.ml" 196 5432 5489
+call(
+  stack
+)
+type(
+  string
+)
+"graph.ml" 196 5432 5490 "graph.ml" 196 5432 5491
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"graph.ml" 196 5432 5491 "graph.ml" 196 5432 5495
+type(
+  string
+)
+"graph.ml" 196 5432 5448 "graph.ml" 196 5432 5495
+call(
+  stack
+)
+type(
+  string
+)
+"graph.ml" 196 5432 5434 "graph.ml" 196 5432 5497
+call(
+  stack
+)
+type(
+  unit
+)
+"graph.ml" 195 5365 5367 "graph.ml" 196 5432 5497
+type(
+  unit
+)
+"graph.ml" 194 5318 5320 "graph.ml" 196 5432 5497
+type(
+  unit
+)
+"graph.ml" 193 5271 5273 "graph.ml" 196 5432 5497
+type(
+  unit
+)
+"graph.ml" 198 5511 5523 "graph.ml" 198 5511 5533
+type(
+  G.graph -> string -> bool
+)
+ident(
+  int_ref G.has_node "graph.ml" 37 802 804 "graph.ml" 37 802 840
+)
+"graph.ml" 198 5511 5534 "graph.ml" 198 5511 5535
+type(
+  G.graph
+)
+ident(
+  int_ref g "graph.ml" 175 4933 4939 "graph.ml" 175 4933 4940
+)
+"graph.ml" 198 5511 5536 "graph.ml" 198 5511 5539
+type(
+  string
+)
+"graph.ml" 198 5511 5523 "graph.ml" 198 5511 5539
+call(
+  stack
+)
+type(
+  bool
+)
+"graph.ml" 198 5511 5515 "graph.ml" 198 5511 5540
+type(
+  unit
+)
+"graph.ml" 199 5542 5554 "graph.ml" 199 5542 5564
+type(
+  G.graph -> string -> bool
+)
+ident(
+  int_ref G.has_node "graph.ml" 37 802 804 "graph.ml" 37 802 840
+)
+"graph.ml" 199 5542 5565 "graph.ml" 199 5542 5566
+type(
+  G.graph
+)
+ident(
+  int_ref g "graph.ml" 175 4933 4939 "graph.ml" 175 4933 4940
+)
+"graph.ml" 199 5542 5567 "graph.ml" 199 5542 5570
+type(
+  string
+)
+"graph.ml" 199 5542 5554 "graph.ml" 199 5542 5570
+call(
+  stack
+)
+type(
+  bool
+)
+"graph.ml" 199 5542 5546 "graph.ml" 199 5542 5571
+type(
+  unit
+)
+"graph.ml" 200 5573 5585 "graph.ml" 200 5573 5595
+type(
+  G.graph -> string -> bool
+)
+ident(
+  int_ref G.has_node "graph.ml" 37 802 804 "graph.ml" 37 802 840
+)
+"graph.ml" 200 5573 5596 "graph.ml" 200 5573 5597
+type(
+  G.graph
+)
+ident(
+  int_ref g "graph.ml" 175 4933 4939 "graph.ml" 175 4933 4940
+)
+"graph.ml" 200 5573 5598 "graph.ml" 200 5573 5601
+type(
+  string
+)
+"graph.ml" 200 5573 5585 "graph.ml" 200 5573 5601
+call(
+  stack
+)
+type(
+  bool
+)
+"graph.ml" 200 5573 5602 "graph.ml" 200 5573 5603
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"graph.ml" 200 5573 5604 "graph.ml" 200 5573 5609
+type(
+  bool
+)
+"graph.ml" 200 5573 5585 "graph.ml" 200 5573 5609
+type(
+  bool
+)
+"graph.ml" 200 5573 5577 "graph.ml" 200 5573 5610
+type(
+  unit
+)
+"graph.ml" 201 5612 5624 "graph.ml" 201 5612 5634
+type(
+  G.graph -> string -> bool
+)
+ident(
+  int_ref G.has_node "graph.ml" 37 802 804 "graph.ml" 37 802 840
+)
+"graph.ml" 201 5612 5635 "graph.ml" 201 5612 5637
+type(
+  G.graph
+)
+ident(
+  int_ref g2 "graph.ml" 176 4972 4978 "graph.ml" 176 4972 4980
+)
+"graph.ml" 201 5612 5638 "graph.ml" 201 5612 5641
+type(
+  string
+)
+"graph.ml" 201 5612 5624 "graph.ml" 201 5612 5641
+call(
+  stack
+)
+type(
+  bool
+)
+"graph.ml" 201 5612 5616 "graph.ml" 201 5612 5642
+type(
+  unit
+)
+"graph.ml" 202 5644 5656 "graph.ml" 202 5644 5666
+type(
+  G.graph -> string -> bool
+)
+ident(
+  int_ref G.has_node "graph.ml" 37 802 804 "graph.ml" 37 802 840
+)
+"graph.ml" 202 5644 5667 "graph.ml" 202 5644 5669
+type(
+  G.graph
+)
+ident(
+  int_ref g2 "graph.ml" 176 4972 4978 "graph.ml" 176 4972 4980
+)
+"graph.ml" 202 5644 5670 "graph.ml" 202 5644 5673
+type(
+  string
+)
+"graph.ml" 202 5644 5656 "graph.ml" 202 5644 5673
+call(
+  stack
+)
+type(
+  bool
+)
+"graph.ml" 202 5644 5674 "graph.ml" 202 5644 5675
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"graph.ml" 202 5644 5676 "graph.ml" 202 5644 5681
+type(
+  bool
+)
+"graph.ml" 202 5644 5656 "graph.ml" 202 5644 5681
+type(
+  bool
+)
+"graph.ml" 202 5644 5648 "graph.ml" 202 5644 5682
+type(
+  unit
+)
+"graph.ml" 204 5685 5697 "graph.ml" 204 5685 5708
+type(
+  string list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"graph.ml" 204 5685 5710 "graph.ml" 204 5685 5717
+type(
+  G.graph -> string list
+)
+ident(
+  int_ref G.nodes "graph.ml" 22 377 379 "graph.ml" 22 377 409
+)
+"graph.ml" 204 5685 5718 "graph.ml" 204 5685 5725
+type(
+  G.graph
+)
+ident(
+  int_ref G.empty "graph.ml" 20 356 358 "graph.ml" 20 356 375
+)
+"graph.ml" 204 5685 5710 "graph.ml" 204 5685 5725
+call(
+  stack
+)
+type(
+  string list
+)
+"graph.ml" 204 5685 5697 "graph.ml" 204 5685 5726
+call(
+  stack
+)
+type(
+  int
+)
+"graph.ml" 204 5685 5727 "graph.ml" 204 5685 5728
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"graph.ml" 204 5685 5729 "graph.ml" 204 5685 5730
+type(
+  int
+)
+"graph.ml" 204 5685 5697 "graph.ml" 204 5685 5730
+type(
+  bool
+)
+"graph.ml" 204 5685 5689 "graph.ml" 204 5685 5731
+type(
+  unit
+)
+"graph.ml" 205 5734 5746 "graph.ml" 205 5734 5757
+type(
+  string list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"graph.ml" 205 5734 5759 "graph.ml" 205 5734 5766
+type(
+  G.graph -> string list
+)
+ident(
+  int_ref G.nodes "graph.ml" 22 377 379 "graph.ml" 22 377 409
+)
+"graph.ml" 205 5734 5768 "graph.ml" 205 5734 5778
+type(
+  G.graph -> string -> G.graph
+)
+ident(
+  int_ref G.add_node "graph.ml" 26 443 445 "graph.ml" 26 443 482
+)
+"graph.ml" 205 5734 5779 "graph.ml" 205 5734 5786
+type(
+  G.graph
+)
+ident(
+  int_ref G.empty "graph.ml" 20 356 358 "graph.ml" 20 356 375
+)
+"graph.ml" 205 5734 5787 "graph.ml" 205 5734 5790
+type(
+  string
+)
+"graph.ml" 205 5734 5768 "graph.ml" 205 5734 5790
+call(
+  stack
+)
+type(
+  G.graph
+)
+"graph.ml" 205 5734 5759 "graph.ml" 205 5734 5791
+call(
+  stack
+)
+type(
+  string list
+)
+"graph.ml" 205 5734 5746 "graph.ml" 205 5734 5792
+call(
+  stack
+)
+type(
+  int
+)
+"graph.ml" 205 5734 5793 "graph.ml" 205 5734 5794
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"graph.ml" 205 5734 5795 "graph.ml" 205 5734 5796
+type(
+  int
+)
+"graph.ml" 205 5734 5746 "graph.ml" 205 5734 5796
+type(
+  bool
+)
+"graph.ml" 205 5734 5738 "graph.ml" 205 5734 5797
+type(
+  unit
+)
+"graph.ml" 207 5801 5813 "graph.ml" 207 5801 5824
+type(
+  string list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"graph.ml" 207 5801 5826 "graph.ml" 207 5801 5833
+type(
+  G.graph -> string list
+)
+ident(
+  int_ref G.nodes "graph.ml" 22 377 379 "graph.ml" 22 377 409
+)
+"graph.ml" 207 5801 5834 "graph.ml" 207 5801 5835
+type(
+  G.graph
+)
+ident(
+  int_ref g "graph.ml" 175 4933 4939 "graph.ml" 175 4933 4940
+)
+"graph.ml" 207 5801 5826 "graph.ml" 207 5801 5835
+call(
+  stack
+)
+type(
+  string list
+)
+"graph.ml" 207 5801 5813 "graph.ml" 207 5801 5836
+call(
+  stack
+)
+type(
+  int
+)
+"graph.ml" 207 5801 5837 "graph.ml" 207 5801 5838
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"graph.ml" 207 5801 5839 "graph.ml" 207 5801 5840
+type(
+  int
+)
+"graph.ml" 207 5801 5813 "graph.ml" 207 5801 5840
+type(
+  bool
+)
+"graph.ml" 207 5801 5805 "graph.ml" 207 5801 5841
+type(
+  unit
+)
+"graph.ml" 209 5845 5857 "graph.ml" 209 5845 5868
+type(
+  string list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"graph.ml" 209 5845 5870 "graph.ml" 209 5845 5877
+type(
+  G.graph -> string list
+)
+ident(
+  int_ref G.nodes "graph.ml" 22 377 379 "graph.ml" 22 377 409
+)
+"graph.ml" 209 5845 5878 "graph.ml" 209 5845 5880
+type(
+  G.graph
+)
+ident(
+  int_ref g2 "graph.ml" 176 4972 4978 "graph.ml" 176 4972 4980
+)
+"graph.ml" 209 5845 5870 "graph.ml" 209 5845 5880
+call(
+  stack
+)
+type(
+  string list
+)
+"graph.ml" 209 5845 5857 "graph.ml" 209 5845 5881
+call(
+  stack
+)
+type(
+  int
+)
+"graph.ml" 209 5845 5882 "graph.ml" 209 5845 5883
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"graph.ml" 209 5845 5884 "graph.ml" 209 5845 5885
+type(
+  int
+)
+"graph.ml" 209 5845 5857 "graph.ml" 209 5845 5885
+type(
+  bool
+)
+"graph.ml" 209 5845 5849 "graph.ml" 209 5845 5886
+type(
+  unit
+)
+"graph.ml" 211 5890 5902 "graph.ml" 211 5890 5911
+type(
+  (string * string) list option -> int
+)
+ident(
+  int_ref deopt_len "graph.ml" 178 5007 5013 "graph.ml" 178 5007 5022
+)
+"graph.ml" 211 5890 5913 "graph.ml" 211 5890 5929
+type(
+  G.graph -> string -> (string * string) list option
+)
+ident(
+  int_ref G.outgoing_edges "graph.ml" 35 735 737 "graph.ml" 35 735 800
+)
+"graph.ml" 211 5890 5930 "graph.ml" 211 5890 5932
+type(
+  G.graph
+)
+ident(
+  int_ref g2 "graph.ml" 176 4972 4978 "graph.ml" 176 4972 4980
+)
+"graph.ml" 211 5890 5933 "graph.ml" 211 5890 5936
+type(
+  string
+)
+"graph.ml" 211 5890 5913 "graph.ml" 211 5890 5936
+call(
+  stack
+)
+type(
+  (string * string) list option
+)
+"graph.ml" 211 5890 5902 "graph.ml" 211 5890 5937
+call(
+  stack
+)
+type(
+  int
+)
+"graph.ml" 211 5890 5938 "graph.ml" 211 5890 5939
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"graph.ml" 211 5890 5940 "graph.ml" 211 5890 5941
+type(
+  int
+)
+"graph.ml" 211 5890 5902 "graph.ml" 211 5890 5941
+type(
+  bool
+)
+"graph.ml" 211 5890 5894 "graph.ml" 211 5890 5942
+type(
+  unit
+)
+"graph.ml" 212 5945 5957 "graph.ml" 212 5945 5966
+type(
+  (string * string) list option -> int
+)
+ident(
+  int_ref deopt_len "graph.ml" 178 5007 5013 "graph.ml" 178 5007 5022
+)
+"graph.ml" 212 5945 5968 "graph.ml" 212 5945 5984
+type(
+  G.graph -> string -> (string * string) list option
+)
+ident(
+  int_ref G.outgoing_edges "graph.ml" 35 735 737 "graph.ml" 35 735 800
+)
+"graph.ml" 212 5945 5985 "graph.ml" 212 5945 5987
+type(
+  G.graph
+)
+ident(
+  int_ref g2 "graph.ml" 176 4972 4978 "graph.ml" 176 4972 4980
+)
+"graph.ml" 212 5945 5988 "graph.ml" 212 5945 5991
+type(
+  string
+)
+"graph.ml" 212 5945 5968 "graph.ml" 212 5945 5991
+call(
+  stack
+)
+type(
+  (string * string) list option
+)
+"graph.ml" 212 5945 5957 "graph.ml" 212 5945 5992
+call(
+  stack
+)
+type(
+  int
+)
+"graph.ml" 212 5945 5993 "graph.ml" 212 5945 5994
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"graph.ml" 212 5945 5995 "graph.ml" 212 5945 5996
+type(
+  int
+)
+"graph.ml" 212 5945 5957 "graph.ml" 212 5945 5996
+type(
+  bool
+)
+"graph.ml" 212 5945 5949 "graph.ml" 212 5945 5997
+type(
+  unit
+)
+"graph.ml" 213 6000 6012 "graph.ml" 213 6000 6021
+type(
+  (string * string) list option -> int
+)
+ident(
+  int_ref deopt_len "graph.ml" 178 5007 5013 "graph.ml" 178 5007 5022
+)
+"graph.ml" 213 6000 6023 "graph.ml" 213 6000 6039
+type(
+  G.graph -> string -> (string * string) list option
+)
+ident(
+  int_ref G.outgoing_edges "graph.ml" 35 735 737 "graph.ml" 35 735 800
+)
+"graph.ml" 213 6000 6040 "graph.ml" 213 6000 6042
+type(
+  G.graph
+)
+ident(
+  int_ref g2 "graph.ml" 176 4972 4978 "graph.ml" 176 4972 4980
+)
+"graph.ml" 213 6000 6043 "graph.ml" 213 6000 6046
+type(
+  string
+)
+"graph.ml" 213 6000 6023 "graph.ml" 213 6000 6046
+call(
+  stack
+)
+type(
+  (string * string) list option
+)
+"graph.ml" 213 6000 6012 "graph.ml" 213 6000 6047
+call(
+  stack
+)
+type(
+  int
+)
+"graph.ml" 213 6000 6048 "graph.ml" 213 6000 6049
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"graph.ml" 213 6000 6050 "graph.ml" 213 6000 6051
+type(
+  int
+)
+"graph.ml" 213 6000 6012 "graph.ml" 213 6000 6051
+type(
+  bool
+)
+"graph.ml" 213 6000 6004 "graph.ml" 213 6000 6052
+type(
+  unit
+)
+"graph.ml" 214 6055 6067 "graph.ml" 214 6055 6083
+type(
+  G.graph -> string -> (string * string) list option
+)
+ident(
+  int_ref G.outgoing_edges "graph.ml" 35 735 737 "graph.ml" 35 735 800
+)
+"graph.ml" 214 6055 6084 "graph.ml" 214 6055 6086
+type(
+  G.graph
+)
+ident(
+  int_ref g2 "graph.ml" 176 4972 4978 "graph.ml" 176 4972 4980
+)
+"graph.ml" 214 6055 6087 "graph.ml" 214 6055 6090
+type(
+  string
+)
+"graph.ml" 214 6055 6067 "graph.ml" 214 6055 6090
+call(
+  stack
+)
+type(
+  (string * string) list option
+)
+"graph.ml" 214 6055 6091 "graph.ml" 214 6055 6092
+type(
+  (string * string) list option -> (string * string) list option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"graph.ml" 214 6055 6093 "graph.ml" 214 6055 6097
+type(
+  (string * string) list option
+)
+"graph.ml" 214 6055 6067 "graph.ml" 214 6055 6097
+type(
+  bool
+)
+"graph.ml" 214 6055 6059 "graph.ml" 214 6055 6098
+type(
+  unit
+)
+"graph.ml" 216 6102 6114 "graph.ml" 216 6102 6123
+type(
+  string list option -> int
+)
+ident(
+  int_ref deopt_len "graph.ml" 178 5007 5013 "graph.ml" 178 5007 5022
+)
+"graph.ml" 216 6102 6125 "graph.ml" 216 6102 6136
+type(
+  G.graph -> string -> string list option
+)
+ident(
+  int_ref G.neighbors "graph.ml" 32 635 637 "graph.ml" 32 635 686
+)
+"graph.ml" 216 6102 6137 "graph.ml" 216 6102 6139
+type(
+  G.graph
+)
+ident(
+  int_ref g2 "graph.ml" 176 4972 4978 "graph.ml" 176 4972 4980
+)
+"graph.ml" 216 6102 6140 "graph.ml" 216 6102 6143
+type(
+  string
+)
+"graph.ml" 216 6102 6125 "graph.ml" 216 6102 6143
+call(
+  stack
+)
+type(
+  string list option
+)
+"graph.ml" 216 6102 6114 "graph.ml" 216 6102 6144
+call(
+  stack
+)
+type(
+  int
+)
+"graph.ml" 216 6102 6145 "graph.ml" 216 6102 6146
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"graph.ml" 216 6102 6147 "graph.ml" 216 6102 6148
+type(
+  int
+)
+"graph.ml" 216 6102 6114 "graph.ml" 216 6102 6148
+type(
+  bool
+)
+"graph.ml" 216 6102 6106 "graph.ml" 216 6102 6149
+type(
+  unit
+)
+"graph.ml" 217 6152 6164 "graph.ml" 217 6152 6173
+type(
+  string list option -> int
+)
+ident(
+  int_ref deopt_len "graph.ml" 178 5007 5013 "graph.ml" 178 5007 5022
+)
+"graph.ml" 217 6152 6175 "graph.ml" 217 6152 6186
+type(
+  G.graph -> string -> string list option
+)
+ident(
+  int_ref G.neighbors "graph.ml" 32 635 637 "graph.ml" 32 635 686
+)
+"graph.ml" 217 6152 6187 "graph.ml" 217 6152 6189
+type(
+  G.graph
+)
+ident(
+  int_ref g2 "graph.ml" 176 4972 4978 "graph.ml" 176 4972 4980
+)
+"graph.ml" 217 6152 6190 "graph.ml" 217 6152 6193
+type(
+  string
+)
+"graph.ml" 217 6152 6175 "graph.ml" 217 6152 6193
+call(
+  stack
+)
+type(
+  string list option
+)
+"graph.ml" 217 6152 6164 "graph.ml" 217 6152 6194
+call(
+  stack
+)
+type(
+  int
+)
+"graph.ml" 217 6152 6195 "graph.ml" 217 6152 6196
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"graph.ml" 217 6152 6197 "graph.ml" 217 6152 6198
+type(
+  int
+)
+"graph.ml" 217 6152 6164 "graph.ml" 217 6152 6198
+type(
+  bool
+)
+"graph.ml" 217 6152 6156 "graph.ml" 217 6152 6199
+type(
+  unit
+)
+"graph.ml" 218 6202 6214 "graph.ml" 218 6202 6223
+type(
+  string list option -> int
+)
+ident(
+  int_ref deopt_len "graph.ml" 178 5007 5013 "graph.ml" 178 5007 5022
+)
+"graph.ml" 218 6202 6225 "graph.ml" 218 6202 6236
+type(
+  G.graph -> string -> string list option
+)
+ident(
+  int_ref G.neighbors "graph.ml" 32 635 637 "graph.ml" 32 635 686
+)
+"graph.ml" 218 6202 6237 "graph.ml" 218 6202 6239
+type(
+  G.graph
+)
+ident(
+  int_ref g2 "graph.ml" 176 4972 4978 "graph.ml" 176 4972 4980
+)
+"graph.ml" 218 6202 6240 "graph.ml" 218 6202 6243
+type(
+  string
+)
+"graph.ml" 218 6202 6225 "graph.ml" 218 6202 6243
+call(
+  stack
+)
+type(
+  string list option
+)
+"graph.ml" 218 6202 6214 "graph.ml" 218 6202 6244
+call(
+  stack
+)
+type(
+  int
+)
+"graph.ml" 218 6202 6245 "graph.ml" 218 6202 6246
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"graph.ml" 218 6202 6247 "graph.ml" 218 6202 6248
+type(
+  int
+)
+"graph.ml" 218 6202 6214 "graph.ml" 218 6202 6248
+type(
+  bool
+)
+"graph.ml" 218 6202 6206 "graph.ml" 218 6202 6249
+type(
+  unit
+)
+"graph.ml" 219 6252 6264 "graph.ml" 219 6252 6275
+type(
+  G.graph -> string -> string list option
+)
+ident(
+  int_ref G.neighbors "graph.ml" 32 635 637 "graph.ml" 32 635 686
+)
+"graph.ml" 219 6252 6276 "graph.ml" 219 6252 6278
+type(
+  G.graph
+)
+ident(
+  int_ref g2 "graph.ml" 176 4972 4978 "graph.ml" 176 4972 4980
+)
+"graph.ml" 219 6252 6279 "graph.ml" 219 6252 6282
+type(
+  string
+)
+"graph.ml" 219 6252 6264 "graph.ml" 219 6252 6282
+call(
+  stack
+)
+type(
+  string list option
+)
+"graph.ml" 219 6252 6283 "graph.ml" 219 6252 6284
+type(
+  string list option -> string list option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"graph.ml" 219 6252 6285 "graph.ml" 219 6252 6289
+type(
+  string list option
+)
+"graph.ml" 219 6252 6264 "graph.ml" 219 6252 6289
+type(
+  bool
+)
+"graph.ml" 219 6252 6256 "graph.ml" 219 6252 6290
+type(
+  unit
+)
+"graph.ml" 221 6294 6310 "graph.ml" 221 6294 6311
+type(
+  string list
+)
+ident(
+  def t "graph.ml" 222 6348 6362 "graph.ml" 222 6348 6392
+)
+"graph.ml" 221 6294 6314 "graph.ml" 221 6294 6323
+type(
+  string list option -> string list
+)
+ident(
+  int_ref deopt_lst "graph.ml" 183 5102 5108 "graph.ml" 183 5102 5117
+)
+"graph.ml" 221 6294 6325 "graph.ml" 221 6294 6336
+type(
+  G.graph -> string -> string list option
+)
+ident(
+  int_ref G.neighbors "graph.ml" 32 635 637 "graph.ml" 32 635 686
+)
+"graph.ml" 221 6294 6337 "graph.ml" 221 6294 6339
+type(
+  G.graph
+)
+ident(
+  int_ref g2 "graph.ml" 176 4972 4978 "graph.ml" 176 4972 4980
+)
+"graph.ml" 221 6294 6340 "graph.ml" 221 6294 6343
+type(
+  string
+)
+"graph.ml" 221 6294 6325 "graph.ml" 221 6294 6343
+call(
+  stack
+)
+type(
+  string list option
+)
+"graph.ml" 221 6294 6314 "graph.ml" 221 6294 6344
+call(
+  stack
+)
+type(
+  string list
+)
+"graph.ml" 222 6348 6362 "graph.ml" 222 6348 6363
+type(
+  string list
+)
+ident(
+  int_ref t "graph.ml" 221 6294 6310 "graph.ml" 221 6294 6311
+)
+"graph.ml" 222 6348 6364 "graph.ml" 222 6348 6365
+type(
+  string list -> string list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"graph.ml" 222 6348 6367 "graph.ml" 222 6348 6370
+type(
+  string
+)
+"graph.ml" 222 6348 6371 "graph.ml" 222 6348 6374
+type(
+  string
+)
+type(
+  string list
+)
+"graph.ml" 222 6348 6367 "graph.ml" 222 6348 6374
+type(
+  string list
+)
+"graph.ml" 222 6348 6366 "graph.ml" 222 6348 6375
+type(
+  string list
+)
+"graph.ml" 222 6348 6362 "graph.ml" 222 6348 6375
+type(
+  bool
+)
+"graph.ml" 222 6348 6376 "graph.ml" 222 6348 6378
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"graph.ml" 222 6348 6379 "graph.ml" 222 6348 6380
+type(
+  string list
+)
+ident(
+  int_ref t "graph.ml" 221 6294 6310 "graph.ml" 221 6294 6311
+)
+"graph.ml" 222 6348 6381 "graph.ml" 222 6348 6382
+type(
+  string list -> string list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"graph.ml" 222 6348 6384 "graph.ml" 222 6348 6387
+type(
+  string
+)
+"graph.ml" 222 6348 6388 "graph.ml" 222 6348 6391
+type(
+  string
+)
+type(
+  string list
+)
+"graph.ml" 222 6348 6384 "graph.ml" 222 6348 6391
+type(
+  string list
+)
+"graph.ml" 222 6348 6383 "graph.ml" 222 6348 6392
+type(
+  string list
+)
+"graph.ml" 222 6348 6379 "graph.ml" 222 6348 6392
+type(
+  bool
+)
+"graph.ml" 222 6348 6362 "graph.ml" 222 6348 6392
+type(
+  bool
+)
+"graph.ml" 221 6294 6306 "graph.ml" 222 6348 6392
+type(
+  bool
+)
+"graph.ml" 221 6294 6298 "graph.ml" 222 6348 6393
+type(
+  unit
+)
+"graph.ml" 219 6252 6256 "graph.ml" 222 6348 6393
+type(
+  unit
+)
+"graph.ml" 218 6202 6206 "graph.ml" 222 6348 6393
+type(
+  unit
+)
+"graph.ml" 217 6152 6156 "graph.ml" 222 6348 6393
+type(
+  unit
+)
+"graph.ml" 216 6102 6106 "graph.ml" 222 6348 6393
+type(
+  unit
+)
+"graph.ml" 214 6055 6059 "graph.ml" 222 6348 6393
+type(
+  unit
+)
+"graph.ml" 213 6000 6004 "graph.ml" 222 6348 6393
+type(
+  unit
+)
+"graph.ml" 212 5945 5949 "graph.ml" 222 6348 6393
+type(
+  unit
+)
+"graph.ml" 211 5890 5894 "graph.ml" 222 6348 6393
+type(
+  unit
+)
+"graph.ml" 209 5845 5849 "graph.ml" 222 6348 6393
+type(
+  unit
+)
+"graph.ml" 207 5801 5805 "graph.ml" 222 6348 6393
+type(
+  unit
+)
+"graph.ml" 205 5734 5738 "graph.ml" 222 6348 6393
+type(
+  unit
+)
+"graph.ml" 204 5685 5689 "graph.ml" 222 6348 6393
+type(
+  unit
+)
+"graph.ml" 202 5644 5648 "graph.ml" 222 6348 6393
+type(
+  unit
+)
+"graph.ml" 201 5612 5616 "graph.ml" 222 6348 6393
+type(
+  unit
+)
+"graph.ml" 200 5573 5577 "graph.ml" 222 6348 6393
+type(
+  unit
+)
+"graph.ml" 199 5542 5546 "graph.ml" 222 6348 6393
+type(
+  unit
+)
+"graph.ml" 198 5511 5515 "graph.ml" 222 6348 6393
+type(
+  unit
+)
